@@ -3,172 +3,272 @@
   "octets": 440128,
   "empreinte": "7df5d6ef90e8"
  },
+ "classements-recents.json": {
+  "octets": 120318,
+  "empreinte": "7b23044937e1"
+ },
+ "double-2021.json": {
+  "octets": 149705,
+  "empreinte": "82319ad8cf88"
+ },
+ "double-2022.json": {
+  "octets": 299510,
+  "empreinte": "4b239b0d9a9d"
+ },
  "double-2023.json": {
-  "octets": 245492,
-  "empreinte": "d3fae4dff02e"
+  "octets": 305686,
+  "empreinte": "cabee8585e76"
  },
  "double-2024.json": {
-  "octets": 323911,
-  "empreinte": "d9704a79fcbf"
+  "octets": 324430,
+  "empreinte": "a0f394923cec"
  },
  "double-2025.json": {
-  "octets": 323182,
-  "empreinte": "be9e20e4c5de"
+  "octets": 324389,
+  "empreinte": "cf14f231e66d"
  },
  "double-2026-01.json": {
-  "octets": 34992,
-  "empreinte": "eba96961a69d"
+  "octets": 35069,
+  "empreinte": "bb6e557a6292"
  },
  "double-2026-02.json": {
-  "octets": 30495,
-  "empreinte": "43ca23229088"
+  "octets": 30652,
+  "empreinte": "a26b9a9d7ac0"
  },
  "double-2026-03.json": {
-  "octets": 35319,
-  "empreinte": "59dce82574f9"
+  "octets": 35486,
+  "empreinte": "27d3a7ef777b"
  },
  "double-2026-04.json": {
-  "octets": 31326,
-  "empreinte": "6deb4253e0d8"
+  "octets": 31443,
+  "empreinte": "035885ead484"
  },
  "double-2026-05.json": {
-  "octets": 29356,
-  "empreinte": "d2b10e4cfb18"
+  "octets": 29488,
+  "empreinte": "327b384f04a3"
  },
  "double-2026-06.json": {
-  "octets": 37536,
-  "empreinte": "ab1ac933a04f"
+  "octets": 37708,
+  "empreinte": "abcf12a53cef"
  },
  "double-2026-07.json": {
-  "octets": 30992,
-  "empreinte": "012557213d47"
+  "octets": 31119,
+  "empreinte": "9b624a9ab926"
  },
  "double-2026-08.json": {
-  "octets": 28021,
-  "empreinte": "3a492b17088a"
+  "octets": 28153,
+  "empreinte": "ad596d1de979"
  },
  "double-2026-09.json": {
-  "octets": 29869,
-  "empreinte": "6c51c08b35e8"
+  "octets": 30021,
+  "empreinte": "18a8f534d2f5"
  },
  "double-2026-10.json": {
-  "octets": 30126,
-  "empreinte": "3e96c787ea42"
+  "octets": 30278,
+  "empreinte": "d74b2dd4f441"
  },
  "double-2026-11.json": {
-  "octets": 8304,
-  "empreinte": "5530ed2504cb"
+  "octets": 8356,
+  "empreinte": "a51c02201d81"
  },
  "joueurs-historique.json": {
   "octets": 621241,
   "empreinte": "7a514f692aa9"
  },
  "joueurs-recents.json": {
-  "octets": 40361,
-  "empreinte": "356c72554156"
+  "octets": 42066,
+  "empreinte": "fc6615618681"
  },
  "simple-2011.json": {
-  "octets": 491343,
-  "empreinte": "0e5c7c40c5cf"
+  "octets": 492691,
+  "empreinte": "16f17b232582"
  },
  "simple-2012.json": {
-  "octets": 506142,
-  "empreinte": "72cdbdb0060f"
+  "octets": 507504,
+  "empreinte": "36a674bc6ac6"
  },
  "simple-2013.json": {
-  "octets": 493446,
-  "empreinte": "b60e3e158285"
+  "octets": 494794,
+  "empreinte": "d52ad420b46b"
  },
  "simple-2014.json": {
-  "octets": 477398,
-  "empreinte": "8bab90a9f50e"
+  "octets": 478709,
+  "empreinte": "ce350b1656a7"
  },
  "simple-2015.json": {
-  "octets": 516478,
-  "empreinte": "219c1b2e83cf"
+  "octets": 517889,
+  "empreinte": "8a6b4cbbcf22"
  },
  "simple-2016.json": {
-  "octets": 1695574,
-  "empreinte": "22cce46afedc"
+  "octets": 1700150,
+  "empreinte": "855873789e4b"
  },
  "simple-2017.json": {
-  "octets": 1590599,
-  "empreinte": "0a31ace89a50"
+  "octets": 1594903,
+  "empreinte": "12f3fcfee7ce"
  },
  "simple-2018.json": {
-  "octets": 1569615,
-  "empreinte": "e39114fdb3b7"
+  "octets": 1573738,
+  "empreinte": "87fc7443d7a2"
  },
  "simple-2019.json": {
-  "octets": 1461960,
-  "empreinte": "1da266af11e6"
+  "octets": 1465902,
+  "empreinte": "70c2b78e8a9f"
  },
  "simple-2020.json": {
-  "octets": 487255,
-  "empreinte": "841427bf673c"
+  "octets": 488586,
+  "empreinte": "873ecfa8f1c8"
  },
  "simple-2021.json": {
-  "octets": 1152278,
-  "empreinte": "da83ef16ea05"
+  "octets": 1155405,
+  "empreinte": "6162a0b9a131"
  },
  "simple-2022.json": {
-  "octets": 1526237,
-  "empreinte": "fe2ac86ae9b1"
+  "octets": 1530385,
+  "empreinte": "3d186e7bdaac"
  },
  "simple-2023.json": {
-  "octets": 1634569,
-  "empreinte": "248b1dd65055"
+  "octets": 1638987,
+  "empreinte": "e5c4371af09d"
  },
  "simple-2024.json": {
-  "octets": 1725664,
-  "empreinte": "9f7c10043464"
+  "octets": 1730393,
+  "empreinte": "99c8f2854444"
  },
  "simple-2025.json": {
-  "octets": 1680854,
-  "empreinte": "3633ba39101b"
+  "octets": 1685466,
+  "empreinte": "a7cd79be0e49"
  },
  "simple-2026-01.json": {
-  "octets": 106192,
-  "empreinte": "9fb52dc71751"
+  "octets": 106443,
+  "empreinte": "b8b214f1baf3"
  },
  "simple-2026-02.json": {
-  "octets": 132806,
-  "empreinte": "96fb1e58af3e"
+  "octets": 133313,
+  "empreinte": "b63d870ed0b7"
  },
  "simple-2026-03.json": {
-  "octets": 164610,
-  "empreinte": "0098b36df6ee"
+  "octets": 165030,
+  "empreinte": "a05d2ed26acb"
  },
  "simple-2026-04.json": {
-  "octets": 131831,
-  "empreinte": "7418f745aea9"
+  "octets": 132168,
+  "empreinte": "9fc0d20955c9"
  },
  "simple-2026-05.json": {
-  "octets": 158190,
-  "empreinte": "0db82de1c563"
+  "octets": 158667,
+  "empreinte": "120e3067131a"
  },
  "simple-2026-06.json": {
-  "octets": 228715,
-  "empreinte": "4a19f751a716"
+  "octets": 229303,
+  "empreinte": "7611d8425154"
  },
  "simple-2026-07.json": {
-  "octets": 191429,
-  "empreinte": "dee7d02b2861"
+  "octets": 191908,
+  "empreinte": "701af0eb747e"
  },
  "simple-2026-08.json": {
-  "octets": 203482,
-  "empreinte": "b83f94568243"
+  "octets": 203915,
+  "empreinte": "c7aa741e4072"
  },
  "simple-2026-09.json": {
-  "octets": 190015,
-  "empreinte": "c15e4dc97c8e"
+  "octets": 190506,
+  "empreinte": "fa5b95be9d5d"
  },
  "simple-2026-10.json": {
-  "octets": 184118,
-  "empreinte": "ddcc315b265b"
+  "octets": 184550,
+  "empreinte": "efdcd8dcc3f1"
  },
  "simple-2026-11.json": {
-  "octets": 42813,
-  "empreinte": "d441c5f89b66"
+  "octets": 42940,
+  "empreinte": "a0075cbd51c0"
+ },
+ "stats-simple-2011.json": {
+  "octets": 650600,
+  "empreinte": "7ced789e9dcf"
+ },
+ "stats-simple-2012.json": {
+  "octets": 666836,
+  "empreinte": "933ae72f7f36"
+ },
+ "stats-simple-2013.json": {
+  "octets": 650749,
+  "empreinte": "7c21121e431b"
+ },
+ "stats-simple-2014.json": {
+  "octets": 626448,
+  "empreinte": "0eb6698927ff"
+ },
+ "stats-simple-2015.json": {
+  "octets": 728398,
+  "empreinte": "d57c63dad502"
+ },
+ "stats-simple-2016.json": {
+  "octets": 3072697,
+  "empreinte": "3b093093467c"
+ },
+ "stats-simple-2017.json": {
+  "octets": 2880350,
+  "empreinte": "32ea0d393ead"
+ },
+ "stats-simple-2018.json": {
+  "octets": 2771938,
+  "empreinte": "65a911ac935e"
+ },
+ "stats-simple-2019.json": {
+  "octets": 2209019,
+  "empreinte": "7711c0b6ced4"
+ },
+ "stats-simple-2020.json": {
+  "octets": 831391,
+  "empreinte": "c68e85a12149"
+ },
+ "stats-simple-2021.json": {
+  "octets": 1997539,
+  "empreinte": "fc5fc716de04"
+ },
+ "stats-simple-2022.json": {
+  "octets": 2667401,
+  "empreinte": "b75c207081d5"
+ },
+ "stats-simple-2023.json": {
+  "octets": 2850432,
+  "empreinte": "5afa631ffcb5"
+ },
+ "stats-simple-2024.json": {
+  "octets": 3015377,
+  "empreinte": "d8a3c38b2c21"
+ },
+ "stats-simple-2025.json": {
+  "octets": 2160942,
+  "empreinte": "8a736f37e4ad"
+ },
+ "stats-simple-2026-01.json": {
+  "octets": 138885,
+  "empreinte": "a7bcfa1677c0"
+ },
+ "stats-simple-2026-02.json": {
+  "octets": 173516,
+  "empreinte": "d0ba0c0509aa"
+ },
+ "stats-simple-2026-03.json": {
+  "octets": 214932,
+  "empreinte": "81b94150c192"
+ },
+ "stats-simple-2026-04.json": {
+  "octets": 172006,
+  "empreinte": "b9905f1ca4d7"
+ },
+ "stats-simple-2026-05.json": {
+  "octets": 203776,
+  "empreinte": "58158b0ad697"
+ },
+ "stats-simple-2026-06.json": {
+  "octets": 60809,
+  "empreinte": "49d9ee7f6444"
+ },
+ "tml-2026.json": {
+  "octets": 241426,
+  "empreinte": "1c63a91a9b11"
  }
 }

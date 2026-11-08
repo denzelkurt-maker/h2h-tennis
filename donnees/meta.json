@@ -1,6 +1,6 @@
 {
- "version_collecteur": "1.0.4",
- "genere_le": "2026-11-08T21:50:35+00:00",
+ "version_collecteur": "1.1.0",
+ "genere_le": "2026-11-08T23:50:39+00:00",
  "historique_sackmann_jusqua": "2026-06-01",
  "matchs": {
   "simple": {
@@ -31,8 +31,33 @@
    "2026-10": 2912,
    "2026-11": 670
   },
+  "stats": {
+   "2011": 9374,
+   "2012": 9649,
+   "2013": 9397,
+   "2014": 9076,
+   "2015": 9831,
+   "2016": 32381,
+   "2017": 30383,
+   "2018": 29895,
+   "2019": 24119,
+   "2020": 9306,
+   "2021": 21899,
+   "2022": 28933,
+   "2023": 30861,
+   "2024": 32754,
+   "2025": 32158,
+   "2026-01": 2078,
+   "2026-02": 2529,
+   "2026-03": 3228,
+   "2026-04": 2591,
+   "2026-05": 2977,
+   "2026-06": 681
+  },
   "double": {
-   "2023": 3308,
+   "2021": 2023,
+   "2022": 4009,
+   "2023": 4089,
    "2024": 4316,
    "2025": 4340,
    "2026-01": 480,
@@ -48,7 +73,7 @@
    "2026-11": 111
   }
  },
- "joueurs": 11581,
+ "joueurs": 11595,
  "niveaux": {
   "G": "Grand Chelem",
   "M": "Masters 1000",
@@ -59,7 +84,8 @@
   "C": "Challenger",
   "I15": "ITF M15",
   "I25": "ITF M25",
-  "I": "ITF"
+  "I": "ITF",
+  "N": "NextGen Finals"
  },
  "drapeaux": {
   "1": "score complet",
@@ -67,8 +93,39 @@
   "4": "forfait",
   "8": "source Valuebetennis",
   "16": "score Kaggle",
-  "32": "source Wikipédia"
+  "32": "source Wikipédia",
+  "64": "TennisMyLife (complément chiffré)"
  },
+ "categories": {
+  "A": "250, 500 ou equipes (Laver Cup, ATP Cup, United Cup) ; source Kaggle, Series",
+  "I15/I25": "15 ou 25"
+ },
+ "colonnes_stats": [
+  "minutes",
+  "g_ace",
+  "g_df",
+  "g_svpt",
+  "g_1stIn",
+  "g_1stWon",
+  "g_2ndWon",
+  "g_SvGms",
+  "g_bpSaved",
+  "g_bpFaced",
+  "p_ace",
+  "p_df",
+  "p_svpt",
+  "p_1stIn",
+  "p_1stWon",
+  "p_2ndWon",
+  "p_SvGms",
+  "p_bpSaved",
+  "p_bpFaced",
+  "g_rang",
+  "g_points",
+  "p_rang",
+  "p_points"
+ ],
+ "fichiers_chiffres": "tml-AAAA.json : AES-256-GCM, clé PBKDF2-SHA256 du code personnel ; complements = scores et statistiques de matchs publiés (clé : tournoi + gagnant + perdant), matchs = matchs absents des autres sources",
  "sources": [
   {
    "nom": "Jeff Sackmann, tennis_atp (copie Aneeshers/tennis-sackmann-archive)",
@@ -82,13 +139,18 @@
   },
   {
    "nom": "Kaggle, dissfya/atp-tennis-2000-2023daily-pull",
-   "licence": "à confirmer",
+   "licence": "CC0 (domaine public)",
    "lien": "https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull"
   },
   {
    "nom": "Wikipédia (en), tableaux de double",
    "licence": "CC BY-SA 4.0",
    "lien": "https://en.wikipedia.org"
+  },
+  {
+   "nom": "TennisMyLife, Tennis Match Database",
+   "licence": "usage personnel et non commercial, redistribution des CSV interdite : données chiffrées, réservées au propriétaire du dépôt",
+   "lien": "https://stats.tennismylife.org/tennis-match-database"
   }
  ]
 }
