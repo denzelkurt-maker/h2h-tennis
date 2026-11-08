@@ -1,6 +1,6 @@
 # Rapport de collecte H2H Tennis
 
-- Date (UTC) : 2026-11-08T21:18:37+00:00
+- Date (UTC) : 2026-11-08T21:24:13+00:00
 - Version du collecteur : 1.0.2
 - État : **OK**
 
@@ -212,18 +212,18 @@
   "scores_completes": 432
  },
  "wikipedia": {
-  "pages_trouvees": 582,
+  "pages_trouvees": 1127,
   "pages_lues": 500,
-  "matchs": 7250,
-  "pages_sans_match": 41,
+  "matchs": 7432,
+  "pages_sans_match": 27,
   "saisons_incompletes": 1,
-  "saisons_reportees": 4,
+  "saisons_reportees": 2,
   "budget_restant": 0
  },
  "doubles": {
-  "matchs": 7250,
-  "date_ou_surface_par_simple": 19,
-  "sans_date": 5
+  "matchs": 14682,
+  "date_ou_surface_par_simple": 97,
+  "sans_date": 27
  },
  "fichiers": {
   "simple": {
@@ -255,7 +255,9 @@
    "2026-11": 670
   },
   "double": {
-   "2025": 3092,
+   "2023": 2311,
+   "2024": 4109,
+   "2025": 4104,
    "2026-01": 480,
    "2026-02": 320,
    "2026-03": 481,
@@ -275,11 +277,11 @@
 ## Déroulement
 
 ```
-   0.7s  Historique Sackmann relu depuis la copie du dépôt : 339936 matchs
-   1.2s  Valuebetennis 2026 : 45305 matchs ATP
-   1.9s  Valuebetennis intégré : ajoutes=16056, avant_fenetre=15147, categorie_inconnue=189, coupe_davis_ignoree=61, doublons_sackmann=1041, noms_homonymes_resolus_par_activite=20, noms_nouveaux=456, noms_rapproches=2493, noms_rapproches_orthographe=58, qualifs_itf_ignorees=12811, score_complet=4864
-   3.8s  Kaggle : lignes=1177, non_rapproches=124, rapproches=1053, scores_completes=432
- 274.5s  Wikipédia : budget_restant=0, matchs=7250, pages_lues=500, pages_sans_match=41, pages_trouvees=582, saisons_incompletes=1, saisons_reportees=4
- 274.7s  Doubles intégrés : date_ou_surface_par_simple=19, matchs=7250, sans_date=5
- 276.7s  Données écrites : 12575 joueurs
+   0.5s  Historique Sackmann relu depuis la copie du dépôt : 339936 matchs
+   1.0s  Valuebetennis 2026 : 45305 matchs ATP
+   1.5s  Valuebetennis intégré : ajoutes=16056, avant_fenetre=15147, categorie_inconnue=189, coupe_davis_ignoree=61, doublons_sackmann=1041, noms_homonymes_resolus_par_activite=20, noms_nouveaux=456, noms_rapproches=2493, noms_rapproches_orthographe=58, qualifs_itf_ignorees=12811, score_complet=4864
+   3.0s  Kaggle : lignes=1177, non_rapproches=124, rapproches=1053, scores_completes=432
+ 320.7s  Wikipédia : budget_restant=0, matchs=7432, pages_lues=500, pages_sans_match=27, pages_trouvees=1127, saisons_incompletes=1, saisons_reportees=2
+ 321.0s  Doubles intégrés : date_ou_surface_par_simple=97, matchs=14682, sans_date=27
+ 322.8s  Données écrites : 13019 joueurs
 ```

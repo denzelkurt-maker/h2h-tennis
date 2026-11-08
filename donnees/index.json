@@ -3,9 +3,17 @@
   "octets": 440128,
   "empreinte": "7df5d6ef90e8"
  },
+ "double-2023.json": {
+  "octets": 199925,
+  "empreinte": "b84945897cda"
+ },
+ "double-2024.json": {
+  "octets": 357435,
+  "empreinte": "5208d03d6160"
+ },
  "double-2025.json": {
-  "octets": 267377,
-  "empreinte": "1e1e85545fa2"
+  "octets": 356374,
+  "empreinte": "5818272f06d3"
  },
  "double-2026-01.json": {
   "octets": 40667,
@@ -56,8 +64,8 @@
   "empreinte": "7a514f692aa9"
  },
  "joueurs-recents.json": {
-  "octets": 87433,
-  "empreinte": "02f4622773b7"
+  "octets": 109120,
+  "empreinte": "9bf9eb81a380"
  },
  "simple-2011.json": {
   "octets": 491343,
