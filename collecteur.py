@@ -38,7 +38,7 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.0.3"
+VERSION = "1.0.4"
 PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
 
 # ---------------------------------------------------------------- périmètre
@@ -1044,7 +1044,8 @@ def collecter_wikipedia(etat_wiki, toutes=False):
         recente = annee >= annee_courante - (1 if dt.date.today().month == 1 else 0)
         cle_saison = str(annee)
         saison = etat_wiki.setdefault(cle_saison, {"pages": {}, "verifiee": None})
-        if saison["verifiee"] and not recente and not toutes:
+        a_jour = all(pg.get("v") == PARSEUR_WIKI for pg in saison["pages"].values())
+        if saison["verifiee"] and a_jour and not recente and not toutes:
             continue
         if budget <= 0:
             stats["saisons_reportees"] += 1
@@ -1099,10 +1100,11 @@ def integrer_doubles(base, etat_wiki, etat_corresp):
     for tid, t in base.tournois.items():
         reperes[(t["annee"], cle_nom(re.sub(r"\d{4}", "", t["nom"])))].append(t)
 
+    import difflib
     par_mot = defaultdict(set)
     for pid, j in base.joueurs.items():
         for mot in cle_nom(j["nom"]).split():
-            if len(mot) >= 3:
+            if len(mot) >= 2:
                 par_mot[mot].add(pid)
 
     def joueur(nom):
@@ -1122,7 +1124,7 @@ def integrer_doubles(base, etat_wiki, etat_corresp):
                 initiale = cle_nom(m.group(1)) if m else ""
                 if mots:
                     cands = set.intersection(*[par_mot.get(w, set()) for w in mots]) if all(
-                        len(w) >= 3 for w in mots) else set()
+                        len(w) >= 2 for w in mots) else set()
                     if initiale:
                         cands = {c for c in cands if any(
                             w.startswith(initiale) for w in cle_nom(base.joueurs[c]["nom"]).split()
@@ -1133,6 +1135,16 @@ def integrer_doubles(base, etat_wiki, etat_corresp):
                     if len(cands) == 1:
                         pid = cands.pop()
                         stats["noms_abreges_rapproches" if initiale else "noms_rapproches_orthographe"] += 1
+                    elif not cands and not initiale and len(mots) >= 2:
+                        # orthographes voisines (« Pütz » / « Puetz ») : un seul candidat très proche
+                        voisins = set()
+                        for w in mots:
+                            voisins |= par_mot.get(w, set())
+                        proches = [c for c in voisins if difflib.SequenceMatcher(
+                            None, k, cle_nom(base.joueurs[c]["nom"])).ratio() >= 0.88]
+                        if len(proches) == 1:
+                            pid = proches[0]
+                            stats["noms_rapproches_orthographe"] += 1
             if pid is None:
                 pid = "w" + k.replace(" ", "_")
                 stats["joueurs_double_nouveaux"] += 1
@@ -1140,7 +1152,7 @@ def integrer_doubles(base, etat_wiki, etat_corresp):
         if pid not in base.joueurs:
             base.ajouter_joueur(pid, nom)
             for mot in k.split():
-                if len(mot) >= 3:
+                if len(mot) >= 2:
                     par_mot[mot].add(pid)
         return pid
 
