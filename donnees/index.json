@@ -1,0 +1,118 @@
+{
+ "classements-fin-annee.json": {
+  "octets": 440128,
+  "empreinte": "7df5d6ef90e8"
+ },
+ "joueurs-historique.json": {
+  "octets": 621241,
+  "empreinte": "7a514f692aa9"
+ },
+ "joueurs-recents.json": {
+  "octets": 22804,
+  "empreinte": "68cdf917b05c"
+ },
+ "simple-2011.json": {
+  "octets": 491343,
+  "empreinte": "0e5c7c40c5cf"
+ },
+ "simple-2012.json": {
+  "octets": 506142,
+  "empreinte": "72cdbdb0060f"
+ },
+ "simple-2013.json": {
+  "octets": 493446,
+  "empreinte": "b60e3e158285"
+ },
+ "simple-2014.json": {
+  "octets": 477398,
+  "empreinte": "8bab90a9f50e"
+ },
+ "simple-2015.json": {
+  "octets": 516478,
+  "empreinte": "219c1b2e83cf"
+ },
+ "simple-2016.json": {
+  "octets": 1695574,
+  "empreinte": "22cce46afedc"
+ },
+ "simple-2017.json": {
+  "octets": 1590599,
+  "empreinte": "0a31ace89a50"
+ },
+ "simple-2018.json": {
+  "octets": 1569615,
+  "empreinte": "e39114fdb3b7"
+ },
+ "simple-2019.json": {
+  "octets": 1461960,
+  "empreinte": "1da266af11e6"
+ },
+ "simple-2020.json": {
+  "octets": 487255,
+  "empreinte": "841427bf673c"
+ },
+ "simple-2021.json": {
+  "octets": 1152278,
+  "empreinte": "da83ef16ea05"
+ },
+ "simple-2022.json": {
+  "octets": 1526237,
+  "empreinte": "fe2ac86ae9b1"
+ },
+ "simple-2023.json": {
+  "octets": 1634569,
+  "empreinte": "248b1dd65055"
+ },
+ "simple-2024.json": {
+  "octets": 1725664,
+  "empreinte": "9f7c10043464"
+ },
+ "simple-2025.json": {
+  "octets": 1680854,
+  "empreinte": "3633ba39101b"
+ },
+ "simple-2026-01.json": {
+  "octets": 106192,
+  "empreinte": "9fb52dc71751"
+ },
+ "simple-2026-02.json": {
+  "octets": 132806,
+  "empreinte": "96fb1e58af3e"
+ },
+ "simple-2026-03.json": {
+  "octets": 164610,
+  "empreinte": "0098b36df6ee"
+ },
+ "simple-2026-04.json": {
+  "octets": 131831,
+  "empreinte": "7418f745aea9"
+ },
+ "simple-2026-05.json": {
+  "octets": 158190,
+  "empreinte": "0db82de1c563"
+ },
+ "simple-2026-06.json": {
+  "octets": 228715,
+  "empreinte": "4a19f751a716"
+ },
+ "simple-2026-07.json": {
+  "octets": 191429,
+  "empreinte": "dee7d02b2861"
+ },
+ "simple-2026-08.json": {
+  "octets": 203482,
+  "empreinte": "b83f94568243"
+ },
+ "simple-2026-09.json": {
+  "octets": 190015,
+  "empreinte": "c15e4dc97c8e"
+ },
+ "simple-2026-10.json": {
+  "octets": 184118,
+  "empreinte": "ddcc315b265b"
+ },
+ "simple-2026-11.json": {
+  "octets": 42813,
+  "empreinte": "d441c5f89b66"
+ }
+}
