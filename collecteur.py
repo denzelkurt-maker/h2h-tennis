@@ -32,12 +32,13 @@ import tempfile
 import time
 import traceback
 import unicodedata
+import urllib.error
 import urllib.parse
 import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 
 # ---------------------------------------------------------------- périmètre
 DEBUT_ATP = 2011          # ATP et Challenger, simple : 15 ans
@@ -50,7 +51,11 @@ VBT_URL = "https://www.valuebetennis.com/datasets/valuebetennis-matchs-{annee}.c
 VBT_PREMIERE_SAISON = 2026  # l'archive Sackmann couvre tout ce qui précède
 KAGGLE_JEU = "dissfya/atp-tennis-2000-2023daily-pull"
 WIKI_API = "https://en.wikipedia.org/w/api.php"
-AGENT = "H2H-Tennis-perso/1.0 (collecteur personnel, non commercial)"
+# Wikipédia exige un agent identifiable avec un moyen de contact (adresse du dépôt)
+AGENT = ("H2H-Tennis-perso/1.0 (https://github.com/"
+         + os.environ.get("GITHUB_REPOSITORY", "denzelkurt-maker/h2h-tennis")
+         + "; collecteur personnel non commercial) python-urllib")
+BUDGET_WIKI = 500   # pages de double lues au plus par passage (rattrapage étalé)
 
 # Présentation du dépôt, réécrite à chaque passage (attribution exigée par les licences)
 README = "# H2H Tennis\n\nApplication personnelle et non commerciale de statistiques de tennis masculin (ATP, Challenger, ITF) : face-à-face, fiches joueurs, bilans.\n\n## Fonctionnement\n\n- `collecteur.py` construit chaque nuit les fichiers de `donnees/` à partir des sources ci-dessous (planification : `.github/workflows/collecte.yml`).\n- `rapport/rapport.md` décrit la dernière collecte (chiffres, alertes, erreurs).\n- `etat/` conserve une copie compacte de l'historique et le cache des tableaux Wikipédia.\n\n## Sources et licences\n\n| Source | Usage | Licence |\n|---|---|---|\n| Jeff Sackmann, [tennis_atp](https://github.com/JeffSackmann/tennis_atp), via la copie [Aneeshers/tennis-sackmann-archive](https://github.com/Aneeshers/tennis-sackmann-archive) | Historique des matchs, joueurs, classements jusqu'à juin 2026 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |\n| [Valuebetennis](https://www.valuebetennis.com/en/donnees.htm), « Tennis results and odds since 2021 » | Matchs récents, mis à jour chaque jour | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |\n| [Wikipédia](https://en.wikipedia.org) (anglais), pages de tableaux de double | Doubles ATP et Challenger depuis 2021 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |\n| [Kaggle, dissfya/atp-tennis-2000-2023daily-pull](https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull) | Complément des scores du circuit ATP principal (facultatif) | À confirmer |\n\nLes fichiers de `donnees/` sont des œuvres dérivées de ces sources et sont partagés dans les mêmes conditions : usage non commercial, attribution, partage dans les mêmes conditions (CC BY-NC-SA 4.0).\n\nAucun lien avec l'ATP, l'ITF ou les tournois cités. Les noms de tournois sont utilisés à titre descriptif.\n"
@@ -119,7 +124,7 @@ def ecrire_json(chemin, objet, compact=True):
     os.replace(tmp, chemin)
 
 
-def telecharger(url, entetes=None, essais=3, delai=5):
+def telecharger(url, entetes=None, essais=5, delai=5):
     req = urllib.request.Request(url, headers={"User-Agent": AGENT, **(entetes or {})})
     derniere = None
     for i in range(essais):
@@ -129,10 +134,25 @@ def telecharger(url, entetes=None, essais=3, delai=5):
                 if r.headers.get("Content-Encoding") == "gzip":
                     data = gzip.decompress(data)
                 return data
+        except urllib.error.HTTPError as e:
+            derniere = e
+            if e.code in (429, 503):
+                # le serveur demande de ralentir : on respecte son délai
+                try:
+                    attente = int(e.headers.get("Retry-After", "0"))
+                except ValueError:
+                    attente = 0
+                attente = max(attente, 30 * (i + 1))
+                J.info(f"Serveur saturé ({e.code}), pause de {attente} s")
+                time.sleep(min(attente, 300))
+            elif e.code in (403, 404):
+                break
+            else:
+                time.sleep(delai * (i + 1))
         except Exception as e:  # noqa: BLE001
             derniere = e
             time.sleep(delai * (i + 1))
-    raise RuntimeError(f"téléchargement impossible : {url} ({derniere})")
+    raise RuntimeError(f"téléchargement impossible : {url[:200]} ({derniere})")
 
 
 def cle_nom(nom):
@@ -677,36 +697,68 @@ MOTS_MASTERS = ("indian wells", "miami open", "monte carlo", "monte-carlo", "mad
 MOTS_CHELEM = ("australian open", "french open", "wimbledon", "us open")
 
 
-def wiki_requete(params, pause=1.0):
+def wiki_requete(params, pause=2.0):
     params = {**params, "format": "json", "formatversion": "2", "maxlag": "5"}
     url = WIKI_API + "?" + urllib.parse.urlencode(params)
     for essai in range(5):
         data = json.loads(telecharger(url, {"Accept-Encoding": "gzip"}))
         if data.get("error", {}).get("code") == "maxlag":
-            time.sleep(5 * (essai + 1))
+            time.sleep(10 * (essai + 1))
             continue
         time.sleep(pause)
         return data
     raise RuntimeError("Wikipédia surchargé (maxlag)")
 
 
-def wiki_contenus(titres):
-    """Contenu wikitexte et révision de jusqu'à 50 pages par requête."""
-    resultat = {}
-    for i in range(0, len(titres), 50):
-        lot = titres[i:i + 50]
-        data = wiki_requete({"action": "query", "prop": "revisions", "rvprop": "content|ids",
-                             "rvslots": "main", "redirects": "1", "titles": "|".join(lot)})
+def wiki_requete_complete(params, pause=2.0):
+    """Une requête et ses suites (Wikipédia tronque les réponses trop lourdes)."""
+    pages, renvois, suite = {}, {}, {}
+    for _ in range(30):
+        data = wiki_requete({**params, **suite}, pause)
+        if "error" in data:
+            raise RuntimeError(f"Wikipédia : {data['error'].get('info', data['error'])}")
         q = data.get("query", {})
-        renvois = {r["from"]: r["to"] for r in q.get("redirects", [])}
+        renvois.update({r["from"]: r["to"] for r in q.get("redirects", [])})
         renvois.update({n["from"]: n["to"] for n in q.get("normalized", [])})
-        pages = {p["title"]: p for p in q.get("pages", [])}
+        for p in q.get("pages", []):
+            ancien = pages.get(p["title"])
+            if ancien and ancien.get("revisions") and not p.get("revisions"):
+                continue
+            pages[p["title"]] = p
+        if "continue" not in data:
+            break
+        suite = data["continue"]
+    return pages, renvois
+
+
+def _cible(t, renvois):
+    t2 = renvois.get(t, t)
+    return renvois.get(t2, t2)
+
+
+def wiki_contenus(titres, intro_seulement=False, lot_max=10):
+    """Contenu wikitexte et révision, par petits paquets."""
+    resultat = {}
+    for i in range(0, len(titres), lot_max):
+        lot = titres[i:i + lot_max]
+        params = {"action": "query", "prop": "revisions", "rvprop": "content|ids",
+                  "rvslots": "main", "redirects": "1", "titles": "|".join(lot)}
+        if intro_seulement:
+            params["rvsection"] = "0"   # encadré du tournoi seulement : bien plus léger
+        try:
+            pages, renvois = wiki_requete_complete(params)
+        except RuntimeError:
+            if not intro_seulement:
+                raise
+            params.pop("rvsection")
+            pages, renvois = wiki_requete_complete(params)
         for t in lot:
-            cible = renvois.get(renvois.get(t, t), renvois.get(t, t))
-            p = pages.get(cible)
+            p = pages.get(_cible(t, renvois))
             if p and not p.get("missing") and p.get("revisions"):
                 rev = p["revisions"][0]
-                resultat[t] = {"rev": rev["revid"], "texte": rev["slots"]["main"]["content"]}
+                texte = rev.get("slots", {}).get("main", {}).get("content")
+                if texte is not None:
+                    resultat[t] = {"rev": rev["revid"], "texte": texte}
     return resultat
 
 
@@ -714,14 +766,10 @@ def wiki_revisions(titres):
     resultat = {}
     for i in range(0, len(titres), 50):
         lot = titres[i:i + 50]
-        data = wiki_requete({"action": "query", "prop": "revisions", "rvprop": "ids",
-                             "redirects": "1", "titles": "|".join(lot)}, pause=0.5)
-        q = data.get("query", {})
-        renvois = {r["from"]: r["to"] for r in q.get("redirects", [])}
-        renvois.update({n["from"]: n["to"] for n in q.get("normalized", [])})
-        pages = {p["title"]: p for p in q.get("pages", [])}
+        pages, renvois = wiki_requete_complete({"action": "query", "prop": "revisions", "rvprop": "ids",
+                                                "redirects": "1", "titles": "|".join(lot)}, pause=1.0)
         for t in lot:
-            p = pages.get(renvois.get(t, t))
+            p = pages.get(_cible(t, renvois))
             if p and not p.get("missing") and p.get("revisions"):
                 resultat[t] = p["revisions"][0]["revid"]
     return resultat
@@ -747,7 +795,10 @@ def pages_double_saison(annee, circuit):
     suite = {}
     for _ in range(10):
         data = wiki_requete({"action": "query", "list": "categorymembers", "cmlimit": "500",
-                             "cmtitle": f"Category:{titre_saison}", "cmnamespace": "0", **suite}, pause=0.5)
+                             "cmtitle": f"Category:{titre_saison}", "cmnamespace": "0", **suite}, pause=1.0)
+        if "error" in data:
+            J.alerte(f"Wikipédia : catégorie {titre_saison} : {data['error'].get('info')}")
+            break
         candidats += [m["title"] for m in data.get("query", {}).get("categorymembers", [])]
         if "continue" not in data:
             break
@@ -761,8 +812,8 @@ def pages_double_saison(annee, circuit):
         elif not re.search(r"\s[–-]\s", l):
             cibles[l + " – Doubles"] = circuit
             cibles[l + " – Men's doubles"] = circuit
-    existantes = wiki_revisions(sorted(cibles))
-    return {t: cibles[t] for t in existantes}
+    existantes = wiki_revisions(sorted(cibles))   # {titre: révision}
+    return existantes
 
 
 def nettoyer_cellule(v):
@@ -981,38 +1032,53 @@ def collecter_wikipedia(etat_wiki, toutes=False):
     """Met à jour le cache des doubles. Seules les pages modifiées sont relues."""
     annee_courante = dt.date.today().year
     stats = Counter()
-    for annee in range(DEBUT_DOUBLE, annee_courante + 1):
+    budget = BUDGET_WIKI
+    # saisons récentes d'abord : ce sont les plus utiles
+    for annee in range(annee_courante, DEBUT_DOUBLE - 1, -1):
         recente = annee >= annee_courante - (1 if dt.date.today().month == 1 else 0)
         cle_saison = str(annee)
         saison = etat_wiki.setdefault(cle_saison, {"pages": {}, "verifiee": None})
         if saison["verifiee"] and not recente and not toutes:
             continue
+        if budget <= 0:
+            stats["saisons_reportees"] += 1
+            continue
+        complete = True
         for circuit in ("A", "C"):
             try:
-                titres = pages_double_saison(annee, circuit)
-            except Exception as e:  # noqa: BLE001
-                J.alerte(f"Wikipédia {annee} {circuit} : {e}")
-                continue
-            revs = wiki_revisions(sorted(titres))
-            a_lire = [t for t in titres if saison["pages"].get(t, {}).get("rev") != revs.get(t)]
-            stats["pages_trouvees"] += len(titres)
-            contenus = wiki_contenus(a_lire)
-            parents = {t: re.sub(r"\s[–-]\s(Men's )?[Dd]oubles$", "", t) for t in a_lire}
-            infos = wiki_contenus(sorted(set(parents.values())))
-            for t in a_lire:
-                if t not in contenus:
+                revs = pages_double_saison(annee, circuit)   # {titre: révision}
+                titres = sorted(revs)
+                a_lire = sorted(t for t in titres if saison["pages"].get(t, {}).get("rev") != revs.get(t))
+                stats["pages_trouvees"] += len(titres)
+                if len(a_lire) > budget:
+                    a_lire, complete = a_lire[:budget], False
+                if not a_lire:
                     continue
-                matchs, alertes = lire_page_double(contenus[t]["texte"])
-                parent = parents[t]
-                surf, salle, debut = infos_tournoi(infos.get(parent, {}).get("texte", ""), annee)
-                saison["pages"][t] = {"rev": contenus[t]["rev"], "tournoi": parent, "niveau": niveau_double(t, circuit),
-                                      "surface": surf, "salle": salle, "debut": debut, "matchs": matchs,
-                                      "alertes": alertes[:5]}
-                stats["pages_lues"] += 1
-                stats["matchs"] += len(matchs)
-                if not matchs:
-                    stats["pages_sans_match"] += 1
-        saison["verifiee"] = dt.date.today().isoformat()
+                budget -= len(a_lire)
+                contenus = wiki_contenus(a_lire)
+                parents = {t: re.sub(r"\s[–-]\s(Men's )?[Dd]oubles$", "", t) for t in a_lire}
+                infos = wiki_contenus(sorted(set(parents.values())), intro_seulement=True)
+                for t in a_lire:
+                    if t not in contenus:
+                        continue
+                    matchs, alertes = lire_page_double(contenus[t]["texte"])
+                    parent = parents[t]
+                    surf, salle, debut = infos_tournoi(infos.get(parent, {}).get("texte", ""), annee)
+                    saison["pages"][t] = {"rev": contenus[t]["rev"], "tournoi": parent,
+                                          "niveau": niveau_double(t, circuit), "surface": surf, "salle": salle,
+                                          "debut": debut, "matchs": matchs, "alertes": alertes[:5]}
+                    stats["pages_lues"] += 1
+                    stats["matchs"] += len(matchs)
+                    if not matchs:
+                        stats["pages_sans_match"] += 1
+            except Exception as e:  # noqa: BLE001
+                complete = False
+                J.alerte(f"Wikipédia {annee} {'ATP' if circuit == 'A' else 'Challenger'} : {e}")
+        if complete:
+            saison["verifiee"] = dt.date.today().isoformat()
+        else:
+            stats["saisons_incompletes"] += 1
+    stats["budget_restant"] = budget
     J.chiffres["wikipedia"] = dict(stats)
     J.info("Wikipédia : " + ", ".join(f"{k}={v}" for k, v in sorted(stats.items())))
 
