@@ -1,31 +1,13 @@
 # Rapport de collecte H2H Tennis
 
-- Date (UTC) : 2026-11-08T21:05:15+00:00
-- Version du collecteur : 1.0.1
-- État : **OK avec alertes**
-
-## Alertes
-
-- Wikipédia : téléchargement impossible : https://en.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=content%7Cids&rvslots=main&redirects=1&titles=2021+San+Diego+Open%7C2021+Sardegna+Open%7C2021+Serbia+Open%7C2021+Singapore+Tennis+Open%7C2021+Sofia+Open%7C2021+St.+Petersburg+Open%7C2021+Stockholm+Open%7C2021+Swedish+Open%7C2021+Swiss+Open+Gstaad%7C2021+US+Open%7C2021+Western+%26+Southern+Open%7C2021+Wimbledon+Championships%7C2021+Winston-Salem+Open&format=json&formatversion=2&maxlag=5 (HTTP Error 429: Too Many Requests)
-Traceback (most recent call last):
-  File "/home/runner/work/h2h-tennis/h2h-tennis/collecteur.py", line 1239, in main
-    collecter_wikipedia(etat_wiki, toutes=args.wikipedia_complet)
-  File "/home/runner/work/h2h-tennis/h2h-tennis/collecteur.py", line 1001, in collecter_wikipedia
-    infos = wiki_contenus(sorted(set(parents.values())))
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/h2h-tennis/h2h-tennis/collecteur.py", line 698, in wiki_contenus
-    data = wiki_requete({"action": "query", "prop": "revisions", "rvprop": "content|ids",
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-RuntimeError: téléchargement impossible : https://en.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=content%7Cids&rvslots=main&redirects=1&titles=2021+San+Diego+Open%7C2021+Sardegna+Open%7C2021+Serbia+Open%7C2021+Singapore+Tennis+Open%7C2021+Sofia+Open%7C2021+St.+Petersburg+Open%7C2021+Stockholm+Open%7C2021+Swedish+Open%7C2021+Swiss+Open+Gstaad%7C2021+US+Open%7C2021+Western+%26+Southern+Open%7C2021+Wimbledon+Championships%7C2021+Winston-Salem+Open&format=json&formatversion=2&maxlag=5 (HTTP Error 429: Too Many Requests)
-
+- Date (UTC) : 2026-11-08T21:18:37+00:00
+- Version du collecteur : 1.0.2
+- État : **OK**
 
 ## Chiffres
 
 ```json
 {
- "sackmann_doublons_fusionnes": 37,
- "sackmann_matchs": 339936,
- "sackmann_fin": "2026-06-01",
  "exemples_orthographe": [
   [
    "Cagan Efe Tufekci",
@@ -229,7 +211,20 @@ RuntimeError: téléchargement impossible : https://en.wikipedia.org/w/api.php?a
   "rapproches": 1053,
   "scores_completes": 432
  },
- "doubles": {},
+ "wikipedia": {
+  "pages_trouvees": 582,
+  "pages_lues": 500,
+  "matchs": 7250,
+  "pages_sans_match": 41,
+  "saisons_incompletes": 1,
+  "saisons_reportees": 4,
+  "budget_restant": 0
+ },
+ "doubles": {
+  "matchs": 7250,
+  "date_ou_surface_par_simple": 19,
+  "sans_date": 5
+ },
  "fichiers": {
   "simple": {
    "2011": 9386,
@@ -258,6 +253,20 @@ RuntimeError: téléchargement impossible : https://en.wikipedia.org/w/api.php?a
    "2026-09": 3091,
    "2026-10": 2912,
    "2026-11": 670
+  },
+  "double": {
+   "2025": 3092,
+   "2026-01": 480,
+   "2026-02": 320,
+   "2026-03": 481,
+   "2026-04": 392,
+   "2026-05": 386,
+   "2026-06": 476,
+   "2026-07": 389,
+   "2026-08": 377,
+   "2026-09": 368,
+   "2026-10": 378,
+   "2026-11": 111
   }
  }
 }
@@ -266,25 +275,11 @@ RuntimeError: téléchargement impossible : https://en.wikipedia.org/w/api.php?a
 ## Déroulement
 
 ```
-   0.0s  Archive Sackmann : clonage partiel du dossier atp
-  11.1s  Sackmann : 339936 matchs, 10802 joueurs, dernier tournoi 2026-06-01
-  12.5s  Classements : 2011 (2011-12-26), 2012 (2012-12-31), 2013 (2013-12-30), 2014 (2014-12-29), 2015 (2015-12-28), 2016 (2016-12-26), 2017 (2017-12-25), 2018 (2018-12-31), 2019 (2019-12-30), 2020 (2020-12-28), 2021 (2021-12-27), 2022 (2022-12-26), 2023 (2023-12-25), 2024 (2024-12-30), 2025 (2025-12-29), 2026 (2026-06-08)
-  18.4s  Copie compacte de l'historique écrite (4026 Ko)
-  19.0s  Valuebetennis 2026 : 45305 matchs ATP
-  19.7s  Valuebetennis intégré : ajoutes=16056, avant_fenetre=15147, categorie_inconnue=189, coupe_davis_ignoree=61, doublons_sackmann=1041, noms_homonymes_resolus_par_activite=20, noms_nouveaux=456, noms_rapproches=2493, noms_rapproches_orthographe=58, qualifs_itf_ignorees=12811, score_complet=4864
-  21.5s  Kaggle : lignes=1177, non_rapproches=124, rapproches=1053, scores_completes=432
-  60.9s  ALERTE Wikipédia : téléchargement impossible : https://en.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=content%7Cids&rvslots=main&redirects=1&titles=2021+San+Diego+Open%7C2021+Sardegna+Open%7C2021+Serbia+Open%7C2021+Singapore+Tennis+Open%7C2021+Sofia+Open%7C2021+St.+Petersburg+Open%7C2021+Stockholm+Open%7C2021+Swedish+Open%7C2021+Swiss+Open+Gstaad%7C2021+US+Open%7C2021+Western+%26+Southern+Open%7C2021+Wimbledon+Championships%7C2021+Winston-Salem+Open&format=json&formatversion=2&maxlag=5 (HTTP Error 429: Too Many Requests)
-Traceback (most recent call last):
-  File "/home/runner/work/h2h-tennis/h2h-tennis/collecteur.py", line 1239, in main
-    collecter_wikipedia(etat_wiki, toutes=args.wikipedia_complet)
-  File "/home/runner/work/h2h-tennis/h2h-tennis/collecteur.py", line 1001, in collecter_wikipedia
-    infos = wiki_contenus(sorted(set(parents.values())))
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/h2h-tennis/h2h-tennis/collecteur.py", line 698, in wiki_contenus
-    data = wiki_requete({"action": "query", "prop": "revisions", "rvprop": "content|ids",
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-RuntimeError: téléchargement impossible : https://en.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=content%7Cids&rvslots=main&redirects=1&titles=2021+San+Diego+Open%7C2021+Sardegna+Open%7C2021+Serbia+Open%7C2021+Singapore+Tennis+Open%7C2021+Sofia+Open%7C2021+St.+Petersburg+Open%7C2021+Stockholm+Open%7C2021+Swedish+Open%7C2021+Swiss+Open+Gstaad%7C2021+US+Open%7C2021+Western+%26+Southern+Open%7C2021+Wimbledon+Championships%7C2021+Winston-Salem+Open&format=json&formatversion=2&maxlag=5 (HTTP Error 429: Too Many Requests)
-
-  60.9s  Doubles intégrés : 
-  62.8s  Données écrites : 11258 joueurs
+   0.7s  Historique Sackmann relu depuis la copie du dépôt : 339936 matchs
+   1.2s  Valuebetennis 2026 : 45305 matchs ATP
+   1.9s  Valuebetennis intégré : ajoutes=16056, avant_fenetre=15147, categorie_inconnue=189, coupe_davis_ignoree=61, doublons_sackmann=1041, noms_homonymes_resolus_par_activite=20, noms_nouveaux=456, noms_rapproches=2493, noms_rapproches_orthographe=58, qualifs_itf_ignorees=12811, score_complet=4864
+   3.8s  Kaggle : lignes=1177, non_rapproches=124, rapproches=1053, scores_completes=432
+ 274.5s  Wikipédia : budget_restant=0, matchs=7250, pages_lues=500, pages_sans_match=41, pages_trouvees=582, saisons_incompletes=1, saisons_reportees=4
+ 274.7s  Doubles intégrés : date_ou_surface_par_simple=19, matchs=7250, sans_date=5
+ 276.7s  Données écrites : 12575 joueurs
 ```
