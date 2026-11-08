@@ -38,7 +38,8 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.0.2"
+VERSION = "1.0.3"
+PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
 
 # ---------------------------------------------------------------- périmètre
 DEBUT_ATP = 2011          # ATP et Challenger, simple : 15 ans
@@ -829,7 +830,8 @@ def noms_equipe(v):
     morceaux = re.split(r"<br\s*/?>|&nbsp;/\s|\s/\s", v)
     noms = []
     for mo in morceaux:
-        mo = re.sub(r"\[\[([^\]|]+)\|([^\]]+)\]\]", r"\2", mo)
+        # le texte affiché est souvent abrégé (« S Arends ») : on prend la cible du lien
+        mo = re.sub(r"\[\[([^\]|]+)\|([^\]]+)\]\]", r"\1", mo)
         mo = re.sub(r"\[\[([^\]]+)\]\]", r"\1", mo)
         mo = re.sub(r"\{\{[^{}]*\}\}", "", mo)
         mo = re.sub(r"<[^>]+>|'''|''|\(.*?\)", "", mo)
@@ -930,10 +932,14 @@ def lire_page_double(texte):
               for m in re.finditer(r"^=+\s*([^=\n]+?)\s*=+\s*$", texte, re.M)]
     infos = []
     for nb, params, pos in modeles:
-        tours, matchs = matchs_tableau(nb, params)
         precedents = [t for p, t in titres if p < pos]
+        if any("qualif" in t or "lucky" in t for t in precedents[-2:]):
+            continue   # tableau des qualifications : hors du tableau principal
+        tours, matchs = matchs_tableau(nb, params)
         est_finale = bool(precedents) and precedents[-1].startswith("final")
         infos.append((nb, tours, matchs, est_finale))
+    if not infos:
+        return [], ["aucun tableau principal"]
     finales = [x for x in infos if x[3]]
     tours_finale = finales[0][1] if finales else 0
     if len(infos) > 1 and not finales:
@@ -1048,7 +1054,8 @@ def collecter_wikipedia(etat_wiki, toutes=False):
             try:
                 revs = pages_double_saison(annee, circuit)   # {titre: révision}
                 titres = sorted(revs)
-                a_lire = sorted(t for t in titres if saison["pages"].get(t, {}).get("rev") != revs.get(t))
+                a_lire = sorted(t for t in titres if saison["pages"].get(t, {}).get("rev") != revs.get(t)
+                                or saison["pages"].get(t, {}).get("v") != PARSEUR_WIKI)
                 stats["pages_trouvees"] += len(titres)
                 if len(a_lire) > budget:
                     a_lire, complete = a_lire[:budget], False
@@ -1066,7 +1073,8 @@ def collecter_wikipedia(etat_wiki, toutes=False):
                     surf, salle, debut = infos_tournoi(infos.get(parent, {}).get("texte", ""), annee)
                     saison["pages"][t] = {"rev": contenus[t]["rev"], "tournoi": parent,
                                           "niveau": niveau_double(t, circuit), "surface": surf, "salle": salle,
-                                          "debut": debut, "matchs": matchs, "alertes": alertes[:5]}
+                                          "debut": debut, "matchs": matchs, "alertes": alertes[:5],
+                                          "v": PARSEUR_WIKI}
                     stats["pages_lues"] += 1
                     stats["matchs"] += len(matchs)
                     if not matchs:
@@ -1091,16 +1099,49 @@ def integrer_doubles(base, etat_wiki, etat_corresp):
     for tid, t in base.tournois.items():
         reperes[(t["annee"], cle_nom(re.sub(r"\d{4}", "", t["nom"])))].append(t)
 
+    par_mot = defaultdict(set)
+    for pid, j in base.joueurs.items():
+        for mot in cle_nom(j["nom"]).split():
+            if len(mot) >= 3:
+                par_mot[mot].add(pid)
+
     def joueur(nom):
+        nom = re.sub(r"\s*\([^)]*\)\s*$", "", nom).strip()   # « Nom (tennis) »
         k = cle_nom(nom)
         if k in corresp:
             pid = corresp[k]
         else:
             cands = base.par_cle.get(k, [])
-            pid = cands[0] if len(cands) == 1 else "w" + k.replace(" ", "_")
+            if len(cands) > 1:
+                cands = [max(cands, key=lambda c: base.activite.get(c, ""))]
+            pid = cands[0] if cands else None
+            if pid is None:
+                # « S Arends » ou « S. Arends » : initiale + nom de famille, si un seul joueur correspond
+                m = re.match(r"^([A-Za-zÀ-ÿ])(?:[A-Za-zÀ-ÿ]|-[A-Za-zÀ-ÿ])?\.?\s+(.+)$", nom)
+                mots = cle_nom(m.group(2) if m else nom).split()
+                initiale = cle_nom(m.group(1)) if m else ""
+                if mots:
+                    cands = set.intersection(*[par_mot.get(w, set()) for w in mots]) if all(
+                        len(w) >= 3 for w in mots) else set()
+                    if initiale:
+                        cands = {c for c in cands if any(
+                            w.startswith(initiale) for w in cle_nom(base.joueurs[c]["nom"]).split()
+                            if w not in mots)}
+                    elif cands:
+                        cands = {c for c in cands if set(cle_nom(base.joueurs[c]["nom"]).split()) <= set(mots)
+                                 or set(mots) <= set(cle_nom(base.joueurs[c]["nom"]).split())}
+                    if len(cands) == 1:
+                        pid = cands.pop()
+                        stats["noms_abreges_rapproches" if initiale else "noms_rapproches_orthographe"] += 1
+            if pid is None:
+                pid = "w" + k.replace(" ", "_")
+                stats["joueurs_double_nouveaux"] += 1
             corresp[k] = pid
         if pid not in base.joueurs:
             base.ajouter_joueur(pid, nom)
+            for mot in k.split():
+                if len(mot) >= 3:
+                    par_mot[mot].add(pid)
         return pid
 
     for annee, saison in sorted(etat_wiki.items()):
