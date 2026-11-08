@@ -4,68 +4,68 @@
   "empreinte": "7df5d6ef90e8"
  },
  "double-2023.json": {
-  "octets": 199925,
-  "empreinte": "b84945897cda"
+  "octets": 245947,
+  "empreinte": "be325cf024f0"
  },
  "double-2024.json": {
-  "octets": 357435,
-  "empreinte": "5208d03d6160"
+  "octets": 312502,
+  "empreinte": "1641ad8bcb38"
  },
  "double-2025.json": {
-  "octets": 356374,
-  "empreinte": "5818272f06d3"
+  "octets": 311242,
+  "empreinte": "c34f60699a80"
  },
  "double-2026-01.json": {
-  "octets": 40667,
-  "empreinte": "339f0e9999ee"
+  "octets": 35115,
+  "empreinte": "b139229f7d13"
  },
  "double-2026-02.json": {
-  "octets": 27837,
-  "empreinte": "b4d0c1446fd3"
+  "octets": 30686,
+  "empreinte": "5ab824a3c23b"
  },
  "double-2026-03.json": {
-  "octets": 41604,
-  "empreinte": "71c6ae877e6f"
+  "octets": 35483,
+  "empreinte": "3e49a1294b3a"
  },
  "double-2026-04.json": {
-  "octets": 33715,
-  "empreinte": "9eea2c97e148"
+  "octets": 31535,
+  "empreinte": "a34092a6c568"
  },
  "double-2026-05.json": {
-  "octets": 32697,
-  "empreinte": "9dee24cc5993"
+  "octets": 29456,
+  "empreinte": "8bac38280199"
  },
  "double-2026-06.json": {
-  "octets": 41324,
-  "empreinte": "e38551fe8855"
+  "octets": 37728,
+  "empreinte": "06ddf09d82af"
  },
  "double-2026-07.json": {
-  "octets": 33422,
-  "empreinte": "4ec36c1aa2ec"
+  "octets": 31179,
+  "empreinte": "5aa53a960d00"
  },
  "double-2026-08.json": {
-  "octets": 32283,
-  "empreinte": "aaa2818baef0"
+  "octets": 28149,
+  "empreinte": "5d1835cff04f"
  },
  "double-2026-09.json": {
-  "octets": 31949,
-  "empreinte": "80bdd0e3ce55"
+  "octets": 30025,
+  "empreinte": "fc518bb37b15"
  },
  "double-2026-10.json": {
-  "octets": 32372,
-  "empreinte": "5834c13bca73"
+  "octets": 30266,
+  "empreinte": "84e36d6848e5"
  },
  "double-2026-11.json": {
-  "octets": 9653,
-  "empreinte": "5ccd0a668529"
+  "octets": 8340,
+  "empreinte": "0fdc5b2741b6"
  },
  "joueurs-historique.json": {
   "octets": 621241,
   "empreinte": "7a514f692aa9"
  },
  "joueurs-recents.json": {
-  "octets": 109120,
-  "empreinte": "9bf9eb81a380"
+  "octets": 45982,
+  "empreinte": "ee90059eeb20"
  },
  "simple-2011.json": {
   "octets": 491343,
