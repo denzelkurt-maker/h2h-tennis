@@ -12,9 +12,14 @@ Sources et licences :
   - Kaggle dissfya/atp-tennis-2000-2023daily-pull : scores du circuit ATP
     principal (facultatif, clé KAGGLE_API_TOKEN, licence à confirmer).
   - Wikipédia (en.wikipedia.org), CC BY-SA 4.0 : tableaux de double.
+  - TennisMyLife (stats.tennismylife.org), usage personnel et non commercial,
+    redistribution des CSV interdite : scores complets et statistiques ATP et
+    Challenger depuis la fin de l'archive. Ces données ne sont JAMAIS écrites en
+    clair : elles sont chiffrées (AES-256-GCM, clé dérivée du secret CODE_TML)
+    dans donnees/tml-AAAA.json. Sans le secret, l'étape est sautée.
 
-Aucune clé n'est écrite dans ce fichier. Python 3.10+, bibliothèque standard
-seulement (l'outil kaggle est installé par le workflow si la clé existe).
+Aucune clé n'est écrite dans ce fichier. Python 3.10+, bibliothèque standard,
+plus « cryptography » pour le chiffrement (installé par le workflow).
 """
 from __future__ import annotations
 
@@ -38,7 +43,8 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.0.4"
+VERSION = "1.1.0"
+VERSION_COPIE = 2   # copie compacte de l'archive : 2 = avec statistiques et classements
 PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
 
 # ---------------------------------------------------------------- périmètre
@@ -57,9 +63,13 @@ AGENT = ("H2H-Tennis-perso/1.0 (https://github.com/"
          + os.environ.get("GITHUB_REPOSITORY", "denzelkurt-maker/h2h-tennis")
          + "; collecteur personnel non commercial) python-urllib")
 BUDGET_WIKI = 500   # pages de double lues au plus par passage (rattrapage étalé)
+TML_URLS = ["https://stats.tennismylife.org/data/{annee}.csv",
+            "https://stats.tennismylife.org/data/{annee}_challenger.csv",
+            "https://stats.tennismylife.org/data/atp_quali/{annee}_atp_quali.csv"]
+TML_ITERATIONS = 600_000   # dérivation de clé volontairement lente (PBKDF2-SHA256)
 
 # Présentation du dépôt, réécrite à chaque passage (attribution exigée par les licences)
-README = "# H2H Tennis\n\nApplication personnelle et non commerciale de statistiques de tennis masculin (ATP, Challenger, ITF) : face-à-face, fiches joueurs, bilans.\n\n## Fonctionnement\n\n- `collecteur.py` construit chaque nuit les fichiers de `donnees/` à partir des sources ci-dessous (planification : `.github/workflows/collecte.yml`).\n- `rapport/rapport.md` décrit la dernière collecte (chiffres, alertes, erreurs).\n- `etat/` conserve une copie compacte de l'historique et le cache des tableaux Wikipédia.\n\n## Sources et licences\n\n| Source | Usage | Licence |\n|---|---|---|\n| Jeff Sackmann, [tennis_atp](https://github.com/JeffSackmann/tennis_atp), via la copie [Aneeshers/tennis-sackmann-archive](https://github.com/Aneeshers/tennis-sackmann-archive) | Historique des matchs, joueurs, classements jusqu'à juin 2026 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |\n| [Valuebetennis](https://www.valuebetennis.com/en/donnees.htm), « Tennis results and odds since 2021 » | Matchs récents, mis à jour chaque jour | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |\n| [Wikipédia](https://en.wikipedia.org) (anglais), pages de tableaux de double | Doubles ATP et Challenger depuis 2021 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |\n| [Kaggle, dissfya/atp-tennis-2000-2023daily-pull](https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull) | Complément des scores du circuit ATP principal (facultatif) | À confirmer |\n\nLes fichiers de `donnees/` sont des œuvres dérivées de ces sources et sont partagés dans les mêmes conditions : usage non commercial, attribution, partage dans les mêmes conditions (CC BY-NC-SA 4.0).\n\nAucun lien avec l'ATP, l'ITF ou les tournois cités. Les noms de tournois sont utilisés à titre descriptif.\n"
+README = "# H2H Tennis\n\nApplication personnelle et non commerciale de statistiques de tennis masculin (ATP, Challenger, ITF) : face-à-face, fiches joueurs, bilans.\n\n## Fonctionnement\n\n- `collecteur.py` construit chaque nuit les fichiers de `donnees/` à partir des sources ci-dessous (planification : `.github/workflows/collecte.yml`).\n- `rapport/rapport.md` décrit la dernière collecte (chiffres, alertes, erreurs).\n- `etat/` conserve une copie compacte de l'historique et le cache des tableaux Wikipédia.\n\n## Sources et licences\n\n| Source | Usage | Licence |\n|---|---|---|\n| Jeff Sackmann, [tennis_atp](https://github.com/JeffSackmann/tennis_atp), via la copie [Aneeshers/tennis-sackmann-archive](https://github.com/Aneeshers/tennis-sackmann-archive) | Historique des matchs, statistiques de match (aces, breaks…), joueurs, classements jusqu'à juin 2026 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |\n| [Valuebetennis](https://www.valuebetennis.com/en/donnees.htm), « Tennis results and odds since 2021 » | Matchs récents, mis à jour chaque jour | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |\n| [Wikipédia](https://en.wikipedia.org) (anglais), pages de tableaux de double | Doubles ATP et Challenger depuis 2021 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |\n| [Kaggle, dissfya/atp-tennis-2000-2023daily-pull](https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull) | Scores, catégorie 250/500, intérieur ou extérieur, classement au moment du match (circuit principal) | CC0 (domaine public) |\n| [TennisMyLife](https://stats.tennismylife.org/tennis-match-database) | Scores complets et statistiques ATP et Challenger depuis juin 2026, **fichiers `donnees/tml-*.json` chiffrés** (usage personnel du propriétaire ; la redistribution des CSV n'est pas autorisée) | Usage personnel et non commercial |\n\nLes fichiers de `donnees/` (hors `tml-*.json`, chiffrés et non partagés) sont des œuvres dérivées de ces sources et sont partagés dans les mêmes conditions : usage non commercial, attribution, partage dans les mêmes conditions (CC BY-NC-SA 4.0).\n\nAucun lien avec l'ATP, l'ITF ou les tournois cités. Les noms de tournois sont utilisés à titre descriptif.\n"
 
 RACINE = os.path.dirname(os.path.abspath(__file__))
 DONNEES = os.path.join(RACINE, "donnees")
@@ -67,14 +77,55 @@ ETAT = os.path.join(RACINE, "etat")
 RAPPORT = os.path.join(RACINE, "rapport")
 
 # Codes de niveau utilisés par l'appli
-# G Grand Chelem, M Masters 1000, A ATP 250/500, F Finales ATP, D Coupe Davis,
+# G Grand Chelem, M Masters 1000, A ATP 250/500 (détail dans « categorie »), F Finales ATP,
+# N NextGen Finals, D Coupe Davis,
 # O Jeux olympiques, C Challenger, I15 / I25 / I ITF masculin
 NIVEAUX = {"G": "Grand Chelem", "M": "Masters 1000", "A": "ATP 250/500",
            "F": "Finales ATP", "D": "Coupe Davis", "O": "Jeux olympiques",
-           "C": "Challenger", "I15": "ITF M15", "I25": "ITF M25", "I": "ITF"}
+           "C": "Challenger", "I15": "ITF M15", "I25": "ITF M25", "I": "ITF",
+           "N": "NextGen Finals"}
 
 # Drapeaux d'un match (somme de bits)
-COMPLET, ABANDON, FORFAIT, SRC_VBT, SRC_KAGGLE, SRC_WIKI = 1, 2, 4, 8, 16, 32
+COMPLET, ABANDON, FORFAIT, SRC_VBT, SRC_KAGGLE, SRC_WIKI, SRC_TML = 1, 2, 4, 8, 16, 32, 64
+
+# Statistiques d'un match (fichiers stats-simple-*.json et complément chiffré),
+# même ordre que l'archive Sackmann ; « g_ » = gagnant, « p_ » = perdant
+COLONNES_STATS = ["minutes", "ace", "df", "svpt", "1stIn", "1stWon", "2ndWon", "SvGms", "bpSaved", "bpFaced"]
+CHAMPS_STATS = (["minutes"] + [f"w_{x}" for x in COLONNES_STATS[1:]] + [f"l_{x}" for x in COLONNES_STATS[1:]]
+                + ["winner_rank", "winner_rank_points", "loser_rank", "loser_rank_points"])
+NOMS_STATS = (["minutes"] + [f"g_{x}" for x in COLONNES_STATS[1:]] + [f"p_{x}" for x in COLONNES_STATS[1:]]
+              + ["g_rang", "g_points", "p_rang", "p_points"])
+
+
+def stats_ligne(r):
+    """Statistiques d'une ligne au format Sackmann / TennisMyLife, ou None si vide."""
+    vals = []
+    for champ in CHAMPS_STATS:
+        v = (r.get(champ) or "").strip()
+        try:
+            vals.append(int(float(v)) if v not in ("", "NA", "nan") else None)
+        except ValueError:
+            vals.append(None)
+    return vals if any(v is not None for v in vals) else None
+
+
+def niveau_par_nom(niveau, nom):
+    """Corrige les classements erronés de l'archive (ex. Finales ATP 2023 en « A »,
+    NextGen Finals en « F ») d'après le nom du tournoi."""
+    n = (nom or "").lower()
+    if "next gen" in n or "nextgen" in n:
+        return "N"
+    if "olympic" in n and niveau in ("A", "O"):
+        return "O"
+    if niveau in ("A", "F", "M") and (re.search(r"\b(atp|tour|nitto|barclays)\b.*\bfinals\b", n)
+                                     or "masters cup" in n or n.strip() == "atp finals"):
+        return "F"
+    return niveau
+
+
+def lundi(jour):
+    d = dt.date.fromisoformat(jour)
+    return (d - dt.timedelta(days=d.weekday())).isoformat()
 
 
 class Journal:
@@ -259,6 +310,7 @@ class Base:
         self.doubles = []
         self.classements = {}        # annee -> {id: rang}
         self.activite = {}           # id -> date du dernier tournoi (Sackmann)
+        self.recents = {}            # id -> [lundi, rang, points, source] : dernier classement officiel connu
 
     def ajouter_joueur(self, pid, nom, pays=None, main=None, taille=None, naissance=None):
         if pid in self.joueurs:
@@ -355,7 +407,8 @@ def charger_sackmann(base, dossier):
                 if not debut:
                     continue
                 fin = max(fin, debut)
-                niveau = niveau_sackmann(r["tourney_level"], r["tourney_name"], genre)
+                niveau = niveau_par_nom(niveau_sackmann(r["tourney_level"], r["tourney_name"], genre),
+                                        r["tourney_name"])
                 tour = tour_relatif(r["round"], r["draw_size"])
                 # les fichiers qual_chall contiennent aussi les qualifications ATP
                 if tid not in base.tournois:
@@ -364,7 +417,8 @@ def charger_sackmann(base, dossier):
                         "nom": r["tourney_name"], "niveau": niveau, "surface": surface,
                         "salle": 1 if surface == "Carpet" else None, "debut": debut,
                         "bo": int(r["best_of"]) if (r["best_of"] or "").isdigit() else 3,
-                        "annee": int(debut[:4])}
+                        "annee": int(debut[:4]),
+                        "cat": niveau[1:] if niveau.startswith("I") and len(niveau) > 1 else None}
                 for cote in ("winner", "loser"):
                     pid = r[f"{cote}_id"]
                     if pid and ("s" + pid) not in base.joueurs:
@@ -383,8 +437,12 @@ def charger_sackmann(base, dossier):
                 vus.add(cle)
                 bo = base.tournois[tid]["bo"]
                 score, drap = analyser_score(r["score"], bo)
-                base.simples.append({"t": tid, "tour": tour, "g": g, "p": p_, "score": score,
-                                     "date": None, "dr": drap, "debut": debut})
+                m = {"t": tid, "tour": tour, "g": g, "p": p_, "score": score,
+                     "date": None, "dr": drap, "debut": debut}
+                st = stats_ligne(r)
+                if st:
+                    m["st"] = st
+                base.simples.append(m)
                 for pid in (g, p_):
                     base.activite[pid] = max(base.activite.get(pid, ""), debut)
     for pid, j in base.joueurs.items():
@@ -418,6 +476,21 @@ def classements_fin_annee(base, dossier):
                     derniers[annee][1][pid] = int(rang)
     for annee, (d, rangs) in sorted(derniers.items()):
         base.classements[str(annee)] = {"date": iso(d), "rangs": rangs}
+    # dernier classement complet publié dans l'archive (tous les joueurs classés)
+    chemin = os.path.join(dossier, "atp_rankings_current.csv")
+    if os.path.exists(chemin):
+        lignes = []
+        with open(chemin, encoding="utf-8", errors="replace") as fh:
+            for r in csv.reader(fh):
+                if r and r[0].isdigit():
+                    lignes.append(r)
+        if lignes:
+            d = max(r[0] for r in lignes)
+            for r in lignes:
+                if r[0] == d and ("s" + r[2]) in actifs:
+                    pts = int(r[3]) if len(r) > 3 and r[3].isdigit() else None
+                    base.recents["s" + r[2]] = [iso(d), int(r[1]), pts, "sackmann"]
+            J.info(f"Dernier classement complet de l'archive : {iso(d)} ({len(base.recents)} joueurs)")
     J.info("Classements : " + ", ".join(f"{a} ({v['date']})" for a, v in base.classements.items()))
 
 
@@ -541,6 +614,7 @@ def integrer_vbt(base, lignes, fin_sackmann, etat_corresp):
         if niveau is None:
             stats["categorie_inconnue"] += 1
             continue
+        niveau = niveau_par_nom(niveau, r["tournoi"])
         if niveau == "D":
             stats["coupe_davis_ignoree"] += 1
             continue
@@ -571,7 +645,8 @@ def integrer_vbt(base, lignes, fin_sackmann, etat_corresp):
         if tid not in base.tournois:
             base.tournois[tid] = {"nom": re.sub(r"\s+-\s+.*$", "", r["tournoi"]) if niveau in "GMA" else r["tournoi"],
                                   "niveau": niveau, "surface": surface, "salle": salle,
-                                  "debut": jour, "bo": 3, "annee": int(jour[:4])}
+                                  "debut": jour, "bo": 3, "annee": int(jour[:4]),
+                                  "cat": niveau[1:] if niveau.startswith("I") and len(niveau) > 1 else None}
         t = base.tournois[tid]
         t["debut"] = min(t["debut"], jour)
         if niveau == "G":
@@ -689,6 +764,132 @@ def completer_scores_kaggle(base, fichier, fin_sackmann):
                 stats["scores_completes"] += 1
     J.chiffres["kaggle"] = dict(stats)
     J.info("Kaggle : " + ", ".join(f"{k}={v}" for k, v in sorted(stats.items())))
+
+
+SERIES_KAGGLE = {"atp250": "250", "international": "250", "atp500": "500", "international gold": "500"}
+
+
+def enrichir_kaggle(base, fichier, fin_sackmann):
+    """Circuit principal : catégorie ATP 250 / 500, intérieur ou extérieur, et classement
+    officiel au moment du match (colonnes Series, Court, Rank, Pts de Kaggle, CC0)."""
+    if not fichier:
+        return
+    stats = Counter()
+    index = defaultdict(lambda: defaultdict(set))   # tid -> jeton du nom -> {id}
+    jetons = {}
+    par_debut = defaultdict(list)
+    for m in base.simples:
+        t = base.tournois[m["t"]]
+        if t["niveau"] in ("G", "M", "A", "F") and not m["tour"].startswith("Q") and t["annee"] >= DEBUT_ATP:
+            for pid in (m["g"], m["p"]):
+                if pid not in jetons:
+                    jetons[pid] = set(cle_nom(base.joueurs[pid]["nom"]).split())
+                for tok in jetons[pid]:
+                    index[m["t"]][tok].add(pid)
+    for tid in index:
+        par_debut[base.tournois[tid]["debut"]].append(tid)
+
+    def cherche(tid, nk):
+        toks, ini = nk
+        if not toks:
+            return None
+        cands = None
+        for tok in toks:
+            s = index[tid].get(tok, set())
+            cands = s if cands is None else cands & s
+            if not cands:
+                return None
+        retenus = [pid for pid in cands
+                   if not ini or not (jetons[pid] - set(toks)) or any(x.startswith(ini) for x in jetons[pid] - set(toks))]
+        return retenus[0] if len(retenus) == 1 else None
+
+    # les lignes Kaggle sont d'abord regroupées par tournoi : tout le tournoi est rattaché
+    # au tournoi de notre base qui partage le plus de matchs (évite de confondre deux
+    # tournois proches dans le temps, ex. Halle et les qualifications de Wimbledon)
+    groupes = defaultdict(list)
+    with open(fichier, encoding="utf-8", errors="replace") as f:
+        for r in csv.DictReader(f):
+            d = (r.get("Date") or "")[:10]
+            if d[:4] < str(DEBUT_ATP) or len(d) < 10:
+                continue
+            try:
+                r["_jour"] = dt.date.fromisoformat(d)
+            except ValueError:
+                continue
+            groupes[((r.get("Tournament") or "").strip(), d[:4])].append(r)
+    # un même nom peut servir à deux tournois la même année (ex. « European Open » :
+    # Hambourg en juillet, Anvers en octobre) : on coupe quand deux dates sont à plus de 10 jours
+    decoupes = []
+    for lignes in groupes.values():
+        lignes.sort(key=lambda r: r["_jour"])
+        bloc = [lignes[0]]
+        for r in lignes[1:]:
+            if (r["_jour"] - bloc[-1]["_jour"]).days > 10:
+                decoupes.append(bloc)
+                bloc = []
+            bloc.append(r)
+        decoupes.append(bloc)
+    votes = defaultdict(Counter)
+    lignes_rangs = []          # (tid, id, rang, points)
+    premiere = {}              # tid -> première date Kaggle (début réel du tableau principal)
+    for lignes in decoupes:
+        noms = [(nom_kaggle(r["Player_1"]), nom_kaggle(r["Player_2"])) for r in lignes]
+        choix = Counter()
+        for r, (k1, k2) in zip(lignes, noms):
+            for decal in range(-2, 21):
+                for tid in par_debut.get((r["_jour"] - dt.timedelta(days=decal)).isoformat(), []):
+                    a, b = cherche(tid, k1), cherche(tid, k2)
+                    if a and b and a != b:
+                        choix[tid] += 1
+        if not choix:
+            stats["lignes_non_rapprochees"] += len(lignes)
+            continue
+        tid, n = choix.most_common(1)[0]
+        for r, (k1, k2) in zip(lignes, noms):
+            a, b = cherche(tid, k1), cherche(tid, k2)
+            if not (a and b and a != b):
+                stats["lignes_non_rapprochees"] += 1
+                continue
+            stats["lignes_rapprochees"] += 1
+            d = r["_jour"].isoformat()
+            votes[tid][((r.get("Series") or "").strip().lower(), (r.get("Court") or "").strip().lower())] += 1
+            premiere[tid] = min(premiere.get(tid, d), d)
+            for pid, rk, pts in ((a, r.get("Rank_1"), r.get("Pts_1")), (b, r.get("Rank_2"), r.get("Pts_2"))):
+                try:
+                    rk, pts = int(float(rk)), int(float(pts))
+                except (TypeError, ValueError):
+                    continue
+                if rk > 0:
+                    lignes_rangs.append((tid, pid, rk, pts if pts > 0 else None))
+    # classement d'entrée : semaine du premier match du tableau principal
+    rangs = {}
+    for tid, pid, rk, pts in lignes_rangs:
+        semaine = lundi(premiere[tid])
+        if pid not in rangs or semaine >= rangs[pid][0]:
+            rangs[pid] = [semaine, rk, pts]
+    for tid, v in votes.items():
+        (serie, court), _ = v.most_common(1)[0]
+        t = base.tournois[tid]
+        if t["niveau"] == "A" and any(x in t["nom"].lower() for x in ("laver cup", "atp cup", "united cup")):
+            t["cat"] = "equipes"
+        elif t["niveau"] == "A" and serie in SERIES_KAGGLE:
+            t["cat"] = SERIES_KAGGLE[serie]
+            stats["tournois_250_500"] += 1
+        if court in ("indoor", "outdoor") and t.get("salle") is None:
+            t["salle"] = 1 if court == "indoor" else 0
+            stats["tournois_salle_renseignee"] += 1
+    for pid, (semaine, rk, pts) in rangs.items():
+        cur = base.recents.get(pid)
+        if cur is None or semaine > cur[0]:
+            base.recents[pid] = [semaine, rk, pts, "kaggle"]
+            stats["classements_recents_kaggle"] += 1
+    for t in base.tournois.values():
+        if t["niveau"] == "A" and not t.get("cat") and any(x in t["nom"].lower() for x in ("laver cup", "atp cup", "united cup")):
+            t["cat"] = "equipes"
+    sans = sum(1 for t in base.tournois.values() if t["niveau"] == "A" and t["annee"] >= DEBUT_ATP and not t.get("cat"))
+    stats["tournois_A_sans_categorie"] = sans
+    J.chiffres["kaggle_enrichissement"] = dict(stats)
+    J.info("Kaggle (catégories, salle, classements) : " + ", ".join(f"{k}={v}" for k, v in sorted(stats.items())))
 
 
 # ---------------------------------------------------------------- Wikipédia
@@ -1194,12 +1395,249 @@ def integrer_doubles(base, etat_wiki, etat_corresp):
     J.info("Doubles intégrés : " + ", ".join(f"{k}={v}" for k, v in sorted(stats.items())))
 
 
+# ---------------------------------------------------------------- TennisMyLife (chiffré)
+def charger_tml(fin_sackmann, fichiers_locaux=None):
+    """Lignes TennisMyLife (ATP, Challenger, qualifications) depuis l'année de fin de l'archive."""
+    lignes = []
+    if fichiers_locaux:
+        sources = [(f, None, True) for f in fichiers_locaux]
+    else:
+        an = dt.date.today().year
+        sources = [(None, u.format(annee=a), a == an)
+                   for a in range(int(fin_sackmann[:4]), an + 1) for u in TML_URLS]
+    for chemin, url, important in sources:
+        nom = os.path.basename(chemin or url)
+        try:
+            brut = open(chemin, "rb").read() if chemin else telecharger(url)
+            n = 0
+            for r in csv.DictReader(io.StringIO(brut.decode("utf-8-sig", errors="replace"))):
+                r["_fichier"] = nom
+                lignes.append(r)
+                n += 1
+            J.info(f"TennisMyLife {nom} : {n} matchs")
+        except Exception as e:  # noqa: BLE001
+            (J.alerte if important else J.info)(f"TennisMyLife {nom} : {e}")
+    return lignes
+
+
+def integrer_tml(base, lignes, fin_sackmann):
+    """Prépare le complément chiffré : scores et statistiques des matchs déjà publiés,
+    matchs absents des autres sources. Rien n'est ajouté à la base publique."""
+    import difflib
+    stats = Counter()
+    debut_fenetre = (dt.date.fromisoformat(fin_sackmann) - dt.timedelta(days=7)).isoformat()
+    limite_index = (dt.date.fromisoformat(fin_sackmann) - dt.timedelta(days=30)).isoformat()
+    paires = defaultdict(list)
+    dernier = {}
+    for i, m in enumerate(base.simples):
+        for pid in (m["g"], m["p"]):
+            dernier[pid] = max(dernier.get(pid, ""), m["debut"])
+        if m["debut"] >= limite_index:
+            paires[frozenset((m["g"], m["p"]))].append(i)
+    seuil_actif = (dt.date.fromisoformat(fin_sackmann) - dt.timedelta(days=3 * 365)).isoformat()
+    par_mot = defaultdict(set)
+    for pid, j in base.joueurs.items():
+        if dernier.get(pid, "") >= seuil_actif:
+            for mot in cle_nom(j["nom"]).split():
+                if len(mot) >= 3:
+                    par_mot[mot].add(pid)
+    corresp, nouveaux = {}, {}
+
+    def joueur(r, cote):
+        tml_id = (r.get(f"{cote}_id") or "").strip()
+        nom = (r.get(f"{cote}_name") or "").strip()
+        cle_c = tml_id or nom
+        if cle_c in corresp:
+            return corresp[cle_c]
+        cle = cle_nom(nom)
+        cands = base.par_cle.get(cle, [])
+        if len(cands) == 1:
+            pid = cands[0]
+            stats["joueurs_rapproches"] += 1
+        elif cands:
+            pid = max(cands, key=lambda c: dernier.get(c, ""))
+            stats["joueurs_homonymes_par_activite"] += 1
+        else:
+            mots = set(cle.split())
+            vus = set()
+            for mot in mots:
+                vus |= par_mot.get(mot, set())
+            retenus = []
+            for c in vus:
+                cm = cle_nom(base.joueurs[c]["nom"])
+                commun = mots & set(cm.split())
+                if (len(commun) >= 2 and (mots <= set(cm.split()) or set(cm.split()) <= mots)) or \
+                        (commun and difflib.SequenceMatcher(None, cle, cm).ratio() >= 0.88):
+                    retenus.append(c)
+            if len(retenus) == 1:
+                pid = retenus[0]
+                stats["joueurs_rapproches_orthographe"] += 1
+            else:
+                pid = "t" + re.sub(r"[^A-Za-z0-9]", "", tml_id or cle.replace(" ", "_"))
+                stats["joueurs_nouveaux"] += 1
+                taille = (r.get(f"{cote}_ht") or "").strip()
+                try:
+                    taille = int(float(taille)) if taille else None
+                except ValueError:
+                    taille = None
+                main = (r.get(f"{cote}_hand") or "").strip()
+                nouveaux[pid] = [nom, (r.get(f"{cote}_ioc") or "").strip() or None,
+                                 main if main in ("R", "L") else None, taille, None]
+        corresp[cle_c] = pid
+        return pid
+
+    complements = defaultdict(list)
+    seuls = []
+    vote_tournoi = defaultdict(Counter)
+    classements = {}
+    salles = {}
+    for r in lignes:
+        debut = iso((r.get("tourney_date") or "").strip()[:8])
+        if not debut or debut < debut_fenetre:
+            stats["avant_fenetre"] += 1
+            continue
+        nom_t = (r.get("tourney_name") or "").strip()
+        fichier = r.get("_fichier", "")
+        if "challenger" in fichier.lower():
+            niveau = "C"
+        else:
+            niveau = niveau_par_nom(niveau_sackmann((r.get("tourney_level") or "").strip(), nom_t, "principal"), nom_t)
+        if niveau == "D" or (r.get("tourney_level") or "").strip() == "D":
+            stats["coupe_davis_ignoree"] += 1
+            continue
+        tour = tour_relatif((r.get("round") or "").strip(), r.get("draw_size"))
+        if "quali" in fichier.lower() and not tour.startswith("Q"):
+            tour = "Q" + tour[0] if tour[:1].isdigit() else tour
+        try:
+            bo = int(float(r.get("best_of") or 3))
+        except ValueError:
+            bo = 3
+        g, p = joueur(r, "winner"), joueur(r, "loser")
+        sc, drap = analyser_score(r.get("score"), bo)
+        drap |= SRC_TML
+        st = stats_ligne(r)
+        semaine = lundi(debut)
+        for pid, rk, pts in ((g, r.get("winner_rank"), r.get("winner_rank_points")),
+                             (p, r.get("loser_rank"), r.get("loser_rank_points"))):
+            try:
+                rk = int(float(rk))
+            except (TypeError, ValueError):
+                continue
+            try:
+                pts = int(float(pts))
+            except (TypeError, ValueError):
+                pts = None
+            if rk > 0 and (pid not in classements or semaine >= classements[pid][0]):
+                classements[pid] = [semaine, rk, pts]
+        trouve = None
+        for i in paires.get(frozenset((g, p)), []):
+            m = base.simples[i]
+            jour = (m["date"] or m["debut"])[:10]
+            if -3 <= (dt.date.fromisoformat(jour) - dt.date.fromisoformat(debut)).days <= 20:
+                trouve = i
+                break
+        tml_tid = "t" + re.sub(r"[^A-Za-z0-9-]", "", (r.get("tourney_id") or nom_t + debut))
+        indoor = (r.get("indoor") or "").strip().upper()
+        if trouve is not None:
+            m = base.simples[trouve]
+            vote_tournoi[tml_tid][m["t"]] += 1
+            if indoor in ("I", "O") and base.tournois[m["t"]].get("salle") is None:
+                salles[m["t"]] = 1 if indoor == "I" else 0
+            if not m["dr"] & (SRC_VBT | SRC_WIKI):
+                stats["deja_dans_archive"] += 1
+                continue
+            if m["g"] != g:
+                stats["vainqueur_different_ignore"] += 1
+                continue
+            nouveau_score = None
+            if drap & (COMPLET | ABANDON | FORFAIT) and not m["dr"] & COMPLET:
+                nouveau_score = sc
+                stats["scores_completes"] += 1
+            if st:
+                stats["statistiques_ajoutees"] += 1
+            if nouveau_score is None and not st:
+                continue
+            annee = base.tournois[m["t"]]["annee"]
+            complements[annee].append([m["t"], m["g"], m["p"], nouveau_score,
+                                       drap if nouveau_score is not None else None, st])
+        else:
+            surface = (r.get("surface") or "").strip() or None
+            seuls.append((tml_tid, [nom_t, niveau, surface, 1 if indoor == "I" else (0 if indoor == "O" else None),
+                                    debut, bo, None], [tour, g, p, sc, None, drap, st], niveau))
+    # un match absent des autres sources est rattaché au tournoi public correspondant s'il existe
+    resultat = defaultdict(lambda: {"tournois": {}, "joueurs": {}, "complements": [], "matchs": [],
+                                    "classements": {}})
+    for annee, liste in complements.items():
+        resultat[annee]["complements"] = liste
+    for tml_tid, t, ligne, niveau in seuls:
+        tid = vote_tournoi[tml_tid].most_common(1)[0][0] if vote_tournoi.get(tml_tid) else tml_tid
+        annee = base.tournois[tid]["annee"] if tid in base.tournois else int(t[4][:4])
+        res = resultat[annee]
+        if tid not in base.tournois and tid not in res["tournois"]:
+            res["tournois"][tid] = t
+        elif tid in res["tournois"]:
+            res["tournois"][tid][4] = min(res["tournois"][tid][4], t[4])
+        for pid in (ligne[1], ligne[2]):
+            if pid in nouveaux:
+                res["joueurs"][pid] = nouveaux[pid]
+        res["matchs"].append([tid] + ligne)
+        stats["matchs_absents_ailleurs_" + niveau] += 1
+    if resultat:
+        an = max(resultat)
+        resultat[an]["classements"] = classements
+        resultat[an]["salles"] = salles
+        stats["tournois_salle_completee"] = len(salles)
+    J.chiffres["tml"] = dict(stats)
+    J.info("TennisMyLife : " + ", ".join(f"{k}={v}" for k, v in sorted(stats.items())))
+    return dict(resultat)
+
+
+def chiffrer(objet, code, sel):
+    """AES-256-GCM, clé = PBKDF2-SHA256(code, sel, TML_ITERATIONS). Contenu : JSON compressé (gzip)."""
+    import base64
+    import hashlib
+    import secrets
+    from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+    cle = hashlib.pbkdf2_hmac("sha256", code.encode("utf-8"), sel, TML_ITERATIONS, 32)
+    iv = secrets.token_bytes(12)
+    clair = gzip.compress(json.dumps(objet, ensure_ascii=False, separators=(",", ":")).encode("utf-8"), mtime=0)
+    b64 = lambda x: base64.b64encode(x).decode("ascii")  # noqa: E731
+    return {"format": "h2h-tml-1", "algo": "AES-256-GCM", "kdf": "PBKDF2-SHA256",
+            "iterations": TML_ITERATIONS, "sel": b64(sel), "iv": b64(iv), "contenu": "json+gzip",
+            "donnees": b64(AESGCM(cle).encrypt(iv, clair, None))}
+
+
+def ecrire_tml(resultat, code):
+    """Écrit donnees/tml-AAAA.json (chiffré). Renvoie la liste des fichiers écrits."""
+    import secrets
+    chemin_sel = os.path.join(ETAT, "tml-sel.txt")
+    sel_hex = (lire_texte(chemin_sel) or "").strip()
+    if len(sel_hex) != 32:
+        sel_hex = secrets.token_hex(16)
+        os.makedirs(ETAT, exist_ok=True)
+        with open(chemin_sel, "w", encoding="utf-8") as f:
+            f.write(sel_hex + "\n")
+    sel = bytes.fromhex(sel_hex)
+    ecrits = []
+    for annee, contenu in sorted(resultat.items()):
+        nom = f"tml-{annee}.json"
+        contenu = dict(contenu, colonnes_tournois=["nom", "niveau", "surface", "salle", "debut", "bo", "categorie"],
+                       colonnes_joueurs=["nom", "pays", "main", "taille_cm", "naissance"],
+                       colonnes_complements=["tournoi", "gagnant", "perdant", "score", "drapeaux", "stats"],
+                       colonnes_matchs=["tournoi", "tour", "gagnant", "perdant", "score", "date", "drapeaux", "stats"],
+                       colonnes_classements=["semaine", "rang", "points"], colonnes_stats=NOMS_STATS,
+                       note_salles="tournoi public -> 1 en salle, 0 en extérieur (quand la base publique l'ignore)")
+        ecrire_json(os.path.join(DONNEES, nom), chiffrer(contenu, code, sel), compact=False)
+        ecrits.append(nom)
+    return ecrits
+
+
 # ---------------------------------------------------------------- écriture
 ORDRE_TOURS = {"Q1": 0, "Q2": 1, "Q3": 2, "Q4": 3, "1T": 10, "2T": 11, "3T": 12, "4T": 13, "5T": 14,
                "RR": 15, "QF": 20, "SF": 21, "BR": 22, "F": 23}
 
 
-def ecrire_donnees(base):
+def ecrire_donnees(base, garder=()):
     """Années passées : un fichier par année. Année en cours : un fichier par mois,
     pour que seuls de petits fichiers changent chaque nuit."""
     os.makedirs(DONNEES, exist_ok=True)
@@ -1222,7 +1660,8 @@ def ecrire_donnees(base):
             idx = {tid: i for i, tid in enumerate(tids)}
             tournois = [[tid, base.tournois[tid]["nom"], base.tournois[tid]["niveau"],
                          base.tournois[tid]["surface"], base.tournois[tid]["salle"],
-                         base.tournois[tid]["debut"], base.tournois[tid]["bo"]] for tid in tids]
+                         base.tournois[tid]["debut"], base.tournois[tid]["bo"],
+                         base.tournois[tid].get("cat")] for tid in tids]
             lignes = []
             for m in liste:
                 lignes.append([idx[m["t"]], m["tour"], m["g"], m["p"], m["score"], m["date"], m["dr"]])
@@ -1230,11 +1669,19 @@ def ecrire_donnees(base):
                 utilises.update(m["p"].split("+"))
             nom_fichier = f"{genre}-{annee}.json"
             ecrire_json(os.path.join(DONNEES, nom_fichier),
-                        {"colonnes_tournois": ["id", "nom", "niveau", "surface", "salle", "debut", "bo"],
+                        {"colonnes_tournois": ["id", "nom", "niveau", "surface", "salle", "debut", "bo", "categorie"],
                          "colonnes_matchs": ["tournoi", "tour", "gagnant", "perdant", "score", "date", "drapeaux"],
                          "tournois": tournois, "matchs": lignes})
             ecrits.add(nom_fichier)
             resume.setdefault(genre, {})[str(annee)] = len(lignes)
+            # statistiques de match (archive Sackmann), alignées ligne à ligne sur le fichier des matchs
+            st = [m.get("st") for m in liste]
+            if any(st):
+                nom_stats = f"stats-{genre}-{annee}.json"
+                ecrire_json(os.path.join(DONNEES, nom_stats), {"fichier_matchs": nom_fichier,
+                                                               "colonnes": NOMS_STATS, "stats": st})
+                ecrits.add(nom_stats)
+                resume.setdefault("stats", {})[str(annee)] = sum(1 for x in st if x)
     colonnes = ["nom", "pays", "main", "taille_cm", "naissance"]
     joueurs = {pid: [j["nom"], j["pays"], j["main"], j["taille"], j["naissance"]]
                for pid, j in base.joueurs.items() if pid in utilises}
@@ -1248,6 +1695,15 @@ def ecrire_donnees(base):
                    for a, v in base.classements.items()}
     ecrire_json(os.path.join(DONNEES, "classements-fin-annee.json"), classements)
     ecrits.add("classements-fin-annee.json")
+    ecrire_json(os.path.join(DONNEES, "classements-recents.json"),
+                {"colonnes": ["semaine", "rang", "points", "source"],
+                 "note": "dernier classement officiel connu de chaque joueur : liste complète de l'archive, "
+                         "puis classement d'entrée dans un tournoi du circuit principal (Kaggle)",
+                 "joueurs": {p: v for p, v in sorted(base.recents.items()) if p in utilises}})
+    ecrits.add("classements-recents.json")
+    for nom_fichier in garder:
+        if os.path.exists(os.path.join(DONNEES, nom_fichier)):
+            ecrits.add(nom_fichier)
     # ménage : fichiers d'une organisation précédente (ex. mois devenus année)
     for nom_fichier in os.listdir(DONNEES):
         if nom_fichier.endswith(".json") and nom_fichier not in ecrits | {"meta.json", "index.json"}:
@@ -1270,16 +1726,25 @@ def ecrire_meta(resume, nb_joueurs, fin_sackmann):
         "matchs": resume, "joueurs": nb_joueurs,
         "niveaux": NIVEAUX,
         "drapeaux": {"1": "score complet", "2": "abandon", "4": "forfait", "8": "source Valuebetennis",
-                     "16": "score Kaggle", "32": "source Wikipédia"},
+                     "16": "score Kaggle", "32": "source Wikipédia", "64": "TennisMyLife (complément chiffré)"},
+        "categories": {"A": "250, 500 ou equipes (Laver Cup, ATP Cup, United Cup) ; source Kaggle, Series",
+                       "I15/I25": "15 ou 25"},
+        "colonnes_stats": NOMS_STATS,
+        "fichiers_chiffres": "tml-AAAA.json : AES-256-GCM, clé PBKDF2-SHA256 du code personnel ; "
+                             "complements = scores et statistiques de matchs publiés (clé : tournoi + gagnant + perdant), "
+                             "matchs = matchs absents des autres sources",
         "sources": [
             {"nom": "Jeff Sackmann, tennis_atp (copie Aneeshers/tennis-sackmann-archive)",
              "licence": "CC BY-NC-SA 4.0", "lien": SACKMANN_DEPOT},
             {"nom": "Valuebetennis, Tennis results and odds since 2021", "licence": "CC BY 4.0",
              "lien": "https://www.valuebetennis.com/en/donnees.htm"},
-            {"nom": "Kaggle, dissfya/atp-tennis-2000-2023daily-pull", "licence": "à confirmer",
+            {"nom": "Kaggle, dissfya/atp-tennis-2000-2023daily-pull", "licence": "CC0 (domaine public)",
              "lien": "https://www.kaggle.com/datasets/" + KAGGLE_JEU},
             {"nom": "Wikipédia (en), tableaux de double", "licence": "CC BY-SA 4.0",
              "lien": "https://en.wikipedia.org"},
+            {"nom": "TennisMyLife, Tennis Match Database", "licence": "usage personnel et non commercial, "
+             "redistribution des CSV interdite : données chiffrées, réservées au propriétaire du dépôt",
+             "lien": "https://stats.tennismylife.org/tennis-match-database"},
         ],
     }
     ecrire_json(os.path.join(DONNEES, "meta.json"), meta, compact=False)
@@ -1314,6 +1779,8 @@ def main():
     ap.add_argument("--kaggle-local", help="fichier atp_tennis.csv (essais)")
     ap.add_argument("--sans-wikipedia", action="store_true")
     ap.add_argument("--wikipedia-complet", action="store_true", help="relire toutes les saisons")
+    ap.add_argument("--tml-local", nargs="*", help="fichiers TennisMyLife (essais)")
+    ap.add_argument("--couper-archive", help="essais : ignorer l'archive après cette date (AAAA-MM-JJ)")
     args = ap.parse_args()
 
     ok, erreur = True, None
@@ -1327,22 +1794,33 @@ def main():
                     etat_wiki[m.group(1)] = lire_json(os.path.join(ETAT, nom), {})
         base = Base()
         copie = os.path.join(ETAT, "historique-sackmann.json.gz")
+        h = None
         if os.path.exists(copie) and not args.sackmann_local:
-            # copie compacte faite au premier passage : l'archive n'est plus nécessaire
             with gzip.open(copie, "rt", encoding="utf-8") as f:
                 h = json.load(f)
+            if h.get("v", 1) < VERSION_COPIE:
+                J.info("Copie compacte d'une version précédente : relecture de l'archive (statistiques, classements)")
+                h = None
+        if h is not None:
+            # copie compacte faite au premier passage : l'archive n'est plus nécessaire
             for pid, j in h["joueurs"].items():
                 base.ajouter_joueur(pid, *j)
             base.tournois, base.simples = h["tournois"], h["simples"]
             base.classements, base.activite, fin = h["classements"], h["activite"], h["fin"]
+            base.recents = h.get("recents", {})
             J.info(f"Historique Sackmann relu depuis la copie du dépôt : {len(base.simples)} matchs")
         else:
             dossier = obtenir_sackmann(args.sackmann_local)
             fin = charger_sackmann(base, dossier)
+            if args.couper_archive:
+                base.simples = [m for m in base.simples if m["debut"] < args.couper_archive]
+                fin = max(m["debut"] for m in base.simples)
+                J.info(f"ESSAI : archive coupée au {args.couper_archive}")
             classements_fin_annee(base, dossier)
             os.makedirs(ETAT, exist_ok=True)
             with gzip.open(copie, "wt", encoding="utf-8") as f:
-                json.dump({"fin": fin, "classements": base.classements, "activite": base.activite,
+                json.dump({"v": VERSION_COPIE, "fin": fin, "classements": base.classements,
+                           "activite": base.activite, "recents": base.recents,
                            "joueurs": {p: [j["nom"], j["pays"], j["main"], j["taille"], j["naissance"]]
                                        for p, j in base.joueurs.items()},
                            "tournois": base.tournois, "simples": base.simples},
@@ -1350,9 +1828,11 @@ def main():
             J.info(f"Copie compacte de l'historique écrite ({os.path.getsize(copie) // 1024} Ko)")
         integrer_vbt(base, charger_vbt(args.vbt_local), fin, etat_corresp)
         try:
-            completer_scores_kaggle(base, obtenir_kaggle(args.kaggle_local), fin)
+            fichier_kaggle = obtenir_kaggle(args.kaggle_local)
+            completer_scores_kaggle(base, fichier_kaggle, fin)
+            enrichir_kaggle(base, fichier_kaggle, fin)
         except Exception as e:  # noqa: BLE001
-            J.alerte(f"Kaggle : {e}")
+            J.alerte(f"Kaggle : {e}\n{traceback.format_exc(limit=3)}")
         if not args.sans_wikipedia:
             try:
                 collecter_wikipedia(etat_wiki, toutes=args.wikipedia_complet)
@@ -1361,7 +1841,23 @@ def main():
             for annee, saison in etat_wiki.items():
                 ecrire_json(os.path.join(ETAT, f"wikipedia-doubles-{annee}.json"), saison)
         integrer_doubles(base, etat_wiki, etat_corresp)
-        resume, nb = ecrire_donnees(base)
+        # TennisMyLife : uniquement chiffré, jamais en clair dans le dépôt public
+        garder = [n for n in (os.listdir(DONNEES) if os.path.isdir(DONNEES) else [])
+                  if re.match(r"tml-\d{4}\.json$", n)]
+        code = os.environ.get("CODE_TML", "").strip()
+        if not code:
+            J.alerte("TennisMyLife : secret CODE_TML absent, étape sautée (rien n'est écrit en clair)")
+        else:
+            try:
+                import cryptography  # noqa: F401
+                resultat = integrer_tml(base, charger_tml(fin, args.tml_local), fin)
+                garder = sorted(set(garder) | set(ecrire_tml(resultat, code)))
+                J.chiffres["tml_fichiers"] = garder
+            except ImportError:
+                J.alerte("TennisMyLife : module cryptography absent, étape sautée")
+            except Exception as e:  # noqa: BLE001
+                J.alerte(f"TennisMyLife : {e}\n{traceback.format_exc(limit=3)}")
+        resume, nb = ecrire_donnees(base, garder)
         ecrire_meta(resume, nb, fin)
         J.chiffres["fichiers"] = resume
         J.info(f"Données écrites : {nb} joueurs")
