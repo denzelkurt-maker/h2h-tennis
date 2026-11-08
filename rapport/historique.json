@@ -321,5 +321,94 @@
     }
    }
   }
+ },
+ {
+  "date": "2026-11-08T21:50:35+00:00",
+  "etat": "OK",
+  "alertes": 0,
+  "duree_s": 290,
+  "chiffres": {
+   "vbt": {
+    "avant_fenetre": 15147,
+    "noms_rapproches": 2493,
+    "doublons_sackmann": 1041,
+    "noms_nouveaux": 456,
+    "ajoutes": 16056,
+    "score_complet": 4864,
+    "noms_rapproches_orthographe": 58,
+    "noms_homonymes_resolus_par_activite": 20,
+    "qualifs_itf_ignorees": 12811,
+    "categorie_inconnue": 189,
+    "coupe_davis_ignoree": 61
+   },
+   "kaggle": {
+    "lignes": 1177,
+    "non_rapproches": 124,
+    "rapproches": 1053,
+    "scores_completes": 432
+   },
+   "wikipedia": {
+    "pages_trouvees": 862,
+    "pages_lues": 500,
+    "matchs": 7863,
+    "saisons_incompletes": 1,
+    "saisons_reportees": 3,
+    "budget_restant": 0
+   },
+   "doubles": {
+    "noms_rapproches_orthographe": 95,
+    "matchs": 16371,
+    "joueurs_double_nouveaux": 323,
+    "sans_date": 35,
+    "date_ou_surface_par_simple": 104,
+    "noms_abreges_rapproches": 798
+   },
+   "fichiers": {
+    "simple": {
+     "2011": 9386,
+     "2012": 9666,
+     "2013": 9408,
+     "2014": 9094,
+     "2015": 9841,
+     "2016": 32640,
+     "2017": 30555,
+     "2018": 30162,
+     "2019": 28015,
+     "2020": 9336,
+     "2021": 22063,
+     "2022": 29239,
+     "2023": 31275,
+     "2024": 33000,
+     "2025": 32168,
+     "2026-01": 2078,
+     "2026-02": 2533,
+     "2026-03": 3228,
+     "2026-04": 2591,
+     "2026-05": 3060,
+     "2026-06": 3740,
+     "2026-07": 3057,
+     "2026-08": 3184,
+     "2026-09": 3091,
+     "2026-10": 2912,
+     "2026-11": 670
+    },
+    "double": {
+     "2023": 3308,
+     "2024": 4316,
+     "2025": 4340,
+     "2026-01": 480,
+     "2026-02": 408,
+     "2026-03": 481,
+     "2026-04": 422,
+     "2026-05": 400,
+     "2026-06": 505,
+     "2026-07": 417,
+     "2026-08": 377,
+     "2026-09": 398,
+     "2026-10": 408,
+     "2026-11": 111
+    }
+   }
+  }
  }
 ]
