@@ -1,0 +1,52 @@
+name: Contrôle de l'appli
+
+# Essais de l'appli et des données sur les machines de GitHub (gratuites pour un dépôt public) :
+# après chaque dépôt de l'appli, après chaque collecte, ou à la main (Run workflow).
+on:
+  push:
+    branches: [main]
+    paths: ["index.html", "controle.js", ".github/workflows/controle.yml"]
+  workflow_run:
+    workflows: ["Collecte H2H Tennis"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: controle
+  cancel-in-progress: true
+
+jobs:
+  controle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Navigateur d'essai
+        run: |
+          npm install --no-save --no-package-lock playwright@1.48.2
+          npx playwright install --with-deps chromium
+      - name: Contrôle
+        env:
+          CODE_TML: ${{ secrets.CODE_TML }}
+        run: |
+          python3 -m http.server 8000 >/dev/null 2>&1 &
+          sleep 2
+          node controle.js || echo "ECHEC=1" >> "$GITHUB_ENV"
+      - name: Enregistrer le compte rendu
+        run: |
+          git config user.name "controle-h2h"
+          git config user.email "actions@users.noreply.github.com"
+          git add rapport/controle
+          git diff --cached --quiet || git commit -q -m "Contrôle de l'appli"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 10; done
+      - name: Signaler un échec
+        if: env.ECHEC == '1'
+        run: exit 1
