@@ -1,6 +1,6 @@
 # Rapport de collecte H2H Tennis
 
-- Date (UTC) : 2026-11-08T23:50:39+00:00
+- Date (UTC) : 2026-11-09T06:14:03+00:00
 - Version du collecteur : 1.1.0
 - État : **OK**
 
@@ -8,9 +8,6 @@
 
 ```json
 {
- "sackmann_doublons_fusionnes": 37,
- "sackmann_matchs": 339936,
- "sackmann_fin": "2026-06-01",
  "exemples_orthographe": [
   [
    "Cagan Efe Tufekci",
@@ -223,20 +220,19 @@
   "tournois_A_sans_categorie": 3
  },
  "wikipedia": {
-  "pages_trouvees": 1323,
-  "pages_lues": 500,
-  "matchs": 7606,
-  "pages_sans_match": 8,
-  "saisons_incompletes": 1,
-  "budget_restant": 0
+  "pages_trouvees": 518,
+  "pages_lues": 91,
+  "matchs": 1247,
+  "pages_sans_match": 1,
+  "budget_restant": 409
  },
  "doubles": {
-  "matchs": 23184,
-  "joueurs_double_nouveaux": 337,
-  "noms_rapproches_orthographe": 111,
-  "sans_date": 66,
-  "date_ou_surface_par_simple": 172,
-  "noms_abreges_rapproches": 421
+  "matchs": 24431,
+  "joueurs_double_nouveaux": 361,
+  "noms_rapproches_orthographe": 117,
+  "sans_date": 69,
+  "date_ou_surface_par_simple": 183,
+  "noms_abreges_rapproches": 438
  },
  "tml": {
   "avant_fenetre": 5025,
@@ -310,7 +306,7 @@
    "2026-06": 681
   },
   "double": {
-   "2021": 2023,
+   "2021": 3270,
    "2022": 4009,
    "2023": 4089,
    "2024": 4316,
@@ -334,21 +330,16 @@
 ## Déroulement
 
 ```
-   0.4s  Copie compacte d'une version précédente : relecture de l'archive (statistiques, classements)
-   0.4s  Archive Sackmann : clonage partiel du dossier atp
-  10.8s  Sackmann : 339936 matchs, 10802 joueurs, dernier tournoi 2026-06-01
-  12.0s  Dernier classement complet de l'archive : 2026-06-08 (2253 joueurs)
-  12.0s  Classements : 2011 (2011-12-26), 2012 (2012-12-31), 2013 (2013-12-30), 2014 (2014-12-29), 2015 (2015-12-28), 2016 (2016-12-26), 2017 (2017-12-25), 2018 (2018-12-31), 2019 (2019-12-30), 2020 (2020-12-28), 2021 (2021-12-27), 2022 (2022-12-26), 2023 (2023-12-25), 2024 (2024-12-30), 2025 (2025-12-29), 2026 (2026-06-08)
-  18.7s  Copie compacte de l'historique écrite (10246 Ko)
-  19.0s  Valuebetennis 2026 : 45305 matchs ATP
-  19.5s  Valuebetennis intégré : ajoutes=16056, avant_fenetre=15147, categorie_inconnue=189, coupe_davis_ignoree=61, doublons_sackmann=1041, noms_homonymes_resolus_par_activite=20, noms_nouveaux=456, noms_rapproches=2493, noms_rapproches_orthographe=58, qualifs_itf_ignorees=12811, score_complet=4864
-  20.9s  Kaggle : lignes=1177, non_rapproches=124, rapproches=1053, scores_completes=432
-  22.3s  Kaggle (catégories, salle, classements) : classements_recents_kaggle=785, lignes_non_rapprochees=1186, lignes_rapprochees=37827, tournois_250_500=785, tournois_A_sans_categorie=3, tournois_salle_renseignee=970
- 353.9s  Wikipédia : budget_restant=0, matchs=7606, pages_lues=500, pages_sans_match=8, pages_trouvees=1323, saisons_incompletes=1
- 354.5s  Doubles intégrés : date_ou_surface_par_simple=172, joueurs_double_nouveaux=337, matchs=23184, noms_abreges_rapproches=421, noms_rapproches_orthographe=111, sans_date=66
- 355.8s  TennisMyLife 2026.csv : 2721 matchs
- 357.1s  TennisMyLife 2026_challenger.csv : 6909 matchs
- 358.1s  TennisMyLife 2026_atp_quali.csv : 1282 matchs
- 358.8s  TennisMyLife : avant_fenetre=5025, coupe_davis_ignoree=100, deja_dans_archive=410, joueurs_homonymes_par_activite=5, joueurs_rapproches=832, joueurs_rapproches_orthographe=17, matchs_absents_ailleurs_A=22, matchs_absents_ailleurs_C=104, matchs_absents_ailleurs_G=154, matchs_absents_ailleurs_M=9, scores_completes=1612, statistiques_ajoutees=5072, tournois_salle_completee=11, vainqueur_different_ignore=16
- 362.6s  Données écrites : 11595 joueurs
+   1.1s  Historique Sackmann relu depuis la copie du dépôt : 339936 matchs
+   1.5s  Valuebetennis 2026 : 45305 matchs ATP
+   2.2s  Valuebetennis intégré : ajoutes=16056, avant_fenetre=15147, categorie_inconnue=189, coupe_davis_ignoree=61, doublons_sackmann=1041, noms_homonymes_resolus_par_activite=20, noms_nouveaux=456, noms_rapproches=2493, noms_rapproches_orthographe=58, qualifs_itf_ignorees=12811, score_complet=4864
+   3.6s  Kaggle : lignes=1177, non_rapproches=124, rapproches=1053, scores_completes=432
+   4.8s  Kaggle (catégories, salle, classements) : classements_recents_kaggle=785, lignes_non_rapprochees=1186, lignes_rapprochees=37827, tournois_250_500=785, tournois_A_sans_categorie=3, tournois_salle_renseignee=970
+  89.4s  Wikipédia : budget_restant=409, matchs=1247, pages_lues=91, pages_sans_match=1, pages_trouvees=518
+  90.0s  Doubles intégrés : date_ou_surface_par_simple=183, joueurs_double_nouveaux=361, matchs=24431, noms_abreges_rapproches=438, noms_rapproches_orthographe=117, sans_date=69
+  91.5s  TennisMyLife 2026.csv : 2721 matchs
+  92.9s  TennisMyLife 2026_challenger.csv : 6909 matchs
+  94.1s  TennisMyLife 2026_atp_quali.csv : 1282 matchs
+  94.4s  TennisMyLife : avant_fenetre=5025, coupe_davis_ignoree=100, deja_dans_archive=410, joueurs_homonymes_par_activite=5, joueurs_rapproches=832, joueurs_rapproches_orthographe=17, matchs_absents_ailleurs_A=22, matchs_absents_ailleurs_C=104, matchs_absents_ailleurs_G=154, matchs_absents_ailleurs_M=9, scores_completes=1612, statistiques_ajoutees=5072, tournois_salle_completee=11, vainqueur_different_ignore=16
+  97.6s  Données écrites : 11619 joueurs
 ```

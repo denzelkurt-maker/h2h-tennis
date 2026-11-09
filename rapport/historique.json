@@ -551,5 +551,142 @@
     }
    }
   }
+ },
+ {
+  "date": "2026-11-09T06:14:03+00:00",
+  "etat": "OK",
+  "alertes": 0,
+  "duree_s": 98,
+  "chiffres": {
+   "vbt": {
+    "avant_fenetre": 15147,
+    "noms_rapproches": 2493,
+    "doublons_sackmann": 1041,
+    "noms_nouveaux": 456,
+    "ajoutes": 16056,
+    "score_complet": 4864,
+    "noms_rapproches_orthographe": 58,
+    "noms_homonymes_resolus_par_activite": 20,
+    "qualifs_itf_ignorees": 12811,
+    "categorie_inconnue": 189,
+    "coupe_davis_ignoree": 61
+   },
+   "kaggle": {
+    "lignes": 1177,
+    "non_rapproches": 124,
+    "rapproches": 1053,
+    "scores_completes": 432
+   },
+   "kaggle_enrichissement": {
+    "lignes_rapprochees": 37827,
+    "lignes_non_rapprochees": 1186,
+    "tournois_250_500": 785,
+    "tournois_salle_renseignee": 970,
+    "classements_recents_kaggle": 785,
+    "tournois_A_sans_categorie": 3
+   },
+   "wikipedia": {
+    "pages_trouvees": 518,
+    "pages_lues": 91,
+    "matchs": 1247,
+    "pages_sans_match": 1,
+    "budget_restant": 409
+   },
+   "doubles": {
+    "matchs": 24431,
+    "joueurs_double_nouveaux": 361,
+    "noms_rapproches_orthographe": 117,
+    "sans_date": 69,
+    "date_ou_surface_par_simple": 183,
+    "noms_abreges_rapproches": 438
+   },
+   "tml": {
+    "avant_fenetre": 5025,
+    "joueurs_rapproches": 832,
+    "deja_dans_archive": 410,
+    "joueurs_rapproches_orthographe": 17,
+    "statistiques_ajoutees": 5072,
+    "scores_completes": 1612,
+    "vainqueur_different_ignore": 16,
+    "joueurs_homonymes_par_activite": 5,
+    "coupe_davis_ignoree": 100,
+    "matchs_absents_ailleurs_G": 154,
+    "matchs_absents_ailleurs_A": 22,
+    "matchs_absents_ailleurs_M": 9,
+    "matchs_absents_ailleurs_C": 104,
+    "tournois_salle_completee": 11
+   },
+   "fichiers": {
+    "simple": {
+     "2011": 9386,
+     "2012": 9666,
+     "2013": 9408,
+     "2014": 9094,
+     "2015": 9841,
+     "2016": 32640,
+     "2017": 30555,
+     "2018": 30162,
+     "2019": 28015,
+     "2020": 9336,
+     "2021": 22063,
+     "2022": 29239,
+     "2023": 31275,
+     "2024": 33000,
+     "2025": 32168,
+     "2026-01": 2078,
+     "2026-02": 2533,
+     "2026-03": 3228,
+     "2026-04": 2591,
+     "2026-05": 3060,
+     "2026-06": 3740,
+     "2026-07": 3057,
+     "2026-08": 3184,
+     "2026-09": 3091,
+     "2026-10": 2912,
+     "2026-11": 670
+    },
+    "stats": {
+     "2011": 9374,
+     "2012": 9649,
+     "2013": 9397,
+     "2014": 9076,
+     "2015": 9831,
+     "2016": 32381,
+     "2017": 30383,
+     "2018": 29895,
+     "2019": 24119,
+     "2020": 9306,
+     "2021": 21899,
+     "2022": 28933,
+     "2023": 30861,
+     "2024": 32754,
+     "2025": 32158,
+     "2026-01": 2078,
+     "2026-02": 2529,
+     "2026-03": 3228,
+     "2026-04": 2591,
+     "2026-05": 2977,
+     "2026-06": 681
+    },
+    "double": {
+     "2021": 3270,
+     "2022": 4009,
+     "2023": 4089,
+     "2024": 4316,
+     "2025": 4340,
+     "2026-01": 480,
+     "2026-02": 408,
+     "2026-03": 481,
+     "2026-04": 422,
+     "2026-05": 400,
+     "2026-06": 505,
+     "2026-07": 417,
+     "2026-08": 377,
+     "2026-09": 398,
+     "2026-10": 408,
+     "2026-11": 111
+    }
+   }
+  }
  }
 ]

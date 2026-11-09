@@ -8,8 +8,8 @@
   "empreinte": "7b23044937e1"
  },
  "double-2021.json": {
-  "octets": 149705,
-  "empreinte": "82319ad8cf88"
+  "octets": 244399,
+  "empreinte": "01f6c3c00f03"
  },
  "double-2022.json": {
   "octets": 299510,
@@ -76,8 +76,8 @@
   "empreinte": "7a514f692aa9"
  },
  "joueurs-recents.json": {
-  "octets": 42066,
-  "empreinte": "fc6615618681"
+  "octets": 43456,
+  "empreinte": "3c1e8a55d103"
  },
  "simple-2011.json": {
   "octets": 492691,
@@ -269,6 +269,6 @@
  },
  "tml-2026.json": {
   "octets": 241426,
-  "empreinte": "1c63a91a9b11"
+  "empreinte": "a85cb9d40646"
  }
 }
