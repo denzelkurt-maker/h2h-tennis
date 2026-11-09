@@ -1,15 +1,15 @@
 {
- "date": "2026-11-09T23:41:06.111Z",
+ "date": "2026-11-09T23:51:10.696Z",
  "version_appli": "0.1.0",
  "passages": {
   "public": {
-   "duree_chargement_s": 1.973,
+   "duree_chargement_s": 1.626,
    "chiffres": {
     "version_appli": "0.1.0",
-    "matchs": 356089,
+    "matchs": 356083,
     "joueurs": 11621,
     "tournois": 10479,
-    "doublons": 6,
+    "doublons": 0,
     "complements_dechiffres": false,
     "classement": {
      "semaine": "2026-10-26",
@@ -75,13 +75,13 @@
    }
   },
   "complet": {
-   "duree_chargement_s": 1.649,
+   "duree_chargement_s": 1.688,
    "chiffres": {
     "version_appli": "0.1.0",
-    "matchs": 356511,
+    "matchs": 356508,
     "joueurs": 11631,
     "tournois": 10479,
-    "doublons": 6,
+    "doublons": 0,
     "complements_dechiffres": true,
     "classement": {
      "semaine": "2026-10-26",
@@ -114,9 +114,9 @@
     },
     "depuis_juin": {
      "Challenger tableau": {
-      "matchs": 3371,
-      "score_complet": 3339,
-      "stats": 3115,
+      "matchs": 3372,
+      "score_complet": 3340,
+      "stats": 3116,
       "score_complet_pct": 99.1
      },
      "Challenger qualifications": {
@@ -126,10 +126,10 @@
       "score_complet_pct": 96
      },
      "ITF": {
-      "matchs": 9080,
-      "score_complet": 8908,
-      "stats": 4208,
-      "score_complet_pct": 98.1
+      "matchs": 9082,
+      "score_complet": 8973,
+      "stats": 4232,
+      "score_complet_pct": 98.8
      },
      "ATP qualifications": {
       "matchs": 762,
@@ -149,7 +149,6 @@
  },
  "erreurs": [],
  "alertes": [
-  "6 matchs en double",
   "classement absent ou de moins de 100 rangs"
  ]
 }
