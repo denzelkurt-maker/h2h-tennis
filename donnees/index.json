@@ -1,7 +1,7 @@
 {
  "cito-2026.json": {
-  "octets": 518574,
-  "empreinte": "ebcdcc5b67d6"
+  "octets": 520914,
+  "empreinte": "6248229e20f8"
  },
  "classements-fin-annee.json": {
   "octets": 440128,
@@ -124,8 +124,8 @@
   "empreinte": "70c2b78e8a9f"
  },
  "simple-2020.json": {
-  "octets": 488586,
-  "empreinte": "873ecfa8f1c8"
+  "octets": 488546,
+  "empreinte": "cdb4b3f25621"
  },
  "simple-2021.json": {
   "octets": 1155405,
@@ -140,12 +140,12 @@
   "empreinte": "e5c4371af09d"
  },
  "simple-2024.json": {
-  "octets": 1730393,
-  "empreinte": "99c8f2854444"
+  "octets": 1730295,
+  "empreinte": "64119bc57215"
  },
  "simple-2025.json": {
-  "octets": 1685466,
-  "empreinte": "a7cd79be0e49"
+  "octets": 1685363,
+  "empreinte": "3dbd0e1bb192"
  },
  "simple-2026-01.json": {
   "octets": 106443,
@@ -156,8 +156,8 @@
   "empreinte": "b63d870ed0b7"
  },
  "simple-2026-03.json": {
-  "octets": 165030,
-  "empreinte": "a05d2ed26acb"
+  "octets": 164979,
+  "empreinte": "60f6d70b5d5d"
  },
  "simple-2026-04.json": {
   "octets": 132168,
@@ -228,8 +228,8 @@
   "empreinte": "7711c0b6ced4"
  },
  "stats-simple-2020.json": {
-  "octets": 831391,
-  "empreinte": "c68e85a12149"
+  "octets": 831280,
+  "empreinte": "0531cf614ad8"
  },
  "stats-simple-2021.json": {
   "octets": 1997539,
@@ -244,12 +244,12 @@
   "empreinte": "5afa631ffcb5"
  },
  "stats-simple-2024.json": {
-  "octets": 3015377,
-  "empreinte": "d8a3c38b2c21"
+  "octets": 3015198,
+  "empreinte": "e313c342dfa2"
  },
  "stats-simple-2025.json": {
-  "octets": 2160942,
-  "empreinte": "8a736f37e4ad"
+  "octets": 2160762,
+  "empreinte": "db1d71245f99"
  },
  "stats-simple-2026-01.json": {
   "octets": 138885,
@@ -260,8 +260,8 @@
   "empreinte": "d0ba0c0509aa"
  },
  "stats-simple-2026-03.json": {
-  "octets": 214932,
-  "empreinte": "81b94150c192"
+  "octets": 214867,
+  "empreinte": "fb0f87bdfdfd"
  },
  "stats-simple-2026-04.json": {
   "octets": 172006,
@@ -276,7 +276,7 @@
   "empreinte": "49d9ee7f6444"
  },
  "tml-2026.json": {
-  "octets": 244942,
-  "empreinte": "5138008cb5a4"
+  "octets": 245050,
+  "empreinte": "cb9ef9e3de58"
  }
 }
