@@ -46,7 +46,7 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.4.1"
+VERSION = "1.4.2"
 VERSION_COPIE = 2   # copie compacte de l'archive : 2 = avec statistiques et classements
 PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
 
@@ -1688,7 +1688,8 @@ def ecrire_tml(resultat, code, prefixe="tml"):
         nom = f"{prefixe}-{annee}.json"
         contenu = dict(contenu, colonnes_tournois=["nom", "niveau", "surface", "salle", "debut", "bo", "categorie"],
                        colonnes_joueurs=["nom", "pays", "main", "taille_cm", "naissance"],
-                       colonnes_complements=["tournoi", "gagnant", "perdant", "score", "drapeaux", "stats"],
+                       colonnes_complements=["tournoi", "gagnant", "perdant", "score", "drapeaux", "stats", "inverse"],
+                       note_inverse="inverse = 1 : le vainqueur réel est le perdant publié (score et stats dans son sens)",
                        colonnes_matchs=["tournoi", "tour", "gagnant", "perdant", "score", "date", "drapeaux", "stats"],
                        colonnes_classements=["semaine", "rang", "points"], colonnes_stats=NOMS_STATS,
                        note_salles="tournoi public -> 1 en salle, 0 en extérieur (quand la base publique l'ignore)")
@@ -2111,7 +2112,9 @@ def niveau_cito(t, nom):
         n = "M"
     elif cat == "challenger" or lv == "C":
         n = "C"
-    elif cat == "itf" or lv in ("15", "25"):
+    elif lv == "J" or "junior" in cat:
+        return "J"
+    elif cat == "itf" or re.match(r"(15|25)(\+H)?$", lv) or re.match(r"M(15|25)", ed):
         n = "I15" if "15" in ed or lv == "15" else ("I25" if "25" in ed or lv == "25" else "I")
     elif cat == "davis_cup" or lv == "D":
         n = "D"
@@ -2177,6 +2180,9 @@ def integrer_cito(base, mois, meta, fin_sackmann, resultat_tml):
         nom_t = t.get("nom") or tid
         niveau = niveau_cito(t, nom_t)
         ed = str(t.get("edition_category") or "")
+        if niveau == "J":
+            stats["juniors_ignores"] += 1
+            continue
         if niveau == "D" or ("cup" in ed.lower() and niveau == "A"):
             stats["equipes_ignorees"] += 1
             continue
@@ -2224,7 +2230,17 @@ def integrer_cito(base, mois, meta, fin_sackmann, resultat_tml):
                 stats["deja_dans_archive"] += 1
                 continue
             if m["g"] != g:
-                stats["vainqueur_different_ignore"] += 1
+                # Cito désigne l'autre joueur. On corrige seulement si le score publié le désigne aussi
+                # (score complet une fois retourné) ou s'il est vide ; sinon on garde la version publique.
+                _, d_pub = analyser_score(m.get("score") or "", bo)
+                _, d_inv = analyser_score(inverser_score(m.get("score") or ""), bo)
+                if drap & (COMPLET | ABANDON | FORFAIT) and not d_pub & COMPLET and \
+                        (d_inv & COMPLET or not (m.get("score") or "").strip()):
+                    complements[base.tournois[m["t"]]["annee"]].append(
+                        [m["t"], m["g"], m["p"], sc, drap, st if a_stats else None, 1])
+                    stats["vainqueur_corrige"] += 1
+                else:
+                    stats["vainqueur_different_ignore"] += 1
                 continue
             nouveau = sc if drap & (COMPLET | ABANDON | FORFAIT) and not m["dr"] & COMPLET else None
             st_ok = st if a_stats and not m.get("st") else None
@@ -2273,6 +2289,29 @@ def integrer_cito(base, mois, meta, fin_sackmann, resultat_tml):
                                       "liste": liste}
     if resultat:
         resultat[max(resultat)]["salles"] = salles
+    # diagnostic : pourquoi un match publié reste sans score complet (comptes et noms de tournois seulement)
+    paires_cito = defaultdict(list)
+    for l in lignes:
+        if not (l[15] or l[16]) and l[0] >= fenetre:
+            paires_cito[frozenset((jid(l[4]), jid(l[5])))].append(l)
+    completes = {(c[0], c[1], c[2]) for liste in complements.values() for c in liste if c[4] is not None}
+    raisons, absents = Counter(), Counter()
+    for m in base.simples:
+        if m["debut"] < fenetre or m["dr"] & (COMPLET | ABANDON | FORFAIT) or (m["t"], m["g"], m["p"]) in completes:
+            continue
+        if not m["dr"] & (SRC_VBT | SRC_WIKI):
+            continue
+        cands = paires_cito.get(frozenset((m["g"], m["p"])), [])
+        if not cands:
+            raisons["absent_de_cito_ou_noms_differents"] += 1
+            tr = base.tournois[m["t"]]
+            absents[f"{tr['nom']} ({tr['debut']})"] += 1
+        elif all(analyser_score(c[6], 3)[1] & (COMPLET | ABANDON | FORFAIT) == 0 for c in cands):
+            raisons["dans_cito_score_incomplet"] += 1
+        else:
+            raisons["dans_cito_autre_raison"] += 1
+    J.chiffres["cito_trous_restants"] = {"raisons": dict(raisons),
+                                         "tournois_absents_de_cito": dict(absents.most_common(15))}
     J.chiffres["cito_integration"] = dict(stats, categories_inconnues=dict(stats_cat.most_common(10)))
     J.info("Cito intégré : " + ", ".join(f"{k}={v}" for k, v in sorted(stats.items())))
     return dict(resultat)
@@ -2465,7 +2504,8 @@ def compter_trous(base, fin_sackmann, resultats):
     seuls = []
     for resultat in resultats:
         for annee, contenu in (resultat or {}).items():
-            for t, g, p, sc, dr, st in contenu.get("complements", []):
+            for c in contenu.get("complements", []):
+                t, g, p, sc, dr, st = c[:6]
                 ancien = comp.get((t, g, p), (None, None))
                 comp[(t, g, p)] = (ancien[0] or dr, ancien[1] or st)
             for m in contenu.get("matchs", []):
@@ -2788,6 +2828,18 @@ def main():
                 garder = sorted(set(garder) | {collecter_photos(base, autres)})
             except Exception as e:  # noqa: BLE001
                 J.alerte(f"Photos : {type(e).__name__} {str(e)[:250]} (fichier précédent conservé)")
+        vus, garde = {}, []
+        for m in base.simples:
+            k = (m["t"], m["g"], m["p"], m["tour"])
+            if k in vus:
+                autre = garde[vus[k]]
+                if m["dr"] & COMPLET and not autre["dr"] & COMPLET:
+                    garde[vus[k]] = m
+                J.chiffres["doublons_retires"] = J.chiffres.get("doublons_retires", 0) + 1
+                continue
+            vus[k] = len(garde)
+            garde.append(m)
+        base.simples = garde
         resume, nb = ecrire_donnees(base, garder)
         ecrire_meta(resume, nb, fin)
         J.chiffres["fichiers"] = resume
