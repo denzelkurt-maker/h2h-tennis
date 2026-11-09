@@ -46,7 +46,7 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.3.0"
+VERSION = "1.4.1"
 VERSION_COPIE = 2   # copie compacte de l'archive : 2 = avec statistiques et classements
 PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
 
@@ -72,7 +72,7 @@ TML_URLS = ["https://stats.tennismylife.org/data/{annee}.csv",
 TML_ITERATIONS = 600_000   # dérivation de clé volontairement lente (PBKDF2-SHA256)
 
 # Présentation du dépôt, réécrite à chaque passage (attribution exigée par les licences)
-README = "# H2H Tennis\n\nApplication personnelle et non commerciale de statistiques de tennis masculin (ATP, Challenger, ITF) : face-à-face, fiches joueurs, bilans.\n\n## Fonctionnement\n\n- `collecteur.py` construit chaque nuit les fichiers de `donnees/` à partir des sources ci-dessous (planification : `.github/workflows/collecte.yml`).\n- `rapport/rapport.md` décrit la dernière collecte (chiffres, alertes, erreurs).\n- `etat/` conserve une copie compacte de l'historique et le cache des tableaux Wikipédia.\n\n## Sources et licences\n\n| Source | Usage | Licence |\n|---|---|---|\n| Jeff Sackmann, [tennis_atp](https://github.com/JeffSackmann/tennis_atp), via la copie [Aneeshers/tennis-sackmann-archive](https://github.com/Aneeshers/tennis-sackmann-archive) | Historique des matchs, statistiques de match (aces, breaks…), joueurs, classements jusqu'à juin 2026 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |\n| [Valuebetennis](https://www.valuebetennis.com/en/donnees.htm), « Tennis results and odds since 2021 » | Matchs récents, mis à jour chaque jour | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |\n| [Wikipédia](https://en.wikipedia.org) (anglais), pages de tableaux de double | Doubles ATP et Challenger depuis 2021 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |\n| [Kaggle, dissfya/atp-tennis-2000-2023daily-pull](https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull) | Scores, catégorie 250/500, intérieur ou extérieur, classement au moment du match (circuit principal) | CC0 (domaine public) |\n| [TennisMyLife](https://stats.tennismylife.org/tennis-match-database) | Scores complets et statistiques ATP et Challenger depuis juin 2026, **fichiers `donnees/tml-*.json` chiffrés** (usage personnel du propriétaire ; la redistribution des CSV n'est pas autorisée) | Usage personnel et non commercial |\n| [Cito API](https://citoapi.com) | Résultats ATP, Challenger (qualifications comprises) et ITF, statistiques de match, classement ATP complet, depuis juin 2026, **fichiers `donnees/cito-*.json` et `etat/cito-*.json` chiffrés** (redistribution interdite) | Usage dans sa propre application |\n\nLes fichiers de `donnees/` (hors `tml-*.json` et `cito-*.json`, chiffrés et non partagés) sont des œuvres dérivées de ces sources et sont partagés dans les mêmes conditions : usage non commercial, attribution, partage dans les mêmes conditions (CC BY-NC-SA 4.0).\n\nAucun lien avec l'ATP, l'ITF ou les tournois cités. Les noms de tournois sont utilisés à titre descriptif.\n"
+README = "# H2H Tennis\n\nApplication personnelle et non commerciale de statistiques de tennis masculin (ATP, Challenger, ITF) : face-à-face, fiches joueurs, bilans.\n\n## Fonctionnement\n\n- `collecteur.py` construit chaque nuit les fichiers de `donnees/` à partir des sources ci-dessous (planification : `.github/workflows/collecte.yml`).\n- `rapport/rapport.md` décrit la dernière collecte (chiffres, alertes, erreurs).\n- `etat/` conserve une copie compacte de l'historique et le cache des tableaux Wikipédia.\n\n## Sources et licences\n\n| Source | Usage | Licence |\n|---|---|---|\n| Jeff Sackmann, [tennis_atp](https://github.com/JeffSackmann/tennis_atp), via la copie [Aneeshers/tennis-sackmann-archive](https://github.com/Aneeshers/tennis-sackmann-archive) | Historique des matchs, statistiques de match (aces, breaks…), joueurs, classements jusqu'à juin 2026 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |\n| [Valuebetennis](https://www.valuebetennis.com/en/donnees.htm), « Tennis results and odds since 2021 » | Matchs récents, mis à jour chaque jour | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |\n| [Wikipédia](https://en.wikipedia.org) (anglais), pages de tableaux de double | Doubles ATP et Challenger depuis 2021 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |\n| [Kaggle, dissfya/atp-tennis-2000-2023daily-pull](https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull) | Scores, catégorie 250/500, intérieur ou extérieur, classement au moment du match (circuit principal) | CC0 (domaine public) |\n| [TennisMyLife](https://stats.tennismylife.org/tennis-match-database) | Scores complets et statistiques ATP et Challenger depuis juin 2026, **fichiers `donnees/tml-*.json` chiffrés** (usage personnel du propriétaire ; la redistribution des CSV n'est pas autorisée) | Usage personnel et non commercial |\n| [Wikidata](https://www.wikidata.org) et [Wikimedia Commons](https://commons.wikimedia.org) | Photos des joueurs (licences libres, auteur et licence indiqués pour chaque photo dans `donnees/photos.json`), poids, taille | CC0 (Wikidata) ; licence de chaque photo |\n| [Cito API](https://citoapi.com) | Résultats ATP, Challenger (qualifications comprises) et ITF, statistiques de match, classement ATP complet, depuis juin 2026, **fichiers `donnees/cito-*.json` et `etat/cito-*.json` chiffrés** (redistribution interdite) | Usage dans sa propre application |\n\nLes fichiers de `donnees/` (hors `tml-*.json` et `cito-*.json`, chiffrés et non partagés) sont des œuvres dérivées de ces sources et sont partagés dans les mêmes conditions : usage non commercial, attribution, partage dans les mêmes conditions (CC BY-NC-SA 4.0).\n\nAucun lien avec l'ATP, l'ITF ou les tournois cités. Les noms de tournois sont utilisés à titre descriptif.\n"
 
 RACINE = os.path.dirname(os.path.abspath(__file__))
 DONNEES = os.path.join(RACINE, "donnees")
@@ -1984,35 +1984,44 @@ def collecter_cito(cle, code, fin_sackmann):
         jours[d] = {"pages": page, "lignes_atp": lignes, "final": d <= limite_finale, "le": aujourd.isoformat()}
         return True
 
-    # 1. les deux dernières journées (la veille est relue le lendemain pour les résultats tardifs)
-    for d in ((aujourd - dt.timedelta(days=1)).isoformat(), limite_finale):
+    # 1. les deux dernières journées (la veille est relue le lendemain pour les résultats tardifs) ;
+    #    collecte lancée à la main : aussi les matchs déjà terminés aujourd'hui
+    jours_a_lire = [(aujourd - dt.timedelta(days=1)).isoformat(), limite_finale]
+    if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+        jours_a_lire.insert(0, aujourd.isoformat())
+    for d in jours_a_lire:
         if not jours.get(d, {}).get("final"):
             lire_jour(d)
     # 2. classement ATP complet, une fois par semaine
     lundi_courant = lundi(aujourd.isoformat())
     cl = meta.get("classement") or {}
+    if len(cl.get("liste") or []) <= 50:
+        cl = {}
     if (cl.get("date") or "") < lundi_courant and suivi.get("classement_essai") != aujourd.isoformat() and api.peut():
         suivi["classement_essai"] = aujourd.isoformat()
-        for chemin in ("/tennis/rankings?tour=ATP&rank_max=5000",
-                       "/tennis/rankings/atp?rank_max=5000&page_size=5000&limit=5000"):
-            code_http, obj = api.appel("classement", chemin)
+        liste, date_cl, page, pages = [], None, 1, 1
+        while page <= pages and page <= 25 and api.peut():
+            code_http, obj = api.appel("classement", f"/tennis/rankings/atp?page={page}&page_size=500&limit=500")
             items = cito_items(obj)
-            if code_http == 200 and items:
-                liste = []
-                for it in items:
-                    pid = str(it.get("player_id") or it.get("id") or "")
-                    if not pid or it.get("rank") is None:
-                        continue
+            if code_http != 200 or not items:
+                st[f"classement_http_{code_http}"] += 1
+                break
+            for it in items:
+                pid = str(it.get("player_id") or it.get("id") or "")
+                if pid and it.get("rank") is not None:
                     liste.append([it.get("rank"), pid, it.get("player_name") or it.get("name"), it.get("ioc"),
                                   it.get("points"), it.get("tournaments_played")])
-                meta["classement"] = {"date": (obj.get("ranking_date") or aujourd.isoformat())[:10],
-                                      "colonnes": ["rang", "id_cito", "nom", "pays", "points", "tournois"],
-                                      "liste": liste}
-                st["classement_rangs"] = len(liste)
-                break
-            st[f"classement_http_{code_http}"] += 1
-            if not api.peut():
-                break
+            date_cl = date_cl or (obj.get("ranking_date") or "")[:10]
+            pages = obj.get("total_pages") or (page + 1 if obj.get("has_next") else page)
+            page += 1
+        st["classement_pages"] = page - 1
+        if liste and (page > pages or page > 25):   # liste complète, ou 25 pages au plus
+            meta["classement"] = {"date": date_cl or aujourd.isoformat(),
+                                  "colonnes": ["rang", "id_cito", "nom", "pays", "points", "tournois"],
+                                  "liste": liste}
+            st["classement_rangs"] = len(liste)
+        elif liste:
+            suivi.pop("classement_essai", None)   # interrompu par le quota : on reprendra la nuit suivante
     # 3. calendrier (salle ou plein air, taille du tableau, dates), une fois par mois et par année utile
     cal = suivi.setdefault("calendrier", {})
     for annee in range(debut.year, aujourd.year + 1):
@@ -2155,6 +2164,7 @@ def integrer_cito(base, mois, meta, fin_sackmann, resultat_tml):
         return rap.joueur(cid, j[0] or cid, j[1])
 
     complements, seuls, vote, salles = defaultdict(list), [], defaultdict(Counter), {}
+    stats_cat = Counter()
     for l in lignes:
         date, tid, rnd, q, wid, lid, score, issue, bo, minutes, wr, lr, _we, _le, stl, wp, lp = l
         if wp or lp:
@@ -2167,8 +2177,12 @@ def integrer_cito(base, mois, meta, fin_sackmann, resultat_tml):
         nom_t = t.get("nom") or tid
         niveau = niveau_cito(t, nom_t)
         ed = str(t.get("edition_category") or "")
-        if niveau is None or niveau == "D" or "cup" in ed.lower() and niveau == "A":
-            stats["niveau_inconnu_ou_equipes"] += 1
+        if niveau == "D" or ("cup" in ed.lower() and niveau == "A"):
+            stats["equipes_ignorees"] += 1
+            continue
+        if niveau is None:
+            stats["niveau_inconnu"] += 1
+            stats_cat[f"{t.get('category')}/{t.get('level')}"] += 1
             continue
         est_q = bool(q) or str(rnd or "").upper().startswith("Q")
         if niveau.startswith("I") and est_q:
@@ -2259,9 +2273,188 @@ def integrer_cito(base, mois, meta, fin_sackmann, resultat_tml):
                                       "liste": liste}
     if resultat:
         resultat[max(resultat)]["salles"] = salles
-    J.chiffres["cito_integration"] = dict(stats)
+    J.chiffres["cito_integration"] = dict(stats, categories_inconnues=dict(stats_cat.most_common(10)))
     J.info("Cito intégré : " + ", ".join(f"{k}={v}" for k, v in sorted(stats.items())))
     return dict(resultat)
+
+
+# ---------------------------------------------------------------- Photos libres (Wikidata, Wikimedia Commons)
+# Une requête Wikidata (CC0) par nuit ramène tous les joueurs qui ont un identifiant ATP (P536),
+# avec photo (P18), poids (P2067), taille (P2048) et date de naissance. Rapprochement avec nos joueurs
+# par date de naissance et nom, sinon par nom seul s'il est unique. Pour chaque photo, Commons donne
+# la miniature, l'auteur et la licence (affichés sous la photo dans l'appli), par lots de 50.
+WIKIDATA_SPARQL = "https://query.wikidata.org/sparql"
+COMMONS_API = "https://commons.wikimedia.org/w/api.php"
+PHOTOS_ETAT = os.path.join(ETAT, "photos-commons.json")
+PHOTOS_RELECTURE_JOURS = 120
+PHOTOS_LOTS_NUIT = 200
+REQUETE_WD = """SELECT ?item ?atp ?nom ?naissance ?image ?masse ?taille WHERE {
+  ?item wdt:P536 ?atp .
+  %s
+  OPTIONAL { ?item wdt:P569 ?naissance }
+  OPTIONAL { ?item p:P2067/psn:P2067/wikibase:quantityAmount ?masse }
+  OPTIONAL { ?item p:P2048/psn:P2048/wikibase:quantityAmount ?taille }
+  OPTIONAL { ?item rdfs:label ?nom . FILTER(LANG(?nom) = "en") }
+}"""
+
+
+def wikidata_joueurs():
+    """{qid: {nom, naissance, image, poids, taille, atp}} ; repli sur les seuls joueurs avec photo."""
+    for filtre in ("OPTIONAL { ?item wdt:P18 ?image }", "?item wdt:P18 ?image ."):
+        url = WIKIDATA_SPARQL + "?" + urllib.parse.urlencode({"query": REQUETE_WD % filtre, "format": "json"})
+        try:
+            data = json.loads(telecharger(url, {"Accept": "application/sparql-results+json",
+                                                "Accept-Encoding": "gzip"}, essais=3, delai=20))
+            break
+        except Exception as e:  # noqa: BLE001
+            J.info(f"Wikidata : requête refusée ({str(e)[:150]}), essai plus léger")
+    else:
+        raise RuntimeError("Wikidata injoignable")
+    items = {}
+    for b in data.get("results", {}).get("bindings", []):
+        v = lambda k: b.get(k, {}).get("value")  # noqa: E731
+        q = (v("item") or "").rsplit("/", 1)[-1]
+        if not q:
+            continue
+        it = items.setdefault(q, {"atp": v("atp")})
+        if v("nom") and not it.get("nom"):
+            it["nom"] = v("nom")
+        if v("naissance") and not it.get("naissance"):
+            it["naissance"] = v("naissance")[:10]
+        if v("image") and not it.get("image"):
+            it["image"] = urllib.parse.unquote(v("image").rsplit("/", 1)[-1]).replace("_", " ")
+        try:
+            if v("masse") and not it.get("poids"):
+                p = float(v("masse"))
+                it["poids"] = round(p) if 45 <= p <= 150 else None
+            if v("taille") and not it.get("taille"):
+                t = float(v("taille")) * 100
+                it["taille"] = round(t) if 150 <= t <= 230 else None
+        except ValueError:
+            pass
+    return items
+
+
+def rapprocher_wikidata(joueurs, items, stats):
+    """joueurs : {pid: (nom, naissance)} -> {pid: qid}."""
+    import difflib
+    par_naiss, par_cle = defaultdict(list), defaultdict(list)
+    for q, it in items.items():
+        if it.get("nom"):
+            par_cle[cle_nom(it["nom"])].append(q)
+            if it.get("naissance"):
+                par_naiss[it["naissance"]].append(q)
+    res = {}
+    for pid, (nom, naiss) in joueurs.items():
+        cle = cle_nom(nom)
+        if not cle:
+            continue
+        mots = set(cle.split())
+        q = None
+        if naiss and par_naiss.get(naiss):
+            cands = [x for x in par_naiss[naiss]
+                     if mots & set(cle_nom(items[x]["nom"]).split())
+                     or difflib.SequenceMatcher(None, cle, cle_nom(items[x]["nom"])).ratio() >= 0.75]
+            if len(cands) == 1:
+                q = cands[0]
+                stats["rapproches_naissance_et_nom"] += 1
+        if q is None and len(par_cle.get(cle, [])) == 1:
+            it = items[par_cle[cle][0]]
+            if naiss and it.get("naissance") and it["naissance"] != naiss:
+                stats["ecartes_naissance_differente"] += 1
+            else:
+                q = par_cle[cle][0]
+                stats["rapproches_nom_seul"] += 1
+        if q:
+            res[pid] = q
+    return res
+
+
+def _texte_html(h):
+    import html
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", h or ""))).strip()[:160]
+
+
+def commons_infos(fichiers, stats):
+    """{fichier: [miniature, auteur, licence, lien_licence, date]} pour une liste de fichiers Commons."""
+    out = {}
+    jour = dt.date.today().isoformat()
+    for i in range(0, len(fichiers), 50):
+        lot = fichiers[i:i + 50]
+        params = {"action": "query", "prop": "imageinfo", "iiprop": "extmetadata|url", "iiurlwidth": "320",
+                  "iiextmetadatafilter": "Artist|LicenseShortName|LicenseUrl|Credit",
+                  "titles": "|".join("File:" + f for f in lot), "format": "json", "formatversion": "2",
+                  "maxlag": "5"}
+        data = json.loads(telecharger(COMMONS_API + "?" + urllib.parse.urlencode(params),
+                                      {"Accept-Encoding": "gzip"}))
+        q = data.get("query", {})
+        renvoi = {n["to"]: n["from"] for n in q.get("normalized", [])}
+        for p in q.get("pages", []):
+            titre = renvoi.get(p.get("title"), p.get("title", ""))
+            f = titre.split(":", 1)[-1]
+            ii = (p.get("imageinfo") or [{}])[0]
+            em = ii.get("extmetadata") or {}
+            g = lambda k: (em.get(k) or {}).get("value")  # noqa: E731
+            if p.get("missing") or not ii.get("thumburl") or not g("LicenseShortName"):
+                out[f] = [None, None, None, None, jour]
+                stats["photos_inutilisables"] += 1
+                continue
+            out[f] = [ii["thumburl"], _texte_html(g("Artist")) or _texte_html(g("Credit")) or "auteur non indiqué",
+                      _texte_html(g("LicenseShortName")), g("LicenseUrl"), jour]
+        stats["requetes_commons"] += 1
+        time.sleep(1)
+    return out
+
+
+def collecter_photos(base, autres_joueurs):
+    """Écrit donnees/photos.json (public : Wikidata CC0, photos sous licence libre)."""
+    stats = Counter()
+    etat = lire_json(PHOTOS_ETAT, {"fichiers": {}})
+    items = wikidata_joueurs()
+    stats["joueurs_wikidata"] = len(items)
+    stats["joueurs_wikidata_avec_photo"] = sum(1 for it in items.values() if it.get("image"))
+    joueurs = {pid: (j["nom"], j.get("naissance")) for pid, j in base.joueurs.items()}
+    for pid, j in (autres_joueurs or {}).items():
+        joueurs.setdefault(pid, (j[0], j[4] if len(j) > 4 else None))
+    corresp = rapprocher_wikidata(joueurs, items, stats)
+    # métadonnées Commons : nouvelles photos d'abord, puis relecture des plus anciennes
+    utiles = sorted({items[q]["image"] for q in corresp.values() if items[q].get("image")})
+    limite = (dt.date.today() - dt.timedelta(days=PHOTOS_RELECTURE_JOURS)).isoformat()
+    nouvelles = [f for f in utiles if f not in etat["fichiers"]]
+    anciennes = sorted((f for f in utiles if f in etat["fichiers"] and etat["fichiers"][f][4] < limite),
+                       key=lambda f: etat["fichiers"][f][4])
+    a_lire = (nouvelles + anciennes)[:PHOTOS_LOTS_NUIT * 50]
+    stats["photos_a_lire_cette_nuit"] = len(a_lire)
+    try:
+        etat["fichiers"].update(commons_infos(a_lire, stats))
+    except Exception as e:  # noqa: BLE001
+        J.alerte(f"Commons : {str(e)[:200]} (les photos déjà connues restent affichées)")
+    etat["fichiers"] = {f: v for f, v in etat["fichiers"].items() if f in set(utiles)}
+    ecrire_json(PHOTOS_ETAT, etat, compact=False)
+    sortie = {}
+    for pid, q in sorted(corresp.items()):
+        it = items[q]
+        f = it.get("image")
+        info = etat["fichiers"].get(f) if f else None
+        photo = f if info and info[0] else None
+        if not (photo or it.get("poids") or it.get("taille")):
+            continue
+        sortie[pid] = [q, photo, info[0] if photo else None, info[1] if photo else None,
+                       info[2] if photo else None, info[3] if photo else None,
+                       it.get("poids"), it.get("taille"), it.get("atp")]
+        stats["joueurs_avec_photo"] += bool(photo)
+        stats["joueurs_avec_poids"] += bool(it.get("poids"))
+    ecrire_json(os.path.join(DONNEES, "photos.json"), {
+        "maj": dt.date.today().isoformat(),
+        "sources": "Wikidata (CC0) ; photos Wikimedia Commons, licence et auteur propres à chaque photo, "
+                   "à afficher sous la photo",
+        "colonnes": ["wikidata", "fichier_commons", "miniature", "auteur", "licence", "lien_licence",
+                     "poids_kg", "taille_cm", "code_atp"],
+        "joueurs": sortie}, compact=False)
+    J.chiffres["photos"] = dict(stats)
+    J.info(f"Photos : {stats['joueurs_avec_photo']} joueurs avec photo libre, "
+           f"{stats['joueurs_avec_poids']} avec poids")
+    return "photos.json"
 
 
 # ---------------------------------------------------------------- trous restants
@@ -2289,6 +2482,7 @@ def compter_trous(base, fin_sackmann, resultats):
             return "ITF"
         return None
     t = defaultdict(Counter)
+    par_tournoi, exemples, sans_score = defaultdict(Counter), defaultdict(list), Counter()
     for m in base.simples:
         if m["debut"] <= fin_sackmann:
             continue
@@ -2304,6 +2498,12 @@ def compter_trous(base, fin_sackmann, resultats):
         t[cat]["matchs"] += 1
         t[cat]["score_ok"] += 1 if dr & (COMPLET | ABANDON | FORFAIT) else 0
         t[cat]["stats"] += 1 if st and any(x is not None for x in st[1:19]) else 0
+        if not dr & (COMPLET | ABANDON | FORFAIT):
+            tr = base.tournois[m["t"]]
+            par_tournoi[cat][f"{tr['nom']} ({tr['debut']})"] += 1
+            sans_score[cat] += not (m.get("score") or "").strip()
+            if len(exemples[cat]) < 8:
+                exemples[cat].append(f"{tr['nom']} {m['tour']} : « {m.get('score') or ''} »")
     for niveau, m in seuls:
         niveau = niveau or (base.tournois[m[0]]["niveau"] if m[0] in base.tournois else "C")
         cat = categorie(niveau, m[1])
@@ -2317,6 +2517,9 @@ def compter_trous(base, fin_sackmann, resultats):
                      "avec_stats_%": round(100 * v["stats"] / v["matchs"], 1)}
                for cat, v in sorted(t.items()) if v["matchs"]}
     J.chiffres["trous_depuis_archive"] = tableau
+    J.chiffres["trous_detail"] = {cat: {"sans_aucun_score": sans_score[cat],
+                                        "tournois_les_plus_touches": dict(par_tournoi[cat].most_common(12)),
+                                        "exemples": exemples[cat]} for cat in sorted(par_tournoi)}
     J.info("Trous depuis la fin de l'archive : " + "; ".join(
         f"{c} {v['trous_score']}/{v['matchs']}" for c, v in tableau.items()))
 
@@ -2436,6 +2639,10 @@ def ecrire_meta(resume, nb_joueurs, fin_sackmann):
             {"nom": "TennisMyLife, Tennis Match Database", "licence": "usage personnel et non commercial, "
              "redistribution des CSV interdite : données chiffrées, réservées au propriétaire du dépôt",
              "lien": "https://stats.tennismylife.org/tennis-match-database"},
+            {"nom": "Wikidata (fiches joueurs : photo, poids, taille)", "licence": "CC0",
+             "lien": "https://www.wikidata.org"},
+            {"nom": "Wikimedia Commons (photos des joueurs)", "licence": "licence libre propre à chaque photo "
+             "(auteur et licence dans photos.json, à afficher sous la photo)", "lien": "https://commons.wikimedia.org"},
             {"nom": "Cito API, Tennis API", "licence": "usage dans sa propre application autorisé, "
              "redistribution comme flux ou jeu de données interdite : données chiffrées, réservées au propriétaire",
              "lien": "https://citoapi.com"},
@@ -2472,6 +2679,7 @@ def main():
     ap.add_argument("--vbt-local", nargs="*", help="fichiers Valuebetennis (essais)")
     ap.add_argument("--kaggle-local", help="fichier atp_tennis.csv (essais)")
     ap.add_argument("--sans-wikipedia", action="store_true")
+    ap.add_argument("--sans-photos", action="store_true", help="essais : pas de Wikidata ni de Commons")
     ap.add_argument("--wikipedia-complet", action="store_true", help="relire toutes les saisons")
     ap.add_argument("--tml-local", nargs="*", help="fichiers TennisMyLife (essais)")
     ap.add_argument("--couper-archive", help="essais : ignorer l'archive après cette date (AAAA-MM-JJ)")
@@ -2569,6 +2777,17 @@ def main():
             compter_trous(base, fin, [resultat, resultat_cito])
         except Exception as e:  # noqa: BLE001
             J.alerte(f"Compteur des trous : {e}")
+        if os.path.exists(os.path.join(DONNEES, "photos.json")):
+            garder = sorted(set(garder) | {"photos.json"})
+        if not args.sans_photos:
+            try:
+                autres = {}
+                for r in (resultat, resultat_cito):
+                    for contenu in (r or {}).values():
+                        autres.update(contenu.get("joueurs", {}))
+                garder = sorted(set(garder) | {collecter_photos(base, autres)})
+            except Exception as e:  # noqa: BLE001
+                J.alerte(f"Photos : {type(e).__name__} {str(e)[:250]} (fichier précédent conservé)")
         resume, nb = ecrire_donnees(base, garder)
         ecrire_meta(resume, nb, fin)
         J.chiffres["fichiers"] = resume
@@ -2576,6 +2795,12 @@ def main():
     except Exception:  # noqa: BLE001
         ok, erreur = False, traceback.format_exc()
         print(erreur, file=sys.stderr)
+    try:
+        # GitHub Pages sert les fichiers tels quels (sans Jekyll) : plus rapide, aucun fichier ignoré
+        if not os.path.exists(os.path.join(RACINE, ".nojekyll")):
+            open(os.path.join(RACINE, ".nojekyll"), "w").close()
+    except OSError:
+        pass
     try:
         chemin = os.path.join(RACINE, "README.md")
         if lire_texte(chemin) != README:

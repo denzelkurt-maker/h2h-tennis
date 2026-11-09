@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#050608">
+<title>H2H Tennis</title>
+<style>
+:root{--fond:#050608;--panel:#0F141B;--case:#18202B;--trait:#242E3C;--texte:#EEF3F8;--doux:#8E9BAD;--bleu:#4C9BFF;--bleu2:#1F6FEB;--vert:#5BD58F;--rouge:#FF8B7B;--or:#FFD27A}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--fond);color:var(--texte)}
+body{font-family:-apple-system,"SF Pro Text",system-ui,"Segoe UI",Roboto,sans-serif;font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased;line-height:1.4;-webkit-tap-highlight-color:transparent}
+button{font:inherit;color:inherit;cursor:pointer}
+a{color:var(--bleu)}
+#app{max-width:520px;margin:0 auto;padding:calc(env(safe-area-inset-top) + 12px) 16px calc(env(safe-area-inset-bottom) + 40px);display:flex;flex-direction:column;gap:14px}
+.entete{display:flex;align-items:center;gap:10px}
+.entete h1{font-size:20px;margin:0;font-weight:800;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.retour{border:0;background:var(--case);color:var(--bleu);border-radius:10px;width:40px;height:40px;font-size:22px;font-weight:800;flex:none}
+.panel{background:var(--panel);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.sel-t{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:800;color:var(--bleu)}
+.sous{font-size:12px;color:var(--doux)}
+.recherche{width:100%;border:1px solid var(--trait);background:var(--fond);color:var(--texte);border-radius:12px;padding:12px 14px;font:inherit;font-size:16px}
+.seg{display:grid;gap:3px;background:var(--fond);border-radius:10px;padding:3px;grid-auto-flow:column;grid-auto-columns:1fr}
+.seg button{border:0;border-radius:8px;background:transparent;color:var(--doux);font-weight:700;font-size:13px;padding:8px 0}
+.seg button.on{background:var(--bleu2);color:#fff}
+.fil{display:flex;flex-wrap:wrap;gap:6px}
+.fil button{font-size:13px;font-weight:700;border:1px solid var(--trait);border-radius:999px;padding:6px 12px;background:var(--fond);color:var(--doux)}
+.fil button.on{background:var(--bleu2);border-color:var(--bleu);color:#fff}
+.ligne{display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:10px;align-items:center;padding:9px 2px;border-top:1px solid var(--trait);background:none;border-left:0;border-right:0;border-bottom:0;text-align:left;width:100%}
+.ligne:first-child{border-top:0}
+.ligne .rg{font-weight:800;color:var(--doux);text-align:right}
+.ligne .nm{font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ligne .nm small{display:block;font-weight:400;color:var(--doux);font-size:12px}
+.ligne .pt{font-weight:700;color:var(--doux);font-size:13px}
+.av{flex:none;width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:20px;background:var(--case);color:var(--texte);border:2px solid var(--trait);overflow:hidden;background-size:cover;background-position:center 20%}
+.av.p{width:44px;height:44px;font-size:15px}
+.fiche{display:flex;gap:14px;align-items:center}
+.fiche .id{min-width:0;display:flex;flex-direction:column;gap:3px}
+.fiche .id b{font-size:21px;line-height:1.15}
+.fiche .id span{font-size:13px;color:var(--doux)}
+.credit{font-size:11px;color:var(--doux)}
+.credit a{color:var(--doux)}
+.btn{border:1px solid var(--trait);background:var(--case);color:var(--bleu);border-radius:10px;padding:9px 12px;font-weight:700;font-size:14px}
+.btn.plein{background:var(--bleu2);border-color:var(--bleu2);color:#fff}
+.btns{display:flex;flex-wrap:wrap;gap:8px}
+.hs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:rgba(4,10,20,.45);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:8px 2px}
+.hs>div{display:flex;flex-direction:column;align-items:center;gap:2px;min-width:0}
+.hs>div+div{border-left:1px solid rgba(255,255,255,.08)}
+.hv{font-weight:800;font-size:17px;white-space:nowrap}
+.hl{font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#9FB2D0}
+.vert{color:#7EF0B8}.rouge{color:var(--rouge)}
+.srow{display:grid;grid-template-columns:104px minmax(0,1fr) 74px;gap:10px;align-items:center;padding:8px 0;font-size:14px;border-top:1px solid var(--trait)}
+.srow small{color:var(--doux)}
+.srow .d{text-align:right;font-weight:700}
+.bar{display:flex;height:8px;border-radius:4px;overflow:hidden;background:var(--case)}
+.bar i{display:block;height:100%}
+.bar .w{background:var(--vert)}.bar .l{background:var(--rouge)}
+.ttl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.tt{position:relative;display:flex;flex-direction:column;gap:4px;padding:11px 11px 11px 13px;border-radius:14px;border:1px solid var(--trait);background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,0)),var(--fond);overflow:hidden}
+.tt::before{content:"";position:absolute;left:0;top:11px;bottom:11px;width:3px;border-radius:0 3px 3px 0;background:var(--c,var(--vert))}
+.tt .k{font-size:10.5px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--doux)}
+.tt b{font-size:24px;font-weight:800;line-height:1.05}
+.tt span{font-size:12px;color:var(--doux)}
+.m{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;padding:10px 12px;border-radius:12px;align-items:center;border:0;text-align:left;width:100%}
+.m.won{background:#D7F1DF;color:#123620}.m.lost{background:#F6DAD5;color:#4A1810}
+.m .q{grid-column:1/-1;font-size:12px;opacity:.75}
+.m .who{font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.m .res{font-weight:800;font-size:20px;line-height:1}
+.m .sc{grid-column:1/-1;font-size:14px;font-weight:600}
+.liste{display:flex;flex-direction:column;gap:8px}
+.note{background:#2A2410;color:var(--or);border-radius:10px;padding:9px 11px;font-size:13px;line-height:1.35}
+.vide{color:var(--doux);font-size:14px;text-align:center;padding:12px 0}
+.vs{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:center;text-align:center}
+.vs .j{display:flex;flex-direction:column;align-items:center;gap:6px;min-width:0}
+.vs .j b{font-size:15px;line-height:1.2}
+.vs .sc{font-size:34px;font-weight:800;white-space:nowrap}
+.cmp{display:grid;grid-template-columns:70px minmax(0,1fr) 70px;gap:8px;align-items:center;font-size:14px;padding:7px 0;border-top:1px solid var(--trait)}
+.cmp .a{text-align:left;font-weight:800}.cmp .b{text-align:right;font-weight:800}.cmp .c{text-align:center;color:var(--doux);font-size:12.5px}
+.trn{display:flex;flex-direction:column;gap:4px;padding:11px 12px;border-radius:12px;border:1px solid var(--trait);background:var(--fond);text-align:left;width:100%}
+.trn .top{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.trn .nm{font-weight:800;margin-right:auto}
+.trn .res{font-size:13.5px;color:var(--doux)}
+.trn .res b{color:var(--texte)}
+.tag{font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:2px 7px;border-radius:6px;background:var(--case);color:var(--doux);white-space:nowrap}
+.wk{display:grid;grid-template-columns:44px minmax(0,1fr) 44px;align-items:center;gap:6px;background:var(--fond);border:1px solid var(--trait);border-radius:12px;padding:4px}
+.wk button{border:0;border-radius:9px;background:var(--case);color:var(--bleu);font-weight:800;font-size:20px;height:40px}
+.wk div{text-align:center;font-weight:700;font-size:14px}
+.charge{position:fixed;inset:0;background:var(--fond);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:24px;z-index:20;text-align:center}
+.charge .jauge{width:min(320px,80vw);height:6px;border-radius:3px;background:var(--case);overflow:hidden}
+.charge .jauge i{display:block;height:100%;width:0;background:var(--bleu2);transition:width .2s}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.7);display:flex;align-items:center;justify-content:center;padding:20px;z-index:30}
+.modal .panel{width:min(420px,100%)}
+.modal input{width:100%;border:1px solid var(--trait);background:var(--fond);color:var(--texte);border-radius:10px;padding:12px;font:inherit;font-size:20px;letter-spacing:.3em;text-align:center}
+.pied{font-size:11.5px;color:var(--doux);text-align:center;line-height:1.5}
+</style>
+</head>
+<body>
+<div id="charge" class="charge"><b>H2H Tennis</b><div class="jauge"><i id="jauge"></i></div><div id="etape" class="sous">Préparation…</div></div>
+<div id="app"></div>
+<script>
+"use strict";
+/* ======================================================================
+   H2H Tennis · appli (GitHub Pages). Lit les fichiers produits chaque nuit
+   par le collecteur (donnees/), les garde en cache sur l'iPhone et fait
+   tous les calculs dans le navigateur.
+   ====================================================================== */
+const VERSION_APPLI = "0.1.0";
+const BASE = "./donnees/";
+const CACHE = "h2h-tennis-donnees";
+const SURF = {Hard: "Dur", Clay: "Terre", Grass: "Gazon", Carpet: "Moquette"};
+const NIV = {G: "Grand Chelem", M: "Masters 1000", A: "ATP 250/500", F: "Finales ATP", N: "NextGen", O: "Jeux olympiques",
+  D: "Coupe Davis", C: "Challenger", I15: "ITF M15", I25: "ITF M25", I: "ITF"};
+const ORDRE_TOUR = {Q1: 0, Q2: 1, Q3: 2, Q4: 3, Q: 3, "1T": 10, "2T": 11, "3T": 12, "4T": 13, "5T": 14, RR: 15, QF: 20, SF: 21, BR: 22, F: 23};
+const NOM_TOUR = {Q1: "Q1", Q2: "Q2", Q3: "Q3", Q: "Qualif.", "1T": "1er tour", "2T": "2e tour", "3T": "3e tour", "4T": "4e tour",
+  "5T": "5e tour", RR: "Poule", QF: "Quart", SF: "Demie", BR: "Bronze", F: "Finale"};
+const COMPLET = 1, ABANDON = 2, FORFAIT = 4;
+
+const D = {T: [], tIdx: new Map(), M: [], J: new Map(), parJoueur: new Map(), rang: null, photos: {}, stats: new Map(),
+  fichiersStats: [], chiffre: false, maj: null, index: null};
+
+/* ---------------------------------------------------------------- outils */
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
+const cle = s => (s || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z ]/g, " ").replace(/\s+/g, " ").trim();
+const dateFr = d => d ? `${d.slice(8, 10)}/${d.slice(5, 7)}/${d.slice(0, 4)}` : "";
+const pct = (a, b) => b ? Math.round(100 * a / b) + " %" : "–";
+const lsLire = k => { try { return localStorage.getItem(k); } catch (e) { return null; } };
+const lsEcrire = (k, v) => { try { v === null ? localStorage.removeItem(k) : localStorage.setItem(k, v); return true; } catch (e) { return false; } };
+function initiales(nom) { const m = (nom || "?").split(/\s+/).filter(Boolean); return ((m[0] || "?")[0] + (m.length > 1 ? m[m.length - 1][0] : "")).toUpperCase(); }
+function age(n) { if (!n) return null; const a = new Date(), b = new Date(n); let x = a.getFullYear() - b.getFullYear(); if (a < new Date(a.getFullYear(), b.getMonth(), b.getDate())) x--; return x; }
+function lundi(d) { const x = new Date(d + "T12:00:00Z"); x.setUTCDate(x.getUTCDate() - ((x.getUTCDay() + 6) % 7)); return x.toISOString().slice(0, 10); }
+function plusJours(d, n) { const x = new Date(d + "T12:00:00Z"); x.setUTCDate(x.getUTCDate() + n); return x.toISOString().slice(0, 10); }
+function inverserScore(s) {
+  if (!s) return "";
+  return s.split(" ").map(x => {
+    let m = x.match(/^(\d+)-(\d+)(\(\d+\))?$/); if (m) return `${m[2]}-${m[1]}${m[3] || ""}`;
+    m = x.match(/^\[(\d+)-(\d+)\]$/); if (m) return `[${m[2]}-${m[1]}]`;
+    return x;
+  }).join(" ");
+}
+
+/* ---------------------------------------------------------------- chargement */
+function etape(txt, p) { $("#etape").textContent = txt; if (p != null) $("#jauge").style.width = Math.round(100 * p) + "%"; }
+
+async function lireFichier(nom, empreinte) {
+  const url = BASE + nom + "?v=" + (empreinte || Date.now());
+  let cache = null;
+  try { cache = await caches.open(CACHE); const r = await cache.match(url); if (r) return r.json(); } catch (e) { cache = null; }
+  const r = await fetch(url, {cache: "no-cache"});
+  if (!r.ok) throw new Error(nom + " : HTTP " + r.status);
+  if (cache) { try { await cache.put(url, r.clone()); } catch (e) { /* stockage plein : on continue sans cache */ } }
+  return r.json();
+}
+
+async function nettoyerCache(utiles) {
+  try {
+    const cache = await caches.open(CACHE);
+    for (const req of await cache.keys()) {
+      const u = new URL(req.url); const nom = u.pathname.split("/").pop(); const v = u.searchParams.get("v");
+      if (!utiles[nom] || utiles[nom].empreinte !== v) await cache.delete(req);
+    }
+  } catch (e) { /* sans importance */ }
+}
+
+/* déchiffrement des compléments (TennisMyLife, Cito) : même format que le collecteur */
+const b64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+let CLE_AES = null;
+async function cleAes(code, env) {
+  if (CLE_AES && CLE_AES.code === code && CLE_AES.sel === env.sel) return CLE_AES.k;
+  const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(code), "PBKDF2", false, ["deriveKey"]);
+  const k = await crypto.subtle.deriveKey({name: "PBKDF2", hash: "SHA-256", salt: b64(env.sel), iterations: env.iterations},
+    base, {name: "AES-GCM", length: 256}, false, ["decrypt"]);
+  CLE_AES = {code, sel: env.sel, k};
+  return k;
+}
+async function dechiffrer(env, code) {
+  const clair = await crypto.subtle.decrypt({name: "AES-GCM", iv: b64(env.iv)}, await cleAes(code, env), b64(env.donnees));
+  const flux = new Blob([clair]).stream().pipeThrough(new DecompressionStream("gzip"));
+  return JSON.parse(await new Response(flux).text());
+}
+
+function demanderCode(erreur) {
+  return new Promise(resolve => {
+    const m = document.createElement("div");
+    m.className = "modal";
+    m.innerHTML = `<div class="panel"><div class="sel-t">Code des données complémentaires</div>
+      <div class="sous">Scores et statistiques complets (TennisMyLife, Cito) sont chiffrés dans le dépôt public. Saisis le code à 8 chiffres rangé dans GitHub (secret CODE_TML). Il est gardé sur cet appareil.</div>
+      ${erreur ? `<div class="note">${esc(erreur)}</div>` : ""}
+      <input id="code" inputmode="numeric" autocomplete="off" maxlength="12">
+      <div class="btns"><button class="btn plein" id="ok">Valider</button><button class="btn" id="passer">Continuer sans</button></div></div>`;
+    document.body.appendChild(m);
+    const fin = v => { m.remove(); resolve(v); };
+    m.querySelector("#ok").onclick = () => fin(m.querySelector("#code").value.trim());
+    m.querySelector("#passer").onclick = () => fin(null);
+    setTimeout(() => m.querySelector("#code").focus(), 50);
+  });
+}
+
+function ajouterTournoi(id, nom, niv, surf, salle, debut, bo, cat) {
+  if (D.tIdx.has(id)) return D.tIdx.get(id);
+  const i = D.T.length;
+  D.T.push({id, nom, niv, surf, salle, debut, bo, cat});
+  D.tIdx.set(id, i);
+  return i;
+}
+
+async function charger() {
+  etape("Liste des fichiers…", 0);
+  const index = await lireFichier("index.json", null).catch(() => null) || await (await fetch(BASE + "index.json", {cache: "no-store"})).json();
+  D.index = index;
+  // index.json est relu à chaque ouverture (il change chaque nuit) ; les autres viennent du cache s'ils n'ont pas changé
+  const noms = Object.keys(index);
+  const simples = noms.filter(n => /^simple-\d{4}(-\d{2})?\.json$/.test(n)).sort();
+  const autres = ["joueurs-historique.json", "joueurs-recents.json", "classements-recents.json", "photos.json"].filter(n => index[n]);
+  fetch(BASE + "meta.json", {cache: "no-cache"}).then(r => r.json()).then(m => { D.maj = m.genere_le; const p = document.querySelector(".pied b"); if (p) p.textContent = new Date(D.maj).toLocaleString("fr-FR"); }).catch(() => {});
+  const chiffres = noms.filter(n => /^(tml|cito)-\d{4}\.json$/.test(n)).sort();
+  D.fichiersStats = noms.filter(n => /^stats-simple-/.test(n)).sort();
+  const tous = [...autres, ...simples, ...chiffres];
+  let fait = 0;
+  const lus = {};
+  await Promise.all(tous.map(async n => {
+    lus[n] = await lireFichier(n, index[n].empreinte);
+    fait++; etape(`Données : ${fait} / ${tous.length}`, 0.85 * fait / tous.length);
+  }));
+  nettoyerCache(index);
+  // joueurs
+  for (const n of ["joueurs-historique.json", "joueurs-recents.json"]) {
+    const j = lus[n]; if (!j) continue;
+    for (const [pid, v] of Object.entries(j.joueurs)) D.J.set(pid, {nom: v[0], pays: v[1], main: v[2], taille: v[3], naiss: v[4]});
+  }
+  // matchs publics
+  etape("Assemblage…", 0.88);
+  const clesM = new Map();
+  for (const n of simples) {
+    const f = lus[n];
+    const loc = f.tournois.map(t => ajouterTournoi(...t));
+    const debutFichier = D.M.length;
+    for (const m of f.matchs) {
+      const t = loc[m[0]];
+      const o = {t, tour: m[1], g: m[2], p: m[3], sc: m[4] || "", d: (m[5] || D.T[t].debut || "").slice(0, 10), dr: m[6], jour: !!m[5]};
+      clesM.set(D.T[t].id + "|" + m[2] + "|" + m[3], D.M.length);
+      D.M.push(o);
+    }
+    D.stats.set("stats-" + n, {debut: debutFichier, n: f.matchs.length, charge: false});
+  }
+  // compléments chiffrés
+  if (chiffres.length) {
+    let code = lsLire("h2h-code");
+    let erreur = null;
+    for (let essai = 0; essai < 3; essai++) {
+      if (!code) code = await demanderCode(erreur);
+      if (!code) break;
+      try {
+        etape("Déchiffrement…", 0.9);
+        const contenus = [];
+        for (const n of chiffres) contenus.push(await dechiffrer(lus[n], code));
+        lsEcrire("h2h-code", code);
+        for (const c of contenus) appliquerComplement(c, clesM);
+        D.chiffre = true;
+        break;
+      } catch (e) {
+        code = null; lsEcrire("h2h-code", null); erreur = "Code refusé : les fichiers ne se déchiffrent pas.";
+      }
+    }
+  }
+  // tri chronologique et index par joueur
+  etape("Index des joueurs…", 0.95);
+  for (const [i, m] of D.M.entries()) {
+    for (const pid of [m.g, m.p]) { let l = D.parJoueur.get(pid); if (!l) D.parJoueur.set(pid, l = []); l.push(i); }
+  }
+  const ordre = i => { const m = D.M[i]; return (m.d || "") + String(100 + (ORDRE_TOUR[m.tour] ?? 50)); };
+  for (const l of D.parJoueur.values()) l.sort((a, b) => ordre(a) < ordre(b) ? 1 : -1);
+  // classement : Cito (officiel complet) sinon dernière semaine connue
+  if (!D.rang && lus["classements-recents.json"]) {
+    const cr = lus["classements-recents.json"].joueurs;
+    let derniere = "";
+    for (const v of Object.values(cr)) if (v[0] > derniere) derniere = v[0];
+    const liste = Object.entries(cr).filter(([, v]) => v[0] === derniere).map(([pid, v]) => [v[1], pid, v[2]]).sort((a, b) => a[0] - b[0]);
+    D.rang = {semaine: derniere, liste, source: "classement d'entrée en tournoi (partiel)"};
+  }
+  if (D.rang) D.rangPar = new Map(D.rang.liste.map(x => [x[1], x]));
+  D.photos = (lus["photos.json"] || {}).joueurs || {};
+  etape("Prêt", 1);
+}
+
+function appliquerComplement(c, clesM) {
+  for (const [pid, v] of Object.entries(c.joueurs || {})) if (!D.J.has(pid)) D.J.set(pid, {nom: v[0], pays: v[1], main: v[2], taille: v[3], naiss: v[4]});
+  for (const [tid, s] of Object.entries(c.salles || {})) { const i = D.tIdx.get(tid); if (i != null && D.T[i].salle == null) D.T[i].salle = s; }
+  for (const [t, g, p, sc, dr, st] of c.complements || []) {
+    const i = clesM.get(t + "|" + g + "|" + p); if (i == null) continue;
+    const m = D.M[i];
+    if (sc != null && !(m.dr & COMPLET)) { m.sc = sc; m.dr = dr; }
+    if (st && !m.st) m.st = st;
+  }
+  for (const [tid, tour, g, p, sc, date, dr, st] of c.matchs || []) {
+    let t = D.tIdx.get(tid);
+    if (t == null) { const x = (c.tournois || {})[tid]; if (!x) continue; t = ajouterTournoi(tid, ...x); }
+    const cleM = tid + "|" + g + "|" + p;
+    if (clesM.has(cleM)) continue;  // déjà fourni par l'autre complément
+    clesM.set(cleM, D.M.length);
+    D.M.push({t, tour, g, p, sc: sc || "", d: (date || D.T[t].debut || "").slice(0, 10), dr, st, jour: !!date});
+  }
+  const co = c.classement_officiel;
+  if (co && co.liste && co.liste.length > 50 && (!D.rang || co.semaine >= D.rang.semaine || D.rang.source !== "Cito"))
+    D.rang = {semaine: co.semaine, liste: co.liste.map(x => [x[0], x[1], x[2]]), source: "Cito"};
+}
+
+/* statistiques de match : chargées à la demande (fichiers lourds) */
+async function chargerStats(annees) {
+  const voulus = D.fichiersStats.filter(n => !annees || annees.some(a => n.includes("-" + a)));
+  for (const n of voulus) {
+    const ref = D.stats.get(n);
+    if (!ref || ref.charge) continue;
+    const f = await lireFichier(n, D.index[n].empreinte);
+    f.stats.forEach((s, k) => { const m = D.M[ref.debut + k]; if (s && m && !m.st) m.st = s; });
+    ref.charge = true;
+  }
+}
+
+/* ---------------------------------------------------------------- calculs */
+const nomJ = pid => (D.J.get(pid) || {}).nom || pid;
+function matchsDe(pid) { return (D.parJoueur.get(pid) || []).map(i => D.M[i]); }
+const compte = m => !(m.dr & FORFAIT);
+function bilan(liste, pid) { let v = 0, d = 0; for (const m of liste) { if (!compte(m)) continue; m.g === pid ? v++ : d++; } return {v, d}; }
+function anneeCourante() { return new Date().getFullYear(); }
+function photoDe(pid) {
+  const perso = lsLire("h2h-photo-" + pid);
+  if (perso) return {url: perso, perso: true};
+  const c = D.photos[pid];
+  if (c && c[2]) return {url: c[2], auteur: c[3], licence: c[4], lien: c[5], fichier: c[1]};
+  return null;
+}
+function avatar(pid, petit) {
+  const ph = photoDe(pid);
+  return `<div class="av${petit ? " p" : ""}" ${ph ? `style="background-image:url('${esc(ph.url)}')"` : ""}>${ph ? "" : esc(initiales(nomJ(pid)))}</div>`;
+}
+function texteRang(pid) {
+  const r = D.rangPar && D.rangPar.get(pid);
+  if (!r) return "non classé à la dernière semaine";
+  return `${r[0]}${r[0] === 1 ? "er" : "e"}${r[2] != null ? " · " + Number(r[2]).toLocaleString("fr-FR") + " pts" : ""}`;
+}
+
+/* ---------------------------------------------------------------- vues */
+const etat = {surfaceFiltre: "Tous", periode: "saison", circuit: "C", semaine: null, recherche: ""};
+
+function aller(h) { location.hash = h; }
+window.addEventListener("hashchange", rendre);
+
+function rendre() {
+  const h = decodeURIComponent(location.hash.slice(1));
+  const [, vue, a, b] = h.split("/");
+  window.scrollTo(0, 0);
+  if (vue === "joueur" && a) return vueJoueur(a);
+  if (vue === "h2h" && a && b) return vueH2H(a, b);
+  if (vue === "choisir") return vueChoisir(a);
+  return vueAccueil();
+}
+
+function lignesJoueurs(pids, clic) {
+  return pids.map(pid => { const j = D.J.get(pid) || {}; const r = D.rangPar && D.rangPar.get(pid);
+    return `<button class="ligne" data-pid="${esc(pid)}" data-clic="${clic}"><span class="rg">${r ? r[0] : ""}</span>
+      <span class="nm">${esc(j.nom || pid)}<small>${esc(j.pays || "")}${r && r[2] != null ? " · " + Number(r[2]).toLocaleString("fr-FR") + " pts" : ""}</small></span>
+      <span class="pt">›</span></button>`; }).join("");
+}
+
+function chercher(txt) {
+  const mots = cle(txt).split(" ").filter(Boolean);
+  if (!mots.length) return [];
+  const res = [];
+  for (const [pid, j] of D.J) {
+    const k = cle(j.nom);
+    if (mots.every(m => k.includes(m))) res.push([pid, (D.parJoueur.get(pid) || []).length]);
+  }
+  return res.sort((a, b) => b[1] - a[1]).slice(0, 30).map(x => x[0]);
+}
+
+function brancherLignes(racine) {
+  racine.querySelectorAll("[data-pid]").forEach(el => el.onclick = () => {
+    const pid = el.dataset.pid, c = el.dataset.clic;
+    if (c && c.startsWith("h2h:")) aller(`/h2h/${encodeURIComponent(c.slice(4))}/${encodeURIComponent(pid)}`);
+    else aller(`/joueur/${encodeURIComponent(pid)}`);
+  });
+}
+
+function vueAccueil() {
+  const top = D.rang ? D.rang.liste.slice(0, etat.topN || 30).map(x => x[1]) : [];
+  $("#app").innerHTML = `
+    <div class="entete"><h1>H2H Tennis</h1></div>
+    <input class="recherche" id="rech" placeholder="Chercher un joueur" value="${esc(etat.recherche)}" autocomplete="off">
+    <div id="resultats"></div>
+    <div class="panel" id="semaine"></div>
+    <div class="panel"><div class="sel-t">Classement ATP</div>
+      <div class="sous">${D.rang ? `Semaine du ${dateFr(D.rang.semaine)} · ${esc(D.rang.source)}` : "Classement non disponible"}</div>
+      <div>${lignesJoueurs(top, "")}</div>
+      ${D.rang && D.rang.liste.length > top.length ? `<button class="btn" id="plus">Voir plus</button>` : ""}</div>
+    <div class="pied">Données du <b>${D.maj ? new Date(D.maj).toLocaleString("fr-FR") : "…"}</b> · ${D.M.length.toLocaleString("fr-FR")} matchs de simple
+      ${D.chiffre ? "" : "<br>Compléments chiffrés non chargés (scores et statistiques incomplets)"} · appli ${VERSION_APPLI}<br>
+      <a href="#" id="oubli">Changer le code</a></div>`;
+  const rech = $("#rech");
+  const maj = () => { etat.recherche = rech.value; const r = $("#resultats");
+    r.innerHTML = rech.value.trim() ? `<div class="panel">${lignesJoueurs(chercher(rech.value), "") || '<div class="vide">Aucun joueur</div>'}</div>` : "";
+    brancherLignes(r); };
+  rech.oninput = maj; maj();
+  const plus = $("#plus"); if (plus) plus.onclick = () => { etat.topN = (etat.topN || 30) + 70; vueAccueil(); };
+  $("#oubli").onclick = e => { e.preventDefault(); lsEcrire("h2h-code", null); location.reload(); };
+  vueSemaine();
+  brancherLignes($("#app"));
+}
+
+function vueSemaine() {
+  const aujourdhui = new Date().toISOString().slice(0, 10);
+  if (!etat.semaine) {
+    etat.semaine = lundi(aujourdhui);
+    const avant = plusJours(etat.semaine, -1);
+    if (!D.M.some(m => m.d >= etat.semaine)) etat.semaine = lundi(avant);   // semaine commencée sans résultat : la précédente
+  }
+  const sem = etat.semaine;
+  const fin = plusJours(sem, 6);
+  const groupe = n => n === "C" ? "C" : n.startsWith("I") ? "I" : "A";
+  const parT = new Map();
+  for (const m of D.M) {
+    const t = D.T[m.t];
+    if (t.debut < plusJours(sem, -7) || t.debut > fin) continue;
+    if (lundi(t.debut) !== sem && !(m.d >= sem && m.d <= fin)) continue;
+    let x = parT.get(m.t); if (!x) parT.set(m.t, x = {t, matchs: []}); x.matchs.push(m);
+  }
+  const nb = {A: 0, C: 0, I: 0};
+  for (const x of parT.values()) nb[groupe(x.t.niv)]++;
+  const liste = [...parT.values()].filter(x => groupe(x.t.niv) === etat.circuit).sort((a, b) => a.t.nom.localeCompare(b.t.nom));
+  const html = liste.map(x => {
+    const fin = x.matchs.find(m => m.tour === "F");
+    const dernier = x.matchs.reduce((a, m) => (ORDRE_TOUR[m.tour] ?? 0) > (ORDRE_TOUR[a.tour] ?? 0) ? m : a, x.matchs[0]);
+    const res = fin ? `Vainqueur : <b>${esc(nomJ(fin.g))}</b>` : `En cours : <b>${esc(NOM_TOUR[dernier.tour] || dernier.tour)}</b>`;
+    return `<div class="trn"><div class="top"><span class="nm">${esc(x.t.nom)}</span><span class="tag">${esc(NIV[x.t.niv] || x.t.niv)}</span>
+      <span class="tag">${esc(SURF[x.t.surf] || x.t.surf || "")}${x.t.salle ? " · salle" : ""}</span></div><div class="res">${res}</div></div>`;
+  }).join("");
+  $("#semaine").innerHTML = `<div class="sel-t">Tournois de la semaine</div>
+    <div class="seg"><button data-c="A" class="${etat.circuit === "A" ? "on" : ""}">ATP · ${nb.A}</button><button data-c="C" class="${etat.circuit === "C" ? "on" : ""}">Challenger · ${nb.C}</button><button data-c="I" class="${etat.circuit === "I" ? "on" : ""}">ITF · ${nb.I}</button></div>
+    <div class="wk"><button id="sp" aria-label="Semaine précédente">‹</button><div>${dateFr(sem)} au ${dateFr(fin)}</div><button id="ss" aria-label="Semaine suivante">›</button></div>
+    <div class="liste">${html || '<div class="vide">Aucun résultat cette semaine pour ce circuit</div>'}</div>`;
+  $("#semaine").querySelectorAll("[data-c]").forEach(b => b.onclick = () => { etat.circuit = b.dataset.c; vueSemaine(); });
+  $("#sp").onclick = () => { etat.semaine = plusJours(sem, -7); vueSemaine(); };
+  $("#ss").onclick = () => { etat.semaine = plusJours(sem, 7); vueSemaine(); };
+}
+
+function lignesSurface(liste, pid) {
+  const par = {};
+  for (const m of liste) {
+    if (!compte(m)) continue;
+    const t = D.T[m.t]; const s = t.surf || "?";
+    for (const k of [s, t.salle === 1 && s !== "Carpet" ? s + "|salle" : null]) {
+      if (!k) continue; const x = par[k] || (par[k] = {v: 0, d: 0}); m.g === pid ? x.v++ : x.d++;
+    }
+  }
+  const ordre = ["Hard", "Hard|salle", "Clay", "Grass", "Carpet"];
+  return ordre.filter(k => par[k]).map(k => { const x = par[k], n = x.v + x.d; const [s, salle] = k.split("|");
+    return `<div class="srow"><span>${salle ? "<small>dont en salle</small>" : esc(SURF[s] || s)}</span>
+      <div class="bar"><i class="w" style="width:${100 * x.v / n}%"></i><i class="l" style="width:${100 * x.d / n}%"></i></div>
+      <span class="d">${x.v}–${x.d} <small>${pct(x.v, n)}</small></span></div>`; }).join("") || '<div class="vide">Aucun match</div>';
+}
+
+function carteMatch(m, pid, autre) {
+  const t = D.T[m.t]; const gagne = m.g === pid; const adv = gagne ? m.p : m.g;
+  const sc = gagne ? m.sc : inverserScore(m.sc);
+  const marque = m.dr & FORFAIT ? " (forfait)" : (m.dr & ABANDON && !/ret/i.test(sc) ? " (abandon)" : "");
+  const incomplet = !(m.dr & (COMPLET | ABANDON | FORFAIT)) && m.sc ? " · score incomplet" : "";
+  return `<button class="m ${gagne ? "won" : "lost"}" data-pid="${esc(adv)}" data-clic="${autre ? "" : "h2h:" + esc(pid)}">
+    <span class="q">${m.jour ? dateFr(m.d) : "Sem. du " + dateFr(m.d)} · ${esc(t.nom)} · ${esc(NOM_TOUR[m.tour] || m.tour)} · ${esc(SURF[t.surf] || t.surf || "")}${t.salle ? " salle" : ""}${incomplet}</span>
+    <span class="who">${gagne ? "Victoire" : "Défaite"} ${autre ? "" : "contre " + esc(nomJ(adv))}</span><span class="res">${gagne ? "V" : "D"}</span>
+    <span class="sc">${esc(sc || "score non connu")}${marque}</span></button>`;
+}
+
+function statsService(liste, pid) {
+  const s = {n: 0, ace: 0, df: 0, svpt: 0, in1: 0, w1: 0, w2: 0, bps: 0, bpf: 0, rpt: 0, rw: 0, bpo: 0, bpc: 0};
+  for (const m of liste) {
+    const st = m.st; if (!st || st[1] == null) continue;
+    const g = m.g === pid, o = g ? 1 : 10, a = g ? 10 : 1;
+    if (st[o + 2] == null || st[a + 2] == null) continue;
+    s.n++; s.ace += st[o] || 0; s.df += st[o + 1] || 0; s.svpt += st[o + 2]; s.in1 += st[o + 3] || 0; s.w1 += st[o + 4] || 0; s.w2 += st[o + 5] || 0;
+    s.bps += st[o + 7] || 0; s.bpf += st[o + 8] || 0;
+    s.rpt += st[a + 2]; s.rw += st[a + 2] - (st[a + 4] || 0) - (st[a + 5] || 0); s.bpo += st[a + 8] || 0; s.bpc += (st[a + 8] || 0) - (st[a + 7] || 0);
+  }
+  return s;
+}
+function blocStats(s) {
+  if (!s.n) return '<div class="vide">Pas de statistiques de match sur cette période</div>';
+  const t = (k, v, sub) => `<div class="tt" style="--c:var(--bleu)"><span class="k">${k}</span><b>${v}</b><span>${sub || ""}</span></div>`;
+  return `<div class="ttl">${t("Aces par match", (s.ace / s.n).toFixed(1), s.ace + " aces")}${t("Doubles fautes", (s.df / s.n).toFixed(1), "par match")}
+    ${t("1re balle", pct(s.in1, s.svpt), "mises en jeu")}${t("Points gagnés 1re", pct(s.w1, s.in1), "")}
+    ${t("Points gagnés 2e", pct(s.w2, s.svpt - s.in1), "")}${t("Balles de break sauvées", pct(s.bps, s.bpf), s.bps + " / " + s.bpf)}
+    ${t("Points gagnés en retour", pct(s.rw, s.rpt), "")}${t("Breaks réussis", pct(s.bpc, s.bpo), s.bpc + " / " + s.bpo)}</div>
+    <div class="sous">Sur ${s.n} matchs avec statistiques</div>`;
+}
+
+async function vueJoueur(pid) {
+  const j = D.J.get(pid) || {nom: pid};
+  const tous = matchsDe(pid);
+  const an = String(anneeCourante());
+  const saison = tous.filter(m => m.d.startsWith(an));
+  const bs = bilan(saison, pid), bc = bilan(tous, pid);
+  const titres = tous.filter(m => m.tour === "F" && m.g === pid && D.T[m.t].niv !== "D");
+  const parNiv = {};
+  for (const m of titres) { const n = D.T[m.t].niv; parNiv[n] = (parNiv[n] || 0) + 1; }
+  const ph = photoDe(pid);
+  const wd = D.photos[pid] || [];
+  const infos = [j.pays, age(j.naiss) ? age(j.naiss) + " ans" : null, (j.taille || wd[7]) ? (j.taille || wd[7]) + " cm" : null,
+    wd[6] ? wd[6] + " kg" : null, j.main === "L" ? "gaucher" : j.main === "R" ? "droitier" : null].filter(Boolean).join(" · ");
+  const periode = etat.periode === "saison" ? saison : tous;
+  const surfaces = ["Tous", "Hard", "Clay", "Grass"];
+  const filtres = tous.filter(m => etat.surfaceFiltre === "Tous" || D.T[m.t].surf === etat.surfaceFiltre).slice(0, etat.nbDerniers || 20);
+  $("#app").innerHTML = `
+    <div class="entete"><button class="retour" onclick="history.length > 1 ? history.back() : aller('/')">‹</button><h1>${esc(j.nom)}</h1></div>
+    <div class="panel">
+      <div class="fiche">${avatar(pid)}<div class="id"><b>${esc(j.nom)}</b><span>${esc(infos)}</span><span>Classement : ${esc(texteRang(pid))}</span></div></div>
+      ${ph && !ph.perso ? `<div class="credit">Photo : ${esc(ph.auteur)} · <a href="${esc(ph.lien || "https://commons.wikimedia.org/wiki/File:" + ph.fichier)}" target="_blank" rel="noopener">${esc(ph.licence)}</a> · Wikimedia Commons</div>` : ""}
+      <div class="btns"><button class="btn" id="photo">${ph && ph.perso ? "Changer la photo" : "Ajouter une photo"}</button>
+        ${ph && ph.perso ? '<button class="btn" id="photoSuppr">Retirer ma photo</button>' : ""}
+        <button class="btn plein" id="h2h">Face-à-face</button></div>
+      <input type="file" id="fichierPhoto" accept="image/*" hidden>
+      <div class="hs"><div><span class="hv vert">${bs.v}–${bs.d}</span><span class="hl">Saison</span></div>
+        <div><span class="hv">${bc.v}–${bc.d}</span><span class="hl">Carrière</span></div>
+        <div><span class="hv">${pct(bc.v, bc.v + bc.d)}</span><span class="hl">Victoires</span></div>
+        <div><span class="hv">${titres.length}</span><span class="hl">Titres</span></div></div>
+    </div>
+    <div class="panel"><div class="sel-t">Par surface</div>
+      <div class="seg"><button data-per="saison" class="${etat.periode === "saison" ? "on" : ""}">Saison ${an}</button><button data-per="carriere" class="${etat.periode !== "saison" ? "on" : ""}">Carrière</button></div>
+      <div>${lignesSurface(periode, pid)}</div></div>
+    <div class="panel"><div class="sel-t">Titres</div>
+      ${titres.length ? `<div class="ttl">${Object.entries(parNiv).map(([n, c]) => `<div class="tt"><span class="k">${esc(NIV[n] || n)}</span><b>${c}</b></div>`).join("")}</div>
+        <div class="sous">${titres.slice(0, 8).map(m => esc(D.T[m.t].nom) + " " + m.d.slice(0, 4)).join(" · ")}</div>` : '<div class="vide">Aucun titre dans la base</div>'}</div>
+    <div class="panel"><div class="sel-t">Statistiques de match · ${etat.periode === "saison" ? "saison " + an : "carrière"}</div><div id="stats"><div class="vide">Chargement…</div></div></div>
+    <div class="panel"><div class="sel-t">Derniers matchs</div>
+      <div class="fil">${surfaces.map(s => `<button data-surf="${s}" class="${etat.surfaceFiltre === s ? "on" : ""}">${s === "Tous" ? "Toutes surfaces" : SURF[s]}</button>`).join("")}</div>
+      <div class="liste">${filtres.map(m => carteMatch(m, pid)).join("") || '<div class="vide">Aucun match</div>'}</div>
+      ${filtres.length >= (etat.nbDerniers || 20) ? '<button class="btn" id="plusM">Voir plus</button>' : ""}</div>`;
+  brancherLignes($("#app"));
+  document.querySelectorAll("[data-per]").forEach(b => b.onclick = () => { etat.periode = b.dataset.per; vueJoueur(pid); });
+  document.querySelectorAll("[data-surf]").forEach(b => b.onclick = () => { etat.surfaceFiltre = b.dataset.surf; etat.nbDerniers = 20; vueJoueur(pid); });
+  const pm = $("#plusM"); if (pm) pm.onclick = () => { etat.nbDerniers = (etat.nbDerniers || 20) + 30; vueJoueur(pid); };
+  $("#h2h").onclick = () => aller(`/choisir/${encodeURIComponent(pid)}`);
+  $("#photo").onclick = () => $("#fichierPhoto").click();
+  $("#fichierPhoto").onchange = e => ajouterPhoto(pid, e.target.files[0]);
+  const ps = $("#photoSuppr"); if (ps) ps.onclick = () => { lsEcrire("h2h-photo-" + pid, null); vueJoueur(pid); };
+  // statistiques : saison = fichiers de l'année ; carrière = tous les fichiers (chargés une fois)
+  const zone = $("#stats");
+  try {
+    await chargerStats(etat.periode === "saison" ? [an] : null);
+    if (location.hash.includes(encodeURIComponent(pid)) || location.hash.includes(pid)) zone.innerHTML = blocStats(statsService(periode, pid));
+  } catch (e) { zone.innerHTML = `<div class="note">Statistiques indisponibles : ${esc(e.message)}</div>`; }
+}
+
+function ajouterPhoto(pid, fichier) {
+  if (!fichier) return;
+  const img = new Image();
+  img.onload = () => {
+    const c = document.createElement("canvas"), t = 240, r = Math.min(img.width, img.height);
+    c.width = c.height = t;
+    c.getContext("2d").drawImage(img, (img.width - r) / 2, (img.height - r) / 2, r, r, 0, 0, t, t);
+    if (!lsEcrire("h2h-photo-" + pid, c.toDataURL("image/jpeg", 0.85))) alert("Stockage plein sur cet appareil : photo non enregistrée.");
+    URL.revokeObjectURL(img.src); vueJoueur(pid);
+  };
+  img.src = URL.createObjectURL(fichier);
+}
+
+function vueChoisir(pid) {
+  $("#app").innerHTML = `<div class="entete"><button class="retour" onclick="history.back()">‹</button><h1>Face-à-face avec ${esc(nomJ(pid))}</h1></div>
+    <input class="recherche" id="rech" placeholder="Chercher l'adversaire" autocomplete="off">
+    <div class="panel" id="res"></div>`;
+  const adv = new Map();
+  for (const m of matchsDe(pid)) { const a = m.g === pid ? m.p : m.g; adv.set(a, (adv.get(a) || 0) + 1); }
+  const frequents = [...adv.entries()].sort((a, b) => b[1] - a[1]).slice(0, 20).map(x => x[0]);
+  const maj = () => { const v = $("#rech").value; const l = v.trim() ? chercher(v).filter(x => x !== pid) : frequents;
+    $("#res").innerHTML = (v.trim() ? "" : '<div class="sous">Adversaires les plus fréquents</div>') + (lignesJoueurs(l, "h2h:" + pid) || '<div class="vide">Aucun joueur</div>');
+    brancherLignes($("#res")); };
+  $("#rech").oninput = maj; maj();
+  setTimeout(() => $("#rech").focus(), 50);
+}
+
+async function vueH2H(a, b) {
+  const communs = matchsDe(a).filter(m => m.g === b || m.p === b);
+  const ba = bilan(communs, a), bb = bilan(communs, b);
+  $("#app").innerHTML = `
+    <div class="entete"><button class="retour" onclick="history.back()">‹</button><h1>Face-à-face</h1></div>
+    <div class="panel"><div class="vs">
+      <button class="j" data-pid="${esc(a)}" style="border:0;background:none">${avatar(a)}<b>${esc(nomJ(a))}</b><span class="sous">${esc(texteRang(a))}</span></button>
+      <div class="sc">${ba.v}–${bb.v}</div>
+      <button class="j" data-pid="${esc(b)}" style="border:0;background:none">${avatar(b)}<b>${esc(nomJ(b))}</b><span class="sous">${esc(texteRang(b))}</span></button></div>
+      ${communs.some(m => m.dr & FORFAIT) ? '<div class="sous">Forfaits exclus du bilan</div>' : ""}</div>
+    <div class="panel"><div class="sel-t">Par surface (${esc(nomJ(a))})</div><div>${lignesSurface(communs, a)}</div></div>
+    <div class="panel"><div class="sel-t">Statistiques dans leurs matchs</div><div id="cmp"><div class="vide">Chargement…</div></div></div>
+    <div class="panel"><div class="sel-t">Tous leurs matchs</div><div class="liste">${communs.map(m => carteMatch(m, a, true)).join("") || '<div class="vide">Jamais affrontés dans la base</div>'}</div></div>`;
+  brancherLignes($("#app"));
+  try {
+    await chargerStats([...new Set(communs.map(m => m.d.slice(0, 4)))]);
+    const sa = statsService(communs, a), sb = statsService(communs, b);
+    const l = (k, x, y) => `<div class="cmp"><span class="a">${x}</span><span class="c">${k}</span><span class="b">${y}</span></div>`;
+    $("#cmp").innerHTML = sa.n ? l("Aces par match", (sa.ace / sa.n).toFixed(1), (sb.ace / sb.n).toFixed(1)) + l("1re balle", pct(sa.in1, sa.svpt), pct(sb.in1, sb.svpt))
+      + l("Points gagnés 1re", pct(sa.w1, sa.in1), pct(sb.w1, sb.in1)) + l("Points gagnés 2e", pct(sa.w2, sa.svpt - sa.in1), pct(sb.w2, sb.svpt - sb.in1))
+      + l("Balles de break sauvées", pct(sa.bps, sa.bpf), pct(sb.bps, sb.bpf)) + l("Breaks réussis", pct(sa.bpc, sa.bpo), pct(sb.bpc, sb.bpo))
+      + `<div class="sous">Sur ${sa.n} matchs avec statistiques</div>` : '<div class="vide">Pas de statistiques pour leurs matchs</div>';
+  } catch (e) { $("#cmp").innerHTML = `<div class="note">${esc(e.message)}</div>`; }
+}
+
+/* ---------------------------------------------------------------- démarrage */
+charger().then(() => { $("#charge").remove(); rendre(); }).catch(e => {
+  $("#etape").innerHTML = `<span class="rouge">Chargement impossible : ${esc(e.message)}</span><br><button class="btn" onclick="location.reload()">Réessayer</button>`;
+  console.error(e);
+});
+</script>
+</body>
+</html>
