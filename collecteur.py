@@ -17,6 +17,9 @@ Sources et licences :
     Challenger depuis la fin de l'archive. Ces données ne sont JAMAIS écrites en
     clair : elles sont chiffrées (AES-256-GCM, clé dérivée du secret CODE_TML)
     dans donnees/tml-AAAA.json. Sans le secret, l'étape est sautée.
+  - Cito API (citoapi.com), clé CITO_API_KEY, plan gratuit (500 appels / 30 jours) :
+    résultats ATP, Challenger (qualifications comprises) et ITF, statistiques, classement
+    ATP complet. Données chiffrées comme TennisMyLife (etat/cito-*.json, donnees/cito-*.json).
 
 Aucune clé n'est écrite dans ce fichier. Python 3.10+, bibliothèque standard,
 plus « cryptography » pour le chiffrement (installé par le workflow).
@@ -43,7 +46,7 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.2.0"
+VERSION = "1.3.0"
 VERSION_COPIE = 2   # copie compacte de l'archive : 2 = avec statistiques et classements
 PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
 
@@ -69,7 +72,7 @@ TML_URLS = ["https://stats.tennismylife.org/data/{annee}.csv",
 TML_ITERATIONS = 600_000   # dérivation de clé volontairement lente (PBKDF2-SHA256)
 
 # Présentation du dépôt, réécrite à chaque passage (attribution exigée par les licences)
-README = "# H2H Tennis\n\nApplication personnelle et non commerciale de statistiques de tennis masculin (ATP, Challenger, ITF) : face-à-face, fiches joueurs, bilans.\n\n## Fonctionnement\n\n- `collecteur.py` construit chaque nuit les fichiers de `donnees/` à partir des sources ci-dessous (planification : `.github/workflows/collecte.yml`).\n- `rapport/rapport.md` décrit la dernière collecte (chiffres, alertes, erreurs).\n- `etat/` conserve une copie compacte de l'historique et le cache des tableaux Wikipédia.\n\n## Sources et licences\n\n| Source | Usage | Licence |\n|---|---|---|\n| Jeff Sackmann, [tennis_atp](https://github.com/JeffSackmann/tennis_atp), via la copie [Aneeshers/tennis-sackmann-archive](https://github.com/Aneeshers/tennis-sackmann-archive) | Historique des matchs, statistiques de match (aces, breaks…), joueurs, classements jusqu'à juin 2026 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |\n| [Valuebetennis](https://www.valuebetennis.com/en/donnees.htm), « Tennis results and odds since 2021 » | Matchs récents, mis à jour chaque jour | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |\n| [Wikipédia](https://en.wikipedia.org) (anglais), pages de tableaux de double | Doubles ATP et Challenger depuis 2021 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |\n| [Kaggle, dissfya/atp-tennis-2000-2023daily-pull](https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull) | Scores, catégorie 250/500, intérieur ou extérieur, classement au moment du match (circuit principal) | CC0 (domaine public) |\n| [TennisMyLife](https://stats.tennismylife.org/tennis-match-database) | Scores complets et statistiques ATP et Challenger depuis juin 2026, **fichiers `donnees/tml-*.json` chiffrés** (usage personnel du propriétaire ; la redistribution des CSV n'est pas autorisée) | Usage personnel et non commercial |\n\nLes fichiers de `donnees/` (hors `tml-*.json`, chiffrés et non partagés) sont des œuvres dérivées de ces sources et sont partagés dans les mêmes conditions : usage non commercial, attribution, partage dans les mêmes conditions (CC BY-NC-SA 4.0).\n\nAucun lien avec l'ATP, l'ITF ou les tournois cités. Les noms de tournois sont utilisés à titre descriptif.\n"
+README = "# H2H Tennis\n\nApplication personnelle et non commerciale de statistiques de tennis masculin (ATP, Challenger, ITF) : face-à-face, fiches joueurs, bilans.\n\n## Fonctionnement\n\n- `collecteur.py` construit chaque nuit les fichiers de `donnees/` à partir des sources ci-dessous (planification : `.github/workflows/collecte.yml`).\n- `rapport/rapport.md` décrit la dernière collecte (chiffres, alertes, erreurs).\n- `etat/` conserve une copie compacte de l'historique et le cache des tableaux Wikipédia.\n\n## Sources et licences\n\n| Source | Usage | Licence |\n|---|---|---|\n| Jeff Sackmann, [tennis_atp](https://github.com/JeffSackmann/tennis_atp), via la copie [Aneeshers/tennis-sackmann-archive](https://github.com/Aneeshers/tennis-sackmann-archive) | Historique des matchs, statistiques de match (aces, breaks…), joueurs, classements jusqu'à juin 2026 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |\n| [Valuebetennis](https://www.valuebetennis.com/en/donnees.htm), « Tennis results and odds since 2021 » | Matchs récents, mis à jour chaque jour | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |\n| [Wikipédia](https://en.wikipedia.org) (anglais), pages de tableaux de double | Doubles ATP et Challenger depuis 2021 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |\n| [Kaggle, dissfya/atp-tennis-2000-2023daily-pull](https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull) | Scores, catégorie 250/500, intérieur ou extérieur, classement au moment du match (circuit principal) | CC0 (domaine public) |\n| [TennisMyLife](https://stats.tennismylife.org/tennis-match-database) | Scores complets et statistiques ATP et Challenger depuis juin 2026, **fichiers `donnees/tml-*.json` chiffrés** (usage personnel du propriétaire ; la redistribution des CSV n'est pas autorisée) | Usage personnel et non commercial |\n| [Cito API](https://citoapi.com) | Résultats ATP, Challenger (qualifications comprises) et ITF, statistiques de match, classement ATP complet, depuis juin 2026, **fichiers `donnees/cito-*.json` et `etat/cito-*.json` chiffrés** (redistribution interdite) | Usage dans sa propre application |\n\nLes fichiers de `donnees/` (hors `tml-*.json` et `cito-*.json`, chiffrés et non partagés) sont des œuvres dérivées de ces sources et sont partagés dans les mêmes conditions : usage non commercial, attribution, partage dans les mêmes conditions (CC BY-NC-SA 4.0).\n\nAucun lien avec l'ATP, l'ITF ou les tournois cités. Les noms de tournois sont utilisés à titre descriptif.\n"
 
 RACINE = os.path.dirname(os.path.abspath(__file__))
 DONNEES = os.path.join(RACINE, "donnees")
@@ -86,7 +89,7 @@ NIVEAUX = {"G": "Grand Chelem", "M": "Masters 1000", "A": "ATP 250/500",
            "N": "NextGen Finals"}
 
 # Drapeaux d'un match (somme de bits)
-COMPLET, ABANDON, FORFAIT, SRC_VBT, SRC_KAGGLE, SRC_WIKI, SRC_TML = 1, 2, 4, 8, 16, 32, 64
+COMPLET, ABANDON, FORFAIT, SRC_VBT, SRC_KAGGLE, SRC_WIKI, SRC_TML = 1, 2, 4, 8, 16, 32, 64  # 128 : Cito
 
 # Statistiques d'un match (fichiers stats-simple-*.json et complément chiffré),
 # même ordre que l'archive Sackmann ; « g_ » = gagnant, « p_ » = perdant
@@ -1420,71 +1423,88 @@ def charger_tml(fin_sackmann, fichiers_locaux=None):
     return lignes
 
 
-def integrer_tml(base, lignes, fin_sackmann):
-    """Prépare le complément chiffré : scores et statistiques des matchs déjà publiés,
-    matchs absents des autres sources. Rien n'est ajouté à la base publique."""
-    import difflib
-    stats = Counter()
-    debut_fenetre = (dt.date.fromisoformat(fin_sackmann) - dt.timedelta(days=7)).isoformat()
-    limite_index = (dt.date.fromisoformat(fin_sackmann) - dt.timedelta(days=30)).isoformat()
-    paires = defaultdict(list)
-    dernier = {}
-    for i, m in enumerate(base.simples):
-        for pid in (m["g"], m["p"]):
-            dernier[pid] = max(dernier.get(pid, ""), m["debut"])
-        if m["debut"] >= limite_index:
-            paires[frozenset((m["g"], m["p"]))].append(i)
-    seuil_actif = (dt.date.fromisoformat(fin_sackmann) - dt.timedelta(days=3 * 365)).isoformat()
-    par_mot = defaultdict(set)
-    for pid, j in base.joueurs.items():
-        if dernier.get(pid, "") >= seuil_actif:
-            for mot in cle_nom(j["nom"]).split():
-                if len(mot) >= 3:
-                    par_mot[mot].add(pid)
-    corresp, nouveaux = {}, {}
+class Rapprocheur:
+    """Rattache un joueur d'une source extérieure (TennisMyLife, Cito) à un joueur de la base :
+    nom identique, sinon orthographe proche parmi les joueurs actifs ; sinon nouveau joueur.
+    « autres » : joueurs nouveaux d'une autre source chiffrée (même personne = même identifiant)."""
 
-    def joueur(r, cote):
-        tml_id = (r.get(f"{cote}_id") or "").strip()
-        nom = (r.get(f"{cote}_name") or "").strip()
-        cle_c = tml_id or nom
-        if cle_c in corresp:
-            return corresp[cle_c]
+    def __init__(self, base, fin_sackmann, stats, prefixe, autres=None):
+        self.base, self.stats, self.prefixe = base, stats, prefixe
+        limite_index = (dt.date.fromisoformat(fin_sackmann) - dt.timedelta(days=30)).isoformat()
+        self.paires = defaultdict(list)
+        self.dernier = {}
+        for i, m in enumerate(base.simples):
+            for pid in (m["g"], m["p"]):
+                self.dernier[pid] = max(self.dernier.get(pid, ""), m["debut"])
+            if m["debut"] >= limite_index:
+                self.paires[frozenset((m["g"], m["p"]))].append(i)
+        seuil_actif = (dt.date.fromisoformat(fin_sackmann) - dt.timedelta(days=3 * 365)).isoformat()
+        self.par_mot = defaultdict(set)
+        for pid, j in base.joueurs.items():
+            if self.dernier.get(pid, "") >= seuil_actif:
+                for mot in cle_nom(j["nom"]).split():
+                    if len(mot) >= 3:
+                        self.par_mot[mot].add(pid)
+        self.autres = {}
+        for pid, j in (autres or {}).items():
+            self.autres.setdefault(cle_nom(j[0] or ""), pid)
+        self.corresp, self.nouveaux = {}, {}
+
+    def joueur(self, ext_id, nom, pays=None, main=None, taille=None):
+        import difflib
+        cle_c = ext_id or nom
+        if cle_c in self.corresp:
+            return self.corresp[cle_c]
         cle = cle_nom(nom)
-        cands = base.par_cle.get(cle, [])
+        cands = self.base.par_cle.get(cle, [])
         if len(cands) == 1:
             pid = cands[0]
-            stats["joueurs_rapproches"] += 1
+            self.stats["joueurs_rapproches"] += 1
         elif cands:
-            pid = max(cands, key=lambda c: dernier.get(c, ""))
-            stats["joueurs_homonymes_par_activite"] += 1
+            pid = max(cands, key=lambda c: self.dernier.get(c, ""))
+            self.stats["joueurs_homonymes_par_activite"] += 1
+        elif cle in self.autres:
+            pid = self.autres[cle]
+            self.stats["joueurs_communs_autre_source"] += 1
         else:
             mots = set(cle.split())
             vus = set()
             for mot in mots:
-                vus |= par_mot.get(mot, set())
+                vus |= self.par_mot.get(mot, set())
             retenus = []
             for c in vus:
-                cm = cle_nom(base.joueurs[c]["nom"])
+                cm = cle_nom(self.base.joueurs[c]["nom"])
                 commun = mots & set(cm.split())
                 if (len(commun) >= 2 and (mots <= set(cm.split()) or set(cm.split()) <= mots)) or \
                         (commun and difflib.SequenceMatcher(None, cle, cm).ratio() >= 0.88):
                     retenus.append(c)
             if len(retenus) == 1:
                 pid = retenus[0]
-                stats["joueurs_rapproches_orthographe"] += 1
+                self.stats["joueurs_rapproches_orthographe"] += 1
             else:
-                pid = "t" + re.sub(r"[^A-Za-z0-9]", "", tml_id or cle.replace(" ", "_"))
-                stats["joueurs_nouveaux"] += 1
-                taille = (r.get(f"{cote}_ht") or "").strip()
-                try:
-                    taille = int(float(taille)) if taille else None
-                except ValueError:
-                    taille = None
-                main = (r.get(f"{cote}_hand") or "").strip()
-                nouveaux[pid] = [nom, (r.get(f"{cote}_ioc") or "").strip() or None,
-                                 main if main in ("R", "L") else None, taille, None]
-        corresp[cle_c] = pid
+                pid = self.prefixe + re.sub(r"[^A-Za-z0-9]", "", ext_id or cle.replace(" ", "_"))
+                self.stats["joueurs_nouveaux"] += 1
+                self.nouveaux[pid] = [nom, pays or None, main if main in ("R", "L") else None, taille, None]
+        self.corresp[cle_c] = pid
         return pid
+
+
+def integrer_tml(base, lignes, fin_sackmann):
+    """Prépare le complément chiffré : scores et statistiques des matchs déjà publiés,
+    matchs absents des autres sources. Rien n'est ajouté à la base publique."""
+    stats = Counter()
+    debut_fenetre = (dt.date.fromisoformat(fin_sackmann) - dt.timedelta(days=7)).isoformat()
+    rap = Rapprocheur(base, fin_sackmann, stats, "t")
+    paires, nouveaux = rap.paires, rap.nouveaux
+
+    def joueur(r, cote):
+        taille = (r.get(f"{cote}_ht") or "").strip()
+        try:
+            taille = int(float(taille)) if taille else None
+        except ValueError:
+            taille = None
+        return rap.joueur((r.get(f"{cote}_id") or "").strip(), (r.get(f"{cote}_name") or "").strip(),
+                          (r.get(f"{cote}_ioc") or "").strip() or None, (r.get(f"{cote}_hand") or "").strip(), taille)
 
     complements = defaultdict(list)
     seuls = []
@@ -1592,23 +1612,40 @@ def integrer_tml(base, lignes, fin_sackmann):
     return dict(resultat)
 
 
+_CLES = {}
+
+
+def cle_derivee(code, sel):
+    """PBKDF2-SHA256 (lent par construction) : calculé une fois par passage."""
+    import hashlib
+    if (code, sel) not in _CLES:
+        _CLES[(code, sel)] = hashlib.pbkdf2_hmac("sha256", code.encode("utf-8"), sel, TML_ITERATIONS, 32)
+    return _CLES[(code, sel)]
+
+
 def chiffrer(objet, code, sel):
     """AES-256-GCM, clé = PBKDF2-SHA256(code, sel, TML_ITERATIONS). Contenu : JSON compressé (gzip)."""
     import base64
-    import hashlib
     import secrets
     from cryptography.hazmat.primitives.ciphers.aead import AESGCM
-    cle = hashlib.pbkdf2_hmac("sha256", code.encode("utf-8"), sel, TML_ITERATIONS, 32)
     iv = secrets.token_bytes(12)
     clair = gzip.compress(json.dumps(objet, ensure_ascii=False, separators=(",", ":")).encode("utf-8"), mtime=0)
     b64 = lambda x: base64.b64encode(x).decode("ascii")  # noqa: E731
     return {"format": "h2h-tml-1", "algo": "AES-256-GCM", "kdf": "PBKDF2-SHA256",
             "iterations": TML_ITERATIONS, "sel": b64(sel), "iv": b64(iv), "contenu": "json+gzip",
-            "donnees": b64(AESGCM(cle).encrypt(iv, clair, None))}
+            "donnees": b64(AESGCM(cle_derivee(code, sel)).encrypt(iv, clair, None))}
 
 
-def ecrire_tml(resultat, code):
-    """Écrit donnees/tml-AAAA.json (chiffré). Renvoie la liste des fichiers écrits."""
+def dechiffrer(enveloppe, code):
+    import base64
+    from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+    sel = base64.b64decode(enveloppe["sel"])
+    clair = AESGCM(cle_derivee(code, sel)).decrypt(base64.b64decode(enveloppe["iv"]),
+                                                   base64.b64decode(enveloppe["donnees"]), None)
+    return json.loads(gzip.decompress(clair).decode("utf-8"))
+
+
+def sel_commun():
     import secrets
     chemin_sel = os.path.join(ETAT, "tml-sel.txt")
     sel_hex = (lire_texte(chemin_sel) or "").strip()
@@ -1617,26 +1654,51 @@ def ecrire_tml(resultat, code):
         os.makedirs(ETAT, exist_ok=True)
         with open(chemin_sel, "w", encoding="utf-8") as f:
             f.write(sel_hex + "\n")
-    sel = bytes.fromhex(sel_hex)
+    return bytes.fromhex(sel_hex)
+
+
+def lire_chiffre(chemin, code, defaut):
+    """Fichier chiffré -> objet. Fichier absent -> défaut. Fichier illisible -> exception
+    (on ne réécrit jamais par-dessus des données qu'on n'a pas pu relire)."""
+    env = lire_json(chemin, None)
+    if not env:
+        return defaut
+    return dechiffrer(env, code)
+
+
+def ecrire_chiffre(chemin, objet, code):
+    """N'écrit que si le contenu a changé : le chiffrement produit un fichier différent à chaque
+    écriture, ce qui alourdirait l'historique du dépôt."""
+    ancien = lire_json(chemin, None)
+    if ancien:
+        try:
+            if dechiffrer(ancien, code) == json.loads(json.dumps(objet, ensure_ascii=False)):
+                return False
+        except Exception:  # noqa: BLE001
+            pass
+    os.makedirs(os.path.dirname(chemin), exist_ok=True)
+    ecrire_json(chemin, chiffrer(objet, code, sel_commun()), compact=False)
+    return True
+
+
+def ecrire_tml(resultat, code, prefixe="tml"):
+    """Écrit donnees/<prefixe>-AAAA.json (chiffré). Renvoie la liste des fichiers."""
     ecrits = []
     for annee, contenu in sorted(resultat.items()):
-        nom = f"tml-{annee}.json"
+        nom = f"{prefixe}-{annee}.json"
         contenu = dict(contenu, colonnes_tournois=["nom", "niveau", "surface", "salle", "debut", "bo", "categorie"],
                        colonnes_joueurs=["nom", "pays", "main", "taille_cm", "naissance"],
                        colonnes_complements=["tournoi", "gagnant", "perdant", "score", "drapeaux", "stats"],
                        colonnes_matchs=["tournoi", "tour", "gagnant", "perdant", "score", "date", "drapeaux", "stats"],
                        colonnes_classements=["semaine", "rang", "points"], colonnes_stats=NOMS_STATS,
                        note_salles="tournoi public -> 1 en salle, 0 en extérieur (quand la base publique l'ignore)")
-        ecrire_json(os.path.join(DONNEES, nom), chiffrer(contenu, code, sel), compact=False)
+        ecrire_chiffre(os.path.join(DONNEES, nom), contenu, code)
         ecrits.append(nom)
     return ecrits
 
 
-# ---------------------------------------------------------------- Cito API (reconnaissance)
+# ---------------------------------------------------------------- Cito API (appel)
 CITO_BASE = "https://api.citoapi.com/api/v1"
-CITO_VALEURS = ("level", "category", "tier", "round", "status", "circuit", "tour", "surface", "type", "gender",
-                "series", "stage", "phase", "outcome", "result", "indoor", "court", "draw", "entry", "source",
-                "format", "best_of", "currency", "sport")
 
 
 def cito_appel(cle, chemin):
@@ -1658,150 +1720,564 @@ def cito_appel(cle, chemin):
         return code, utiles, None
 
 
-def cito_structure(obj):
-    """Décrit la forme d'une réponse sans en recopier le contenu : chemins des champs, types,
-    nombre d'éléments, valeurs de quelques champs de catégorie (niveau, tour, statut…), part de
-    scores complets. Aucun nom de joueur ni résultat n'est recopié."""
-    champs = {}
-    valeurs = defaultdict(Counter)
-    scores = defaultdict(Counter)
-
-    def visite(o, chemin, prof):
-        if prof > 8:
-            return
-        if isinstance(o, dict):
-            for k, v in o.items():
-                c = f"{chemin}.{k}" if chemin else k
-                t = type(v).__name__
-                champs.setdefault(c, Counter())[t] += 1
-                kl = k.lower()
-                if isinstance(v, (str, int, bool)):
-                    if any(kl == x or kl.endswith("_" + x) or kl.startswith(x + "_") for x in CITO_VALEURS):
-                        valeurs[c][str(v)[:40]] += 1
-                if "score" in kl and isinstance(v, str):
-                    _, drap = analyser_score(v, 3)
-                    _, drap5 = analyser_score(v, 5)
-                    scores[c]["complet" if (drap | drap5) & COMPLET else
-                              ("abandon_forfait" if (drap | drap5) & (ABANDON | FORFAIT) else
-                               ("vide" if not v.strip() else "incomplet"))] += 1
-                visite(v, c, prof + 1)
-        elif isinstance(o, list):
-            champs.setdefault(chemin + "[]", Counter())["n=" + str(len(o))] += 1
-            for x in o[:500]:
-                visite(x, chemin + "[]", prof + 1)
-
-    visite(obj, "", 0)
-    return {"champs": {c: dict(t) for c, t in champs.items()},
-            "valeurs": {c: dict(v.most_common(25)) for c, v in valeurs.items() if len(v) <= 60},
-            "scores": {c: dict(v) for c, v in scores.items()}}
+# ---------------------------------------------------------------- Cito API (collecte)
+# Quota gratuit : 500 appels par période de 30 jours, 10 par minute. Chaque appel est rentabilisé :
+#  - résultats d'une journée entière par page de 200 lignes, statistiques comprises (include=stats),
+#    filtrés sur le circuit masculin quand l'API l'accepte ;
+#  - classement ATP complet (jusqu'à 5 000 rangs, avec les points) en un appel par semaine ;
+#  - calendrier de l'année (tous les tournois, salle ou plein air, taille du tableau) en un appel par mois ;
+#  - statistiques manquantes par lots de 50 matchs (facturés 1 appel pour 10 matchs) avec le reliquat.
+# Une réserve proportionnelle aux jours restants avant la remise à zéro du quota garantit la collecte
+# des nuits suivantes. Les données sont rangées chiffrées (etat/cito-*.json, donnees/cito-*.json).
+SRC_CITO = 128
+CITO_PAUSE = 6.5            # 10 appels par minute au plus
+CITO_MAX_NUIT = 250         # environ 30 minutes de collecte au plus
+CITO_RESERVE_JOUR = 5       # appels gardés par jour restant avant la remise à zéro du quota
+CITO_LOTS_STATS_NUIT = 30
+CITO_STATS = [("aces",), ("double_faults",), ("serve_points", "service_points_played"), ("first_serves_in",),
+              ("first_serves_won", "first_serve_points_won"), ("second_serves_won", "second_serve_points_won"),
+              ("service_games_played",), ("break_points_saved",), ("break_points_faced",)]
+CITO_COLONNES = ["date", "tournoi", "tour", "tour_qualif", "gagnant", "perdant", "score", "issue", "bo",
+                 "minutes", "g_rang", "p_rang", "g_entree", "p_entree", "stats", "g_partenaire", "p_partenaire"]
 
 
-def cito_chercher(obj, predicat, cle_id=("id", "tournament_id", "match_id")):
-    """Premier identifiant d'un objet qui satisfait le prédicat (recherche en profondeur)."""
-    trouves = []
-
-    def visite(o):
-        if isinstance(o, dict):
-            if predicat(o):
-                for k in cle_id:
-                    if k in o and isinstance(o[k], (str, int)):
-                        trouves.append(o[k])
-                        break
-            for v in o.values():
-                visite(v)
-        elif isinstance(o, list):
-            for v in o:
-                visite(v)
-    visite(obj)
-    return trouves
+def _entete(entetes, nom):
+    for k, v in (entetes or {}).items():
+        if k.lower() == nom.lower():
+            return v
+    return None
 
 
-def explorer_cito(cle):
-    """Reconnaissance unique (une douzaine de requêtes sur 500 par mois) : forme des réponses,
-    niveaux couverts (Challenger, qualifications, ITF), part de scores complets."""
-    marque = os.path.join(ETAT, "cito-exploration.json")
-    if lire_json(marque, {}).get("v", 0) >= 1 and os.environ.get("CITO_EXPLORER") != "1":
-        J.info("Cito : reconnaissance déjà faite (rapport/cito-exploration.md)")
-        return
+class Cito:
+    """Appels comptés : quota restant lu dans les en-têtes, coût mesuré par type d'appel."""
+
+    def __init__(self, cle, pages_par_jour=2.5):
+        self.cle = cle
+        self.besoin_jour = 2 * pages_par_jour + 0.5   # deux journées relues chaque nuit + classement
+        self.restant = self.reset = None
+        self.appels = 0
+        self.cout = defaultdict(lambda: [0, 0])
+
+    def reserve(self):
+        if not self.reset:
+            return 40
+        jours = max(0.0, (self.reset - time.time()) / 86400)
+        return max(8, int(jours * min(CITO_RESERVE_JOUR, self.besoin_jour)) + 3)
+
+    def peut(self, unites=1):
+        if self.appels >= CITO_MAX_NUIT:
+            return False
+        return self.restant is None or self.restant - unites >= self.reserve()
+
+    def appel(self, genre, chemin):
+        code, obj = None, None
+        for essai in range(2):
+            avant = self.restant
+            code, entetes, obj = cito_appel(self.cle, chemin)
+            self.appels += 1
+            try:
+                self.restant = int(_entete(entetes, "X-RateLimit-Monthly-Remaining"))
+            except (TypeError, ValueError):
+                pass
+            try:
+                self.reset = int(float(_entete(entetes, "X-RateLimit-Monthly-Reset")))
+            except (TypeError, ValueError):
+                pass
+            if avant is not None and self.restant is not None:
+                self.cout[genre][0] += 1
+                self.cout[genre][1] += max(0, avant - self.restant)
+            time.sleep(CITO_PAUSE)
+            if code == 429 and essai == 0:
+                time.sleep(65)
+                continue
+            break
+        return code, obj
+
+
+def cito_items(obj):
+    if not isinstance(obj, dict):
+        return []
+    for k in ("items", "data", "matches", "results"):
+        v = obj.get(k)
+        if isinstance(v, list):
+            return v
+        if isinstance(v, dict) and isinstance(v.get("items"), list):
+            return v["items"]
+    return []
+
+
+def cito_stats_cote(d):
+    if not isinstance(d, dict):
+        return None
+    out = []
+    for noms in CITO_STATS:
+        v = next((d[n] for n in noms if d.get(n) is not None), None)
+        try:
+            out.append(int(v) if v is not None else None)
+        except (TypeError, ValueError):
+            out.append(None)
+    return out if any(x is not None for x in out) else None
+
+
+def cito_stats(obj):
+    """Statistiques au format de l'archive (9 du gagnant puis 9 du perdant).
+    [] = absentes pour ce match ; None = inconnues (pas demandées, ou attendues plus tard)."""
+    if not isinstance(obj, dict):
+        return None
+    st = obj.get("stats")
+    if obj.get("stats_available") is False or (not isinstance(st, dict) and "stats_available" in obj):
+        cov = obj.get("stats_coverage") or {}
+        return None if cov.get("expected_later") else []
+    if not isinstance(st, dict):
+        return None
+    w, l = st.get("winner"), st.get("loser")
+    if w is None and isinstance(st.get("player1"), dict):
+        p1_gagne = bool((obj.get("player1") or {}).get("is_winner"))
+        w, l = (st["player1"], st.get("player2")) if p1_gagne else (st.get("player2"), st["player1"])
+    sw, sl = cito_stats_cote(w), cito_stats_cote(l)
+    if not sw and not sl:
+        return []
+    return (sw or [None] * 9) + (sl or [None] * 9)
+
+
+def cito_score(item):
+    """Score vu du vainqueur, au format de l'archive : '6-4 7-6(5)', ' RET' si abandon, 'W/O' si forfait."""
+    issue = (item.get("outcome") or item.get("status") or "").upper()
+    if "WALKOVER" in issue or issue in ("W/O", "WO"):
+        return "W/O"
+    morceaux = []
+    for s in item.get("sets") or []:
+        w, l = s.get("winner_games"), s.get("loser_games")
+        if w is None or l is None:
+            morceaux = []
+            break
+        x = f"{w}-{l}"
+        tb = s.get("tiebreak") or {}
+        if isinstance(tb, dict) and tb.get("loser_points") is not None and {w, l} == {7, 6}:
+            x += f"({tb['loser_points']})"
+        morceaux.append(x)
+    score = " ".join(morceaux) if morceaux else re.sub(r"[,;]", " ", item.get("score") or "").strip()
+    if "RETIRE" in issue and not re.search(r"(?i)\bret", score):
+        score += " RET"
+    return re.sub(r"\s+", " ", score).strip()
+
+
+def cito_compacter(item, joueurs, tournois):
+    """Une ligne de résultat Cito -> (identifiant, ligne compacte) ; rien pour le circuit féminin."""
+    tour_c = (item.get("tour") or "").upper()
+    if tour_c and tour_c != "ATP":
+        return None, "circuit_feminin_ignore"
+    mid = str(item.get("id") or item.get("match_id") or item.get("canonical_id") or "")
+    w, l = item.get("winner") or {}, item.get("loser") or {}
+    wid, lid = str(item.get("winner_id") or w.get("id") or ""), str(item.get("loser_id") or l.get("id") or "")
+    date = (item.get("match_date") or item.get("starts_at") or "")[:10]
+    if not (mid and wid and lid and date):
+        return None, "incomplete"
+    for pid, d in ((wid, w), (lid, l)):
+        if d.get("name"):
+            joueurs[pid] = [d["name"], d.get("ioc")]
+    part = []
+    for cote in ("winner", "loser"):
+        pp = item.get(f"{cote}_partner") or {}
+        ppid = item.get(f"{cote}_partner_id") or (pp.get("id") if isinstance(pp, dict) else None)
+        if ppid and isinstance(pp, dict) and pp.get("name"):
+            joueurs[str(ppid)] = [pp["name"], pp.get("ioc")]
+        part.append(str(ppid) if ppid else None)
+    tid = str(item.get("tournament_id") or "")
+    t = tournois.setdefault(tid, {})
+    for src, k in (("tournament_name", "nom"), ("level", "level"), ("category", "category"),
+                   ("edition_category", "edition_category"), ("surface", "surface"), ("year", "annee")):
+        if item.get(src) is not None:
+            t[k] = item[src]
+    ligne = [date, tid, item.get("round"), item.get("qualifying_round"), wid, lid, cito_score(item),
+             (item.get("outcome") or item.get("status") or "")[:12], item.get("best_of"),
+             item.get("duration_minutes"), w.get("rank"), l.get("rank"), w.get("entry"), l.get("entry"),
+             cito_stats(item), part[0], part[1]]
+    return (mid, ligne), "gardee"
+
+
+def collecter_cito(cle, code, fin_sackmann):
+    """Collecte de la nuit. Renvoie (cache par mois, méta) ; tout est relu et réécrit chiffré."""
+    suivi = lire_json(os.path.join(ETAT, "cito-suivi.json"), {})
+    suivi.setdefault("v", 1)
+    jours = suivi.setdefault("jours", {})
+    params = suivi.setdefault("parametres", {"taille": 200, "stats": True, "tour": True})
+    meta_ch = os.path.join(ETAT, "cito-meta.json")
+    meta = lire_chiffre(meta_ch, code, {"tournois": {}, "classement": None})
+    meta_avant = json.dumps(meta, sort_keys=True)
+    mois = {}
+    for nom in sorted(os.listdir(ETAT)) if os.path.isdir(ETAT) else []:
+        m = re.match(r"cito-(\d{4}-\d{2})\.json$", nom)
+        if m:
+            mois[m.group(1)] = lire_chiffre(os.path.join(ETAT, nom), code, {"matchs": {}, "joueurs": {}})
+    pages = [j["pages"] for j in jours.values() if j.get("pages")]
+    api = Cito(cle, sum(pages) / len(pages) if pages else 2.5)
+    st = Counter()
     aujourd = dt.date.today()
-    appels = [("calendrier", f"/tennis/tournaments/calendar?year={aujourd.year}"),
-              ("programme_J-10", f"/tennis/schedule?date={(aujourd - dt.timedelta(days=10)).isoformat()}"),
-              ("programme_J-40", f"/tennis/schedule?date={(aujourd - dt.timedelta(days=40)).isoformat()}"),
-              ("termines_J-10", f"/tennis/matches/completed?date={(aujourd - dt.timedelta(days=10)).isoformat()}"),
-              ("resultats_recents", "/tennis/matches/recent?page_size=100"),
-              ("classement_atp", "/tennis/rankings/atp")]
-    resultats, bruts = {}, {}
-    for nom, chemin in appels:
-        code, entetes, obj = cito_appel(cle, chemin)
-        resultats[nom] = {"chemin": chemin, "code": code, "entetes_quota": entetes,
-                          "structure": cito_structure(obj) if obj is not None else None}
-        if code != 200 and isinstance(obj, dict):
-            resultats[nom]["message"] = str(obj.get("error") or obj.get("message") or "")[:200].replace(cle, "***")
-        bruts[nom] = obj
-        J.info(f"Cito {nom} : HTTP {code}")
-        time.sleep(7)
+    debut = dt.date.fromisoformat(fin_sackmann) - dt.timedelta(days=7)
+    limite_finale = (aujourd - dt.timedelta(days=2)).isoformat()
 
-    # un tableau Challenger et un tableau ITF terminés récemment, pour voir les qualifications
-    def est(mots):
-        def p(o):
-            texte = " ".join(str(o.get(k, "")) for k in o if any(x in k.lower() for x in ("level", "category", "tier", "circuit", "tour", "name"))).lower()
-            return any(m in texte for m in mots)
-        return p
-    cal = bruts.get("calendrier")
-    for nom, mots in (("tableau_challenger", ("challenger",)), ("tableau_itf", ("itf", "m15", "m25"))):
-        ids = cito_chercher(cal, est(mots), ("id", "tournament_id")) if cal is not None else []
-        resultats[nom + "_candidats"] = len(ids)
-        # on prend un tournoi du milieu de liste (en général terminé)
-        if ids:
-            tid = ids[len(ids) // 2]
-            code, entetes, obj = cito_appel(cle, f"/tennis/tournaments/{tid}/draw")
-            resultats[nom] = {"code": code, "entetes_quota": entetes,
-                              "structure": cito_structure(obj) if obj is not None else None}
-            bruts[nom] = obj
-            J.info(f"Cito {nom} : HTTP {code}")
-            time.sleep(7)
-    # statistiques d'un match Challenger
-    tab = bruts.get("tableau_challenger")
-    mids = cito_chercher(tab, lambda o: any("score" in k.lower() for k in o), ("match_id", "id")) if tab else []
-    if mids:
-        code, entetes, obj = cito_appel(cle, f"/tennis/matches/{mids[0]}/stats")
-        resultats["stats_match_challenger"] = {"code": code, "entetes_quota": entetes,
-                                               "structure": cito_structure(obj) if obj is not None else None}
-        J.info(f"Cito stats_match_challenger : HTTP {code}")
-    ecrire_json(os.path.join(RAPPORT, "cito-exploration.json"), resultats, compact=False)
-    lignes = ["# Reconnaissance Cito API", "",
-              "Forme des réponses uniquement (champs, types, valeurs de catégorie, part de scores complets). "
-              "Aucun résultat de match n'est recopié.", ""]
-    for nom, r in resultats.items():
-        if not isinstance(r, dict):
-            lignes += [f"- {nom} : {r}", ""]
+    def chemin_jour(d, page):
+        q = [f"date={d}", f"page={page}", f"page_size={params['taille']}", f"limit={params['taille']}"]
+        if params["stats"]:
+            q.append("include=stats")
+        if params["tour"]:
+            q.append("tour=ATP")
+        return "/tennis/matches/completed?" + "&".join(q)
+
+    def lire_jour(d):
+        page, lignes, feminin = 1, 0, 0
+        while True:
+            if not api.peut():
+                st["jours_interrompus_quota"] += 1
+                return False
+            code_http, obj = api.appel("journee", chemin_jour(d, page))
+            if code_http in (400, 422) and page == 1:
+                # paramètre refusé : on simplifie la requête, un réglage à la fois
+                if params["taille"] > 100:
+                    params["taille"] = 100
+                    continue
+                if params["tour"]:
+                    params["tour"] = False
+                    continue
+                if params["stats"]:
+                    params["stats"] = False
+                    continue
+            if code_http != 200 or not isinstance(obj, dict):
+                st[f"journee_http_{code_http}"] += 1
+                J.info(f"Cito {d} page {page} : HTTP {code_http}")
+                e = jours.setdefault(d, {})
+                e["erreurs"] = e.get("erreurs", 0) + 1
+                e["final"] = e["erreurs"] >= 3 and d <= limite_finale   # on n'insiste pas au-delà de 3 nuits
+                return False
+            n_app, n_un = api.cout["journee"]
+            if params["stats"] and n_app >= 3 and n_un / n_app > 2.5:
+                # include=stats facturé au match : on passe aux lots de statistiques, limités à ATP et Challenger
+                params["stats"] = False
+                J.alerte(f"Cito : include=stats coûte {n_un / n_app:.1f} appels par page, abandonné au profit des lots")
+            items = cito_items(obj)
+            st["lignes_recues"] += len(items)
+            for it in items:
+                joueurs = {}
+                res, etat = cito_compacter(it, joueurs, meta["tournois"])
+                st["lignes_" + etat] += 1
+                feminin += etat == "circuit_feminin_ignore"
+                if res is None:
+                    continue
+                mid, ligne = res
+                c = mois.setdefault(ligne[0][:7], {"matchs": {}, "joueurs": {}})
+                ancien = c["matchs"].get(mid)
+                if ancien and ligne[14] is None and ancien[14] is not None:
+                    ligne[14] = ancien[14]
+                c["matchs"][mid] = ligne
+                c["joueurs"].update(joueurs)
+                lignes += 1
+                st["avec_stats"] += bool(ligne[14])
+            total_pages = obj.get("total_pages") or 1
+            if obj.get("has_next") is True or page < total_pages:
+                page += 1
+                if page <= 60:
+                    continue
+            break
+        if feminin and params["tour"]:
+            st["filtre_circuit_sans_effet"] += 1
+        jours[d] = {"pages": page, "lignes_atp": lignes, "final": d <= limite_finale, "le": aujourd.isoformat()}
+        return True
+
+    # 1. les deux dernières journées (la veille est relue le lendemain pour les résultats tardifs)
+    for d in ((aujourd - dt.timedelta(days=1)).isoformat(), limite_finale):
+        if not jours.get(d, {}).get("final"):
+            lire_jour(d)
+    # 2. classement ATP complet, une fois par semaine
+    lundi_courant = lundi(aujourd.isoformat())
+    cl = meta.get("classement") or {}
+    if (cl.get("date") or "") < lundi_courant and suivi.get("classement_essai") != aujourd.isoformat() and api.peut():
+        suivi["classement_essai"] = aujourd.isoformat()
+        for chemin in ("/tennis/rankings?tour=ATP&rank_max=5000",
+                       "/tennis/rankings/atp?rank_max=5000&page_size=5000&limit=5000"):
+            code_http, obj = api.appel("classement", chemin)
+            items = cito_items(obj)
+            if code_http == 200 and items:
+                liste = []
+                for it in items:
+                    pid = str(it.get("player_id") or it.get("id") or "")
+                    if not pid or it.get("rank") is None:
+                        continue
+                    liste.append([it.get("rank"), pid, it.get("player_name") or it.get("name"), it.get("ioc"),
+                                  it.get("points"), it.get("tournaments_played")])
+                meta["classement"] = {"date": (obj.get("ranking_date") or aujourd.isoformat())[:10],
+                                      "colonnes": ["rang", "id_cito", "nom", "pays", "points", "tournois"],
+                                      "liste": liste}
+                st["classement_rangs"] = len(liste)
+                break
+            st[f"classement_http_{code_http}"] += 1
+            if not api.peut():
+                break
+    # 3. calendrier (salle ou plein air, taille du tableau, dates), une fois par mois et par année utile
+    cal = suivi.setdefault("calendrier", {})
+    for annee in range(debut.year, aujourd.year + 1):
+        if cal.get(str(annee), "") >= (aujourd - dt.timedelta(days=30)).isoformat() or not api.peut():
             continue
-        lignes += [f"## {nom}", "", f"- HTTP {r.get('code')} · {r.get('chemin', '')}",
-                   f"- Quota : {r.get('entetes_quota')}"] + ([f"- Message : {r['message']}"] if r.get("message") else []) + [""]
-        s = r.get("structure") or {}
-        if s.get("scores"):
-            lignes += ["Scores : " + json.dumps(s["scores"], ensure_ascii=False), ""]
-        if s.get("valeurs"):
-            lignes += ["```json", json.dumps(s["valeurs"], ensure_ascii=False, indent=1), "```", ""]
-        lignes += ["```", *[f"{c} : {t}" for c, t in list((s.get("champs") or {}).items())[:150]], "```", ""]
-    with open(os.path.join(RAPPORT, "cito-exploration.md"), "w", encoding="utf-8") as f:
-        f.write("\n".join(lignes))
-    ecrire_json(marque, {"v": 1, "date": aujourd.isoformat()})
-    ok = sum(1 for r in resultats.values() if isinstance(r, dict) and r.get("code") == 200)
-    J.chiffres["cito_reconnaissance"] = {"appels_ok": ok, "appels": sum(1 for r in resultats.values() if isinstance(r, dict))}
+        code_http, obj = api.appel("calendrier", f"/tennis/tournaments/calendar?year={annee}")
+        if code_http == 200:
+            n = 0
+            for it in cito_items(obj):
+                if (it.get("tour") or "").upper() != "ATP" or not it.get("id"):
+                    continue
+                t = meta["tournois"].setdefault(str(it["id"]), {})
+                for src, k in (("name", "nom"), ("level", "level"), ("category", "category"),
+                               ("edition_category", "edition_category"), ("surface", "surface"),
+                               ("indoor", "indoor"), ("draw_size", "draw_size"), ("start_date", "debut"),
+                               ("end_date", "fin"), ("city", "ville"), ("country_code", "pays"), ("year", "annee")):
+                    if it.get(src) is not None:
+                        t[k] = it[src]
+                n += 1
+            cal[str(annee)] = aujourd.isoformat()
+            st[f"calendrier_{annee}_tournois_atp"] = n
+    # 4. rattrapage depuis la fin de l'archive, des plus récentes journées aux plus anciennes
+    d = aujourd - dt.timedelta(days=3)
+    while d >= debut:
+        iso_d = d.isoformat()
+        if not jours.get(iso_d, {}).get("final"):
+            if not lire_jour(iso_d):
+                if not api.peut():
+                    break
+        d -= dt.timedelta(days=1)
+    restants = sum(1 for k in range((aujourd - debut).days - 2)
+                   if not jours.get((debut + dt.timedelta(days=k)).isoformat(), {}).get("final"))
+    # 5. statistiques encore absentes (ATP et Challenger, simple), par lots de 50, avec le reliquat
+    niveaux_stats = {"challenger", "atp_tour", "masters_1000", "grand_slam"}
+    candidats = []
+    for c in mois.values():
+        for mid, l in c["matchs"].items():
+            if l[14] is None and l[0] <= limite_finale and not l[15] and \
+                    (meta["tournois"].get(l[1], {}).get("category") or "challenger") in niveaux_stats:
+                candidats.append((l[0], mid, l))
+    candidats.sort(reverse=True)
+    lots = 0
+    while candidats and lots < CITO_LOTS_STATS_NUIT and api.peut(5):
+        lot, candidats = candidats[:50], candidats[50:]
+        code_http, obj = api.appel("statistiques_lot", "/tennis/matches/stats?ids=" +
+                                   ",".join(urllib.parse.quote(m, safe="") for _, m, _ in lot))
+        lots += 1
+        if code_http != 200:
+            st[f"stats_lot_http_{code_http}"] += 1
+            break
+        par_id = {}
+        for it in cito_items(obj) or ([obj] if isinstance(obj, dict) and obj.get("match_id") else []):
+            if isinstance(it, dict):
+                par_id[str(it.get("match_id") or it.get("id") or "")] = cito_stats(it)
+        for _, mid, l in lot:
+            s = par_id.get(mid)
+            l[14] = s if s is not None else []
+            st["stats_lot_obtenues" if s else "stats_lot_absentes"] += 1
+    # enregistrement (chiffré ; seulement ce qui a changé)
+    for m, contenu in mois.items():
+        ecrire_chiffre(os.path.join(ETAT, f"cito-{m}.json"), contenu, code)
+    if json.dumps(meta, sort_keys=True) != meta_avant:
+        ecrire_chiffre(meta_ch, meta, code)
+    suivi["quota"] = {"restant": api.restant, "remise_a_zero": dt.datetime.fromtimestamp(
+        api.reset, dt.timezone.utc).isoformat(timespec="minutes") if api.reset else None, "le": aujourd.isoformat()}
+    ecrire_json(os.path.join(ETAT, "cito-suivi.json"), suivi, compact=False)
+    nb = sum(len(c["matchs"]) for c in mois.values())
+    J.chiffres["cito"] = {
+        "appels_cette_nuit": api.appels, "quota_restant": api.restant, "reserve_gardee": api.reserve(),
+        "remise_a_zero": suivi["quota"]["remise_a_zero"],
+        "cout_mesure": {k: {"appels": v[0], "unites": v[1]} for k, v in api.cout.items()},
+        "lignes_par_appel_journee": round(st["lignes_recues"] / max(1, api.cout["journee"][0] or 1), 1),
+        "parametres": params, "journees_restant_a_rattraper": restants,
+        "matchs_atp_en_cache": nb, "details": dict(st)}
+    J.info(f"Cito : {api.appels} appels, {nb} matchs en cache, {restants} journées à rattraper, "
+           f"quota restant {api.restant}")
+    return mois, meta
+
+
+def niveau_cito(t, nom):
+    cat = (t.get("category") or "").lower()
+    lv = str(t.get("level") or "").upper()
+    ed = str(t.get("edition_category") or "")
+    if cat == "grand_slam" or lv == "G":
+        n = "G"
+    elif cat == "masters_1000" or lv == "M":
+        n = "M"
+    elif cat == "challenger" or lv == "C":
+        n = "C"
+    elif cat == "itf" or lv in ("15", "25"):
+        n = "I15" if "15" in ed or lv == "15" else ("I25" if "25" in ed or lv == "25" else "I")
+    elif cat == "davis_cup" or lv == "D":
+        n = "D"
+    elif "final" in cat or lv == "F":
+        n = "F"
+    elif "olymp" in cat or lv == "O":
+        n = "O"
+    elif cat == "atp_tour" or lv == "A":
+        n = "A"
+    else:
+        return None
+    return niveau_par_nom(n, nom)
+
+
+def tour_cito(rnd, qualif, taille):
+    if qualif:
+        return str(qualif).upper()
+    r = str(rnd or "").upper()
+    if r.startswith("Q"):
+        return r if re.match(r"Q\d$", r) else "Q"
+    return tour_relatif(r, taille)
+
+
+def integrer_cito(base, mois, meta, fin_sackmann, resultat_tml):
+    """Complément chiffré tiré de Cito, même forme que celui de TennisMyLife."""
+    stats = Counter()
+    fenetre = (dt.date.fromisoformat(fin_sackmann) - dt.timedelta(days=7)).isoformat()
+    autres, seuls_tml = {}, defaultdict(list)
+    for annee, contenu in (resultat_tml or {}).items():
+        autres.update(contenu.get("joueurs", {}))
+        for m in contenu.get("matchs", []):
+            t = contenu.get("tournois", {}).get(m[0])
+            debut_t = t[4] if t else (base.tournois[m[0]]["debut"] if m[0] in base.tournois else None)
+            seuls_tml[frozenset((m[2], m[3]))].append(debut_t)
+    rap = Rapprocheur(base, fin_sackmann, stats, "c", autres)
+    joueurs_c, lignes = {}, []
+    for c in mois.values():
+        joueurs_c.update(c["joueurs"])
+        lignes.extend(c["matchs"].values())
+    lignes.sort(key=lambda x: x[0])
+    rmax, debut_t = defaultdict(int), {}
+    for l in lignes:
+        m = re.match(r"R(\d+)$", str(l[2] or "").upper())
+        if m and not l[3]:
+            rmax[l[1]] = max(rmax[l[1]], int(m.group(1)))
+        debut_t[l[1]] = min(debut_t.get(l[1], l[0]), l[0])
+
+    def jid(cid):
+        j = joueurs_c.get(cid) or [cid, None]
+        return rap.joueur(cid, j[0] or cid, j[1])
+
+    complements, seuls, vote, salles = defaultdict(list), [], defaultdict(Counter), {}
+    for l in lignes:
+        date, tid, rnd, q, wid, lid, score, issue, bo, minutes, wr, lr, _we, _le, stl, wp, lp = l
+        if wp or lp:
+            stats["doubles_gardes_pour_plus_tard"] += 1
+            continue
+        if date < fenetre:
+            stats["avant_fenetre"] += 1
+            continue
+        t = meta["tournois"].get(tid, {})
+        nom_t = t.get("nom") or tid
+        niveau = niveau_cito(t, nom_t)
+        ed = str(t.get("edition_category") or "")
+        if niveau is None or niveau == "D" or "cup" in ed.lower() and niveau == "A":
+            stats["niveau_inconnu_ou_equipes"] += 1
+            continue
+        est_q = bool(q) or str(rnd or "").upper().startswith("Q")
+        if niveau.startswith("I") and est_q:
+            stats["qualifs_itf_ignorees"] += 1
+            continue
+        tour = tour_cito(rnd, q, t.get("draw_size") or rmax.get(tid) or None)
+        try:
+            bo = int(bo)
+        except (TypeError, ValueError):
+            bo = 5 if niveau == "G" and not est_q else 3
+        g, p = jid(wid), jid(lid)
+        sc, drap = analyser_score(score, bo)
+        if not drap & (COMPLET | ABANDON | FORFAIT) and score:
+            sc2, d2 = analyser_score(inverser_score(score), bo)
+            if d2 & COMPLET:
+                sc, drap = sc2, d2
+                stats["scores_retournes"] += 1
+        drap |= SRC_CITO
+        st = None
+        if isinstance(stl, list) and len(stl) == 18:
+            st = [minutes] + stl + [wr, None, lr, None]
+        elif minutes is not None or wr is not None or lr is not None:
+            st = [minutes] + [None] * 18 + [wr, None, lr, None]
+        a_stats = bool(st and any(x is not None for x in st[1:19]))
+        trouve = None
+        for i in rap.paires.get(frozenset((g, p)), []):
+            m = base.simples[i]
+            ecart = (dt.date.fromisoformat(date) - dt.date.fromisoformat((m["date"] or m["debut"])[:10])).days
+            # sans date de match, on compare au début du tournoi (qualifications : la semaine d'avant)
+            if (m["date"] and abs(ecart) <= 3) or (not m["date"] and -10 <= ecart <= 20):
+                trouve = i
+                break
+        if trouve is not None:
+            m = base.simples[trouve]
+            vote[tid][m["t"]] += 1
+            if t.get("indoor") is not None and base.tournois[m["t"]].get("salle") is None:
+                salles[m["t"]] = 1 if t["indoor"] else 0
+            if not m["dr"] & (SRC_VBT | SRC_WIKI):
+                stats["deja_dans_archive"] += 1
+                continue
+            if m["g"] != g:
+                stats["vainqueur_different_ignore"] += 1
+                continue
+            nouveau = sc if drap & (COMPLET | ABANDON | FORFAIT) and not m["dr"] & COMPLET else None
+            st_ok = st if a_stats and not m.get("st") else None
+            stats["scores_completes"] += nouveau is not None
+            stats["statistiques_ajoutees"] += st_ok is not None
+            if nouveau is None and st_ok is None:
+                stats["rien_a_ajouter"] += 1
+                continue
+            complements[base.tournois[m["t"]]["annee"]].append(
+                [m["t"], m["g"], m["p"], nouveau, drap if nouveau is not None else None, st_ok])
+            continue
+        if any(dd and -25 <= (dt.date.fromisoformat(date) - dt.date.fromisoformat(dd)).days <= 25
+               for dd in seuls_tml.get(frozenset((g, p)), [])):
+            stats["deja_dans_tennismylife"] += 1
+            continue
+        m_cat = re.search(r"\b(250|500)\b", ed)
+        salle = None if t.get("indoor") is None else (1 if t["indoor"] else 0)
+        seuls.append((tid, [nom_t, niveau, t.get("surface"), salle, t.get("debut") or debut_t[tid], bo,
+                            m_cat.group(1) if m_cat else None], [tour, g, p, sc, date, drap, st], niveau))
+    resultat = defaultdict(lambda: {"tournois": {}, "joueurs": {}, "complements": [], "matchs": [],
+                                    "classements": {}})
+    for annee, liste in complements.items():
+        resultat[annee]["complements"] = liste
+    for ctid, t, ligne, niveau in seuls:
+        tid = vote[ctid].most_common(1)[0][0] if vote.get(ctid) else "c" + re.sub(r"[^A-Za-z0-9-]", "", ctid)
+        annee = base.tournois[tid]["annee"] if tid in base.tournois else int(t[4][:4])
+        res = resultat[annee]
+        if tid not in base.tournois and tid not in res["tournois"]:
+            res["tournois"][tid] = t
+        for pid in (ligne[1], ligne[2]):
+            if pid in rap.nouveaux:
+                res["joueurs"][pid] = rap.nouveaux[pid]
+        res["matchs"].append([tid] + ligne)
+        stats["matchs_absents_ailleurs_" + niveau] += 1
+    cl = meta.get("classement")
+    if cl and cl.get("liste"):
+        an = int(cl["date"][:4])
+        res = resultat[an]
+        liste = []
+        for rang, cid, nom, pays, pts, nb in cl["liste"]:
+            pid = rap.joueur(cid, nom or cid, pays)
+            if pid in rap.nouveaux:
+                res["joueurs"][pid] = rap.nouveaux[pid]
+            liste.append([rang, pid, pts, nb])
+        res["classement_officiel"] = {"semaine": cl["date"], "colonnes": ["rang", "joueur", "points", "tournois"],
+                                      "liste": liste}
+    if resultat:
+        resultat[max(resultat)]["salles"] = salles
+    J.chiffres["cito_integration"] = dict(stats)
+    J.info("Cito intégré : " + ", ".join(f"{k}={v}" for k, v in sorted(stats.items())))
+    return dict(resultat)
 
 
 # ---------------------------------------------------------------- trous restants
-def compter_trous(base, fin_sackmann, resultat_tml):
+def compter_trous(base, fin_sackmann, resultats):
     """Compte, depuis la fin de l'archive, les matchs au score complet et avec statistiques,
-    par catégorie, en tenant compte du complément chiffré (chiffres seulement)."""
+    par catégorie, en tenant compte des compléments chiffrés (TennisMyLife, Cito)."""
     comp = {}
     seuls = []
-    for annee, contenu in (resultat_tml or {}).items():
-        for t, g, p, sc, dr, st in contenu.get("complements", []):
-            comp[(t, g, p)] = (dr, st)
-        for m in contenu.get("matchs", []):
-            seuls.append(m)
+    for resultat in resultats:
+        for annee, contenu in (resultat or {}).items():
+            for t, g, p, sc, dr, st in contenu.get("complements", []):
+                ancien = comp.get((t, g, p), (None, None))
+                comp[(t, g, p)] = (ancien[0] or dr, ancien[1] or st)
+            for m in contenu.get("matchs", []):
+                t = contenu.get("tournois", {}).get(m[0])
+                seuls.append((t[1] if t else None, m))
 
     def categorie(niveau, tour):
         q = tour.startswith("Q")
@@ -1828,9 +2304,8 @@ def compter_trous(base, fin_sackmann, resultat_tml):
         t[cat]["matchs"] += 1
         t[cat]["score_ok"] += 1 if dr & (COMPLET | ABANDON | FORFAIT) else 0
         t[cat]["stats"] += 1 if st and any(x is not None for x in st[1:19]) else 0
-    for m in seuls:
-        niveau = (resultat_tml.get(int(m[0][1:5]) if m[0][1:5].isdigit() else 0, {}).get("tournois", {})
-                  .get(m[0], [None, None])[1]) or (base.tournois[m[0]]["niveau"] if m[0] in base.tournois else "C")
+    for niveau, m in seuls:
+        niveau = niveau or (base.tournois[m[0]]["niveau"] if m[0] in base.tournois else "C")
         cat = categorie(niveau, m[1])
         if not cat:
             continue
@@ -1940,13 +2415,15 @@ def ecrire_meta(resume, nb_joueurs, fin_sackmann):
         "matchs": resume, "joueurs": nb_joueurs,
         "niveaux": NIVEAUX,
         "drapeaux": {"1": "score complet", "2": "abandon", "4": "forfait", "8": "source Valuebetennis",
-                     "16": "score Kaggle", "32": "source Wikipédia", "64": "TennisMyLife (complément chiffré)"},
+                     "16": "score Kaggle", "32": "source Wikipédia", "64": "TennisMyLife (complément chiffré)",
+                     "128": "Cito API (complément chiffré)"},
         "categories": {"A": "250, 500 ou equipes (Laver Cup, ATP Cup, United Cup) ; source Kaggle, Series",
                        "I15/I25": "15 ou 25"},
         "colonnes_stats": NOMS_STATS,
-        "fichiers_chiffres": "tml-AAAA.json : AES-256-GCM, clé PBKDF2-SHA256 du code personnel ; "
+        "fichiers_chiffres": "tml-AAAA.json et cito-AAAA.json (même code, même format) : AES-256-GCM, clé PBKDF2-SHA256 du code personnel ; "
                              "complements = scores et statistiques de matchs publiés (clé : tournoi + gagnant + perdant), "
-                             "matchs = matchs absents des autres sources",
+                             "matchs = matchs absents des autres sources ; cito-AAAA.json porte aussi classement_officiel "
+                             "(classement ATP complet de la dernière semaine connue : rang, joueur, points, tournois)",
         "sources": [
             {"nom": "Jeff Sackmann, tennis_atp (copie Aneeshers/tennis-sackmann-archive)",
              "licence": "CC BY-NC-SA 4.0", "lien": SACKMANN_DEPOT},
@@ -1959,6 +2436,9 @@ def ecrire_meta(resume, nb_joueurs, fin_sackmann):
             {"nom": "TennisMyLife, Tennis Match Database", "licence": "usage personnel et non commercial, "
              "redistribution des CSV interdite : données chiffrées, réservées au propriétaire du dépôt",
              "lien": "https://stats.tennismylife.org/tennis-match-database"},
+            {"nom": "Cito API, Tennis API", "licence": "usage dans sa propre application autorisé, "
+             "redistribution comme flux ou jeu de données interdite : données chiffrées, réservées au propriétaire",
+             "lien": "https://citoapi.com"},
         ],
     }
     ecrire_json(os.path.join(DONNEES, "meta.json"), meta, compact=False)
@@ -2057,7 +2537,7 @@ def main():
         integrer_doubles(base, etat_wiki, etat_corresp)
         # TennisMyLife : uniquement chiffré, jamais en clair dans le dépôt public
         garder = [n for n in (os.listdir(DONNEES) if os.path.isdir(DONNEES) else [])
-                  if re.match(r"tml-\d{4}\.json$", n)]
+                  if re.match(r"(tml|cito)-\d{4}\.json$", n)]
         code = os.environ.get("CODE_TML", "").strip()
         resultat = {}
         if not code:
@@ -2072,18 +2552,23 @@ def main():
                 J.alerte("TennisMyLife : module cryptography absent, étape sautée")
             except Exception as e:  # noqa: BLE001
                 J.alerte(f"TennisMyLife : {e}\n{traceback.format_exc(limit=3)}")
+        cle_cito = os.environ.get("CITO_API_KEY", "").strip()
+        resultat_cito = {}
+        if not cle_cito:
+            J.info("Cito : secret CITO_API_KEY absent, étape sautée")
+        elif not code:
+            J.alerte("Cito : secret CODE_TML absent (il sert aussi à chiffrer Cito), étape sautée")
+        else:
+            try:
+                mois, meta_cito = collecter_cito(cle_cito, code, fin)
+                resultat_cito = integrer_cito(base, mois, meta_cito, fin, resultat)
+                garder = sorted(set(garder) | set(ecrire_tml(resultat_cito, code, "cito")))
+            except Exception as e:  # noqa: BLE001
+                J.alerte(f"Cito : {type(e).__name__} {e}\n{traceback.format_exc(limit=4)}".replace(cle_cito, "***"))
         try:
-            compter_trous(base, fin, resultat)
+            compter_trous(base, fin, [resultat, resultat_cito])
         except Exception as e:  # noqa: BLE001
             J.alerte(f"Compteur des trous : {e}")
-        cle_cito = os.environ.get("CITO_API_KEY", "").strip()
-        if cle_cito:
-            try:
-                explorer_cito(cle_cito)
-            except Exception as e:  # noqa: BLE001
-                J.alerte(f"Cito : {type(e).__name__} {e}"[:300])
-        else:
-            J.info("Cito : secret CITO_API_KEY absent, étape sautée")
         resume, nb = ecrire_donnees(base, garder)
         ecrire_meta(resume, nb, fin)
         J.chiffres["fichiers"] = resume
