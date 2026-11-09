@@ -1,7 +1,7 @@
 {
  "cito-2026.json": {
-  "octets": 515174,
-  "empreinte": "afc6a74e19bd"
+  "octets": 518574,
+  "empreinte": "ebcdcc5b67d6"
  },
  "classements-fin-annee.json": {
   "octets": 440128,
@@ -82,6 +82,10 @@
  "joueurs-recents.json": {
   "octets": 43564,
   "empreinte": "e95926866bf3"
+ },
+ "photos.json": {
+  "octets": 523948,
+  "empreinte": "aab294690bb9"
  },
  "simple-2011.json": {
   "octets": 492691,
