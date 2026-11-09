@@ -1,0 +1,1384 @@
+# Reconnaissance Cito API
+
+Forme des réponses uniquement (champs, types, valeurs de catégorie, part de scores complets). Aucun résultat de match n'est recopié.
+
+## calendrier
+
+- HTTP 200 · /tennis/tournaments/calendar?year=2026
+- Quota : {'X-RateLimit-Monthly-Remaining': '500', 'X-RateLimit-Monthly-Limit': '500', 'X-RateLimit-Monthly-Reset': '1796831538', 'X-RateLimit-Limit': '10', 'X-RateLimit-Remaining': '29', 'X-RateLimit-Reset': '1794255180', 'X-RateLimit-Limit-Minute': '10', 'X-RateLimit-Remaining-Minute': '29', 'X-RateLimit-Burst-Minute': '30'}
+
+```json
+{
+ "items[].tour": {
+  "ATP": 286,
+  "WTA": 214
+ },
+ "items[].level": {
+  "15": 139,
+  "C": 98,
+  "D": 89,
+  "25": 52,
+  "35": 40,
+  "A": 20,
+  "75": 19,
+  "50": 14,
+  "I": 8,
+  "P": 7,
+  "100": 5,
+  "PM": 4,
+  "M": 3,
+  "G": 2
+ },
+ "items[].category": {
+  "itf": 269,
+  "challenger": 98,
+  "billie_jean_king_cup": 50,
+  "davis_cup": 39,
+  "atp_tour": 20,
+  "wta_tour": 15,
+  "wta_1000": 4,
+  "masters_1000": 3,
+  "grand_slam": 2
+ },
+ "items[].edition_category": {
+  "M15": 88,
+  "M25": 52,
+  "W15": 51,
+  "Billie Jean King Cup": 50,
+  "W35": 40,
+  "Davis Cup": 39,
+  "Challenger 75": 36,
+  "Challenger 50": 23,
+  "W75": 19,
+  "WTA 125": 15,
+  "W50": 14,
+  "Challenger 125": 13,
+  "ATP 250": 11,
+  "Challenger 100": 9,
+  "ATP 500": 8,
+  "WTA 500": 7,
+  "WTA 250": 7,
+  "W100": 5,
+  "WTA 1000": 4,
+  "Masters 1000": 3,
+  "United Cup": 2,
+  "Grand Slam": 2,
+  "Challenger 175": 2
+ },
+ "items[].tier": {
+  "ITF": 269,
+  "Other": 90,
+  "Challenger": 83,
+  "WTA 125": 15,
+  "ATP 250": 10,
+  "ATP 500": 8,
+  "WTA 500": 7,
+  "WTA 250": 7,
+  "WTA 1000": 4,
+  "Masters 1000": 3,
+  "United Cup": 2,
+  "Grand Slam": 2
+ },
+ "items[].surface": {
+  "Hard": 318,
+  "Clay": 174,
+  "Grass": 5,
+  "Carpet": 3
+ },
+ "items[].indoor": {
+  "False": 183,
+  "True": 46
+ },
+ "items[].draw_size": {
+  "32": 378,
+  "2": 88,
+  "28": 16,
+  "48": 4,
+  "96": 4,
+  "56": 3,
+  "18": 2,
+  "30": 2,
+  "128": 2,
+  "36": 1
+ }
+}
+```
+
+```
+success : {'bool': 1}
+items : {'list': 1}
+items[] : {'n=1828': 1}
+items[].id : {'str': 500}
+items[].name : {'str': 500}
+items[].year : {'int': 500}
+items[].tour : {'str': 500}
+items[].level : {'str': 500}
+items[].category : {'str': 500}
+items[].edition_category : {'str': 500}
+items[].tier : {'str': 500}
+items[].surface : {'str': 500}
+items[].start_date : {'str': 500}
+items[].end_date : {'str': 483, 'NoneType': 17}
+items[].planned_end_date : {'NoneType': 500}
+items[].end_date_provisional : {'bool': 500}
+items[].indoor : {'bool': 229, 'NoneType': 271}
+items[].draw_size : {'int': 500}
+items[].city : {'str': 497, 'NoneType': 3}
+items[].country_code : {'str': 496, 'NoneType': 4}
+items[].is_live_shell : {'bool': 500}
+items[].canonical_id : {'str': 500}
+items[].display_name : {'str': 500}
+items[].short_name : {'str': 500}
+total : {'int': 1}
+page : {'int': 1}
+page_size : {'int': 1}
+total_pages : {'int': 1}
+has_next : {'bool': 1}
+has_prev : {'bool': 1}
+```
+
+## programme_J-10
+
+- HTTP 200 · /tennis/schedule?date=2026-10-30
+- Quota : {'X-RateLimit-Monthly-Remaining': '499', 'X-RateLimit-Monthly-Limit': '500', 'X-RateLimit-Monthly-Reset': '1796831538', 'X-RateLimit-Limit': '10', 'X-RateLimit-Remaining': '28', 'X-RateLimit-Reset': '1794255180', 'X-RateLimit-Limit-Minute': '10', 'X-RateLimit-Remaining-Minute': '28', 'X-RateLimit-Burst-Minute': '30'}
+
+Scores : {"items[].score": {"complet": 150, "abandon_forfait": 12}}
+
+```json
+{
+ "items[].status": {
+  "COMPLETED": 150,
+  "RETIREMENT": 10,
+  "WALKOVER": 2
+ },
+ "items[].outcome": {
+  "COMPLETED": 150,
+  "RETIREMENT": 10,
+  "WALKOVER": 2
+ },
+ "items[].match_type": {
+  "singles": 162
+ },
+ "items[].court": {
+  "CENTER COURT": 21,
+  "CENTRE COURT": 7,
+  "Sioux Falls Ford Lincoln Stadium": 4,
+  "Quadra Central": 3,
+  "Estadio": 3,
+  "Cancha 1": 2,
+  "GRANDSTAND": 2,
+  "Cancha 2": 1,
+  "Quadra 1": 1
+ },
+ "items[].tour": {
+  "ATP": 85,
+  "WTA": 77
+ },
+ "items[].round": {
+  "QF": 140,
+  "SF": 12,
+  "R16": 10
+ },
+ "items[].round_name": {
+  "Quarter-Finals": 140,
+  "Semi-Finals": 12,
+  "Round of 16": 10
+ },
+ "items[].surface": {
+  "Hard": 140,
+  "Clay": 22
+ },
+ "items[].result_source": {
+  "cito": 162
+ },
+ "items[].source": {
+  "cito": 162
+ },
+ "items[].result_available": {
+  "True": 162
+ }
+}
+```
+
+```
+success : {'bool': 1}
+date : {'str': 1}
+timezone : {'str': 1}
+items : {'list': 1}
+items[] : {'n=162': 1}
+items[].match_id : {'str': 162}
+items[].canonical_id : {'str': 162}
+items[].status : {'str': 162}
+items[].outcome : {'str': 162}
+items[].match_date : {'str': 162}
+items[].match_type : {'str': 162}
+items[].date_is_tournament_start : {'bool': 162}
+items[].court : {'str': 44, 'NoneType': 118}
+items[].scheduled_at : {'str': 162}
+items[].scheduled_at_local : {'str': 162}
+items[].start_time_known : {'bool': 162}
+items[].start_time_kind : {'str': 162}
+items[].last_updated_at : {'str': 162}
+items[].tour : {'str': 162}
+items[].tournament_id : {'str': 162}
+items[].tournament_name : {'str': 162}
+items[].round : {'str': 162}
+items[].qualifying_round : {'NoneType': 162}
+items[].round_name : {'str': 162}
+items[].surface : {'str': 162}
+items[].player1 : {'dict': 162}
+items[].player1.id : {'str': 162}
+items[].player1.name : {'str': 162}
+items[].player1.ioc : {'str': 161, 'NoneType': 1}
+items[].player1.canonical_id : {'str': 162}
+items[].player2 : {'dict': 162}
+items[].player2.id : {'str': 162}
+items[].player2.name : {'str': 162}
+items[].player2.ioc : {'str': 162}
+items[].player2.canonical_id : {'str': 162}
+items[].winner_id : {'str': 162}
+items[].score : {'str': 162}
+items[].result_source : {'str': 162}
+items[].source : {'str': 162}
+items[].is_simulated : {'bool': 162}
+items[].result_available : {'bool': 162}
+items[].result_unavailable_reason : {'NoneType': 162}
+items[].canonical_tournament_id : {'str': 162}
+items[].tournament_display_name : {'str': 162}
+items[].tournament_short_name : {'str': 162}
+items[].id : {'str': 162}
+items[].name : {'str': 162}
+items[].starts_at : {'str': 162}
+total : {'int': 1}
+page : {'int': 1}
+page_size : {'int': 1}
+total_pages : {'int': 1}
+has_next : {'bool': 1}
+has_prev : {'bool': 1}
+next_cursor : {'NoneType': 1}
+counts : {'dict': 1}
+counts.archived : {'int': 1}
+counts.not_archived : {'int': 1}
+counts.doubles : {'int': 1}
+empty_reason : {'NoneType': 1}
+starts_at : {'str': 1}
+```
+
+## programme_J-40
+
+- HTTP 200 · /tennis/schedule?date=2026-09-30
+- Quota : {'X-RateLimit-Monthly-Remaining': '498', 'X-RateLimit-Monthly-Limit': '500', 'X-RateLimit-Monthly-Reset': '1796831538', 'X-RateLimit-Limit': '10', 'X-RateLimit-Remaining': '29', 'X-RateLimit-Reset': '1794255240', 'X-RateLimit-Limit-Minute': '10', 'X-RateLimit-Remaining-Minute': '29', 'X-RateLimit-Burst-Minute': '30'}
+
+Scores : {"items[].score": {"complet": 302, "abandon_forfait": 16}}
+
+```json
+{
+ "items[].status": {
+  "COMPLETED": 302,
+  "RETIREMENT": 16
+ },
+ "items[].outcome": {
+  "COMPLETED": 302,
+  "RETIREMENT": 16
+ },
+ "items[].match_type": {
+  "singles": 318
+ },
+ "items[].court": {
+  "COURT 1": 9,
+  "COURT 3": 9,
+  "CENTER COURT": 7,
+  "Lotus": 5,
+  "Court Central": 5,
+  "Coliseum": 4,
+  "Capital Group Diamond": 4,
+  "CENTRE COURT": 4,
+  "HSBC Moon": 4,
+  "Quadra Central": 3,
+  "Quadra 1": 3,
+  "COURT 5": 3,
+  "Brad Drewett": 3,
+  "COURT 4": 2,
+  "Court Annexe": 2,
+  "Ipek Court": 2,
+  "Cagla Court": 2,
+  "Kinoshita Group Arena": 1,
+  "Quadra Pedro Amadeu": 1,
+  "Quadra 2": 1,
+  "COURT 2": 1
+ },
+ "items[].tour": {
+  "ATP": 176,
+  "WTA": 142
+ },
+ "items[].round": {
+  "R32": 268,
+  "R16": 35,
+  "R128": 15
+ },
+ "items[].round_name": {
+  "Round of 32": 268,
+  "Round of 16": 35,
+  "Round of 128": 15
+ },
+ "items[].surface": {
+  "Hard": 256,
+  "Clay": 62
+ },
+ "items[].result_source": {
+  "cito": 318
+ },
+ "items[].source": {
+  "cito": 318
+ },
+ "items[].result_available": {
+  "True": 318
+ }
+}
+```
+
+```
+success : {'bool': 1}
+date : {'str': 1}
+timezone : {'str': 1}
+items : {'list': 1}
+items[] : {'n=318': 1}
+items[].match_id : {'str': 318}
+items[].canonical_id : {'str': 318}
+items[].status : {'str': 318}
+items[].outcome : {'str': 318}
+items[].match_date : {'str': 318}
+items[].match_type : {'str': 318}
+items[].date_is_tournament_start : {'bool': 318}
+items[].court : {'str': 75, 'NoneType': 243}
+items[].scheduled_at : {'str': 318}
+items[].scheduled_at_local : {'str': 318}
+items[].start_time_known : {'bool': 318}
+items[].start_time_kind : {'str': 318}
+items[].last_updated_at : {'str': 318}
+items[].tour : {'str': 318}
+items[].tournament_id : {'str': 318}
+items[].tournament_name : {'str': 318}
+items[].round : {'str': 318}
+items[].qualifying_round : {'NoneType': 318}
+items[].round_name : {'str': 318}
+items[].surface : {'str': 318}
+items[].player1 : {'dict': 318}
+items[].player1.id : {'str': 318}
+items[].player1.name : {'str': 318}
+items[].player1.ioc : {'str': 317, 'NoneType': 1}
+items[].player1.canonical_id : {'str': 318}
+items[].player2 : {'dict': 318}
+items[].player2.id : {'str': 318}
+items[].player2.name : {'str': 318}
+items[].player2.ioc : {'str': 316, 'NoneType': 2}
+items[].player2.canonical_id : {'str': 318}
+items[].winner_id : {'str': 318}
+items[].score : {'str': 318}
+items[].result_source : {'str': 318}
+items[].source : {'str': 318}
+items[].is_simulated : {'bool': 318}
+items[].result_available : {'bool': 318}
+items[].result_unavailable_reason : {'NoneType': 318}
+items[].canonical_tournament_id : {'str': 318}
+items[].tournament_display_name : {'str': 318}
+items[].tournament_short_name : {'str': 318}
+items[].id : {'str': 318}
+items[].name : {'str': 318}
+items[].starts_at : {'str': 318}
+total : {'int': 1}
+page : {'int': 1}
+page_size : {'int': 1}
+total_pages : {'int': 1}
+has_next : {'bool': 1}
+has_prev : {'bool': 1}
+next_cursor : {'NoneType': 1}
+counts : {'dict': 1}
+counts.archived : {'int': 1}
+counts.not_archived : {'int': 1}
+counts.doubles : {'int': 1}
+empty_reason : {'NoneType': 1}
+starts_at : {'str': 1}
+```
+
+## termines_J-10
+
+- HTTP 200 · /tennis/matches/completed?date=2026-10-30
+- Quota : {'X-RateLimit-Monthly-Remaining': '497', 'X-RateLimit-Monthly-Limit': '500', 'X-RateLimit-Monthly-Reset': '1796831538', 'X-RateLimit-Limit': '10', 'X-RateLimit-Remaining': '28', 'X-RateLimit-Reset': '1794255240', 'X-RateLimit-Limit-Minute': '10', 'X-RateLimit-Remaining-Minute': '28', 'X-RateLimit-Burst-Minute': '30'}
+
+Scores : {"items[].score": {"complet": 46, "abandon_forfait": 4}}
+
+```json
+{
+ "items[].tour": {
+  "ATP": 28,
+  "WTA": 22
+ },
+ "items[].surface": {
+  "Hard": 44,
+  "Clay": 6
+ },
+ "items[].level": {
+  "C": 24,
+  "A": 7,
+  "25": 4,
+  "15": 4,
+  "I": 4,
+  "P": 3,
+  "50": 2,
+  "35": 2
+ },
+ "items[].category": {
+  "challenger": 24,
+  "itf": 12,
+  "wta_tour": 7,
+  "atp_tour": 7
+ },
+ "items[].edition_category": {
+  "WTA 125": 9,
+  "Challenger 100": 7,
+  "ATP 500": 7,
+  "Challenger 75": 5,
+  "M25": 4,
+  "WTA 250": 4,
+  "Challenger 125": 3,
+  "WTA 500": 3,
+  "W50": 2,
+  "W35": 2,
+  "M15": 2,
+  "W15": 2
+ },
+ "items[].round": {
+  "QF": 38,
+  "SF": 12
+ },
+ "items[].round_name": {
+  "Quarter-Finals": 38,
+  "Semi-Finals": 12
+ },
+ "items[].best_of": {
+  "3": 50
+ },
+ "items[].outcome": {
+  "COMPLETED": 46,
+  "RETIREMENT": 4
+ },
+ "items[].status": {
+  "COMPLETED": 46,
+  "RETIREMENT": 4
+ },
+ "items[].winner.rank_source": {
+  "cito": 50
+ },
+ "items[].loser.rank_source": {
+  "cito": 47
+ },
+ "items[].player1.rank_source": {
+  "cito": 50
+ },
+ "items[].player2.rank_source": {
+  "cito": 47
+ },
+ "items[].loser.entry": {
+  "Q": 4,
+  "PR": 1,
+  "WC": 1
+ },
+ "items[].player2.entry": {
+  "Q": 4,
+  "PR": 1,
+  "WC": 1
+ },
+ "items[].court": {
+  "CENTER COURT": 20,
+  "CENTRE COURT": 7,
+  "Quadra Central": 3,
+  "Sioux Falls Ford Lincoln Stadium": 3,
+  "GRANDSTAND": 2,
+  "Cancha 1": 1,
+  "Quadra 1": 1,
+  "Estadio": 1
+ },
+ "items[].winner.entry": {
+  "Q": 2,
+  "WC": 2,
+  "LL": 1,
+  "SE": 1
+ },
+ "items[].player1.entry": {
+  "Q": 2,
+  "WC": 2,
+  "LL": 1,
+  "SE": 1
+ }
+}
+```
+
+```
+success : {'bool': 1}
+items : {'list': 1}
+items[] : {'n=50': 1}
+items[].id : {'str': 50}
+items[].tournament_id : {'str': 50}
+items[].tournament_name : {'str': 50}
+items[].year : {'int': 50}
+items[].match_date : {'str': 50}
+items[].date_is_tournament_start : {'bool': 50}
+items[].tour : {'str': 50}
+items[].surface : {'str': 50}
+items[].level : {'str': 50}
+items[].category : {'str': 50}
+items[].edition_category : {'str': 50}
+items[].round : {'str': 50}
+items[].qualifying_round : {'NoneType': 50}
+items[].round_name : {'str': 50}
+items[].best_of : {'int': 50}
+items[].score : {'str': 50}
+items[].outcome : {'str': 50}
+items[].status : {'str': 50}
+items[].duration_minutes : {'int': 45, 'NoneType': 5}
+items[].scheduled_at : {'str': 50}
+items[].start_time_known : {'bool': 50}
+items[].start_time_kind : {'str': 50}
+items[].court : {'NoneType': 12, 'str': 38}
+items[].winner_id : {'str': 50}
+items[].loser_id : {'str': 50}
+items[].winner : {'dict': 50}
+items[].winner.id : {'str': 50}
+items[].winner.name : {'str': 50}
+items[].winner.ioc : {'str': 50}
+items[].winner.seed : {'NoneType': 38, 'str': 12}
+items[].winner.entry : {'NoneType': 44, 'str': 6}
+items[].winner.rank : {'int': 50}
+items[].winner.age : {'float': 46, 'int': 4}
+items[].winner.rank_date : {'NoneType': 50}
+items[].winner.rank_source : {'str': 50}
+items[].winner.is_winner : {'bool': 50}
+items[].winner.canonical_id : {'str': 50}
+items[].loser : {'dict': 50}
+items[].loser.id : {'str': 50}
+items[].loser.name : {'str': 50}
+items[].loser.ioc : {'str': 50}
+items[].loser.seed : {'NoneType': 40, 'str': 10}
+items[].loser.entry : {'NoneType': 44, 'str': 6}
+items[].loser.rank : {'int': 47, 'NoneType': 3}
+items[].loser.age : {'float': 46, 'NoneType': 3, 'int': 1}
+items[].loser.rank_date : {'NoneType': 50}
+items[].loser.rank_source : {'str': 47, 'NoneType': 3}
+items[].loser.is_winner : {'bool': 50}
+items[].loser.canonical_id : {'str': 50}
+items[].winner_partner_id : {'NoneType': 50}
+items[].loser_partner_id : {'NoneType': 50}
+items[].winner_partner : {'NoneType': 50}
+items[].loser_partner : {'NoneType': 50}
+items[].player1 : {'dict': 50}
+items[].player1.id : {'str': 50}
+items[].player1.name : {'str': 50}
+items[].player1.ioc : {'str': 50}
+items[].player1.seed : {'NoneType': 38, 'str': 12}
+items[].player1.entry : {'NoneType': 44, 'str': 6}
+items[].player1.rank : {'int': 50}
+items[].player1.age : {'float': 46, 'int': 4}
+items[].player1.rank_date : {'NoneType': 50}
+items[].player1.rank_source : {'str': 50}
+items[].player1.is_winner : {'bool': 50}
+items[].player1.canonical_id : {'str': 50}
+items[].player2 : {'dict': 50}
+items[].player2.id : {'str': 50}
+items[].player2.name : {'str': 50}
+items[].player2.ioc : {'str': 50}
+items[].player2.seed : {'NoneType': 40, 'str': 10}
+items[].player2.entry : {'NoneType': 44, 'str': 6}
+items[].player2.rank : {'int': 47, 'NoneType': 3}
+items[].player2.age : {'float': 46, 'NoneType': 3, 'int': 1}
+items[].player2.rank_date : {'NoneType': 50}
+items[].player2.rank_source : {'str': 47, 'NoneType': 3}
+items[].player2.is_winner : {'bool': 50}
+items[].player2.canonical_id : {'str': 50}
+items[].sets : {'list': 50}
+items[].sets[] : {'n=3': 14, 'n=2': 32, 'n=1': 3, 'n=0': 1}
+items[].sets[].set_number : {'int': 109}
+items[].sets[].winner_games : {'int': 109}
+items[].sets[].loser_games : {'int': 109}
+items[].sets[].player1_games : {'int': 109}
+items[].sets[].player2_games : {'int': 109}
+items[].sets[].tiebreak : {'NoneType': 95, 'dict': 14}
+items[].sets[].tiebreak_points : {'NoneType': 95, 'dict': 14}
+items[].sets[].tiebreak.winner_points : {'int': 14}
+items[].sets[].tiebreak.loser_points : {'int': 14}
+items[].sets[].tiebreak_points.player1 : {'int': 14}
+items[].sets[].tiebreak_points.player2 : {'int': 14}
+items[].sets[].tiebreak_points.winner : {'int': 14}
+items[].sets[].tiebreak_points.loser : {'int': 14}
+items[].sets[].tiebreak_points.in_progress : {'bool': 14}
+items[].canonical_id : {'str': 50}
+items[].canonical_tournament_id : {'str': 50}
+items[].tournament_display_name : {'str': 50}
+items[].tournament_short_name : {'str': 50}
+items[].name : {'str': 50}
+items[].starts_at : {'str': 50}
+total : {'int': 1}
+page : {'int': 1}
+page_size : {'int': 1}
+total_pages : {'int': 1}
+has_next : {'bool': 1}
+has_prev : {'bool': 1}
+```
+
+## resultats_recents
+
+- HTTP 200 · /tennis/matches/recent?page_size=100
+- Quota : {'X-RateLimit-Monthly-Remaining': '496', 'X-RateLimit-Monthly-Limit': '500', 'X-RateLimit-Monthly-Reset': '1796831538', 'X-RateLimit-Limit': '10', 'X-RateLimit-Remaining': '27', 'X-RateLimit-Reset': '1794255240', 'X-RateLimit-Limit-Minute': '10', 'X-RateLimit-Remaining-Minute': '27', 'X-RateLimit-Burst-Minute': '30'}
+
+Scores : {"items[].score": {"complet": 99, "abandon_forfait": 1}}
+
+```json
+{
+ "items[].tour": {
+  "ATP": 87,
+  "WTA": 13
+ },
+ "items[].surface": {
+  "Hard": 77,
+  "Clay": 23
+ },
+ "items[].round": {
+  "Q": 58,
+  "R32": 25,
+  "F": 8,
+  "ER": 7,
+  "RR": 2
+ },
+ "items[].outcome": {
+  "COMPLETED": 99,
+  "RETIREMENT": 1
+ },
+ "items[].status": {
+  "COMPLETED": 99,
+  "RETIREMENT": 1
+ },
+ "items[].winner.rank_source": {
+  "cito": 95
+ },
+ "items[].loser.rank_source": {
+  "cito": 88
+ },
+ "items[].player1.rank_source": {
+  "cito": 95
+ },
+ "items[].player2.rank_source": {
+  "cito": 88
+ },
+ "items[].court": {
+  "COURT 2": 11,
+  "COURT 6": 9,
+  "COURT 1": 7,
+  "CENTRE COURT": 6,
+  "Cancha 6": 5,
+  "Central Arena": 5,
+  "CENTER COURT": 5,
+  "St Cyr En Val No.2": 4,
+  "Center": 4,
+  "Cancha 5": 3,
+  "COURT 18": 3,
+  "Show Court 1": 3,
+  "COURT 8": 3,
+  "Pat Rafter Arena": 3,
+  "COURT 10": 3,
+  "MAIN COURT": 2,
+  "COURT 17": 2,
+  "COURT 16": 2,
+  "Stadium 2": 2,
+  "Cancha Central": 2,
+  "Quadra Central": 1,
+  "COURT 7": 1
+ },
+ "items[].qualifying_round": {
+  "Q2": 12,
+  "Q1": 4
+ },
+ "items[].loser.entry": {
+  "Q": 1
+ },
+ "items[].player2.entry": {
+  "Q": 1
+ }
+}
+```
+
+```
+success : {'bool': 1}
+items : {'list': 1}
+items[] : {'n=100': 1}
+items[].id : {'str': 100}
+items[].tournament_id : {'str': 100}
+items[].tournament_name : {'str': 100}
+items[].match_date : {'str': 100}
+items[].date_is_tournament_start : {'bool': 100}
+items[].tour : {'str': 100}
+items[].surface : {'str': 100}
+items[].round : {'str': 100}
+items[].qualifying_round : {'NoneType': 84, 'str': 16}
+items[].score : {'str': 100}
+items[].outcome : {'str': 100}
+items[].status : {'str': 100}
+items[].winner_id : {'str': 100}
+items[].loser_id : {'str': 100}
+items[].winner : {'dict': 100}
+items[].winner.id : {'str': 100}
+items[].winner.name : {'str': 100}
+items[].winner.rank : {'int': 95, 'NoneType': 5}
+items[].winner.age : {'float': 89, 'int': 9, 'NoneType': 2}
+items[].winner.seed : {'NoneType': 96, 'str': 4}
+items[].winner.entry : {'NoneType': 100}
+items[].winner.rank_source : {'str': 95}
+items[].winner.canonical_id : {'str': 100}
+items[].loser : {'dict': 100}
+items[].loser.id : {'str': 100}
+items[].loser.name : {'str': 100}
+items[].loser.rank : {'int': 88, 'NoneType': 12}
+items[].loser.age : {'float': 85, 'NoneType': 10, 'int': 5}
+items[].loser.seed : {'NoneType': 98, 'str': 2}
+items[].loser.entry : {'NoneType': 99, 'str': 1}
+items[].loser.rank_source : {'str': 88}
+items[].loser.canonical_id : {'str': 100}
+items[].player1 : {'dict': 100}
+items[].player1.id : {'str': 100}
+items[].player1.name : {'str': 100}
+items[].player1.rank : {'int': 95, 'NoneType': 5}
+items[].player1.age : {'float': 89, 'int': 9, 'NoneType': 2}
+items[].player1.seed : {'NoneType': 96, 'str': 4}
+items[].player1.entry : {'NoneType': 100}
+items[].player1.rank_source : {'str': 95}
+items[].player1.canonical_id : {'str': 100}
+items[].player2 : {'dict': 100}
+items[].player2.id : {'str': 100}
+items[].player2.name : {'str': 100}
+items[].player2.rank : {'int': 88, 'NoneType': 12}
+items[].player2.age : {'float': 85, 'NoneType': 10, 'int': 5}
+items[].player2.seed : {'NoneType': 98, 'str': 2}
+items[].player2.entry : {'NoneType': 99, 'str': 1}
+items[].player2.rank_source : {'str': 88}
+items[].player2.canonical_id : {'str': 100}
+items[].sets : {'list': 100}
+items[].sets[] : {'n=3': 33, 'n=2': 66, 'n=1': 1}
+items[].sets[].set_number : {'int': 232}
+items[].sets[].winner_games : {'int': 232}
+items[].sets[].loser_games : {'int': 232}
+items[].sets[].player1_games : {'int': 232}
+items[].sets[].player2_games : {'int': 232}
+items[].sets[].tiebreak : {'NoneType': 201, 'dict': 31}
+items[].sets[].tiebreak_points : {'NoneType': 201, 'dict': 31}
+items[].scheduled_at : {'str': 97, 'NoneType': 3}
+items[].start_time_known : {'bool': 100}
+items[].start_time_kind : {'str': 97, 'NoneType': 3}
+items[].court : {'NoneType': 14, 'str': 86}
+items[].canonical_id : {'str': 100}
+items[].canonical_tournament_id : {'str': 100}
+items[].tournament_display_name : {'str': 100}
+items[].tournament_short_name : {'str': 100}
+items[].name : {'str': 100}
+items[].starts_at : {'str': 100}
+items[].sets[].tiebreak.winner_points : {'int': 31}
+items[].sets[].tiebreak.loser_points : {'int': 31}
+items[].sets[].tiebreak_points.player1 : {'int': 31}
+items[].sets[].tiebreak_points.player2 : {'int': 31}
+items[].sets[].tiebreak_points.winner : {'int': 31}
+items[].sets[].tiebreak_points.loser : {'int': 31}
+items[].sets[].tiebreak_points.in_progress : {'bool': 31}
+total : {'int': 1}
+page : {'int': 1}
+page_size : {'int': 1}
+total_pages : {'int': 1}
+has_next : {'bool': 1}
+has_prev : {'bool': 1}
+```
+
+## classement_atp
+
+- HTTP 200 · /tennis/rankings/atp
+- Quota : {'X-RateLimit-Monthly-Remaining': '495', 'X-RateLimit-Monthly-Limit': '500', 'X-RateLimit-Monthly-Reset': '1796831538', 'X-RateLimit-Limit': '10', 'X-RateLimit-Remaining': '26', 'X-RateLimit-Reset': '1794255240', 'X-RateLimit-Limit-Minute': '10', 'X-RateLimit-Remaining-Minute': '26', 'X-RateLimit-Burst-Minute': '30'}
+
+```json
+{
+ "list_coverage.status": {
+  "complete": 1
+ },
+ "tour": {
+  "ATP": 1
+ }
+}
+```
+
+```
+success : {'bool': 1}
+ranking_date : {'str': 1}
+list_coverage : {'dict': 1}
+list_coverage.status : {'str': 1}
+list_coverage.ranked_players : {'int': 1}
+list_coverage.deepest_rank : {'int': 1}
+list_coverage.missing_ranks : {'int': 1}
+list_coverage.complete_through : {'int': 1}
+list_coverage.note : {'NoneType': 1}
+tour : {'str': 1}
+items : {'list': 1}
+items[] : {'n=50': 1}
+items[].rank : {'int': 50}
+items[].player_id : {'str': 50}
+items[].player_name : {'str': 50}
+items[].ioc : {'str': 50}
+items[].country_name : {'str': 50}
+items[].nationality : {'str': 50}
+items[].points : {'int': 50}
+items[].rank_movement : {'int': 50}
+items[].previous_rank : {'int': 50}
+items[].tournaments_played : {'int': 50}
+items[].canonical_id : {'str': 50}
+items[].id : {'str': 50}
+items[].name : {'str': 50}
+total : {'int': 1}
+page : {'int': 1}
+page_size : {'int': 1}
+total_pages : {'int': 1}
+has_next : {'bool': 1}
+has_prev : {'bool': 1}
+```
+
+- tableau_challenger_candidats : 300
+
+## tableau_challenger
+
+- HTTP 200 · 
+- Quota : {'X-RateLimit-Monthly-Remaining': '494', 'X-RateLimit-Monthly-Limit': '500', 'X-RateLimit-Monthly-Reset': '1796831538', 'X-RateLimit-Limit': '10', 'X-RateLimit-Remaining': '25', 'X-RateLimit-Reset': '1794255240', 'X-RateLimit-Limit-Minute': '10', 'X-RateLimit-Remaining-Minute': '25', 'X-RateLimit-Burst-Minute': '30'}
+
+Scores : {"rounds[].matches[].score": {"complet": 42, "abandon_forfait": 1}}
+
+```json
+{
+ "draw_size": {
+  "32": 1
+ },
+ "draw_size_source": {
+  "source_bracket": 1
+ },
+ "draw_size_recorded": {
+  "32": 1
+ },
+ "draw_size_verified": {
+  "True": 1
+ },
+ "draw_size_inferred": {
+  "False": 1
+ },
+ "draw_size_derived": {
+  "32": 1
+ },
+ "draw_size_derived_source": {
+  "source_bracket": 1
+ },
+ "surface": {
+  "Clay": 1
+ },
+ "rounds[].round_code": {
+  "F": 1,
+  "SF": 1,
+  "QF": 1,
+  "R16": 1,
+  "R32": 1,
+  "Q2": 1,
+  "Q1": 1
+ },
+ "rounds[].round_name": {
+  "Final": 1,
+  "Semi-Finals": 1,
+  "Quarter-Finals": 1,
+  "Round of 16": 1,
+  "Round of 32": 1,
+  "Qualifying Round 2": 1,
+  "Qualifying Round 1": 1
+ },
+ "rounds[].matches[].outcome": {
+  "COMPLETED": 42,
+  "RETIREMENT": 1
+ },
+ "rounds[].matches[].status": {
+  "completed": 42,
+  "retired": 1
+ },
+ "rounds[].matches[].best_of": {
+  "3": 43
+ },
+ "rounds[].matches[].start_time_source": {
+  "source_bracket": 30,
+  "cito": 13
+ },
+ "rounds[].status": {
+  "completed": 7
+ },
+ "rounds[].matches[].next_match_source": {
+  "source_bracket": 27,
+  "cito": 15
+ },
+ "rounds[].matches[].next_slot.round_code": {
+  "R16": 16,
+  "QF": 7,
+  "SF": 4,
+  "F": 2
+ },
+ "rounds[].matches[].player2.entry": {
+  "Q": 4,
+  "WC": 4,
+  "PR": 1,
+  "LL": 1
+ },
+ "rounds[].matches[].player1.entry": {
+  "Q": 2
+ },
+ "summary.status": {
+  "completed": 1
+ }
+}
+```
+
+```
+success : {'bool': 1}
+tournament_id : {'str': 1}
+tournament_name : {'str': 1}
+year : {'int': 1}
+draw_size : {'int': 1}
+draw_size_source : {'str': 1}
+draw_size_recorded : {'int': 1}
+draw_size_verified : {'bool': 1}
+draw_size_inferred : {'bool': 1}
+draw_size_derived : {'int': 1}
+draw_size_derived_source : {'str': 1}
+bracket_size : {'int': 1}
+byes : {'int': 1}
+surface : {'str': 1}
+rounds : {'list': 1}
+rounds[] : {'n=7': 1}
+rounds[].round_code : {'str': 7}
+rounds[].round_name : {'str': 7}
+rounds[].matches : {'list': 7}
+rounds[].matches[] : {'n=1': 1, 'n=2': 1, 'n=4': 2, 'n=8': 2, 'n=16': 1}
+rounds[].matches[].match_id : {'str': 43}
+rounds[].matches[].match_num : {'int': 43}
+rounds[].matches[].player1 : {'dict': 43}
+rounds[].matches[].player1.id : {'str': 43}
+rounds[].matches[].player1.name : {'str': 43}
+rounds[].matches[].player1.ioc : {'str': 43}
+rounds[].matches[].player1.seed : {'str': 17, 'NoneType': 26}
+rounds[].matches[].player1.entry : {'NoneType': 41, 'str': 2}
+rounds[].matches[].player1.is_winner : {'bool': 43}
+rounds[].matches[].player1.canonical_id : {'str': 43}
+rounds[].matches[].player2 : {'dict': 43}
+rounds[].matches[].player2.id : {'str': 43}
+rounds[].matches[].player2.name : {'str': 43}
+rounds[].matches[].player2.ioc : {'str': 43}
+rounds[].matches[].player2.seed : {'str': 12, 'NoneType': 31}
+rounds[].matches[].player2.entry : {'NoneType': 33, 'str': 10}
+rounds[].matches[].player2.is_winner : {'bool': 43}
+rounds[].matches[].player2.canonical_id : {'str': 43}
+rounds[].matches[].score : {'str': 43}
+rounds[].matches[].next_match_id : {'NoneType': 1, 'str': 42}
+rounds[].matches[].next_match_source : {'NoneType': 1, 'str': 42}
+rounds[].matches[].winner_id : {'str': 43}
+rounds[].matches[].loser_id : {'str': 43}
+rounds[].matches[].outcome : {'str': 43}
+rounds[].matches[].status : {'str': 43}
+rounds[].matches[].match_date : {'str': 43}
+rounds[].matches[].best_of : {'int': 43}
+rounds[].matches[].start_time : {'str': 43}
+rounds[].matches[].starts_at : {'str': 43}
+rounds[].matches[].start_time_known : {'bool': 43}
+rounds[].matches[].start_time_source : {'str': 43}
+rounds[].matches[].start_time_unavailable_reason : {'NoneType': 43}
+rounds[].matches[].bracket_position : {'int': 30, 'NoneType': 13}
+rounds[].matches[].next_slot : {'NoneType': 14, 'dict': 29}
+rounds[].matches[].in_archive : {'bool': 43}
+rounds[].matches[].canonical_id : {'str': 43}
+rounds[].matches[].id : {'str': 43}
+rounds[].pending_matches : {'list': 7}
+rounds[].pending_matches[] : {'n=0': 7}
+rounds[].expected_matches : {'int': 5, 'NoneType': 2}
+rounds[].completed_matches : {'int': 7}
+rounds[].pending_count : {'int': 7}
+rounds[].byes : {'int': 5, 'NoneType': 2}
+rounds[].walkovers : {'int': 7}
+rounds[].status : {'str': 7}
+rounds[].complete : {'bool': 5, 'NoneType': 2}
+rounds[].is_qualifying : {'bool': 7}
+rounds[].matches[].next_slot.round_code : {'str': 29}
+rounds[].matches[].next_slot.position : {'int': 29}
+summary : {'dict': 1}
+summary.status : {'str': 1}
+summary.complete : {'bool': 1}
+summary.main_draw_matches_expected : {'int': 1}
+summary.main_draw_matches_completed : {'int': 1}
+summary.main_draw_matches_pending : {'int': 1}
+summary.qualifying_matches_completed : {'int': 1}
+summary.rounds_completed : {'list': 1}
+summary.rounds_completed[] : {'n=5': 1}
+summary.rounds_in_progress : {'list': 1}
+summary.rounds_in_progress[] : {'n=0': 1}
+summary.rounds_not_started : {'list': 1}
+summary.rounds_not_started[] : {'n=0': 1}
+summary.rounds_incomplete_archive : {'list': 1}
+summary.rounds_incomplete_archive[] : {'n=0': 1}
+summary.matches_with_next_match_id : {'int': 1}
+summary.matches_with_start_time : {'int': 1}
+surface_badge : {'dict': 1}
+surface_badge.label : {'str': 1}
+surface_badge.hex : {'str': 1}
+surface_badge.name : {'str': 1}
+canonical_id : {'str': 1}
+display_name : {'str': 1}
+short_name : {'str': 1}
+id : {'str': 1}
+name : {'str': 1}
+```
+
+- tableau_itf_candidats : 1085
+
+## tableau_itf
+
+- HTTP 200 · 
+- Quota : {'X-RateLimit-Monthly-Remaining': '493', 'X-RateLimit-Monthly-Limit': '500', 'X-RateLimit-Monthly-Reset': '1796831538', 'X-RateLimit-Limit': '10', 'X-RateLimit-Remaining': '24', 'X-RateLimit-Reset': '1794255240', 'X-RateLimit-Limit-Minute': '10', 'X-RateLimit-Remaining-Minute': '24', 'X-RateLimit-Burst-Minute': '30'}
+
+Scores : {"rounds[].matches[].score": {"complet": 29, "abandon_forfait": 2}}
+
+```json
+{
+ "draw_size": {
+  "32": 1
+ },
+ "draw_size_source": {
+  "cito": 1
+ },
+ "draw_size_recorded": {
+  "32": 1
+ },
+ "draw_size_verified": {
+  "True": 1
+ },
+ "draw_size_inferred": {
+  "False": 1
+ },
+ "draw_size_derived": {
+  "32": 1
+ },
+ "draw_size_derived_source": {
+  "cito": 1
+ },
+ "surface": {
+  "Clay": 1
+ },
+ "rounds[].round_code": {
+  "F": 1,
+  "SF": 1,
+  "QF": 1,
+  "R16": 1,
+  "R32": 1
+ },
+ "rounds[].round_name": {
+  "Final": 1,
+  "Semi-Finals": 1,
+  "Quarter-Finals": 1,
+  "Round of 16": 1,
+  "Round of 32": 1
+ },
+ "rounds[].matches[].outcome": {
+  "COMPLETED": 29,
+  "RETIREMENT": 2
+ },
+ "rounds[].matches[].status": {
+  "completed": 29,
+  "retired": 2
+ },
+ "rounds[].matches[].best_of": {
+  "3": 31
+ },
+ "rounds[].status": {
+  "completed": 5
+ },
+ "rounds[].matches[].player2.entry": {
+  "Q": 7,
+  "WC": 3
+ },
+ "rounds[].matches[].next_match_source": {
+  "cito": 30
+ },
+ "rounds[].matches[].player1.entry": {
+  "Q": 4,
+  "WC": 1
+ },
+ "summary.status": {
+  "completed": 1
+ }
+}
+```
+
+```
+success : {'bool': 1}
+tournament_id : {'str': 1}
+tournament_name : {'str': 1}
+year : {'int': 1}
+draw_size : {'int': 1}
+draw_size_source : {'str': 1}
+draw_size_recorded : {'int': 1}
+draw_size_verified : {'bool': 1}
+draw_size_inferred : {'bool': 1}
+draw_size_derived : {'int': 1}
+draw_size_derived_source : {'str': 1}
+bracket_size : {'int': 1}
+byes : {'int': 1}
+surface : {'str': 1}
+rounds : {'list': 1}
+rounds[] : {'n=5': 1}
+rounds[].round_code : {'str': 5}
+rounds[].round_name : {'str': 5}
+rounds[].matches : {'list': 5}
+rounds[].matches[] : {'n=1': 1, 'n=2': 1, 'n=4': 1, 'n=8': 1, 'n=16': 1}
+rounds[].matches[].match_id : {'str': 31}
+rounds[].matches[].match_num : {'int': 31}
+rounds[].matches[].player1 : {'dict': 31}
+rounds[].matches[].player1.id : {'str': 31}
+rounds[].matches[].player1.name : {'str': 31}
+rounds[].matches[].player1.ioc : {'str': 31}
+rounds[].matches[].player1.seed : {'NoneType': 31}
+rounds[].matches[].player1.entry : {'NoneType': 26, 'str': 5}
+rounds[].matches[].player1.is_winner : {'bool': 31}
+rounds[].matches[].player1.canonical_id : {'str': 31}
+rounds[].matches[].player2 : {'dict': 31}
+rounds[].matches[].player2.id : {'str': 31}
+rounds[].matches[].player2.name : {'str': 31}
+rounds[].matches[].player2.ioc : {'str': 31}
+rounds[].matches[].player2.seed : {'NoneType': 31}
+rounds[].matches[].player2.entry : {'NoneType': 21, 'str': 10}
+rounds[].matches[].player2.is_winner : {'bool': 31}
+rounds[].matches[].player2.canonical_id : {'str': 31}
+rounds[].matches[].score : {'str': 31}
+rounds[].matches[].next_match_id : {'NoneType': 1, 'str': 30}
+rounds[].matches[].next_match_source : {'NoneType': 1, 'str': 30}
+rounds[].matches[].winner_id : {'str': 31}
+rounds[].matches[].loser_id : {'str': 31}
+rounds[].matches[].outcome : {'str': 31}
+rounds[].matches[].status : {'str': 31}
+rounds[].matches[].match_date : {'str': 31}
+rounds[].matches[].best_of : {'int': 31}
+rounds[].matches[].start_time : {'NoneType': 31}
+rounds[].matches[].starts_at : {'NoneType': 31}
+rounds[].matches[].start_time_known : {'bool': 31}
+rounds[].matches[].start_time_source : {'NoneType': 31}
+rounds[].matches[].start_time_unavailable_reason : {'str': 31}
+rounds[].matches[].bracket_position : {'NoneType': 31}
+rounds[].matches[].next_slot : {'NoneType': 31}
+rounds[].matches[].in_archive : {'bool': 31}
+rounds[].matches[].canonical_id : {'str': 31}
+rounds[].matches[].id : {'str': 31}
+rounds[].pending_matches : {'list': 5}
+rounds[].pending_matches[] : {'n=0': 5}
+rounds[].expected_matches : {'int': 5}
+rounds[].completed_matches : {'int': 5}
+rounds[].pending_count : {'int': 5}
+rounds[].byes : {'NoneType': 4, 'int': 1}
+rounds[].walkovers : {'NoneType': 5}
+rounds[].status : {'str': 5}
+rounds[].complete : {'bool': 5}
+rounds[].is_qualifying : {'bool': 5}
+summary : {'dict': 1}
+summary.status : {'str': 1}
+summary.complete : {'bool': 1}
+summary.main_draw_matches_expected : {'int': 1}
+summary.main_draw_matches_completed : {'int': 1}
+summary.main_draw_matches_pending : {'int': 1}
+summary.qualifying_matches_completed : {'int': 1}
+summary.rounds_completed : {'list': 1}
+summary.rounds_completed[] : {'n=5': 1}
+summary.rounds_in_progress : {'list': 1}
+summary.rounds_in_progress[] : {'n=0': 1}
+summary.rounds_not_started : {'list': 1}
+summary.rounds_not_started[] : {'n=0': 1}
+summary.rounds_incomplete_archive : {'list': 1}
+summary.rounds_incomplete_archive[] : {'n=0': 1}
+summary.matches_with_next_match_id : {'int': 1}
+summary.matches_with_start_time : {'int': 1}
+bracket_source : {'NoneType': 1}
+surface_badge : {'dict': 1}
+surface_badge.label : {'str': 1}
+surface_badge.hex : {'str': 1}
+surface_badge.name : {'str': 1}
+canonical_id : {'str': 1}
+display_name : {'str': 1}
+short_name : {'str': 1}
+id : {'str': 1}
+name : {'str': 1}
+```
+
+## stats_match_challenger
+
+- HTTP 200 · 
+- Quota : {'X-RateLimit-Monthly-Remaining': '492', 'X-RateLimit-Monthly-Limit': '500', 'X-RateLimit-Monthly-Reset': '1796831538', 'X-RateLimit-Limit': '10', 'X-RateLimit-Remaining': '23', 'X-RateLimit-Reset': '1794255240', 'X-RateLimit-Limit-Minute': '10', 'X-RateLimit-Remaining-Minute': '23', 'X-RateLimit-Burst-Minute': '30'}
+
+Scores : {"score": {"complet": 1}}
+
+```json
+{
+ "status": {
+  "COMPLETED": 1
+ }
+}
+```
+
+```
+success : {'bool': 1}
+match_id : {'str': 1}
+status : {'str': 1}
+stats : {'dict': 1}
+stats.winner : {'dict': 1}
+stats.winner.aces : {'int': 1}
+stats.winner.double_faults : {'int': 1}
+stats.winner.serve_points : {'int': 1}
+stats.winner.first_serves_in : {'int': 1}
+stats.winner.first_serves_won : {'int': 1}
+stats.winner.first_serve_pct : {'float': 1}
+stats.winner.first_serve_won_pct : {'float': 1}
+stats.winner.second_serve_won_pct : {'float': 1}
+stats.winner.break_points_saved_pct : {'int': 1}
+stats.winner.second_serves_won : {'int': 1}
+stats.winner.break_points_saved : {'int': 1}
+stats.winner.break_points_faced : {'int': 1}
+stats.winner.first_serve_win_pct : {'float': 1}
+stats.winner.second_serve_win_pct : {'float': 1}
+stats.winner.service_games_played : {'int': 1}
+stats.winner.service_points_played : {'int': 1}
+stats.winner.service_points_won : {'int': 1}
+stats.winner.first_serve_points_won : {'int': 1}
+stats.winner.second_serve_points_won : {'int': 1}
+stats.winner.break_point_opportunities : {'int': 1}
+stats.winner.break_points_converted : {'int': 1}
+stats.winner.return_points_played : {'int': 1}
+stats.winner.return_points_won : {'int': 1}
+stats.winner.first_return_points_won : {'int': 1}
+stats.winner.second_return_points_won : {'int': 1}
+stats.winner.total_points_won : {'int': 1}
+stats.winner.max_points_in_a_row : {'int': 1}
+stats.winner.max_games_in_a_row : {'int': 1}
+stats.winner.points_won_last_10 : {'int': 1}
+stats.loser : {'dict': 1}
+stats.loser.aces : {'int': 1}
+stats.loser.double_faults : {'int': 1}
+stats.loser.serve_points : {'int': 1}
+stats.loser.first_serves_in : {'int': 1}
+stats.loser.first_serves_won : {'int': 1}
+stats.loser.first_serve_pct : {'float': 1}
+stats.loser.first_serve_won_pct : {'float': 1}
+stats.loser.second_serve_won_pct : {'float': 1}
+stats.loser.break_points_saved_pct : {'int': 1}
+stats.loser.second_serves_won : {'int': 1}
+stats.loser.break_points_saved : {'int': 1}
+stats.loser.break_points_faced : {'int': 1}
+stats.loser.first_serve_win_pct : {'float': 1}
+stats.loser.second_serve_win_pct : {'float': 1}
+stats.loser.service_games_played : {'int': 1}
+stats.loser.service_points_played : {'int': 1}
+stats.loser.service_points_won : {'int': 1}
+stats.loser.first_serve_points_won : {'int': 1}
+stats.loser.second_serve_points_won : {'int': 1}
+stats.loser.break_point_opportunities : {'int': 1}
+stats.loser.break_points_converted : {'int': 1}
+stats.loser.return_points_played : {'int': 1}
+stats.loser.return_points_won : {'int': 1}
+stats.loser.first_return_points_won : {'int': 1}
+stats.loser.second_return_points_won : {'int': 1}
+stats.loser.total_points_won : {'int': 1}
+stats.loser.max_points_in_a_row : {'int': 1}
+stats.loser.max_games_in_a_row : {'int': 1}
+stats.loser.points_won_last_10 : {'int': 1}
+stats.player1 : {'dict': 1}
+stats.player1.aces : {'int': 1}
+stats.player1.double_faults : {'int': 1}
+stats.player1.serve_points : {'int': 1}
+stats.player1.first_serves_in : {'int': 1}
+stats.player1.first_serves_won : {'int': 1}
+stats.player1.first_serve_pct : {'float': 1}
+stats.player1.first_serve_won_pct : {'float': 1}
+stats.player1.second_serve_won_pct : {'float': 1}
+stats.player1.break_points_saved_pct : {'int': 1}
+stats.player1.second_serves_won : {'int': 1}
+stats.player1.break_points_saved : {'int': 1}
+stats.player1.break_points_faced : {'int': 1}
+stats.player1.first_serve_win_pct : {'float': 1}
+stats.player1.second_serve_win_pct : {'float': 1}
+stats.player1.service_games_played : {'int': 1}
+stats.player1.service_points_played : {'int': 1}
+stats.player1.service_points_won : {'int': 1}
+stats.player1.first_serve_points_won : {'int': 1}
+stats.player1.second_serve_points_won : {'int': 1}
+stats.player1.break_point_opportunities : {'int': 1}
+stats.player1.break_points_converted : {'int': 1}
+stats.player1.return_points_played : {'int': 1}
+stats.player1.return_points_won : {'int': 1}
+stats.player1.first_return_points_won : {'int': 1}
+stats.player1.second_return_points_won : {'int': 1}
+stats.player1.total_points_won : {'int': 1}
+stats.player1.max_points_in_a_row : {'int': 1}
+stats.player1.max_games_in_a_row : {'int': 1}
+stats.player1.points_won_last_10 : {'int': 1}
+stats.player2 : {'dict': 1}
+stats.player2.aces : {'int': 1}
+stats.player2.double_faults : {'int': 1}
+stats.player2.serve_points : {'int': 1}
+stats.player2.first_serves_in : {'int': 1}
+stats.player2.first_serves_won : {'int': 1}
+stats.player2.first_serve_pct : {'float': 1}
+stats.player2.first_serve_won_pct : {'float': 1}
+stats.player2.second_serve_won_pct : {'float': 1}
+stats.player2.break_points_saved_pct : {'int': 1}
+stats.player2.second_serves_won : {'int': 1}
+stats.player2.break_points_saved : {'int': 1}
+stats.player2.break_points_faced : {'int': 1}
+stats.player2.first_serve_win_pct : {'float': 1}
+stats.player2.second_serve_win_pct : {'float': 1}
+stats.player2.service_games_played : {'int': 1}
+stats.player2.service_points_played : {'int': 1}
+stats.player2.service_points_won : {'int': 1}
+stats.player2.first_serve_points_won : {'int': 1}
+stats.player2.second_serve_points_won : {'int': 1}
+stats.player2.break_point_opportunities : {'int': 1}
+stats.player2.break_points_converted : {'int': 1}
+stats.player2.return_points_played : {'int': 1}
+stats.player2.return_points_won : {'int': 1}
+stats.player2.first_return_points_won : {'int': 1}
+stats.player2.second_return_points_won : {'int': 1}
+stats.player2.total_points_won : {'int': 1}
+stats.player2.max_points_in_a_row : {'int': 1}
+stats.player2.max_games_in_a_row : {'int': 1}
+stats.player2.points_won_last_10 : {'int': 1}
+stats_available : {'bool': 1}
+stats_unavailable_code : {'NoneType': 1}
+stats_unavailable_reason : {'NoneType': 1}
+stats_points_counted : {'int': 1}
+stats_coverage : {'dict': 1}
+stats_coverage.serve_stats : {'str': 1}
+stats_coverage.missing : {'list': 1}
+stats_coverage.missing[] : {'n=0': 1}
+stats_coverage.missing_by_side : {'dict': 1}
+stats_coverage.missing_by_side.winner : {'list': 1}
+stats_coverage.missing_by_side.winner[] : {'n=0': 1}
+stats_coverage.missing_by_side.loser : {'list': 1}
+stats_coverage.missing_by_side.loser[] : {'n=0': 1}
+stats_coverage.reason : {'NoneType': 1}
+stats_coverage.note : {'NoneType': 1}
+stats_coverage.expected_later : {'bool': 1}
+point_stats : {'dict': 1}
+point_stats.winner : {'dict': 1}
+point_stats.winner.points_won : {'int': 1}
+point_stats.winner.service_points_played : {'int': 1}
+point_stats.winner.service_points_won : {'int': 1}
+point_stats.winner.return_points_won : {'int': 1}
+point_stats.winner.service_games : {'int': 1}
+point_stats.winner.service_games_won : {'int': 1}
+point_stats.winner.games_won : {'int': 1}
+point_stats.winner.break_points_faced : {'int': 1}
+```
