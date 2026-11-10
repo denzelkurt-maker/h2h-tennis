@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="theme-color" content="#050608">
+<title>H2H Tennis · dernière version</title>
+<style>html,body{margin:0;height:100%;background:#050608;color:#EEF3F8;font-family:-apple-system,system-ui,sans-serif}
+body{display:grid;place-items:center;text-align:center}small{color:#8E9BAD}b{color:#4C9BFF}</style></head>
+<body><div><b>H2H Tennis</b><br><small id="t">Recherche de la dernière version…</small></div>
+<script>
+// Lien de test : ouvre toujours la dernière version publiée de l'appli (contourne le cache du navigateur).
+(async () => {
+  let v = "";
+  try {
+    const r = await fetch("./index.html?v=" + Date.now(), {cache: "no-store"});
+    const m = (await r.text()).match(/VERSION_APPLI = "([^"]+)"/);
+    if (m) v = m[1];
+  } catch (e) { /* hors ligne : on ouvre quand même */ }
+  document.getElementById("t").textContent = v ? "Version " + v + " · ouverture…" : "Ouverture…";
+  setTimeout(() => location.replace("./index.html?v=" + Date.now()), 400);
+})();
+</script></body></html>
