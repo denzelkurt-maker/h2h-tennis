@@ -25,6 +25,7 @@
   color-scheme:dark;
 }
 *,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0}
 html,body{background:var(--bg);color:var(--ink)}
 html{height:100%;box-sizing:border-box}
 body{height:100%;display:flex;flex-direction:column;overflow:hidden;font-family:var(--f);font-size:16px;line-height:1.4;font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased}
@@ -829,6 +830,34 @@ nav.tabs a[aria-current="page"]::before{content:"";position:absolute;top:-6px;le
 .hello .t span{color:var(--acc)}
 .hello .s{font-size:.78rem;color:var(--muted);margin-top:3px}
 
+/* ===== 0.6.1 : bouton Retour et page match ===== */
+.retour{position:fixed;left:max(12px,env(safe-area-inset-left,0px));top:calc(10px + env(safe-area-inset-top,0px));z-index:40;border:0;border-radius:999px;padding:9px 16px 9px 12px;
+  font:inherit;font-weight:800;font-size:.95rem;color:#fff;background:rgba(10,14,20,.78);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);box-shadow:0 4px 16px rgba(0,0,0,.45),inset 0 0 0 1px rgba(255,255,255,.14)}
+.retour[hidden]{display:none}
+.rs{text-decoration:none;color:inherit}.rs-go{color:var(--acc);font-weight:800;padding-top:0}
+.mt{border-radius:20px;padding:56px 16px 16px;background:linear-gradient(160deg,var(--sc,#46566B),#0F141B 85%);display:flex;flex-direction:column;gap:6px;position:relative;box-shadow:0 10px 26px rgba(0,0,0,.4)}
+.mt.Hard{--sc:#2F6FD6}.mt.Clay{--sc:#C9622A}.mt.Grass{--sc:#2E9E52}.mt.Carpet{--sc:#6B7686}
+.mt-h{display:flex;gap:8px}.mt-h span{font-size:.64rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;background:rgba(0,0,0,.3);padding:3px 9px;border-radius:999px}
+.mt-t{color:#fff;font-weight:900;font-size:1.4rem;letter-spacing:-.02em;text-decoration:none;line-height:1.15}
+.mt-s{font-size:.82rem;color:rgba(255,255,255,.8)}.mt-s .surf{color:#fff}
+.mt-duel{flex-direction:row!important;align-items:stretch;gap:6px!important;padding:16px 10px!important}
+.mt-j{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:5px;text-align:center;text-decoration:none;color:var(--ink);position:relative;padding-top:2px}
+.mt-j .ph.big{width:84px;height:84px;font-size:1.2rem;border-radius:50%;background-size:cover;background-position:center 18%;background-color:var(--sunk);display:grid;place-items:center;font-weight:800;box-shadow:0 0 0 3px var(--bg),0 0 0 5px var(--line)}
+.mt-j.win .ph.big{box-shadow:0 0 0 3px var(--bg),0 0 0 5px var(--win),0 0 22px rgba(91,213,143,.4)}
+.mt-j .n{display:flex;flex-direction:column;line-height:1.15;font-size:.82rem;color:var(--muted)}.mt-j .n b{font-size:1.02rem;color:var(--ink);font-weight:850}
+.mt-j .pa{font-size:.74rem;color:var(--muted)}
+.mt-j .vic{font-size:.64rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;background:var(--win);color:#06210F;padding:2px 9px;border-radius:999px}
+.mt-vs{align-self:center;font-size:.66rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
+.mt-sc{width:100%;border-collapse:collapse}.mt-sc th{text-align:left;font-weight:700;padding:9px 0;color:var(--muted);width:40%}
+.mt-sc td{text-align:center;font-weight:800;font-size:1.25rem;padding:9px 0;color:var(--muted)}.mt-sc td.w{color:var(--ink)}
+.mt-sc tr.g th{color:var(--ink);font-weight:850}.mt-sc tr+tr{border-top:1px solid var(--line)}
+.sr{padding:7px 0}.sr-l{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-size:.86rem}
+.sr-l span{color:var(--muted);font-size:.76rem;text-align:center;flex:1}.sr-l b{min-width:44px;font-weight:800;color:var(--muted)}.sr-l b:last-child{text-align:right}.sr-l b.mx{color:var(--ink)}
+.sr-b{height:7px;border-radius:99px;background:var(--b-fill);overflow:hidden;margin-top:5px}.sr-b i{display:block;height:100%;background:var(--a-fill);border-radius:99px 0 0 99px}
+.sr-key{display:flex;justify-content:space-between;font-size:.78rem;font-weight:800}.sr-key .a{color:var(--a)}.sr-key .b{color:var(--b)}
+.mt-h2h{text-align:center;font-size:1rem;padding:4px 0}
+.mt-btn{display:block;text-align:center;text-decoration:none;color:var(--acc);font-weight:800}
+
 </style>
 </head>
 <body>
@@ -844,6 +873,7 @@ nav.tabs a[aria-current="page"]::before{content:"";position:absolute;top:-6px;le
     <a href="#tournois" data-v="tournois"><svg viewBox="0 0 24 24"><path d="M8 4h8v5a4 4 0 0 1-8 0zM8 6H5a3 3 0 0 0 3 4M16 6h3a3 3 0 0 1-3 4M12 13v4M8.5 20h7"/></svg>Tournois</a>
     <a href="#reglages" data-v="reglages"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg>Réglages</a>
   </nav>
+<button class="retour" id="retour" hidden aria-label="Retour">‹ Retour</button>
 <div class="fab" id="fab"><button class="fab-b" id="haut" aria-label="Haut de page"><svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button></div>
 <script>
 "use strict";
@@ -852,7 +882,7 @@ nav.tabs a[aria-current="page"]::before{content:"";position:absolute;top:-6px;le
    par le collecteur (donnees/), les garde en cache sur l'iPhone et fait
    tous les calculs dans le navigateur.
    ====================================================================== */
-const VERSION_APPLI = "0.6.0";
+const VERSION_APPLI = "0.6.1";
 const BASE = "./donnees/";
 const CACHE = "h2h-tennis-donnees";
 const SURF = {Hard: "Dur", Clay: "Terre", Grass: "Gazon", Carpet: "Moquette"};
@@ -1177,7 +1207,7 @@ function carte(m, pid, sansAdv) {
   const t = D.T[m.t], g = m.g === pid, adv = g ? m.p : m.g;
   const quand = (m.jour ? dateFr(m.d) : "Sem. du " + dateFr(m.d)) + ` · ${esc(t.nom)} · ${esc(NOM_TOUR[m.tour] || m.tour)} · ${esc(SURF[t.surf] || t.surf || "")}${t.salle === 1 ? " salle" : ""}`;
   return `<div class="m ${g ? "won" : "lost"}"><span class="when">${quand}</span>
-    <span class="who">${sansAdv ? (g ? "Victoire" : "Défaite") : (g ? "Bat " : "Battu par ") + lienJ(adv)}${sansAdv ? "" : ` · <a class="pl" href="#/h2h/${encodeURIComponent(pid)}/${encodeURIComponent(adv)}">face-à-face ›</a>`}</span>
+    <span class="who">${sansAdv ? (g ? "Victoire" : "Défaite") : (g ? "Bat " : "Battu par ") + lienJ(adv)}${sansAdv ? "" : ` · <a class="pl" href="#/h2h/${encodeURIComponent(pid)}/${encodeURIComponent(adv)}">face-à-face ›</a>`} · <a class="pl" href="${lienMatch(m)}">détail ›</a></span>
     <span class="res">${g ? "V" : "D"}</span><span class="sets">${chipsSets(m, pid)}</span></div>`;
 }
 function zoneDetail(id) { return `<div id="${id}" class="detail"></div>`; }
@@ -1320,12 +1350,12 @@ function carteResultat(m) {
   const ligne = (pid, g) => {
     const r = rangCourt(pid);
     const jeux = s ? s.map(x => { const a = g ? x.g : x.p, b = g ? x.p : x.g; return `<i class="${a > b ? "w" : ""}">${a}</i>`; }).join("") : `<i style="width:auto">${g ? "V" : ""}</i>`;
-    return `<a class="rs-l${g ? " g" : ""}" href="#/joueur/${encodeURIComponent(pid)}">${rond(pid)}<span class="nm">${drapeau(pid)} ${esc(nomJ(pid))}${r ? `<small>${r}</small>` : ""}</span><span class="sc">${jeux}</span></a>`;
+    return `<div class="rs-l${g ? " g" : ""}">${rond(pid)}<span class="nm">${drapeau(pid)} ${esc(nomJ(pid))}${r ? `<small>${r}</small>` : ""}</span><span class="sc">${jeux}</span></div>`;
   };
-  return `<div class="rs ${esc(t.surf || "")}"><div class="rs-h"><span class="lv">${esc(NIV_COURT[t.niv] || (t.niv.startsWith("I") ? "ITF" : t.niv))}</span>
-    <a class="t" href="#/tournoi/${encodeURIComponent(t.id)}">${esc(t.nom)}</a><span class="rd">${esc(NOM_TOUR[m.tour] || m.tour)}</span></div>
+  return `<a class="rs ${esc(t.surf || "")}" href="${lienMatch(m)}"><div class="rs-h"><span class="lv">${esc(NIV_COURT[t.niv] || (t.niv.startsWith("I") ? "ITF" : t.niv))}</span>
+    <span class="t">${esc(t.nom)}</span><span class="rd">${esc(NOM_TOUR[m.tour] || m.tour)}</span></div>
     ${ligne(m.g, true)}${ligne(m.p, false)}${m.dr & ABANDON ? '<div class="rs-x">Abandon</div>' : ""}${m.dr & FORFAIT ? '<div class="rs-x">Forfait</div>' : ""}
-    ${!s && !(m.dr & FORFAIT) ? `<div class="rs-f">${esc(m.sc || "score non connu")}</div>` : ""}</div>`;
+    ${!s && !(m.dr & FORFAIT) ? `<div class="rs-f">${esc(m.sc || "score non connu")}</div>` : ""}<div class="rs-f rs-go">Stats et détail du match ›</div></a>`;
 }
 function resultatsVedette(liste, n) {
   const poids = m => { const a = rangCourt(m.g) || 2000, b = rangCourt(m.p) || 2000; const niv = D.T[m.t].niv;
@@ -1382,22 +1412,38 @@ function alerteJoueur(pid) {
 
 /* ---------------------------------------------------------------- navigation */
 const VUES = ["accueil", "h2h", "joueur", "tournois", "reglages"];
+const PILE = [];
+function noter(h) {
+  if (PILE.length >= 2 && PILE[PILE.length - 2] === h) PILE.pop();
+  else if (PILE[PILE.length - 1] !== h) PILE.push(h);
+}
 function rendre() {
-  const h = decodeURIComponent(location.hash.replace(/^#\/?/, ""));
+  const brut = location.hash.replace(/^#\/?/, "");
+  const h = decodeURIComponent(brut);
   const [v, a, b] = h.split("/");
+  noter(location.hash || "#accueil");
   DETAILS = {};
-  if (v === "joueur" && a) { choisir("J", a); history.replaceState(null, "", "#joueur"); return afficher("joueur"); }
-  if (v === "h2h" && a && b) { choisir("A", a); choisir("B", b); history.replaceState(null, "", "#h2h"); return afficher("h2h"); }
+  const detail = /^#\//.test(location.hash);
+  const bouton = $("#retour"); if (bouton) bouton.hidden = !detail;
+  if (v === "joueur" && a) { choisir("J", a); return afficher("joueur"); }
+  if (v === "h2h" && a && b) { choisir("A", a); choisir("B", b); return afficher("h2h"); }
   if (v === "tournoi" && a) return afficher("tournois", a);
+  if (v === "match") return afficher("match", brut.split("/").slice(1).map(decodeURIComponent));
   afficher(VUES.includes(v) ? v : "accueil");
 }
+function retour() {
+  const prec = PILE.length >= 2 ? PILE[PILE.length - 2] : "#accueil";
+  location.hash = prec;
+}
 function afficher(v, arg) {
-  document.querySelectorAll("nav.tabs a").forEach(a => a.dataset.v === v ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+  const tabV = v === "match" ? "accueil" : v;
+  document.querySelectorAll("nav.tabs a").forEach(a => a.dataset.v === tabV ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
   document.body.className = document.body.className.replace(/\bv-\S+/g, "").trim() + " v-" + v;
   scroller().scrollTop = 0;
-  ({accueil: vueAccueil, h2h: vueH2H, joueur: vueJoueur, tournois: vueTournois, reglages: vueReglages})[v](arg);
+  ({accueil: vueAccueil, h2h: vueH2H, joueur: vueJoueur, tournois: vueTournois, reglages: vueReglages, match: vueMatch})[v](arg);
 }
 window.addEventListener("hashchange", rendre);
+document.addEventListener("click", e => { if (e.target.closest("#retour")) retour(); });
 
 /* écran de choix plein écran (ping v26) */
 function ouvrirChoix(slot, apres) {
@@ -1572,8 +1618,70 @@ function vueTournois(tid) {
       ${f ? `<div class="fin-line"><span class="place p1">1er</span> <b>${lienJ(f.g)}</b> · <span class="place p2">2e</span> ${lienJ(f.p)}</div>` : ""}</div>
     ${tours.map(tr => { const l = ms.filter(m => m.tour === tr);
       return `<div class="trk lv${esc(t.niv)}"><div class="trk-h"><span class="trk-lv">${esc(NOM_TOUR[tr] || tr)}</span><span class="trk-nm">${l.length} match${l.length > 1 ? "s" : ""}</span></div>
-        <ul class="trk-l">${l.map(m => `<li class="neutre"><span class="rd">${PASTILLE[tr] || esc(tr)}</span><span class="op">${lienJ(m.g)}<small>bat ${lienJ(m.p, "")} · <a href="#/h2h/${encodeURIComponent(m.g)}/${encodeURIComponent(m.p)}">H2H</a></small></span>
+        <ul class="trk-l">${l.map(m => `<li class="neutre"><span class="rd">${PASTILLE[tr] || esc(tr)}</span><span class="op">${lienJ(m.g)}<small>bat ${lienJ(m.p, "")} · <a href="#/h2h/${encodeURIComponent(m.g)}/${encodeURIComponent(m.p)}">H2H</a> · <a href="${lienMatch(m)}">détail</a></small></span>
           <span class="sc">${scoreChips(m, m.g)}</span></li>`).join("")}</ul></div>`; }).join("")}`;
+}
+
+
+/* ---------------------------------------------------------------- page d'un match */
+const cleMatch = m => [D.T[m.t].id, m.g, m.p, m.tour].map(encodeURIComponent).join("/");
+const lienMatch = m => "#/match/" + cleMatch(m);
+function ligneStat(lab, a, b, fmt, unite) {
+  if (a == null || b == null || (a === 0 && b === 0 && !unite)) return "";
+  const t = a + b, pa = t ? Math.round(100 * a / t) : 50;
+  const f = x => fmt ? fmt(x) : x;
+  return `<div class="sr"><div class="sr-l"><b class="${a > b ? "mx" : ""}">${f(a)}</b><span>${esc(lab)}</span><b class="${b > a ? "mx" : ""}">${f(b)}</b></div>
+    <div class="sr-b"><i style="width:${pa}%"></i></div></div>`;
+}
+const frac = (a, n) => n ? Math.round(1000 * a / n) / 10 : null;
+function statsMatchHtml(m) {
+  const st = m.st;
+  if (!st || st[1] == null || st[3] == null) return `<div class="panel"><div class="sec-h"><span class="sel-t">Statistiques</span></div><div class="empty">Pas de statistiques détaillées pour ce match.</div></div>`;
+  const W = i => st[1 + i], L = i => st[10 + i];            // 0 ace, 1 df, 2 svpt, 3 1stIn, 4 1stWon, 5 2ndWon, 6 SvGms, 7 bpSaved, 8 bpFaced
+  const sw = o => (o(4) || 0) + (o(5) || 0);
+  const pc = x => x == null ? "–" : x.toFixed(0) + " %";
+  const rw = (o, adv) => adv(2) ? adv(2) - sw(adv) : null;   // points gagnés au retour
+  const rows = [
+    ligneStat("Aces", W(0), L(0)), ligneStat("Doubles fautes", W(1), L(1)),
+    ligneStat("1res balles", frac(W(3), W(2)), frac(L(3), L(2)), pc),
+    ligneStat("Points gagnés sur 1re", frac(W(4), W(3)), frac(L(4), L(3)), pc),
+    ligneStat("Points gagnés sur 2e", frac(W(5), W(2) - W(3)), frac(L(5), L(2) - L(3)), pc),
+    ligneStat("Balles de break sauvées", W(7), L(7)),
+    ligneStat("Balles de break obtenues", L(8), W(8)),
+    ligneStat("Breaks réussis", L(8) != null ? L(8) - (L(7) || 0) : null, W(8) != null ? W(8) - (W(7) || 0) : null, null, true),
+    ligneStat("Points gagnés au retour", rw(W, L), rw(L, W)),
+    ligneStat("Points gagnés au total", W(2) && L(2) ? sw(W) + (L(2) - sw(L)) : null, W(2) && L(2) ? sw(L) + (W(2) - sw(W)) : null),
+  ].filter(Boolean).join("");
+  return `<div class="panel"><div class="sec-h"><span class="sel-t">Statistiques</span><span class="sec-sub">${st[0] ? "Durée " + Math.floor(st[0] / 60) + " h " + String(st[0] % 60).padStart(2, "0") : "Durée non connue"}</span></div>
+    <div class="sr-key"><span class="a">${esc(prenomNom(nomJ(m.g))[1] || nomJ(m.g))}</span><span class="b">${esc(prenomNom(nomJ(m.p))[1] || nomJ(m.p))}</span></div>${rows || '<div class="empty">Statistiques incomplètes.</div>'}</div>`;
+}
+async function vueMatch(arg) {
+  const v = $("#vue"), [tid, g, p, tour] = arg || [];
+  const m = D.M.find(x => D.T[x.t].id === tid && x.g === g && x.p === p && x.tour === tour);
+  if (!m) { v.innerHTML = '<div class="panel"><div class="empty">Match introuvable : les données ont peut-être changé.</div><a class="field mt-btn" href="#accueil">Retour à l\'accueil</a></div>'; return; }
+  const t = D.T[m.t], s = setsDe(m), ici = location.hash;
+  const joueur = (pid, gagnant) => { const r = (m.st && m.st[gagnant ? 19 : 21]) || (rangInfo(pid) || {}).rang;
+    return `<a class="mt-j${gagnant ? " win" : ""}" href="#/joueur/${encodeURIComponent(pid)}">${rond(pid, "ph big")}<span class="n">${esc(prenomNom(nomJ(pid))[0])}<b>${esc(prenomNom(nomJ(pid))[1] || nomJ(pid))}</b></span>
+      <span class="pa">${drapeau(pid)} ${esc((D.J.get(pid) || {}).pays || "")}${r ? " · " + ordinal(r) : ""}</span>${gagnant ? '<span class="vic">Vainqueur</span>' : ""}</a>`; };
+  const ligneSets = (pid, gagnant) => `<tr class="${gagnant ? "g" : ""}"><th>${esc(prenomNom(nomJ(pid))[1] || nomJ(pid))}</th>${s ? s.map(x => { const a = gagnant ? x.g : x.p, b = gagnant ? x.p : x.g; return `<td class="${a > b ? "w" : ""}">${a}</td>`; }).join("") : `<td>${gagnant ? "V" : ""}</td>`}</tr>`;
+  const h2 = matchsDe(m.g).filter(x => x.g === m.p || x.p === m.p), bil = bilan(h2, m.g);
+  const rendu = stats => {
+    v.innerHTML = `<div class="mt ${esc(t.surf || "")}"><div class="mt-h"><span class="lv">${esc(NIV_COURT[t.niv] || (t.niv.startsWith("I") ? "ITF" : t.niv))}</span><span class="rd">${esc(NOM_TOUR[m.tour] || m.tour)}</span></div>
+        <a class="mt-t" href="#/tournoi/${encodeURIComponent(t.id)}">${esc(t.nom)} ›</a>
+        <div class="mt-s">${m.jour ? dateFr(m.d) : "Semaine du " + dateFr(m.d)} · <span class="surf ${esc(t.surf || "")}">${esc(SURF[t.surf] || t.surf || "?")}${t.salle === 1 ? " · salle" : ""}</span></div></div>
+      <div class="panel mt-duel">${joueur(m.g, true)}<span class="mt-vs">contre</span>${joueur(m.p, false)}</div>
+      <div class="panel"><div class="sec-h"><span class="sel-t">Score</span><span class="sec-sub">${m.dr & ABANDON ? "Abandon" : m.dr & FORFAIT ? "Forfait" : (m.dr & COMPLET ? "Match terminé" : "Score incomplet")}</span></div>
+        ${s ? `<table class="mt-sc">${ligneSets(m.g, true)}${ligneSets(m.p, false)}</table>` : `<div class="empty">${m.sc ? esc(m.sc) + " (incomplet)" : "Score non connu"}</div>`}</div>
+      ${stats}
+      <div class="panel"><div class="sec-h"><span class="sel-t">Face-à-face</span><span class="sec-sub">${h2.length} rencontre${h2.length > 1 ? "s" : ""} en base</span></div>
+        <div class="mt-h2h"><b>${esc(nomJ(m.g))}</b> ${bil.v}–${bil.d} <b>${esc(nomJ(m.p))}</b></div>
+        <a class="field mt-btn" href="#/h2h/${encodeURIComponent(m.g)}/${encodeURIComponent(m.p)}">Ouvrir le face-à-face complet ›</a></div>`;
+  };
+  rendu(m.st ? statsMatchHtml(m) : '<div class="panel"><div class="sec-h"><span class="sel-t">Statistiques</span></div><div class="empty">Chargement…</div></div>');
+  if (!m.st) {
+    try { await chargerStats([m.d.slice(0, 4)]); } catch (e) { /* hors ligne */ }
+    if (location.hash === ici) rendu(statsMatchHtml(m));
+  }
 }
 
 /* ---------------------------------------------------------------- Joueur */
@@ -1603,7 +1711,7 @@ function tournoisDuJoueur(liste, pid) {
     else rb = `<span class="rb">${/^Q/.test(dernier.tour) ? "Battu en " + esc(dernier.tour) : esc(NOM_TOUR[dernier.tour] || dernier.tour)}</span>`;
     const lignes = g.matchs.map(m => { const v = m.g === pid, adv = v ? m.p : m.g, ri = rangInfo(adv);
       return `<li class="${v ? "v" : "d"}"><span class="rd">${PASTILLE[m.tour] || esc(m.tour)}</span>
-        <span class="op">${lienJ(adv)}<small>${esc(NOM_TOUR[m.tour] || m.tour)}${ri ? " · " + ordinal(ri.rang) + " ATP" : ""}${m.jour ? " · " + dateFr(m.d).slice(0, 5) : ""} · <a href="#/h2h/${encodeURIComponent(pid)}/${encodeURIComponent(adv)}">H2H</a></small></span>
+        <span class="op">${lienJ(adv)}<small>${esc(NOM_TOUR[m.tour] || m.tour)}${ri ? " · " + ordinal(ri.rang) + " ATP" : ""}${m.jour ? " · " + dateFr(m.d).slice(0, 5) : ""} · <a href="#/h2h/${encodeURIComponent(pid)}/${encodeURIComponent(adv)}">H2H</a> · <a href="${lienMatch(m)}">détail</a></small></span>
         <span class="vd">${v ? "V" : "D"}</span><span class="sc">${scoreChips(m, pid)}</span></li>`; }).join("");
     return `<div class="trk lv${esc(t.niv)}">${enteteTournoi(t, rb)}<ul class="trk-l">${lignes}</ul></div>`;
   });

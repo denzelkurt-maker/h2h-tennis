@@ -14,8 +14,9 @@ async function ouvrir(navigateur, avecCode) {
   const page = await navigateur.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2 });
   const erreurs = [];
   page.on("pageerror", e => erreurs.push("page : " + e.message));
-  page.on("console", m => { if (m.type() === "error") erreurs.push("console : " + m.text()); });
-  page.on("requestfailed", r => { if (!/wikimedia|wikipedia/.test(r.url())) erreurs.push("réseau : " + r.url()); });
+  // les images de sites extérieurs (presse, Wikimedia) peuvent échouer sans que l'appli soit en cause
+  page.on("console", m => { if (m.type() === "error" && !/Failed to load resource/.test(m.text())) erreurs.push("console : " + m.text()); });
+  page.on("requestfailed", r => { if (r.url().startsWith("http://localhost")) erreurs.push("réseau : " + r.url()); });
   const t0 = Date.now();
   await page.goto(URL_APPLI);
   // le code est demandé à la première ouverture
@@ -75,6 +76,26 @@ function chiffres() {
     await capture(p1.page, `/h2h/${A}/${B}`, "3-face-a-face");
     const tid = await p1.page.evaluate(() => { const m = D.M.filter(x => x.tour === "F").sort((a, b) => a.d < b.d ? 1 : -1)[0]; return m ? D.T[m.t].id : null; });
     if (tid) await capture(p1.page, `/tournoi/${tid}`, "4-tournoi");
+    // navigation : chaque lien de l'accueil doit mener à une page avec un bouton « Retour » qui ramène au point de départ
+    const defautsNav = [];
+    const essai = async (nom, selecteur, n) => {
+      for (let i = 0; i < n; i++) {
+        await p1.page.evaluate(() => { location.hash = "#accueil"; }); await p1.page.waitForTimeout(500);
+        const liens = await p1.page.$$(selecteur);
+        if (liens.length <= i) { if (i === 0) defautsNav.push(`${nom} : aucun lien (${selecteur})`); break; }
+        await liens[i].scrollIntoViewIfNeeded(); await liens[i].click(); await p1.page.waitForTimeout(1200);
+        const e = await p1.page.evaluate(() => { const r = document.querySelector("#retour"), n = document.querySelector("nav.tabs").getBoundingClientRect();
+          return { hash: location.hash, retour: !!r && !r.hidden && r.getBoundingClientRect().height > 0, onglets: n.bottom <= innerHeight + 1, vide: document.querySelector("#vue").innerText.trim().length < 20 }; });
+        if (!e.retour) defautsNav.push(`${nom} n°${i + 1} : pas de bouton Retour (${e.hash})`);
+        if (!e.onglets) defautsNav.push(`${nom} n°${i + 1} : barre d'onglets hors écran`);
+        if (e.vide) defautsNav.push(`${nom} n°${i + 1} : page vide (${e.hash})`);
+        if (e.retour) { await p1.page.click("#retour"); await p1.page.waitForTimeout(600);
+          const h = await p1.page.evaluate(() => location.hash); if (h !== "#accueil" && h !== "") defautsNav.push(`${nom} n°${i + 1} : Retour mène à ${h}`); }
+      }
+    };
+    await essai("carte de résultat", "a.rs", 3); await essai("podium", "a.pod", 3); await essai("classement", ".rgl li a", 2); await essai("tes joueurs", "a.rc-card", 2);
+    rapport.navigation = defautsNav.length ? defautsNav : "ok";
+    for (const x of defautsNav) rapport.alertes.push("navigation : " + x);
     rapport.erreurs.push(...p1.erreurs.map(e => "sans code · " + e));
     await p1.page.close();
     // passage 2 : avec code, chiffres seulement
