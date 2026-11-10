@@ -46,7 +46,7 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.4.2"
+VERSION = "1.5.0"
 VERSION_COPIE = 2   # copie compacte de l'archive : 2 = avec statistiques et classements
 PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
 
@@ -1996,13 +1996,15 @@ def collecter_cito(cle, code, fin_sackmann):
     # 2. classement ATP complet, une fois par semaine
     lundi_courant = lundi(aujourd.isoformat())
     cl = meta.get("classement") or {}
-    if len(cl.get("liste") or []) <= 50:
+    if len(cl.get("liste") or []) <= 100:
         cl = {}
-    if (cl.get("date") or "") < lundi_courant and suivi.get("classement_essai") != aujourd.isoformat() and api.peut():
-        suivi["classement_essai"] = aujourd.isoformat()
+    # au plus deux lectures par jour (une seconde si la première n'a rapporté que 100 rangs)
+    essais_jour = suivi.get("classement_essais", {}).get(aujourd.isoformat(), 0)
+    if (cl.get("date") or "") < lundi_courant and essais_jour < 2 and api.peut():
+        suivi["classement_essais"] = {aujourd.isoformat(): essais_jour + 1}
         liste, date_cl, page, pages = [], None, 1, 1
         while page <= pages and page <= 25 and api.peut():
-            code_http, obj = api.appel("classement", f"/tennis/rankings/atp?page={page}&page_size=500&limit=500")
+            code_http, obj = api.appel("classement", f"/tennis/rankings/atp?page={page}&page_size=100&limit=100")
             items = cito_items(obj)
             if code_http != 200 or not items:
                 st[f"classement_http_{code_http}"] += 1
@@ -2013,7 +2015,8 @@ def collecter_cito(cle, code, fin_sackmann):
                     liste.append([it.get("rank"), pid, it.get("player_name") or it.get("name"), it.get("ioc"),
                                   it.get("points"), it.get("tournaments_played")])
             date_cl = date_cl or (obj.get("ranking_date") or "")[:10]
-            pages = obj.get("total_pages") or (page + 1 if obj.get("has_next") else page)
+            # Cito renvoie 100 joueurs par page ; sans indication du nombre de pages, on continue tant que la page est pleine
+            pages = obj.get("total_pages") or (page + 1 if obj.get("has_next") or len(items) >= 100 else page)
             page += 1
         st["classement_pages"] = page - 1
         if liste and (page > pages or page > 25):   # liste complète, ou 25 pages au plus
@@ -2022,7 +2025,7 @@ def collecter_cito(cle, code, fin_sackmann):
                                   "liste": liste}
             st["classement_rangs"] = len(liste)
         elif liste:
-            suivi.pop("classement_essai", None)   # interrompu par le quota : on reprendra la nuit suivante
+            suivi.pop("classement_essais", None)   # interrompu par le quota : on reprendra la nuit suivante
     # 3. calendrier (salle ou plein air, taille du tableau, dates), une fois par mois et par année utile
     cal = suivi.setdefault("calendrier", {})
     for annee in range(debut.year, aujourd.year + 1):
@@ -2496,6 +2499,56 @@ def collecter_photos(base, autres_joueurs):
     return "photos.json"
 
 
+
+# ---------------------------------------------------------------- Actualités (flux RSS publics)
+# Seuls le titre, la source, la date et le lien sont gardés (jamais le texte des articles).
+# Lancé toutes les 2 heures par actus.yml (python collecteur.py --actus-seulement).
+FLUX_ACTUS = [("ESPN", "https://www.espn.com/espn/rss/tennis/news"),
+              ("Tennis Majors", "https://www.tennismajors.com/feed"),
+              ("Ubitennis", "https://www.ubitennis.net/feed/")]
+MOTS_BLESSURE = re.compile(r"(?i)\b(injur\w*|withdr[ae]w\w*|pulls? out|pulled out|surgery|illness|ill\b|sidelined|"
+                           r"retire[sd]? hurt|retirement|ruled out|fitness|setback|layoff|blessure|bless[ée]|forfait|abandon)")
+ACTUS_JOURS = 60
+
+
+def collecter_actus():
+    import email.utils
+    import xml.etree.ElementTree as ET
+    chemin = os.path.join(DONNEES, "actus.json")
+    ancien = lire_json(chemin, {}).get("articles", [])
+    par_lien = {a["lien"]: a for a in ancien}
+    stats = Counter()
+    for source, url in FLUX_ACTUS:
+        try:
+            racine = ET.fromstring(telecharger(url, {"Accept-Encoding": "gzip"}, essais=2, delai=10))
+        except Exception as e:  # noqa: BLE001
+            J.info(f"Actualités {source} : {str(e)[:120]}")
+            stats["flux_en_erreur"] += 1
+            continue
+        for it in racine.iter("item"):
+            titre = re.sub(r"\s+", " ", (it.findtext("title") or "")).strip()
+            lien = (it.findtext("link") or "").strip()
+            if not titre or not lien.startswith("http"):
+                continue
+            try:
+                quand = email.utils.parsedate_to_datetime(it.findtext("pubDate") or "").astimezone(dt.timezone.utc)
+                quand = quand.isoformat(timespec="minutes")
+            except (TypeError, ValueError):
+                quand = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
+            if lien not in par_lien:
+                stats["nouveaux"] += 1
+            par_lien[lien] = {"titre": titre[:220], "lien": lien, "source": source, "date": quand,
+                              "blessure": bool(MOTS_BLESSURE.search(titre))}
+            stats["lus_" + source] += 1
+    limite = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=ACTUS_JOURS)).isoformat()
+    articles = sorted((a for a in par_lien.values() if a["date"] >= limite), key=lambda a: a["date"], reverse=True)[:400]
+    os.makedirs(DONNEES, exist_ok=True)
+    ecrire_json(chemin, {"maj": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"),
+                         "note": "titres et liens des flux RSS publics ; texte des articles non repris",
+                         "sources": [s for s, _ in FLUX_ACTUS], "articles": articles}, compact=False)
+    J.chiffres["actus"] = dict(stats, articles=len(articles), blessures=sum(a["blessure"] for a in articles))
+    return "actus.json"
+
 # ---------------------------------------------------------------- trous restants
 def compter_trous(base, fin_sackmann, resultats):
     """Compte, depuis la fin de l'archive, les matchs au score complet et avec statistiques,
@@ -2720,10 +2773,19 @@ def main():
     ap.add_argument("--kaggle-local", help="fichier atp_tennis.csv (essais)")
     ap.add_argument("--sans-wikipedia", action="store_true")
     ap.add_argument("--sans-photos", action="store_true", help="essais : pas de Wikidata ni de Commons")
+    ap.add_argument("--actus-seulement", action="store_true", help="seulement les actualités (actus.yml)")
     ap.add_argument("--wikipedia-complet", action="store_true", help="relire toutes les saisons")
     ap.add_argument("--tml-local", nargs="*", help="fichiers TennisMyLife (essais)")
     ap.add_argument("--couper-archive", help="essais : ignorer l'archive après cette date (AAAA-MM-JJ)")
     args = ap.parse_args()
+    if args.actus_seulement:
+        try:
+            collecter_actus()
+            print(json.dumps(J.chiffres.get("actus"), ensure_ascii=False))
+            return 0
+        except Exception as e:  # noqa: BLE001
+            print("Actualités : échec", e, file=sys.stderr)
+            return 1
 
     ok, erreur = True, None
     try:
@@ -2817,8 +2879,9 @@ def main():
             compter_trous(base, fin, [resultat, resultat_cito])
         except Exception as e:  # noqa: BLE001
             J.alerte(f"Compteur des trous : {e}")
-        if os.path.exists(os.path.join(DONNEES, "photos.json")):
-            garder = sorted(set(garder) | {"photos.json"})
+        for nom_garde in ("photos.json", "actus.json"):
+            if os.path.exists(os.path.join(DONNEES, nom_garde)):
+                garder = sorted(set(garder) | {nom_garde})
         if not args.sans_photos:
             try:
                 autres = {}

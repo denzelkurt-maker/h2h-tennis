@@ -692,6 +692,16 @@ button.field{display:block;font:inherit;font-size:16px;font-weight:600;text-alig
 details.filt{gap:8px}details.filt summary{list-style:none;cursor:pointer;display:flex;flex-direction:column;gap:3px}details.filt summary::-webkit-details-marker{display:none}
 details.filt summary .filt-r{font-weight:700;font-size:.92rem;color:var(--ink)}details.filt summary .filt-r::after{content:" ▾";color:var(--acc)}details.filt[open] summary .filt-r::after{content:" ▴"}
 body:not(.v-accueil) header.top{display:none}body:not(.v-accueil) .topin{padding-top:8px}
+
+.act{display:flex;flex-direction:column;gap:3px;padding:10px 0;border-top:1px solid var(--line)}.act:first-child{border-top:0}
+.act .meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.72rem;color:var(--muted)}
+.act a.t{color:var(--ink);font-weight:700;text-decoration:none;line-height:1.3}
+.act .jj{display:flex;flex-wrap:wrap;gap:5px;margin-top:2px}.act .jj a{font-size:.72rem;font-weight:700;color:var(--acc);text-decoration:none;background:var(--sunk);border-radius:999px;padding:2px 8px}
+.tag.bl{background:rgba(255,139,123,.16);color:var(--loss)}
+.act a.pl{color:var(--ink);font-weight:700;text-decoration:none}
+.act-h{font-size:.68rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:8px}
+.alerte{display:flex;gap:8px;align-items:flex-start;background:rgba(255,139,123,.12);border:1px solid rgba(255,139,123,.45);color:#FFC2B8;border-radius:12px;padding:9px 11px;font-size:.84rem;line-height:1.35}
+.alerte.abs{background:rgba(255,210,122,.1);border-color:rgba(255,210,122,.45);color:var(--warn)}
 .jc-th{display:flex;align-items:center;gap:7px;font-size:.66rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#7DB4FF;margin:2px 2px -6px}
 .jc-th svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .jc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:rgba(255,255,255,.09);border-radius:14px;overflow:hidden}
@@ -758,7 +768,7 @@ body:not(.v-accueil) header.top{display:none}body:not(.v-accueil) .topin{padding
    par le collecteur (donnees/), les garde en cache sur l'iPhone et fait
    tous les calculs dans le navigateur.
    ====================================================================== */
-const VERSION_APPLI = "0.4.1";
+const VERSION_APPLI = "0.5.0";
 const BASE = "./donnees/";
 const CACHE = "h2h-tennis-donnees";
 const SURF = {Hard: "Dur", Clay: "Terre", Grass: "Gazon", Carpet: "Moquette"};
@@ -1154,6 +1164,90 @@ function enteteTournoi(t, droite, sousTitre) {
     <span class="trk-mt"><span class="surf ${esc(t.surf || "")}">${esc(SURF[t.surf] || t.surf || "?")}${t.salle === 1 ? " · salle" : ""}</span><span>${esc(sousTitre || "semaine du " + dateFr(t.debut))}</span></span></div>`;
 }
 
+
+/* ---------------------------------------------------------------- actualités et blessures */
+const ACT = {articles: [], maj: null};
+const norm = x => (x || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
+function chargerActus() {
+  return fetch(BASE + "actus.json?v=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.json() : null).then(a => {
+    if (!a) return;
+    ACT.maj = a.maj;
+    // joueurs cités dans le titre : nom de famille unique dans le top 300, ou nom complet
+    const top = D.rang ? D.rang.liste.slice(0, 300).map(x => x[1]) : [];
+    const cles = new Map(), vus = new Map();
+    for (const pid of new Set([...top, SEL.A, SEL.B, SEL.J])) {
+      const nom = nomJ(pid), nm = norm(prenomNom(nom)[1]);
+      if (nm.length >= 4) vus.set(nm, (vus.get(nm) || 0) + 1);
+      cles.set(pid, {complet: norm(nom), nm});
+    }
+    const motif = x => new RegExp("(^|[^a-z])" + x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "([^a-z]|$)");
+    const regs = [...cles.entries()].map(([pid, c]) => [pid, motif(c.complet), vus.get(c.nm) === 1 ? motif(c.nm) : null]);
+    ACT.articles = (a.articles || []).map(x => {
+      const t = norm(x.titre);
+      return Object.assign({}, x, {joueurs: regs.filter(([, rc, rn]) => rc.test(t) || (rn && rn.test(t))).map(r => r[0])});
+    });
+  }).catch(() => {});
+}
+function ilYa(iso) {
+  const h = (Date.now() - new Date(iso).getTime()) / 3600000;
+  if (h < 1) return "il y a " + Math.max(1, Math.round(h * 60)) + " min";
+  if (h < 24) return "il y a " + Math.round(h) + " h";
+  if (h < 48) return "hier";
+  return dateFr(iso.slice(0, 10));
+}
+function ligneArticle(x) {
+  return `<div class="act"><span class="meta"><b>${esc(x.source)}</b><span>${ilYa(x.date)}</span>${x.blessure ? '<span class="tag bl">Blessure</span>' : ""}<span>en anglais</span></span>
+    <a class="t" href="${esc(x.lien)}" target="_blank" rel="noopener">${esc(x.titre)}</a>
+    ${x.joueurs && x.joueurs.length ? `<span class="jj">${x.joueurs.slice(0, 4).map(p => `<a href="#/joueur/${encodeURIComponent(p)}">${esc(nomJ(p))}</a>`).join("")}</span>` : ""}</div>`;
+}
+function dernierJourJoue() { const auj = new Date().toISOString().slice(0, 10); let d = ""; for (const m of D.M) if (m.jour && m.d <= auj && m.d > d) d = m.d; return d || auj; }
+function abandonsRecents(jours, pid) {
+  const lim = plusJours(dernierJourJoue(), -jours);
+  return D.M.filter(m => m.d >= lim && (m.dr & (ABANDON | FORFAIT)) && (pid ? m.p === pid : (rangCourt(m.p) || 9999) <= 300))
+    .sort((a, b) => (a.d < b.d ? 1 : -1));
+}
+function absentDepuis(pid) {
+  const l = matchsDe(pid); if (!l.length) return null;
+  const j = Math.round((new Date(dernierJourJoue()) - new Date(l[0].d)) / 86400000);
+  return j >= 28 ? {jours: j, dernier: l[0]} : null;
+}
+function ligneAbandon(m) {
+  const t = D.T[m.t];
+  return `<div class="act"><span class="meta"><span>${m.jour ? dateFr(m.d) : "sem. du " + dateFr(m.d)}</span><span class="tag bl">${m.dr & FORFAIT ? "Forfait" : "Abandon"}</span><span>${esc(NIV[t.niv] || t.niv)}</span></span>
+    <span>${lienJ(m.p)}${rangCourt(m.p) ? ` <span class="small muted">(${ordinal(rangCourt(m.p))})</span>` : ""} ${m.dr & FORFAIT ? "forfait face à" : "abandonne contre"} ${lienJ(m.g)} · ${esc(NOM_TOUR[m.tour] || m.tour)}, ${esc(t.nom)}${m.dr & FORFAIT ? "" : ` <span class="small muted">(${esc(inverserScore(m.sc))})</span>`}</span></div>`;
+}
+function blocActus(el) {
+  const onglet = PREF.actus || "bl";
+  const lim14 = new Date(Date.now() - 14 * 86400000).toISOString();
+  let html;
+  if (onglet === "bl") {
+    const presse = ACT.articles.filter(x => x.blessure && x.date >= lim14).slice(0, 8);
+    const ab = abandonsRecents(14).slice(0, 12);
+    const abs = (D.rang ? D.rang.liste.slice(0, 100) : []).map(x => [x, absentDepuis(x[1])]).filter(x => x[1]).slice(0, 12);
+    html = `<div class="act-h">Dans la presse (14 jours)</div>${presse.map(ligneArticle).join("") || '<div class="small muted">Aucun article sur une blessure</div>'}
+      <div class="act-h">Abandons et forfaits (14 jours, top 300)</div>${ab.map(ligneAbandon).join("") || '<div class="small muted">Aucun</div>'}
+      <div class="act-h">Top 100 sans match depuis 4 semaines ou plus</div>${abs.map(([x, a]) => `<div class="act"><span>${lienJ(x[1])} <span class="small muted">(${ordinal(x[0])})</span> · ${Math.floor(a.jours / 7)} semaines sans match</span>
+        <span class="meta">dernier match : ${esc(D.T[a.dernier.t].nom)}, ${dateFr(a.dernier.d)} · cause non connue (blessure, repos…)</span></div>`).join("") || '<div class="small muted">Aucun</div>'}`;
+  } else html = ACT.articles.slice(0, 15).map(ligneArticle).join("") || '<div class="small muted">Aucune actualité chargée</div>';
+  el.innerHTML = `<div class="sec-h"><span class="sel-t">Actus et blessures</span><span class="sec-sub">${ACT.maj ? "Presse mise à jour " + ilYa(ACT.maj) : "Presse en cours de chargement"} · ESPN, Tennis Majors, Ubitennis</span></div>
+    ${seg("act", ["bl", "tout"], onglet, ["Blessures", "Toutes les actus"])}<div>${html}</div>`;
+  el.querySelectorAll("[data-act]").forEach(b => b.onclick = () => { PREF.actus = b.dataset.act; blocActus(el); });
+}
+function blocActusJoueur(pid) {
+  const arts = ACT.articles.filter(x => x.joueurs && x.joueurs.includes(pid)).slice(0, 8);
+  const ab = abandonsRecents(60, pid).slice(0, 6);
+  if (!arts.length && !ab.length) return "";
+  return `<div class="panel"><div class="sec-h"><span class="sel-t">Actualités et blessures</span><span class="sec-sub">Articles qui le citent (60 jours) et ses abandons ou forfaits</span></div>
+    ${ab.length ? `<div class="act-h">Abandons et forfaits (60 jours)</div>${ab.map(ligneAbandon).join("")}` : ""}
+    ${arts.length ? `<div class="act-h">Dans la presse</div>${arts.map(ligneArticle).join("")}` : ""}</div>`;
+}
+function alerteJoueur(pid) {
+  const ab = abandonsRecents(30, pid)[0], abs = absentDepuis(pid);
+  if (ab) return `<div class="alerte">⚠️ <span>${ab.dr & FORFAIT ? "Forfait" : "Abandon"} le ${dateFr(ab.d)} contre ${esc(nomJ(ab.g))} (${esc(D.T[ab.t].nom)}) : état physique à surveiller</span></div>`;
+  if (abs && rangCourt(pid) && rangCourt(pid) <= 300) return `<div class="alerte abs">⏸ <span>Sans match depuis ${Math.floor(abs.jours / 7)} semaines (dernier : ${esc(D.T[abs.dernier.t].nom)}, ${dateFr(abs.dernier.d)}). Cause non connue.</span></div>`;
+  return "";
+}
+
 /* ---------------------------------------------------------------- navigation */
 const VUES = ["accueil", "h2h", "joueur", "tournois", "reglages"];
 function rendre() {
@@ -1268,6 +1362,7 @@ function vueAccueil() {
         ${tuile("surp", "l", "Surprises (7 jours)", s0 ? esc(nomJ(s0.g)) : String(E.surprises.length), s0 ? `${ordinal(rangCourt(s0.g))} bat ${esc(nomJ(s0.p))} (${ordinal(rangCourt(s0.p))}) · ${E.surprises.length} au total` : "aucune", null, "zEss").replace('class="stile', 'class="stile txt')}
         ${tuile("jour", "n", "Dernier jour joué", E.duJour.length + " <small>matchs</small>", `${dateFr(E.dernierJour)} · ${E.nbJ.A} ATP · ${E.nbJ.C} Chall. · ${E.nbJ.I} ITF`, null, "zEss")}
       </div>${zoneDetail("zEss")}</div>
+    <div class="panel" id="actusA"></div>
     <button class="field" id="cherche">🔍 Chercher un joueur…</button>
     <div class="panel rc2"><div class="sec-h"><span class="sel-t">Tes joueurs</span><span class="sec-sub">A et B pour le face-à-face, J pour la fiche joueur</span></div>
       ${carteSel("A", "selA")}${carteSel("B", "selB")}${SEL.J !== SEL.A && SEL.J !== SEL.B ? carteSel("J", "selJ") : ""}</div>
@@ -1281,6 +1376,7 @@ function vueAccueil() {
   brancherTuiles(v);
   afficherEtatMaj();
   blocSemaine($("#semaineA"), true);
+  blocActus($("#actusA"));
 }
 function aller(v) { location.hash = v; }
 
@@ -1395,6 +1491,7 @@ function carteIdentite(pid, tous, titres) {
     <div class="jc-hero"><button class="jc-chg" id="choixJ" aria-label="Changer de joueur">🔍 Changer</button>${ph ? `<img src="${esc(grande(ph.url))}" alt="${esc(j.nom)}" onerror="this.onerror=null;this.src='${esc(ph.url)}'">` : `<span class="ini">${esc(initiales(j.nom))}</span>`}
       <div class="jc-ov"><span class="jc-pays"><span class="fl">${py.fl}</span>${esc(py.nom)}</span><span class="jc-pn">${esc(pn)}</span><span class="jc-nm">${esc(nm)}</span>
         ${ri ? `<span class="jc-rk${ri.actuel ? "" : " vieux"}">N° ${ri.rang} ATP <small>${ri.actuel ? (ri.pts != null ? Number(ri.pts).toLocaleString("fr-FR") + " pts" : "") : "au " + dateFr(ri.date)}</small></span>` : '<span class="jc-rk vieux">Non classé</span>'}</div></div>
+    ${alerteJoueur(pid)}
     ${theme("Profil", '<circle cx="12" cy="8" r="3.5"/><path d="M5 20c1.2-3.6 3.8-5.4 7-5.4s5.8 1.8 7 5.4"/>',
       c("Âge", age(j.naiss) ? age(j.naiss) + " ans" : "–", j.naiss ? "né le " + dateFr(j.naiss) : "")
       + c("Nationalité", py.fl + " " + esc(j.pays || "–"), esc(py.nom))
@@ -1473,6 +1570,7 @@ async function vueJoueur() {
     <details class="panel filt" ${PREF.filtOuvert ? "open" : ""}><summary><span class="sel-t">Matchs pris en compte</span>
       <span class="filt-r">${PREF.nJ === "tous" ? "Tous les matchs" : PREF.nJ + " derniers"} · ${{tous: "toutes surfaces", Hard: "dur", Clay: "terre", Grass: "gazon", salle: "salle"}[PREF.surfJ]} · ${{tous: "tous circuits", A: "ATP", C: "Challenger", I: "ITF"}[PREF.circJ]} · ${L.length} matchs</span></summary>
       ${blocFiltres("nJ", "surfJ", "circJ")}<div class="period">${L.length ? `du ${dateFr(L[L.length - 1].d)} au ${dateFr(L[0].d)}` : "aucun match"}</div></details>
+    ${blocActusJoueur(pid)}
     <div class="panel"><div class="sec-h"><span class="sel-t">Points clés</span><span class="sec-sub">Sur les ${L.length} matchs pris en compte (série et forme : tous les matchs)</span></div>
       <div class="stiles">
         ${tuile("bilan", "n", "Bilan", `${b.v}–${b.d}`, pctTxt(b.v, b.v + b.d) + " de victoires", b.v + b.d ? 100 * b.v / (b.v + b.d) : 0, "zPts")}
@@ -1661,6 +1759,7 @@ async function lancerMiseAJour() {
   const metaAvant = D.maj;
   try {
     await appelGitHub("/actions/workflows/collecte.yml/dispatches", {method: "POST", body: JSON.stringify({ref: "main"})});
+    appelGitHub("/actions/workflows/actus.yml/dispatches", {method: "POST", body: JSON.stringify({ref: "main"})}).catch(() => {});
   } catch (e) { afficherEtatMaj("Échec du lancement : " + e.message, 100, "ko"); return; }
   clearInterval(SUIVI);
   SUIVI = 1;
@@ -1765,7 +1864,7 @@ $("#haut").onclick = () => scroller().scrollTo({top: 0, behavior: "smooth"});
     }
   } catch (e) { /* hors ligne : on garde la version présente */ }
 })();
-charger().then(() => { $("#charge").remove(); rendre(); }).catch(e => {
+charger().then(() => { $("#charge").remove(); rendre(); chargerActus().then(() => { const e = $("#actusA"); if (e) blocActus(e); }); }).catch(e => {
   $("#etape").innerHTML = `<span class="l">Chargement impossible : ${esc(e.message)}</span><br><button onclick="location.reload()">Réessayer</button>`;
   console.error(e);
 });
