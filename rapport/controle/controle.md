@@ -1,20 +1,20 @@
 # Contrôle de l'appli
 
-- Date (UTC) : 2026-11-09T23:53:43.697Z
+- Date (UTC) : 2026-11-10T00:21:14.685Z
 - Version de l'appli : 0.2.0
-- État : **OK avec alertes**
+- État : **OK**
 
 ## Erreurs
 - aucune
 
 ## Alertes
-- classement absent ou de moins de 100 rangs
+- aucune
 
 ## Chiffres
 ```json
 {
  "public": {
-  "duree_chargement_s": 1.872,
+  "duree_chargement_s": 2.286,
   "chiffres": {
    "version_appli": "0.2.0",
    "matchs": 356083,
@@ -44,8 +44,8 @@
      ]
     ]
    },
-   "photos": 1192,
-   "joueurs_avec_poids": 781,
+   "photos": 1194,
+   "joueurs_avec_poids": 633,
    "sinner": {
     "nom": "Jannik Sinner",
     "matchs": 565,
@@ -86,7 +86,7 @@
   }
  },
  "complet": {
-  "duree_chargement_s": 1.987,
+  "duree_chargement_s": 1.906,
   "chiffres": {
    "version_appli": "0.2.0",
    "matchs": 356508,
@@ -95,29 +95,29 @@
    "doublons": 0,
    "complements_dechiffres": true,
    "classement": {
-    "semaine": "2026-10-26",
-    "source": "classement d'entrée en tournoi (partiel)",
-    "rangs": 63,
+    "semaine": "2026-11-09",
+    "source": "Cito",
+    "rangs": 100,
     "top3": [
      [
-      2,
+      1,
       "Alexander Zverev",
-      9750
+      9550
+     ],
+     [
+      2,
+      "Jannik Sinner",
+      9450
      ],
      [
       3,
       "Carlos Alcaraz",
-      5610
-     ],
-     [
-      4,
-      "Ben Shelton",
-      4680
+      7100
      ]
     ]
    },
-   "photos": 1192,
-   "joueurs_avec_poids": 781,
+   "photos": 1194,
+   "joueurs_avec_poids": 633,
    "sinner": {
     "nom": "Jannik Sinner",
     "matchs": 565,
