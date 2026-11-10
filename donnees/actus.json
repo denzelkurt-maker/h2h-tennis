@@ -1,298 +1,1631 @@
 {
- "maj": "2026-11-10T18:24+00:00",
- "note": "titres et liens des flux RSS publics ; texte des articles non repris",
+ "maj": "2026-11-10T18:52+00:00",
+ "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
-  "ESPN",
+  "L'Équipe",
   "Tennis Majors",
+  "Eurosport",
+  "We Love Tennis",
+  "Tennis Actu",
+  "RMC Sport",
+  "franceinfo",
+  "20 Minutes",
+  "ESPN",
+  "Tennis Majors (EN)",
   "Ubitennis"
  ],
+ "flux": {
+  "L'Équipe": "ok, 41 articles",
+  "Tennis Majors": "ok, 17 articles",
+  "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/tennis/rss.xml (HTTP Error 404: Not Found)",
+  "We Love Tennis": "ok, 18 articles",
+  "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
+  "RMC Sport": "ok, 28 articles",
+  "franceinfo": "ok, 20 articles",
+  "20 Minutes": "ok, 19 articles",
+  "ESPN": "erreur : no element found: line 1, column 0",
+  "Tennis Majors (EN)": "ok, 17 articles",
+  "Ubitennis": "ok, 13 articles"
+ },
  "articles": [
   {
-   "titre": "Etcheverry withdraws from Stockholm with left calf issue, Tirante gets walkover",
+   "lien": "https://www.welovetennis.fr/atp/alexander-zverev-sur-labsence-systematique-de-sa-mere-dans-sa-box-elle-ne-veut-pas-a-cause-de-cela-je-ne-peux-pas-la-forcer",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T18:09+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Zverev-Senior-pere-papa-coach-box-1024x538.jpeg",
+   "titre": "Alexander Zverev, sur l’absence systématique de sa mère dans sa box : « Elle ne veut pas à cause de cela. Je ne peux pas la forcer »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Mardi-noir-a-stockholm-pour-les-francais-adrian-mannarino-quentin-halys-et-arthur-rinderknech-battus-d-entree/1742820#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-10T17:48+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/c-est-deja-termine-pour-arthur-rinderknech-a-stockholm-p-lahalle-l-equipe/1500000002647577/0:0,800:533-828-552-75/9e81a.jpg",
+   "titre": "Mardi noir à Stockholm pour les Français : Adrian Mannarino, Quentin Halys et Arthur Rinderknech battus d'entrée",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-et-alexander-zverev-ne-lachent-pas-roger-federer",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T17:38+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Alcaraz-Zverev-Laver-Cup-1024x496.jpeg",
+   "titre": "Carlos Alcaraz et Alexander Zverev ne lâchent pas Roger Federer",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/flavio-cobolli-lintrus-du-top-10-il-y-a-un-chiffre-choquant-a-son-sujet-une-grande-premiere-depuis-que-les-statistiques-existent",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T17:08+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Flavio-Cobolli-banc-1024x555.jpeg",
+   "titre": "Flavio Cobolli, l’intrus du Top 10 ? « Il y a un chiffre choquant à son sujet. Une grande première depuis que les statistiques existent »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/live/tous-les-programmes-et-resultats-en-direct",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T17:00+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/01/Poignee-de-main-tennis-ambiance-1024x629.jpeg",
+   "titre": "Tous les programmes et résultats en direct !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-en-plus-dalcaraz-deux-joueurs-du-circuit-mont-tout-de-suite-ecrit-quand-jai-annonce-la-fin-de-ma-saison",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T16:40+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Sinner-face-1024x543.jpeg",
+   "titre": "Jannik Sinner : « En plus d’Alcaraz, deux joueurs du circuit m’ont tout de suite écrit quand j’ai annoncé la fin de ma saison »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/tv/sport/tennis/4262044-20261110-20-minutes-arena-rendez-sport-20-minutes-28?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-10T16:39+00:00",
+   "image": "https://img.20mn.fr/I5X_Jr_-Rmu0mwHku2XAmCk/1200x768_20-minutes-arena-emission-plonge-coeur-actualite-sportive-programme-debats-jeux-actu-allez-transpirer-plaisir",
+   "titre": "20 Minutes Arena : le rendez-vous sport de 20 Minutes ! #28",
+   "blessure": false
+  },
+  {
+   "titre": "Etcheverry se retire de Stockholm avec un problème de mollet gauche, Tirante se fait renverser",
    "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/etcheverry-withdraws-from-stockholm-with-left-calf-issue-tirante-gets-walkover-866603.html",
-   "source": "Tennis Majors",
+   "source": "Tennis Majors (EN)",
    "date": "2026-11-10T16:31+00:00",
+   "blessure": true,
+   "langue": "en",
+   "image": null,
+   "vo": "Etcheverry withdraws from Stockholm with left calf issue, Tirante gets walkover",
+   "titre_fr": "Etcheverry se retire de Stockholm avec un problème de mollet gauche, Tirante se fait renverser"
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/bjorn-borg-quand-je-repense-a-ma-carriere-il-y-a-une-chose-que-je-regrette-vraiment-et-ce-nest-pas-le-fait-davoir-arrete-le-tennis",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T16:04+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/07/Borg-wimbledon-1024x542.jpeg",
+   "titre": "Bjorn Borg : « Quand je repense à ma carrière, il y a une chose que je regrette vraiment. Et ce n’est pas le fait d’avoir arrêté le tennis »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/john-isner-categorique-sur-un-aspect-du-jeu-de-carlos-alcaraz-ce-nest-en-aucun-cas-un-coup-dun-joueur-faisant-partie-du-top-10-mondial",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T15:46+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-service--1024x551.jpeg",
+   "titre": "John Isner catégorique sur un aspect du jeu de Carlos Alcaraz : « Ce n’est en aucun cas un coup d’un joueur faisant partie du top 10 mondial »",
+   "blessure": false
+  },
+  {
+   "titre": "Les premiers noms de Zverev et Alcaraz pour l'équipe d'Europe à la Laver Cup 2027 à Los Angeles",
+   "lien": "https://www.tennismajors.com/others-news/laver-cup/zverev-and-alcaraz-first-names-for-team-europe-at-laver-cup-2027-in-los-angeles-866596.html",
+   "source": "Tennis Majors (EN)",
+   "date": "2026-11-10T15:35+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Zverev and Alcaraz first names for Team Europe at Laver Cup 2027 in Los Angeles",
+   "titre_fr": "Les premiers noms de Zverev et Alcaraz pour l'équipe d'Europe à la Laver Cup 2027 à Los Angeles"
+  },
+  {
+   "titre": "Qualificatif Shevchenko bat Mannarino à Stockholm pour mettre en place Ruud Clash",
+   "lien": "https://www.tennismajors.com/atp/qualifier-shevchenko-beats-mannarino-in-stockholm-to-set-up-ruud-clash-866587.html",
+   "source": "Tennis Majors (EN)",
+   "date": "2026-11-10T15:25+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Qualifier Shevchenko beats Mannarino in Stockholm to set up Ruud clash",
+   "titre_fr": "Qualificatif Shevchenko bat Mannarino à Stockholm pour mettre en place Ruud Clash"
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/dominic-thiem-sur-sa-defaite-contre-rafael-nadal-en-finale-de-roland-garros-2019-il-faut-accepter-que-de-lautre-cote-du-filet-se-trouve-un-adversaire-qui-evolue-tout-simplement-dans-une-autre-c",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T15:16+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/02/Nadal-Thiem-finale-Roland-Garros-2019-filet-1024x544.jpg",
+   "titre": "Dominic Thiem, sur sa défaite contre Rafael Nadal en finale de Roland-Garros 2019 : « Il faut accepter que de l’autre côté du filet se trouve un adversaire qui évolue tout simplement dans une autre catégorie »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/darren-cahill-desormais-ex-entraineur-de-sinner-sil-y-a-cinq-ans-on-mavait-dit-que-jannik-remporterait-cinq-titres-du-grand-chelem-tous-les-masters-1000-et-quil-deviendrait",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T14:45+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Darren-Cahill-1024x553.jpeg",
+   "titre": "Darren Cahill, désormais ex-entraîneur de Sinner : « S’il y a cinq ans, on m’avait dit que Jannik remporterait cinq titres du Grand Chelem, tous les Masters 1000 et qu’il deviendrait numéro 1 mondial, je vous aurais dema",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/stefan-edberg-je-suis-sur-que-ce-joueur-remportera-un-grand-chelem-un-jour",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T14:15+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Edberg-Stefan-1024x604.jpeg",
+   "titre": "Stefan Edberg : « Je suis sûr que ce joueur remportera un Grand Chelem un jour »",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/je-n-etais-pas-candidat-tsonga-met-les-choses-au-clair-apres-la-nomination-de-monfils-en-coupe-davis_AV-202611100606.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-10T14:09+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/RKD_V6VvUuZTEl7y-OmB4vYTN7g=/0x118:2048x1270/800x0/images/Jo-Wilfried-Tsonga-et-Gael-Monfils-en-mai-2026-2381518.jpg",
+   "titre": "\"Je n'étais pas candidat\", Tsonga met les choses au clair après la nomination de Monfils en Coupe Davis",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/jo-wilfried-tsonga_DN-201411280298.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-10T14:09+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/O6vYlHT_z3B678unnlELatE0YF0=/16x1:1184x658/800x0/images/-862382.jpg",
+   "titre": "Jo-Wilfried Tsonga",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/gael-monfils_DN-201411280299.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-10T14:09+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/oxR5oj7xdmx5EmO0SX4YlcRyOBI=/3x251:4787x2942/800x0/images/-872263.jpg",
+   "titre": "Gaël Monfils",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/ferrero-nouveau-coach-de-shelton-battu-par-alcaraz-en-finale-cetait-la-premiere-fois-en-huit-ans-que-je-devais-reflechir-a-des-strategies-pour-contrer-le-jeu-de-carlos",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T13:44+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/11/Ferrero-Turin-Masters-2024-1024x550.jpeg",
+   "titre": "Ferrero, nouveau coach de Shelton, battu par Alcaraz en finale : « C’était la première fois en huit ans que je devais réfléchir à des stratégies pour contrer le jeu de Carlos »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/france/jo-wilfried-tsonga-apres-la-nomination-de-gael-monfils-au-poste-de-capitaine-de-coupe-davis-jai-informe-gilles-moretton-que-si-un-jour-il-pensait-a-moi-il-fallait-me-prevenir-bien-en-amont",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T13:14+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Tsonga-RG-2026-1024x618.jpeg",
+   "titre": "Jo-Wilfried Tsonga, après la nomination de Gaël Monfils au poste de capitaine de Coupe Davis : « J’ai informé Gilles Moretton que si un jour il pensait à moi, il fallait me prévenir bien en amont »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/steve-johnson-declasse-novak-djokovic-je-vais-etre-honnete-avec-vous-jetais-optimiste-pour-lui-ces-dernieres-semaines-mais-pour-moi-cest-desormais-officiel-il-nest-plus-dan",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T12:51+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Djokovic-profil-1024x604.jpeg",
+   "titre": "Steve Johnson déclasse Novak Djokovic : « Je vais être honnête avec vous, j’étais optimiste pour lui ces dernières semaines mais pour moi, c’est désormais officiel : il n’est plus dans la course pour aucun grand tournoi ",
+   "blessure": false
+  },
+  {
+   "titre": "10 novembre 1973 : Le jour où Jimmy Connors et Bjorn Borg se sont affrontés pour la première fois",
+   "lien": "https://www.tennismajors.com/atp/november-10-1973-the-day-jimmy-connors-and-bjorn-borg-faced-off-for-the-first-time-512755.html",
+   "source": "Tennis Majors (EN)",
+   "date": "2026-11-10T12:28+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "November 10, 1973: The day Jimmy Connors and Bjorn Borg faced off for the first time",
+   "titre_fr": "10 novembre 1973 : Le jour où Jimmy Connors et Bjorn Borg se sont affrontés pour la première fois"
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/musetti-apres-avoir-souligne-le-merite-de-zverev-en-termes-de-niveau-je-pense-quil-ne-fait-aucun-doute-que-si-tout-le-monde-est-au-meilleur-de-sa-forme-sinner-et-alcaraz-restent-meille",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T12:21+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Musetti-Zverev-1024x555.jpeg",
+   "titre": "Musetti, après avoir souligné le mérite de Zverev : « En termes de niveau, je pense qu’il ne fait aucun doute que si tout le monde est au meilleur de sa forme, Sinner et Alcaraz restent meilleurs que n’importe qui d’autr",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jim-courier-tranche-entre-federer-nadal-et-djokovic-je-me-mets-dans-la-peau-dun-avocat-et-je-me-demande-comment-je-pourrais-gagner-un-debat-si-je-devais-opposer-les-statistiques-de-roger-et-raf",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T11:42+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/02/Federer-Nadal-Djokovic.jpeg",
+   "titre": "Jim Courier tranche entre Federer, Nadal et Djokovic : « Je me mets dans la peau d’un avocat et je me demande comment je pourrais gagner un débat si je devais opposer les statistiques de Roger et Rafa à celles de Novak »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/absent-depuis-quatre-mois-jannik-sinner-prend-enfin-la-parole-je-suis-un-joueur-de-tennis-pas-un-medecin-donc-la-seule-option-a-ce-moment-la-etait-de-leur-faire-confiance",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T11:18+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-1024x555.jpeg",
+   "titre": "Absent depuis quatre mois, Jannik Sinner prend enfin la parole : « Je suis un joueur de tennis, pas un médecin, donc la seule option à ce moment-là était de leur faire confiance »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/holger-rune-aujourdhui-406e-mondial-mon-objectif-est-de-devenir-numero-1-et-de-remporter-des-tournois-du-grand-chelem-je-minspire-de-federer-a-son-retour-de-blessure-en-2017",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T09:59+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/04/Rune-regard-MC-2025-1024x539.jpeg",
+   "titre": "Holger Rune, aujourd’hui 406e mondial : « Mon objectif est de devenir numéro 1 et de remporter des tournois du Grand Chelem. Je m’inspire de Federer à son retour de blessure en 2017 »",
    "blessure": true
   },
   {
-   "titre": "Zverev and Alcaraz first names for Team Europe at Laver Cup 2027 in Los Angeles",
-   "lien": "https://www.tennismajors.com/others-news/laver-cup/zverev-and-alcaraz-first-names-for-team-europe-at-laver-cup-2027-in-los-angeles-866596.html",
+   "lien": "https://www.welovetennis.fr/france/benoit-maylin-en-remet-une-couche-gilles-simon-nous-sort-que-gael-monfils-capitaine-cest-genial-je-ne-dis-pas-que-cest-nul-on-verra-bien-mais-je-ne-vois-pas-du-tout-en-quoi-ce-choix-est-va",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T09:28+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Gilles-Simon-Gael-Monfils--1024x515.jpeg",
+   "titre": "Benoît Maylin en remet une couche : « Gilles Simon nous sort que Gaël Monfils capitaine, c’est génial. Je ne dis pas que c’est nul, on verra bien, mais je ne vois pas du tout en quoi ce choix est valide »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/10-novembre-1997-le-jour-ou-andre-agassi-a-plonge-a-la-141e-place-mondiale-304241.html",
    "source": "Tennis Majors",
-   "date": "2026-11-10T15:35+00:00",
+   "langue": "fr",
+   "date": "2026-11-10T09:00+00:00",
+   "image": null,
+   "titre": "10 novembre 1997 : Le jour où Andre Agassi a plongé à la 141e place mondiale",
    "blessure": false
   },
   {
-   "titre": "Qualifier Shevchenko beats Mannarino in Stockholm to set up Ruud clash",
-   "lien": "https://www.tennismajors.com/atp/qualifier-shevchenko-beats-mannarino-in-stockholm-to-set-up-ruud-clash-866587.html",
-   "source": "Tennis Majors",
-   "date": "2026-11-10T15:25+00:00",
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/-je-n-ai-jamais-vraiment-ete-candidat-jo-wilfried-tsonga-revient-sur-la-nomination-de-gael-monfils-a-la-tete-de-l-equipe-de-france-de-coupe-davis/1742669#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-10T07:30+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/jo-wilfried-tsonga-lors-de-l-hommage-a-gael-monfils-a-la-plenitude-arena-la-semaine-derniere-a-reau-l-equipe/1500000002647094/0:0,2000:1333-828-552-75/de49f.jpg",
+   "titre": "« Je n'ai jamais vraiment été candidat » : Jo-Wilfried Tsonga revient sur la nomination de Gaël Monfils à la tête de l'équipe de France de Coupe Davis",
    "blessure": false
   },
   {
-   "titre": "November 10, 1973: The day Jimmy Connors and Bjorn Borg faced off for the first time",
-   "lien": "https://www.tennismajors.com/atp/november-10-1973-the-day-jimmy-connors-and-bjorn-borg-faced-off-for-the-first-time-512755.html",
-   "source": "Tennis Majors",
-   "date": "2026-11-10T12:28+00:00",
-   "blessure": false
-  },
-  {
-   "titre": "beIN Sports Director Condemns Jibe At Aryna Sabalenka’s Appearance By Employee",
-   "lien": "https://www.ubitennis.net/2026/11/bein-sports-director-condemns-jibe-at-aryna-sabalenkas-appearance-by-employee/",
-   "source": "Ubitennis",
-   "date": "2026-11-10T10:26+00:00",
-   "blessure": false
-  },
-  {
-   "titre": "Aryna Sabalenka Overcomes Serving Woes, ‘Diva’ Andreeva Impresses In WTA Finals Openers",
-   "lien": "https://www.ubitennis.net/2026/11/aryna-sabalenka-overcomes-serving-woes-diva-andreeva-impresses-in-wta-finals-openers/",
-   "source": "Ubitennis",
-   "date": "2026-11-10T09:39+00:00",
-   "blessure": false
-  },
-  {
-   "titre": "Andreeva saves all six break points to beat Svitolina on WTA Finals debut",
-   "lien": "https://www.tennismajors.com/wta-tour-news/wta-finals/andreeva-saves-all-six-break-points-to-beat-svitolina-on-wta-finals-debut-866581.html",
-   "source": "Tennis Majors",
-   "date": "2026-11-10T01:55+00:00",
-   "blessure": false
-  },
-  {
-   "titre": "Shelton, Alcaraz, Mosquito: Everything you always wanted to know about Juan Carlos Ferrero (but never had time to find out) – updated after his Marca interview",
+   "titre": "Shelton, Alcaraz, Mosquito : Tout ce que vous avez toujours voulu savoir sur Juan Carlos Ferrero (mais que vous n'avez jamais eu le temps de découvrir) – mise à jour après son entretien avec Marca",
    "lien": "https://www.tennismajors.com/atp/mosquito-world-no-1-alcaraz-everything-you-always-wanted-to-know-about-juan-carlos-ferrero-but-never-had-time-to-find-out-627961.html",
-   "source": "Tennis Majors",
+   "source": "Tennis Majors (EN)",
    "date": "2026-11-09T22:55+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Shelton, Alcaraz, Mosquito: Everything you always wanted to know about Juan Carlos Ferrero (but never had time to find out) – updated after his Marca interview",
+   "titre_fr": "Shelton, Alcaraz, Mosquito : Tout ce que vous avez toujours voulu savoir sur Juan Carlos Ferrero (mais que vous n'avez jamais eu le temps de découvrir) – mise à jour après son entretien avec Marca"
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-sur-sa-lancee-arthur-fils-en-forme-et-rafael-jodar-pret-pour-l-exploit-le-barometre-des-huit-qualifies-pour-les-finales-atp-de-turin/1742507#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-09T22:49+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Le baromètre des huit qualifiés pour Turin",
    "blessure": false
   },
   {
-   "titre": "Sabalenka edges Muchova for fifth straight opening win at the WTA Finals",
-   "lien": "https://www.tennismajors.com/wta-tour-news/wta-finals/sabalenka-edges-muchova-for-fifth-straight-opening-win-at-the-wta-finals-866573.html",
-   "source": "Tennis Majors",
-   "date": "2026-11-09T22:41+00:00",
-   "blessure": false
-  },
-  {
-   "titre": "Borg and Dahlin beaten as all three Swedish wildcards fall in Stockholm",
+   "titre": "Borg et Dahlin battus alors que les trois jokers suédois tombent à Stockholm",
    "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/borg-and-dahlin-beaten-as-all-three-swedish-wildcards-fall-in-stockholm-866561.html",
-   "source": "Tennis Majors",
+   "source": "Tennis Majors (EN)",
    "date": "2026-11-09T22:01+00:00",
-   "blessure": false
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Borg and Dahlin beaten as all three Swedish wildcards fall in Stockholm",
+   "titre_fr": "Borg et Dahlin battus alors que les trois jokers suédois tombent à Stockholm"
   },
   {
-   "titre": "Zverev: “I don’t think I have much else to prove”",
+   "titre": "Zverev : « Je ne pense pas avoir grand-chose d'autre à prouver »",
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/zverev-i-dont-think-i-have-much-else-to-prove-866520.html",
-   "source": "Tennis Majors",
+   "source": "Tennis Majors (EN)",
    "date": "2026-11-09T20:14+00:00",
-   "blessure": false
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Zverev: “I don’t think I have much else to prove”",
+   "titre_fr": "Zverev : « Je ne pense pas avoir grand-chose d'autre à prouver »"
   },
   {
-   "titre": "Ferrero on Shelton: “He can have a high chance of competing on equal terms with those at the top”",
+   "titre": "Ferrero sur Shelton : « Il peut avoir de grandes chances de concourir sur un pied d'égalité avec ceux qui sont au sommet »",
    "lien": "https://www.tennismajors.com/atp/ferrero-on-shelton-he-can-have-a-high-chance-of-competing-on-equal-terms-with-those-at-the-top-866522.html",
-   "source": "Tennis Majors",
+   "source": "Tennis Majors (EN)",
    "date": "2026-11-09T19:51+00:00",
-   "blessure": false
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Ferrero on Shelton: “He can have a high chance of competing on equal terms with those at the top”",
+   "titre_fr": "Ferrero sur Shelton : « Il peut avoir de grandes chances de concourir sur un pied d'égalité avec ceux qui sont au sommet »"
   },
   {
-   "titre": "Humbert and qualifier Gojo set up last-16 clash in Stockholm",
+   "titre": "Humbert et le qualifié Gojo ont organisé les 16 derniers affrontements à Stockholm",
    "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/humbert-and-qualifier-gojo-set-up-last-16-clash-in-stockholm-866519.html",
-   "source": "Tennis Majors",
+   "source": "Tennis Majors (EN)",
    "date": "2026-11-09T19:35+00:00",
-   "blessure": false
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Humbert and qualifier Gojo set up last-16 clash in Stockholm",
+   "titre_fr": "Humbert et le qualifié Gojo ont organisé les 16 derniers affrontements à Stockholm"
   },
   {
-   "titre": "Djokovic’s ATP Finals hopes dashed in Paris, but eyes turn to 2027 Australian Open",
+   "titre": "Les espoirs de Djokovic en finale de l'ATP se sont brisés à Paris, mais les yeux se tournent vers l'Open d'Australie 2027",
    "lien": "https://www.ubitennis.net/2026/11/djokovics-atp-finals-hopes-dashed-in-paris-but-eyes-turn-to-2027-australian-open/",
    "source": "Ubitennis",
    "date": "2026-11-09T18:26+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Djokovic’s ATP Finals hopes dashed in Paris, but eyes turn to 2027 Australian Open",
+   "titre_fr": "Les espoirs de Djokovic en finale de l'ATP se sont brisés à Paris, mais les yeux se tournent vers l'Open d'Australie 2027"
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/carlos-alcaraz_DN-202305240409.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-09T18:17+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/q0HhSAPh4WNCQyuuNy78EIUsorg=/0x159:2048x1311/800x0/images/Carlos-Alcaraz-a-Madrid-1628893.jpg",
+   "titre": "Carlos Alcaraz",
    "blessure": false
   },
   {
-   "titre": "November 9, 1993: The day the great Bjorn Borg played his last-ever professional match",
+   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/paris-bercy/un-melange-de-djokovic-et-federer-comment-alcaraz-a-conquis-le-masters-1000-de-paris_AV-202611090813.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-09T18:17+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/jFfp4H51nEtLEFR03HpeOkqNmgg=/0x106:2048x1258/800x0/images/Carlos-Alcaraz-tout-sourire-apres-sa-victoire-au-Masters-1000-de-Paris-le-8-novembre-2026-2380956.jpg",
+   "titre": "\"Un mélange de Djokovic et Federer\", comment Alcaraz a conquis le Masters 1000 de Paris",
+   "blessure": false
+  },
+  {
+   "titre": "9 novembre 1993 : Le jour où le grand Bjorn Borg a joué son dernier match professionnel",
    "lien": "https://www.tennismajors.com/atp/moscow-vtb-kremlin-cup-atp-250/november-9-1993-the-day-bjorn-borg-played-his-final-professional-match-303941.html",
-   "source": "Tennis Majors",
+   "source": "Tennis Majors (EN)",
    "date": "2026-11-09T15:56+00:00",
-   "blessure": false
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "November 9, 1993: The day the great Bjorn Borg played his last-ever professional match",
+   "titre_fr": "9 novembre 1993 : Le jour où le grand Bjorn Borg a joué son dernier match professionnel"
   },
   {
-   "titre": "Norrie reels off eight straight games against Duckworth to set up Fritz clash",
+   "titre": "Norrie rembobine huit matchs consécutifs contre Duckworth pour mettre en place Fritz Clash",
    "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/norrie-reels-off-eight-straight-games-against-duckworth-to-set-up-fritz-clash-866501.html",
-   "source": "Tennis Majors",
+   "source": "Tennis Majors (EN)",
    "date": "2026-11-09T15:54+00:00",
-   "blessure": false
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Norrie reels off eight straight games against Duckworth to set up Fritz clash",
+   "titre_fr": "Norrie rembobine huit matchs consécutifs contre Duckworth pour mettre en place Fritz Clash"
   },
   {
-   "titre": "Switzerland’s Leandro Riedi Opens Up About Suicide Attempt For The First Time",
+   "titre": "Le Suisse Leandro Riedi s'ouvre sur la tentative de suicide pour la première fois",
    "lien": "https://www.ubitennis.net/2026/11/switzerlands-leandro-riedi-opens-up-about-suicide-attempt-for-the-first-time/",
    "source": "Ubitennis",
    "date": "2026-11-09T15:12+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Switzerland’s Leandro Riedi Opens Up About Suicide Attempt For The First Time",
+   "titre_fr": "Le Suisse Leandro Riedi s'ouvre sur la tentative de suicide pour la première fois"
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4261714-20261109-tennis-essaye-suicider-puissant-temoignage-suisse-leandro-riedi-autour-sante-mentale?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-09T15:09+00:00",
+   "image": "https://img.20mn.fr/mLK7yloORZmgaizTmiZmvCk/1200x768_22-mai-2026-paris-france-le-suisse-leandro-riedi-lors-de-la-cinquieme-journee-de-qualification-de-roland-garros-2026-open-de-france-2026-tournoi-de-tennis-du-grand-chelem-au-stade-roland-garros-le-22-mai-2026-a-paris-france-image-de-credit-matthieu-mirville-zuma-press-wire-20260522-zsp-m308-071-zeus-2605222051",
+   "titre": "Tennis : « J’ai essayé de me suicider »… Le puissant témoignage du Suisse Leandro Riedi autour de la santé mentale",
    "blessure": false
   },
   {
-   "titre": "Michelsen stays unbroken against Hanfmann to set up Cerundolo clash in Stockholm",
+   "titre": "Michelsen reste ininterrompu contre Hanfmann pour mettre en place Cerundolo Clash à Stockholm",
    "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/michelsen-stays-unbroken-against-hanfmann-to-set-up-cerundolo-clash-in-stockholm-866500.html",
-   "source": "Tennis Majors",
+   "source": "Tennis Majors (EN)",
    "date": "2026-11-09T14:50+00:00",
-   "blessure": false
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Michelsen stays unbroken against Hanfmann to set up Cerundolo clash in Stockholm",
+   "titre_fr": "Michelsen reste ininterrompu contre Hanfmann pour mettre en place Cerundolo Clash à Stockholm"
   },
   {
-   "titre": "Van Assche ends his season by pulling out of Stockholm; Mannarino takes his place",
+   "titre": "Van Assche termine sa saison en se retirant de Stockholm ; Mannarino prend sa place",
    "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/van-assche-ends-his-season-by-pulling-out-of-stockholm-mannarino-takes-his-place-866502.html",
-   "source": "Tennis Majors",
+   "source": "Tennis Majors (EN)",
    "date": "2026-11-09T14:44+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Van Assche ends his season by pulling out of Stockholm; Mannarino takes his place",
+   "titre_fr": "Van Assche termine sa saison en se retirant de Stockholm ; Mannarino prend sa place"
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/tennis-le-message-puissant-de-leandro-riedi-qui-a-tente-de-se-suicider_AV-202611090617.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-09T14:28+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/4n_P8R99X0BCvWA26BaOFYVVDHM=/0x62:2032x1205/800x0/images/Leandro-Riedi-lors-du-Challenger-de-Pau-en-2026-2380840.jpg",
+   "titre": "Tennis: le message puissant de Leandro Riedi, qui a tenté de se suicider",
    "blessure": false
   },
   {
-   "titre": "Fritz back in the top 10, Ruud in the Top 20: the ATP rankings after Paris",
-   "lien": "https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/fritz-back-in-the-top-10-ruud-in-the-top-20-the-atp-rankings-after-paris-866483.html",
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/9-novembre-1993-le-jour-ou-borg-a-pris-sa-retraite-pour-de-bon-303969.html",
    "source": "Tennis Majors",
-   "date": "2026-11-09T11:19+00:00",
-   "blessure": false
-  },
-  {
-   "titre": "Mental Stability Aids Coco Gauff’s WTA Finals Charge as Jessica Pegula Focuses On Kostyuk Test",
-   "lien": "https://www.ubitennis.net/2026/11/mental-stability-aids-coco-gauffs-wta-finals-charge-as-jessica-pegula-focuses-on-kostyuk-test/",
-   "source": "Ubitennis",
-   "date": "2026-11-09T11:12+00:00",
-   "blessure": false
-  },
-  {
-   "titre": "How technology is changing the way tennis fans follow and enjoy sports",
-   "lien": "https://www.tennismajors.com/others-news/how-technology-is-changing-the-way-tennis-fans-follow-and-enjoy-sports-866482.html",
-   "source": "Tennis Majors",
-   "date": "2026-11-09T11:04+00:00",
-   "blessure": false
-  },
-  {
-   "titre": "Gauff survives missed match point to edge Pegula at WTA Finals",
-   "lien": "https://www.tennismajors.com/wta-tour-news/wta-finals/gauff-survives-missed-match-point-to-edge-pegula-at-wta-finals-866476.html",
-   "source": "Tennis Majors",
-   "date": "2026-11-09T06:58+00:00",
-   "blessure": false
-  },
-  {
-   "titre": "Noskova converts all four break points to beat Kostyuk in WTA Finals opener",
-   "lien": "https://www.tennismajors.com/wta-tour-news/noskova-converts-all-four-break-points-to-beat-kostyuk-in-wta-finals-opener-866466.html",
-   "source": "Tennis Majors",
-   "date": "2026-11-08T22:42+00:00",
-   "blessure": false
-  },
-  {
-   "titre": "Linette ends Tjen’s Chennai reign to win first title since 2024",
-   "lien": "https://www.tennismajors.com/wta-tour-news/wta-chennai-open/linette-ends-tjens-chennai-reign-to-win-first-title-since-2024-866264.html",
-   "source": "Tennis Majors",
-   "date": "2026-11-08T20:24+00:00",
-   "blessure": false
-  },
-  {
-   "titre": "Alcaraz on course for an indoor hat-trick: “Probably the best I’ve played since my comeback”",
-   "lien": "https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/alcaraz-on-course-for-an-indoor-hat-trick-probably-the-best-ive-played-since-my-comeback-866433.html",
-   "source": "Tennis Majors",
-   "date": "2026-11-08T20:15+00:00",
-   "blessure": false
-  },
-  {
-   "titre": "Carlos Alcaraz Topples Shelton To Win Paris Masters",
-   "lien": "https://www.ubitennis.net/2026/11/carlos-alcaraz-topples-shelton-to-win-paris-masters/",
-   "source": "Ubitennis",
-   "date": "2026-11-08T17:03+00:00",
-   "blessure": false
-  },
-  {
-   "titre": "Alexandra Eala’s Season Ends With Shock Loss To World No.102 Liu In Hong Kong Final",
-   "lien": "https://www.ubitennis.net/2026/11/alexandra-ealas-season-ends-with-shock-loss-to-world-no-102-liu-in-hong-kong-final/",
-   "source": "Ubitennis",
-   "date": "2026-11-08T14:52+00:00",
-   "blessure": false
-  },
-  {
-   "titre": "Carlos Alcaraz ‘Proud’ To Reach First Paris Final, Sets Up Shelton Rematch",
-   "lien": "https://www.ubitennis.net/2026/11/carlos-alcaraz-proud-to-reach-first-paris-final-sets-up-shelton-rematch/",
-   "source": "Ubitennis",
-   "date": "2026-11-07T20:45+00:00",
-   "blessure": false
-  },
-  {
-   "titre": "World No.1 Elena Rybakina Pulls Out Of WTA Finals",
-   "lien": "https://www.ubitennis.net/2026/11/world-no-1-elena-rybakina-pulls-out-of-wta-finals/",
-   "source": "Ubitennis",
-   "date": "2026-11-07T19:33+00:00",
+   "langue": "fr",
+   "date": "2026-11-09T13:46+00:00",
+   "image": null,
+   "titre": "9 novembre 1993 : Le jour où Borg a pris sa retraite, cette fois pour de bon",
    "blessure": true
   },
   {
-   "titre": "Carlos Alcaraz Saves Match Points To End Taylor Fritz’s ATP Finals Hopes In Paris",
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Le-suisse-leandro-riedi-revele-avoir-tente-de-se-suicider-il-y-a-deux-ans-et-adresse-un-message-de-prevention/1742469#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-09T11:34+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/leandro-riedi-en-2023-lors-d-une-rencontre-de-coupe-davis-p-lahalle-l-equipe/1500000002646585/0:0,2000:1333-828-552-75/88909.jpg",
+   "titre": "Le Suisse Leandro Riedi révèle avoir tenté de se suicider il y a deux ans et adresse un message de prévention",
+   "blessure": false
+  },
+  {
+   "titre": "Fritz de retour dans le top 10, Ruud dans le top 20 : le classement ATP après Paris",
+   "lien": "https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/fritz-back-in-the-top-10-ruud-in-the-top-20-the-atp-rankings-after-paris-866483.html",
+   "source": "Tennis Majors (EN)",
+   "date": "2026-11-09T11:19+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Fritz back in the top 10, Ruud in the Top 20: the ATP rankings after Paris",
+   "titre_fr": "Fritz de retour dans le top 10, Ruud dans le top 20 : le classement ATP après Paris"
+  },
+  {
+   "titre": "Comment la technologie change la façon dont les fans de tennis suivent et apprécient le sport",
+   "lien": "https://www.tennismajors.com/others-news/how-technology-is-changing-the-way-tennis-fans-follow-and-enjoy-sports-866482.html",
+   "source": "Tennis Majors (EN)",
+   "date": "2026-11-09T11:04+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "How technology is changing the way tennis fans follow and enjoy sports",
+   "titre_fr": "Comment la technologie change la façon dont les fans de tennis suivent et apprécient le sport"
+  },
+  {
+   "lien": "https://www.lequipe.fr/Medias/Actualites/Le-tennis-atp-de-retour-sur-bein-sports-en-2028/1742446#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-09T10:06+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/bein-sports-sera-le-nouveau-diffuseur-du-tennis-atp-a-partir-de-janvier-2028-et-succede-a-eurosport-p-lahalle-l-equipe/1500000002646370/0:0,2000:1333-828-552-75/fc8a4.jpg",
+   "titre": "Le tennis ATP de retour sur beIN Sports en 2028",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Demi-finaliste-a-paris-luca-van-assche-atteint-le-meilleur-classement-atp-de-sa-carriere-carlos-alcaraz-solide-3e/1742443#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-09T09:20+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/luca-van-assche-a-mis-un-terme-a-sa-saison-en-renoncant-au-tournoi-de-stockholm-a-reau-l-equipe/1500000002646341/0:0,2000:1333-828-552-75/71584.jpg",
+   "titre": "Demi-finaliste à Paris, Luca Van Assche atteint le meilleur classement ATP de sa carrière, Carlos Alcaraz solide 3e",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/l-essentiel-du-sport/laperche-dompte-le-rhum-alcaraz-sacre-a-paris-le-xv-de-france-en-balade-face-aux-fidji-le-recap-sport-du-week-end_8273111.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-09T05:00+00:00",
+   "image": "https://www.franceinfo.fr/pictures/AphozOrxrHIF26tTmRlTzKgVUKo/0x0:1920x1080/432x243/filters:format(jpg)/2026/11/08/6af0ddc84da1e037965958.jpg",
+   "titre": "Laperche dompte le Rhum, Alcaraz sacré à Paris, le XV de France en balade face aux Fidji... Le récap sport du week-end",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/-il-faut-que-j-aille-a-stockholm-pour-me-retirer-sur-place-sinon-je-prends-une-grosse-amende-apres-sa-demi-finale-a-paris-van-assche-contraint-d-aller-en-suede-pour-declarer-forfait/1742405#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-08T23:21+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/luca-van-assche-est-alle-jusqu-en-demi-finales-du-masters-1000-de-paris-a-reau-l-equipe/1500000002646159/0:0,2000:1333-828-552-75/2a3f5.jpg",
+   "titre": "« Il faut que j'aille à Stockholm pour me retirer sur place sinon je prends une grosse amende » : après sa demi-finale à Paris, Van Assche contraint d'aller en Suède pour déclarer forfait",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/La-france-remporte-la-coupe-davis-juniors-pour-la-premiere-fois-depuis-21-ans/1742389#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-08T22:00+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/gregory-caraz-joseph-phitoussi-pablo-pradat-et-benoit-geldof-dr/1500000002646078/11:307,735:789-828-552-75/1b73f.jpg",
+   "titre": "La France remporte la Coupe Davis juniors pour la première fois depuis 21 ans",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Video/Rolex-paris-masters-les-temps-forts-de-la-victoire-de-carlos-alcaraz-face-a-ben-sheltonen-finale-du-rolex-paris-masters/20245172#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-08T21:26+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Les temps forts de la victoire de Carlos Alcaraz face à Ben Sheltonen finale du Rolex Paris Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/il-faut-que-j-aille-a-stockholm-pour-me-retirer-sinon-je-prends-une-grosse-amende-la-drole-de-mesaventure-de-luca-van-assche-apres-sa-belle-performance-au-rolex-paris-masters_AV-202611080420.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-08T21:19+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/BCA1sMsOsnqGswKGgbb8pq7Zv0Y=/0x134:2048x1286/800x0/images/Luca-Van-Assche-lors-de-son-quart-de-finale-au-Masters-1000-de-Paris-le-6-novembre-2026-2379719.jpg",
+   "titre": "\"Il faut que j'aille à Stockholm sinon je prends une grosse amende\": la drôle de mésaventure de Luca Van Assche après sa belle performance au Rolex Paris Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Gael-monfils-capitaine-de-coupe-davis-les-dessous-d-une-decision-qui-a-pris-tout-le-monde-a-contre-pied-je-ne-suis-meme-pas-sur-que-lui-meme-y-ait-pense/1742048#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-08T21:00+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Monfils, les dessous d'une décision qui a pris tout le monde à contre-pied",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/C-etait-pourtant-l-arme-fatale-de-ben-shelton-comment-carlos-alcaraz-a-neutralise-le-service-de-l-americain-en-finale-du-rolex-paris-masters/1742349#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-08T21:00+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/ben-shelton-est-souvent-monte-dans-des-conditions-defavorables-a-cause-de-la-qualite-des-retours-de-carlos-alcaraz-p-lahalle-l-equipe/1500000002645988/0:0,1500:1000-828-552-75/1caf1.jpg",
+   "titre": "C'était pourtant l'arme fatale de Ben Shelton : comment Carlos Alcaraz a neutralisé le service de l'Américain en finale du Rolex Paris Masters",
+   "blessure": false
+  },
+  {
+   "titre": "Linette met fin au règne de Tjen à Chennai pour remporter le premier titre depuis 2024",
+   "lien": "https://www.tennismajors.com/wta-tour-news/wta-chennai-open/linette-ends-tjens-chennai-reign-to-win-first-title-since-2024-866264.html",
+   "source": "Tennis Majors (EN)",
+   "date": "2026-11-08T20:24+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Linette ends Tjen’s Chennai reign to win first title since 2024",
+   "titre_fr": "Linette met fin au règne de Tjen à Chennai pour remporter le premier titre depuis 2024"
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Apres-son-sacre-au-rolex-paris-masters-quels-titres-manquent-au-palmares-de-carlos-alcaraz/1742340#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-08T20:22+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-a-remporte-le-rolex-paris-masters-p-lahalle-l-equipe/1500000002645973/371:507,1546:1290-828-552-75/82d8f.jpg",
+   "titre": "Après son sacre au Rolex Paris Masters, quels titres manquent au palmarès de Carlos Alcaraz ?",
+   "blessure": false
+  },
+  {
+   "titre": "Alcaraz en route pour un tour du chapeau en salle : « Probablement le meilleur que j'ai joué depuis mon retour »",
+   "lien": "https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/alcaraz-on-course-for-an-indoor-hat-trick-probably-the-best-ive-played-since-my-comeback-866433.html",
+   "source": "Tennis Majors (EN)",
+   "date": "2026-11-08T20:15+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Alcaraz on course for an indoor hat-trick: “Probably the best I’ve played since my comeback”",
+   "titre_fr": "Alcaraz en route pour un tour du chapeau en salle : « Probablement le meilleur que j'ai joué depuis mon retour »"
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Du-show-et-du-jeu-pour-le-bonheur-du-public-carlos-alcaraz-a-fini-par-briser-sa-malediction-au-rolex-paris-masters/1742334#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-08T20:15+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Une semaine au show et Alcaraz a fini par briser sa malédiction",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Ben-shelton-apres-sa-defaite-contre-carlos-alcaraz-en-finale-du-rolex-paris-masters-tout-se-joue-sur-des-petits-details/1742277#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-08T18:13+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/ben-shelton-dimanche-en-finale-du-rolex-paris-masters-p-lahalle-l-equipe/1500000002645841/0:0,2000:1333-828-552-75/1dbe3.jpg",
+   "titre": "Ben Shelton après sa défaite contre Carlos Alcaraz en finale du Rolex Paris Masters : « Tout se joue sur des petits détails »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-apres-sa-victoire-au-rolex-paris-masters-mentalement-j-ai-franchi-un-cap/1742274#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-08T17:56+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-celebre-sa-victoire-au-rolex-paris-masters-avec-ses-parents-p-lahalle-l-equipe/1500000002645829/0:0,2000:1333-828-552-75/ad830.jpg",
+   "titre": "Carlos Alcaraz après sa victoire au Rolex Paris Masters : « Mentalement, j'ai franchi un cap »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/La-delivrance-a-27-ans-matteo-martineau-remporte-son-premier-challenger-en-italie-et-pourra-disputer-les-qualifications-de-l-open-d-australie/1742264#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-08T17:26+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/matteo-martineau-lors-des-qualifications-de-roland-garros-en-2025-p-lahalle-l-equipe/1500000002645804/116:68,1946:1289-828-552-75/55738.jpg",
+   "titre": "La délivrance à 27 ans : Matteo Martineau remporte son premier Challenger en Italie et pourra disputer les qualifications de l'Open d'Australie",
+   "blessure": false
+  },
+  {
+   "titre": "Carlos Alcaraz Topples Shelton pour remporter les Masters de Paris",
+   "lien": "https://www.ubitennis.net/2026/11/carlos-alcaraz-topples-shelton-to-win-paris-masters/",
+   "source": "Ubitennis",
+   "date": "2026-11-08T17:03+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Carlos Alcaraz Topples Shelton To Win Paris Masters",
+   "titre_fr": "Carlos Alcaraz Topples Shelton pour remporter les Masters de Paris"
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4261303-20261108-carlos-alcaraz-desormais-tout-gagne-paris-shelton-rien-pu-faire-finale?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-08T16:54+00:00",
+   "image": "https://img.20mn.fr/ZtsaJdqnRsaClMOfSke0ayk/1200x768_l-espagnol-carlos-alcaraz-est-lance-avec-le-masters-de-fin-d-annee-a-turin-ou-s-affronteront-les-8-meilleurs-mondiaux",
+   "titre": "Carlos Alcaraz a désormais tout gagné à Paris, Shelton n’a rien pu faire en finale",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/paris-bercy/direct-masters-1000-de-paris-suivez-la-finale-entre-alcaraz-et-shelton-en-live_LN-202611080269.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-08T16:45+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/JDIx5f4dLTDkYqHxeyQJwqHTAT0=/0x25:1200x700/800x0/images/Masters-1000-de-Paris-Carlos-Alcaraz-le-7-novembre-2026-2380288.jpg",
+   "titre": "Masters 1000 de Paris: premier sacre pour Carlos Alcaraz",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/rolex-paris-masters-1000-atp/paris-nallait-pas-lui-resister-apres-une-saison-freinee-par-les-blessures-alcaraz-ne-laisse-pas-passer-sa-chance-de-gagner-un-masters-1000-a-paris-809861.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-08T16:31+00:00",
+   "image": null,
+   "titre": "Paris n’allait pas lui résister : après une saison freinée par les blessures, Alcaraz ne laisse pas passer sa chance de gagner un Masters 1000 à Paris",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/carlos-alcaraz-remporte-le-masters-1000-de-paris-pour-la-premiere-fois-grace-a-son-succes-contre-ben-shelton-en-finale_8273420.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-08T16:28+00:00",
+   "image": "https://www.franceinfo.fr/pictures/XNWOL57qNoEVGq-cq0M9jM1yU-Y/0x0:6471x3639/432x243/filters:format(jpg)/2026/11/08/6af0aaace71a2883612290.jpg",
+   "titre": "Carlos Alcaraz remporte le Masters 1000 de Paris pour la première fois grâce à son succès contre Ben Shelton en finale",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-domine-ben-shelton-en-finale-du-rolex-paris-masters-et-remporte-son-premier-masters-1000-a-paris/1742240#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-08T16:19+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/premier-masters-1000-a-paris-pour-carlos-alcaraz-p-lahalle-l-equipe/1500000002645735/0:0,1998:1332-828-552-75/b32e3.jpg",
+   "titre": "Carlos Alcaraz domine Ben Shelton en finale du Rolex Paris Masters et remporte son premier Masters 1000 à Paris",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Quentin-halys-et-pierre-hugues-herbert-apres-leur-victoire-en-double-au-rolex-paris-masters-le-but-c-etait-d-aller-chercher-un-gros-titre/1742226#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-08T15:05+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/pierre-hugues-herbert-et-quentin-halys-celebrent-leur-sacre-dimanche-p-lahalle-l-equipe/1500000002645669/0:0,2000:1333-828-552-75/95444.jpg",
+   "titre": "Quentin Halys et Pierre-Hugues Herbert après leur victoire en double au Rolex Paris Masters : « Le but, c'était d'aller chercher un gros titre »",
+   "blessure": false
+  },
+  {
+   "titre": "La saison d'Alexandra Eala se termine par une perte de choc pour le n ° 102 mondial Liu en finale à Hong Kong",
+   "lien": "https://www.ubitennis.net/2026/11/alexandra-ealas-season-ends-with-shock-loss-to-world-no-102-liu-in-hong-kong-final/",
+   "source": "Ubitennis",
+   "date": "2026-11-08T14:52+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Alexandra Eala’s Season Ends With Shock Loss To World No.102 Liu In Hong Kong Final",
+   "titre_fr": "La saison d'Alexandra Eala se termine par une perte de choc pour le n ° 102 mondial Liu en finale à Hong Kong"
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/paris-bercy/masters-1000-de-paris-la-paire-francaise-halys-herbert-vainqueure-en-double_AV-202611080293.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-08T14:22+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/ePF8_CRsgcqnpaRa8xlPTziMetg=/0x106:2048x1258/800x0/images/Quentin-Halys-et-Pierre-Hugues-Herbert-en-finale-du-double-du-Rolex-Paris-Masters-le-8-novembre-2026-2380310.jpg",
+   "titre": "Masters 1000 de Paris: la paire française Halys-Herbert vainqueure en double",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Fin-de-saison-pour-luca-van-assche-qui-renonce-au-tournoi-de-stockholm/1742208#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-08T13:51+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/luca-van-assche-sera-lundi-34e-mondial-a-reau-l-equipe/1500000002645619/469:347,1679:1153-828-552-75/91f08.jpg",
+   "titre": "Fin de saison pour Luca Van Assche qui renonce au tournoi de Stockholm",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Quentin-halys-et-pierre-hugues-herbert-titres-en-double-du-rolex-paris-masters/1742206#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-08T13:37+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/pierre-hugues-herbert-et-quentin-halys-titres-au-rolex-paris-masters-p-lahalle-l-equipe/1500000002645611/0:0,1999:1333-828-552-75/c223a.jpg",
+   "titre": "Quentin Halys et Pierre-Hugues Herbert titrés en double du Rolex Paris Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/rolex-paris-masters-1000-atp/le-tournoi-prend-de-lampleur-plus-de-200-000-spectateurs-et-une-surface-rapide-amenee-a-rester-pioline-dresse-le-bilan-du-rolex-paris-masters-2026-809849.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-08T13:34+00:00",
+   "image": null,
+   "titre": "« Le tournoi prend de l’ampleur » : plus de 200 000 spectateurs et une surface rapide amenée à rester, Pioline dresse le bilan du Rolex Paris Masters 2026",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Cedric-pioline-directeur-du-rolex-paris-masters-les-fans-se-sont-approprie-le-lieu/1742199#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-08T12:34+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/le-parcours-de-luca-van-assche-a-tenu-en-haleine-le-public-du-rolex-paris-masters-cette-annee-a-reau-l-equipe/1500000002645594/0:0,1500:1000-828-552-75/91706.jpg",
+   "titre": "Cédric Pioline, directeur du Rolex Paris Masters : « Les fans se sont approprié le lieu »",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/video-monfils-capitaine-des-bleus-son-point-fort-c-est-l-imprevisibilite-pitkowski-surprise-du-choix_VN-202611080188.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-08T10:55+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/sSoHloDl0iMeiPcFvqk5ECoMRJA=/0x0:1280x720/800x0/images/Monfils-capitaine-des-Bleus-Son-point-fort-c-est-l-imprevisibilite-Pitkowski-surprise-du-choix-2380200.jpg",
+   "titre": "Coupe Davis : Monfils, capitaine français… \"Son point fort, c'est l'imprévisibilité\" Pitkowski surprise",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/wta-actualite/8-novembre-2007-le-jour-ou-justine-henin-na-pas-laisse-un-jeu-a-marion-bartoli-303753.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-08T10:49+00:00",
+   "image": null,
+   "titre": "8 novembre 2007 : Le jour où Justine Henin a battu Marion Bartoli 6-0, 6-0",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/wta-actualite/championne-de-wimbledon-masters-tcheque-tout-ce-que-vous-avez-toujours-voulu-savoir-sur-linda-noskova-sans-prendre-le-temps-de-chercher-809834.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-08T10:40+00:00",
+   "image": null,
+   "titre": "Championne de Wimbledon, Masters, Tchèque : tout ce que vous avez toujours voulu savoir sur Linda Noskova (sans prendre le temps de chercher)",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/rolex-paris-masters-1000-atp/edberg-sur-le-service-volee-je-suis-sur-quil-va-revenir-pas-comme-a-la-grande-epoque-mais-il-reviendra-809809.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-08T09:22+00:00",
+   "image": null,
+   "titre": "Edberg sur le service-volée : « Je suis sûr qu’il va revenir, pas comme à la grande époque, mais il reviendra »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/rolex-paris-masters-1000-atp/mes-reflexes-devront-etre-au-top-alcaraz-en-quete-dun-premier-titre-au-paris-masters-face-a-shelton-qui-lavait-vaincu-a-lus-open-809806.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-08T09:16+00:00",
+   "image": null,
+   "titre": "« Mes réflexes devront être au top » : Alcaraz en quête d’un premier titre au Paris Masters face à Shelton, qui l’avait vaincu à l’US Open",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4261260-20261108-alcaraz-shelton-chaine-tv-heure-voir-finale-rolex-paris-masters-2026?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-08T08:26+00:00",
+   "image": "https://img.20mn.fr/BpTJ2LozTBqYMK8KKU8qQyk/1200x768_carlos-alcaraz-vise-un-premier-titre-au-masters-1000-de-paris-dimanche-apres-midi-photo-d-illustration",
+   "titre": "Alcaraz - Shelton : Sur quelle chaîne TV et à quelle heure voir la finale du Rolex Paris Masters 2026 ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Entre-carlos-alcaraz-et-ben-shelton-le-rolex-paris-masters-attend-son-nouveau-vainqueur/1742056#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-08T05:50+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-reussit-enfin-au-rolex-paris-masters-a-reau-l-equipe/1500000002645020/0:0,2000:1333-828-552-75/c5835.jpg",
+   "titre": "Entre Carlos Alcaraz et Ben Shelton, le Rolex Paris Masters attend son nouveau vainqueur",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/-il-m-a-dit-qu-il-etait-tres-heureux-pour-moi-ben-shelton-revele-avoir-prevenu-alcaraz-qu-il-avait-embauche-ferrero-avant-l-officialisation/1742139#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T23:21+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "« Il m'a dit qu'il était très heureux pour moi » : Ben Shelton révèle avoir prévenu Alcaraz qu'il avait embauché Ferrero avant l'officialisation",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Video/Rolex-paris-masters-les-temps-forts-de-la-defaite-de-luca-van-assche-face-a-ben-shelton/20245104#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T23:13+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Les temps forts du quart de finale du Rolex Paris Masters entre Luca Van Assche et Ben Shelton",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Video/Rolex-paris-masters-les-temps-forts-du-quart-de-finale-du-rolex-paris-masters-entre-carlos-alcaraz-et-taylor-fritz/20245051#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T22:41+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Les temps forts du quart de finale du Rolex Paris Masters entre Carlos Alcaraz et Taylor Fritz",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-ce-n-est-pas-un-one-shot-battu-en-demi-finales-du-rolex-paris-masters-luca-van-assche-aborde-la-suite-avec-confiance-et-ambition/1742074#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T21:28+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Van Assche, un parcours qui valide les progrès et donne des certitudes pour la suite",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Quentin-halys-et-pierre-hugues-herbert-se-paient-les-numeros-1-mondiaux-et-se-qualifient-pour-la-finale-du-double-au-rolex-paris-masters/1742086#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T20:57+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/quentin-halys-a-gauche-et-pierre-hugues-herbert-ici-en-2025-joueront-le-titre-dimanche-a-nanterre-pierre-lahalle-l-equipe/1500000002645081/0:0,1999:1332-828-552-75/5c2e3.jpg",
+   "titre": "Quentin Halys et Pierre-Hugues Herbert se paient les numéros 1 mondiaux et se qualifient pour la finale du double au Rolex Paris Masters",
+   "blessure": false
+  },
+  {
+   "titre": "Carlos Alcaraz « fier » d'atteindre la première finale de Paris, met en place Shelton Rematch",
+   "lien": "https://www.ubitennis.net/2026/11/carlos-alcaraz-proud-to-reach-first-paris-final-sets-up-shelton-rematch/",
+   "source": "Ubitennis",
+   "date": "2026-11-07T20:45+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Carlos Alcaraz ‘Proud’ To Reach First Paris Final, Sets Up Shelton Rematch",
+   "titre_fr": "Carlos Alcaraz « fier » d'atteindre la première finale de Paris, met en place Shelton Rematch"
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/nos-articles/listes-nos-articles/casper-ruud-questions-christian-pere-terre-battue-rafa-nadal-academy-prize-money-classement-grand-chelem-462402.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-07T20:40+00:00",
+   "image": null,
+   "titre": "Demi-finale à Paris, David Ferrer, Christian Ruud : tout ce que vous avez toujours voulu savoir sur Casper Ruud (sans prendre le temps de chercher) – mis à jour après l’arrivée de David Ferrer",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4261208-20261107-si-ca-peut-motiver-certains-venir-gael-monfils-capitaine-bleus-coupe-davis-donner-nouvel-elan?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-07T19:07+00:00",
+   "image": "https://img.20mn.fr/Qxi3EJmTQmqwP__KppBvMik/1200x768_nanterre-france-3-novembre-le-francais-gael-monfils-a-recu-un-hommage-special-lors-de-la-deuxieme-journee-du-rolex-paris-masters-2026-a-la-plenitude-arena-le-3-novembre-2026-a-nanterre-en-france-photo-de-just-pictures-photo-d-eurasia-sport-images-just-pictures-sipa-usa-74749801-2611040349",
+   "titre": "« Si ça peut en motiver certains à venir »… Gaël Monfils capitaine des Bleus de Coupe Davis pour donner un nouvel élan",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/rolex-paris-masters-1000-atp/je-suis-frais-et-jai-la-dalle-alcaraz-soffre-sa-premiere-finale-a-paris-sans-conceder-une-seule-balle-de-break-finale-en-vue-contre-shelton-809756.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-07T18:54+00:00",
+   "image": null,
+   "titre": "« Je suis frais, et j’ai la dalle ! » : Alcaraz s’offre sa première finale à Paris sans concéder une seule balle de break, finale en vue contre Shelton",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/David-ferrer-sera-l-entraineur-de-casper-ruud-la-saison-prochaine/1742013#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T18:19+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/david-ferrer-va-entrainer-casper-ruud-p-lahale-a-reau-l-equipe/1500000002644932/0:0,1500:1000-828-552-75/9ef8d.jpg",
+   "titre": "David Ferrer sera l'entraîneur de Casper Ruud la saison prochaine",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4261198-20261107-masters-1000-paris-niveau-jouer-mecs-luca-van-assche-avenir-rose?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-07T18:01+00:00",
+   "image": "https://img.20mn.fr/T2koGq5dRkGsfQFUAxiXeik/1200x768_luca-van-assche-fra-lors-de-la-demi-finale-du-rolex-paris-masters-a-la-penitude-arena-le-samedi-7-novembre-2026-nanterre-ouest-de-paris-france-photo-christophe-saidi-sipa-saidichristophe-sac-7713-credit-christophe-saidi-sipa-2611071730",
+   "titre": "Masters 1000 de Paris : « J’ai le niveau pour jouer ces mecs »… Pour Luca Van Assche, un avenir en rose ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Comment-lucas-van-assche-a-dilapide-son-break-d-avance-dans-le-troisieme-set-et-perdu-le-fil-face-a-ben-shelton-au-rolex-paris-masters/1742005#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T18:00+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/luca-van-assche-a-peche-en-coup-droit-durant-le-troisieme-set-a-reau-l-equipe/1500000002644914/0:0,1500:1000-828-552-75/d4bd9.jpg",
+   "titre": "Comment Luca Van Assche a dilapidé son break d'avance dans le troisième set et perdu le fil face à Ben Shelton au Rolex Paris Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/solide-carlos-alcaraz-rejoint-ben-shelton-en-finale-du-masters-1000-de-paris_8272580.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-07T17:57+00:00",
+   "image": "https://www.franceinfo.fr/pictures/dIyvZ40hjTFJ9rSResc3fGJ-h6M/0x0:7281x4095/432x243/filters:format(jpg)/2026/11/07/6aef6129ecf98566794315.jpg",
+   "titre": "Solide, Carlos Alcaraz rejoint Ben Shelton en finale du Masters 1000 de Paris",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Trop-fort-pour-casper-ruud-carlos-alcaraz-va-disputer-sa-premiere-finale-face-a-ben-shelton-au-rolex-paris-masters/1742002#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T17:56+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-n-a-jamais-fremi-devant-casper-ruud-ce-samedi-a-reau-l-equipe/1500000002644907/0:0,2000:1333-828-552-75/e3435.jpg",
+   "titre": "Trop fort pour Casper Ruud, Carlos Alcaraz va disputer sa première finale face à Ben Shelton au Rolex Paris Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/paris-bercy/direct-masters-1000-de-paris-suivez-en-live-les-demi-finales-van-assche-shelton-et-ruud-alcaraz_LN-202611070215.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-07T17:56+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/0ufbMutrGjiFSxQIrL9XRJj-6Vk=/34x461:1634x1361/800x0/images/Carlos-Alcaraz-lors-de-son-quart-de-finale-face-a-Taylor-Fritz-le-6-novembre-2026-2379599.jpg",
+   "titre": "Masters 1000 de Paris: fin du rêve pour Van Assche, Shelton défiera Alcaraz en finale",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/shelton-quand-je-breake-le-plus-souvent-cest-que-je-viens-de-perdre-mon-service-809744.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-07T17:43+00:00",
+   "image": null,
+   "titre": "Shelton, après son retour face à Van Assche : « Quand je breake, le plus souvent c’est que je viens de perdre mon service »",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/coupe-davis/il-y-a-eu-une-approche-collective-moretton-revele-les-coulisses-du-choix-de-gael-monfils-comme-capitaine-de-l-equipe-de-france-de-coupe-davis_AV-202611070447.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-07T17:38+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/s93OFVfIGYZm6FlobM10nc-DnLo=/0x114:2048x1266/800x0/images/Gael-Monfils-honore-lors-du-Rolex-Paris-Masters-le-3-novembre-2026-2377426.jpg",
+   "titre": "\"Il y a eu une approche collective\": Moretton révèle les coulisses du choix de Gaël Monfils comme capitaine de l'équipe de France de Coupe Davis",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Luca-van-assche-apres-sa-defaite-en-demi-finales-du-rolex-paris-masters-face-a-ben-shelton-je-n-ai-pas-de-regrets-je-me-suis-donne-a-fond/1741995#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T17:36+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/luca-van-assche-elimine-en-demi-finales-du-rolex-paris-masters-a-reau-l-equipe/1500000002644891/228:172,1855:1257-828-552-75/8cb66.jpg",
+   "titre": "Luca Van Assche après sa défaite en demi-finales du Rolex Paris Masters face à Ben Shelton : « Je n'ai pas de regrets, je me suis donné à fond »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/coupe-davis-actualite/il-fallait-un-electrochoc-moretton-et-simon-defendent-le-choix-de-monfils-chez-les-bleus-809722.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-07T17:04+00:00",
+   "image": null,
+   "titre": "« Il fallait un électrochoc » : Moretton et Simon défendent le choix de Monfils chez les Bleus",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Gilles-simon-sur-la-nomination-de-gael-monfils-comme-capitaine-de-l-equipe-de-france-de-coupe-davis-ca-lui-tenait-a-coeur-plus-que-ce-que-vous-pouvez-imaginer/1741974#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T16:58+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/gilles-simon-et-gilles-moretton-ont-justifie-la-nomination-de-gael-monfils-comme-capitaine-de-coupe-davis-samedi-au-rolex-paris-masters-a-reau-l-equipe/1500000002644849/121:212,1794:1328-828-552-75/0c4de.jpg",
+   "titre": "Gilles Simon sur la nomination de Gaël Monfils comme capitaine de l'équipe de France de Coupe Davis : « Ça lui tenait à coeur, plus que ce que vous pouvez imaginer »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/rolex-paris-masters-1000-atp/shelton-soffre-sa-premiere-finale-de-masters-1000-hors-du-canada-et-met-fin-au-parcours-de-van-assche-809712.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-07T16:50+00:00",
+   "image": null,
+   "titre": "Shelton s’offre sa première finale de Masters 1000 hors du Canada et met fin au parcours de Van Assche",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/l-epopee-du-francais-luca-van-assche-stoppee-en-demi-finales-du-masters-1000-de-paris-par-ben-shelton_8272385.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-07T16:10+00:00",
+   "image": "https://www.franceinfo.fr/pictures/GK0KG5hQW2gHoUXR3IIhr-Bmymk/0x0:8640x4860/432x243/filters:format(jpg)/2026/11/07/6aef32e6bfc5e748824347.jpg",
+   "titre": "L'épopée du Français Luca van Assche stoppée en demi-finales du Masters 1000 de Paris par Ben Shelton",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Sacre-boucan-et-show-renversant-on-se-souviendra-de-la-premiere-qualification-de-carlos-alcaraz-en-demi-finales-du-rolex-paris-masters/1741848#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T16:06+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Alcaraz, sacré boucan et show renversant",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Battu-en-trois-sets-par-ben-shelton-luca-van-assche-s-arrete-en-demi-finales-du-rolex-paris-masters/1741949#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T16:01+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/luca-van-assche-n-est-pas-passe-loin-d-une-premiere-finale-en-masters-1000-a-reau-l-equipe/1500000002644803/0:0,2000:1333-828-552-75/a9491.jpg",
+   "titre": "Battu en trois sets par Ben Shelton, Luca Van Assche s'arrête en demi-finales du Rolex Paris Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/stockholm-open-atp-250/stockholm-rune-de-retour-la-ou-il-setait-blesse-affrontera-bergs-au-1er-tour-809693.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-07T15:33+00:00",
+   "image": null,
+   "titre": "Stockholm : Rune de retour là où il s’était blessé, affrontera Bergs au 1er tour",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/coupe-davis-actualite/la-surprise-gael-monfils-nomme-capitaine-de-lequipe-de-france-de-coupe-davis-809677.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-07T14:07+00:00",
+   "image": null,
+   "titre": "La surprise : Gaël Monfils nommé capitaine de l’équipe de France de Coupe Davis",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Luca-van-assche-l-enfant-qui-ne-supportait-pas-de-rater-ca-provoquait-chez-lui-des-coups-de-colere/1741828#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T13:38+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Van Assche, l'enfant qui ne supportait pas de rater",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/coupe-davis/coupe-davis-sarah-pitkowski-pointe-la-plus-grande-mission-de-gael-monfils-apres-sa-nomination-a-la-tete-des-bleus_AV-202611070320.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-07T13:37+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/e4fszUJgXsJaQGJMcMPBMtUf43w=/0x165:2048x1317/800x0/images/Gael-Monfils-fait-ses-adieux-a-l-US-Open-et-aux-tournois-du-Grand-Chelem-apres-sa-defaite-contre-Learner-Tien-6-3-6-4-6-3-le-4-septembre-2026-2342145.jpg",
+   "titre": "Coupe Davis: Sarah Pitkowski pointe \"la plus grande mission\" de Gaël Monfils après sa nomination à la tête des Bleus",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/coupe-davis/coupe-davis-les-coulisses-de-la-nomination-de-gael-monfils-a-la-tete-des-bleus_AV-202611070287.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-07T12:52+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/4KiNC9J4vmtgTMTRghzHYdGpmW8=/240x64:2000x1054/800x0/images/Cedric-Pioline-Gael-Monfils-et-Gilles-Moretton-au-Rolex-Paris-Masters-le-3-novembre-2026-2379797.jpg",
+   "titre": "Coupe Davis: les coulisses de la nomination de Gaël Monfils à la tête des Bleus",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4261153-20261107-direct-van-assche-shelton-surprise-semaine-francais-marche-finale-historique-suivez-match?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-07T12:17+00:00",
+   "image": "https://img.20mn.fr/HQUt8rz0RGKi4k-SVndZYyk/1200x768_le-francais-luca-van-assche-a-droite-rend-le-ballon-a-ben-shelton-des-etats-unis-lors-d-un-match-de-demi-finale-du-tournoi-de-tennis-paris-masters-a-nanterre-pres-de-paris-en-france-le-samedi-7-novembre-2026-ap-photo-thibault-camus-ena135-26311558421124-2611071641",
+   "titre": "Van Assche - Shelton : L'Américain met fin au rêve de Van Assche après un gros combat... Revivez le match avec nous...",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Luca-van-assche-le-teigneux-qui-a-appris-a-prendre-le-jeu-a-son-compte-il-frappe-beaucoup-plus-fort-en-coup-droit/1741814#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T12:10+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Van Assche, le teigneux devenu conquérant dans le jeu",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/gael-monfils-nomme-nouveau-capitaine-de-l-equipe-de-france-de-coupe-davis-de-tennis_8272202.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-07T11:09+00:00",
+   "image": "https://www.franceinfo.fr/pictures/KrQyFGJg9_863-YuEyHLBI3B3j8/0x0:5426x3052/432x243/filters:format(jpg)/2026/11/07/6aef06d45997e570886216.jpg",
+   "titre": "Gaël Monfils nommé nouveau capitaine de l'équipe de France de Coupe Davis de tennis",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/casper-ruud_DN-202305240418.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-07T11:05+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/7hGD-QtOfDWqykkQXlcxEYeTBoE=/15x0:1999x1116/800x0/images/C-Ruud-1638436.jpg",
+   "titre": "Casper Ruud",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/La-fft-officialise-la-nomination-de-gael-monfils-comme-capitaine-de-l-equipe-de-france-de-coupe-davis/1741876#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T10:51+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/gael-monfils-a-peine-retraite-comme-joueur-reprend-du-service-comme-capitaine-de-l-equipe-de-france-de-coupe-davis-p-lahalle-l-equipe/1500000002644568/0:0,2000:1333-828-552-75/35f2c.jpg",
+   "titre": "La FFT officialise la nomination de Gaël Monfils comme capitaine de l'équipe de France de Coupe Davis",
+   "blessure": false
+  },
+  {
+   "titre": "Carlos Alcaraz économise des points de match pour mettre fin aux espoirs de Taylor Fritz en finale de l'ATP à Paris",
    "lien": "https://www.ubitennis.net/2026/11/carlos-alcaraz-saves-match-points-to-end-taylor-fritzs-atp-finals-hopes-in-paris/",
    "source": "Ubitennis",
    "date": "2026-11-07T10:30+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Carlos Alcaraz Saves Match Points To End Taylor Fritz’s ATP Finals Hopes In Paris",
+   "titre_fr": "Carlos Alcaraz économise des points de match pour mettre fin aux espoirs de Taylor Fritz en finale de l'ATP à Paris"
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/rolex-paris-masters-1000-atp/de-paris-a-paris-comment-van-assche-a-arrete-de-se-trouver-des-excuses-pour-devenir-meilleur-que-jamais-809621.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-07T10:21+00:00",
+   "image": null,
+   "titre": "De Paris à Paris : comment Van Assche a arrêté de se trouver des excuses pour devenir meilleur que jamais",
    "blessure": false
   },
   {
-   "titre": "Alexander Zverev Is No Different: The Scrutiny Comes With Being World No. 1",
+   "lien": "https://rmcsport.bfmtv.com/tennis/coupe-davis/info-rmc-sport-gael-monfils-nomme-capitaine-de-l-equipe-de-france-de-coupe-davis_AN-202611070197.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-07T10:21+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/XWC-35a5HHMBvdx4_34hkvMKzqw=/0x32:2048x1184/800x0/images/Gael-Monfils-lors-du-Rolex-Paris-Masters-le-3-novembre-2026-2379704.jpg",
+   "titre": "Gaël Monfils nommé capitaine de l'équipe de France de Coupe Davis",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Gael-monfils-tres-bientot-nomme-capitaine-de-l-equipe-de-france-de-coupe-davis/1741870#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T09:48+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/gael-monfils-mardi-dernier-lors-de-l-hommage-qui-lui-a-ete-rendu-a-la-plenitude-arena-pour-l-ensemble-de-sa-carriere-p-lahalle-l-equipe/1500000002644544/241:375,1524:1231-828-552-75/2e87a.jpg",
+   "titre": "Gaël Monfils très bientôt nommé capitaine de l'équipe de France de Coupe Davis ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/7-novembre-1993-le-jour-ou-le-public-de-paris-bercy-a-siffle-ivanisevic-parce-quil-servait-trop-bien-512076.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-07T09:30+00:00",
+   "image": null,
+   "titre": "7 novembre 1993 : Le jour où le public de Paris-Bercy a sifflé Ivanisevic parce qu’il servait trop bien",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/apres-avoir-sauve-deux-balles-de-match-carlos-alcaraz-se-qualifie-pour-les-demi-finales-du-masters-1000-de-paris_8272091.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-07T09:28+00:00",
+   "image": "https://www.franceinfo.fr/pictures/Pjl-v3w2cTnX3frZYr_Jv97hK3c/0x0:2133x1199/432x243/filters:format(jpg)/2026/11/07/6aeeeb8f2c98f077229482.jpg",
+   "titre": "Après avoir sauvé deux balles de match, Carlos Alcaraz se qualifie pour les demi-finales du Masters 1000 de Paris",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Casper-ruud-ecarte-nuno-borges-et-complete-les-demi-finales-du-rolex-paris-masters/1741859#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T07:05+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/casper-ruud-affrontera-carlos-alcaraz-en-demies-a-paris-a-reau-l-equipe/1500000002644504/277:176,1903:1260-828-552-75/72b34.jpg",
+   "titre": "Casper Ruud écarte Nuno Borges et complète les demi-finales du Rolex Paris Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4261091-20261107-masters-1000-paris-si-plenitude-arena-transformait-enfin-chaudron-demi-finale-luca-van-assche?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-07T07:02+00:00",
+   "image": "https://img.20mn.fr/5AbL8--dSC2AwVtR4NdeTik/1200x768_credit-obligatoire-photo-de-martin-isaac-shutterstock-17007319h-supporters-de-boca-juniors-boca-juniors-vs-ohiggins-eliminatoires-de-la-coupe-d-amerique-du-sud-estadio-alberto-j-armando-caba-buenos-aires-argentine-23-juillet-2026-shutterstock-editorial-boca-juniors-vs-ohiggins-sudam-17007319h-2607242246",
+   "titre": "Masters 1000 de Paris : Et si la Plénitude Arena se transformait enfin un chaudron pour la demi-finale de Van Assche ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4261101-20261107-rolex-paris-masters-2026-chaine-tv-heure-voir-demi-finale-van-assche-shelton-direct?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-07T06:17+00:00",
+   "image": "https://img.20mn.fr/34gLJ6VaR3e9tZ2uZjOAKyk/1200x768_le-francais-luca-van-assche-aura-fort-a-faire-samedi-en-demi-finale-du-rolex-paris-masters-contre-ben-shelton",
+   "titre": "Rolex Paris Masters 2026 : Sur quelle chaîne TV et à quelle heure voir la demi-finale Van Assche-Shelton en direct ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4261098-20261107-masters-1000-paris-balles-match-sauvees-points-fou-comment-carlos-alcaraz-encore-revenu-enfer?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-07T05:32+00:00",
+   "image": "https://img.20mn.fr/mEbhpsNgSMeElUidc16UeSk/1200x768_l-espagnol-carlos-alcaraz-joue-un-revers-contre-taylor-fritz-des-etats-unis-lors-de-la-cinquieme-journee-du-rolex-paris-masters-2026-le-6-novembre-2026-a-nanterre-en-france-photo-de-tnani-badreddine-defodi-images-649-20261106-bt779545-jpg-649-rolex-paris-masters-2026-cinquieme-jour-defodi-images-649-20261106-bt779545-credit-tnani-badreddine-defodi-images-sipa-2611062307",
+   "titre": "Masters 1000 de Paris : Balles de match sauvées, points de fou… Comment Carlos Alcaraz est encore revenu de l’enfer",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/paris-bercy/direct-masters-1000-de-paris-suivez-en-live-les-quarts-de-finale-avec-van-assche-alcaraz-shelton-et-ruud_LN-202611060440.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-07T00:02+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/0ufbMutrGjiFSxQIrL9XRJj-6Vk=/34x461:1634x1361/800x0/images/Carlos-Alcaraz-lors-de-son-quart-de-finale-face-a-Taylor-Fritz-le-6-novembre-2026-2379599.jpg",
+   "titre": "Masters 1000 de Paris: Alcaraz signe une remontada et file dans le dernier carré",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/masters-1000-de-paris-luca-van-assche-resiste-a-hijikata-et-s-offre-une-demi-finale-a-la-maison_AV-202611060835.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-06T18:55+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/bIxmJftwVnmUPa_HECTz7obM0NU=/0x93:2048x1245/800x0/images/Luca-Van-Assche-2379514.jpg",
+   "titre": "Masters 1000 de Paris: Luca Van Assche résiste à Hijikata et s’offre une demi-finale à la maison",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4261031-20261106-masters-1000-paris-equilibre-lie-maths-tres-haut-niveau-qualifie-demie-van-assche-grosse-tete?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-06T18:49+00:00",
+   "image": "https://img.20mn.fr/UmquKmV_QU2t13Szu83vSik/1200x768_luca-van-assche-fra-participe-aux-8es-de-finale-du-rolex-paris-masters-a-la-paris-la-defense-arena-de-nanterre-a-l-ouest-de-paris-en-france-le-jeudi-5-novembre-2026-saidichristophe-saidi1159-credit-christophe-saidi-sipa-2611060921",
+   "titre": "Masters 1000 de Paris : « Un équilibre lié aux maths de très haut niveau »… Qualifié en demie, Van Assche la grosse tête",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/dernier-francais-en-lice-luca-van-assche-se-qualifie-pour-les-demi-finales-du-masters-1000-de-paris-apres-un-gros-combat-face-a-rinky-hijikata_8271113.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-06T18:18+00:00",
+   "image": "https://www.franceinfo.fr/pictures/vTLVpHha8jv82ksH7ZUhdC-zyo8/0x0:5169x2907/432x243/filters:format(jpg)/2026/11/06/6aee178772cbc105050017.jpg",
+   "titre": "Dernier Français en lice, Luca van Assche se qualifie pour les demi-finales du Masters 1000 de Paris après un gros combat face à Rinky Hijikata",
+   "blessure": false
+  },
+  {
+   "titre": "Alexander Zverev n'est pas différent : l'examen minutieux vient avec le fait d'être n ° 1 mondial",
    "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-is-no-different-the-scrutiny-comes-with-being-world-no-1/",
    "source": "Ubitennis",
    "date": "2026-11-06T10:13+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Alexander Zverev Is No Different: The Scrutiny Comes With Being World No. 1",
+   "titre_fr": "Alexander Zverev n'est pas différent : l'examen minutieux vient avec le fait d'être n ° 1 mondial"
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/masters-1000-de-paris-qui-est-l-atypique-luca-van-assche-dernier-francais-en-lice_AV-202611060412.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-06T10:13+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/7hlMWjdHbgnZ-rQlpZ9DcPcyXOE=/83x125:1923x1160/800x0/images/Luca-Van-Assche-au-Masters-1000-de-Paris-le-5-novembre-2026-2379122.jpg",
+   "titre": "Masters 1000 de Paris: qui est l'atypique Luca Van Assche, dernier Français en lice?",
    "blessure": false
   },
   {
-   "titre": "Ben Shelton Looking Forward To ‘Fireworks’ In High-Stakes Contest Against Tommy Paul In Paris",
+   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-06T10:07+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
+   "titre": "Jannik Sinner",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/la-fin-d-une-collaboration-prolifique-sinner-se-separe-de-son-entraineur-historique-et-annonce-son-successeur_AV-202611060405.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-06T10:07+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/HLdAf_JgMmGDs19L2F0TkLfGnWc=/0x0:2048x1152/800x0/images/Darren-Cahill-et-Jannik-Sinner-a-Vienne-en-2025-2379105.jpg",
+   "titre": "La fin d'une collaboration prolifique: Sinner se sépare de son entraîneur historique et annonce son successeur",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4260654-20261106-comment-masters-1000-paris-devenu-plus-rapides-circuit-plus-grand-bonheur-joueurs?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-06T07:02+00:00",
+   "image": "https://img.20mn.fr/WxqqCyTkRWS5dBxkL1zD9Sk/1200x768_l-espagnol-carlos-alcaraz-joue-un-coup-droit-contre-l-americain-alex-michelsen-lors-de-la-troisieme-journee-du-rolex-paris-masters-2026-le-4-novembre-2026-a-nanterre-en-france-photo-de-tnani-badreddine-defodi-images-649-20261104-ts063964-jpg-649-rolex-paris-masters-2026-troisieme-jour-defodi-images-649-20261104-ts063964-credit-tnani-badreddine-defodi-images-sipa-2611042137",
+   "titre": "Comment le Masters 1000 de Paris est devenu l’un des plus rapides du circuit pour le plus grand bonheur des joueurs",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4260799-20261105-masters-1000-paris-comme-si-fait-mauvais-match-arthur-fils-nouvelle-desillusion-parisienne?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-05T20:43+00:00",
+   "image": "https://img.20mn.fr/5ZUEgBHNRS2-wviWfI0yGik/1200x768_le-francais-arthur-fils-s-essuie-alors-qu-il-affronte-taylor-fritz-des-etats-unis-lors-de-leur-match-des-8es-de-finale-du-tournoi-de-tennis-paris-masters-a-nanterre-pres-de-paris-le-jeudi-5-novembre-2026-photo-ap-emma-da-silva-th162-26309717322285-2611052057",
+   "titre": "Masters 1000 de Paris : « Pas comme si j’avais fait un mauvais match »… Arthur Fils, la nouvelle désillusion parisienne",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/malgre-un-gros-combat-arthur-rinderknech-s-incline-en-huitieme-de-finale-du-masters-1000-de-paris-face-a-ben-shelton_8269331.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-05T19:54+00:00",
+   "image": "https://www.franceinfo.fr/pictures/nxOpycqVShyypwrWHrYalwL0O88/0x36:6770x3844/432x243/filters:format(jpg)/2026/11/05/6aecbff3763b1892817424.jpg",
+   "titre": "Tombeur de Lorenzo Musetti à Paris, Luca Van Assche se qualifie pour la première fois de sa carrière en quart de finale d'un Masters 1000, Arthur Fils déjà éliminé",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/direct-masters-1000-de-paris-suivez-les-8es-de-finale-avec-fils-alcaraz-halys-et-shelton-en-live_LN-202611050365.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-05T19:45+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/BqKhRxnEAWY7tGO9CbvGa54DapY=/0x72:2048x1224/800x0/images/Arthur-Fils-au-Rolex-Paris-Masters-le-04-11-2026-2378779.jpg",
+   "titre": "Masters 1000 de Paris: van Assche dernier rescapé du clan français après la défaite de Fils",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/video-tennis-un-sentiment-incroyable-d-etre-en-quarts-a-paris-se-rejouit-van-assche_VN-202611050781.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-05T19:25+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/6JAYHyNhsxjt4kw6k-_Ly6LVTdk=/0x0:1280x720/800x0/images/Tennis-Un-sentiment-incroyable-d-etre-en-quarts-a-Paris-se-rejouit-van-Assche-2378793.jpg",
+   "titre": "Tennis : \"Un sentiment incroyable d'être en quarts à Paris\", se réjouit van Assche",
+   "blessure": false
+  },
+  {
+   "titre": "Ben Shelton se tourne vers les « feux d'artifice » lors d'un concours à enjeux élevés contre Tommy Paul à Paris",
    "lien": "https://www.ubitennis.net/2026/11/ben-shelton-looking-forward-to-fireworks-in-high-stakes-contest-against-tommy-paul-in-paris/",
    "source": "Ubitennis",
    "date": "2026-11-05T19:21+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Ben Shelton Looking Forward To ‘Fireworks’ In High-Stakes Contest Against Tommy Paul In Paris",
+   "titre_fr": "Ben Shelton se tourne vers les « feux d'artifice » lors d'un concours à enjeux élevés contre Tommy Paul à Paris"
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4260708-20261105-masters-1000-paris-assez-unique-luca-van-assche-joueur-frisson-france-attendait?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-05T19:10+00:00",
+   "image": "https://img.20mn.fr/mmlt_yc3TC-e6qQh2wRoTSk/1200x768_le-francais-luca-van-assche-reagit-apres-avoir-battu-l-italien-lorenzo-musetti-au-troisieme-tour-du-tournoi-de-tennis-paris-masters-a-nanterre-pres-de-paris-le-jeudi-5-novembre-2026-photo-ap-emma-da-silva-nvs120-26309623491671-2611051820",
+   "titre": "Masters 1000 de Paris : « Il est assez unique »… Luca Van Assche, le joueur frisson que la France n’attendait pas ?",
    "blessure": false
   },
   {
-   "titre": "‘Needs To Be Put in Her Place’ – Jessica Pegula Caught Criticising Andreeva on Camera",
-   "lien": "https://www.ubitennis.net/2026/11/needs-to-be-put-in-her-place-jessica-pegula-caught-criticising-andreeva-on-camera/",
-   "source": "Ubitennis",
-   "date": "2026-11-05T09:42+00:00",
+   "lien": "https://rmcsport.bfmtv.com/tennis/video-tennis-pas-tres-loin-de-battre-le-n-4-mondial-rinderknech-revient-sur-son-elimination-en-8emes_VN-202611050760.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-05T19:01+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/vdYTwKV4ePozAd_Sjs8fCPDkgSs=/0x0:1280x720/800x0/images/Tennis-Pas-tres-loin-de-battre-le-n-4-mondial-Rinderknech-revient-sur-son-elimination-en-8emes-2378783.jpg",
+   "titre": "Tennis : \"Pas très loin de battre le n°4 mondial\", Rinderknech revient sur son élimination en 8èmes",
    "blessure": false
   },
   {
-   "titre": "Novak Djokovic Blasts ‘Terrible Performance’ As ATP Finals Hopes End In Paris",
+   "lien": "https://www.franceinfo.fr/sports/tennis/arthur-fils/yannick-noah-en-premier-supporter-d-arthur-fils-lors-de-sa-victoire-au-masters-1000-de-paris_8268968.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-05T08:25+00:00",
+   "image": "https://www.franceinfo.fr/pictures/gC2Wh4mVu05taxHDP-bBz30dQwU/0x0:423x752/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/11/05/6aec3d688c1d5665308020.jpg",
+   "titre": "Yannick Noah en premier supporter d'Arthur Fils lors de sa victoire au Masters 1000 de Paris",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4260342-20261105-masters-1000-paris-fils-halys-van-assche-francais-partout-tous-gouts-3e-tour?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-05T06:02+00:00",
+   "image": "https://img.20mn.fr/Heav8VdXQTy7KzHXa7NoYik/1200x768_arthur-fils-a-conclu-un-joli-4-5-pour-le-tennis-francais-au-2e-tour-du-masters-1000-de-paris-mercredi-soir-en-battant-tomas-machac-6-3-7-6-il-sera-oppose-a-taylor-fritz-ce-jeudi",
+   "titre": "Masters 1000 Paris : Fils, Halys, Van Assche… Des Français partout et pour tous les goûts en 8e de finale",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/masters-1000-de-paris-arthur-fils-une-victoire-pour-feter-sa-place-au-masters_AD-202611041005.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-04T23:00+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/5TGGyOiBpcMnfuGajTbE3qFB7ZY=/0x140:2048x1292/800x0/images/Arthur-Fils-lors-du-tournoi-ATP-de-Bruxelles-24-octobre-2026-2372480.jpg",
+   "titre": "Masters 1000 de Paris: Arthur Fils, une victoire pour fêter sa place au Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/arthur-fils-enflamme-le-public-et-rallie-les-8es-du-masters-1000-de-paris_8268512.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-04T22:18+00:00",
+   "image": "https://www.franceinfo.fr/pictures/ZRdgBMLdZ0_H5Ntc7pYSX2TAchg/2527x0:4824x4084/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/11/04/6aebaf206a074321376022.jpg",
+   "titre": "Arthur Fils enflamme le public et rallie les 8es du Masters 1000 de Paris",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/paris-bercy/direct-masters-1000-de-paris-suivez-la-fin-du-2e-tour-avec-fils-alcaraz-djokovic-et-zverev-en-live_LN-202611040398.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-04T21:55+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/5TGGyOiBpcMnfuGajTbE3qFB7ZY=/0x140:2048x1292/800x0/images/Arthur-Fils-lors-du-tournoi-ATP-de-Bruxelles-24-octobre-2026-2372480.jpg",
+   "titre": "Masters 1000 de Paris: Fils et Halys en 8e, Djokovic et Zverev prennent déjà la porte",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/autoritaire-arthur-fils-reussit-son-entree-en-lice-au-masters-1000-de-paris-et-rallie-les-huitiemes-de-finale_8268386.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-04T21:53+00:00",
+   "image": "https://www.franceinfo.fr/pictures/FWEMtIBGIVOaBVXVdUov0GKRkOE/0x0:3839x2159/432x243/filters:format(jpg)/2026/11/04/6aeba2c76acc4485557474.jpg",
+   "titre": "Autoritaire, Arthur Fils réussit son entrée en lice au Masters 1000 de Paris et rallie les huitièmes de finale",
+   "blessure": false
+  },
+  {
+   "titre": "Novak Djokovic fait exploser la « performance terrible » alors que les finales de l'ATP espèrent se terminer à Paris",
    "lien": "https://www.ubitennis.net/2026/11/novak-djokovic-blasts-terrible-performance-as-atp-finals-hopes-end-in-paris/",
    "source": "Ubitennis",
    "date": "2026-11-04T20:43+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Novak Djokovic Blasts ‘Terrible Performance’ As ATP Finals Hopes End In Paris",
+   "titre_fr": "Novak Djokovic fait exploser la « performance terrible » alors que les finales de l'ATP espèrent se terminer à Paris"
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4260448-20261104-masters-1000-paris-novak-djokovic-vacances-apres-naufrage-2e-tour-contre-hijikata?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-04T18:08+00:00",
+   "image": "https://img.20mn.fr/bFJ027WQQ_a_uIswjV2xIik/1200x768_l-australien-rinky-hijikata-a-joue-le-feu-dans-les-deux-dernieres-manches-pour-s-imposer-contre-novak-djokovic-au-2e-tour-du-masters-1000-de-paris-mercredi-4-novembre",
+   "titre": "Masters 1000 de Paris : Novak Djokovic « en vacances » après son naufrage au 2e tour contre Hijikata",
    "blessure": false
   },
   {
-   "titre": "Elena Rybakina Given Tough Assignments In WTA Finals Draw",
-   "lien": "https://www.ubitennis.net/2026/11/elena-rybakina-given-tough-assignments-in-wta-finals-draw/",
-   "source": "Ubitennis",
-   "date": "2026-11-04T13:43+00:00",
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/novak-djokovic-hors-course-pour-les-finales-atp-apres-son-elimination-des-le-2e-tour-du-masters-1000-de-paris_8268152.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-04T17:18+00:00",
+   "image": "https://www.franceinfo.fr/pictures/SgiVld38dMjnCnwMCqxqVPnugMA/0x0:3007x1691/432x243/filters:format(jpg)/2026/11/03/6aea00d498d41975880733.jpg",
+   "titre": "Novak Djokovic hors course pour les Finales ATP après son élimination dès le 2e tour du Masters 1000 de Paris",
    "blessure": false
   },
   {
-   "titre": "Megaways vs. Classic Slots: How Gameplay and Payouts Differ",
+   "lien": "https://www.20minutes.fr/sport/football/liga/4260441-20261104-liga-immense-fierte-real-madrid-veut-voir-rafael-nadal-integrer-conseil-administration?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-04T17:18+00:00",
+   "image": "https://img.20mn.fr/t8JTykDwSFC8Hurnm-8scyk/1200x768_12-septembre-2026-madrid-madrid-espagne-rafael-nadal-lors-du-match-de-football-de-la-liga-entre-le-real-madrid-cf-et-le-rayo-vallecano-au-stade-santiago-bernabeu-de-madrid-en-espagne-le-12-septembre-2026-credit-image-ruben-albarran-zuma-press-wire-20260912-zsp-a206-106-zeus-2609130054",
+   "titre": "Liga : « Une immense fierté »… Le Real Madrid veut voir Rafael Nadal intégrer son conseil d’administration",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4260426-20261104-masters-1000-paris-merite-etre-elimine-irrite-zverev-pire-numero-mondial?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-04T16:37+00:00",
+   "image": "https://img.20mn.fr/K7QVHOKTS6iPZ_9lpCl3dSk/1200x768_alexander-zverev-d-allemagne-retourne-le-ballon-contre-lorenzo-musetti-d-italie-lors-de-leur-match-de-deuxieme-tour-du-tournoi-de-tennis-paris-masters-a-nanterre-pres-de-paris-le-mercredi-4-novembre-2026-ap-photo-teresa-suarez-sua107-26308480319550-2611041435",
+   "titre": "Masters 1000 de Paris : « Je mérite d’être là où je suis »… Éliminé et irrité, Zverev est-il le pire numéro un mondial ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/paris-bercy/masters-1000-de-paris-grace-au-psg-j-ai-eu-mes-heures-de-sommeil-la-joie-de-quentin-halys-apres-son-exploit-face-a-francis-tiafoe_AV-202611040665.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-04T15:37+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/AW9v9xjHIXN9P_dqerEE3OWzlsE=/0x17:2048x1169/800x0/images/Quentin-Halys-au-Masters-1000-de-Paris-le-4-novembre-2026-2377959.jpg",
+   "titre": "Masters 1000 de Paris: \"Grâce au PSG, j’ai eu mes heures de sommeil\", la joie de Quentin Halys après son exploit face à Francis Tiafoe",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/masters-1000-de-paris-le-nouveau-n-1-mondial-alexander-zverev-tombe-d-entree-face-a-lorenzo-musetti_8267837.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-04T15:11+00:00",
+   "image": "https://www.franceinfo.fr/pictures/pGjPwKNaBsSwk-RFDIPOSFt5Ocs/0x0:3515x1977/432x243/filters:format(jpg)/2026/11/04/6aeb42cf12bcf559594342.jpg",
+   "titre": "Alexander Zverev tombe d'entrée au Masters 1000 de Paris pour son premier match en tant que n°1 mondial",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4260376-20261104-tennis-quentin-halys-qualifie-arthur-fils-premier-masters-dit-merci?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-04T14:16+00:00",
+   "image": "https://img.20mn.fr/_p6Ceq0XR5a67VpDyQgyOCk/1200x768_le-francais-arthur-fils-est-qualifie-pour-les-masters-de-turin-en-novembre",
+   "titre": "Tennis : Quentin Halys qualifie Arthur Fils pour son premier Masters, on dit merci qui ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/arthur-fils/tennis-arthur-fils-qualifie-pour-le-masters-premier-francais-depuis-gael-monfils-en-2016_8267726.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-04T12:46+00:00",
+   "image": "https://www.franceinfo.fr/pictures/JeTKKUzI9gWGqD_71-9loPlADMM/0x0:5048x2839/432x243/filters:format(jpg)/2026/11/04/6aeb289190eec433336324.jpg",
+   "titre": "Arthur Fils qualifié pour le Masters, premier Français depuis Gaël Monfils en 2016",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/gael-monfils/les-mots-touchants-de-gael-monfils-a-l-adresse-de-sa-fille-skai_8267348.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-04T08:30+00:00",
+   "image": "https://www.franceinfo.fr/pictures/PJeMDfZsFYaVPxy4Fhf23RMSU2s/128x0:2980x5070/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/11/04/6aeaece06856b081874026.jpg",
+   "titre": "Les mots touchants de Gaël Monfils à l'adresse de sa fille Skaï",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/gael-monfils/en-images-ses-debuts-triomphants-en-juniors-ses-matchs-epiques-a-roland-garros-ses-13-titres-atp-les-moments-marquants-de-la-carriere-de-gael-monfils_8264078.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-04T05:30+00:00",
+   "image": "https://www.franceinfo.fr/pictures/_CTpn2FGJwa__Qx9Q7ljIQD4uok/0x405:3896x2597/432x243/filters:format(jpg)/2026/11/03/6aea4ef8b5f19577835404.jpg",
+   "titre": "EN IMAGES. Ses débuts triomphants en juniors, ses matchs épiques à Roland-Garros, ses 13 titres ATP... Les moments marquants de la carrière de Gaël Monfils",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/direct-masters-1000-de-paris-suivez-en-live-le-1er-tour-du-rolex-paris-masters_LN-202611020395.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-03T21:27+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/aYvnqfwafdeEunfXg88A0yZHKpw=/0x103:2048x1255/800x0/images/Gael-Monfils-au-Rolex-Paris-Masters-le-3-novembre-2026-2377427.jpg",
+   "titre": "DIRECT. Masters 1000 de Paris: fortune diverse pour les Français, un bel hommage pour Monfils",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/gael-monfils/video-si-j-ai-pu-vivre-ce-reve-c-est-grace-a-vous-les-adieux-emouvants-de-gael-monfils-au-public-francais-et-au-tennis-en-marge-du-masters-1000-de-paris_8266532.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-03T20:30+00:00",
+   "image": "https://www.franceinfo.fr/pictures/-2qflEoQw-YObJNi1PIef1DCroo/0x900:8640x5760/432x243/filters:format(jpg)/2026/11/03/6aea434b88347082103242.jpg",
+   "titre": "VIDEO. \"Si j'ai pu vivre ce rêve, c'est grâce à vous\"... Les adieux émouvants de Gaël Monfils au public français et au tennis en marge du Masters 1000 de Paris",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/masters-1000-de-paris-moise-kouame-balaye-au-1er-tour-arthur-rinderknech-et-quentin-halys-passent_8265965.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-03T14:09+00:00",
+   "image": "https://www.franceinfo.fr/pictures/JgofPMPsKBZgDtvlFLgIkwfi8EQ/0x0:6163x3466/432x243/filters:format(jpg)/2026/11/03/6ae9e99e51700699608613.jpg",
+   "titre": "Masters 1000 de Paris : Arthur Rinderknech et Quentin Halys passent, fin de parcours pour Moïse Kouamé, Benjamin Bonzi et Arthur Gea",
+   "blessure": false
+  },
+  {
+   "titre": "Megaways vs machines à sous classiques : comment le gameplay et les paiements diffèrent",
    "lien": "https://www.ubitennis.net/2026/11/megaways-vs-classic-slots-how-gameplay-and-payouts-differ/",
    "source": "Ubitennis",
    "date": "2026-11-03T12:41+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Megaways vs. Classic Slots: How Gameplay and Payouts Differ",
+   "titre_fr": "Megaways vs machines à sous classiques : comment le gameplay et les paiements diffèrent"
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/gael-monfils-l-ultime-reverence-d-un-artiste_8265824.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-03T12:38+00:00",
+   "image": "https://www.franceinfo.fr/pictures/aM8RweBVkJFmLF5NlWp21f8fHu0/0x0:1024x576/432x243/filters:format(jpg)/2026/09/03/6a997bf92ddc5711075831.jpg",
+   "titre": "Masters 1000 de Paris : Gaël Monfils, l'ultime révérence d'un artiste",
    "blessure": false
   },
   {
-   "titre": "‘A Joy To Watch’ – Carlos Alcaraz Hails Jodar’s Breakthrough Season",
+   "titre": "‘A Joy To Watch’ – Carlos Alcaraz salue la saison révolutionnaire de Jodar",
    "lien": "https://www.ubitennis.net/2026/11/a-joy-to-watch-carlos-alcaraz-hails-jodars-breakthrough-season/",
    "source": "Ubitennis",
    "date": "2026-11-03T10:33+00:00",
-   "blessure": false
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "‘A Joy To Watch’ – Carlos Alcaraz Hails Jodar’s Breakthrough Season",
+   "titre_fr": "‘A Joy To Watch’ – Carlos Alcaraz salue la saison révolutionnaire de Jodar"
   },
   {
-   "titre": "Novak Djokovic ‘Close’ To Solving Mysterious Health Issue As He Chases After ATP Finals Spot",
+   "titre": "Novak Djokovic « proche » de la résolution d'un mystérieux problème de santé alors qu'il court après les finales de l'ATP",
    "lien": "https://www.ubitennis.net/2026/11/novak-djokovic-close-to-solving-mysterious-health-issue-as-he-chases-after-atp-finals-spot/",
    "source": "Ubitennis",
    "date": "2026-11-03T10:27+00:00",
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Novak Djokovic ‘Close’ To Solving Mysterious Health Issue As He Chases After ATP Finals Spot",
+   "titre_fr": "Novak Djokovic « proche » de la résolution d'un mystérieux problème de santé alors qu'il court après les finales de l'ATP"
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/masters-1000-de-paris-ugo-humbert-souffre-mais-passe-au-2e-tour_8265533.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-03T10:10+00:00",
+   "image": "https://www.franceinfo.fr/pictures/GIrc5OmHjDZquZ--hNcVcHoUXAg/0x0:6725x3782/432x243/filters:format(jpg)/2026/11/03/6ae9b39421c63184611836.jpg",
+   "titre": "Masters 1000 de Paris : Ugo Humbert souffre mais passe au 2e tour",
    "blessure": false
   },
   {
-   "titre": "Venus Williams Stays Tight-Lipped On Future After Suffering 17th Consecutive Loss",
-   "lien": "https://www.ubitennis.net/2026/11/venus-williams-stays-tight-lipped-on-future-after-suffering-17th-consecutive-loss/",
-   "source": "Ubitennis",
-   "date": "2026-11-02T15:41+00:00",
-   "blessure": false
-  },
-  {
-   "titre": "Jack Draper Warns Money-Driven Decisions Are Putting A Generation Of Players At Risk",
+   "titre": "Jack Draper avertit que les décisions motivées par l'argent mettent en danger une génération de joueurs",
    "lien": "https://www.ubitennis.net/2026/11/jack-draper-warns-money-driven-decisions-are-putting-a-generation-of-players-at-risk/",
    "source": "Ubitennis",
    "date": "2026-11-02T14:53+00:00",
-   "blessure": false
+   "blessure": false,
+   "langue": "en",
+   "image": null,
+   "vo": "Jack Draper Warns Money-Driven Decisions Are Putting A Generation Of Players At Risk",
+   "titre_fr": "Jack Draper avertit que les décisions motivées par l'argent mettent en danger une génération de joueurs"
   }
  ]
 }
