@@ -658,6 +658,7 @@ button.field{display:block;font:inherit;font-size:16px;font-weight:600;text-alig
 .modal .panel{width:min(420px,100%)}.modal input{width:100%;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:10px;padding:12px;font:inherit;font-size:20px;letter-spacing:.3em;text-align:center}
 .btns{display:flex;gap:8px;flex-wrap:wrap}.btn{font-weight:700}.btn.plein{background:var(--acc);border-color:var(--acc);color:#fff}
 .sous{font-size:.8rem;color:var(--muted)}
+.prog{height:8px;border-radius:4px;background:var(--sunk);overflow:hidden}.prog i{display:block;height:100%;width:0;background:var(--acc-fill);border-radius:4px;transition:width .5s}.prog.ok i{background:var(--win)}.prog.ko i{background:var(--loss)}
 .pl a,.cls-duo a{color:inherit;text-decoration:none}
 .m .who a.pl{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
 
@@ -683,7 +684,7 @@ button.field{display:block;font:inherit;font-size:16px;font-weight:600;text-alig
    par le collecteur (donnees/), les garde en cache sur l'iPhone et fait
    tous les calculs dans le navigateur.
    ====================================================================== */
-const VERSION_APPLI = "0.2.0";
+const VERSION_APPLI = "0.2.1";
 const BASE = "./donnees/";
 const CACHE = "h2h-tennis-donnees";
 const SURF = {Hard: "Dur", Clay: "Terre", Grass: "Gazon", Carpet: "Moquette"};
@@ -1106,7 +1107,7 @@ function vueAccueil() {
     <div class="panel hero2"><div class="hero2-in" style="display:flex;align-items:center;gap:14px">${EMBLEME_GRAND}
       <div><span class="hero-k">H2H · Statistiques</span><div class="hero-t">H2H <span>Tennis</span></div><div class="hero-s">ATP, Challenger et ITF · simple</div>
       <div class="hero-tags"><span>${D.M.length.toLocaleString("fr-FR")} matchs</span><span>${D.J.size.toLocaleString("fr-FR")} joueurs</span><span id="majDate">${D.maj ? "données du " + new Date(D.maj).toLocaleDateString("fr-FR") : ""}</span></div></div></div></div>
-    <div class="panel"><button class="primary" id="majBtn">Mettre à jour les données</button><div id="majEtat" class="small muted"></div></div>
+    <div class="panel"><button class="primary" id="majBtn">Mettre à jour les données</button><div class="prog" id="majProg" hidden><i></i></div><div id="majEtat" class="small muted"></div></div>
     <button class="combo field" id="cherche" style="width:100%">Chercher un joueur…</button>
     <div class="panel rc2"><div class="sec-h"><span class="sel-t">Tes joueurs</span><span class="sec-sub">A et B pour le face-à-face, J pour la fiche joueur</span></div>
       ${carteSel("A", "selA")}${carteSel("B", "selB")}${SEL.J !== SEL.A && SEL.J !== SEL.B ? carteSel("J", "selJ") : ""}</div>
@@ -1431,10 +1432,15 @@ async function vueH2H() {
 /* ---------------------------------------------------------------- Mise à jour (collecte lancée sur GitHub) */
 const API = "https://api.github.com/repos/" + DEPOT.proprio + "/" + DEPOT.depot;
 let SUIVI = null;
-function afficherEtatMaj(txt) {
-  const e = $("#majEtat"); if (!e) return;
-  if (txt != null) lsEcrire("h2h-majEtat", txt);
-  e.innerHTML = esc(lsLire("h2h-majEtat") || "");
+function afficherEtatMaj(txt, pct, etat) {
+  if (txt != null) lsEcrire("h2h-majEtat", JSON.stringify({txt, pct, etat, le: Date.now()}));
+  let x = {}; try { x = JSON.parse(lsLire("h2h-majEtat") || "{}"); } catch (e) { x = {}; }
+  const e = $("#majEtat"), p = $("#majProg"); if (!e) return;
+  e.textContent = x.txt || "";
+  const visible = x.pct != null && (SUIVI || Date.now() - (x.le || 0) < 10 * 60000);
+  p.hidden = !visible;
+  if (visible) { p.className = "prog" + (x.etat ? " " + x.etat : ""); p.firstElementChild.style.width = Math.max(3, Math.min(100, x.pct)) + "%"; }
+  const btn = $("#majBtn"); if (btn) btn.disabled = !!SUIVI;
 }
 async function appelGitHub(chemin, opts) {
   const jeton = lsLire("h2h-jeton");
@@ -1449,25 +1455,48 @@ async function lancerMiseAJour() {
   const metaAvant = D.maj;
   try {
     await appelGitHub("/actions/workflows/collecte.yml/dispatches", {method: "POST", body: JSON.stringify({ref: "main"})});
-  } catch (e) { afficherEtatMaj("Échec du lancement : " + e.message); return; }
-  afficherEtatMaj("Collecte lancée à " + new Date().toLocaleTimeString("fr-FR").slice(0, 5) + ", suivi en cours…");
+  } catch (e) { afficherEtatMaj("Échec du lancement : " + e.message, 100, "ko"); return; }
   clearInterval(SUIVI);
-  let tours = 0;
-  SUIVI = setInterval(async () => {
+  SUIVI = 1;
+  afficherEtatMaj("Collecte demandée à " + new Date().toLocaleTimeString("fr-FR").slice(0, 5), 5);
+  let tours = 0, runId = null;
+  const fin = (txt, etat) => { clearInterval(SUIVI); SUIVI = null; afficherEtatMaj(txt, 100, etat); };
+  const etape = async () => {
     tours++;
     try {
-      const runs = await appelGitHub("/actions/workflows/collecte.yml/runs?event=workflow_dispatch&per_page=1");
-      const run = runs.workflow_runs && runs.workflow_runs[0];
-      if (run && run.created_at >= debut.slice(0, 16) && run.status !== "completed") afficherEtatMaj(`Collecte en cours (${run.status === "queued" ? "en attente" : "démarrée"})…`);
-      if (run && run.status === "completed" && run.conclusion !== "success") { afficherEtatMaj("La collecte a échoué : voir l'appli GitHub, onglet Actions."); clearInterval(SUIVI); return; }
-      const meta = await (await fetch(BASE + "meta.json?v=" + Date.now(), {cache: "no-store"})).json();
-      if (meta.genere_le && meta.genere_le !== metaAvant && meta.genere_le > debut.slice(0, 19)) {
-        afficherEtatMaj("Nouvelles données en ligne : rechargement…"); clearInterval(SUIVI); setTimeout(() => location.reload(), 800); return;
+      if (!runId) {
+        const runs = await appelGitHub("/actions/workflows/collecte.yml/runs?event=workflow_dispatch&per_page=3");
+        const run = (runs.workflow_runs || []).find(r => r.created_at >= debut.slice(0, 17));
+        if (run) runId = run.id;
       }
-      if (run && run.status === "completed") afficherEtatMaj("Collecte terminée, publication des données en cours…");
-    } catch (e) { afficherEtatMaj("Suivi interrompu : " + e.message); }
-    if (tours > 60) { clearInterval(SUIVI); afficherEtatMaj("Toujours rien après 30 min : vérifie l'onglet Actions de GitHub."); }
-  }, 30000);
+      let enCours = false;
+      if (runId) {
+        const run = await appelGitHub("/actions/runs/" + runId);
+        if (run.status === "completed" && run.conclusion !== "success") return fin("La collecte a échoué (" + run.conclusion + ") : voir l'onglet Actions de l'appli GitHub.", "ko");
+        if (run.status !== "completed") {
+          enCours = true;
+          const jobs = await appelGitHub("/actions/runs/" + runId + "/jobs");
+          const steps = ((jobs.jobs || [])[0] || {}).steps || [];
+          if (!steps.length || run.status === "queued") afficherEtatMaj("En attente d'une machine GitHub…", 10);
+          else {
+            const faits = steps.filter(x => x.status === "completed").length;
+            const cours = steps.find(x => x.status === "in_progress");
+            afficherEtatMaj(`Collecte : ${cours ? cours.name : "fin"} (étape ${Math.min(faits + 1, steps.length)} sur ${steps.length})`, 10 + 70 * faits / steps.length);
+          }
+        }
+      } else afficherEtatMaj("En attente du démarrage…", 8);
+      if (!enCours && runId) {
+        const meta = await (await fetch(BASE + "meta.json?v=" + Date.now(), {cache: "no-store"})).json();
+        if (meta.genere_le && meta.genere_le !== metaAvant && meta.genere_le > debut.slice(0, 19)) {
+          fin("Nouvelles données en ligne : rechargement…", "ok"); setTimeout(() => location.reload(), 1200); return;
+        }
+        afficherEtatMaj("Publication des données sur le site…", Math.min(97, 82 + tours / 2));
+      }
+    } catch (e) { afficherEtatMaj("Suivi : " + e.message + " (nouvel essai)", null); }
+    if (tours > 160) fin("Toujours rien après 40 min : vérifie l'onglet Actions de GitHub.", "ko");
+  };
+  SUIVI = setInterval(etape, 15000);
+  setTimeout(etape, 4000);
 }
 
 /* ---------------------------------------------------------------- Réglages */
