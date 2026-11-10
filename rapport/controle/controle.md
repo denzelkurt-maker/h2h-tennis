@@ -1,6 +1,6 @@
 # Contrôle de l'appli
 
-- Date (UTC) : 2026-11-10T01:13:55.652Z
+- Date (UTC) : 2026-11-10T05:59:27.625Z
 - Version de l'appli : 0.4.1
 - État : **OK**
 
@@ -14,7 +14,7 @@
 ```json
 {
  "public": {
-  "duree_chargement_s": 1.955,
+  "duree_chargement_s": 2.63,
   "chiffres": {
    "version_appli": "0.4.1",
    "matchs": 356083,
@@ -44,8 +44,8 @@
      ]
     ]
    },
-   "photos": 1194,
-   "joueurs_avec_poids": 633,
+   "photos": 1192,
+   "joueurs_avec_poids": 781,
    "sinner": {
     "nom": "Jannik Sinner",
     "matchs": 565,
@@ -86,10 +86,10 @@
   }
  },
  "complet": {
-  "duree_chargement_s": 2.026,
+  "duree_chargement_s": 2.585,
   "chiffres": {
    "version_appli": "0.4.1",
-   "matchs": 356508,
+   "matchs": 356512,
    "joueurs": 11631,
    "tournois": 10479,
    "doublons": 0,
@@ -116,8 +116,8 @@
      ]
     ]
    },
-   "photos": 1194,
-   "joueurs_avec_poids": 633,
+   "photos": 1192,
+   "joueurs_avec_poids": 781,
    "sinner": {
     "nom": "Jannik Sinner",
     "matchs": 565,
@@ -125,9 +125,9 @@
    },
    "depuis_juin": {
     "Challenger tableau": {
-     "matchs": 3372,
-     "score_complet": 3340,
-     "stats": 3116,
+     "matchs": 3376,
+     "score_complet": 3344,
+     "stats": 3120,
      "score_complet_pct": 99.1
     },
     "Challenger qualifications": {
