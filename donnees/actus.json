@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-10T18:52+00:00",
+ "maj": "2026-11-10T19:34+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 41 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/tennis/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 18 articles",
+  "We Love Tennis": "ok, 17 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 28 articles",
   "franceinfo": "ok, 20 articles",
@@ -28,6 +28,35 @@
   "Ubitennis": "ok, 13 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/rune-beats-eighth-seed-bergs-in-stockholm-to-set-up-kecmanovic-clash-866611.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-10T19:31+00:00",
+   "image": null,
+   "vo": "Rune beats eighth seed Bergs in Stockholm to set up Kecmanovic quarter-final",
+   "titre": "Rune bat Bergs, huitième tête de série, à Stockholm pour mettre en place le quart de finale de Kecmanovic",
+   "titre_fr": "Rune bat Bergs, huitième tête de série, à Stockholm pour mettre en place le quart de finale de Kecmanovic",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/live/tous-les-programmes-et-resultats-en-direct",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-10T19:00+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/01/Poignee-de-main-tennis-ambiance-1024x629.jpeg",
+   "titre": "Tous les programmes et résultats en direct !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Jannik-sinner-sur-la-date-de-son-retour-sur-les-courts-l-objectif-est-d-aller-en-australie/1742853#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-10T18:48+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/jannik-sinner-lors-de-wimbledon-en-juillet-sa-derniere-apparition-sur-les-courts-a-reau-l-equipe/1500000002647628/0:0,1998:1332-828-552-75/b8432.jpg",
+   "titre": "Jannik Sinner, sur la date de son retour sur les courts : « L'objectif est d'aller en Australie »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/alexander-zverev-sur-labsence-systematique-de-sa-mere-dans-sa-box-elle-ne-veut-pas-a-cause-de-cela-je-ne-peux-pas-la-forcer",
    "source": "We Love Tennis",
@@ -62,15 +91,6 @@
    "date": "2026-11-10T17:08+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Flavio-Cobolli-banc-1024x555.jpeg",
    "titre": "Flavio Cobolli, l’intrus du Top 10 ? « Il y a un chiffre choquant à son sujet. Une grande première depuis que les statistiques existent »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/live/tous-les-programmes-et-resultats-en-direct",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T17:00+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/01/Poignee-de-main-tennis-ambiance-1024x629.jpeg",
-   "titre": "Tous les programmes et résultats en direct !",
    "blessure": false
   },
   {
