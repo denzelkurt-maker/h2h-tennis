@@ -30,6 +30,7 @@ import argparse
 import csv
 import datetime as dt
 import gzip
+import html
 import io
 import json
 import os
@@ -46,7 +47,7 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.5.1"
+VERSION = "1.6.0"
 VERSION_COPIE = 2   # copie compacte de l'archive : 2 = avec statistiques et classements
 PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
 
@@ -2522,12 +2523,65 @@ def collecter_photos(base, autres_joueurs):
 # ---------------------------------------------------------------- Actualités (flux RSS publics)
 # Seuls le titre, la source, la date et le lien sont gardés (jamais le texte des articles).
 # Lancé toutes les 2 heures par actus.yml (python collecteur.py --actus-seulement).
-FLUX_ACTUS = [("ESPN", "https://www.espn.com/espn/rss/tennis/news"),
-              ("Tennis Majors", "https://www.tennismajors.com/feed"),
-              ("Ubitennis", "https://www.ubitennis.net/feed/")]
+# Flux RSS publics. Pour chaque source, plusieurs adresses possibles : la première qui répond est gardée.
+# (source, langue, [adresses])
+FLUX_ACTUS = [
+    ("L'Équipe", "fr", ["https://dwh.lequipe.fr/api/edito/rss?path=/Tennis/"]),
+    ("Tennis Majors", "fr", ["https://www.tennismajors.com/fr/feed", "https://www.tennismajors.com/fr/feed/"]),
+    ("Eurosport", "fr", ["https://www.eurosport.fr/tennis/rss.xml"]),
+    ("We Love Tennis", "fr", ["https://www.welovetennis.fr/feed", "https://www.welovetennis.fr/feed/"]),
+    ("Tennis Actu", "fr", ["https://www.tennisactu.net/feed/", "https://www.tennisactu.net/rss.xml"]),
+    ("RMC Sport", "fr", ["https://rmcsport.bfmtv.com/rss/tennis/"]),
+    ("franceinfo", "fr", ["https://www.francetvinfo.fr/sports/tennis.rss"]),
+    ("20 Minutes", "fr", ["https://www.20minutes.fr/feeds/rss-tennis.xml"]),
+    ("ESPN", "en", ["https://www.espn.com/espn/rss/tennis/news"]),
+    ("Tennis Majors (EN)", "en", ["https://www.tennismajors.com/feed"]),
+    ("Ubitennis", "en", ["https://www.ubitennis.net/feed/"]),
+]
 MOTS_BLESSURE = re.compile(r"(?i)\b(injur\w*|withdr[ae]w\w*|pulls? out|pulled out|surgery|illness|ill\b|sidelined|"
-                           r"retire[sd]? hurt|retirement|ruled out|fitness|setback|layoff|blessure|bless[ée]|forfait|abandon)")
+                           r"retire[sd]? hurt|retirement|ruled out|fitness|setback|layoff|blessure|bless[ée]\w*|forfait|"
+                           r"abandon\w*|déclare forfait|opér[ée]\w*|douleur|touché|incertain|se retire|retrait)")
+# Tennis féminin écarté (l'appli ne couvre que le tennis masculin) : mots-clés et principales joueuses.
+MOTS_WTA = re.compile(r"(?i)\b(WTA|women'?s|féminin\w*|Billie Jean King|Fed Cup|joueuse|"
+                      r"Sabalenka|Swiatek|Świątek|Gauff|Rybakina|Pegula|Paolini|Andreeva|Zheng Qinwen|Keys|Navarro|"
+                      r"Muchova|Muchová|Svitolina|Badosa|Osaka|Raducanu|Jabeur|Kasatkina|Krejcikova|Krejčíková|Vondrousova|"
+                      r"Ostapenko|Kvitova|Garcia|Cornet|Parry|Burel|Boisson|Mladenovic|Samsonova|Alexandrova|Mertens|"
+                      r"Shnaider|Mboko|Anisimova|Kostyuk|Haddad Maia|Fernandez|Bencic|Vekic|Azarenka|Sakkari|"
+                      r"Siniakova|Collins|Stephens|Williams|Sharapova|Kerber|Halep|Wozniacki|Kenin|Tauson)\b")
 ACTUS_JOURS = 60
+TRADUCTIONS_PAR_PASSAGE = 40
+NS_MEDIA = "{http://search.yahoo.com/mrss/}"
+
+
+def image_article(it):
+    """Image d'illustration fournie par le flux (affichée depuis le site de la source)."""
+    for tag in ("content", "thumbnail"):
+        for el in it.iter(NS_MEDIA + tag):
+            u = el.get("url") or ""
+            if u.startswith("http") and (tag == "thumbnail" or (el.get("medium") or "image") == "image"
+                                         or re.search(r"\.(jpe?g|png|webp)", u, re.I)):
+                return u
+    for el in it.iter("enclosure"):
+        if (el.get("type") or "").startswith("image") and (el.get("url") or "").startswith("http"):
+            return el.get("url")
+    for champ in ("{http://purl.org/rss/1.0/modules/content/}encoded", "description"):
+        m = re.search(r'<img[^>]+src=["\'](https?://[^"\']+)', it.findtext(champ) or "")
+        if m:
+            return m.group(1)
+    return None
+
+
+def traduire(texte):
+    """Traduction anglais → français par MyMemory (gratuit, sans compte, ~5 000 caractères par jour)."""
+    url = ("https://api.mymemory.translated.net/get?langpair=en%7Cfr&q="
+           + urllib.parse.quote(texte[:480]))
+    obj = json.loads(telecharger(url, essais=1, delai=2))
+    if obj.get("quotaFinished") or str(obj.get("responseStatus")) != "200":
+        raise RuntimeError(f"quota ou refus : {obj.get('responseDetails', '')[:80]}")
+    fr = html.unescape((obj.get("responseData") or {}).get("translatedText") or "").strip()
+    if not fr or fr.upper() == fr and len(fr) > 20:   # réponse vide ou message d'erreur en capitales
+        raise RuntimeError("traduction vide")
+    return fr
 
 
 def collecter_actus():
@@ -2536,36 +2590,82 @@ def collecter_actus():
     chemin = os.path.join(DONNEES, "actus.json")
     ancien = lire_json(chemin, {}).get("articles", [])
     par_lien = {a["lien"]: a for a in ancien}
-    stats = Counter()
-    for source, url in FLUX_ACTUS:
-        try:
-            racine = ET.fromstring(telecharger(url, {"Accept-Encoding": "gzip"}, essais=2, delai=10))
-        except Exception as e:  # noqa: BLE001
-            J.info(f"Actualités {source} : {str(e)[:120]}")
+    stats, etat_flux = Counter(), {}
+    for source, langue, adresses in FLUX_ACTUS:
+        racine = None
+        for url in adresses:
+            try:
+                racine = ET.fromstring(telecharger(url, {"Accept-Encoding": "gzip"}, essais=2, delai=5))
+                break
+            except Exception as e:  # noqa: BLE001
+                etat_flux[source] = f"erreur : {str(e)[:100]}"
+        if racine is None:
             stats["flux_en_erreur"] += 1
             continue
+        n = 0
         for it in racine.iter("item"):
-            titre = re.sub(r"\s+", " ", (it.findtext("title") or "")).strip()
+            titre = html.unescape(re.sub(r"\s+", " ", (it.findtext("title") or ""))).strip()
             lien = (it.findtext("link") or "").strip()
             if not titre or not lien.startswith("http"):
+                continue
+            if MOTS_WTA.search(titre):
+                stats["ecartes_wta"] += 1
                 continue
             try:
                 quand = email.utils.parsedate_to_datetime(it.findtext("pubDate") or "").astimezone(dt.timezone.utc)
                 quand = quand.isoformat(timespec="minutes")
             except (TypeError, ValueError):
-                quand = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
-            if lien not in par_lien:
+                quand = (par_lien.get(lien) or {}).get("date") or dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
+            a = par_lien.get(lien)
+            if a is None:
                 stats["nouveaux"] += 1
-            par_lien[lien] = {"titre": titre[:220], "lien": lien, "source": source, "date": quand,
-                              "blessure": bool(MOTS_BLESSURE.search(titre))}
-            stats["lus_" + source] += 1
+                a = par_lien[lien] = {"lien": lien}
+            a.update({"source": source, "langue": langue, "date": quand, "image": image_article(it) or a.get("image")})
+            if langue == "fr":
+                a["titre"] = titre[:220]
+                a.pop("vo", None)
+            elif a.get("vo") != titre[:220] or not a.get("titre_fr"):
+                a["vo"] = titre[:220]          # titre d'origine, à traduire
+                a["titre"] = titre[:220]
+                a.pop("titre_fr", None)
+            n += 1
+        etat_flux[source] = f"ok, {n} articles"
+        stats["lus_" + source] += n
+    # anciens articles (version 1.5) : titre en anglais sans langue indiquée
+    for a in par_lien.values():
+        if "langue" not in a:
+            a["langue"] = "en"
+            a["vo"] = a.get("titre", "")
+        if MOTS_WTA.search(a.get("vo") or a.get("titre") or ""):
+            a["wta"] = True
     limite = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=ACTUS_JOURS)).isoformat()
-    articles = sorted((a for a in par_lien.values() if a["date"] >= limite), key=lambda a: a["date"], reverse=True)[:400]
+    articles = sorted((a for a in par_lien.values() if a["date"] >= limite and not a.get("wta")),
+                      key=lambda a: a["date"], reverse=True)[:400]
+    # traduction des titres anglais, les plus récents d'abord, une seule fois par titre
+    faites = 0
+    for a in articles:
+        if a["langue"] != "en" or a.get("titre_fr") or faites >= TRADUCTIONS_PAR_PASSAGE:
+            continue
+        try:
+            a["titre_fr"] = a["titre"] = traduire(a["vo"])
+            faites += 1
+            time.sleep(1)
+        except Exception as e:  # noqa: BLE001
+            stats["traductions_refusees"] += 1
+            J.info(f"Traduction interrompue : {str(e)[:100]}")
+            break
+    for a in articles:
+        a["blessure"] = bool(MOTS_BLESSURE.search(a.get("titre", "")) or MOTS_BLESSURE.search(a.get("vo") or ""))
+        a.pop("wta", None)
     os.makedirs(DONNEES, exist_ok=True)
     ecrire_json(chemin, {"maj": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"),
-                         "note": "titres et liens des flux RSS publics ; texte des articles non repris",
-                         "sources": [s for s, _ in FLUX_ACTUS], "articles": articles}, compact=False)
-    J.chiffres["actus"] = dict(stats, articles=len(articles), blessures=sum(a["blessure"] for a in articles))
+                         "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; "
+                                 "titres anglais traduits par MyMemory ; texte des articles non repris",
+                         "sources": [s for s, _, _ in FLUX_ACTUS], "flux": etat_flux, "articles": articles}, compact=False)
+    J.chiffres["actus"] = dict(stats, articles=len(articles), traduits_ce_passage=faites,
+                               en_anglais_restants=sum(1 for a in articles if a["langue"] == "en" and not a.get("titre_fr")),
+                               avec_image=sum(1 for a in articles if a.get("image")),
+                               blessures=sum(a["blessure"] for a in articles), flux=etat_flux)
     return "actus.json"
 
 # ---------------------------------------------------------------- trous restants

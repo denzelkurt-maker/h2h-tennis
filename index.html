@@ -746,20 +746,104 @@ body:not(.v-accueil) header.top{display:none}body:not(.v-accueil) .topin{padding
 .trk-l .small{font-size:.74rem;color:var(--muted)}
 .trk-l li.neutre{grid-template-columns:40px minmax(0,1fr)}
 
+/* ===== 0.6.0 : barre d'onglets en bas, cartes illustrées ===== */
+.topbar{padding-top:env(safe-area-inset-top,0px)}
+.topbar{display:none}
+.scroller{padding-top:env(safe-area-inset-top,0px)}
+.topin{border-bottom:0}
+nav.tabs{flex:none;position:relative;z-index:6;display:grid;grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:0;border-radius:0;
+  background:rgba(9,12,17,.94);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);border-top:1px solid var(--line);
+  padding:6px max(6px,env(safe-area-inset-left,0px)) calc(6px + env(safe-area-inset-bottom,0px))}
+nav.tabs a{padding:5px 0 3px;font-size:.64rem;gap:3px;border-radius:12px;position:relative}
+nav.tabs a svg{width:25px;height:25px;stroke-width:1.7}
+nav.tabs a[aria-current="page"]{background:none;box-shadow:none;color:var(--acc)}
+nav.tabs a[aria-current="page"] svg{filter:drop-shadow(0 0 8px var(--acc-glow));stroke-width:2.1}
+nav.tabs a[aria-current="page"]::before{content:"";position:absolute;top:-6px;left:30%;right:30%;height:3px;border-radius:0 0 3px 3px;background:var(--acc)}
+.fab{bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+.blk-h{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:6px 2px -4px}
+.blk-h h3{margin:0;font-size:1.32rem;font-weight:850;letter-spacing:-.02em}
+.blk-h a,.blk-h button{font-size:.8rem;font-weight:700;color:var(--acc);text-decoration:none;background:none;border:0;padding:0;font-family:inherit}
+.blk-h .s{font-size:.72rem;color:var(--muted)}
+.rail{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 calc(-1 * max(16px,env(safe-area-inset-left,0px)));
+  padding:4px max(16px,env(safe-area-inset-left,0px)) 10px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.rail::-webkit-scrollbar{display:none}
+.une{flex:0 0 84%;max-width:360px;scroll-snap-align:center;position:relative;height:240px;border-radius:22px;overflow:hidden;text-decoration:none;color:#fff;
+  background:#0B0F15;box-shadow:0 12px 30px rgba(0,0,0,.5),inset 0 0 0 1px rgba(255,255,255,.06)}
+.vis{background-size:cover;background-position:center 22%;background-color:#15202E;overflow:hidden}
+.vis img{width:100%;height:100%;object-fit:cover;display:block}
+.une .vis{position:absolute;inset:0}
+.une::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 28%,rgba(0,0,0,.55) 55%,rgba(0,0,0,.92) 100%)}
+.une-txt{position:absolute;left:0;right:0;bottom:0;padding:14px 15px 15px;z-index:1;display:flex;flex-direction:column;gap:7px}
+.une-meta{font-size:.72rem;display:flex;gap:6px;align-items:center;flex-wrap:wrap;color:rgba(255,255,255,.85)}
+.src{font-weight:800;background:rgba(255,255,255,.16);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);padding:2px 9px;border-radius:999px;color:#fff}
+.une-t{font-weight:800;font-size:1.08rem;line-height:1.25;letter-spacing:-.01em;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-wrap:pretty}
+.une-tr,.act-tr{font-size:.66rem;color:rgba(255,255,255,.6)}
+.une .tag.bl{background:#FF5D4A;color:#fff}
+.act2{flex-direction:row;gap:12px;align-items:flex-start}
+.act2 .vis{flex:none;width:78px;height:78px;border-radius:14px}
+.act-c{display:flex;flex-direction:column;gap:4px;min-width:0;flex:1}
+.act2 a.t{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.act .meta .srcp{font-weight:800;color:var(--ink)}
+.act-tr{color:var(--muted)}
+/* podium et classement illustré */
+.podium{display:grid;grid-template-columns:1fr 1.15fr 1fr;gap:8px;align-items:end}
+.pod{position:relative;display:flex;flex-direction:column;align-items:center;gap:6px;text-decoration:none;color:var(--ink);padding:12px 6px 10px;border-radius:18px;
+  background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.015));text-align:center;min-width:0}
+.pod .ph{width:66px;height:66px;border-radius:50%;background-size:cover;background-position:center 18%;background-color:var(--sunk);display:grid;place-items:center;font-weight:800;
+  box-shadow:0 0 0 3px var(--bg),0 0 0 5px var(--mc),0 8px 22px rgba(0,0,0,.5)}
+.pod.p1 .ph{width:84px;height:84px}
+.pod .nb{position:absolute;top:8px;left:8px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-weight:900;font-size:.78rem;background:var(--mc);color:var(--on-medal)}
+.pod .n{font-weight:800;font-size:.86rem;line-height:1.15;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}
+.pod .pt{font-size:.7rem;color:var(--muted)}
+.pod.p1{--mc:var(--gold);padding-top:16px}.pod.p2{--mc:var(--silver)}.pod.p3{--mc:var(--bronze)}
+.rgl{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.rgl li{display:grid;grid-template-columns:30px 40px minmax(0,1fr) auto;gap:10px;align-items:center;padding:8px 0;border-top:1px solid var(--line)}
+.rgl li:first-child{border-top:0}
+.rgl .r{font-weight:800;color:var(--muted);text-align:center;font-size:.92rem}
+.rgl .ph{width:40px;height:40px;border-radius:50%;background-size:cover;background-position:center 18%;background-color:var(--sunk);display:grid;place-items:center;font-size:.75rem;font-weight:800}
+.rgl .n{min-width:0;display:flex;flex-direction:column}
+.rgl .n a{color:var(--ink);font-weight:700;text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rgl .n span{font-size:.72rem;color:var(--muted)}
+.rgl .p{font-weight:800;font-size:.9rem;text-align:right}.rgl .p small{display:block;font-size:.62rem;color:var(--muted);font-weight:600}
+.rgl li.is-sel{background:linear-gradient(90deg,rgba(76,155,255,.12),transparent);border-radius:10px}
+/* cartes de résultats */
+.rs{flex:0 0 78%;max-width:320px;scroll-snap-align:center;border-radius:20px;overflow:hidden;background:var(--surface);box-shadow:0 10px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(255,255,255,.05);display:flex;flex-direction:column}
+.rs-h{display:flex;align-items:center;gap:8px;padding:10px 12px;background:linear-gradient(90deg,var(--sc),color-mix(in srgb,var(--sc) 35%,#0F141B));color:#fff}
+.rs-h .lv{font-size:.58rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;background:rgba(0,0,0,.28);padding:2px 7px;border-radius:999px;white-space:nowrap}
+.rs-h .t{font-weight:800;font-size:.86rem;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#fff;text-decoration:none}
+.rs-h .rd{font-size:.68rem;font-weight:800;background:rgba(255,255,255,.22);padding:2px 8px;border-radius:999px;white-space:nowrap}
+.rs.Hard{--sc:#2F6FD6}.rs.Clay{--sc:#C9622A}.rs.Grass{--sc:#2E9E52}.rs.Carpet{--sc:#6B7686}.rs{--sc:#46566B}
+.rs-l{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:9px;align-items:center;padding:9px 12px;text-decoration:none;color:var(--muted)}
+.rs-l+.rs-l{border-top:1px solid var(--line)}
+.rs-l .ph{width:34px;height:34px;border-radius:50%;background-size:cover;background-position:center 18%;background-color:var(--sunk);display:grid;place-items:center;font-size:.66rem;font-weight:800;color:var(--ink)}
+.rs-l .nm{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600;font-size:.92rem}
+.rs-l .nm small{color:var(--muted);font-weight:600;margin-left:5px;font-size:.7rem}
+.rs-l.g{color:var(--ink)}.rs-l.g .nm{font-weight:800}
+.rs-l .sc{display:flex;gap:3px}
+.rs-l .sc i{font-style:normal;width:22px;text-align:center;font-weight:700;font-size:.92rem;border-radius:6px;padding:1px 0}
+.rs-l .sc i.w{background:rgba(255,255,255,.1);color:var(--ink);font-weight:900}
+.rs-x{font-size:.68rem;color:var(--warn);padding:0 12px 9px;font-weight:700}
+.rs-f{margin-top:auto;font-size:.66rem;color:var(--muted);padding:0 12px 10px}
+.hello{display:flex;align-items:center;gap:12px;padding:4px 2px 0}
+.hello .t{font-size:1.65rem;font-weight:900;letter-spacing:-.03em;line-height:1.05}
+.hello .t span{color:var(--acc)}
+.hello .s{font-size:.78rem;color:var(--muted);margin-top:3px}
+
 </style>
 </head>
 <body>
 <div id="charge" class="charge"><b>H2H Tennis</b><div class="jauge"><i id="jauge"></i></div><div id="etape" class="sous">Préparation…</div></div>
 <div class="topbar"><div class="topin">
   <header class="top"><h1><svg width="30" height="30" class="emb" viewBox="0 0 64 64" aria-hidden="true" style="filter: drop-shadow(0 3px 8px rgba(31,111,235,.45));"><rect x="1.5" y="1.5" width="61" height="61" rx="16" fill="#0F2A5C"></rect><circle cx="32" cy="24" r="26" fill="#4C9BFF" fill-opacity=".28"></circle><rect x="1.5" y="1.5" width="61" height="61" rx="16" fill="none" stroke="#7DB4FF" stroke-opacity=".45"></rect><g transform="translate(23 30) rotate(-35)"><ellipse cx="0" cy="-6" rx="9" ry="12" fill="none" stroke="#3E8BFF" stroke-width="3.4"></ellipse><path d="M-5-13h10M-6-7h12M-6-1h12M-3-17v22M3-17v22" stroke="#9CC8FF" stroke-width="1" stroke-opacity=".7"></path><rect x="-2" y="6" width="4" height="13" rx="2" fill="#D9A56B"></rect></g><g transform="translate(41 30) rotate(35)"><ellipse cx="0" cy="-6" rx="9" ry="12" fill="none" stroke="#F07A2E" stroke-width="3.4"></ellipse><path d="M-5-13h10M-6-7h12M-6-1h12M-3-17v22M3-17v22" stroke="#FFC48A" stroke-width="1" stroke-opacity=".7"></path><rect x="-2" y="6" width="4" height="13" rx="2" fill="#D9A56B"></rect></g><circle cx="32" cy="47" r="6" fill="#D8F25C"></circle><path d="M27.5 44c3 1.5 3 4.5 0 6M36.5 44c-3 1.5-3 4.5 0 6" fill="none" stroke="#F7F7F2" stroke-width="1"></path></svg><span class="ttl">H2H <span>Tennis</span></span></h1></header>
-  <nav class="tabs" aria-label="Sections" style="grid-template-columns:repeat(5,minmax(0,1fr))">
+</div></div>
+<div class="scroller" id="scroller"><div class="wrap"><section class="view" id="vue"></section></div></div>
+<nav class="tabs" aria-label="Sections" style="grid-template-columns:repeat(5,minmax(0,1fr))">
     <a href="#accueil" data-v="accueil"><svg viewBox="0 0 24 24"><path d="M4 11.5 12 5l8 6.5M6.5 10v9h11v-9"/></svg>Accueil</a>
     <a href="#h2h" data-v="h2h"><svg viewBox="0 0 24 24"><circle cx="7" cy="12" r="3.2"/><circle cx="17" cy="12" r="3.2"/><path d="M10.5 12h3"/></svg>Face-à-face</a>
     <a href="#joueur" data-v="joueur"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c1.2-3.6 3.8-5.4 7-5.4s5.8 1.8 7 5.4"/></svg>Joueur</a>
     <a href="#tournois" data-v="tournois"><svg viewBox="0 0 24 24"><path d="M8 4h8v5a4 4 0 0 1-8 0zM8 6H5a3 3 0 0 0 3 4M16 6h3a3 3 0 0 1-3 4M12 13v4M8.5 20h7"/></svg>Tournois</a>
     <a href="#reglages" data-v="reglages"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg>Réglages</a>
-  </nav></div></div>
-<div class="scroller" id="scroller"><div class="wrap"><section class="view" id="vue"></section></div></div>
+  </nav>
 <div class="fab" id="fab"><button class="fab-b" id="haut" aria-label="Haut de page"><svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button></div>
 <script>
 "use strict";
@@ -768,7 +852,7 @@ body:not(.v-accueil) header.top{display:none}body:not(.v-accueil) .topin{padding
    par le collecteur (donnees/), les garde en cache sur l'iPhone et fait
    tous les calculs dans le navigateur.
    ====================================================================== */
-const VERSION_APPLI = "0.5.0";
+const VERSION_APPLI = "0.6.0";
 const BASE = "./donnees/";
 const CACHE = "h2h-tennis-donnees";
 const SURF = {Hard: "Dur", Clay: "Terre", Grass: "Gazon", Carpet: "Moquette"};
@@ -1166,12 +1250,13 @@ function enteteTournoi(t, droite, sousTitre) {
 
 
 /* ---------------------------------------------------------------- actualités et blessures */
-const ACT = {articles: [], maj: null};
+const ACT = {articles: [], maj: null, sources: []};
 const norm = x => (x || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
 function chargerActus() {
   return fetch(BASE + "actus.json?v=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.json() : null).then(a => {
     if (!a) return;
     ACT.maj = a.maj;
+    ACT.sources = a.flux ? Object.keys(a.flux).filter(k => /^ok/.test(a.flux[k])) : (a.sources || []);
     // joueurs cités dans le titre : nom de famille unique dans le top 300, ou nom complet
     const top = D.rang ? D.rang.liste.slice(0, 300).map(x => x[1]) : [];
     const cles = new Map(), vus = new Map();
@@ -1195,10 +1280,57 @@ function ilYa(iso) {
   if (h < 48) return "hier";
   return dateFr(iso.slice(0, 10));
 }
+// illustrations de secours dessinées en code (court vu de face, couleurs des trois surfaces)
+const COURTS = [["#1D4FA8", "#3F8CFF"], ["#A9481B", "#E58A4E"], ["#1F7A3E", "#4CBF6B"]].map(([a, b]) => "data:image/svg+xml," + encodeURIComponent(
+  `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200' preserveAspectRatio='xMidYMid slice'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='${a}'/><stop offset='1' stop-color='${b}'/></linearGradient></defs>`
+  + `<rect width='320' height='200' fill='url(#g)'/><g fill='none' stroke='#fff' stroke-opacity='.5' stroke-width='2.2'><path d='M40 190 98 40h124l58 150z'/><path d='M66 190 109 40M254 190 211 40M83 140h154M101 85h118M160 85v55'/></g>`
+  + `<path d='M28 112h264' stroke='#fff' stroke-opacity='.85' stroke-width='3.5'/><circle cx='258' cy='52' r='15' fill='#D8F25C'/><path d='M247 44c6 4 6 13 0 17M269 44c-6 4-6 13 0 17' stroke='#fff' fill='none' stroke-width='1.8'/></svg>`).replace(/'/g, "%27"));
+function visuel(x, cls) {
+  const ph = (x.joueurs || []).map(photoDe).find(Boolean);
+  const court = COURTS[[...(x.lien || "")].reduce((a, c) => a + c.charCodeAt(0), 0) % 3];
+  // photo du joueur cité par-dessus l'illustration de court (si la photo ne charge pas, le court reste visible)
+  const fond = (ph ? `url('${esc(grande(ph.url))}'),` : "") + `url('${esc(court)}')`;
+  return `<div class="vis ${cls || ""}" style="background-image:${fond}">${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}</div>`;
+}
+const mentionLangue = x => x.langue === "en" ? (x.titre_fr ? "traduit de l'anglais" : "en anglais, traduction à venir") : "";
+function carteUne(x) {
+  return `<a class="une" href="${esc(x.lien)}" target="_blank" rel="noopener">${visuel(x)}
+    <div class="une-txt"><span class="une-meta"><span class="src">${esc(x.source)}</span><span>${ilYa(x.date)}</span>${x.blessure ? '<span class="tag bl">Blessure</span>' : ""}</span>
+    <span class="une-t">${esc(x.titre)}</span>${mentionLangue(x) ? `<span class="une-tr">${mentionLangue(x)}</span>` : ""}</div></a>`;
+}
 function ligneArticle(x) {
-  return `<div class="act"><span class="meta"><b>${esc(x.source)}</b><span>${ilYa(x.date)}</span>${x.blessure ? '<span class="tag bl">Blessure</span>' : ""}<span>en anglais</span></span>
-    <a class="t" href="${esc(x.lien)}" target="_blank" rel="noopener">${esc(x.titre)}</a>
-    ${x.joueurs && x.joueurs.length ? `<span class="jj">${x.joueurs.slice(0, 4).map(p => `<a href="#/joueur/${encodeURIComponent(p)}">${esc(nomJ(p))}</a>`).join("")}</span>` : ""}</div>`;
+  return `<div class="act act2">${visuel(x)}<div class="act-c"><span class="meta"><span class="srcp">${esc(x.source)}</span><span>${ilYa(x.date)}</span>${x.blessure ? '<span class="tag bl">Blessure</span>' : ""}</span>
+    <a class="t" href="${esc(x.lien)}" target="_blank" rel="noopener">${esc(x.titre)}</a>${mentionLangue(x) ? `<span class="act-tr">${mentionLangue(x)}</span>` : ""}
+    ${x.joueurs && x.joueurs.length ? `<span class="jj">${x.joueurs.slice(0, 4).map(p => `<a href="#/joueur/${encodeURIComponent(p)}">${esc(nomJ(p))}</a>`).join("")}</span>` : ""}</div></div>`;
+}
+function remplirUne() {
+  const el = $("#uneA"); if (!el) return;
+  const l = ACT.articles.slice(0, 12);
+  el.innerHTML = l.length ? l.map(carteUne).join("") : `<div class="une" style="display:grid;place-items:center">${visuel({lien: "x"})}<div class="une-txt"><span class="une-t">Actualités en cours de chargement…</span></div></div>`;
+}
+/* ---------------------------------------------------------------- visuels joueurs, résultats, classement */
+function rond(pid, cls) {
+  const ph = photoDe(pid);
+  return `<span class="${cls || "ph"}" ${ph ? `style="background-image:url('${esc(ph.url)}')"` : ""}>${ph ? "" : esc(initiales(nomJ(pid)))}</span>`;
+}
+const drapeau = pid => pays((D.J.get(pid) || {}).pays).fl;
+const NIV_COURT = {G: "Grand Chelem", M: "Masters 1000", A: "ATP", F: "Finales", N: "NextGen", O: "JO", D: "Coupe Davis", C: "Challenger"};
+function carteResultat(m) {
+  const t = D.T[m.t], s = setsDe(m);
+  const ligne = (pid, g) => {
+    const r = rangCourt(pid);
+    const jeux = s ? s.map(x => { const a = g ? x.g : x.p, b = g ? x.p : x.g; return `<i class="${a > b ? "w" : ""}">${a}</i>`; }).join("") : `<i style="width:auto">${g ? "V" : ""}</i>`;
+    return `<a class="rs-l${g ? " g" : ""}" href="#/joueur/${encodeURIComponent(pid)}">${rond(pid)}<span class="nm">${drapeau(pid)} ${esc(nomJ(pid))}${r ? `<small>${r}</small>` : ""}</span><span class="sc">${jeux}</span></a>`;
+  };
+  return `<div class="rs ${esc(t.surf || "")}"><div class="rs-h"><span class="lv">${esc(NIV_COURT[t.niv] || (t.niv.startsWith("I") ? "ITF" : t.niv))}</span>
+    <a class="t" href="#/tournoi/${encodeURIComponent(t.id)}">${esc(t.nom)}</a><span class="rd">${esc(NOM_TOUR[m.tour] || m.tour)}</span></div>
+    ${ligne(m.g, true)}${ligne(m.p, false)}${m.dr & ABANDON ? '<div class="rs-x">Abandon</div>' : ""}${m.dr & FORFAIT ? '<div class="rs-x">Forfait</div>' : ""}
+    ${!s && !(m.dr & FORFAIT) ? `<div class="rs-f">${esc(m.sc || "score non connu")}</div>` : ""}</div>`;
+}
+function resultatsVedette(liste, n) {
+  const poids = m => { const a = rangCourt(m.g) || 2000, b = rangCourt(m.p) || 2000; const niv = D.T[m.t].niv;
+    return Math.min(a, b) + (niv === "C" ? 150 : niv.startsWith("I") ? 400 : 0) - (ORDRE_TOUR[m.tour] || 0) * 2; };
+  return liste.slice().sort((a, b) => poids(a) - poids(b)).slice(0, n);
 }
 function dernierJourJoue() { const auj = new Date().toISOString().slice(0, 10); let d = ""; for (const m of D.M) if (m.jour && m.d <= auj && m.d > d) d = m.d; return d || auj; }
 function abandonsRecents(jours, pid) {
@@ -1229,7 +1361,7 @@ function blocActus(el) {
       <div class="act-h">Top 100 sans match depuis 4 semaines ou plus</div>${abs.map(([x, a]) => `<div class="act"><span>${lienJ(x[1])} <span class="small muted">(${ordinal(x[0])})</span> · ${Math.floor(a.jours / 7)} semaines sans match</span>
         <span class="meta">dernier match : ${esc(D.T[a.dernier.t].nom)}, ${dateFr(a.dernier.d)} · cause non connue (blessure, repos…)</span></div>`).join("") || '<div class="small muted">Aucun</div>'}`;
   } else html = ACT.articles.slice(0, 15).map(ligneArticle).join("") || '<div class="small muted">Aucune actualité chargée</div>';
-  el.innerHTML = `<div class="sec-h"><span class="sel-t">Actus et blessures</span><span class="sec-sub">${ACT.maj ? "Presse mise à jour " + ilYa(ACT.maj) : "Presse en cours de chargement"} · ESPN, Tennis Majors, Ubitennis</span></div>
+  el.innerHTML = `<div class="sec-h"><span class="sel-t">Actus et blessures</span><span class="sec-sub">${ACT.maj ? "Presse mise à jour " + ilYa(ACT.maj) : "Presse en cours de chargement"}${ACT.sources.length ? " · " + esc(ACT.sources.join(", ")) : ""}</span></div>
     ${seg("act", ["bl", "tout"], onglet, ["Blessures", "Toutes les actus"])}<div>${html}</div>`;
   el.querySelectorAll("[data-act]").forEach(b => b.onclick = () => { PREF.actus = b.dataset.act; blocActus(el); });
 }
@@ -1347,15 +1479,24 @@ function vueAccueil() {
     forme: E.forme ? {titre: "Série en cours : " + nomJ(E.forme.pid), liste: E.forme.s.matchs, pid: E.forme.pid} : null,
   };
   const f0 = E.finales[0], s0 = E.surprises[0];
+  const podium = top.slice(0, 3), suite = top.slice(3, n);
+  const pod = (x, k) => `<a class="pod p${k}" href="#/joueur/${encodeURIComponent(x[1])}"><span class="nb">${x[0]}</span>${rond(x[1])}<span class="n">${drapeau(x[1])} ${esc(prenomNom(nomJ(x[1]))[1] || nomJ(x[1]))}</span><span class="pt">${x[2] != null ? Number(x[2]).toLocaleString("fr-FR") + " pts" : ""}</span></a>`;
+  const lr = x => { const sl = selDe(x[1]); const j = D.J.get(x[1]) || {}; const pa = pays(j.pays);
+    return `<li class="${sl ? "is-sel" : ""}"><span class="r">${x[0]}</span>${rond(x[1])}<span class="n">${lienJ(x[1])}<span>${pa.fl} ${esc(pa.nom || "")}${j.naiss ? " · " + age(j.naiss) + " ans" : ""}</span></span><span class="p">${x[2] != null ? Number(x[2]).toLocaleString("fr-FR") : ""}<small>pts</small></span></li>`; };
+  const vedette = resultatsVedette(E.duJour, 12);
+  const jourTxt = new Date().toLocaleDateString("fr-FR", {weekday: "long", day: "numeric", month: "long"}).replace(/^./, c => c.toUpperCase());
   v.innerHTML = `
-    <div class="panel hero2"><div class="hero2-in" style="display:flex;align-items:center;gap:12px">${EMBLEME_GRAND.replace('width="64" height="64"', 'width="52" height="52"')}
-      <div style="flex:1;min-width:0"><div class="hero-t">H2H <span>Tennis</span></div><div class="hero-s">Données du ${D.maj ? new Date(D.maj).toLocaleString("fr-FR").slice(0, 16).replace(" ", " à ") : "?"}</div>
-        <div class="hero-tags"><span>${D.M.length.toLocaleString("fr-FR")} matchs</span><span>${D.J.size.toLocaleString("fr-FR")} joueurs</span></div></div>
-      <button class="maj-ico" id="majBtn" aria-label="Mettre à jour les données">⟳</button></div></div>
+    <div class="hello">${EMBLEME_GRAND.replace('width="64" height="64"', 'width="46" height="46"')}
+      <div style="flex:1;min-width:0"><div class="t">H2H <span>Tennis</span></div><div class="s">${esc(jourTxt)} · données du ${D.maj ? new Date(D.maj).toLocaleString("fr-FR").slice(0, 16).replace(" ", " à ") : "?"}</div></div>
+      <button class="maj-ico" id="majBtn" aria-label="Mettre à jour les données">⟳</button></div>
     <div id="majZone"><div class="prog" id="majProg" hidden><i></i></div><div id="majEtat" class="small muted ctr"></div></div>
+    <button class="field" id="cherche">🔍 Chercher un joueur…</button>
+    <div class="blk-h"><h3>À la une</h3><span class="s">${ACT.maj ? "presse " + ilYa(ACT.maj) : ""}</span></div>
+    <div class="rail" id="uneA"></div>
+    ${vedette.length ? `<div class="blk-h"><h3>Derniers résultats</h3><span class="s">${dateFr(E.dernierJour)} · ${E.duJour.length} matchs</span></div>
+    <div class="rail">${vedette.map(carteResultat).join("")}</div>` : ""}
     <div class="panel ess"><div class="sec-h"><span class="sel-t">L'essentiel</span><span class="sec-sub">Semaine du ${dateFr(semaineDefaut())} · touche une tuile pour le détail</span></div>
       <div class="stiles">
-        ${E.n1 ? `<a class="stile txt tone-n" href="#/joueur/${encodeURIComponent(E.n1[1])}" style="text-decoration:none"><span class="st-lab">N° 1 mondial</span><span class="st-chev">›</span><span class="st-val">${esc(nomJ(E.n1[1]))}</span><span class="st-sub">${E.n1[2] != null ? Number(E.n1[2]).toLocaleString("fr-FR") + " pts" : ""} · sem. du ${dateFr(D.rang.semaine)}</span></a>` : ""}
         <a class="stile tone-n" href="#tournois" style="text-decoration:none"><span class="st-lab">Tournois cette semaine</span><span class="st-chev">›</span><span class="st-val">${E.nb.A + E.nb.C + E.nb.I}</span><span class="st-sub">${E.nb.A} ATP · ${E.nb.C} Challenger · ${E.nb.I} ITF</span></a>
         ${tuile("fin", "w", "Vainqueurs sem. passée", f0 ? esc(nomJ(f0.g)) : "–", f0 ? `${esc(D.T[f0.t].nom)}${E.finales.length > 1 ? " · +" + (E.finales.length - 1) + " autres" : ""}` : "aucune finale", null, "zEss").replace('class="stile', 'class="stile txt')}
         ${E.forme ? tuile("forme", "w", "Joueur en forme", esc(nomJ(E.forme.pid)), `${E.forme.s.n} victoires d'affilée · ${ordinal(rangCourt(E.forme.pid))} ATP`, null, "zEss").replace('class="stile', 'class="stile txt') : ""}
@@ -1363,13 +1504,14 @@ function vueAccueil() {
         ${tuile("jour", "n", "Dernier jour joué", E.duJour.length + " <small>matchs</small>", `${dateFr(E.dernierJour)} · ${E.nbJ.A} ATP · ${E.nbJ.C} Chall. · ${E.nbJ.I} ITF`, null, "zEss")}
       </div>${zoneDetail("zEss")}</div>
     <div class="panel" id="actusA"></div>
-    <button class="field" id="cherche">🔍 Chercher un joueur…</button>
+    <div class="panel"><div class="sec-h"><span class="sel-t">Classement ATP</span><span class="sec-sub">${D.rang ? `Semaine du ${dateFr(D.rang.semaine)} · ${esc(D.rang.source)} · ${D.rang.liste.length} rangs` : "Classement non disponible"}</span></div>
+      ${podium.length === 3 ? `<div class="podium">${pod(podium[1], 2)}${pod(podium[0], 1)}${pod(podium[2], 3)}</div>` : ""}
+      <ul class="rgl">${(podium.length === 3 ? suite : top.slice(0, n)).map(lr).join("")}${extra.length ? '<li><span class="r">⋯</span></li>' + extra.map(lr).join("") : ""}</ul>
+      ${top.length > n ? '<button class="lbfull-b" id="plusRang">Voir plus</button>' : ""}</div>
     <div class="panel rc2"><div class="sec-h"><span class="sel-t">Tes joueurs</span><span class="sec-sub">A et B pour le face-à-face, J pour la fiche joueur</span></div>
       ${carteSel("A", "selA")}${carteSel("B", "selB")}${SEL.J !== SEL.A && SEL.J !== SEL.B ? carteSel("J", "selJ") : ""}</div>
-    <div class="panel" id="semaineA"></div>
-    <div class="panel"><div class="sec-h"><span class="sel-t">Classement ATP</span><span class="sec-sub">${D.rang ? `Semaine du ${dateFr(D.rang.semaine)} · ${esc(D.rang.source)} · ${D.rang.liste.length} rangs` : "Classement non disponible"}</span></div>
-      <ul class="lb lbr">${top.slice(0, n).map(ligneRang).join("")}${extra.length ? '<li class="lr"><span class="rk">⋯</span><span></span><span></span></li>' + extra.map(ligneRang).join("") : ""}</ul>
-      ${top.length > n ? '<button class="lbfull-b" id="plusRang">Voir plus</button>' : ""}</div>`;
+    <div class="panel" id="semaineA"></div>`;
+  remplirUne();
   $("#cherche").onclick = () => ouvrirChoix("J", () => aller("joueur"));
   const pr = $("#plusRang"); if (pr) pr.onclick = () => { PREF.topN = n + 80; vueAccueil(); };
   $("#majBtn").onclick = lancerMiseAJour;
@@ -1488,7 +1630,7 @@ function carteIdentite(pid, tous, titres) {
   const theme = (titre, icone, cases) => `<div class="jc-th"><svg viewBox="0 0 24 24">${icone}</svg>${titre}</div><div class="jc-grid">${cases}</div>`;
   const c = (k, v, sub, cls) => `<div><span class="k">${k}</span><span class="v${cls ? " " + cls : ""}">${v}</span><span class="s">${sub || "&nbsp;"}</span></div>`;
   return `<div class="jc">
-    <div class="jc-hero"><button class="jc-chg" id="choixJ" aria-label="Changer de joueur">🔍 Changer</button>${ph ? `<img src="${esc(grande(ph.url))}" alt="${esc(j.nom)}" onerror="this.onerror=null;this.src='${esc(ph.url)}'">` : `<span class="ini">${esc(initiales(j.nom))}</span>`}
+    <div class="jc-hero"><button class="jc-chg" id="choixJ" aria-label="Changer de joueur">🔍 Changer</button>${ph ? `<img src="${esc(grande(ph.url))}" alt="${esc(j.nom)}" onerror="if(this.src!=='${esc(ph.url)}'){this.src='${esc(ph.url)}'}else{this.remove()}">` : `<span class="ini">${esc(initiales(j.nom))}</span>`}
       <div class="jc-ov"><span class="jc-pays"><span class="fl">${py.fl}</span>${esc(py.nom)}</span><span class="jc-pn">${esc(pn)}</span><span class="jc-nm">${esc(nm)}</span>
         ${ri ? `<span class="jc-rk${ri.actuel ? "" : " vieux"}">N° ${ri.rang} ATP <small>${ri.actuel ? (ri.pts != null ? Number(ri.pts).toLocaleString("fr-FR") + " pts" : "") : "au " + dateFr(ri.date)}</small></span>` : '<span class="jc-rk vieux">Non classé</span>'}</div></div>
     ${alerteJoueur(pid)}
@@ -1864,7 +2006,7 @@ $("#haut").onclick = () => scroller().scrollTo({top: 0, behavior: "smooth"});
     }
   } catch (e) { /* hors ligne : on garde la version présente */ }
 })();
-charger().then(() => { $("#charge").remove(); rendre(); chargerActus().then(() => { const e = $("#actusA"); if (e) blocActus(e); }); }).catch(e => {
+charger().then(() => { $("#charge").remove(); rendre(); chargerActus().then(() => { const e = $("#actusA"); if (e) blocActus(e); remplirUne(); }); }).catch(e => {
   $("#etape").innerHTML = `<span class="l">Chargement impossible : ${esc(e.message)}</span><br><button onclick="location.reload()">Réessayer</button>`;
   console.error(e);
 });
