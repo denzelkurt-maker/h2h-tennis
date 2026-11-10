@@ -1,11 +1,12 @@
 # Contrôle de l'appli
 
-- Date (UTC) : 2026-11-10T05:59:27.625Z
-- Version de l'appli : 0.4.1
-- État : **OK**
+- Date (UTC) : 2026-11-10T18:23:09.014Z
+- Version de l'appli : 0.5.0
+- État : **ERREURS**
 
 ## Erreurs
-- aucune
+- sans code · console : Failed to load resource: the server responded with a status of 404 (File not found)
+- avec code · console : Failed to load resource: the server responded with a status of 404 (File not found)
 
 ## Alertes
 - aucune
@@ -14,9 +15,9 @@
 ```json
 {
  "public": {
-  "duree_chargement_s": 2.63,
+  "duree_chargement_s": 3.032,
   "chiffres": {
-   "version_appli": "0.4.1",
+   "version_appli": "0.5.0",
    "matchs": 356083,
    "joueurs": 11621,
    "tournois": 10479,
@@ -86,9 +87,9 @@
   }
  },
  "complet": {
-  "duree_chargement_s": 2.585,
+  "duree_chargement_s": 3.213,
   "chiffres": {
-   "version_appli": "0.4.1",
+   "version_appli": "0.5.0",
    "matchs": 356512,
    "joueurs": 11631,
    "tournois": 10479,
