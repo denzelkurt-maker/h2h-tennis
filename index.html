@@ -684,6 +684,14 @@ button.field{display:block;font:inherit;font-size:16px;font-weight:600;text-alig
 .jc-rk{align-self:flex-start;display:inline-flex;align-items:baseline;gap:6px;margin-top:9px;padding:5px 11px;border-radius:999px;background:rgba(76,155,255,.2);border:1px solid rgba(125,180,255,.5);color:#fff;font-weight:800;font-size:.9rem;white-space:nowrap}
 .jc-rk small{font-weight:700;color:#B8C7E0;font-size:.75rem}
 .jc-rk.vieux{background:rgba(255,210,122,.12);border-color:rgba(255,210,122,.5)}
+.maj-ico{flex:none;width:44px;height:44px;border-radius:12px;padding:0;font-size:1.3rem;display:grid;place-items:center;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:#fff}
+.maj-ico:disabled{opacity:.5}
+.ess .stile .st-val{font-size:1.3rem}
+.ess .stile.txt .st-val{font-size:1.05rem}
+.jc-chg{position:absolute;top:12px;right:12px;z-index:2;padding:7px 12px;border-radius:999px;font-size:.82rem;font-weight:700;color:#fff;background:rgba(5,10,22,.55);border:1px solid rgba(255,255,255,.28);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+details.filt{gap:8px}details.filt summary{list-style:none;cursor:pointer;display:flex;flex-direction:column;gap:3px}details.filt summary::-webkit-details-marker{display:none}
+details.filt summary .filt-r{font-weight:700;font-size:.92rem;color:var(--ink)}details.filt summary .filt-r::after{content:" ▾";color:var(--acc)}details.filt[open] summary .filt-r::after{content:" ▴"}
+body:not(.v-accueil) header.top{display:none}body:not(.v-accueil) .topin{padding-top:8px}
 .jc-th{display:flex;align-items:center;gap:7px;font-size:.66rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#7DB4FF;margin:2px 2px -6px}
 .jc-th svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .jc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:rgba(255,255,255,.09);border-radius:14px;overflow:hidden}
@@ -750,7 +758,7 @@ button.field{display:block;font:inherit;font-size:16px;font-weight:600;text-alig
    par le collecteur (donnees/), les garde en cache sur l'iPhone et fait
    tous les calculs dans le navigateur.
    ====================================================================== */
-const VERSION_APPLI = "0.3.2";
+const VERSION_APPLI = "0.4.1";
 const BASE = "./donnees/";
 const CACHE = "h2h-tennis-donnees";
 const SURF = {Hard: "Dur", Clay: "Terre", Grass: "Gazon", Carpet: "Moquette"};
@@ -1084,7 +1092,7 @@ function ouvrirDetail(id, titre, sous, liste, pid, sansAdv) {
   let n = 20;
   const rendreL = () => {
     z.innerHTML = `<div class="kf-h"><div class="kf-ht"><span class="sel-t">${esc(titre)}</span><span class="sec-sub">${esc(sous || liste.length + " matchs")}</span></div><button class="kf-x" data-fermer>Fermer</button></div>
-      <div class="matches tinted">${liste.slice(0, n).map(m => carte(m, pid, sansAdv)).join("") || '<div class="empty">Aucun match</div>'}</div>
+      <div class="matches tinted">${liste.slice(0, n).map(m => carte(m, pid || m.g, sansAdv)).join("") || '<div class="empty">Aucun match</div>'}</div>
       ${liste.length > n ? `<button class="kf-more" data-plus>Voir plus (${liste.length - n})</button>` : ""}`;
     z.querySelector("[data-fermer]").onclick = () => { z.innerHTML = ""; document.querySelectorAll(`[data-zone="${id}"][aria-expanded="true"]`).forEach(b => b.setAttribute("aria-expanded", "false")); };
     const p = z.querySelector("[data-plus]"); if (p) p.onclick = () => { n += 30; rendreL(); };
@@ -1159,6 +1167,7 @@ function rendre() {
 }
 function afficher(v, arg) {
   document.querySelectorAll("nav.tabs a").forEach(a => a.dataset.v === v ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+  document.body.className = document.body.className.replace(/\bv-\S+/g, "").trim() + " v-" + v;
   scroller().scrollTop = 0;
   ({accueil: vueAccueil, h2h: vueH2H, joueur: vueJoueur, tournois: vueTournois, reglages: vueReglages})[v](arg);
 }
@@ -1199,10 +1208,36 @@ function ouvrirChoix(slot, apres) {
 }
 
 /* ---------------------------------------------------------------- Accueil */
+function essentiel() {
+  const auj = new Date().toISOString().slice(0, 10), sem = lundi(auj);
+  const enCours = tournoisSemaine(semaineDefaut()), nb = {A: 0, C: 0, I: 0};
+  for (const x of enCours) nb[groupeCircuit(x.t.niv)]++;
+  const passee = tournoisSemaine(plusJours(sem, -7));
+  const finales = passee.map(x => x.matchs.find(m => m.tour === "F")).filter(Boolean)
+    .sort((a, b) => ("GMAFCI".indexOf(D.T[a.t].niv[0]) - "GMAFCI".indexOf(D.T[b.t].niv[0])));
+  let dernierJour = ""; for (const m of D.M) if (m.jour && m.d <= auj && m.d > dernierJour) dernierJour = m.d;
+  const duJour = D.M.filter(m => m.jour && m.d === dernierJour);
+  const nbJ = {A: 0, C: 0, I: 0}; for (const m of duJour) nbJ[groupeCircuit(D.T[m.t].niv)]++;
+  const surprises = [];
+  for (const m of D.M) {
+    if (!m.jour || m.d < plusJours(dernierJour, -6) || !compte(m)) continue;
+    const rg = rangInfo(m.g), rp = rangInfo(m.p);
+    if (rg && rp && rg.actuel && rp.actuel && rp.rang <= 100 && rg.rang >= rp.rang * 3 && rg.rang - rp.rang >= 40) surprises.push([rg.rang / rp.rang, m]);
+  }
+  surprises.sort((a, b) => b[0] - a[0]);
+  let forme = null;
+  for (const x of (D.rang ? D.rang.liste.slice(0, 200) : [])) {
+    const s = serie(matchsDe(x[1]), x[1]);
+    if (s.v && (!forme || s.n > forme.s.n)) forme = {pid: x[1], s};
+  }
+  const n1 = D.rang && D.rang.liste[0];
+  return {nb, finales, dernierJour, duJour, nbJ, surprises: surprises.map(x => x[1]), forme, n1};
+}
 function vueAccueil() {
   const v = $("#vue");
   const top = D.rang ? D.rang.liste : [];
   const n = PREF.topN || 20;
+  const E = essentiel();
   const selDe = pid => pid === SEL.A ? "sA" : pid === SEL.B ? "sB" : pid === SEL.J ? "sJ" : "";
   const ligneRang = x => { const s = selDe(x[1]); const r = x[0];
     return `<li class="lr${s ? " is-sel " + s : ""}"><span class="rk${r <= 3 ? " r" + r : ""}">${r}</span><span class="nm"><span class="nl">${lienJ(x[1])}</span><span class="dd">${esc((D.J.get(x[1]) || {}).pays || "")}</span></span><span class="val">${x[2] != null ? Number(x[2]).toLocaleString("fr-FR") : ""}</span></li>`; };
@@ -1211,12 +1246,29 @@ function vueAccueil() {
     return `<a class="rc-card ${cls}" href="#/joueur/${encodeURIComponent(pid)}" style="text-decoration:none;color:inherit"><div class="rc-head">${avatarG(pid)}<div class="rc-id"><span class="rc-fn2">${{A: "Joueur A", B: "Joueur B", J: "Fiche joueur"}[slot]}</span><span class="rc-ln2">${esc(nomJ(pid))}</span></div>
       <div class="rc-gen"><b>${rangCourt(pid) || "–"}</b><span>ATP</span></div></div>
       <div class="small muted">Saison ${anneeCourante()} : ${b.v}–${b.d} · série ${s.n} ${s.v ? "V" : "D"}</div></a>`; };
+  DETAILS = {
+    fin: {titre: "Vainqueurs de la semaine passée", sous: E.finales.length + " finales", liste: E.finales, pid: null},
+    jour: {titre: "Matchs du " + dateFr(E.dernierJour), liste: E.duJour, pid: null},
+    surp: {titre: "Surprises des 7 derniers jours", sous: "Vainqueur classé au moins 3 fois plus loin (classement actuel)", liste: E.surprises, pid: null},
+    forme: E.forme ? {titre: "Série en cours : " + nomJ(E.forme.pid), liste: E.forme.s.matchs, pid: E.forme.pid} : null,
+  };
+  const f0 = E.finales[0], s0 = E.surprises[0];
   v.innerHTML = `
-    <div class="panel hero2"><div class="hero2-in" style="display:flex;align-items:center;gap:14px">${EMBLEME_GRAND}
-      <div><span class="hero-k">H2H · Statistiques</span><div class="hero-t">H2H <span>Tennis</span></div><div class="hero-s">ATP, Challenger et ITF · simple</div>
-      <div class="hero-tags"><span>${D.M.length.toLocaleString("fr-FR")} matchs</span><span>${D.J.size.toLocaleString("fr-FR")} joueurs</span><span id="majDate">${D.maj ? "données du " + new Date(D.maj).toLocaleDateString("fr-FR") : ""}</span></div></div></div></div>
-    <div class="panel"><button class="primary" id="majBtn">Mettre à jour les données</button><div class="prog" id="majProg" hidden><i></i></div><div id="majEtat" class="small muted"></div></div>
-    <button class="combo field" id="cherche" style="width:100%">Chercher un joueur…</button>
+    <div class="panel hero2"><div class="hero2-in" style="display:flex;align-items:center;gap:12px">${EMBLEME_GRAND.replace('width="64" height="64"', 'width="52" height="52"')}
+      <div style="flex:1;min-width:0"><div class="hero-t">H2H <span>Tennis</span></div><div class="hero-s">Données du ${D.maj ? new Date(D.maj).toLocaleString("fr-FR").slice(0, 16).replace(" ", " à ") : "?"}</div>
+        <div class="hero-tags"><span>${D.M.length.toLocaleString("fr-FR")} matchs</span><span>${D.J.size.toLocaleString("fr-FR")} joueurs</span></div></div>
+      <button class="maj-ico" id="majBtn" aria-label="Mettre à jour les données">⟳</button></div></div>
+    <div id="majZone"><div class="prog" id="majProg" hidden><i></i></div><div id="majEtat" class="small muted ctr"></div></div>
+    <div class="panel ess"><div class="sec-h"><span class="sel-t">L'essentiel</span><span class="sec-sub">Semaine du ${dateFr(semaineDefaut())} · touche une tuile pour le détail</span></div>
+      <div class="stiles">
+        ${E.n1 ? `<a class="stile txt tone-n" href="#/joueur/${encodeURIComponent(E.n1[1])}" style="text-decoration:none"><span class="st-lab">N° 1 mondial</span><span class="st-chev">›</span><span class="st-val">${esc(nomJ(E.n1[1]))}</span><span class="st-sub">${E.n1[2] != null ? Number(E.n1[2]).toLocaleString("fr-FR") + " pts" : ""} · sem. du ${dateFr(D.rang.semaine)}</span></a>` : ""}
+        <a class="stile tone-n" href="#tournois" style="text-decoration:none"><span class="st-lab">Tournois cette semaine</span><span class="st-chev">›</span><span class="st-val">${E.nb.A + E.nb.C + E.nb.I}</span><span class="st-sub">${E.nb.A} ATP · ${E.nb.C} Challenger · ${E.nb.I} ITF</span></a>
+        ${tuile("fin", "w", "Vainqueurs sem. passée", f0 ? esc(nomJ(f0.g)) : "–", f0 ? `${esc(D.T[f0.t].nom)}${E.finales.length > 1 ? " · +" + (E.finales.length - 1) + " autres" : ""}` : "aucune finale", null, "zEss").replace('class="stile', 'class="stile txt')}
+        ${E.forme ? tuile("forme", "w", "Joueur en forme", esc(nomJ(E.forme.pid)), `${E.forme.s.n} victoires d'affilée · ${ordinal(rangCourt(E.forme.pid))} ATP`, null, "zEss").replace('class="stile', 'class="stile txt') : ""}
+        ${tuile("surp", "l", "Surprises (7 jours)", s0 ? esc(nomJ(s0.g)) : String(E.surprises.length), s0 ? `${ordinal(rangCourt(s0.g))} bat ${esc(nomJ(s0.p))} (${ordinal(rangCourt(s0.p))}) · ${E.surprises.length} au total` : "aucune", null, "zEss").replace('class="stile', 'class="stile txt')}
+        ${tuile("jour", "n", "Dernier jour joué", E.duJour.length + " <small>matchs</small>", `${dateFr(E.dernierJour)} · ${E.nbJ.A} ATP · ${E.nbJ.C} Chall. · ${E.nbJ.I} ITF`, null, "zEss")}
+      </div>${zoneDetail("zEss")}</div>
+    <button class="field" id="cherche">🔍 Chercher un joueur…</button>
     <div class="panel rc2"><div class="sec-h"><span class="sel-t">Tes joueurs</span><span class="sec-sub">A et B pour le face-à-face, J pour la fiche joueur</span></div>
       ${carteSel("A", "selA")}${carteSel("B", "selB")}${SEL.J !== SEL.A && SEL.J !== SEL.B ? carteSel("J", "selJ") : ""}</div>
     <div class="panel" id="semaineA"></div>
@@ -1226,6 +1278,7 @@ function vueAccueil() {
   $("#cherche").onclick = () => ouvrirChoix("J", () => aller("joueur"));
   const pr = $("#plusRang"); if (pr) pr.onclick = () => { PREF.topN = n + 80; vueAccueil(); };
   $("#majBtn").onclick = lancerMiseAJour;
+  brancherTuiles(v);
   afficherEtatMaj();
   blocSemaine($("#semaineA"), true);
 }
@@ -1339,7 +1392,7 @@ function carteIdentite(pid, tous, titres) {
   const theme = (titre, icone, cases) => `<div class="jc-th"><svg viewBox="0 0 24 24">${icone}</svg>${titre}</div><div class="jc-grid">${cases}</div>`;
   const c = (k, v, sub, cls) => `<div><span class="k">${k}</span><span class="v${cls ? " " + cls : ""}">${v}</span><span class="s">${sub || "&nbsp;"}</span></div>`;
   return `<div class="jc">
-    <div class="jc-hero">${ph ? `<img src="${esc(grande(ph.url))}" alt="${esc(j.nom)}" onerror="this.onerror=null;this.src='${esc(ph.url)}'">` : `<span class="ini">${esc(initiales(j.nom))}</span>`}
+    <div class="jc-hero"><button class="jc-chg" id="choixJ" aria-label="Changer de joueur">🔍 Changer</button>${ph ? `<img src="${esc(grande(ph.url))}" alt="${esc(j.nom)}" onerror="this.onerror=null;this.src='${esc(ph.url)}'">` : `<span class="ini">${esc(initiales(j.nom))}</span>`}
       <div class="jc-ov"><span class="jc-pays"><span class="fl">${py.fl}</span>${esc(py.nom)}</span><span class="jc-pn">${esc(pn)}</span><span class="jc-nm">${esc(nm)}</span>
         ${ri ? `<span class="jc-rk${ri.actuel ? "" : " vieux"}">N° ${ri.rang} ATP <small>${ri.actuel ? (ri.pts != null ? Number(ri.pts).toLocaleString("fr-FR") + " pts" : "") : "au " + dateFr(ri.date)}</small></span>` : '<span class="jc-rk vieux">Non classé</span>'}</div></div>
     ${theme("Profil", '<circle cx="12" cy="8" r="3.5"/><path d="M5 20c1.2-3.6 3.8-5.4 7-5.4s5.8 1.8 7 5.4"/>',
@@ -1416,9 +1469,10 @@ async function vueJoueur() {
     return `<button class="stat statb" data-tuile="${cle}" data-zone="zRep" aria-expanded="false"><span class="v a" style="color:var(--win)">${x.v}</span>
       <span class="mid"><span class="label ctr">${nom} <span class="kchev">›</span></span><span class="bar"><i class="ia" style="width:${n ? 100 * x.v / n : 0}%;background:var(--win)"></i><i class="ib" style="width:${n ? 100 * x.d / n : 0}%;background:var(--loss)"></i></span><span class="small muted ctr">${pctTxt(x.v, n)}</span></span><span class="v b" style="color:var(--loss)">${x.d}</span></button>`; };
   v.innerHTML = `
-    <div class="panel sel"><span class="sel-t">Joueur</span><button class="combo field" id="choixJ">${esc(j.nom)} <span class="muted">· changer</span></button>${blocFiltres("nJ", "surfJ", "circJ")}
-      <div class="period">${L.length} matchs pris en compte${L.length ? ` · du ${dateFr(L[L.length - 1].d)} au ${dateFr(L[0].d)}` : ""}</div></div>
     ${carteIdentite(pid, tous, titres)}
+    <details class="panel filt" ${PREF.filtOuvert ? "open" : ""}><summary><span class="sel-t">Matchs pris en compte</span>
+      <span class="filt-r">${PREF.nJ === "tous" ? "Tous les matchs" : PREF.nJ + " derniers"} · ${{tous: "toutes surfaces", Hard: "dur", Clay: "terre", Grass: "gazon", salle: "salle"}[PREF.surfJ]} · ${{tous: "tous circuits", A: "ATP", C: "Challenger", I: "ITF"}[PREF.circJ]} · ${L.length} matchs</span></summary>
+      ${blocFiltres("nJ", "surfJ", "circJ")}<div class="period">${L.length ? `du ${dateFr(L[L.length - 1].d)} au ${dateFr(L[0].d)}` : "aucun match"}</div></details>
     <div class="panel"><div class="sec-h"><span class="sel-t">Points clés</span><span class="sec-sub">Sur les ${L.length} matchs pris en compte (série et forme : tous les matchs)</span></div>
       <div class="stiles">
         ${tuile("bilan", "n", "Bilan", `${b.v}–${b.d}`, pctTxt(b.v, b.v + b.d) + " de victoires", b.v + b.d ? 100 * b.v / (b.v + b.d) : 0, "zPts")}
@@ -1438,7 +1492,8 @@ async function vueJoueur() {
     <div class="panel"><div class="sec-h"><span class="sel-t">Statistiques de match</span><span class="sec-sub">Moyennes sur les matchs pris en compte qui ont des statistiques</span></div><div id="zStats" class="empty">Chargement…</div></div>
     <div class="panel"><div class="sec-h"><span class="sel-t">Tournois</span><span class="sec-sub">Ses matchs regroupés par tournoi, tour par tour</span></div><div id="zTournois" class="trks"></div></div>`;
   brancherTuiles(v);
-  brancherFiltres(v, "nJ", "surfJ", "circJ", vueJoueur);
+  brancherFiltres(v, "nJ", "surfJ", "circJ", () => { PREF.filtOuvert = true; vueJoueur(); });
+  const df = v.querySelector("details.filt"); if (df) df.ontoggle = () => { PREF.filtOuvert = df.open; };
   $("#choixJ").onclick = () => ouvrirChoix("J", vueJoueur);
   $("#versH2H").onclick = () => { choisir("A", pid); ouvrirChoix("B", () => aller("h2h")); };
   $("#photo").onclick = () => $("#fichierPhoto").click();
@@ -1700,6 +1755,16 @@ function chercher(txt) {
 }
 scroller().addEventListener("scroll", () => $("#fab").classList.toggle("on", scroller().scrollTop > 700), {passive: true});
 $("#haut").onclick = () => scroller().scrollTo({top: 0, behavior: "smooth"});
+(async () => {
+  try {
+    const r = await fetch("./index.html?v=" + Date.now(), {cache: "no-store"});
+    const v = ((await r.text()).match(/VERSION_APPLI = "([^"]+)"/) || [])[1];
+    if (v && v !== VERSION_APPLI && sessionStorage.getItem("h2h-recharge") !== v) {
+      sessionStorage.setItem("h2h-recharge", v);
+      location.replace(location.pathname + "?v=" + encodeURIComponent(v) + location.hash);
+    }
+  } catch (e) { /* hors ligne : on garde la version présente */ }
+})();
 charger().then(() => { $("#charge").remove(); rendre(); }).catch(e => {
   $("#etape").innerHTML = `<span class="l">Chargement impossible : ${esc(e.message)}</span><br><button onclick="location.reload()">Réessayer</button>`;
   console.error(e);
