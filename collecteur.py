@@ -46,7 +46,7 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.5.0"
+VERSION = "1.5.1"
 VERSION_COPIE = 2   # copie compacte de l'archive : 2 = avec statistiques et classements
 PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
 
@@ -2003,12 +2003,27 @@ def collecter_cito(cle, code, fin_sackmann):
     if (cl.get("date") or "") < lundi_courant and essais_jour < 2 and api.peut():
         suivi["classement_essais"] = {aujourd.isoformat(): essais_jour + 1}
         liste, date_cl, page, pages = [], None, 1, 1
+        diag = J.chiffres.setdefault("cito_classement_reponses", [])
+        vus = set()
         while page <= pages and page <= 25 and api.peut():
-            code_http, obj = api.appel("classement", f"/tennis/rankings/atp?page={page}&page_size=100&limit=100")
+            code_http, obj = api.appel("classement", f"/tennis/rankings/atp?page={page}&page_size=100&limit=100&offset={(page - 1) * 100}")
             items = cito_items(obj)
+            # diagnostic : tout ce que la réponse dit de la pagination (sans la liste)
+            if isinstance(obj, dict):
+                diag.append({"page": page, "http": code_http, "items": len(items),
+                             "premier_rang": items[0].get("rank") if items else None,
+                             "dernier_rang": items[-1].get("rank") if items else None,
+                             **{k: v for k, v in obj.items() if k not in ("items", "data", "results")}})
             if code_http != 200 or not items:
                 st[f"classement_http_{code_http}"] += 1
                 break
+            nouveaux = [it for it in items if (it.get("rank"), str(it.get("player_id"))) not in vus]
+            if not nouveaux:   # paramètre de page ignoré : même liste renvoyée
+                st["classement_page_ignoree"] += 1
+                pages = page - 1
+                break
+            vus.update((it.get("rank"), str(it.get("player_id"))) for it in items)
+            items = nouveaux
             for it in items:
                 pid = str(it.get("player_id") or it.get("id") or "")
                 if pid and it.get("rank") is not None:
@@ -2016,7 +2031,11 @@ def collecter_cito(cle, code, fin_sackmann):
                                   it.get("points"), it.get("tournaments_played")])
             date_cl = date_cl or (obj.get("ranking_date") or "")[:10]
             # Cito renvoie 100 joueurs par page ; sans indication du nombre de pages, on continue tant que la page est pleine
-            pages = obj.get("total_pages") or (page + 1 if obj.get("has_next") or len(items) >= 100 else page)
+            cov = obj.get("list_coverage") or {}
+            profondeur = cov.get("deepest_rank") or cov.get("ranked_players") or 0
+            pages = max(obj.get("total_pages") or 0,
+                        -(-int(profondeur) // 100) if profondeur else 0,
+                        page + 1 if obj.get("has_next") or len(items) >= 100 else page)
             page += 1
         st["classement_pages"] = page - 1
         if liste and (page > pages or page > 25):   # liste complète, ou 25 pages au plus
