@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-10T21:23+00:00",
+ "maj": "2026-11-10T23:17+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 41 articles",
+  "L'Équipe": "ok, 40 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/tennis/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 17 articles",
@@ -24,10 +24,32 @@
   "franceinfo": "ok, 20 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 17 articles",
+  "Tennis Majors (EN)": "ok, 18 articles",
   "Ubitennis": "ok, 13 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/others-news/davis-cup-news/tsonga-on-monfils-captaincy-i-was-never-really-a-candidate-866592.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-10T22:37+00:00",
+   "image": null,
+   "vo": "Tsonga on Monfils captaincy: “I was never really a candidate”",
+   "titre": "Tsonga sur la capitainerie de Monfils : « Je n'ai jamais vraiment été candidat »",
+   "titre_fr": "Tsonga sur la capitainerie de Monfils : « Je n'ai jamais vraiment été candidat »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/musetti-beats-samuel-to-reach-stockholm-quarter-finals-866628.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-10T22:20+00:00",
+   "image": null,
+   "vo": "Musetti beats Samuel to reach Stockholm quarter-finals",
+   "titre": "Musetti bat Samuel pour atteindre les quarts de finale de Stockholm",
+   "titre_fr": "Musetti bat Samuel pour atteindre les quarts de finale de Stockholm",
+   "blessure": false
+  },
   {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/Holger-rune-s-impose-a-stockholm-sur-le-court-ou-il-s-etait-gravement-blesse-au-tendon-d-achille-il-y-a-un-an/1742877#at_medium=RSS_feeds",
    "source": "L'Équipe",
@@ -376,6 +398,17 @@
    "image": null,
    "vo": "Borg and Dahlin beaten as all three Swedish wildcards fall in Stockholm",
    "titre_fr": "Borg et Dahlin battus alors que les trois jokers suédois tombent à Stockholm"
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/riedi-reveals-2024-suicide-attempt-i-am-living-proof-that-things-can-get-better-866634.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-09T21:59+00:00",
+   "image": null,
+   "vo": "Riedi reveals 2024 suicide attempt: “I am living proof that things can get better”",
+   "titre": "Riedi révèle une tentative de suicide en 2024 : « Je suis la preuve vivante que les choses peuvent s'améliorer »",
+   "titre_fr": "Riedi révèle une tentative de suicide en 2024 : « Je suis la preuve vivante que les choses peuvent s'améliorer »",
+   "blessure": false
   },
   {
    "titre": "Zverev : « Je ne pense pas avoir grand-chose d'autre à prouver »",
@@ -1112,6 +1145,15 @@
    "blessure": true
   },
   {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Luca-van-assche-le-teigneux-qui-a-appris-a-prendre-le-jeu-a-son-compte-il-frappe-beaucoup-plus-fort-en-coup-droit/1741814#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-07T14:40+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Van Assche, le teigneux devenu conquérant dans le jeu",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/fr/coupe-davis-actualite/la-surprise-gael-monfils-nomme-capitaine-de-lequipe-de-france-de-coupe-davis-809677.html",
    "source": "Tennis Majors",
    "langue": "fr",
@@ -1154,15 +1196,6 @@
    "date": "2026-11-07T12:17+00:00",
    "image": "https://img.20mn.fr/HQUt8rz0RGKi4k-SVndZYyk/1200x768_le-francais-luca-van-assche-a-droite-rend-le-ballon-a-ben-shelton-des-etats-unis-lors-d-un-match-de-demi-finale-du-tournoi-de-tennis-paris-masters-a-nanterre-pres-de-paris-en-france-le-samedi-7-novembre-2026-ap-photo-thibault-camus-ena135-26311558421124-2611071641",
    "titre": "Van Assche - Shelton : L'Américain met fin au rêve de Van Assche après un gros combat... Revivez le match avec nous...",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Luca-van-assche-le-teigneux-qui-a-appris-a-prendre-le-jeu-a-son-compte-il-frappe-beaucoup-plus-fort-en-coup-droit/1741814#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T12:10+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Van Assche, le teigneux devenu conquérant dans le jeu",
    "blessure": false
   },
   {
