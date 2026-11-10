@@ -4,8 +4,8 @@
   "2026-11-08": {
    "pages": 1,
    "lignes_atp": 101,
-   "final": false,
-   "le": "2026-11-09"
+   "final": true,
+   "le": "2026-11-10"
   },
   "2026-11-07": {
    "pages": 1,
@@ -1013,7 +1013,13 @@
    "pages": 1,
    "lignes_atp": 70,
    "final": false,
-   "le": "2026-11-09"
+   "le": "2026-11-10"
+  },
+  "2026-11-10": {
+   "pages": 1,
+   "lignes_atp": 0,
+   "final": false,
+   "le": "2026-11-10"
   }
  },
  "parametres": {
@@ -1021,13 +1027,13 @@
   "stats": true,
   "tour": true
  },
- "classement_essai": "2026-11-09",
+ "classement_essai": "2026-11-10",
  "calendrier": {
   "2026": "2026-11-09"
  },
  "quota": {
-  "restant": 301,
+  "restant": 297,
   "remise_a_zero": "2026-12-09T15:52+00:00",
-  "le": "2026-11-09"
+  "le": "2026-11-10"
  }
 }
