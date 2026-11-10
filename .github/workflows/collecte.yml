@@ -39,7 +39,8 @@ jobs:
             echo "Aucun changement"
           else
             git commit -q -m "Collecte du $(date -u +%Y-%m-%d)"
-            git push -q
+            # un autre envoi (actualités, contrôle) a pu passer entre-temps : on se recale puis on renvoie
+            for i in 1 2 3 4; do git pull -q --rebase && git push -q && break; sleep 15; done
           fi
       - name: Signaler un échec du collecteur
         if: steps.collecteur.outcome == 'failure'
