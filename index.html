@@ -662,6 +662,72 @@ button.field{display:block;font:inherit;font-size:16px;font-weight:600;text-alig
 .pl a,.cls-duo a{color:inherit;text-decoration:none}
 .m .who a.pl{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
 
+/* 0.3 : carte d'identité du joueur */
+.jc{position:relative;overflow:hidden;border-radius:20px;padding:16px;display:flex;flex-direction:column;gap:14px;border:1px solid var(--sel-line);
+  background:radial-gradient(120% 90% at 0% 0%,rgba(61,134,255,.32),rgba(61,134,255,0) 60%),linear-gradient(160deg,#12305E 0%,#0C1E3A 60%,#0A1528 100%)}
+.jc-hero{position:relative;margin:-16px -16px 0;height:min(330px,82vw);overflow:hidden;background:linear-gradient(150deg,#1B4C96,#0C1E3A)}
+.jc-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 18%}
+.jc-hero .ini{position:absolute;inset:0;display:grid;place-items:center;font-size:6rem;font-weight:900;color:rgba(220,232,250,.22);letter-spacing:-.04em}
+.jc-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,30,58,0) 38%,rgba(12,30,58,.65) 68%,#0C1E3A 100%)}
+.jc-ov{position:absolute;left:16px;right:16px;bottom:14px;z-index:1;display:flex;flex-direction:column}
+.jc-ov .jc-nm{font-size:2.3rem;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.jc-ov .jc-pn{font-size:1.1rem;color:#DCE8FA;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.jc-ov .jc-pays{color:#DCE8FA}
+.jc-top{display:grid;grid-template-columns:112px minmax(0,1fr);gap:16px;align-items:center}
+.jc-ph{width:112px;height:112px;border-radius:26px;background:#18202B center 18%/cover no-repeat;display:grid;place-items:center;font-size:2.3rem;font-weight:900;color:#DCE8FA;
+  box-shadow:0 0 0 3px #0C1E3A,0 0 0 5px var(--acc),0 12px 26px rgba(0,0,0,.55)}
+.jc-id{display:flex;flex-direction:column;min-width:0}
+.jc-pays{display:flex;align-items:center;gap:6px;font-size:.78rem;font-weight:700;color:#B8C7E0;letter-spacing:.02em}
+.jc-pays .fl{font-size:1.15rem;line-height:1}
+.jc-pn{font-size:1.02rem;font-weight:600;color:#C5D6EE;margin-top:4px;line-height:1.1}
+.jc-nm{font-size:1.8rem;font-weight:900;letter-spacing:-.01em;line-height:1.02;text-transform:uppercase;color:#fff;overflow-wrap:anywhere}
+.jc-rk{align-self:flex-start;display:inline-flex;align-items:baseline;gap:6px;margin-top:9px;padding:5px 11px;border-radius:999px;background:rgba(76,155,255,.2);border:1px solid rgba(125,180,255,.5);color:#fff;font-weight:800;font-size:.9rem;white-space:nowrap}
+.jc-rk small{font-weight:700;color:#B8C7E0;font-size:.75rem}
+.jc-rk.vieux{background:rgba(255,210,122,.12);border-color:rgba(255,210,122,.5)}
+.jc-th{display:flex;align-items:center;gap:7px;font-size:.66rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#7DB4FF;margin:2px 2px -6px}
+.jc-th svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.jc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:rgba(255,255,255,.09);border-radius:14px;overflow:hidden}
+.jc-grid>div{background:rgba(5,10,22,.78);padding:9px 10px 10px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.jc-grid .k{font-size:.58rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#8FA6C7}
+.jc-grid .v{font-size:1.08rem;font-weight:800;color:#fff;line-height:1.15;overflow-wrap:anywhere}
+.jc-grid .s{font-size:.66rem;color:#9FB2D0;line-height:1.25}
+.jc-grid .v.w{color:#7EF0B8}
+.jc-pied{display:flex;flex-direction:column;gap:8px}
+.jc-cr{font-size:.68rem;color:#8FA6C7}.jc-cr a{color:#8FA6C7}
+/* 0.3 : parcours dans un tournoi */
+.trks{display:flex;flex-direction:column;gap:12px}
+.trk{--lc:var(--acc);position:relative;border-radius:16px;background:var(--bg);border:1px solid var(--line);overflow:hidden}
+.trk.lvG{--lc:#F2C14E}.trk.lvM{--lc:#FF8A5B}.trk.lvA,.trk.lvF,.trk.lvN,.trk.lvO{--lc:#4C9BFF}.trk.lvC{--lc:#A98BFF}.trk.lvI,.trk.lvI15,.trk.lvI25{--lc:#3CC6B0}.trk.lvD{--lc:#C9D3DD}
+.trk-h{position:relative;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:3px 10px;padding:12px 12px 11px 16px;
+  background:linear-gradient(90deg,color-mix(in srgb,var(--lc) 20%,transparent),transparent 75%);border-bottom:1px solid var(--line)}
+.trk-h::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--lc)}
+.trk-lv{font-size:.6rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--lc)}
+.trk-nm{grid-column:1;font-size:1.1rem;font-weight:800;color:var(--ink);text-decoration:none;line-height:1.15;overflow-wrap:anywhere}
+.trk-mt{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center;font-size:.74rem;color:var(--muted)}
+.surf{display:inline-flex;align-items:center;gap:5px;font-weight:700;color:var(--ink)}.surf::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--sc,#888)}
+.surf.Hard{--sc:#3F8CFF}.surf.Clay{--sc:#E07A3F}.surf.Grass{--sc:#4CBF6B}.surf.Carpet{--sc:#9AA4B2}
+.rb{grid-column:2;grid-row:1/3;align-self:center;font-size:.72rem;font-weight:800;padding:5px 10px;border-radius:999px;white-space:nowrap;background:var(--sunk);color:var(--ink);border:1px solid var(--line)}
+.rb.r1{background:var(--gold);color:#2A1E05;border-color:transparent}.rb.r2{background:var(--silver);color:#1B222C;border-color:transparent}
+.rb.r3{background:var(--bronze);color:#2A1605;border-color:transparent}.rb.rl{background:rgba(91,213,143,.16);color:var(--win);border-color:var(--win)}
+.trk-l{list-style:none;margin:0;padding:4px 12px 8px 10px;position:relative}
+.trk-l::before{content:"";position:absolute;left:29px;top:22px;bottom:26px;width:2px;background:var(--line)}
+.trk-l li{position:relative;display:grid;grid-template-columns:40px minmax(0,1fr) 30px;gap:3px 10px;align-items:center;padding:9px 0}
+.trk-l li+li{border-top:1px dashed rgba(255,255,255,.07)}
+.trk-l .rd{position:relative;z-index:1;width:40px;height:24px;border-radius:8px;display:grid;place-items:center;font-size:.72rem;font-weight:800;background:var(--surface);color:var(--muted);border:1.5px solid var(--line)}
+.trk-l li.v .rd{border-color:var(--win);color:var(--win)}.trk-l li.d .rd{border-color:var(--loss);color:var(--loss)}
+.trk-l .op{min-width:0;display:flex;flex-direction:column;line-height:1.2}
+.trk-l .op a{color:var(--ink);font-weight:700;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.trk-l .op small{font-size:.7rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.trk-l .op small a{color:var(--acc);font-weight:700}
+.trk-l .vd{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-weight:900;font-size:.78rem}
+.trk-l li.v .vd{background:rgba(91,213,143,.15);color:var(--win);box-shadow:inset 0 0 0 1.5px var(--win)}
+.trk-l li.d .vd{background:rgba(255,139,123,.13);color:var(--loss);box-shadow:inset 0 0 0 1.5px var(--loss)}
+.trk-l .sc{grid-column:2/4;display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.trk-l .st{font-size:.84rem;padding:1px 7px;border-radius:6px;background:rgba(255,255,255,.06);color:var(--muted);font-weight:600}
+.trk-l .st.sw{background:rgba(255,255,255,.15);color:var(--ink);font-weight:800}
+.trk-l .small{font-size:.74rem;color:var(--muted)}
+.trk-l li.neutre{grid-template-columns:40px minmax(0,1fr)}
+
 </style>
 </head>
 <body>
@@ -684,7 +750,7 @@ button.field{display:block;font:inherit;font-size:16px;font-weight:600;text-alig
    par le collecteur (donnees/), les garde en cache sur l'iPhone et fait
    tous les calculs dans le navigateur.
    ====================================================================== */
-const VERSION_APPLI = "0.2.1";
+const VERSION_APPLI = "0.3.2";
 const BASE = "./donnees/";
 const CACHE = "h2h-tennis-donnees";
 const SURF = {Hard: "Dur", Clay: "Terre", Grass: "Gazon", Carpet: "Moquette"};
@@ -792,7 +858,7 @@ async function charger() {
   // index.json est relu à chaque ouverture (il change chaque nuit) ; les autres viennent du cache s'ils n'ont pas changé
   const noms = Object.keys(index);
   const simples = noms.filter(n => /^simple-\d{4}(-\d{2})?\.json$/.test(n)).sort();
-  const autres = ["joueurs-historique.json", "joueurs-recents.json", "classements-recents.json", "photos.json"].filter(n => index[n]);
+  const autres = ["joueurs-historique.json", "joueurs-recents.json", "classements-recents.json", "classements-fin-annee.json", "photos.json"].filter(n => index[n]);
   fetch(BASE + "meta.json", {cache: "no-cache"}).then(r => r.json()).then(m => { D.maj = m.genere_le; const p = document.querySelector(".pied b"); if (p) p.textContent = new Date(D.maj).toLocaleString("fr-FR"); }).catch(() => {});
   const chiffres = noms.filter(n => /^(tml|cito)-\d{4}\.json$/.test(n)).sort();
   D.fichiersStats = noms.filter(n => /^stats-simple-/.test(n)).sort();
@@ -861,6 +927,12 @@ async function charger() {
   }
   if (D.rang) D.rangPar = new Map(D.rang.liste.map(x => [x[1], x]));
   D.photos = (lus["photos.json"] || {}).joueurs || {};
+  D.rangHist = (lus["classements-recents.json"] || {}).joueurs || {};
+  D.finAnnee = {};
+  for (const [an, x] of Object.entries(lus["classements-fin-annee.json"] || {})) {
+    if (!x || !x.rangs) continue;
+    for (const [pid, r] of Object.entries(x.rangs)) (D.finAnnee[pid] || (D.finAnnee[pid] = [])).push([+an, r]);
+  }
   etape("Prêt", 1);
 }
 
@@ -916,10 +988,18 @@ function avatar(pid, petit) {
   const ph = photoDe(pid);
   return `<div class="av${petit ? " p" : ""}" ${ph ? `style="background-image:url('${esc(ph.url)}')"` : ""}>${ph ? "" : esc(initiales(nomJ(pid)))}</div>`;
 }
-function texteRang(pid) {
+function rangInfo(pid) {
   const r = D.rangPar && D.rangPar.get(pid);
-  if (!r) return "non classé à la dernière semaine";
-  return `${r[0]}${r[0] === 1 ? "er" : "e"}${r[2] != null ? " · " + Number(r[2]).toLocaleString("fr-FR") + " pts" : ""}`;
+  if (r) return {rang: r[0], pts: r[2], date: D.rang.semaine, actuel: true};
+  const h = D.rangHist && D.rangHist[pid];
+  if (h && h[1]) return {rang: h[1], pts: h[2], date: h[0], actuel: false};
+  return null;
+}
+const ordinal = n => n + (n === 1 ? "er" : "e");
+function texteRang(pid) {
+  const r = rangInfo(pid);
+  if (!r) return "non classé";
+  return r.actuel ? `${ordinal(r.rang)} ATP${r.pts != null ? " · " + Number(r.pts).toLocaleString("fr-FR") + " pts" : ""}` : `${ordinal(r.rang)} au ${dateFr(r.date)} (dernier connu)`;
 }
 
 /* ======================================================================
@@ -1036,7 +1116,35 @@ function avatarG(pid, cls) {
   const ph = photoDe(pid);
   return `<div class="av ${cls || ""}" ${ph ? `style="background-image:url('${esc(ph.url)}');background-size:cover;background-position:center 20%"` : ""}>${ph ? "" : esc(initiales(nomJ(pid)))}</div>`;
 }
-function rangCourt(pid) { const r = D.rangPar && D.rangPar.get(pid); return r ? r[0] : null; }
+function rangCourt(pid) { const r = rangInfo(pid); return r ? r.rang : null; }
+
+
+const IOC2 = {ARG:"AR",AUS:"AU",AUT:"AT",BEL:"BE",BIH:"BA",BLR:"BY",BOL:"BO",BRA:"BR",BUL:"BG",CAN:"CA",CHI:"CL",CHN:"CN",COL:"CO",CRO:"HR",CYP:"CY",CZE:"CZ",DEN:"DK",DOM:"DO",ECU:"EC",EGY:"EG",ESP:"ES",EST:"EE",FIN:"FI",FRA:"FR",GBR:"GB",GEO:"GE",GER:"DE",GRE:"GR",HKG:"HK",HUN:"HU",IND:"IN",IRL:"IE",ISR:"IL",ITA:"IT",JPN:"JP",KAZ:"KZ",KOR:"KR",LAT:"LV",LTU:"LT",LUX:"LU",MAR:"MA",MDA:"MD",MEX:"MX",MON:"MC",NED:"NL",NOR:"NO",NZL:"NZ",PAR:"PY",PER:"PE",PHI:"PH",POL:"PL",POR:"PT",PUR:"PR",QAT:"QA",ROU:"RO",RSA:"ZA",RUS:"RU",SRB:"RS",SLO:"SI",SVK:"SK",SUI:"CH",SWE:"SE",THA:"TH",TPE:"TW",TUN:"TN",TUR:"TR",UKR:"UA",URU:"UY",USA:"US",UZB:"UZ",VEN:"VE",VIE:"VN",ZIM:"ZW",ALG:"DZ",ARM:"AM",AZE:"AZ",BAR:"BB",CRC:"CR",ESA:"SV",GUA:"GT",INA:"ID",IRI:"IR",JAM:"JM",KSA:"SA",LBN:"LB",MAS:"MY",MKD:"MK",MLT:"MT",MNE:"ME",NGR:"NG",PAK:"PK",SGP:"SG",SRI:"LK",UAE:"AE",CIV:"CI",KEN:"KE",BEN:"BJ",TOG:"TG",CMR:"CM",SEN:"SN",LIE:"LI",AND:"AD",ISL:"IS",KUW:"KW",JOR:"JO",LIB:"LB",PAN:"PA",HON:"HN",NCA:"NI",CUB:"CU",BAH:"BS",TTO:"TT",BRN:"BH",OMA:"OM",SYR:"SY",MGL:"MN",KGZ:"KG",TJK:"TJ",TKM:"TM",NAM:"NA",ZAM:"ZM",MRI:"MU",MAD:"MG",RWA:"RW",UGA:"UG",GHA:"GH",ETH:"ET"};
+function pays(ioc) {
+  const iso = IOC2[ioc]; if (!iso) return {fl: "", nom: ioc || ""};
+  let nom = ioc; try { nom = new Intl.DisplayNames(["fr"], {type: "region"}).of(iso); } catch (e) { /* ancien navigateur */ }
+  return {fl: String.fromCodePoint(...[...iso].map(c => 127397 + c.charCodeAt(0))), nom};
+}
+function prenomNom(nom) {
+  const m = (nom || "").split(/\s+/).filter(Boolean);
+  if (m.length < 2) return ["", nom || ""];
+  const part = new Set(["de", "del", "della", "di", "da", "dos", "du", "van", "von", "der", "den", "la", "le", "ter", "mac", "st", "al", "el", "ben"]);
+  let k = m.length - 1;
+  while (k > 1 && part.has(m[k - 1].toLowerCase())) k--;
+  return [m.slice(0, k).join(" "), m.slice(k).join(" ")];
+}
+const PASTILLE = {F: "F", SF: "½", QF: "¼", BR: "3e", RR: "Pl", "1T": "1T", "2T": "2T", "3T": "3T", "4T": "4T", "5T": "5T", Q1: "Q1", Q2: "Q2", Q3: "Q3", Q: "Q"};
+function scoreChips(m, pid) {
+  const s = setsDe(m), g = m.g === pid;
+  if (!s) return `<span class="small">${esc((g ? m.sc : inverserScore(m.sc)) || "score non connu")}${m.sc ? " (incomplet)" : ""}</span>`;
+  return s.map(x => { const a = g ? x.g : x.p, b = g ? x.p : x.g; return `<span class="st${a > b ? " sw" : ""}">${x.stb ? "[" : ""}${a}-${b}${x.stb ? "]" : ""}</span>`; }).join("")
+    + (m.dr & ABANDON ? '<span class="small">abandon</span>' : "") + (m.dr & FORFAIT ? '<span class="small">forfait</span>' : "");
+}
+function enteteTournoi(t, droite, sousTitre) {
+  return `<div class="trk-h"><span class="trk-lv">${esc(NIV[t.niv] || t.niv)}${t.niv === "A" && t.cat && /^\d+$/.test(t.cat) ? " " + esc(t.cat) : ""}</span>
+    <a class="trk-nm" href="#/tournoi/${encodeURIComponent(t.id)}">${esc(t.nom)}</a>${droite || ""}
+    <span class="trk-mt"><span class="surf ${esc(t.surf || "")}">${esc(SURF[t.surf] || t.surf || "?")}${t.salle === 1 ? " · salle" : ""}</span><span>${esc(sousTitre || "semaine du " + dateFr(t.debut))}</span></span></div>`;
+}
 
 /* ---------------------------------------------------------------- navigation */
 const VUES = ["accueil", "h2h", "joueur", "tournois", "reglages"];
@@ -1172,9 +1280,9 @@ function vueTournois(tid) {
       <div class="row"><span class="tag">${esc(NIV[t.niv] || t.niv)}${t.cat && t.niv === "A" ? " " + esc(t.cat) : ""}</span><span class="tag">${esc(SURF[t.surf] || t.surf || "")}${t.salle === 1 ? " · salle" : ""}</span><span class="tag">début ${dateFr(t.debut)}</span></div>
       ${f ? `<div class="fin-line"><span class="place p1">1er</span> <b>${lienJ(f.g)}</b> · <span class="place p2">2e</span> ${lienJ(f.p)}</div>` : ""}</div>
     ${tours.map(tr => { const l = ms.filter(m => m.tour === tr);
-      return `<div class="panel"><div class="sec-h"><span class="sel-t">${esc(NOM_TOUR[tr] || tr)}</span><span class="sec-sub">${l.length} match${l.length > 1 ? "s" : ""}</span></div>
-        ${l.map(m => `<div class="cls-row"><div class="cls-duo"><span class="pw">${lienJ(m.g, "")}</span><span class="bat">bat</span><span class="pl-l">${lienJ(m.p, "")}</span></div>
-          <div class="cls-sets">${chipsSets(m, m.g)} · <a href="#/h2h/${encodeURIComponent(m.g)}/${encodeURIComponent(m.p)}">face-à-face ›</a></div></div>`).join("")}</div>`; }).join("")}`;
+      return `<div class="trk lv${esc(t.niv)}"><div class="trk-h"><span class="trk-lv">${esc(NOM_TOUR[tr] || tr)}</span><span class="trk-nm">${l.length} match${l.length > 1 ? "s" : ""}</span></div>
+        <ul class="trk-l">${l.map(m => `<li class="neutre"><span class="rd">${PASTILLE[tr] || esc(tr)}</span><span class="op">${lienJ(m.g)}<small>bat ${lienJ(m.p, "")} · <a href="#/h2h/${encodeURIComponent(m.g)}/${encodeURIComponent(m.p)}">H2H</a></small></span>
+          <span class="sc">${scoreChips(m, m.g)}</span></li>`).join("")}</ul></div>`; }).join("")}`;
 }
 
 /* ---------------------------------------------------------------- Joueur */
@@ -1196,19 +1304,69 @@ function tournoisDuJoueur(liste, pid) {
   }
   return groupes.map(g => {
     const t = D.T[g.ti], dernier = g.matchs[0];
-    const titre = dernier.tour === "F" && dernier.g === pid;
-    let res;
-    if (titre) res = '<span class="place p1">Vainqueur</span>';
-    else if (dernier.g === pid) res = `<span class="tag live">En lice · ${esc(NOM_TOUR[dernier.tour] || dernier.tour)}</span>`;
-    else if (dernier.tour === "F") res = '<span class="place p2">Finaliste</span>';
-    else if (dernier.tour === "SF") res = '<span class="place p3">Demi-finale</span>';
-    else res = `<span class="tag">${/^Q/.test(dernier.tour) ? "Battu en " + dernier.tour : "Battu · " + esc(NOM_TOUR[dernier.tour] || dernier.tour)}</span>`;
-    return `<div class="panel" style="background:var(--bg);gap:8px"><div class="tour-head"><a href="#/tournoi/${encodeURIComponent(t.id)}" style="color:var(--ink);text-decoration:none"><b>${esc(t.nom)}</b> <span class="small muted">${dateFr(t.debut).slice(3)}</span></a>${res}</div>
-      <div class="row"><span class="tag">${esc(NIV[t.niv] || t.niv)}</span><span class="tag">${esc(SURF[t.surf] || t.surf || "")}${t.salle === 1 ? " · salle" : ""}</span></div>
-      <div class="matches tinted">${g.matchs.map(m => { const gg = m.g === pid, adv = gg ? m.p : m.g;
-        return `<div class="m ${gg ? "won" : "lost"}"><span class="when">${esc(NOM_TOUR[m.tour] || m.tour)}${m.jour ? " · " + dateFr(m.d) : ""}${rangCourt(adv) ? " · adversaire " + rangCourt(adv) + "e ATP" : ""}</span>
-          <span class="who">${gg ? "Bat " : "Battu par "}${lienJ(adv)} · <a class="pl" href="#/h2h/${encodeURIComponent(pid)}/${encodeURIComponent(adv)}">H2H ›</a></span><span class="res">${gg ? "V" : "D"}</span><span class="sets">${chipsSets(m, pid)}</span></div>`; }).join("")}</div></div>`;
+    let rb;
+    if (dernier.tour === "F" && dernier.g === pid) rb = '<span class="rb r1">🏆 Vainqueur</span>';
+    else if (dernier.g === pid) rb = `<span class="rb rl">En lice</span>`;
+    else if (dernier.tour === "F") rb = '<span class="rb r2">Finaliste</span>';
+    else if (dernier.tour === "SF") rb = '<span class="rb r3">Demi-finale</span>';
+    else rb = `<span class="rb">${/^Q/.test(dernier.tour) ? "Battu en " + esc(dernier.tour) : esc(NOM_TOUR[dernier.tour] || dernier.tour)}</span>`;
+    const lignes = g.matchs.map(m => { const v = m.g === pid, adv = v ? m.p : m.g, ri = rangInfo(adv);
+      return `<li class="${v ? "v" : "d"}"><span class="rd">${PASTILLE[m.tour] || esc(m.tour)}</span>
+        <span class="op">${lienJ(adv)}<small>${esc(NOM_TOUR[m.tour] || m.tour)}${ri ? " · " + ordinal(ri.rang) + " ATP" : ""}${m.jour ? " · " + dateFr(m.d).slice(0, 5) : ""} · <a href="#/h2h/${encodeURIComponent(pid)}/${encodeURIComponent(adv)}">H2H</a></small></span>
+        <span class="vd">${v ? "V" : "D"}</span><span class="sc">${scoreChips(m, pid)}</span></li>`; }).join("");
+    return `<div class="trk lv${esc(t.niv)}">${enteteTournoi(t, rb)}<ul class="trk-l">${lignes}</ul></div>`;
   });
+}
+const grande = u => /^data:/.test(u) ? u : u.replace(/\/(\d+)px-/, "/800px-");
+function carteIdentite(pid, tous, titres) {
+  const j = D.J.get(pid) || {nom: pid}, wd = D.photos[pid] || [], ph = photoDe(pid);
+  const [pn, nm] = prenomNom(j.nom), py = pays(j.pays), ri = rangInfo(pid);
+  const bt = bilan(tous, pid), an = String(anneeCourante()), bs = bilan(tous.filter(m => m.d.startsWith(an)), pid);
+  const fa = (D.finAnnee[pid] || []).filter(x => x[0] < anneeCourante()).slice().sort((a, b) => a[1] - b[1] || b[0] - a[0])[0];
+  const parNiv = {}; for (const m of titres) parNiv[D.T[m.t].niv] = (parNiv[D.T[m.t].niv] || 0) + 1;
+  const detTitres = [["G", "GC"], ["M", "M1000"], ["A", "ATP"], ["C", "Chall."]].filter(([n]) => parNiv[n]).map(([n, l]) => parNiv[n] + " " + l).join(" · ");
+  let surfPref = null;
+  for (const sf of ["Hard", "Clay", "Grass"]) { const l = tous.filter(m => D.T[m.t].surf === sf), x = bilan(l, pid), n = x.v + x.d;
+    if (n >= 10 && (!surfPref || x.v / n > surfPref.p)) surfPref = {sf, p: x.v / n, n}; }
+  const premier = tous[tous.length - 1];
+  const taille = j.taille || wd[7], poids = wd[6];
+  const fin1 = (D.finAnnee[pid] || []).find(x => x[0] === anneeCourante() - 1), finPrec = fin1 || null;
+  const titresSaison = titres.filter(m => m.d.startsWith(an));
+  const finalesC = tous.filter(m => m.tour === "F" && D.T[m.t].niv !== "D");
+  const f10 = bilan(tous.filter(compte).slice(0, 10), pid), ser = serie(tous, pid);
+  const decC = {v: 0, d: 0}, tbC = {g: 0, n: 0};
+  for (const m of tous) { const f = faits(m, pid); if (!f.complet) continue; if (f.decisif) f.gagne ? decC.v++ : decC.d++; tbC.g += f.tbG; tbC.n += f.tb; }
+  const theme = (titre, icone, cases) => `<div class="jc-th"><svg viewBox="0 0 24 24">${icone}</svg>${titre}</div><div class="jc-grid">${cases}</div>`;
+  const c = (k, v, sub, cls) => `<div><span class="k">${k}</span><span class="v${cls ? " " + cls : ""}">${v}</span><span class="s">${sub || "&nbsp;"}</span></div>`;
+  return `<div class="jc">
+    <div class="jc-hero">${ph ? `<img src="${esc(grande(ph.url))}" alt="${esc(j.nom)}" onerror="this.onerror=null;this.src='${esc(ph.url)}'">` : `<span class="ini">${esc(initiales(j.nom))}</span>`}
+      <div class="jc-ov"><span class="jc-pays"><span class="fl">${py.fl}</span>${esc(py.nom)}</span><span class="jc-pn">${esc(pn)}</span><span class="jc-nm">${esc(nm)}</span>
+        ${ri ? `<span class="jc-rk${ri.actuel ? "" : " vieux"}">N° ${ri.rang} ATP <small>${ri.actuel ? (ri.pts != null ? Number(ri.pts).toLocaleString("fr-FR") + " pts" : "") : "au " + dateFr(ri.date)}</small></span>` : '<span class="jc-rk vieux">Non classé</span>'}</div></div>
+    ${theme("Profil", '<circle cx="12" cy="8" r="3.5"/><path d="M5 20c1.2-3.6 3.8-5.4 7-5.4s5.8 1.8 7 5.4"/>',
+      c("Âge", age(j.naiss) ? age(j.naiss) + " ans" : "–", j.naiss ? "né le " + dateFr(j.naiss) : "")
+      + c("Nationalité", py.fl + " " + esc(j.pays || "–"), esc(py.nom))
+      + c("Main", j.main === "L" ? "Gaucher" : j.main === "R" ? "Droitier" : "–", "")
+      + c("Taille", taille ? (taille / 100).toFixed(2).replace(".", ",") + " m" : "–", taille ? taille + " cm" : "")
+      + c("Poids", poids ? poids + " kg" : "–", poids ? "source Wikidata" : "")
+      + c("1er match en base", premier ? premier.d.slice(0, 4) : "–", premier ? esc(D.T[premier.t].nom) : ""))}
+    ${theme("Classement ATP", '<path d="M5 20V10M12 20V4M19 20v-7"/>',
+      c("Actuel", ri ? ordinal(ri.rang) : "–", ri ? (ri.actuel ? (ri.pts != null ? Number(ri.pts).toLocaleString("fr-FR") + " pts" : "") + " · sem. du " + dateFr(ri.date) : "dernier connu, " + dateFr(ri.date)) : "non classé")
+      + c("Fin " + (anneeCourante() - 1), finPrec ? ordinal(finPrec[1]) : "–", finPrec ? "classement de fin d'année" : "non classé")
+      + c("Meilleur fin d'année", fa ? ordinal(fa[1]) : "–", fa ? "en " + fa[0] : "depuis 2011"))}
+    ${theme("Saison " + an, '<rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/>',
+      c("Bilan", `${bs.v}–${bs.d}`, pctTxt(bs.v, bs.v + bs.d) + " de victoires", bs.v > bs.d ? "w" : "")
+      + c("Titres", titresSaison.length, titresSaison.length ? esc(titresSaison.slice(0, 2).map(m => D.T[m.t].nom).join(", ")) + (titresSaison.length > 2 ? "…" : "") : "aucun cette saison")
+      + c("Forme", `${f10.v}–${f10.d}`, "10 derniers · série " + ser.n + " " + (ser.v ? "V" : "D")))}
+    ${theme("Carrière", '<path d="M8 4h8v5a4 4 0 0 1-8 0zM8 6H5a3 3 0 0 0 3 4M16 6h3a3 3 0 0 1-3 4M12 13v4M8.5 20h7"/>',
+      c("Bilan", `${bt.v}–${bt.d}`, pctTxt(bt.v, bt.v + bt.d) + " · " + tous.length + " matchs")
+      + c("Titres", titres.length, detTitres || "dans la base")
+      + c("Finales", `${titres.length}/${finalesC.length}`, "gagnées / jouées")
+      + c("Surface préférée", surfPref ? SURF[surfPref.sf] : "–", surfPref ? Math.round(100 * surfPref.p) + " % sur " + surfPref.n + " matchs" : "10 matchs minimum")
+      + c("Set décisif", `${decC.v}–${decC.d}`, pctTxt(decC.v, decC.v + decC.d) + " gagnés")
+      + c("Jeux décisifs", `${tbC.g}/${tbC.n}`, pctTxt(tbC.g, tbC.n) + " gagnés"))}
+    <div class="jc-pied">${ph && !ph.perso ? `<span class="jc-cr">Photo : ${esc(ph.auteur)} · <a href="${esc(ph.lien || "https://commons.wikimedia.org/wiki/File:" + encodeURIComponent(ph.fichier))}" target="_blank" rel="noopener">${esc(ph.licence)}</a> · Wikimedia Commons</span>` : ""}
+      <div class="row"><button id="photo">${ph && ph.perso ? "Changer ma photo" : "Ajouter une photo"}</button>${ph && ph.perso ? '<button id="photoSuppr">Retirer</button>' : ""}<button class="primary" id="versH2H">Face-à-face</button></div>
+      <input type="file" id="fichierPhoto" accept="image/*" hidden></div></div>`;
 }
 async function vueJoueur() {
   const pid = SEL.J, v = $("#vue");
@@ -1260,14 +1418,7 @@ async function vueJoueur() {
   v.innerHTML = `
     <div class="panel sel"><span class="sel-t">Joueur</span><button class="combo field" id="choixJ">${esc(j.nom)} <span class="muted">· changer</span></button>${blocFiltres("nJ", "surfJ", "circJ")}
       <div class="period">${L.length} matchs pris en compte${L.length ? ` · du ${dateFr(L[L.length - 1].d)} au ${dateFr(L[0].d)}` : ""}</div></div>
-    <div class="panel ph-card"><div class="ph-top">${avatarG(pid)}<div class="ph-id"><span class="ph-fn">${esc([j.pays, age(j.naiss) ? age(j.naiss) + " ans" : null].filter(Boolean).join(" · "))}</span><span class="ph-ln">${esc(j.nom)}</span>
-        <span class="ph-fn">${esc([(j.taille || wd[7]) ? (j.taille || wd[7]) + " cm" : null, wd[6] ? wd[6] + " kg" : null, j.main === "L" ? "gaucher" : j.main === "R" ? "droitier" : null].filter(Boolean).join(" · "))}</span></div>
-        <div class="ph-rk"><b>${r ? r[0] + "<small>" + (r[0] === 1 ? "er" : "e") + "</small>" : "–"}</b><span>${r && r[2] != null ? Number(r[2]).toLocaleString("fr-FR") + " pts" : "ATP"}</span></div></div>
-      <div class="hero-stats ph-stats"><div><span class="hv">${tous.length}</span><span class="hl">Matchs</span></div><div><span class="hv"><span class="w">${bt.v}</span>–<span class="l">${bt.d}</span></span><span class="hl">Bilan</span></div>
-        <div><span class="hv">${pctTxt(bt.v, bt.v + bt.d)}</span><span class="hl">Victoires</span></div><div><span class="hv">${titres.length}</span><span class="hl">Titres</span></div></div>
-      ${ph && !ph.perso ? `<div class="small" style="color:#9FB2D0">Photo : ${esc(ph.auteur)} · <a href="${esc(ph.lien || "https://commons.wikimedia.org/wiki/File:" + encodeURIComponent(ph.fichier))}" target="_blank" rel="noopener" style="color:#9FB2D0">${esc(ph.licence)}</a> · Wikimedia Commons</div>` : ""}
-      <div class="row"><button id="photo">${ph && ph.perso ? "Changer ma photo" : "Ajouter une photo"}</button>${ph && ph.perso ? '<button id="photoSuppr">Retirer</button>' : ""}
-        <button class="primary" id="versH2H">Face-à-face</button></div><input type="file" id="fichierPhoto" accept="image/*" hidden></div>
+    ${carteIdentite(pid, tous, titres)}
     <div class="panel"><div class="sec-h"><span class="sel-t">Points clés</span><span class="sec-sub">Sur les ${L.length} matchs pris en compte (série et forme : tous les matchs)</span></div>
       <div class="stiles">
         ${tuile("bilan", "n", "Bilan", `${b.v}–${b.d}`, pctTxt(b.v, b.v + b.d) + " de victoires", b.v + b.d ? 100 * b.v / (b.v + b.d) : 0, "zPts")}
@@ -1285,7 +1436,7 @@ async function vueJoueur() {
       ${parSurf.map(([s, l]) => ligneB("surf" + s, SURF[s] || s, l)).join("")}${salle.length ? ligneB("surfSalle", "dont en salle", salle) : ""}
       ${parCirc.map(([c, l]) => ligneB("circ" + c, NOM_CIRCUIT[c], l)).join("")}${zoneDetail("zRep")}</div>
     <div class="panel"><div class="sec-h"><span class="sel-t">Statistiques de match</span><span class="sec-sub">Moyennes sur les matchs pris en compte qui ont des statistiques</span></div><div id="zStats" class="empty">Chargement…</div></div>
-    <div class="panel"><div class="sec-h"><span class="sel-t">Tournois</span><span class="sec-sub">Ses matchs regroupés par tournoi, tour par tour</span></div><div id="zTournois" style="display:flex;flex-direction:column;gap:10px"></div></div>`;
+    <div class="panel"><div class="sec-h"><span class="sel-t">Tournois</span><span class="sec-sub">Ses matchs regroupés par tournoi, tour par tour</span></div><div id="zTournois" class="trks"></div></div>`;
   brancherTuiles(v);
   brancherFiltres(v, "nJ", "surfJ", "circJ", vueJoueur);
   $("#choixJ").onclick = () => ouvrirChoix("J", vueJoueur);
@@ -1342,7 +1493,7 @@ function ajouterPhoto(pid, fichier, apres) {
   if (!fichier) return;
   const img = new Image();
   img.onload = () => {
-    const c = document.createElement("canvas"), t = 240, r = Math.min(img.width, img.height);
+    const c = document.createElement("canvas"), t = 600, r = Math.min(img.width, img.height);
     c.width = c.height = t;
     c.getContext("2d").drawImage(img, (img.width - r) / 2, (img.height - r) / 2, r, r, 0, 0, t, t);
     if (!lsEcrire("h2h-photo-" + pid, c.toDataURL("image/jpeg", 0.85))) alert("Stockage plein sur cet appareil : photo non enregistrée.");
