@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-10T19:34+00:00",
+ "maj": "2026-11-10T21:23+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -29,15 +29,44 @@
  },
  "articles": [
   {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Holger-rune-s-impose-a-stockholm-sur-le-court-ou-il-s-etait-gravement-blesse-au-tendon-d-achille-il-y-a-un-an/1742877#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-10T20:05+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/holger-rune-la-semaine-derniere-au-rolex-paris-masters-p-lahalle-l-equipe/1500000002647670/64:11,1739:1128-828-552-75/ef884.jpg",
+   "titre": "Holger Rune s'impose à Stockholm, sur le court où il s'était gravement blessé au tendon d'Achille il y a un an",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/isner-on-alcaraz-his-serve-is-not-a-top-10-serve-by-any-means-866593.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-10T20:03+00:00",
+   "image": null,
+   "vo": "Isner on Alcaraz: “His serve is not a top-10 serve by any means”",
+   "titre": "Isner sur Alcaraz : « Son service n'est en aucun cas un service top-10 »",
+   "titre_fr": "Isner sur Alcaraz : « Son service n'est en aucun cas un service top-10 »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Alexander-zverev-et-carlos-alcaraz-representeront-team-europe-lors-de-la-laver-cup-2027-a-los-angeles/1742868#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-10T19:34+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Alexander Zverev et Carlos Alcaraz représenteront Team Europe lors de la Laver Cup 2027 à Los Angeles",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/rune-beats-eighth-seed-bergs-in-stockholm-to-set-up-kecmanovic-clash-866611.html",
    "source": "Tennis Majors (EN)",
    "langue": "en",
    "date": "2026-11-10T19:31+00:00",
    "image": null,
-   "vo": "Rune beats eighth seed Bergs in Stockholm to set up Kecmanovic quarter-final",
-   "titre": "Rune bat Bergs, huitième tête de série, à Stockholm pour mettre en place le quart de finale de Kecmanovic",
-   "titre_fr": "Rune bat Bergs, huitième tête de série, à Stockholm pour mettre en place le quart de finale de Kecmanovic",
-   "blessure": false
+   "vo": "Rune beats eighth seed Bergs in Stockholm to set up Kecmanovic second-round clash",
+   "titre": "Rune bat Bergs, huitième tête de série, à Stockholm pour mettre en place l'affrontement de deuxième tour de Kecmanovic",
+   "blessure": false,
+   "titre_fr": "Rune bat Bergs, huitième tête de série, à Stockholm pour mettre en place l'affrontement de deuxième tour de Kecmanovic"
   },
   {
    "lien": "https://www.welovetennis.fr/live/tous-les-programmes-et-resultats-en-direct",
