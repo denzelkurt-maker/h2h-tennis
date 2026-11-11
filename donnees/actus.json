@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T05:38+00:00",
+ "maj": "2026-11-11T07:56+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,13 +18,13 @@
   "L'Équipe": "ok, 39 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/tennis/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 17 articles",
+  "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 28 articles",
   "franceinfo": "ok, 20 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 17 articles",
+  "Tennis Majors (EN)": "ok, 16 articles",
   "Ubitennis": "ok, 13 articles"
  },
  "articles": [
@@ -35,6 +35,24 @@
    "date": "2026-11-11T09:45+00:00",
    "image": null,
    "titre": "11 novembre 2007 : Le jour où Justine Hénin a remporté son dernier grand titre",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/juan-carlos-ferrero-nouveau-coach-de-shelton-annonce-la-couleur-il-ne-considere-pas-que-remporter-un-grand-chelem-soit-un-objectif-lointain-il-voit-grand",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T07:35+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Ferrero-1-1024x565.jpeg",
+   "titre": "Juan Carlos Ferrero nouveau coach de Shelton annonce la couleur : « Il ne considère pas que remporter un Grand Chelem soit un objectif lointain, il voit grand »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/darren-cahill-ex-coach-de-jannik-sinner-cest-la-premiere-fois-que-je-vois-cela-chez-un-sportif-de-son-niveau",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T07:08+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/01/Sinner-Cahill-Vagnozzi-tophee-equipe-team-OA-2025-1024x549.jpeg",
+   "titre": "Darren Cahill, ex-coach de Jannik Sinner : « C’est la première fois que je vois cela chez un sportif de son niveau »",
    "blessure": false
   },
   {
