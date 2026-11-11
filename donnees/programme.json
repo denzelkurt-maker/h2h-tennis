@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T15:28+00:00",
+ "maj": "2026-11-11T17:08+00:00",
  "source": "ESPN (API publique)",
  "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
  "colonnes_tournois": [
@@ -43,47 +43,7 @@
  ],
  "matchs": [
   [
-   "2026-11-11T15:05Z",
-   1,
-   "Court 1",
-   "148-2026",
-   "Round 2",
-   "in",
-   [
-    "9986e727-3bd2-dcee-e95d-6186b7a85dc7",
-    "Borna Gojo",
-    "Croatia",
-    null
-   ],
-   [
-    "75e39239-2578-cc45-a536-6a59ddee1f9a",
-    "Ugo Humbert",
-    "France",
-    7
-   ]
-  ],
-  [
-   "2026-11-11T15:20Z",
-   1,
-   "Center Court",
-   "148-2026",
-   "Round 2",
-   "in",
-   [
-    "6493155f-cacc-7aa5-ba78-d952efa4c652",
-    "Taylor Fritz",
-    "USA",
-    1
-   ],
-   [
-    "f868201c-172e-90a1-b93f-0552e29bbc71",
-    "Cameron Norrie",
-    "Great Britain",
-    null
-   ]
-  ],
-  [
-   "2026-11-11T17:00Z",
+   "2026-11-11T17:05Z",
    1,
    "Center Court",
    "148-2026",
@@ -143,46 +103,6 @@
    ]
   ],
   [
-   "2026-11-12T14:00Z",
-   1,
-   "Center Court",
-   "148-2026",
-   "Quarterfinal",
-   "pre",
-   [
-    "d7013896-f27c-1590-01c8-3df0a2781e16",
-    "Thiago Agustin Tirante",
-    "Argentina",
-    null
-   ],
-   [
-    "-4",
-    "TBD",
-    null,
-    null
-   ]
-  ],
-  [
-   "2026-11-12T17:30Z",
-   1,
-   "Center Court",
-   "148-2026",
-   "Quarterfinal",
-   "pre",
-   [
-    "-3",
-    "TBD",
-    null,
-    null
-   ],
-   [
-    "-4",
-    "TBD",
-    null,
-    null
-   ]
-  ],
-  [
    "2026-11-12T19:00Z",
    1,
    "Center Court",
@@ -196,70 +116,10 @@
     3
    ],
    [
-    "-4",
-    "TBD",
-    null,
-    null
-   ]
-  ],
-  [
-   "2026-11-13T05:00Z",
-   0,
-   "",
-   "148-2026",
-   "Semifinal",
-   "pre",
-   [
-    "-3",
-    "TBD",
-    null,
-    null
-   ],
-   [
-    "-4",
-    "TBD",
-    null,
-    null
-   ]
-  ],
-  [
-   "2026-11-13T05:00Z",
-   0,
-   "",
-   "148-2026",
-   "Semifinal",
-   "pre",
-   [
-    "-3",
-    "TBD",
-    null,
-    null
-   ],
-   [
-    "-4",
-    "TBD",
-    null,
-    null
-   ]
-  ],
-  [
-   "2026-11-14T05:00Z",
-   0,
-   "",
-   "148-2026",
-   "Final",
-   "pre",
-   [
-    "-3",
-    "TBD",
-    null,
-    null
-   ],
-   [
-    "-4",
-    "TBD",
-    null,
-    null
+    "75e39239-2578-cc45-a536-6a59ddee1f9a",
+    "Ugo Humbert",
+    "France",
+    7
    ]
   ]
  ],
@@ -2930,5 +2790,25 @@
   "categorie"
  ],
  "challenger_maj": "2026-11-11T08:13+00:00",
- "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »"
+ "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
+ "sonde_classement": {
+  "date": "2026-11-11T17:08+00:00",
+  "essais": [
+   {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "cles": [
+     "availableRankings",
+     "leagues",
+     "rankings",
+     "sports"
+    ],
+    "lignes": 150,
+    "rang_max": 150
+   },
+   {
+    "url": "https://site.web.api.espn.com/apis/v2/sports/tennis/atp/rankings",
+    "erreur": "téléchargement impossible : https://site.web.api.espn.com/apis/v2/sports/tennis/"
+   }
+  ]
+ }
 }

@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T15:28+00:00",
+ "maj": "2026-11-11T17:08+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -17,7 +17,7 @@
  "flux": {
   "L'Équipe": "ok, 39 articles",
   "Tennis Majors": "ok, 17 articles",
-  "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/tennis/rss.xml (HTTP Error 404: Not Found)",
+  "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 15 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 28 articles",
@@ -28,6 +28,80 @@
   "Ubitennis": "ok, 12 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.lequipe.fr/explore/video/tennis-la-douleur-ne-me-manque-absolument-pas-rafael-nadal-se-raconte-en-photos/20245337#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-11T17:00+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Nadal se raconte en photos : «La douleur ne me manque absolument pas»",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/ferrero-ex-coach-dalcaraz-et-nouvel-entraineur-de-shelton-je-savais-que-sinner-chercherait-a-sadjoindre-les-services-dune-personne-experimentee-ayant-remporte-des-titre",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T16:58+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/05/Ferrero-RG-2025-1024x543.jpeg",
+   "titre": "Ferrero, ex-coach d’Alcaraz et nouvel entraîneur de Shelton : « Je savais que Sinner chercherait à s’adjoindre les services d’une personne expérimentée ayant remporté des titres importants »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Changer-les-balles-tous-les-7-jeux-et-non-tous-les-9-est-il-la-solution-face-a-la-grogne-des-joueurs-sur-leur-qualite/1742910#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-11T16:35+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Changer les balles tous les 7 jeux est-il la solution face à la grogne des joueurs ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Ugo-humbert-rejoint-lorenzo-musetti-en-quarts-de-finale-de-l-atp-250-de-stockholm/1742995#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-11T16:29+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/ugo-humbert-s-est-hisse-en-quarts-a-stockholm-p-lahalle-l-equipe/1500000002648228/132:133,1620:1125-828-552-75/25d1d.jpg",
+   "titre": "Ugo Humbert rejoint Lorenzo Musetti en quarts de finale de l'ATP 250 de Stockholm",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/tommy-haas-sur-les-comparaisons-entre-alexander-zverev-et-une-legende-du-jeu-cest-injuste",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T16:25+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alexander-Zverev-1024x555.jpeg",
+   "titre": "Tommy Haas sur les comparaisons entre Alexander Zverev et une légende du jeu : « C’est injuste »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/tabilo-edges-sonego-in-three-sets-to-set-up-michelsen-clash-in-stockholm-866662.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-11T16:02+00:00",
+   "image": null,
+   "vo": "Tabilo edges Sonego in three sets to set up Michelsen clash in Stockholm",
+   "titre": "Tabilo bat Sonego en trois sets et se qualifie pour affronter Michelsen à Stockholm",
+   "titre_fr": "Tabilo bat Sonego en trois sets et se qualifie pour affronter Michelsen à Stockholm",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/toni-nadal-rafa-ne-pouvait-pas-jouer-a-roland-garros-sans-prendre-une-pastille",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T15:59+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/06/Toni-Nadal-RG-2025-1024x523.jpg",
+   "titre": "Toni Nadal : « Rafa ne pouvait pas jouer à Roland-Garros sans prendre une pastille »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/holger-rune-une-partie-de-moi-est-amere-avec-les-blessures-de-carlos-alcaraz-et-de-jannik-sinner-il-y-a-avait-tellement-dopportunites-a-saisir-sur-le-circuit-cette-annee",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T15:26+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/01/Rune-mou-OA-2025-1024x544.jpeg",
+   "titre": "Holger Rune : « Une partie de moi est amère. Avec les blessures de Carlos Alcaraz et de Jannik Sinner, il y a avait tellement d’opportunités à saisir sur le circuit cette année »",
+   "blessure": true
+  },
   {
    "lien": "https://www.welovetennis.fr/live/tous-les-programmes-et-resultats-en-direct",
    "source": "We Love Tennis",
@@ -100,15 +174,6 @@
    "date": "2026-11-11T10:32+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Becker-1024x502.jpeg",
    "titre": "Attaqué par Zverev, Boris Becker lui répond : « On dit des choses spontanément, sous le coup de l’émotion, et là je me dis : les gars, réfléchissez un peu »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Changer-les-balles-tous-les-7-jeux-et-non-tous-les-9-est-il-la-solution-face-a-la-grogne-des-joueurs-sur-leur-qualite/1742910#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-11T10:10+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Changer les balles tous les 7 jeux est-il la solution face à la grogne des joueurs ?",
    "blessure": false
   },
   {
