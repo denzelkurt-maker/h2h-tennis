@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T17:21+00:00",
+ "maj": "2026-11-11T17:39+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -28,6 +28,15 @@
   "Ubitennis": "ok, 12 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/wta/wta-finals/kim-clijsters-inquiete-pour-la-numero-1-mondiale-je-lai-vue-a-plusieurs-reprises-ces-derniers-mois-et-elle-semblait-vraiment-epuisee",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T17:22+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/01/Rybakina-1-1024x541.jpeg",
+   "titre": "Kim Clijsters inquiète pour la numéro 1 mondiale : « Je l’ai vue à plusieurs reprises ces derniers mois, et elle semblait vraiment épuisée »",
+   "blessure": false
+  },
   {
    "lien": "https://www.lequipe.fr/explore/video/tennis-la-douleur-ne-me-manque-absolument-pas-rafael-nadal-se-raconte-en-photos/20245337#at_medium=RSS_feeds",
    "source": "L'Équipe",
