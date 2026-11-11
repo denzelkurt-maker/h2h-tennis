@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T11:36+00:00",
+ "maj": "2026-11-11T13:54+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 39 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/tennis/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 18 articles",
+  "We Love Tennis": "ok, 16 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 28 articles",
   "franceinfo": "ok, 20 articles",
@@ -29,21 +29,59 @@
  },
  "articles": [
   {
-   "lien": "https://www.welovetennis.fr/atp/jimmy-connors-met-la-pression-sur-zverev-il-a-desormais-une-responsabilite-envers-le-tennis-et-envers-lui-meme-jouer-en-tant-que-double-vainqueur-de-grand-chelem",
+   "lien": "https://www.ubitennis.net/2026/11/casper-ruud-confident-new-coach-ferrer-will-help-boost-grand-slam-chances/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-11T13:26+00:00",
+   "image": null,
+   "vo": "Casper Ruud Confident New Coach Ferrer Will Help Boost Grand Slam Chances",
+   "titre": "Casper Ruud Le nouvel entraîneur Ferrer confiant aidera à augmenter les chances du Grand Chelem",
+   "titre_fr": "Casper Ruud Le nouvel entraîneur Ferrer confiant aidera à augmenter les chances du Grand Chelem",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/rennae-stubbs-la-raison-pour-laquelle-ce-joueur-ne-remportera-pas-de-tournoi-du-grand-chelem-a-moins-que-sinner-et-alcaraz-ne-soient-elimines-cest-quil-ne-parvient-pas-a-amelio",
    "source": "We Love Tennis",
    "langue": "fr",
-   "date": "2026-11-11T11:05+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/11/Jimmy-Connors--1024x482.jpg",
-   "titre": "Jimmy Connors met la pression sur Zverev : « Il a désormais une responsabilité envers le tennis et envers lui-même : jouer en tant que double vainqueur de Grand Chelem »",
+   "date": "2026-11-11T13:20+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fritz-rire-1024x486.jpeg",
+   "titre": "Rennae Stubbs : « La raison pour laquelle ce joueur ne remportera pas de tournoi du Grand Chelem, à moins que Sinner et Alcaraz ne soient éliminés, c’est qu’il ne parvient pas à améliorer son jeu au filet »",
    "blessure": false
   },
   {
    "lien": "https://www.welovetennis.fr/live/tous-les-programmes-et-resultats-en-direct",
    "source": "We Love Tennis",
    "langue": "fr",
-   "date": "2026-11-11T11:00+00:00",
+   "date": "2026-11-11T13:00+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2022/01/Poignee-de-main-tennis-ambiance-1024x629.jpeg",
    "titre": "Tous les programmes et résultats en direct !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-elle-ne-me-manque-absolument-pas-je-vous-le-dis-je-suis-heureux-de-mener-ma-vie-sans-elle",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T12:02+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/05/Nadal-emotion-hommage-RG-2025-1024x552.jpeg",
+   "titre": "Rafael Nadal : « Elle ne me manque absolument pas. Je vous le dis, je suis heureux de mener ma vie sans elle »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/john-isner-sur-novak-djokovic-ce-nest-en-aucun-cas-une-affirmation-farfelue-meme-si-je-ne-pense-pas-que-ce-soit-juste",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T11:38+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2021/06/Isner-face-RG-2021-e1680354560116-1024x499.jpeg",
+   "titre": "John Isner sur Novak Djokovic : « Ce n’est en aucun cas une affirmation farfelue même si je ne pense pas que ce soit juste »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jimmy-connors-met-la-pression-sur-zverev-il-a-desormais-une-responsabilite-envers-le-tennis-et-envers-lui-meme-jouer-en-tant-que-double-vainqueur-de-grand-chelem",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T11:05+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/11/Jimmy-Connors--1024x482.jpg",
+   "titre": "Jimmy Connors met la pression sur Zverev : « Il a désormais une responsabilité envers le tennis et envers lui-même : jouer en tant que double vainqueur de Grand Chelem »",
    "blessure": false
   },
   {
