@@ -872,6 +872,8 @@ nav.tabs a[aria-current="page"]::before{content:"";position:absolute;top:-6px;le
 .pg-t{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-top:12px;font-size:.78rem;color:var(--muted)}
 .pg-t a{color:var(--ink);font-weight:850;font-size:.98rem;text-decoration:none}
 .pg-t span:only-child{font-weight:800;color:var(--ink)}.pg-t span:only-child::first-letter{text-transform:uppercase}
+.conf{font-size:.64rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;background:rgba(91,213,143,.16);color:var(--win);padding:1px 7px;border-radius:6px}
+.pg-ext{display:block;margin-top:14px;text-align:center;font-size:.8rem;font-weight:700;color:var(--acc);text-decoration:none}
 .att{font-size:.64rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;background:rgba(255,210,122,.16);color:var(--warn);padding:1px 7px;border-radius:6px}
 
 </style>
@@ -898,7 +900,7 @@ nav.tabs a[aria-current="page"]::before{content:"";position:absolute;top:-6px;le
    par le collecteur (donnees/), les garde en cache sur l'iPhone et fait
    tous les calculs dans le navigateur.
    ====================================================================== */
-const VERSION_APPLI = "0.7.0";
+const VERSION_APPLI = "0.7.1";
 const BASE = "./donnees/";
 const CACHE = "h2h-tennis-donnees";
 const SURF = {Hard: "Dur", Clay: "Terre", Grass: "Gazon", Carpet: "Moquette"};
@@ -1607,6 +1609,8 @@ function semaineDefaut() {
 }
 function resumeTournoi(x) {
   if (x.esp) return `Programme confirmé · <b>${dateFr(x.esp.debut)}</b> au <b>${dateFr(x.esp.fin)}</b>${x.esp.lieu ? " · " + esc(x.esp.lieu) : ""}`;
+  if (x.chl) { const f = x.ti >= 0 ? D.M.find(m => m.t === x.ti && m.tour === "F") : null;
+    return `<span class="conf">Confirmé</span> Challenger ${x.chl.cat} · ${esc(x.chl.ville)}, ${esc(x.chl.pays)}${f ? " · vainqueur " + esc(D.T[x.ti].debut.slice(0, 4)) + " : " + esc(nomJ(f.g)) : ""}`; }
   if (x.attendu) { const f = D.M.find(m => m.t === x.ti && m.tour === "F"); return `<span class="att">Attendu</span> d'après ${x.t.debut.slice(0, 4)}${f ? " · vainqueur " + esc(nomJ(f.g)) : ""}`; }
   const f = x.matchs.find(m => m.tour === "F");
   const dernier = x.matchs.reduce((a, m) => (ORDRE_TOUR[m.tour] ?? 0) > (ORDRE_TOUR[a.tour] ?? 0) ? m : a, x.matchs[0]);
@@ -1620,7 +1624,7 @@ function blocSemaine(el, compact) {
   el.innerHTML = `<div class="sec-h"><span class="sel-t">Tournois de la semaine</span><span class="sec-sub">Touche un tournoi pour son tableau</span></div>
     ${seg("circ", ["A", "C", "I"], PREF.circuit, [`ATP · ${nb.A}`, `Challenger · ${nb.C}`, `ITF · ${nb.I}`])}
     <div class="wk" style="display:grid;grid-template-columns:44px minmax(0,1fr) 44px;gap:6px;align-items:center"><button id="sp" aria-label="Semaine précédente">‹</button><div class="ctr"><b>${dateFr(sem)} au ${dateFr(fin)}</b></div><button id="ss" aria-label="Semaine suivante">›</button></div>
-    <div class="liste-t">${liste.map(x => `<a class="trn" href="#/${x.esp ? "prog" : "tournoi"}/${encodeURIComponent(x.esp ? x.esp.id : x.t.id)}"><div class="top"><span class="nm">${esc(x.t.nom)}</span><span class="tag">${esc(NIV[x.t.niv] || x.t.niv)}</span><span class="tag">${esc(SURF[x.t.surf] || x.t.surf || "")}${x.t.salle === 1 ? " · salle" : ""}</span></div><div class="res">${resumeTournoi(x)}</div></a>`).join("") || '<div class="empty">Aucun tournoi connu cette semaine pour ce circuit</div>'}</div>`;
+    <div class="liste-t">${liste.map(x => `<a class="trn" href="${x.chl ? (x.ti >= 0 ? "#/tournoi/" + encodeURIComponent(D.T[x.ti].id) : "#tournois") : "#/" + (x.esp ? "prog" : "tournoi") + "/" + encodeURIComponent(x.esp ? x.esp.id : x.t.id)}"><div class="top"><span class="nm">${esc(x.t.nom)}</span><span class="tag">${esc(NIV[x.t.niv] || x.t.niv)}</span><span class="tag">${esc(SURF[x.t.surf] || x.t.surf || "")}${x.t.salle === 1 ? " · salle" : ""}</span></div><div class="res">${resumeTournoi(x)}</div></a>`).join("") || '<div class="empty">Aucun tournoi connu cette semaine pour ce circuit</div>'}</div>`;
   el.querySelectorAll("[data-circ]").forEach(b => b.onclick = () => { PREF.circuit = b.dataset.circ; blocSemaine(el, compact); });
   el.querySelector("#sp").onclick = () => { PREF.semaine = plusJours(sem, -7); blocSemaine(el, compact); };
   el.querySelector("#ss").onclick = () => { PREF.semaine = plusJours(sem, 7); blocSemaine(el, compact); };
@@ -1646,7 +1650,8 @@ function vueTournois(tid) {
 
 
 /* ---------------------------------------------------------------- programme à venir (ESPN) et calendrier attendu */
-const PROG = {maj: null, tournois: [], matchs: [], ok: false};
+const PROG = {maj: null, tournois: [], matchs: [], chall: [], ok: false};
+const racine = nom => cle(nom || "").replace(/ (\d+|i|ii|iii|iv|v|open|masters|championships|challenger|cup|ch)(?= |$)/g, "").trim();
 let INDEX_NOMS = null;
 function pidDepuisNom(nom) {
   if (!INDEX_NOMS) {
@@ -1665,6 +1670,7 @@ function chargerProgramme() {
   return fetch(BASE + "programme.json?v=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.json() : null).then(a => {
     if (!a) return;
     PROG.maj = a.maj; PROG.ok = true;
+    PROG.chall = (a.challenger || []).map(([sem, nom, ville, pays, surf, salle, cat], i) => ({id: "chl" + i, sem, nom, ville, pays, surf, salle, cat}));
     PROG.tournois = (a.tournois || []).map(([id, nom, debut, fin, lieu]) => ({id, nom, debut, fin, lieu}));
     PROG.matchs = (a.matchs || []).map(([quand, connue, court, tid, tour, etat, j1, j2]) => {
       const jj = j => ({nom: j[1], pays: j[2], rangEspn: j[3], pid: pidDepuisNom(j[1])});
@@ -1696,7 +1702,8 @@ function blocProgramme(el) {
   const blocs = [...parT.entries()].map(([tid, l]) => { const t = PROG.tournois.find(x => x.id === tid) || {nom: "Tournoi"};
     return `<div class="pg-t"><a href="#/prog/${encodeURIComponent(tid)}">${esc(t.nom)} ›</a><span>${esc(t.lieu || "")}</span></div>${l.sort((a, b) => (a.quand || "") < (b.quand || "") ? -1 : 1).map(ligneProg).join("")}`; });
   el.innerHTML = `<div class="sec-h"><span class="sel-t">Programme des matchs</span><span class="sec-sub">Simples ATP · heures de ton téléphone · mis à jour ${PROG.maj ? ilYa(PROG.maj) : ""}</span></div>
-    ${seg("pj", jours, sel, jours.map(libJ))}${blocs.join("") || '<div class="empty">Aucun match de simple programmé ce jour-là (Challenger et ITF : pas de programme disponible).</div>'}`;
+    ${seg("pj", jours, sel, jours.map(libJ))}${blocs.join("") || '<div class="empty">Aucun match de simple programmé ce jour-là (Challenger et ITF : pas de programme disponible).</div>'}
+    <a class="pg-ext" href="https://www.tennisexplorer.com/next/" target="_blank" rel="noopener">Programme Challenger et ITF sur Tennis Explorer ›</a>`;
   el.querySelectorAll("[data-pj]").forEach(b => b.onclick = () => { PREF.progJour = b.dataset.pj; blocProgramme(el); });
 }
 function railAVenir() {
@@ -1723,9 +1730,18 @@ function tournoisAVenir(sem, deja) {
   }
   const avant = new Set([plusJours(sem, -364), plusJours(sem, -371)]);
   const prec = new Map();
-  D.T.forEach((t, i) => { if (t.debut && avant.has(lundi(t.debut)) && !/^(D|O)$/.test(t.niv) && !/ (QF|SF|F|RR|R16|1T|2T):? /.test(t.nom + " ") && !/\b[A-Z]{3} vs [A-Z]{3}/.test(t.nom)) { const k = cle(t.nom).replace(/ (open|masters|championships|challenger|cup)$/, ""); if (!prec.has(k)) prec.set(k, i); } });
+  D.T.forEach((t, i) => { if (t.debut && avant.has(lundi(t.debut)) && !/^(D|O)$/.test(t.niv) && !/ (QF|SF|F|RR|R16|1T|2T):? /.test(t.nom + " ") && !/\b[A-Z]{3} vs [A-Z]{3}/.test(t.nom)) { const k = racine(t.nom); if (k && !prec.has(k)) prec.set(k, i); } });
+  // Challenger confirmés par le calendrier Wikipédia ; l'édition de l'an dernier sert de repère (vainqueur)
+  const pris = new Set();
+  for (const c of PROG.chall.filter(x => x.sem === sem)) {
+    const kn = racine(c.nom), kv = racine(c.ville);
+    const ti = [...prec].find(([k, i]) => D.T[i].niv === "C" && k && (k === kn || k === kv || k.includes(kv) || kv.includes(k)));
+    if (ti) pris.add(ti[0]);
+    sortie.push({ti: ti ? ti[1] : -1, t: {id: c.id, nom: c.nom, niv: "C", surf: c.surf, salle: c.salle, debut: sem}, matchs: [], chl: c});
+  }
   for (const [k, i] of prec) {
-    if ([...vus].some(v => v && (v === k || v.includes(k) || k.includes(v)))) continue;
+    if (pris.has(k) || [...vus].some(v => v && (v === k || v.includes(k) || k.includes(v)))) continue;
+    if (PROG.chall.some(x => x.sem === sem) && D.T[i].niv === "C") continue;   // semaine déjà couverte par le calendrier officiel
     sortie.push({ti: i, t: D.T[i], matchs: [], attendu: true});
   }
   return sortie;

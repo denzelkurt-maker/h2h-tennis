@@ -47,7 +47,7 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.7.0"
+VERSION = "1.8.0"
 VERSION_COPIE = 2   # copie compacte de l'archive : 2 = avec statistiques et classements
 PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
 
@@ -73,7 +73,7 @@ TML_URLS = ["https://stats.tennismylife.org/data/{annee}.csv",
 TML_ITERATIONS = 600_000   # dérivation de clé volontairement lente (PBKDF2-SHA256)
 
 # Présentation du dépôt, réécrite à chaque passage (attribution exigée par les licences)
-README = "# H2H Tennis\n\nApplication personnelle et non commerciale de statistiques de tennis masculin (ATP, Challenger, ITF) : face-à-face, fiches joueurs, bilans.\n\n## Fonctionnement\n\n- `collecteur.py` construit chaque nuit les fichiers de `donnees/` à partir des sources ci-dessous (planification : `.github/workflows/collecte.yml`).\n- `rapport/rapport.md` décrit la dernière collecte (chiffres, alertes, erreurs).\n- `etat/` conserve une copie compacte de l'historique et le cache des tableaux Wikipédia.\n\n## Sources et licences\n\n| Source | Usage | Licence |\n|---|---|---|\n| Jeff Sackmann, [tennis_atp](https://github.com/JeffSackmann/tennis_atp), via la copie [Aneeshers/tennis-sackmann-archive](https://github.com/Aneeshers/tennis-sackmann-archive) | Historique des matchs, statistiques de match (aces, breaks…), joueurs, classements jusqu'à juin 2026 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |\n| [Valuebetennis](https://www.valuebetennis.com/en/donnees.htm), « Tennis results and odds since 2021 » | Matchs récents, mis à jour chaque jour | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |\n| [Wikipédia](https://en.wikipedia.org) (anglais), pages de tableaux de double | Doubles ATP et Challenger depuis 2021 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |\n| [Kaggle, dissfya/atp-tennis-2000-2023daily-pull](https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull) | Scores, catégorie 250/500, intérieur ou extérieur, classement au moment du match (circuit principal) | CC0 (domaine public) |\n| [TennisMyLife](https://stats.tennismylife.org/tennis-match-database) | Scores complets et statistiques ATP et Challenger depuis juin 2026, **fichiers `donnees/tml-*.json` chiffrés** (usage personnel du propriétaire ; la redistribution des CSV n'est pas autorisée) | Usage personnel et non commercial |\n| [Wikidata](https://www.wikidata.org) et [Wikimedia Commons](https://commons.wikimedia.org) | Photos des joueurs (licences libres, auteur et licence indiqués pour chaque photo dans `donnees/photos.json`), poids, taille | CC0 (Wikidata) ; licence de chaque photo |\n| [Cito API](https://citoapi.com) | Résultats ATP, Challenger (qualifications comprises) et ITF, statistiques de match, classement ATP complet, depuis juin 2026, **fichiers `donnees/cito-*.json` et `etat/cito-*.json` chiffrés** (redistribution interdite) | Usage dans sa propre application |\n\nLes fichiers de `donnees/` (hors `tml-*.json` et `cito-*.json`, chiffrés et non partagés) sont des œuvres dérivées de ces sources et sont partagés dans les mêmes conditions : usage non commercial, attribution, partage dans les mêmes conditions (CC BY-NC-SA 4.0).\n\nAucun lien avec l'ATP, l'ITF ou les tournois cités. Les noms de tournois sont utilisés à titre descriptif.\n"
+README = "# H2H Tennis\n\nApplication personnelle et non commerciale de statistiques de tennis masculin (ATP, Challenger, ITF) : face-à-face, fiches joueurs, bilans.\n\n## Fonctionnement\n\n- `collecteur.py` construit chaque nuit les fichiers de `donnees/` à partir des sources ci-dessous (planification : `.github/workflows/collecte.yml`).\n- `rapport/rapport.md` décrit la dernière collecte (chiffres, alertes, erreurs).\n- `etat/` conserve une copie compacte de l'historique et le cache des tableaux Wikipédia.\n\n## Sources et licences\n\n| Source | Usage | Licence |\n|---|---|---|\n| Jeff Sackmann, [tennis_atp](https://github.com/JeffSackmann/tennis_atp), via la copie [Aneeshers/tennis-sackmann-archive](https://github.com/Aneeshers/tennis-sackmann-archive) | Historique des matchs, statistiques de match (aces, breaks…), joueurs, classements jusqu'à juin 2026 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |\n| [Valuebetennis](https://www.valuebetennis.com/en/donnees.htm), « Tennis results and odds since 2021 » | Matchs récents, mis à jour chaque jour | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |\n| [Wikipédia](https://en.wikipedia.org) (anglais), pages de tableaux de double | Doubles ATP et Challenger depuis 2021 ; calendrier des tournois Challenger de la saison (pages « AAAA ATP Challenger Tour ») | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |\n| API publique d'ESPN (tennis ATP) | Programme des matchs de simple ATP à venir et calendrier du circuit ATP, `donnees/programme.json` (noms, heures, tours ; rien d'autre n'est repris) | API publique non officielle, pas de licence indiquée |\n| [Kaggle, dissfya/atp-tennis-2000-2023daily-pull](https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull) | Scores, catégorie 250/500, intérieur ou extérieur, classement au moment du match (circuit principal) | CC0 (domaine public) |\n| [TennisMyLife](https://stats.tennismylife.org/tennis-match-database) | Scores complets et statistiques ATP et Challenger depuis juin 2026, **fichiers `donnees/tml-*.json` chiffrés** (usage personnel du propriétaire ; la redistribution des CSV n'est pas autorisée) | Usage personnel et non commercial |\n| [Wikidata](https://www.wikidata.org) et [Wikimedia Commons](https://commons.wikimedia.org) | Photos des joueurs (licences libres, auteur et licence indiqués pour chaque photo dans `donnees/photos.json`), poids, taille | CC0 (Wikidata) ; licence de chaque photo |\n| [Cito API](https://citoapi.com) | Résultats ATP, Challenger (qualifications comprises) et ITF, statistiques de match, classement ATP complet, depuis juin 2026, **fichiers `donnees/cito-*.json` et `etat/cito-*.json` chiffrés** (redistribution interdite) | Usage dans sa propre application |\n\nLes fichiers de `donnees/` (hors `tml-*.json` et `cito-*.json`, chiffrés et non partagés) sont des œuvres dérivées de ces sources et sont partagés dans les mêmes conditions : usage non commercial, attribution, partage dans les mêmes conditions (CC BY-NC-SA 4.0).\n\nAucun lien avec l'ATP, l'ITF ou les tournois cités. Les noms de tournois sont utilisés à titre descriptif.\n"
 
 RACINE = os.path.dirname(os.path.abspath(__file__))
 DONNEES = os.path.join(RACINE, "donnees")
@@ -2739,9 +2739,106 @@ def collecter_programme():
               "colonnes_matchs": ["debut_utc", "heure_connue", "court", "id_tournoi", "tour", "etat", "joueur1", "joueur2"],
               "colonnes_joueur": ["id", "nom", "pays", "rang"],
               "tournois": sorted(tournois.values(), key=lambda t: t[2]), "matchs": liste}
+    for k in ("challenger", "colonnes_challenger", "challenger_maj", "challenger_source"):
+        if k in ancien:
+            sortie[k] = ancien[k]
     if (ancien.get("tournois"), ancien.get("matchs")) != (sortie["tournois"], sortie["matchs"]):
         ecrire_json(chemin, sortie, compact=False)
     J.chiffres["programme"] = {"tournois": len(tournois), "matchs": len(liste), **dict(stats)}
+    return "programme.json"
+
+
+# ---------------------------------------------------------------- calendrier Challenger (Wikipédia, CC BY-SA 4.0)
+MOIS_EN = {m: i + 1 for i, m in enumerate(["January", "February", "March", "April", "May", "June", "July", "August",
+                                           "September", "October", "November", "December"])}
+RE_SEMAINE = re.compile(r"^(" + "|".join(MOIS_EN) + r")\s+(\d{1,2})$")
+RE_CHALL = re.compile(r"^(?P<nom>.+?)\s+(?P<ville>[^,\n]+?),\s*(?P<pays>[^\n]+?)\s+(?P<surf>Hard|Clay|Grass|Carpet)(?P<salle>\s*\(i\))?\s*[–—-]\s*Challenger\s*(?P<cat>\d+)", re.S)
+
+
+class _TablesHtml(__import__("html.parser", fromlist=["HTMLParser"]).HTMLParser):
+    """Extrait les lignes des tableaux : liste de lignes, chaque ligne = liste de textes de cellules."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.lignes, self.ligne, self.cellule, self.prof = [], None, None, 0
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "tr":
+            self.ligne = []
+        elif tag in ("td", "th") and self.ligne is not None:
+            self.cellule = []
+        elif tag == "br" and self.cellule is not None:
+            self.cellule.append("\n")
+        elif tag in ("sup", "style", "script") and self.cellule is not None:
+            self.prof += 1
+
+    def handle_endtag(self, tag):
+        if tag in ("td", "th") and self.cellule is not None and self.ligne is not None:
+            self.ligne.append(re.sub(r"[ \t\xa0]+", " ", "".join(self.cellule)).strip())
+            self.cellule = None
+        elif tag == "tr" and self.ligne is not None:
+            self.lignes.append(self.ligne)
+            self.ligne = None
+        elif tag in ("sup", "style", "script") and self.prof:
+            self.prof -= 1
+
+    def handle_data(self, data):
+        if self.cellule is not None and not self.prof:
+            self.cellule.append(data)
+
+
+def collecter_calendrier_challenger():
+    """Tournois Challenger semaine par semaine pour la saison en cours (page Wikipédia « AAAA ATP Challenger Tour »).
+    Ajoute la clé « challenger » à donnees/programme.json (relue au plus une fois par jour)."""
+    chemin = os.path.join(DONNEES, "programme.json")
+    prog = lire_json(chemin, {})
+    aujourdhui = dt.datetime.now(dt.timezone.utc).date()
+    if (prog.get("challenger_maj") or "") >= (dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=20)).isoformat():
+        return None
+    resultat, diag = [], {}
+    for annee in (aujourdhui.year, aujourdhui.year + 1):
+        titre = f"{annee} ATP Challenger Tour"
+        try:
+            data = wiki_requete({"action": "parse", "page": titre, "prop": "text", "redirects": "1"}, pause=1.0)
+        except Exception as e:  # noqa: BLE001
+            diag[str(annee)] = f"erreur : {str(e)[:100]}"
+            continue
+        if "error" in data:
+            diag[str(annee)] = f"page absente ({data['error'].get('code')})"
+            continue
+        parseur = _TablesHtml()
+        parseur.feed((data.get("parse") or {}).get("text") or "")
+        semaine, n, rejets = None, 0, []
+        for ligne in parseur.lignes:
+            for cell in ligne:
+                m = RE_SEMAINE.match(cell.strip())
+                if m:
+                    semaine = dt.date(annee, MOIS_EN[m.group(1)], int(m.group(2)))
+                    break
+            if semaine is None:
+                continue
+            for cell in ligne:
+                m = RE_CHALL.match(cell.strip())
+                if m:
+                    if "echantillon" not in diag:
+                        diag["echantillon"] = cell.strip()[:160]
+                    lundi = semaine - dt.timedelta(days=semaine.weekday())
+                    resultat.append([lundi.isoformat(), m.group("nom").strip(), m.group("ville").strip(), m.group("pays").strip(),
+                                     m.group("surf"), 1 if m.group("salle") else 0, int(m.group("cat"))])
+                    n += 1
+                    break
+            else:
+                if any("Challenger" in c for c in ligne) and len(rejets) < 3:
+                    rejets.append(" | ".join(ligne)[:200])
+        diag[str(annee)] = {"tournois": n, "lignes_non_reconnues": rejets, "lignes_totales": len(parseur.lignes)}
+    J.chiffres["calendrier_challenger"] = diag
+    if not resultat:
+        J.alerte("Calendrier Challenger : aucun tournoi lu (format de la page Wikipédia changé ?)")
+        return None
+    prog["challenger"] = sorted(resultat)
+    prog["colonnes_challenger"] = ["semaine_lundi", "nom", "ville", "pays", "surface", "salle", "categorie"]
+    prog["challenger_maj"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
+    prog["challenger_source"] = "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »"
+    ecrire_json(chemin, prog, compact=False)
     return "programme.json"
 
 
@@ -2982,6 +3079,11 @@ def main():
                 collecter_programme()
             except Exception as e:  # noqa: BLE001
                 print("Programme : échec", e, file=sys.stderr)
+            try:
+                collecter_calendrier_challenger()
+            except Exception as e:  # noqa: BLE001
+                print("Calendrier Challenger : échec", e, file=sys.stderr)
+            print(json.dumps(J.chiffres.get("calendrier_challenger"), ensure_ascii=False))
             print(json.dumps(J.chiffres.get("programme"), ensure_ascii=False))
             return 0
         except Exception as e:  # noqa: BLE001
