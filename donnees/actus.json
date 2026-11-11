@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T08:00+00:00",
+ "maj": "2026-11-11T08:12+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 39 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/tennis/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 18 articles",
+  "We Love Tennis": "ok, 19 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 28 articles",
   "franceinfo": "ok, 20 articles",
@@ -35,6 +35,15 @@
    "date": "2026-11-11T09:45+00:00",
    "image": null,
    "titre": "11 novembre 2007 : Le jour où Justine Hénin a remporté son dernier grand titre",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-folle-revolution-proposee-par-nadal-cela-donnerait-aux-joueurs-un-peu-plus-de-liberte-pour-prendre-de-meilleures-decisions",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T08:04+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/07/Nadal-regard-1024x545.jpeg",
+   "titre": "La folle révolution proposée par Nadal : « Cela donnerait aux joueurs un peu plus de liberté pour prendre de meilleures décisions »",
    "blessure": false
   },
   {
