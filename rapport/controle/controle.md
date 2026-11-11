@@ -1,47 +1,46 @@
 # Contrôle de l'appli
 
-- Date (UTC) : 2026-11-11T17:04:06.846Z
+- Date (UTC) : 2026-11-11T17:09:04.458Z
 - Version de l'appli : 0.8.0
-- État : **OK avec alertes**
+- État : **OK**
 
 ## Erreurs
 - aucune
 
 ## Alertes
-- navigation : carte de résultat n°2 : pas de bouton Retour (#tournois)
-- navigation : carte de résultat n°3 : pas de bouton Retour (#tournois)
+- aucune
 
 ## Chiffres
 ```json
 {
  "public": {
-  "duree_chargement_s": 3.353,
+  "duree_chargement_s": 2.894,
   "chiffres": {
    "version_appli": "0.8.0",
    "matchs": 356326,
-   "joueurs": 11627,
+   "joueurs": 11829,
    "tournois": 10494,
    "doublons": 0,
    "complements_dechiffres": false,
    "classement": {
-    "semaine": "2026-10-26",
-    "source": "classement d'entrée en tournoi (partiel)",
-    "rangs": 63,
+    "semaine": "2026-11-02",
+    "source": "ATP, via Wikimedia Commons",
+    "rangs": 2301,
     "top3": [
      [
-      2,
+      1,
       "Alexander Zverev",
-      9750
+      9550
+     ],
+     [
+      2,
+      "Jannik Sinner",
+      9450
      ],
      [
       3,
       "Carlos Alcaraz",
-      5610
-     ],
-     [
-      4,
-      "Ben Shelton",
-      4680
+      6100
      ]
     ]
    },
@@ -87,18 +86,18 @@
   }
  },
  "complet": {
-  "duree_chargement_s": 3.136,
+  "duree_chargement_s": 2.349,
   "chiffres": {
    "version_appli": "0.8.0",
    "matchs": 356812,
-   "joueurs": 11646,
+   "joueurs": 11848,
    "tournois": 10495,
    "doublons": 0,
    "complements_dechiffres": true,
    "classement": {
-    "semaine": "2026-11-09",
-    "source": "Cito",
-    "rangs": 100,
+    "semaine": "2026-11-02",
+    "source": "ATP, via Wikimedia Commons",
+    "rangs": 2301,
     "top3": [
      [
       1,
@@ -113,7 +112,7 @@
      [
       3,
       "Carlos Alcaraz",
-      7100
+      6100
      ]
     ]
    },
