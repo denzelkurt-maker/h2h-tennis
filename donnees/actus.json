@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T08:12+00:00",
+ "maj": "2026-11-11T09:37+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -25,7 +25,7 @@
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 16 articles",
-  "Ubitennis": "ok, 13 articles"
+  "Ubitennis": "ok, 12 articles"
  },
  "articles": [
   {
@@ -35,6 +35,33 @@
    "date": "2026-11-11T09:45+00:00",
    "image": null,
    "titre": "11 novembre 2007 : Le jour où Justine Hénin a remporté son dernier grand titre",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-sur-le-choix-de-magnus-norman-comme-nouvel-entraineur-je-lai-choisi-parce-quil-ressemble-beaucoup-a-cahill-cest-tres-important-je-naurai-pas-a-repartir",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T09:34+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Sinner-323-1024x543.jpg",
+   "titre": "Jannik Sinner sur le choix de Magnus Norman comme nouvel entraîneur : « Je l’ai choisi parce qu’il ressemble beaucoup à Cahill. C’est très important, je n’aurai pas à repartir de zéro »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/wta/wta-finals/noskova-tres-honnete-apres-sa-qualification-en-demi-finale-jai-appris-ma-qualification-il-y-a-deux-minutes-je-ne-savais-pas-du-tout-comment-ca-marchait-je-pensais-quil-fallait-dispute",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T09:04+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Noskova-sourire-wim-1024x543.jpeg",
+   "titre": "Noskova très honnête après sa qualification en demi-finale : « J’ai appris ma qualification il y a deux minutes. Je ne savais pas du tout comment ça marchait. Je pensais qu’il fallait disputer tous les matchs pour connaî",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/ruud-met-la-pression-sur-ferrer-son-nouveau-coach-je-crois-que-david-pourra-tirer-le-meilleur-de-moi-je-veux-voir-si-je-peux-remporter-un-tournoi-du-grand-chelem",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T08:34+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Ruud-1024x682.jpeg",
+   "titre": "Ruud met la pression sur Ferrer, son nouveau coach : « Je crois que David pourra tirer le meilleur de moi. Je veux voir si je peux remporter un tournoi du Grand Chelem »",
    "blessure": false
   },
   {
