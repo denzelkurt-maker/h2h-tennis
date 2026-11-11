@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-10T23:17+00:00",
+ "maj": "2026-11-11T01:29+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 40 articles",
+  "L'Équipe": "ok, 39 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/tennis/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 17 articles",
@@ -24,10 +24,19 @@
   "franceinfo": "ok, 20 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 18 articles",
+  "Tennis Majors (EN)": "ok, 17 articles",
   "Ubitennis": "ok, 13 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/fr/wta-actualite/11-novembre-2007-le-jour-ou-justine-henin-a-remporte-son-dernier-titre-sharapova-304458.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-11T09:45+00:00",
+   "image": null,
+   "titre": "11 novembre 2007 : Le jour où Justine Hénin a remporté son dernier grand titre",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/others-news/davis-cup-news/tsonga-on-monfils-captaincy-i-was-never-really-a-candidate-866592.html",
    "source": "Tennis Majors (EN)",

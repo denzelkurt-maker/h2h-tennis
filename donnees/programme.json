@@ -1,0 +1,286 @@
+{
+ "maj": "2026-11-11T01:29+00:00",
+ "source": "ESPN (API publique)",
+ "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
+ "colonnes_tournois": [
+  "id",
+  "nom",
+  "debut",
+  "fin",
+  "lieu"
+ ],
+ "colonnes_matchs": [
+  "debut_utc",
+  "heure_connue",
+  "court",
+  "id_tournoi",
+  "tour",
+  "etat",
+  "joueur1",
+  "joueur2"
+ ],
+ "colonnes_joueur": [
+  "id",
+  "nom",
+  "pays",
+  "rang"
+ ],
+ "tournois": [
+  [
+   "148-2026",
+   "Bybit Stockholm Open",
+   "2026-11-07",
+   "2026-11-15",
+   "Stockholm, Sweden"
+  ],
+  [
+   "339-2026",
+   "Nitto ATP Finals",
+   "2026-11-14",
+   "2026-11-23",
+   null
+  ]
+ ],
+ "matchs": [
+  [
+   "2026-11-11T12:00Z",
+   1,
+   "Center Court",
+   "148-2026",
+   "Round 2",
+   "pre",
+   [
+    "687223c9-e8fb-7106-54b2-0bd2f9697146",
+    "Lorenzo Sonego",
+    "Italy",
+    null
+   ],
+   [
+    "8fa7d691-fc6c-a510-edd4-781c2b6c3126",
+    "Alejandro Tabilo",
+    "Chile",
+    4
+   ]
+  ],
+  [
+   "2026-11-11T13:30Z",
+   1,
+   "Center Court",
+   "148-2026",
+   "Round 2",
+   "pre",
+   [
+    "6493155f-cacc-7aa5-ba78-d952efa4c652",
+    "Taylor Fritz",
+    "USA",
+    1
+   ],
+   [
+    "f868201c-172e-90a1-b93f-0552e29bbc71",
+    "Cameron Norrie",
+    "Great Britain",
+    null
+   ]
+  ],
+  [
+   "2026-11-11T15:00Z",
+   1,
+   "Court 1",
+   "148-2026",
+   "Round 2",
+   "pre",
+   [
+    "9986e727-3bd2-dcee-e95d-6186b7a85dc7",
+    "Borna Gojo",
+    "Croatia",
+    null
+   ],
+   [
+    "75e39239-2578-cc45-a536-6a59ddee1f9a",
+    "Ugo Humbert",
+    "France",
+    7
+   ]
+  ],
+  [
+   "2026-11-11T17:00Z",
+   1,
+   "Center Court",
+   "148-2026",
+   "Round 2",
+   "pre",
+   [
+    "de169e60-0a75-3e19-944b-9b685744b9ce",
+    "Aleksandr Shevchenko",
+    "Kazakhstan",
+    null
+   ],
+   [
+    "116ef01e-3239-e44f-9c8a-022f81012782",
+    "Casper Ruud",
+    "Norway",
+    2
+   ]
+  ],
+  [
+   "2026-11-11T18:30Z",
+   1,
+   "Center Court",
+   "148-2026",
+   "Round 2",
+   "pre",
+   [
+    "6972f310-caca-a4fc-3e06-78b5cefa7387",
+    "Miomir Kecmanovic",
+    "Serbia",
+    null
+   ],
+   [
+    "b147e841-a236-2e4b-5f4d-01bdba396310",
+    "Holger Rune",
+    "Denmark",
+    null
+   ]
+  ],
+  [
+   "2026-11-12T05:00Z",
+   0,
+   "",
+   "148-2026",
+   "Quarterfinal",
+   "pre",
+   [
+    "-3",
+    "TBD",
+    null,
+    null
+   ],
+   [
+    "-4",
+    "TBD",
+    null,
+    null
+   ]
+  ],
+  [
+   "2026-11-12T05:00Z",
+   0,
+   "",
+   "148-2026",
+   "Quarterfinal",
+   "pre",
+   [
+    "9b79e506-da5f-e10a-6b4e-9a2a93ed34bb",
+    "Lorenzo Musetti",
+    "Italy",
+    3
+   ],
+   [
+    "-4",
+    "TBD",
+    null,
+    null
+   ]
+  ],
+  [
+   "2026-11-12T05:00Z",
+   0,
+   "",
+   "148-2026",
+   "Quarterfinal",
+   "pre",
+   [
+    "3a18ef3a-cc7b-3f51-a969-cac9c930c75d",
+    "Alex Michelsen",
+    "USA",
+    6
+   ],
+   [
+    "-4",
+    "TBD",
+    null,
+    null
+   ]
+  ],
+  [
+   "2026-11-12T05:00Z",
+   0,
+   "",
+   "148-2026",
+   "Quarterfinal",
+   "pre",
+   [
+    "d7013896-f27c-1590-01c8-3df0a2781e16",
+    "Thiago Agustin Tirante",
+    "Argentina",
+    null
+   ],
+   [
+    "-4",
+    "TBD",
+    null,
+    null
+   ]
+  ],
+  [
+   "2026-11-13T05:00Z",
+   0,
+   "",
+   "148-2026",
+   "Semifinal",
+   "pre",
+   [
+    "-3",
+    "TBD",
+    null,
+    null
+   ],
+   [
+    "-4",
+    "TBD",
+    null,
+    null
+   ]
+  ],
+  [
+   "2026-11-13T05:00Z",
+   0,
+   "",
+   "148-2026",
+   "Semifinal",
+   "pre",
+   [
+    "-3",
+    "TBD",
+    null,
+    null
+   ],
+   [
+    "-4",
+    "TBD",
+    null,
+    null
+   ]
+  ],
+  [
+   "2026-11-14T05:00Z",
+   0,
+   "",
+   "148-2026",
+   "Final",
+   "pre",
+   [
+    "-3",
+    "TBD",
+    null,
+    null
+   ],
+   [
+    "-4",
+    "TBD",
+    null,
+    null
+   ]
+  ]
+ ]
+}
