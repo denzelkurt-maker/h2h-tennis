@@ -858,6 +858,22 @@ nav.tabs a[aria-current="page"]::before{content:"";position:absolute;top:-6px;le
 .mt-h2h{text-align:center;font-size:1rem;padding:4px 0}
 .mt-btn{display:block;text-align:center;text-decoration:none;color:var(--acc);font-weight:800}
 
+/* ===== 0.7.0 : programme à venir ===== */
+.pg{display:flex;flex-direction:column;gap:2px;padding:10px 12px;border-radius:14px;background:var(--bg);border:1px solid var(--line);margin-top:8px}
+.pg-h{display:flex;align-items:center;gap:8px;font-size:.74rem;color:var(--muted);flex-wrap:wrap}
+.pg-h .hr{font-weight:900;font-size:.84rem;color:var(--ink);background:var(--sunk);padding:2px 9px;border-radius:999px}
+.pg-h .hr.live{background:#FF5D4A;color:#fff}
+.pg-h .h2h{margin-left:auto;color:var(--acc);font-weight:800;text-decoration:none;font-size:.76rem}
+.pg-j{display:flex;align-items:center;gap:9px;padding:4px 0}
+.pg-j .n{font-weight:700;font-size:.95rem;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pg-j .n small{margin-left:6px;color:var(--muted);font-weight:600;font-size:.72rem}
+.pg-j a.pl{color:var(--ink);text-decoration:none}
+.ph.sm{width:30px;height:30px;border-radius:50%;flex:none;background-size:cover;background-position:center 18%;background-color:var(--sunk);display:grid;place-items:center;font-size:.62rem;font-weight:800}
+.pg-t{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-top:12px;font-size:.78rem;color:var(--muted)}
+.pg-t a{color:var(--ink);font-weight:850;font-size:.98rem;text-decoration:none}
+.pg-t span:only-child{font-weight:800;color:var(--ink)}.pg-t span:only-child::first-letter{text-transform:uppercase}
+.att{font-size:.64rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;background:rgba(255,210,122,.16);color:var(--warn);padding:1px 7px;border-radius:6px}
+
 </style>
 </head>
 <body>
@@ -882,7 +898,7 @@ nav.tabs a[aria-current="page"]::before{content:"";position:absolute;top:-6px;le
    par le collecteur (donnees/), les garde en cache sur l'iPhone et fait
    tous les calculs dans le navigateur.
    ====================================================================== */
-const VERSION_APPLI = "0.6.1";
+const VERSION_APPLI = "0.7.0";
 const BASE = "./donnees/";
 const CACHE = "h2h-tennis-donnees";
 const SURF = {Hard: "Dur", Clay: "Terre", Grass: "Gazon", Carpet: "Moquette"};
@@ -1428,6 +1444,7 @@ function rendre() {
   if (v === "joueur" && a) { choisir("J", a); return afficher("joueur"); }
   if (v === "h2h" && a && b) { choisir("A", a); choisir("B", b); return afficher("h2h"); }
   if (v === "tournoi" && a) return afficher("tournois", a);
+  if (v === "prog" && a) return afficher("prog", a);
   if (v === "match") return afficher("match", brut.split("/").slice(1).map(decodeURIComponent));
   afficher(VUES.includes(v) ? v : "accueil");
 }
@@ -1436,11 +1453,11 @@ function retour() {
   location.hash = prec;
 }
 function afficher(v, arg) {
-  const tabV = v === "match" ? "accueil" : v;
+  const tabV = v === "match" ? "accueil" : v === "prog" ? "tournois" : v;
   document.querySelectorAll("nav.tabs a").forEach(a => a.dataset.v === tabV ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
   document.body.className = document.body.className.replace(/\bv-\S+/g, "").trim() + " v-" + v;
   scroller().scrollTop = 0;
-  ({accueil: vueAccueil, h2h: vueH2H, joueur: vueJoueur, tournois: vueTournois, reglages: vueReglages, match: vueMatch})[v](arg);
+  ({accueil: vueAccueil, h2h: vueH2H, joueur: vueJoueur, tournois: vueTournois, reglages: vueReglages, match: vueMatch, prog: vueProg})[v](arg);
 }
 window.addEventListener("hashchange", rendre);
 document.addEventListener("click", e => { if (e.target.closest("#retour")) retour(); });
@@ -1539,6 +1556,7 @@ function vueAccueil() {
     <button class="field" id="cherche">🔍 Chercher un joueur…</button>
     <div class="blk-h"><h3>À la une</h3><span class="s">${ACT.maj ? "presse " + ilYa(ACT.maj) : ""}</span></div>
     <div class="rail" id="uneA"></div>
+    <div id="avenirA">${railAVenir()}</div>
     ${vedette.length ? `<div class="blk-h"><h3>Derniers résultats</h3><span class="s">${dateFr(E.dernierJour)} · ${E.duJour.length} matchs</span></div>
     <div class="rail">${vedette.map(carteResultat).join("")}</div>` : ""}
     <div class="panel ess"><div class="sec-h"><span class="sel-t">L'essentiel</span><span class="sec-sub">Semaine du ${dateFr(semaineDefaut())} · touche une tuile pour le détail</span></div>
@@ -1588,26 +1606,28 @@ function semaineDefaut() {
   return PREF.semaine = s;
 }
 function resumeTournoi(x) {
+  if (x.esp) return `Programme confirmé · <b>${dateFr(x.esp.debut)}</b> au <b>${dateFr(x.esp.fin)}</b>${x.esp.lieu ? " · " + esc(x.esp.lieu) : ""}`;
+  if (x.attendu) { const f = D.M.find(m => m.t === x.ti && m.tour === "F"); return `<span class="att">Attendu</span> d'après ${x.t.debut.slice(0, 4)}${f ? " · vainqueur " + esc(nomJ(f.g)) : ""}`; }
   const f = x.matchs.find(m => m.tour === "F");
   const dernier = x.matchs.reduce((a, m) => (ORDRE_TOUR[m.tour] ?? 0) > (ORDRE_TOUR[a.tour] ?? 0) ? m : a, x.matchs[0]);
   return f ? `Vainqueur : <b>${esc(nomJ(f.g))}</b> (bat ${esc(nomJ(f.p))})` : `En cours · <b>${esc(NOM_TOUR[dernier.tour] || dernier.tour)}</b>`;
 }
 function blocSemaine(el, compact) {
   const sem = semaineDefaut(), fin = plusJours(sem, 6);
-  const tous = tournoisSemaine(sem);
+  const reels = tournoisSemaine(sem), tous = reels.concat(compact ? [] : tournoisAVenir(sem, reels));
   const nb = {A: 0, C: 0, I: 0}; for (const x of tous) nb[groupeCircuit(x.t.niv)]++;
   let liste = tous.filter(x => groupeCircuit(x.t.niv) === PREF.circuit).sort((a, b) => a.t.nom.localeCompare(b.t.nom));
   el.innerHTML = `<div class="sec-h"><span class="sel-t">Tournois de la semaine</span><span class="sec-sub">Touche un tournoi pour son tableau</span></div>
     ${seg("circ", ["A", "C", "I"], PREF.circuit, [`ATP · ${nb.A}`, `Challenger · ${nb.C}`, `ITF · ${nb.I}`])}
     <div class="wk" style="display:grid;grid-template-columns:44px minmax(0,1fr) 44px;gap:6px;align-items:center"><button id="sp" aria-label="Semaine précédente">‹</button><div class="ctr"><b>${dateFr(sem)} au ${dateFr(fin)}</b></div><button id="ss" aria-label="Semaine suivante">›</button></div>
-    <div class="liste-t">${liste.map(x => `<a class="trn" href="#/tournoi/${encodeURIComponent(x.t.id)}"><div class="top"><span class="nm">${esc(x.t.nom)}</span><span class="tag">${esc(NIV[x.t.niv] || x.t.niv)}</span><span class="tag">${esc(SURF[x.t.surf] || x.t.surf || "")}${x.t.salle === 1 ? " · salle" : ""}</span></div><div class="res">${resumeTournoi(x)}</div></a>`).join("") || '<div class="empty">Aucun résultat cette semaine pour ce circuit</div>'}</div>`;
+    <div class="liste-t">${liste.map(x => `<a class="trn" href="#/${x.esp ? "prog" : "tournoi"}/${encodeURIComponent(x.esp ? x.esp.id : x.t.id)}"><div class="top"><span class="nm">${esc(x.t.nom)}</span><span class="tag">${esc(NIV[x.t.niv] || x.t.niv)}</span><span class="tag">${esc(SURF[x.t.surf] || x.t.surf || "")}${x.t.salle === 1 ? " · salle" : ""}</span></div><div class="res">${resumeTournoi(x)}</div></a>`).join("") || '<div class="empty">Aucun tournoi connu cette semaine pour ce circuit</div>'}</div>`;
   el.querySelectorAll("[data-circ]").forEach(b => b.onclick = () => { PREF.circuit = b.dataset.circ; blocSemaine(el, compact); });
   el.querySelector("#sp").onclick = () => { PREF.semaine = plusJours(sem, -7); blocSemaine(el, compact); };
   el.querySelector("#ss").onclick = () => { PREF.semaine = plusJours(sem, 7); blocSemaine(el, compact); };
 }
 function vueTournois(tid) {
   const v = $("#vue");
-  if (!tid) { v.innerHTML = '<div class="panel" id="semaineT"></div>'; blocSemaine($("#semaineT")); return; }
+  if (!tid) { v.innerHTML = '<div class="panel" id="progT"></div><div class="panel" id="semaineT"></div>'; blocProgramme($("#progT")); blocSemaine($("#semaineT")); return; }
   const ti = D.tIdx.get(tid); if (ti == null) { v.innerHTML = '<div class="panel empty">Tournoi inconnu</div>'; return; }
   const t = D.T[ti];
   const ms = D.M.filter(m => m.t === ti);
@@ -1616,12 +1636,136 @@ function vueTournois(tid) {
   v.innerHTML = `<div class="panel"><div class="tour-head"><h2>${esc(t.nom)}</h2><a href="#tournois" class="small">‹ Semaine</a></div>
       <div class="row"><span class="tag">${esc(NIV[t.niv] || t.niv)}${t.cat && t.niv === "A" ? " " + esc(t.cat) : ""}</span><span class="tag">${esc(SURF[t.surf] || t.surf || "")}${t.salle === 1 ? " · salle" : ""}</span><span class="tag">début ${dateFr(t.debut)}</span></div>
       ${f ? `<div class="fin-line"><span class="place p1">1er</span> <b>${lienJ(f.g)}</b> · <span class="place p2">2e</span> ${lienJ(f.p)}</div>` : ""}</div>
+    ${blocProgTournoi(t)}
     ${tours.map(tr => { const l = ms.filter(m => m.tour === tr);
       return `<div class="trk lv${esc(t.niv)}"><div class="trk-h"><span class="trk-lv">${esc(NOM_TOUR[tr] || tr)}</span><span class="trk-nm">${l.length} match${l.length > 1 ? "s" : ""}</span></div>
         <ul class="trk-l">${l.map(m => `<li class="neutre"><span class="rd">${PASTILLE[tr] || esc(tr)}</span><span class="op">${lienJ(m.g)}<small>bat ${lienJ(m.p, "")} · <a href="#/h2h/${encodeURIComponent(m.g)}/${encodeURIComponent(m.p)}">H2H</a> · <a href="${lienMatch(m)}">détail</a></small></span>
           <span class="sc">${scoreChips(m, m.g)}</span></li>`).join("")}</ul></div>`; }).join("")}`;
 }
 
+
+
+/* ---------------------------------------------------------------- programme à venir (ESPN) et calendrier attendu */
+const PROG = {maj: null, tournois: [], matchs: [], ok: false};
+let INDEX_NOMS = null;
+function pidDepuisNom(nom) {
+  if (!INDEX_NOMS) {
+    INDEX_NOMS = new Map();
+    for (const [pid, j] of D.J) { const k = cle(j.nom); if (k) (INDEX_NOMS.get(k) || INDEX_NOMS.set(k, []).get(k)).push(pid); }
+  }
+  const k = cle(nom), l = INDEX_NOMS.get(k);
+  const meilleur = ids => ids.slice().sort((a, b) => (rangCourt(a) || 99999) - (rangCourt(b) || 99999) || (D.parJoueur.get(b) || []).length - (D.parJoueur.get(a) || []).length)[0];
+  if (l) return meilleur(l);
+  // repli : même nom de famille et même initiale du prénom parmi les 600 premiers du classement
+  const m = k.split(" "), fam = m[m.length - 1], ini = m[0][0];
+  const cand = (D.rang ? D.rang.liste.slice(0, 600) : []).map(x => x[1]).filter(pid => { const q = cle(nomJ(pid)).split(" "); return q[q.length - 1] === fam && q[0][0] === ini; });
+  return cand.length === 1 ? cand[0] : null;
+}
+function chargerProgramme() {
+  return fetch(BASE + "programme.json?v=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.json() : null).then(a => {
+    if (!a) return;
+    PROG.maj = a.maj; PROG.ok = true;
+    PROG.tournois = (a.tournois || []).map(([id, nom, debut, fin, lieu]) => ({id, nom, debut, fin, lieu}));
+    PROG.matchs = (a.matchs || []).map(([quand, connue, court, tid, tour, etat, j1, j2]) => {
+      const jj = j => ({nom: j[1], pays: j[2], rangEspn: j[3], pid: pidDepuisNom(j[1])});
+      return {quand, connue, court, tid, tour, etat, a: jj(j1), b: jj(j2)};
+    });
+  }).catch(() => {});
+}
+const heureLocale = iso => { try { return new Date(iso).toLocaleTimeString("fr-FR", {hour: "2-digit", minute: "2-digit"}).replace(":", " h "); } catch (e) { return ""; } };
+const jourLocal = iso => { try { return new Date(iso).toLocaleDateString("sv-SE"); } catch (e) { return (iso || "").slice(0, 10); } };
+const TOURS_FR = {"Round 1": "1er tour", "Round 2": "2e tour", "Round 3": "3e tour", "Round of 128": "1er tour", "Round of 64": "1er tour", "Round of 32": "2e tour", "Round of 16": "8es de finale",
+  "Quarterfinals": "Quarts de finale", "Quarterfinal": "Quarts de finale", "Semifinals": "Demi-finales", "Semifinal": "Demi-finales", "Final": "Finale", "Finals": "Finale"};
+function rangDe(j) { return j.pid ? rangCourt(j.pid) : (j.rangEspn || null); }
+function ligneProg(m) {
+  const j = x => `${x.pid ? rond(x.pid, "ph sm") : '<span class="ph sm"></span>'}<span class="n">${x.pid ? drapeau(x.pid) + " " : ""}${x.pid ? lienJ(x.pid, "pl") : esc(x.nom)}${rangDe(x) ? `<small>${rangDe(x)}</small>` : ""}</span>`;
+  let h2h = "";
+  if (m.a.pid && m.b.pid) { const l = matchsDe(m.a.pid).filter(x => x.g === m.b.pid || x.p === m.b.pid); if (l.length) { const b = bilan(l, m.a.pid); h2h = `<a class="h2h" href="#/h2h/${encodeURIComponent(m.a.pid)}/${encodeURIComponent(m.b.pid)}">H2H ${b.v}–${b.d}</a>`; } else h2h = `<a class="h2h" href="#/h2h/${encodeURIComponent(m.a.pid)}/${encodeURIComponent(m.b.pid)}">1re rencontre</a>`; }
+  return `<div class="pg"><div class="pg-h"><span class="hr${m.etat === "in" ? " live" : ""}">${m.etat === "in" ? "En cours" : (m.connue ? heureLocale(m.quand) : "Horaire à venir")}</span><span>${esc(TOURS_FR[m.tour] || m.tour || "")}${m.court ? " · " + esc(m.court) : ""}</span>${h2h}</div>
+    <div class="pg-j">${j(m.a)}</div><div class="pg-j">${j(m.b)}</div></div>`;
+}
+const poidsProg = m => Math.min(rangDe(m.a) || 9999, rangDe(m.b) || 9999);
+function blocProgramme(el) {
+  if (!PROG.ok) { el.innerHTML = `<div class="sec-h"><span class="sel-t">Programme des matchs</span></div><div class="empty">Programme en cours de chargement…</div>`; return; }
+  const auj = new Date().toLocaleDateString("sv-SE"), jours = [0, 1, 2].map(k => plusJours(auj, k));
+  const dispo = jours.filter(j => PROG.matchs.some(m => jourLocal(m.quand) === j));
+  const sel = jours.includes(PREF.progJour) ? PREF.progJour : (dispo[0] || jours[0]);
+  const libJ = j => j === auj ? "Aujourd'hui" : j === plusJours(auj, 1) ? "Demain" : new Date(j + "T12:00:00").toLocaleDateString("fr-FR", {weekday: "long"}).replace(/^./, c => c.toUpperCase());
+  const du = PROG.matchs.filter(m => jourLocal(m.quand) === sel);
+  const parT = new Map(); for (const m of du) (parT.get(m.tid) || parT.set(m.tid, []).get(m.tid)).push(m);
+  const blocs = [...parT.entries()].map(([tid, l]) => { const t = PROG.tournois.find(x => x.id === tid) || {nom: "Tournoi"};
+    return `<div class="pg-t"><a href="#/prog/${encodeURIComponent(tid)}">${esc(t.nom)} ›</a><span>${esc(t.lieu || "")}</span></div>${l.sort((a, b) => (a.quand || "") < (b.quand || "") ? -1 : 1).map(ligneProg).join("")}`; });
+  el.innerHTML = `<div class="sec-h"><span class="sel-t">Programme des matchs</span><span class="sec-sub">Simples ATP · heures de ton téléphone · mis à jour ${PROG.maj ? ilYa(PROG.maj) : ""}</span></div>
+    ${seg("pj", jours, sel, jours.map(libJ))}${blocs.join("") || '<div class="empty">Aucun match de simple programmé ce jour-là (Challenger et ITF : pas de programme disponible).</div>'}`;
+  el.querySelectorAll("[data-pj]").forEach(b => b.onclick = () => { PREF.progJour = b.dataset.pj; blocProgramme(el); });
+}
+function railAVenir() {
+  const auj = new Date().toLocaleDateString("sv-SE");
+  const l = PROG.matchs.filter(m => m.etat !== "post" && jourLocal(m.quand) >= auj).sort((a, b) => poidsProg(a) - poidsProg(b)).slice(0, 8);
+  if (!l.length) return "";
+  const j = x => `<div class="rs-l">${x.pid ? rond(x.pid) : '<span class="ph"></span>'}<span class="nm">${x.pid ? drapeau(x.pid) + " " : ""}${esc(x.nom)}${rangDe(x) ? `<small>${rangDe(x)}</small>` : ""}</span></div>`;
+  return `<div class="blk-h"><h3>À suivre</h3><a href="#tournois">Tout le programme ›</a></div>
+    <div class="rail">${l.map(m => { const t = PROG.tournois.find(x => x.id === m.tid) || {nom: "ATP"};
+      return `<a class="rs Hard" href="${m.a.pid && m.b.pid ? "#/h2h/" + encodeURIComponent(m.a.pid) + "/" + encodeURIComponent(m.b.pid) : "#tournois"}"><div class="rs-h"><span class="lv">${m.etat === "in" ? "En cours" : (m.connue ? heureLocale(m.quand) : "À venir")}</span><span class="t">${esc(t.nom)}</span><span class="rd">${esc(TOURS_FR[m.tour] || m.tour || "")}</span></div>${j(m.a)}${j(m.b)}<div class="rs-f rs-go">${jourLocal(m.quand) === auj ? "Aujourd'hui" : dateFr(jourLocal(m.quand))}${m.court ? " · " + esc(m.court) : ""} · face-à-face ›</div></a>`; }).join("")}</div>`;
+}
+// tournois d'une semaine : confirmés par ESPN (circuit ATP) ou attendus d'après l'édition de l'an dernier
+function tournoisAVenir(sem, deja) {
+  const vus = new Set(deja.map(x => cle(x.t.nom).replace(/ (open|masters|championships|challenger|cup)$/, "")));
+  const dejaEsp = new Set(deja.map(x => (espPour(x.ti) || {}).id).filter(Boolean));
+  const sortie = [];
+  for (const e of PROG.tournois) {
+    if (dejaEsp.has(e.id)) continue;
+    if (lundi(e.debut) !== sem && !(e.debut <= sem && e.fin >= sem)) continue;
+    const k = cle(e.nom).replace(/ (open|masters|championships|challenger|cup)$/, "");
+    if ([...vus].some(v => v && (v === k || v.includes(k) || k.includes(v)))) continue;
+    vus.add(k);
+    sortie.push({ti: -1, t: {id: "esp:" + e.id, nom: e.nom, niv: "A", surf: "", debut: e.debut, lieu: e.lieu}, matchs: [], esp: e});
+  }
+  const avant = new Set([plusJours(sem, -364), plusJours(sem, -371)]);
+  const prec = new Map();
+  D.T.forEach((t, i) => { if (t.debut && avant.has(lundi(t.debut)) && !/^(D|O)$/.test(t.niv) && !/ (QF|SF|F|RR|R16|1T|2T):? /.test(t.nom + " ") && !/\b[A-Z]{3} vs [A-Z]{3}/.test(t.nom)) { const k = cle(t.nom).replace(/ (open|masters|championships|challenger|cup)$/, ""); if (!prec.has(k)) prec.set(k, i); } });
+  for (const [k, i] of prec) {
+    if ([...vus].some(v => v && (v === k || v.includes(k) || k.includes(v)))) continue;
+    sortie.push({ti: i, t: D.T[i], matchs: [], attendu: true});
+  }
+  return sortie;
+}
+const ESP_CACHE = new Map();
+function espPour(ti) {
+  // tournoi ESPN correspondant à un tournoi connu : même nom, ou mêmes joueurs la même semaine (noms de sponsors différents)
+  if (ESP_CACHE.has(ti)) return ESP_CACHE.get(ti);
+  const t = D.T[ti], k = cle(t.nom).replace(/ (open|masters|championships|challenger|cup)$/, "");
+  let trouve = null;
+  const proches = PROG.tournois.filter(x => Math.abs(new Date(x.debut) - new Date(t.debut)) < 9 * 86400000);
+  for (const x of proches) { const q = cle(x.nom).replace(/ (open|masters|championships|challenger|cup)$/, ""); if (q === k || q.includes(k) || k.includes(q)) { trouve = x; break; } }
+  if (!trouve && proches.length && /^[AMGF]$/.test(t.niv)) {
+    const joues = new Set(); for (const m of D.M) if (m.t === ti) { joues.add(m.g); joues.add(m.p); }
+    trouve = proches.find(x => PROG.matchs.some(m => m.tid === x.id && ((m.a.pid && joues.has(m.a.pid)) || (m.b.pid && joues.has(m.b.pid))))) || null;
+  }
+  ESP_CACHE.set(ti, trouve);
+  return trouve;
+}
+function blocProgTournoi(t) {
+  // matchs à venir d'un tournoi déjà connu
+  const e = espPour(D.tIdx.get(t.id));
+  if (!e) return "";
+  const l = PROG.matchs.filter(m => m.tid === e.id && m.etat !== "post").sort((a, b) => (a.quand || "") < (b.quand || "") ? -1 : 1);
+  if (!l.length) return "";
+  let jour = "";
+  return `<div class="panel"><div class="sec-h"><span class="sel-t">Matchs à venir</span><span class="sec-sub">Heures de ton téléphone · ESPN</span></div>${l.map(m => { const j = jourLocal(m.quand); const tete = j !== jour ? `<div class="pg-t"><span>${new Date(j + "T12:00:00").toLocaleDateString("fr-FR", {weekday: "long", day: "numeric", month: "long"})}</span></div>` : ""; jour = j; return tete + ligneProg(m); }).join("")}</div>`;
+}
+function vueProg(id) {
+  const v = $("#vue"), e = PROG.tournois.find(x => x.id === id);
+  if (!e) { v.innerHTML = '<div class="panel"><div class="empty">Tournoi introuvable dans le programme.</div></div>'; return; }
+  const l = PROG.matchs.filter(m => m.tid === id && m.etat !== "post").sort((a, b) => (a.quand || "") < (b.quand || "") ? -1 : 1);
+  let jour = "";
+  const prec = D.T.findIndex(t => { const k = cle(t.nom), q = cle(e.nom); return t.debut && (k === q || k.includes(q) || q.includes(k)) && Math.abs(new Date(t.debut) - new Date(plusJours(e.debut, -364))) < 8 * 86400000; });
+  v.innerHTML = `<div class="panel"><div class="tour-head"><h2>${esc(e.nom)}</h2></div>
+    <div class="row"><span class="tag">ATP</span><span class="tag">${dateFr(e.debut)} au ${dateFr(e.fin)}</span>${e.lieu ? `<span class="tag">${esc(e.lieu)}</span>` : ""}</div>
+    ${prec >= 0 ? `<a class="small" href="#/tournoi/${encodeURIComponent(D.T[prec].id)}">Voir l'édition précédente ›</a>` : ""}</div>
+    <div class="panel"><div class="sec-h"><span class="sel-t">Matchs à venir</span><span class="sec-sub">Simples · heures de ton téléphone · ESPN</span></div>
+    ${l.map(m => { const j = jourLocal(m.quand); const tete = j !== jour ? `<div class="pg-t"><span>${new Date(j + "T12:00:00").toLocaleDateString("fr-FR", {weekday: "long", day: "numeric", month: "long"})}</span></div>` : ""; jour = j; return tete + ligneProg(m); }).join("") || '<div class="empty">Programme pas encore publié. Il est relu toutes les 2 heures.</div>'}</div>`;
+}
 
 /* ---------------------------------------------------------------- page d'un match */
 const cleMatch = m => [D.T[m.t].id, m.g, m.p, m.tour].map(encodeURIComponent).join("/");
@@ -2114,7 +2258,8 @@ $("#haut").onclick = () => scroller().scrollTo({top: 0, behavior: "smooth"});
     }
   } catch (e) { /* hors ligne : on garde la version présente */ }
 })();
-charger().then(() => { $("#charge").remove(); rendre(); chargerActus().then(() => { const e = $("#actusA"); if (e) blocActus(e); remplirUne(); }); }).catch(e => {
+charger().then(() => { $("#charge").remove(); rendre(); chargerActus().then(() => { const e = $("#actusA"); if (e) blocActus(e); remplirUne(); });
+  chargerProgramme().then(() => { if (/^#?(accueil)?$/.test(location.hash)) { const r = $("#avenirA"); if (r) r.innerHTML = railAVenir(); } else if (location.hash === "#tournois") vueTournois(); else if (/^#\/(tournoi|prog)\//.test(location.hash)) rendre(); }); }).catch(e => {
   $("#etape").innerHTML = `<span class="l">Chargement impossible : ${esc(e.message)}</span><br><button onclick="location.reload()">Réessayer</button>`;
   console.error(e);
 });

@@ -47,7 +47,7 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.6.0"
+VERSION = "1.7.0"
 VERSION_COPIE = 2   # copie compacte de l'archive : 2 = avec statistiques et classements
 PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
 
@@ -2668,6 +2668,83 @@ def collecter_actus():
                                blessures=sum(a["blessure"] for a in articles), flux=etat_flux)
     return "actus.json"
 
+# ---------------------------------------------------------------- programme à venir (ESPN, public, sans clé ni quota)
+ESPN_ATP = "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates="
+
+
+def collecter_programme():
+    """Matchs de simple à venir (3 jours) et tournois du circuit ATP (5 semaines), depuis l'API publique d'ESPN.
+    Écrit donnees/programme.json. Challenger et ITF : pas de source gratuite, l'appli affiche un calendrier attendu."""
+    chemin = os.path.join(DONNEES, "programme.json")
+    auj = dt.datetime.now(dt.timezone.utc).date()
+    tournois, matchs, stats = {}, {}, Counter()
+    ancien = lire_json(chemin, {})
+
+    def lire(jour):
+        try:
+            return json.loads(telecharger(ESPN_ATP + jour.strftime("%Y%m%d"), {"Accept": "application/json"}, essais=2, delai=5))
+        except Exception as e:  # noqa: BLE001
+            stats["erreurs"] += 1
+            J.info(f"Programme ESPN {jour} : {str(e)[:100]}")
+            return None
+    for k in range(0, 35):
+        jour = auj + dt.timedelta(days=k)
+        if k >= 3 and (jour.weekday() != 0 and k != 3):
+            continue                                   # au-delà de J+2 : une lecture par semaine suffit pour les tournois
+        obj = lire(jour)
+        if not obj:
+            continue
+        stats["lectures"] += 1
+        for ev in obj.get("events") or []:
+            nom = (ev.get("name") or "").strip()
+            if not nom:
+                continue
+            lieu = None
+            for gr in ev.get("groupings") or []:
+                slug = ((gr.get("grouping") or {}).get("slug") or "").lower()
+                if "single" not in slug or "women" in slug:
+                    continue
+                for c in gr.get("competitions") or []:
+                    lieu = lieu or (c.get("venue") or {}).get("fullName")
+                    etat = ((c.get("status") or {}).get("type") or {}).get("state")
+                    if k > 2 or etat not in ("pre", "in"):
+                        continue
+                    cp = sorted(c.get("competitors") or [], key=lambda x: x.get("order") or 0)
+                    if len(cp) != 2 or any((x.get("type") or "athlete") != "athlete" for x in cp):
+                        continue
+                    joueurs = []
+                    for x in cp:
+                        a = x.get("athlete") or {}
+                        joueurs.append([str(a.get("guid") or x.get("id") or ""), a.get("displayName") or a.get("fullName"),
+                                        ((a.get("flag") or {}).get("alt")), ((x.get("curatedRank") or {}).get("current"))])
+                    if not all(j[1] for j in joueurs):
+                        continue
+                    matchs[str(c.get("id"))] = [c.get("startDate") or c.get("date"), 1 if c.get("timeValid") else 0,
+                                                (c.get("venue") or {}).get("court"), str(ev.get("id")),
+                                                ((c.get("round") or {}).get("displayName")), etat, joueurs[0], joueurs[1]]
+            tid = str(ev.get("id"))
+            if tid not in tournois:
+                tournois[tid] = [tid, nom, (ev.get("date") or "")[:10], (ev.get("endDate") or "")[:10], lieu]
+            elif lieu and not tournois[tid][4]:
+                tournois[tid][4] = lieu
+        time.sleep(0.5)
+    if not stats["lectures"]:
+        J.alerte("Programme ESPN : aucune lecture réussie, fichier précédent conservé")
+        return None
+    liste = sorted(matchs.values(), key=lambda m: (m[0] or "", m[2] or ""))
+    sortie = {"maj": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"), "source": "ESPN (API publique)",
+              "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; "
+                      "heures en UTC ; Challenger et ITF non couverts",
+              "colonnes_tournois": ["id", "nom", "debut", "fin", "lieu"],
+              "colonnes_matchs": ["debut_utc", "heure_connue", "court", "id_tournoi", "tour", "etat", "joueur1", "joueur2"],
+              "colonnes_joueur": ["id", "nom", "pays", "rang"],
+              "tournois": sorted(tournois.values(), key=lambda t: t[2]), "matchs": liste}
+    if (ancien.get("tournois"), ancien.get("matchs")) != (sortie["tournois"], sortie["matchs"]):
+        ecrire_json(chemin, sortie, compact=False)
+    J.chiffres["programme"] = {"tournois": len(tournois), "matchs": len(liste), **dict(stats)}
+    return "programme.json"
+
+
 # ---------------------------------------------------------------- trous restants
 def compter_trous(base, fin_sackmann, resultats):
     """Compte, depuis la fin de l'archive, les matchs au score complet et avec statistiques,
@@ -2901,6 +2978,11 @@ def main():
         try:
             collecter_actus()
             print(json.dumps(J.chiffres.get("actus"), ensure_ascii=False))
+            try:
+                collecter_programme()
+            except Exception as e:  # noqa: BLE001
+                print("Programme : échec", e, file=sys.stderr)
+            print(json.dumps(J.chiffres.get("programme"), ensure_ascii=False))
             return 0
         except Exception as e:  # noqa: BLE001
             print("Actualités : échec", e, file=sys.stderr)
@@ -2998,7 +3080,7 @@ def main():
             compter_trous(base, fin, [resultat, resultat_cito])
         except Exception as e:  # noqa: BLE001
             J.alerte(f"Compteur des trous : {e}")
-        for nom_garde in ("photos.json", "actus.json"):
+        for nom_garde in ("photos.json", "actus.json", "programme.json"):
             if os.path.exists(os.path.join(DONNEES, nom_garde)):
                 garder = sorted(set(garder) | {nom_garde})
         if not args.sans_photos:
