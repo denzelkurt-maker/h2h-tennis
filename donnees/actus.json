@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T21:58+00:00",
+ "maj": "2026-11-11T23:31+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 38 articles",
+  "L'Équipe": "ok, 37 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 14 articles",
@@ -28,6 +28,35 @@
   "Ubitennis": "ok, 12 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/shevchenko-recovers-from-a-set-down-to-oust-ruud-and-face-tirante-in-stockholm-866694.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-11T22:37+00:00",
+   "image": null,
+   "vo": "Shevchenko recovers from a set down to oust Ruud and face Tirante in Stockholm",
+   "titre": "Shevchenko se remet d'un set perdu pour éliminer Ruud et affronter Tirante à Stockholm",
+   "titre_fr": "Shevchenko se remet d'un set perdu pour éliminer Ruud et affronter Tirante à Stockholm",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/explore/video/tennis-la-douleur-ne-me-manque-absolument-pas-rafael-nadal-se-raconte-en-photos/20245337#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-11T22:32+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Nadal se raconte en photos : «La douleur ne me manque absolument pas»",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Quels-adversaires-arthur-fils-peut-il-affronter-en-poules-aux-finales-atp/1743077#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-11T21:58+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-va-disputer-les-finales-atp-pour-la-premiere-fois-a-reau-l-equipe/1500000002648391/64:22,1948:1277-828-552-75/45ac1.jpg",
+   "titre": "Quels adversaires Arthur Fils peut-il affronter en poules aux Finales ATP ?",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/and-then-we-pay-the-price-nadal-wants-fewer-hard-courts-a-two-year-ranking-and-shorter-masters-1000s-866697.html",
    "source": "Tennis Majors (EN)",
@@ -127,15 +156,6 @@
    "image": "https://www.welovetennis.fr/wp-content/uploads/2025/01/Rybakina-1-1024x541.jpeg",
    "titre": "Kim Clijsters inquiète pour la numéro 1 mondiale : « Je l’ai vue à plusieurs reprises ces derniers mois, et elle semblait vraiment épuisée »",
    "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/explore/video/tennis-la-douleur-ne-me-manque-absolument-pas-rafael-nadal-se-raconte-en-photos/20245337#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-11T17:00+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Nadal se raconte en photos : «La douleur ne me manque absolument pas»",
-   "blessure": true
   },
   {
    "lien": "https://www.welovetennis.fr/atp/ferrero-ex-coach-dalcaraz-et-nouvel-entraineur-de-shelton-je-savais-que-sinner-chercherait-a-sadjoindre-les-services-dune-personne-experimentee-ayant-remporte-des-titre",
