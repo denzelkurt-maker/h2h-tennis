@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T13:54+00:00",
+ "maj": "2026-11-11T15:28+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 39 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/tennis/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 16 articles",
+  "We Love Tennis": "ok, 15 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 28 articles",
   "franceinfo": "ok, 20 articles",
@@ -28,6 +28,24 @@
   "Ubitennis": "ok, 12 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/live/tous-les-programmes-et-resultats-en-direct",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T15:00+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/01/Poignee-de-main-tennis-ambiance-1024x629.jpeg",
+   "titre": "Tous les programmes et résultats en direct !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/andrea-gaudenzi-president-de-latp-repond-indirectement-a-carlos-alcaraz-si-vous-etes-sinner-ou-alcaraz-et-que-vous-allez-souvent-jusquau-bout-des-tournois-vous-navez",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T14:29+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Gaudenzi-ATP-1-1024x554.jpeg",
+   "titre": "Andrea Gaudenzi, président de l’ATP, répond indirectement à Carlos Alcaraz : « Si vous êtes Sinner ou Alcaraz et que vous allez souvent jusqu’au bout des tournois, vous n’avez probablement besoin de disputer que les Gran",
+   "blessure": false
+  },
   {
    "lien": "https://www.ubitennis.net/2026/11/casper-ruud-confident-new-coach-ferrer-will-help-boost-grand-slam-chances/",
    "source": "Ubitennis",
@@ -46,15 +64,6 @@
    "date": "2026-11-11T13:20+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fritz-rire-1024x486.jpeg",
    "titre": "Rennae Stubbs : « La raison pour laquelle ce joueur ne remportera pas de tournoi du Grand Chelem, à moins que Sinner et Alcaraz ne soient éliminés, c’est qu’il ne parvient pas à améliorer son jeu au filet »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/live/tous-les-programmes-et-resultats-en-direct",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-11T13:00+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/01/Poignee-de-main-tennis-ambiance-1024x629.jpeg",
-   "titre": "Tous les programmes et résultats en direct !",
    "blessure": false
   },
   {
