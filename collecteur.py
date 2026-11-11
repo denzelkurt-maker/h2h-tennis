@@ -47,7 +47,7 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.9.0"
+VERSION = "1.9.1"
 VERSION_COPIE = 2   # copie compacte de l'archive : 2 = avec statistiques et classements
 PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
 
@@ -2510,6 +2510,9 @@ def collecter_classement_commons(base):
     url = f"{COMMONS_API}?action=jsondata&format=json&formatversion=2&title={TABLE_CLASSEMENT}"
     obj = json.loads(telecharger(url, {"Accept": "application/json"}, essais=3, delai=5)).get("jsondata") or {}
     licence = obj.get("license") or ""
+    if isinstance(licence, dict):   # l'API renvoie {"code": "CC0-1.0", "text": ..., "url": ...}
+        licence = licence.get("code") or licence.get("text") or ""
+    licence = str(licence)
     if not licence.upper().startswith(tuple(x.upper() for x in LICENCES_OK)):
         raise RuntimeError(f"licence de la table non libre ou absente : « {licence} »")
     champs = [f.get("name") for f in (obj.get("schema") or {}).get("fields") or []]
