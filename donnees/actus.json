@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T09:37+00:00",
+ "maj": "2026-11-11T11:36+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 39 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/tennis/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 19 articles",
+  "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 28 articles",
   "franceinfo": "ok, 20 articles",
@@ -28,6 +28,42 @@
   "Ubitennis": "ok, 12 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/jimmy-connors-met-la-pression-sur-zverev-il-a-desormais-une-responsabilite-envers-le-tennis-et-envers-lui-meme-jouer-en-tant-que-double-vainqueur-de-grand-chelem",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T11:05+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/11/Jimmy-Connors--1024x482.jpg",
+   "titre": "Jimmy Connors met la pression sur Zverev : « Il a désormais une responsabilité envers le tennis et envers lui-même : jouer en tant que double vainqueur de Grand Chelem »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/live/tous-les-programmes-et-resultats-en-direct",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T11:00+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/01/Poignee-de-main-tennis-ambiance-1024x629.jpeg",
+   "titre": "Tous les programmes et résultats en direct !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/attaque-par-zverev-boris-becker-lui-repond-on-dit-des-choses-spontanement-sous-le-coup-de-lemotion-et-la-je-me-dis-les-gars-reflechissez-un-peu",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T10:32+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Becker-1024x502.jpeg",
+   "titre": "Attaqué par Zverev, Boris Becker lui répond : « On dit des choses spontanément, sous le coup de l’émotion, et là je me dis : les gars, réfléchissez un peu »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Changer-les-balles-tous-les-7-jeux-et-non-tous-les-9-est-il-la-solution-face-a-la-grogne-des-joueurs-sur-leur-qualite/1742910#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-11T10:10+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Changer les balles tous les 7 jeux est-il la solution face à la grogne des joueurs ?",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/fr/wta-actualite/11-novembre-2007-le-jour-ou-justine-henin-a-remporte-son-dernier-titre-sharapova-304458.html",
    "source": "Tennis Majors",
@@ -79,7 +115,7 @@
    "langue": "fr",
    "date": "2026-11-11T07:35+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Ferrero-1-1024x565.jpeg",
-   "titre": "Juan Carlos Ferrero nouveau coach de Shelton annonce la couleur : « Il ne considère pas que remporter un Grand Chelem soit un objectif lointain, il voit grand »",
+   "titre": "Juan Carlos Ferrero, nouveau coach de Shelton, annonce la couleur : « Il ne considère pas que remporter un Grand Chelem soit un objectif lointain, il voit grand »",
    "blessure": false
   },
   {
@@ -152,15 +188,6 @@
    "titre": "Rune bat Bergs, huitième tête de série, à Stockholm pour mettre en place l'affrontement de deuxième tour de Kecmanovic",
    "blessure": false,
    "titre_fr": "Rune bat Bergs, huitième tête de série, à Stockholm pour mettre en place l'affrontement de deuxième tour de Kecmanovic"
-  },
-  {
-   "lien": "https://www.welovetennis.fr/live/tous-les-programmes-et-resultats-en-direct",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T19:00+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/01/Poignee-de-main-tennis-ambiance-1024x629.jpeg",
-   "titre": "Tous les programmes et résultats en direct !",
-   "blessure": false
   },
   {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/Jannik-sinner-sur-la-date-de-son-retour-sur-les-courts-l-objectif-est-d-aller-en-australie/1742853#at_medium=RSS_feeds",
