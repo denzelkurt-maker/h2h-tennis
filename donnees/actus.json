@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T17:39+00:00",
+ "maj": "2026-11-11T19:42+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,16 +18,76 @@
   "L'Équipe": "ok, 39 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 15 articles",
+  "We Love Tennis": "ok, 14 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 28 articles",
+  "RMC Sport": "ok, 27 articles",
   "franceinfo": "ok, 20 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 16 articles",
+  "Tennis Majors (EN)": "ok, 15 articles",
   "Ubitennis": "ok, 12 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-declaration-de-nadal-qui-va-faire-parler-a-lepoque-ou-je-jouais-encore-il-metait-difficile-de-defendre-cette-position-car-beaucoup-auraient-pu-penser-que-je-cherchais-simple",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T18:48+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/05/Nadal-conf-RG-2025-2-1024x568.jpeg",
+   "titre": "La déclaration de Nadal qui va faire parler : « À l’époque où je jouais encore, il m’était difficile de défendre cette position, car beaucoup auraient pu penser que je cherchais simplement à tirer profit de ma domination",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/sinner-lost-weight-after-tonsil-surgery-still-hoping-to-be-back-in-australia-866678.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-11T18:47+00:00",
+   "image": null,
+   "vo": "“The face is quite dry”: Sinner lost weight after tonsil surgery, still hoping to be back in Australia",
+   "titre": "« Le visage est assez émacié » : Sinner a perdu du poids après une opération des amygdales, mais espère toujours être de retour en Australie",
+   "titre_fr": "« Le visage est assez émacié » : Sinner a perdu du poids après une opération des amygdales, mais espère toujours être de retour en Australie",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/-cela-donnerait-aux-joueurs-un-peu-plus-de-liberte-pour-prendre-de-meilleures-decisions-rafael-nadal-favorable-a-un-classement-glisse-sur-deux-ans-plutot-que-sur-un-an/1743025#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-11T18:40+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/rafael-nadal-s-est-rendu-a-melbourne-pour-l-open-d-australie-cette-annee-p-lahalle-l-equipe/1500000002648293/243:271,1776:1292-828-552-75/c829b.jpg",
+   "titre": "« Cela donnerait aux joueurs un peu plus de liberté pour prendre de meilleures décisions » : Rafael Nadal favorable à un classement glissé sur deux ans plutôt que sur un an",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/fritz-beats-norrie-in-stockholm-for-fourth-quarter-final-in-four-weeks-866669.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-11T18:08+00:00",
+   "image": null,
+   "vo": "Fritz beats Norrie in Stockholm for fourth quarter-final in four weeks",
+   "titre": "Fritz bat Norrie à Stockholm et atteint son quatrième quart de finale en quatre semaines",
+   "titre_fr": "Fritz bat Norrie à Stockholm et atteint son quatrième quart de finale en quatre semaines",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/humbert-beats-qualifier-gojo-to-set-up-musetti-clash-in-stockholm-866667.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-11T18:05+00:00",
+   "image": null,
+   "vo": "Humbert beats qualifier Gojo to set up Musetti clash in Stockholm",
+   "titre": "Humbert bat le qualifié Gojo et se qualifie pour affronter Musetti à Stockholm",
+   "titre_fr": "Humbert bat le qualifié Gojo et se qualifie pour affronter Musetti à Stockholm",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-interroge-sur-carlos-alcaraz-pour-etre-honnete-je-nai-pas-beaucoup-regarde-de-tennis-a-cette-periode-parce-que-je-voulais-etre-la-bas-moi-aussi",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-11T17:50+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Alcaraz-Sinner-2.jpeg",
+   "titre": "Jannik Sinner, interrogé sur Carlos Alcaraz : « Pour être honnête, je n’ai pas beaucoup regardé de tennis à cette période parce que je voulais être là-bas moi aussi »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/wta/wta-finals/kim-clijsters-inquiete-pour-la-numero-1-mondiale-je-lai-vue-a-plusieurs-reprises-ces-derniers-mois-et-elle-semblait-vraiment-epuisee",
    "source": "We Love Tennis",

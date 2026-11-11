@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T17:21+00:00",
+ "maj": "2026-11-11T19:42+00:00",
  "source": "ESPN (API publique)",
  "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
  "colonnes_tournois": [
@@ -43,27 +43,7 @@
  ],
  "matchs": [
   [
-   "2026-11-11T17:05Z",
-   1,
-   "Center Court",
-   "148-2026",
-   "Round 2",
-   "in",
-   [
-    "de169e60-0a75-3e19-944b-9b685744b9ce",
-    "Aleksandr Shevchenko",
-    "Kazakhstan",
-    null
-   ],
-   [
-    "116ef01e-3239-e44f-9c8a-022f81012782",
-    "Casper Ruud",
-    "Norway",
-    2
-   ]
-  ],
-  [
-   "2026-11-11T18:30Z",
+   "2026-11-11T19:45Z",
    1,
    "Center Court",
    "148-2026",
@@ -100,6 +80,26 @@
     "Alejandro Tabilo",
     "Chile",
     4
+   ]
+  ],
+  [
+   "2026-11-12T14:00Z",
+   1,
+   "Center Court",
+   "148-2026",
+   "Quarterfinal",
+   "pre",
+   [
+    "d7013896-f27c-1590-01c8-3df0a2781e16",
+    "Thiago Agustin Tirante",
+    "Argentina",
+    null
+   ],
+   [
+    "de169e60-0a75-3e19-944b-9b685744b9ce",
+    "Aleksandr Shevchenko",
+    "Kazakhstan",
+    null
    ]
   ],
   [
@@ -2792,7 +2792,7 @@
  "challenger_maj": "2026-11-11T08:13+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-11T17:39+00:00",
+  "date": "2026-11-11T19:42+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
