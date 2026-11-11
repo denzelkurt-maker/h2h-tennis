@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T19:42+00:00",
+ "maj": "2026-11-11T21:58+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 39 articles",
+  "L'Équipe": "ok, 38 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 14 articles",
@@ -28,6 +28,37 @@
   "Ubitennis": "ok, 12 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/and-then-we-pay-the-price-nadal-wants-fewer-hard-courts-a-two-year-ranking-and-shorter-masters-1000s-866697.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-11T21:39+00:00",
+   "image": null,
+   "vo": "“And then we pay the price”: Nadal wants fewer hard courts, a two-year ranking and shorter Masters 1000s",
+   "titre": "« Et puis nous en payons le prix » : Nadal souhaite moins de courts en dur, un classement sur deux ans et des Masters 1000 plus courts",
+   "titre_fr": "« Et puis nous en payons le prix » : Nadal souhaite moins de courts en dur, un classement sur deux ans et des Masters 1000 plus courts",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/rune-rallies-past-kecmanovic-to-set-up-fritz-clash-in-stockholm-866701.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-11T21:34+00:00",
+   "image": null,
+   "vo": "Rune rallies past Kecmanovic to set up Fritz clash in Stockholm",
+   "titre": "Rune se reprend face à Kecmanovic et se qualifie pour affronter Fritz à Stockholm",
+   "titre_fr": "Rune se reprend face à Kecmanovic et se qualifie pour affronter Fritz à Stockholm",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Changer-les-balles-tous-les-7-jeux-et-non-tous-les-9-est-il-la-solution-face-a-la-grogne-des-joueurs-sur-leur-qualite/1742910#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-11T20:58+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Changer les balles tous les 7 jeux est-il la solution face à la grogne des joueurs ?",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/la-declaration-de-nadal-qui-va-faire-parler-a-lepoque-ou-je-jouais-encore-il-metait-difficile-de-defendre-cette-position-car-beaucoup-auraient-pu-penser-que-je-cherchais-simple",
    "source": "We Love Tennis",
@@ -113,15 +144,6 @@
    "date": "2026-11-11T16:58+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2025/05/Ferrero-RG-2025-1024x543.jpeg",
    "titre": "Ferrero, ex-coach d’Alcaraz et nouvel entraîneur de Shelton : « Je savais que Sinner chercherait à s’adjoindre les services d’une personne expérimentée ayant remporté des titres importants »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Changer-les-balles-tous-les-7-jeux-et-non-tous-les-9-est-il-la-solution-face-a-la-grogne-des-joueurs-sur-leur-qualite/1742910#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-11T16:35+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Changer les balles tous les 7 jeux est-il la solution face à la grogne des joueurs ?",
    "blessure": false
   },
   {
