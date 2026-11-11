@@ -83,7 +83,7 @@ function chiffres() {
         await p1.page.evaluate(() => { location.hash = "#accueil"; }); await p1.page.waitForTimeout(500);
         const liens = await p1.page.$$(selecteur);
         if (liens.length <= i) { if (i === 0) defautsNav.push(`${nom} : aucun lien (${selecteur})`); break; }
-        await liens[i].scrollIntoViewIfNeeded(); await liens[i].click(); await p1.page.waitForTimeout(1200);
+        await liens[i].evaluate(el => el.scrollIntoView({ block: "center" })); await p1.page.waitForTimeout(200); await liens[i].click(); await p1.page.waitForTimeout(1200);
         const e = await p1.page.evaluate(() => { const r = document.querySelector("#retour"), n = document.querySelector("nav.tabs").getBoundingClientRect();
           return { hash: location.hash, retour: !!r && !r.hidden && r.getBoundingClientRect().height > 0, onglets: n.bottom <= innerHeight + 1, vide: document.querySelector("#vue").innerText.trim().length < 20 }; });
         if (!e.retour) defautsNav.push(`${nom} n°${i + 1} : pas de bouton Retour (${e.hash})`);

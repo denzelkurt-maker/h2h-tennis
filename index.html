@@ -900,7 +900,7 @@ nav.tabs a[aria-current="page"]::before{content:"";position:absolute;top:-6px;le
    par le collecteur (donnees/), les garde en cache sur l'iPhone et fait
    tous les calculs dans le navigateur.
    ====================================================================== */
-const VERSION_APPLI = "0.7.1";
+const VERSION_APPLI = "0.8.0";
 const BASE = "./donnees/";
 const CACHE = "h2h-tennis-donnees";
 const SURF = {Hard: "Dur", Clay: "Terre", Grass: "Gazon", Carpet: "Moquette"};
@@ -1008,7 +1008,7 @@ async function charger() {
   // index.json est relu à chaque ouverture (il change chaque nuit) ; les autres viennent du cache s'ils n'ont pas changé
   const noms = Object.keys(index);
   const simples = noms.filter(n => /^simple-\d{4}(-\d{2})?\.json$/.test(n)).sort();
-  const autres = ["joueurs-historique.json", "joueurs-recents.json", "classements-recents.json", "classements-fin-annee.json", "photos.json"].filter(n => index[n]);
+  const autres = ["joueurs-historique.json", "joueurs-recents.json", "classements-recents.json", "classements-fin-annee.json", "classement.json", "photos.json"].filter(n => index[n]);
   fetch(BASE + "meta.json", {cache: "no-cache"}).then(r => r.json()).then(m => { D.maj = m.genere_le; const p = document.querySelector(".pied b"); if (p) p.textContent = new Date(D.maj).toLocaleString("fr-FR"); }).catch(() => {});
   const chiffres = noms.filter(n => /^(tml|cito)-\d{4}\.json$/.test(n)).sort();
   D.fichiersStats = noms.filter(n => /^stats-simple-/.test(n)).sort();
@@ -1075,6 +1075,13 @@ async function charger() {
     const liste = Object.entries(cr).filter(([, v]) => v[0] === derniere).map(([pid, v]) => [v[1], pid, v[2]]).sort((a, b) => a[0] - b[0]);
     D.rang = {semaine: derniere, liste, source: "classement d'entrée en tournoi (partiel)"};
   }
+  // classement ATP complet (table libre de Wikimedia Commons) : priorité sur le classement partiel
+  const cc = lus["classement.json"];
+  if (cc && cc.liste && cc.liste.length > 100) {
+    const liste = cc.liste.map(x => { let pid = x[2]; if (!pid) { pid = "k:" + x[8]; D.J.set(pid, {nom: x[3], pays: x[4]}); } return [x[0], pid, x[1]]; });
+    D.rangC = {semaine: lundi((cc.modifie || new Date().toISOString()).slice(0, 10)), liste, source: "ATP, via Wikimedia Commons"};
+    D.rang = D.rangC;
+  }
   if (D.rang) D.rangPar = new Map(D.rang.liste.map(x => [x[1], x]));
   D.photos = (lus["photos.json"] || {}).joueurs || {};
   D.rangHist = (lus["classements-recents.json"] || {}).joueurs || {};
@@ -1107,6 +1114,14 @@ function appliquerComplement(c, clesM) {
   const co = c.classement_officiel;
   if (co && co.liste && co.liste.length > 50 && (!D.rang || co.semaine >= D.rang.semaine || D.rang.source !== "Cito"))
     D.rang = {semaine: co.semaine, liste: co.liste.map(x => [x[0], x[1], x[2]]), source: "Cito"};
+  // Cito (rangs 1 à 100) peut être plus récent que la table Commons : on garde la table pour les rangs au-delà
+  const C = D.rangC;
+  if (C && D.rang && D.rang.source === "Cito" && C.semaine < D.rang.semaine) {
+    const n = D.rang.liste.length, vus = new Set(D.rang.liste.map(x => x[1]));
+    D.rang = {semaine: D.rang.semaine, liste: D.rang.liste.concat(C.liste.filter(x => x[0] > n && !vus.has(x[1]))),
+              source: "Cito jusqu'au " + n + "e, puis ATP via Wikimedia Commons (semaine du " + dateFr(C.semaine) + ")"};
+  }
+  if (D.rang) D.rangPar = new Map(D.rang.liste.map(x => [x[1], x]));
 }
 
 /* statistiques de match : chargées à la demande (fichiers lourds) */
@@ -1213,7 +1228,7 @@ function serie(liste, pid) {
 function pctTxt(a, b) { return b ? Math.round(100 * a / b) + " %" : "–"; }
 
 /* ---------------------------------------------------------------- éléments communs */
-function lienJ(pid, cls) { return `<a href="#/joueur/${encodeURIComponent(pid)}" class="${cls || "pl"}">${esc(nomJ(pid))}</a>`; }
+function lienJ(pid, cls) { if (String(pid).startsWith("k:")) return `<span class="${cls || "pl"}">${esc(nomJ(pid))}</span>`; return `<a href="#/joueur/${encodeURIComponent(pid)}" class="${cls || "pl"}">${esc(nomJ(pid))}</a>`; }
 function chipsSets(m, pid) {
   const s = setsDe(m), g = m.g === pid;
   if (!s) return `<span class="small">${esc(g ? m.sc : inverserScore(m.sc)) || "score non connu"}${m.sc ? " · incomplet" : ""}</span>`;

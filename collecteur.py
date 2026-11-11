@@ -47,7 +47,7 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.8.0"
+VERSION = "1.9.0"
 VERSION_COPIE = 2   # copie compacte de l'archive : 2 = avec statistiques et classements
 PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
 
@@ -73,7 +73,7 @@ TML_URLS = ["https://stats.tennismylife.org/data/{annee}.csv",
 TML_ITERATIONS = 600_000   # dérivation de clé volontairement lente (PBKDF2-SHA256)
 
 # Présentation du dépôt, réécrite à chaque passage (attribution exigée par les licences)
-README = "# H2H Tennis\n\nApplication personnelle et non commerciale de statistiques de tennis masculin (ATP, Challenger, ITF) : face-à-face, fiches joueurs, bilans.\n\n## Fonctionnement\n\n- `collecteur.py` construit chaque nuit les fichiers de `donnees/` à partir des sources ci-dessous (planification : `.github/workflows/collecte.yml`).\n- `rapport/rapport.md` décrit la dernière collecte (chiffres, alertes, erreurs).\n- `etat/` conserve une copie compacte de l'historique et le cache des tableaux Wikipédia.\n\n## Sources et licences\n\n| Source | Usage | Licence |\n|---|---|---|\n| Jeff Sackmann, [tennis_atp](https://github.com/JeffSackmann/tennis_atp), via la copie [Aneeshers/tennis-sackmann-archive](https://github.com/Aneeshers/tennis-sackmann-archive) | Historique des matchs, statistiques de match (aces, breaks…), joueurs, classements jusqu'à juin 2026 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |\n| [Valuebetennis](https://www.valuebetennis.com/en/donnees.htm), « Tennis results and odds since 2021 » | Matchs récents, mis à jour chaque jour | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |\n| [Wikipédia](https://en.wikipedia.org) (anglais), pages de tableaux de double | Doubles ATP et Challenger depuis 2021 ; calendrier des tournois Challenger de la saison (pages « AAAA ATP Challenger Tour ») | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |\n| API publique d'ESPN (tennis ATP) | Programme des matchs de simple ATP à venir et calendrier du circuit ATP, `donnees/programme.json` (noms, heures, tours ; rien d'autre n'est repris) | API publique non officielle, pas de licence indiquée |\n| [Kaggle, dissfya/atp-tennis-2000-2023daily-pull](https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull) | Scores, catégorie 250/500, intérieur ou extérieur, classement au moment du match (circuit principal) | CC0 (domaine public) |\n| [TennisMyLife](https://stats.tennismylife.org/tennis-match-database) | Scores complets et statistiques ATP et Challenger depuis juin 2026, **fichiers `donnees/tml-*.json` chiffrés** (usage personnel du propriétaire ; la redistribution des CSV n'est pas autorisée) | Usage personnel et non commercial |\n| [Wikidata](https://www.wikidata.org) et [Wikimedia Commons](https://commons.wikimedia.org) | Photos des joueurs (licences libres, auteur et licence indiqués pour chaque photo dans `donnees/photos.json`), poids, taille | CC0 (Wikidata) ; licence de chaque photo |\n| [Cito API](https://citoapi.com) | Résultats ATP, Challenger (qualifications comprises) et ITF, statistiques de match, classement ATP complet, depuis juin 2026, **fichiers `donnees/cito-*.json` et `etat/cito-*.json` chiffrés** (redistribution interdite) | Usage dans sa propre application |\n\nLes fichiers de `donnees/` (hors `tml-*.json` et `cito-*.json`, chiffrés et non partagés) sont des œuvres dérivées de ces sources et sont partagés dans les mêmes conditions : usage non commercial, attribution, partage dans les mêmes conditions (CC BY-NC-SA 4.0).\n\nAucun lien avec l'ATP, l'ITF ou les tournois cités. Les noms de tournois sont utilisés à titre descriptif.\n"
+README = "# H2H Tennis\n\nApplication personnelle et non commerciale de statistiques de tennis masculin (ATP, Challenger, ITF) : face-à-face, fiches joueurs, bilans.\n\n## Fonctionnement\n\n- `collecteur.py` construit chaque nuit les fichiers de `donnees/` à partir des sources ci-dessous (planification : `.github/workflows/collecte.yml`).\n- `rapport/rapport.md` décrit la dernière collecte (chiffres, alertes, erreurs).\n- `etat/` conserve une copie compacte de l'historique et le cache des tableaux Wikipédia.\n\n## Sources et licences\n\n| Source | Usage | Licence |\n|---|---|---|\n| Jeff Sackmann, [tennis_atp](https://github.com/JeffSackmann/tennis_atp), via la copie [Aneeshers/tennis-sackmann-archive](https://github.com/Aneeshers/tennis-sackmann-archive) | Historique des matchs, statistiques de match (aces, breaks…), joueurs, classements jusqu'à juin 2026 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |\n| [Valuebetennis](https://www.valuebetennis.com/en/donnees.htm), « Tennis results and odds since 2021 » | Matchs récents, mis à jour chaque jour | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |\n| [Wikipédia](https://en.wikipedia.org) (anglais), pages de tableaux de double | Doubles ATP et Challenger depuis 2021 ; calendrier des tournois Challenger de la saison (pages « AAAA ATP Challenger Tour ») | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |\n| API publique d'ESPN (tennis ATP) | Programme des matchs de simple ATP à venir et calendrier du circuit ATP, `donnees/programme.json` (noms, heures, tours ; rien d'autre n'est repris) | API publique non officielle, pas de licence indiquée |\n| [Kaggle, dissfya/atp-tennis-2000-2023daily-pull](https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull) | Scores, catégorie 250/500, intérieur ou extérieur, classement au moment du match (circuit principal) | CC0 (domaine public) |\n| [TennisMyLife](https://stats.tennismylife.org/tennis-match-database) | Scores complets et statistiques ATP et Challenger depuis juin 2026, **fichiers `donnees/tml-*.json` chiffrés** (usage personnel du propriétaire ; la redistribution des CSV n'est pas autorisée) | Usage personnel et non commercial |\n| [Wikidata](https://www.wikidata.org) et [Wikimedia Commons](https://commons.wikimedia.org) | Photos des joueurs (licences libres, auteur et licence indiqués pour chaque photo dans `donnees/photos.json`), poids, taille | CC0 (Wikidata) ; licence de chaque photo |\n| [Wikimedia Commons, Data:ATP singles ranking.tab](https://commons.wikimedia.org/wiki/Data:ATP_singles_ranking.tab) | Classement ATP en simple complet (rangs, points, âge, tournois joués), `donnees/classement.json` ; le collecteur vérifie que la licence de la table est libre avant de l'utiliser | Licence indiquée sur la table (contrôlée à chaque collecte) |\n| [Cito API](https://citoapi.com) | Résultats ATP, Challenger (qualifications comprises) et ITF, statistiques de match, classement ATP complet, depuis juin 2026, **fichiers `donnees/cito-*.json` et `etat/cito-*.json` chiffrés** (redistribution interdite) | Usage dans sa propre application |\n\nLes fichiers de `donnees/` (hors `tml-*.json` et `cito-*.json`, chiffrés et non partagés) sont des œuvres dérivées de ces sources et sont partagés dans les mêmes conditions : usage non commercial, attribution, partage dans les mêmes conditions (CC BY-NC-SA 4.0).\n\nAucun lien avec l'ATP, l'ITF ou les tournois cités. Les noms de tournois sont utilisés à titre descriptif.\n"
 
 RACINE = os.path.dirname(os.path.abspath(__file__))
 DONNEES = os.path.join(RACINE, "donnees")
@@ -1997,8 +1997,6 @@ def collecter_cito(cle, code, fin_sackmann):
     # 2. classement ATP complet, une fois par semaine
     lundi_courant = lundi(aujourd.isoformat())
     cl = meta.get("classement") or {}
-    if len(cl.get("liste") or []) <= 100:
-        cl = {}
     # au plus deux lectures par jour (une seconde si la première n'a rapporté que 100 rangs)
     essais_jour = suivi.get("classement_essais", {}).get(aujourd.isoformat(), 0)
     if (cl.get("date") or "") < lundi_courant and essais_jour < 2 and api.peut():
@@ -2034,9 +2032,11 @@ def collecter_cito(cle, code, fin_sackmann):
             # Cito renvoie 100 joueurs par page ; sans indication du nombre de pages, on continue tant que la page est pleine
             cov = obj.get("list_coverage") or {}
             profondeur = cov.get("deepest_rank") or cov.get("ranked_players") or 0
-            pages = max(obj.get("total_pages") or 0,
-                        -(-int(profondeur) // 100) if profondeur else 0,
-                        page + 1 if obj.get("has_next") or len(items) >= 100 else page)
+            if obj.get("total_pages"):   # le plan gratuit annonce 1 page (100 rangs) : on s'y fie, sans appel inutile
+                pages = int(obj["total_pages"])
+            else:
+                pages = max(-(-int(profondeur) // 100) if profondeur else 0,
+                            page + 1 if obj.get("has_next") or len(items) >= 100 else page)
             page += 1
         st["classement_pages"] = page - 1
         if liste and (page > pages or page > 25):   # liste complète, ou 25 pages au plus
@@ -2468,6 +2468,74 @@ def commons_infos(fichiers, stats):
     return out
 
 
+COMMONS_API = "https://commons.wikimedia.org/w/api.php"
+TABLE_CLASSEMENT = "ATP_singles_ranking.tab"
+LICENCES_OK = ("CC0", "CC-BY", "CC BY", "PD")
+
+
+def _cle_nom(txt):
+    t = unicodedata.normalize("NFKD", txt or "").encode("ascii", "ignore").decode().lower()
+    return " ".join(re.sub(r"[^a-z ]", " ", t.replace("-", " ")).split())
+
+
+def classement_depuis_table(lignes, base, codes_atp):
+    """lignes : dicts de la table Commons. Rattache chaque joueur à l'identifiant de l'appli (code ATP, sinon nom + pays unique)."""
+    par_nom = {}
+    for pid, j in base.joueurs.items():
+        par_nom.setdefault((_cle_nom(j["nom"]), j["pays"]), []).append(pid)
+    liste, stats = [], Counter()
+    for r in lignes:
+        try:
+            rang, pts = int(r["position"]), int(r["points"])
+        except (TypeError, ValueError, KeyError):
+            stats["lignes_ignorees"] += 1
+            continue
+        code = (r.get("atp_code") or "").lower()
+        pid = codes_atp.get(code)
+        via = "code"
+        if not pid:
+            c = par_nom.get((_cle_nom(r.get("name")), r.get("country_code")), [])
+            pid, via = (c[0], "nom") if len(c) == 1 else (None, "aucun")
+        stats["rattaches_" + via] += 1
+        liste.append([rang, pts, pid, r.get("name") or "", r.get("country_code") or "", r.get("age"),
+                      r.get("positions_difference"), r.get("tournaments_played"), code])
+    liste.sort(key=lambda x: x[0])
+    return liste, stats
+
+
+def collecter_classement_commons(base):
+    """Classement ATP complet (≈ 2 300 rangs) : table libre de Wikimedia Commons « Data:ATP singles ranking.tab ».
+    Écrit donnees/classement.json ; refuse la table si sa licence n'est pas libre."""
+    chemin = os.path.join(DONNEES, "classement.json")
+    url = f"{COMMONS_API}?action=jsondata&format=json&formatversion=2&title={TABLE_CLASSEMENT}"
+    obj = json.loads(telecharger(url, {"Accept": "application/json"}, essais=3, delai=5)).get("jsondata") or {}
+    licence = obj.get("license") or ""
+    if not licence.upper().startswith(tuple(x.upper() for x in LICENCES_OK)):
+        raise RuntimeError(f"licence de la table non libre ou absente : « {licence} »")
+    champs = [f.get("name") for f in (obj.get("schema") or {}).get("fields") or []]
+    lignes = [dict(zip(champs, ligne)) for ligne in obj.get("data") or []]
+    if len(lignes) < 500:
+        raise RuntimeError(f"table trop courte ({len(lignes)} lignes)")
+    maj = None
+    try:
+        rev = json.loads(telecharger(f"{COMMONS_API}?action=query&format=json&formatversion=2&prop=revisions&rvprop=timestamp"
+                                     f"&titles=Data:{TABLE_CLASSEMENT}", {"Accept": "application/json"}, essais=2, delai=3))
+        maj = rev["query"]["pages"][0]["revisions"][0]["timestamp"]
+    except Exception as e:  # noqa: BLE001
+        J.info(f"Classement Commons : date de modification non lue ({str(e)[:80]})")
+    photos = lire_json(os.path.join(DONNEES, "photos.json"), {}) or {}
+    codes = {v[8].lower(): pid for pid, v in (photos.get("joueurs") or {}).items() if len(v) > 8 and v[8]}
+    liste, stats = classement_depuis_table(lignes, base, codes)
+    sortie = {"source": "Wikimedia Commons, Data:ATP singles ranking.tab", "licence": licence, "modifie": maj,
+              "colonnes": ["rang", "points", "pid", "nom", "pays", "age", "diff_rang", "tournois", "code_atp"],
+              "liste": liste}
+    if lire_json(chemin, {}).get("liste") != liste:
+        ecrire_json(chemin, sortie)
+    J.chiffres["classement_commons"] = {"rangs": len(liste), "licence": licence, "modifie": maj, **dict(stats)}
+    J.info(f"Classement Commons : {len(liste)} rangs, licence {licence}, modifié {maj}, {dict(stats)}")
+    return "classement.json"
+
+
 def collecter_photos(base, autres_joueurs):
     """Écrit donnees/photos.json (public : Wikidata CC0, photos sous licence libre)."""
     stats = Counter()
@@ -2528,13 +2596,13 @@ def collecter_photos(base, autres_joueurs):
 FLUX_ACTUS = [
     ("L'Équipe", "fr", ["https://dwh.lequipe.fr/api/edito/rss?path=/Tennis/"]),
     ("Tennis Majors", "fr", ["https://www.tennismajors.com/fr/feed", "https://www.tennismajors.com/fr/feed/"]),
-    ("Eurosport", "fr", ["https://www.eurosport.fr/tennis/rss.xml"]),
+    ("Eurosport", "fr", ["https://www.eurosport.fr/tennis/rss.xml", "https://www.eurosport.fr/rss.xml"]),
     ("We Love Tennis", "fr", ["https://www.welovetennis.fr/feed", "https://www.welovetennis.fr/feed/"]),
-    ("Tennis Actu", "fr", ["https://www.tennisactu.net/feed/", "https://www.tennisactu.net/rss.xml"]),
+    ("Tennis Actu", "fr", ["https://www.tennisactu.net/feed/", "https://www.tennisactu.net/feed", "https://www.tennisactu.net/rss.xml"]),
     ("RMC Sport", "fr", ["https://rmcsport.bfmtv.com/rss/tennis/"]),
     ("franceinfo", "fr", ["https://www.francetvinfo.fr/sports/tennis.rss"]),
     ("20 Minutes", "fr", ["https://www.20minutes.fr/feeds/rss-tennis.xml"]),
-    ("ESPN", "en", ["https://www.espn.com/espn/rss/tennis/news"]),
+    ("ESPN", "en", ["https://www.espn.com/espn/rss/tennis/news", "https://www.espn.com/espn/rss/news"]),
     ("Tennis Majors (EN)", "en", ["https://www.tennismajors.com/feed"]),
     ("Ubitennis", "en", ["https://www.ubitennis.net/feed/"]),
 ]
@@ -2608,6 +2676,9 @@ def collecter_actus():
             lien = (it.findtext("link") or "").strip()
             if not titre or not lien.startswith("http"):
                 continue
+            if re.search(r"(?i)tous les programmes|résultats en direct\s*!?$", titre):   # titres bouche-trou
+                stats["ecartes_vide"] += 1
+                continue
             if MOTS_WTA.search(titre):
                 stats["ecartes_wta"] += 1
                 continue
@@ -2672,6 +2743,42 @@ def collecter_actus():
 ESPN_ATP = "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates="
 
 
+SONDES_CLASSEMENT = ["https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+                     "https://site.web.api.espn.com/apis/v2/sports/tennis/atp/rankings"]
+
+
+def sonder_classement_espn():
+    """Essai (aucune donnée reprise) : le classement ATP d'ESPN, jusqu'à quel rang ? Résultat dans programme.json (sonde_classement)."""
+    chemin = os.path.join(DONNEES, "programme.json")
+    prog = lire_json(chemin, None)
+    if not prog:
+        return
+    res = []
+    for url in SONDES_CLASSEMENT:
+        try:
+            obj = json.loads(telecharger(url, {"Accept": "application/json"}, essais=1, delai=3))
+        except Exception as e:  # noqa: BLE001
+            res.append({"url": url, "erreur": str(e)[:80]})
+            continue
+        n, maxr, cles = 0, 0, sorted(obj.keys())[:8] if isinstance(obj, dict) else []
+        def parcourir(x):
+            nonlocal n, maxr
+            if isinstance(x, dict):
+                r = x.get("current")
+                if isinstance(r, int) and "athlete" in x:
+                    n += 1
+                    maxr = max(maxr, r)
+                for v in x.values():
+                    parcourir(v)
+            elif isinstance(x, list):
+                for v in x:
+                    parcourir(v)
+        parcourir(obj)
+        res.append({"url": url, "cles": cles, "lignes": n, "rang_max": maxr})
+    prog["sonde_classement"] = {"date": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"), "essais": res}
+    ecrire_json(chemin, prog, compact=False)
+
+
 def collecter_programme():
     """Matchs de simple à venir (3 jours) et tournois du circuit ATP (5 semaines), depuis l'API publique d'ESPN.
     Écrit donnees/programme.json. Challenger et ITF : pas de source gratuite, l'appli affiche un calendrier attendu."""
@@ -2717,7 +2824,7 @@ def collecter_programme():
                         a = x.get("athlete") or {}
                         joueurs.append([str(a.get("guid") or x.get("id") or ""), a.get("displayName") or a.get("fullName"),
                                         ((a.get("flag") or {}).get("alt")), ((x.get("curatedRank") or {}).get("current"))])
-                    if not all(j[1] for j in joueurs):
+                    if not all(j[1] for j in joueurs) or any(j[1].strip().upper() in ("TBD", "TBA") or j[0].startswith("-") for j in joueurs):   # places vides du tableau
                         continue
                     matchs[str(c.get("id"))] = [c.get("startDate") or c.get("date"), 1 if c.get("timeValid") else 0,
                                                 (c.get("venue") or {}).get("court"), str(ev.get("id")),
@@ -2739,7 +2846,7 @@ def collecter_programme():
               "colonnes_matchs": ["debut_utc", "heure_connue", "court", "id_tournoi", "tour", "etat", "joueur1", "joueur2"],
               "colonnes_joueur": ["id", "nom", "pays", "rang"],
               "tournois": sorted(tournois.values(), key=lambda t: t[2]), "matchs": liste}
-    for k in ("challenger", "colonnes_challenger", "challenger_maj", "challenger_source"):
+    for k in ("challenger", "colonnes_challenger", "challenger_maj", "challenger_source", "sonde_classement"):
         if k in ancien:
             sortie[k] = ancien[k]
     if (ancien.get("tournois"), ancien.get("matchs")) != (sortie["tournois"], sortie["matchs"]):
@@ -3080,6 +3187,10 @@ def main():
             except Exception as e:  # noqa: BLE001
                 print("Programme : échec", e, file=sys.stderr)
             try:
+                sonder_classement_espn()
+            except Exception as e:  # noqa: BLE001
+                print("Sonde classement : échec", e, file=sys.stderr)
+            try:
                 collecter_calendrier_challenger()
             except Exception as e:  # noqa: BLE001
                 print("Calendrier Challenger : échec", e, file=sys.stderr)
@@ -3194,6 +3305,12 @@ def main():
                 garder = sorted(set(garder) | {collecter_photos(base, autres)})
             except Exception as e:  # noqa: BLE001
                 J.alerte(f"Photos : {type(e).__name__} {str(e)[:250]} (fichier précédent conservé)")
+        try:
+            garder = sorted(set(garder) | {collecter_classement_commons(base)})
+        except Exception as e:  # noqa: BLE001
+            J.alerte(f"Classement Commons : {type(e).__name__} {str(e)[:250]} (fichier précédent conservé)")
+            if os.path.exists(os.path.join(DONNEES, "classement.json")):
+                garder = sorted(set(garder) | {"classement.json"})
         vus, garde = {}, []
         for m in base.simples:
             k = (m["t"], m["g"], m["p"], m["tour"])
