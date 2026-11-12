@@ -6,7 +6,8 @@ CLE = os.environ.get("SA365_KEY", "").strip()
 sortie = [f"# Test sportsapi365 ({dt.datetime.utcnow():%Y-%m-%d %H:%M} UTC)", ""]
 
 def appel(chemin):
-    req = urllib.request.Request(BASE + chemin, headers={"X-Gravitee-Api-Key": CLE, "Accept": "application/json"})
+    req = urllib.request.Request(BASE + chemin, headers={"X-Gravitee-Api-Key": CLE, "Accept": "application/json",
+                                              "User-Agent": "h2h-tennis/1.0 (projet personnel, github.com/denzelkurt-maker/h2h-tennis)"})
     try:
         with urllib.request.urlopen(req, timeout=40) as r:
             return r.status, dict(r.headers), r.read().decode("utf-8", "replace")
