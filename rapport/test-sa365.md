@@ -1,8 +1,8 @@
-# Test sportsapi365 (2026-11-12 12:35 UTC)
+# Test sportsapi365 (2026-11-12 12:38 UTC)
 
 ## 1. /round (référentiel des tours)
 HTTP 200
-Quota : x-quota-limit=150, x-quota-remaining=143, x-quota-reset=1797077623230
+Quota : x-quota-limit=150, x-quota-remaining=141, x-quota-reset=1797077623230
 ```
 {"data":[{"round_id":6,"round_name":"Third"},{"round_id":9,"round_name":"1/4"},{"round_id":7,"round_name":"Fourth"},{"round_id":14,"round_name":"Rubber 2"},{"round_id":13,"round_name":"Rubber 1"},{"round_id":11,"round_name":"Bronze"},{"round_id":0,"round_name":"Pre-q"},{"round_id":16,"round_name":"Rubber 4"},{"round_id":10,"round_name":"1/2"},{"round_id":15,"round_name":"Rubber 3"},{"round_id":3,"round_name":"Q3"},{"round_id":20,"round_name":"N/A"},{"round_id":12,"round_name":"Final"},{"round_id":2,"round_name":"Q2"},{"round_id":5,"round_name":"Second"},{"round_id":1,"round_name":"Q1"},{"round_id":8,"round_name":"Robin"},{"round_id":4,"round_name":"First"},{"round_id":17,"round_name":"Rubber 5"},{"round_id":21,"round_name":"ER"},{"round_id":22,"round_name":"Q4"},{"round_id":23,"round_name":"CR"},{"round_id":24,"round_name":"QF"},{"round_id":25,"round_name":"Q5"},{"round_id":-1,"round_name":"N/A"}]}
 ```
@@ -10,7 +10,7 @@ Quota : x-quota-limit=150, x-quota-remaining=143, x-quota-reset=1797077623230
 ## 2. Résultats du 27/10, pageSize=500
 /atp/results/2026-10-27?pageSize=500
 HTTP 200
-Quota : x-quota-limit=150, x-quota-remaining=142, x-quota-reset=1797077623230
+Quota : x-quota-limit=150, x-quota-remaining=140, x-quota-reset=1797077623230
 
 Structure (champs) :
 ```
