@@ -47,7 +47,7 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.10.1"
+VERSION = "1.10.2"
 CITO_VUS = {}   # indice de match de l'archive -> True si Cito donne un score complet (diagnostic des trous)
 VERSION_COPIE = 2   # copie compacte de l'archive : 2 = avec statistiques et classements
 PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
@@ -2260,8 +2260,13 @@ def integrer_cito(base, mois, meta, fin_sackmann, resultat_tml):
                 # (score complet une fois retourné) ou s'il est vide ; sinon on garde la version publique.
                 _, d_pub = analyser_score(m.get("score") or "", bo)
                 _, d_inv = analyser_score(inverser_score(m.get("score") or ""), bo)
+                # abandon : le joueur qui abandonne perd. Si les sets terminés de Cito sont exactement ceux du
+                # score public retourné (début de score), le public a désigné l'abandonnant comme vainqueur.
+                _sc_c = [x for x in re.findall(r"(\d+)-(\d+)", score or "")]
+                _sc_i = [x for x in re.findall(r"(\d+)-(\d+)", inverser_score(m.get("score") or ""))]
+                abandon_coherent = bool(drap & ABANDON and _sc_c and _sc_i[:len(_sc_c)] == _sc_c)
                 if drap & (COMPLET | ABANDON | FORFAIT) and not d_pub & COMPLET and \
-                        (d_inv & COMPLET or not (m.get("score") or "").strip()):
+                        (d_inv & COMPLET or not (m.get("score") or "").strip() or abandon_coherent):
                     complements[base.tournois[m["t"]]["annee"]].append(
                         [m["t"], m["g"], m["p"], sc, drap, st if a_stats else None, 1])
                     stats["vainqueur_corrige"] += 1
