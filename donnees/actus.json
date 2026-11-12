@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T03:31+00:00",
+ "maj": "2026-11-12T05:45+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -20,12 +20,12 @@
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 14 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 27 articles",
+  "RMC Sport": "ok, 28 articles",
   "franceinfo": "ok, 20 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 15 articles",
-  "Ubitennis": "ok, 12 articles"
+  "Ubitennis": "erreur : téléchargement impossible : https://www.ubitennis.net/feed/ (<urlopen error timed out>)"
  },
  "articles": [
   {

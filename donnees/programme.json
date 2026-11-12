@@ -2052,7 +2052,7 @@
   ],
   [
    "2026-10-12",
-   "Maia Challenger",
+   "Maia Open",
    "Maia",
    "Portugal",
    "Clay",
@@ -2151,7 +2151,7 @@
   ],
   [
    "2026-10-26",
-   "Brest Challenger",
+   "Brest Open",
    "Brest",
    "France",
    "Hard",
@@ -2358,21 +2358,21 @@
   ],
   [
    "2026-11-16",
-   "Metz Challenger",
-   "Metz",
-   "France",
-   "Hard",
-   1,
-   125
-  ],
-  [
-   "2026-11-16",
    "NSW Open",
    "Sydney",
    "Australia",
    "Hard",
    0,
    75
+  ],
+  [
+   "2026-11-16",
+   "Open Metz–Grand Est",
+   "Metz",
+   "France",
+   "Hard",
+   1,
+   125
   ],
   [
    "2026-11-16",
@@ -2789,10 +2789,10 @@
   "salle",
   "categorie"
  ],
- "challenger_maj": "2026-11-11T08:13+00:00",
+ "challenger_maj": "2026-11-12T05:46+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-12T03:31+00:00",
+  "date": "2026-11-12T05:46+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
