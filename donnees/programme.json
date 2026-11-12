@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T21:58+00:00",
+ "maj": "2026-11-12T13:56+00:00",
  "source": "ESPN (API publique)",
  "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
  "colonnes_tournois": [
@@ -36,19 +36,19 @@
   [
    "339-2026",
    "Nitto ATP Finals",
-   "2026-11-14",
+   "2026-11-16",
    "2026-11-23",
-   null
+   "Turin, Italy"
   ]
  ],
  "matchs": [
   [
-   "2026-11-12T12:00Z",
+   "2026-11-12T12:05Z",
    1,
    "Center Court",
    "148-2026",
    "Quarterfinal",
-   "pre",
+   "in",
    [
     "3a18ef3a-cc7b-3f51-a969-cac9c930c75d",
     "Alex Michelsen",
@@ -63,7 +63,7 @@
    ]
   ],
   [
-   "2026-11-12T14:00Z",
+   "2026-11-12T14:20Z",
    1,
    "Center Court",
    "148-2026",
@@ -2792,7 +2792,7 @@
  "challenger_maj": "2026-11-12T05:46+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-12T11:36+00:00",
+  "date": "2026-11-12T13:56+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",

@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T11:36+00:00",
+ "maj": "2026-11-12T13:55+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,9 +18,9 @@
   "L'Équipe": "ok, 36 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 14 articles",
+  "We Love Tennis": "ok, 15 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 27 articles",
+  "RMC Sport": "ok, 28 articles",
   "franceinfo": "ok, 20 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -28,6 +28,24 @@
   "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-revelation-de-juan-carlos-ferrero-nouveau-coach-de-ben-shelton-jai-aussi-discute-avec-le-pere-de-ce-joueur-mais-je-crois-quils-ont-decide-de-prendre-une-autre-direction",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T13:48+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/11/Ferrero-Masters-2023-1024x558.jpeg",
+   "titre": "La révélation de Juan Carlos Ferrero, nouveau coach de Ben Shelton : « J’ai aussi discuté avec le père de ce joueur mais je crois qu’ils ont décidé de prendre une autre direction »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-decision-importante-darthur-fils-pour-le-debut-de-saison-2027",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T13:15+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-entree-Paris-1024x505.jpeg",
+   "titre": "La décision importante d’Arthur Fils pour le début de saison 2027",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/november-12-2007-the-day-roger-federer-suffered-second-consecutive-loss-513281.html",
    "source": "Tennis Majors (EN)",
@@ -37,6 +55,51 @@
    "vo": "November 12, 2007: The day Roger Federer suffered a second consecutive loss for the first time in four years",
    "titre": "12 novembre 2007 : le jour où Roger Federer a subi une deuxième défaite consécutive pour la première fois en quatre ans",
    "titre_fr": "12 novembre 2007 : le jour où Roger Federer a subi une deuxième défaite consécutive pour la première fois en quatre ans",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/flavio-cobolli-sur-alexander-zverev-il-est-numero-1-mondial-car-il-possede-la-qualite-la-plus-recherchee-du-moment-notamment-par-carlos-alcaraz-et-jannik-sinner",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T12:39+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Cobolli-Zverev-regard-filet-RG-2026-1024x485.jpeg",
+   "titre": "Flavio Cobolli sur Alexander Zverev : « Il est numéro 1 mondial car il possède la qualité la plus recherchée du moment, notamment par Carlos Alcaraz et Jannik Sinner »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4262378-20261112-finales-atp-2026-tableau-complet-apres-tirage-sort?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-12T12:32+00:00",
+   "image": "https://img.20mn.fr/DlmrwCp8SEqzemiU2mMgNCk/1200x768_arthur-fils-est-fixe-sur-le-programme-qui-l-attend-a-turin-lors-des-finales-atp-photo-d-illustration",
+   "titre": "Finales ATP 2026 : Le tableau complet après le tirage au sort",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-evite-carlos-alcaraz-les-deux-poules-du-masters-sont-connues",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T12:06+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-pres-1024x517.jpeg",
+   "titre": "Arthur Fils évite Carlos Alcaraz, les deux poules du Masters sont connues !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-est-fixe-le-francais-affrontera-alexander-zverev-ben-shelton-et-rafael-jodar-en-poules-des-finales-atp/1743140#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-12T12:03+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-la-semaine-derniere-lors-du-rolex-paris-masters-p-lahalle-l-equipe/1500000002648766/229:168,1953:1318-828-552-75/3f900.jpg",
+   "titre": "Arthur Fils est fixé : le Français affrontera Alexander Zverev, Ben Shelton et Rafael Jodar en poules des Finales ATP",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/inquietude-pour-carlos-alcaraz-a-trois-jours-du-debut-du-masters",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T11:46+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-6386-1024x557.jpg",
+   "titre": "Inquiétude pour Carlos Alcaraz à trois jours du début du Masters",
    "blessure": false
   },
   {
@@ -84,6 +147,15 @@
    "date": "2026-11-12T09:34+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-RG-1024x528.jpeg",
    "titre": "Jannik Sinner, pas seulement blessé au genou : « Je me suis fait enlever les amygdales il y a quelques semaines et j’ai perdu beaucoup de poids. Vous le voyez peut-être à mon visage, il est assez sec »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-pas-seulement-blesse-au-genou-je-me-suis-fait-enlever-les-amygdales-il-y-a-quelques-semaines-et-jai-perdu-beaucoup-de-poids-vous-le-voyez-peut-etre-a-mon-visage",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T09:34+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-RG-1024x528.jpeg",
+   "titre": "Jannik Sinner, pas seulement blessé au genou : « Je me suis fait enlever les amygdales il y a quelques semaines et j’ai perdu beaucoup de poids. Vous le voyez peut-être à mon visage… »",
    "blessure": true
   },
   {
