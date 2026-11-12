@@ -901,7 +901,7 @@ nav.tabs a[aria-current="page"]::before{content:"";position:absolute;top:-6px;le
    par le collecteur (donnees/), les garde en cache sur l'iPhone et fait
    tous les calculs dans le navigateur.
    ====================================================================== */
-const VERSION_APPLI = "0.10.0";
+const VERSION_APPLI = "0.11.0";
 const BASE = "./donnees/";
 const CACHE = "h2h-tennis-donnees";
 const SURF = {Hard: "Dur", Clay: "Terre", Grass: "Gazon", Carpet: "Moquette"};
@@ -982,7 +982,7 @@ function demanderCode(erreur) {
     const m = document.createElement("div");
     m.className = "modal";
     m.innerHTML = `<div class="panel"><div class="sel-t">Code des données complémentaires</div>
-      <div class="sous">Scores et statistiques complets (TennisMyLife, Cito) sont chiffrés dans le dépôt public. Saisis le code à 8 chiffres rangé dans GitHub (secret CODE_TML). Il est gardé sur cet appareil.</div>
+      <div class="sous">Scores et statistiques complets (TennisMyLife, Cito, SportsAPI365) sont chiffrés dans le dépôt public. Saisis le code à 8 chiffres rangé dans GitHub (secret CODE_TML). Il est gardé sur cet appareil.</div>
       ${erreur ? `<div class="note">${esc(erreur)}</div>` : ""}
       <input id="code" inputmode="numeric" autocomplete="off" maxlength="12">
       <div class="btns"><button class="btn plein" id="ok">Valider</button><button class="btn" id="passer">Continuer sans</button></div></div>`;
@@ -2346,7 +2346,7 @@ function vueReglages() {
         <li>Generate token, copier, coller ici.</li></ol></details></div>
     <div class="panel"><div class="sec-h"><span class="sel-t">Mes photos</span><span class="sec-sub">${nPhotos} photo(s) ajoutée(s) sur cet appareil</span></div>
       <div class="row"><button id="expPh">Sauvegarder (fichier)</button><button id="impPh">Restaurer</button></div><input type="file" id="impF" accept="application/json" hidden></div>
-    <div class="panel"><div class="sec-h"><span class="sel-t">Sources</span></div><div class="small muted">Archive Jeff Sackmann (CC BY-NC-SA), Valuebetennis (CC BY), Kaggle dissfya (CC0), Wikipédia (CC BY-SA), TennisMyLife et Cito API (usage personnel, chiffrés), Wikidata (CC0), photos Wikimedia Commons (licence de chaque photo). Usage personnel, non commercial.</div></div>
+    <div class="panel"><div class="sec-h"><span class="sel-t">Sources</span></div><div class="small muted">Archive Jeff Sackmann (CC BY-NC-SA), Valuebetennis (CC BY), Kaggle dissfya (CC0), Wikipédia (CC BY-SA), TennisMyLife, Cito API et SportsAPI365 (usage personnel, chiffrés), Wikidata (CC0), photos Wikimedia Commons (licence de chaque photo). Usage personnel, non commercial.</div></div>
     <p class="appver small muted">Version de l'appli : ${VERSION_APPLI}</p>`;
   $("#code").onclick = () => { lsEcrire("h2h-code", null); location.reload(); };
   $("#cache").onclick = async () => { try { await caches.delete(CACHE); } catch (e) { /* rien */ } location.reload(); };

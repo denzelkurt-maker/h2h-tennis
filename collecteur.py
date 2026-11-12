@@ -47,7 +47,7 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.11.0"
+VERSION = "1.11.1"
 CITO_VUS = {}   # indice de match de l'archive -> True si Cito donne un score complet (diagnostic des trous)
 VERSION_COPIE = 2   # copie compacte de l'archive : 2 = avec statistiques et classements
 PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
@@ -2968,7 +2968,8 @@ def collecter_calendrier_challenger():
 SA_BASE = "https://api.sportsapi365.com/v1/tennis"
 SA_ETAT = os.path.join(ETAT, "sa365.json")
 SA_RESERVE = 10        # requêtes laissées au quota
-SA_MAX_COLLECTE = 70   # requêtes au plus par collecte
+SA_MAX_COLLECTE = 70   # requêtes au plus par collecte tant qu'il y a un gros retard (plus de 15 jours à lire)
+SA_MAX_ROUTINE = 6     # requêtes au plus par collecte en régime normal, pour étaler les 150 requêtes du mois
 SA_FENETRE_JOURS = 5   # jours demandés d'un coup (plage de dates)
 SA_SEUIL_CONCORDANCE = 0.9
 
@@ -3033,9 +3034,11 @@ def integrer_sa365(base, fin_sackmann, cle, code, resultats, resultat_cito):
     a_faire = sorted((j for j in jours if j not in faits), reverse=True)
     sortie["jours_restants_avant"] = len(a_faire)
     lignes_lues, appels, quota, stop = [], 0, None, ""
+    plafond = SA_MAX_COLLECTE if len(a_faire) > 15 else SA_MAX_ROUTINE
+    sortie["plafond_requetes"] = plafond
     range_ok = etat.get("range_ok", True)
     i = 0
-    while i < len(a_faire) and appels < SA_MAX_COLLECTE:
+    while i < len(a_faire) and appels < plafond:
         if range_ok:
             bloc = [a_faire[i]]
             while i + len(bloc) < len(a_faire):
@@ -3071,7 +3074,7 @@ def integrer_sa365(base, fin_sackmann, cle, code, resultats, resultat_cito):
                 break
             recu.extend(d.get("data") or [])
             pages += 1
-            if not d.get("hasNextPage") or pages >= 8 or appels >= SA_MAX_COLLECTE + 8:
+            if not d.get("hasNextPage") or pages >= 8 or appels >= plafond + 8:
                 break
             page += 1
             time.sleep(0.3)
@@ -3127,7 +3130,7 @@ def integrer_sa365(base, fin_sackmann, cle, code, resultats, resultat_cito):
         if trouve not in holes:
             # contrôle : match déjà complet chez nous, on compare sans rien modifier
             if m["dr"] & COMPLET and gagn == m["g"]:
-                if (sc or "").replace("(", "").replace(")", "") == (m.get("score") or "").replace("(", "").replace(")", ""):
+                if re.sub(r"\(\d+\)", "", sc or "") == re.sub(r"\(\d+\)", "", m.get("score") or ""):
                     valid["identique"] += 1
                 else:
                     valid["different"] += 1
