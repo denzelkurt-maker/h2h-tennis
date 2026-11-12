@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T17:33+00:00",
+ "maj": "2026-11-12T19:38+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,9 +18,9 @@
   "L'Équipe": "ok, 36 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 17 articles",
+  "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 26 articles",
+  "RMC Sport": "ok, 25 articles",
   "franceinfo": "ok, 20 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -28,6 +28,62 @@
   "Ubitennis": "ok, 12 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/un-algorithme-predit-le-vainqueur-du-tournoi-des-maitres",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T18:50+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Turin-Masters-court-2025-central-1024x571.jpeg",
+   "titre": "Un algorithme prédit le vainqueur du tournoi des Maîtres",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/-face-a-l-engouement-toujours-plus-grand-du-public-le-tirage-au-sort-reconduit-pour-obtenir-des-billets-pour-roland-garros-2027/1743243#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-12T18:34+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/le-public-du-court-suzanne-lenglen-lors-du-3e-tour-de-moise-kouame-p-lahalle-l-equipe/1500000002649016/6:38,1947:1332-828-552-75/6d4a8.jpg",
+   "titre": "« Face à l'engouement toujours plus grand du public », le tirage au sort reconduit pour obtenir des billets pour Roland-Garros 2027",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Holger-rune-declare-forfait-avant-son-quart-de-finale-de-l-atp-250-de-stockholm-contre-taylor-fritz/1743239#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-12T18:21+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/holger-rune-ici-au-rolex-paris-masters-p-lahalle-l-equipe/1500000002649007/0:0,1999:1333-828-552-75/a225f.jpg",
+   "titre": "Holger Rune déclare forfait avant son quart de finale de l'ATP 250 de Stockholm contre Taylor Fritz",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-revelation-de-casper-ruud-sur-lavenir-du-calendrier-atp-il-existe-un-projet-visant-a-racheter-certains-tournois-atp-afin-que-la-saison-puisse-se-terminer-quelques-semaines-plus-tot",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T18:20+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/04/Ruud-MC-2025-1024x560.jpeg",
+   "titre": "La révélation de Casper Ruud sur l’avenir du calendrier ATP : « Il existe un projet visant à racheter certains tournois ATP afin que la saison puisse se terminer quelques semaines plus tôt »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/rune-pulls-out-of-stockholm-quarter-final-against-fritz-with-hamstring-injury-866833.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-12T18:14+00:00",
+   "image": null,
+   "vo": "Rune pulls out of Stockholm quarter-final against Fritz with hamstring injury",
+   "titre": "Rune se retire du quart de finale de Stockholm contre Fritz en raison d’une blessure aux ischio-jambiers",
+   "titre_fr": "Rune se retire du quart de finale de Stockholm contre Fritz en raison d’une blessure aux ischio-jambiers",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/lenorme-jackpot-pour-arthur-fils-et-les-autres-aux-atp-finals",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T17:44+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Sinner-Alcaraz-Masters-1024x557.jpg",
+   "titre": "L’énorme jackpot pour Arthur Fils et les autres aux ATP Finals !",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/sinner-felicite-ce-joueur-qualifie-au-masters-je-suis-vraiment-tres-heureux-pour-lui-cest-quelquun-de-bien-qui-sentoure-dune-equipe-tres-professionnelle",
    "source": "We Love Tennis",
@@ -80,15 +136,6 @@
    "date": "2026-11-12T15:20+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Cobolli-1024x579.jpeg",
    "titre": "Cobolli rend hommage à son compatriote et ami Sinner : « Jannik n’est pas à Turin, mais c’est comme s’il y était »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-12T14:58+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
-   "titre": "Jannik Sinner",
    "blessure": false
   },
   {
@@ -1998,6 +2045,15 @@
    "date": "2026-11-06T10:13+00:00",
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/7hlMWjdHbgnZ-rQlpZ9DcPcyXOE=/83x125:1923x1160/800x0/images/Luca-Van-Assche-au-Masters-1000-de-Paris-le-5-novembre-2026-2379122.jpg",
    "titre": "Masters 1000 de Paris: qui est l'atypique Luca Van Assche, dernier Français en lice?",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-06T10:07+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
+   "titre": "Jannik Sinner",
    "blessure": false
   },
   {

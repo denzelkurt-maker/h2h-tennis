@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T17:34+00:00",
+ "maj": "2026-11-12T19:38+00:00",
  "source": "ESPN (API publique)",
  "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
  "colonnes_tournois": [
@@ -43,12 +43,12 @@
  ],
  "matchs": [
   [
-   "2026-11-12T19:00Z",
+   "2026-11-12T19:25Z",
    1,
    "Center Court",
    "148-2026",
    "Quarterfinal",
-   "pre",
+   "in",
    [
     "9b79e506-da5f-e10a-6b4e-9a2a93ed34bb",
     "Lorenzo Musetti",
@@ -2752,7 +2752,7 @@
  "challenger_maj": "2026-11-12T05:46+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-12T17:34+00:00",
+  "date": "2026-11-12T19:38+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
