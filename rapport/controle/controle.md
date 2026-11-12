@@ -1,6 +1,6 @@
 # Contrôle de l'appli
 
-- Date (UTC) : 2026-11-12T01:42:59.174Z
+- Date (UTC) : 2026-11-12T06:10:13.573Z
 - Version de l'appli : 0.10.0
 - État : **OK**
 
@@ -14,11 +14,11 @@
 ```json
 {
  "public": {
-  "duree_chargement_s": 2.826,
+  "duree_chargement_s": 4.338,
   "chiffres": {
    "version_appli": "0.10.0",
    "matchs": 356326,
-   "joueurs": 11834,
+   "joueurs": 11829,
    "tournois": 10494,
    "doublons": 0,
    "complements_dechiffres": false,
@@ -44,8 +44,8 @@
      ]
     ]
    },
-   "photos": 1194,
-   "joueurs_avec_poids": 633,
+   "photos": 1192,
+   "joueurs_avec_poids": 781,
    "sinner": {
     "nom": "Jannik Sinner",
     "matchs": 565,
@@ -86,11 +86,11 @@
   }
  },
  "complet": {
-  "duree_chargement_s": 2.471,
+  "duree_chargement_s": 3.473,
   "chiffres": {
    "version_appli": "0.10.0",
    "matchs": 356942,
-   "joueurs": 11857,
+   "joueurs": 11852,
    "tournois": 10495,
    "doublons": 0,
    "complements_dechiffres": true,
@@ -116,8 +116,8 @@
      ]
     ]
    },
-   "photos": 1194,
-   "joueurs_avec_poids": 633,
+   "photos": 1192,
+   "joueurs_avec_poids": 781,
    "sinner": {
     "nom": "Jannik Sinner",
     "matchs": 565,
