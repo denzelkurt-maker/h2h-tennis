@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T19:38+00:00",
+ "maj": "2026-11-12T21:28+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -20,7 +20,7 @@
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 25 articles",
+  "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 20 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -136,6 +136,15 @@
    "date": "2026-11-12T15:20+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Cobolli-1024x579.jpeg",
    "titre": "Cobolli rend hommage à son compatriote et ami Sinner : « Jannik n’est pas à Turin, mais c’est comme s’il y était »",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-12T14:58+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
+   "titre": "Jannik Sinner",
    "blessure": false
   },
   {
@@ -2045,15 +2054,6 @@
    "date": "2026-11-06T10:13+00:00",
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/7hlMWjdHbgnZ-rQlpZ9DcPcyXOE=/83x125:1923x1160/800x0/images/Luca-Van-Assche-au-Masters-1000-de-Paris-le-5-novembre-2026-2379122.jpg",
    "titre": "Masters 1000 de Paris: qui est l'atypique Luca Van Assche, dernier Français en lice?",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-06T10:07+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
-   "titre": "Jannik Sinner",
    "blessure": false
   },
   {
