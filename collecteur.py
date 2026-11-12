@@ -47,7 +47,7 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.10.2"
+VERSION = "1.11.0"
 CITO_VUS = {}   # indice de match de l'archive -> True si Cito donne un score complet (diagnostic des trous)
 VERSION_COPIE = 2   # copie compacte de l'archive : 2 = avec statistiques et classements
 PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
@@ -74,7 +74,7 @@ TML_URLS = ["https://stats.tennismylife.org/data/{annee}.csv",
 TML_ITERATIONS = 600_000   # dérivation de clé volontairement lente (PBKDF2-SHA256)
 
 # Présentation du dépôt, réécrite à chaque passage (attribution exigée par les licences)
-README = "# H2H Tennis\n\nApplication personnelle et non commerciale de statistiques de tennis masculin (ATP, Challenger, ITF) : face-à-face, fiches joueurs, bilans.\n\n## Fonctionnement\n\n- `collecteur.py` construit chaque nuit les fichiers de `donnees/` à partir des sources ci-dessous (planification : `.github/workflows/collecte.yml`).\n- `rapport/rapport.md` décrit la dernière collecte (chiffres, alertes, erreurs).\n- `etat/` conserve une copie compacte de l'historique et le cache des tableaux Wikipédia.\n\n## Sources et licences\n\n| Source | Usage | Licence |\n|---|---|---|\n| Jeff Sackmann, [tennis_atp](https://github.com/JeffSackmann/tennis_atp), via la copie [Aneeshers/tennis-sackmann-archive](https://github.com/Aneeshers/tennis-sackmann-archive) | Historique des matchs, statistiques de match (aces, breaks…), joueurs, classements jusqu'à juin 2026 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |\n| [Valuebetennis](https://www.valuebetennis.com/en/donnees.htm), « Tennis results and odds since 2021 » | Matchs récents, mis à jour chaque jour | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |\n| [Wikipédia](https://en.wikipedia.org) (anglais), pages de tableaux de double | Doubles ATP et Challenger depuis 2021 ; calendrier des tournois Challenger de la saison (pages « AAAA ATP Challenger Tour ») | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |\n| API publique d'ESPN (tennis ATP) | Programme des matchs de simple ATP à venir et calendrier du circuit ATP, `donnees/programme.json` (noms, heures, tours ; rien d'autre n'est repris) | API publique non officielle, pas de licence indiquée |\n| [Kaggle, dissfya/atp-tennis-2000-2023daily-pull](https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull) | Scores, catégorie 250/500, intérieur ou extérieur, classement au moment du match (circuit principal) | CC0 (domaine public) |\n| [TennisMyLife](https://stats.tennismylife.org/tennis-match-database) | Scores complets et statistiques ATP et Challenger depuis juin 2026, **fichiers `donnees/tml-*.json` chiffrés** (usage personnel du propriétaire ; la redistribution des CSV n'est pas autorisée) | Usage personnel et non commercial |\n| [Wikidata](https://www.wikidata.org) et [Wikimedia Commons](https://commons.wikimedia.org) | Photos des joueurs (licences libres, auteur et licence indiqués pour chaque photo dans `donnees/photos.json`), poids, taille | CC0 (Wikidata) ; licence de chaque photo |\n| [Wikimedia Commons, Data:ATP singles ranking.tab](https://commons.wikimedia.org/wiki/Data:ATP_singles_ranking.tab) | Classement ATP en simple complet (rangs, points, âge, tournois joués), `donnees/classement.json` ; le collecteur vérifie que la licence de la table est libre avant de l'utiliser | Licence indiquée sur la table (contrôlée à chaque collecte) |\n| [Cito API](https://citoapi.com) | Résultats ATP, Challenger (qualifications comprises) et ITF, statistiques de match, classement ATP complet, depuis juin 2026, **fichiers `donnees/cito-*.json` et `etat/cito-*.json` chiffrés** (redistribution interdite) | Usage dans sa propre application |\n\nLes fichiers de `donnees/` (hors `tml-*.json` et `cito-*.json`, chiffrés et non partagés) sont des œuvres dérivées de ces sources et sont partagés dans les mêmes conditions : usage non commercial, attribution, partage dans les mêmes conditions (CC BY-NC-SA 4.0).\n\nAucun lien avec l'ATP, l'ITF ou les tournois cités. Les noms de tournois sont utilisés à titre descriptif.\n"
+README = "# H2H Tennis\n\nApplication personnelle et non commerciale de statistiques de tennis masculin (ATP, Challenger, ITF) : face-à-face, fiches joueurs, bilans.\n\n## Fonctionnement\n\n- `collecteur.py` construit chaque nuit les fichiers de `donnees/` à partir des sources ci-dessous (planification : `.github/workflows/collecte.yml`).\n- `rapport/rapport.md` décrit la dernière collecte (chiffres, alertes, erreurs).\n- `etat/` conserve une copie compacte de l'historique et le cache des tableaux Wikipédia.\n\n## Sources et licences\n\n| Source | Usage | Licence |\n|---|---|---|\n| Jeff Sackmann, [tennis_atp](https://github.com/JeffSackmann/tennis_atp), via la copie [Aneeshers/tennis-sackmann-archive](https://github.com/Aneeshers/tennis-sackmann-archive) | Historique des matchs, statistiques de match (aces, breaks…), joueurs, classements jusqu'à juin 2026 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |\n| [Valuebetennis](https://www.valuebetennis.com/en/donnees.htm), « Tennis results and odds since 2021 » | Matchs récents, mis à jour chaque jour | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |\n| [Wikipédia](https://en.wikipedia.org) (anglais), pages de tableaux de double | Doubles ATP et Challenger depuis 2021 ; calendrier des tournois Challenger de la saison (pages « AAAA ATP Challenger Tour ») | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |\n| API publique d'ESPN (tennis ATP) | Programme des matchs de simple ATP à venir et calendrier du circuit ATP, `donnees/programme.json` (noms, heures, tours ; rien d'autre n'est repris) | API publique non officielle, pas de licence indiquée |\n| [Kaggle, dissfya/atp-tennis-2000-2023daily-pull](https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull) | Scores, catégorie 250/500, intérieur ou extérieur, classement au moment du match (circuit principal) | CC0 (domaine public) |\n| [TennisMyLife](https://stats.tennismylife.org/tennis-match-database) | Scores complets et statistiques ATP et Challenger depuis juin 2026, **fichiers `donnees/tml-*.json` chiffrés** (usage personnel du propriétaire ; la redistribution des CSV n'est pas autorisée) | Usage personnel et non commercial |\n| [Wikidata](https://www.wikidata.org) et [Wikimedia Commons](https://commons.wikimedia.org) | Photos des joueurs (licences libres, auteur et licence indiqués pour chaque photo dans `donnees/photos.json`), poids, taille | CC0 (Wikidata) ; licence de chaque photo |\n| [Wikimedia Commons, Data:ATP singles ranking.tab](https://commons.wikimedia.org/wiki/Data:ATP_singles_ranking.tab) | Classement ATP en simple complet (rangs, points, âge, tournois joués), `donnees/classement.json` ; le collecteur vérifie que la licence de la table est libre avant de l'utiliser | Licence indiquée sur la table (contrôlée à chaque collecte) |\n| [SportsAPI365](https://sportsapi365.com) | Résultats ATP, Challenger et ITF, utilisés uniquement pour compléter des scores manquants, **fichiers `donnees/cito-*.json` et `etat/sa365.json` chiffrés** (pas de redistribution brute) | Usage dans sa propre application |\n| [Cito API](https://citoapi.com) | Résultats ATP, Challenger (qualifications comprises) et ITF, statistiques de match, classement ATP complet, depuis juin 2026, **fichiers `donnees/cito-*.json` et `etat/cito-*.json` chiffrés** (redistribution interdite) | Usage dans sa propre application |\n\nLes fichiers de `donnees/` (hors `tml-*.json` et `cito-*.json`, chiffrés et non partagés) sont des œuvres dérivées de ces sources et sont partagés dans les mêmes conditions : usage non commercial, attribution, partage dans les mêmes conditions (CC BY-NC-SA 4.0).\n\nAucun lien avec l'ATP, l'ITF ou les tournois cités. Les noms de tournois sont utilisés à titre descriptif.\n"
 
 RACINE = os.path.dirname(os.path.abspath(__file__))
 DONNEES = os.path.join(RACINE, "donnees")
@@ -2960,6 +2960,228 @@ def collecter_calendrier_challenger():
     return "programme.json"
 
 
+
+# ---------------------------------------------------------------- sportsapi365 (résultats, comble les trous de score)
+# Offre gratuite : 150 requêtes par mois. Les résultats d'un jour (jusqu'à 500 par page) servent uniquement à
+# compléter les scores manquants, jamais à écraser un score complet. Les compléments sont chiffrés avec ceux
+# de Cito (donnees/cito-*.json), car le fournisseur interdit la redistribution brute de ses données.
+SA_BASE = "https://api.sportsapi365.com/v1/tennis"
+SA_ETAT = os.path.join(ETAT, "sa365.json")
+SA_RESERVE = 10        # requêtes laissées au quota
+SA_MAX_COLLECTE = 70   # requêtes au plus par collecte
+SA_FENETRE_JOURS = 5   # jours demandés d'un coup (plage de dates)
+SA_SEUIL_CONCORDANCE = 0.9
+
+
+def sa_appel(cle, chemin):
+    req = urllib.request.Request(SA_BASE + chemin, headers={
+        "X-Gravitee-Api-Key": cle, "Accept": "application/json",
+        "User-Agent": "h2h-tennis/1.0 (projet personnel, github.com/denzelkurt-maker/h2h-tennis)"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            corps = r.read().decode("utf-8", "replace")
+            return r.status, dict(r.headers), json.loads(corps)
+    except urllib.error.HTTPError as e:
+        return e.code, dict(e.headers), None
+    except Exception:  # noqa: BLE001
+        return 0, {}, None
+
+
+def sa_trous(base, fin_sackmann, resultats):
+    """Indices des matchs publiés depuis la fin de l'archive qui n'ont toujours pas de score complet."""
+    comp = {}
+    for resultat in resultats:
+        for contenu in (resultat or {}).values():
+            for c in contenu.get("complements", []):
+                if c[4]:
+                    comp[(c[0], c[1], c[2])] = c[4]
+    trous = []
+    for i, m in enumerate(base.simples):
+        if m["debut"] <= fin_sackmann:
+            continue
+        niveau = base.tournois[m["t"]]["niveau"]
+        if not (niveau in ("G", "M", "A", "F", "N", "O", "C") or niveau.startswith("I")):
+            continue
+        dr = comp.get((m["t"], m["g"], m["p"]), m["dr"])
+        if not dr & (COMPLET | ABANDON | FORFAIT):
+            trous.append(i)
+    return trous
+
+
+def integrer_sa365(base, fin_sackmann, cle, code, resultats, resultat_cito):
+    stats = Counter()
+    rap = Rapprocheur(base, fin_sackmann, stats, "s")
+    etat = lire_chiffre(SA_ETAT, code, {}) or {}
+    faits = set(etat.get("jours_faits", []))
+    complements = {a: [list(c) for c in l] for a, l in (etat.get("complements") or {}).items()}
+    trous = sa_trous(base, fin_sackmann, resultats)
+    jours = set()
+    for i in trous:
+        m = base.simples[i]
+        if m["date"]:
+            jours.add(m["date"][:10])
+        else:
+            d0 = dt.date.fromisoformat(m["debut"][:10])
+            jours.update((d0 + dt.timedelta(days=k)).isoformat() for k in range(7))
+    aujourdhui = dt.date.today().isoformat()
+    jours = {j for j in jours if j <= aujourdhui}
+    sortie = {"trous_avant": len(trous), "jours_avec_trous": len(jours)}
+    if not jours:
+        return sortie
+    # uniquement les jours qui ont encore au moins un trou ; deux jours à trous séparés d'un seul jour sans trou
+    # sont demandés ensemble (le jour intercalé coûte moins qu'une requête de plus)
+    a_faire = sorted((j for j in jours if j not in faits), reverse=True)
+    sortie["jours_restants_avant"] = len(a_faire)
+    lignes_lues, appels, quota, stop = [], 0, None, ""
+    range_ok = etat.get("range_ok", True)
+    i = 0
+    while i < len(a_faire) and appels < SA_MAX_COLLECTE:
+        if range_ok:
+            bloc = [a_faire[i]]
+            while i + len(bloc) < len(a_faire):
+                suivant = a_faire[i + len(bloc)]
+                ecart = (dt.date.fromisoformat(bloc[-1]) - dt.date.fromisoformat(suivant)).days
+                if ecart > 2 or (dt.date.fromisoformat(bloc[0]) - dt.date.fromisoformat(suivant)).days >= SA_FENETRE_JOURS:
+                    break
+                bloc.append(suivant)
+        else:
+            bloc = [a_faire[i]]
+        debut_b, fin_b = min(bloc), max(bloc)
+        chemin = f"/atp/results/{debut_b}/{fin_b}" if len(bloc) > 1 else f"/atp/results/{debut_b}"
+        pages, ok, page = 0, True, 1
+        recu = []
+        while True:
+            if quota is not None and quota <= SA_RESERVE:
+                stop = "quota"
+                ok = False
+                break
+            st, h, d = sa_appel(cle, f"{chemin}?pageSize=500&pageNo={page}")
+            appels += 1
+            q = {k.lower(): v for k, v in h.items()}.get("x-quota-remaining")
+            quota = int(q) if q and str(q).isdigit() else quota
+            if st == 429:
+                stop = "429"
+                ok = False
+                break
+            if st != 200 or not isinstance(d, dict):
+                if len(bloc) > 1 and page == 1 and st in (400, 404, 422):
+                    range_ok = False
+                    stop = "plage_refusee"
+                ok = False
+                break
+            recu.extend(d.get("data") or [])
+            pages += 1
+            if not d.get("hasNextPage") or pages >= 8 or appels >= SA_MAX_COLLECTE + 8:
+                break
+            page += 1
+            time.sleep(0.3)
+        if ok:
+            lignes_lues.extend(recu)
+            limite = (dt.date.today() - dt.timedelta(days=2)).isoformat()
+            faits.update(j for j in bloc if j <= limite)   # les deux derniers jours peuvent encore changer
+            i += len(bloc)
+        elif stop == "plage_refusee":
+            stop = ""
+            continue
+        else:
+            break
+        time.sleep(0.3)
+    sortie.update(appels=appels, quota_restant=quota, lignes_lues=len(lignes_lues), arret=stop or None)
+    # rapprochement
+    complets_ext = {(c[0], c[1], c[2]) for l in resultats for contenu in (l or {}).values() for c in contenu.get("complements", [])
+                    if c[4]}
+    holes = set(trous)
+    candidats, valid, differences = [], Counter(), []
+    for r in lignes_lues:
+        try:
+            p1, p2 = r["player1"], r["player2"]
+            if "/" in (p1.get("name") or "") or "/" in (p2.get("name") or ""):
+                continue
+            g1 = rap.joueur("sa:%s" % p1["id"], p1["name"], p1.get("countryAcr"))
+            g2 = rap.joueur("sa:%s" % p2["id"], p2["name"], p2.get("countryAcr"))
+            gagn = g1 if r.get("match_winner") == p1["id"] else g2 if r.get("match_winner") == p2["id"] else None
+            jour = str(r.get("date") or "")[:10]
+            res = str(r.get("result") or "").strip()
+            bo = 5 if str(r.get("best_of")) == "5" else 3
+        except Exception:  # noqa: BLE001
+            stats["lignes_illisibles"] += 1
+            continue
+        if not gagn or not res or not jour:
+            stats["lignes_sans_vainqueur_ou_score"] += 1
+            continue
+        trouve = None
+        for k in rap.paires.get(frozenset((g1, g2)), []):
+            m = base.simples[k]
+            ecart = (dt.date.fromisoformat(jour) - dt.date.fromisoformat((m["date"] or m["debut"])[:10])).days
+            if (m["date"] and abs(ecart) <= 3) or (not m["date"] and -10 <= ecart <= 20):
+                trouve = k
+                break
+        if trouve is None:
+            stats["sans_correspondance"] += 1
+            continue
+        m = base.simples[trouve]
+        sc, drap = analyser_score(res, bo)
+        if not drap & (COMPLET | ABANDON | FORFAIT):
+            stats["score_sa365_incomplet"] += 1
+            continue
+        if trouve not in holes:
+            # contrôle : match déjà complet chez nous, on compare sans rien modifier
+            if m["dr"] & COMPLET and gagn == m["g"]:
+                if (sc or "").replace("(", "").replace(")", "") == (m.get("score") or "").replace("(", "").replace(")", ""):
+                    valid["identique"] += 1
+                else:
+                    valid["different"] += 1
+                    if len(differences) < 10:
+                        differences.append(f"{base.tournois[m['t']]['nom']} {m['tour']} : nous « {m.get('score')} », API « {sc} »")
+            elif m["dr"] & COMPLET:
+                valid["vainqueur_different"] += 1
+            continue
+        candidats.append((trouve, gagn, sc, drap | SRC_CITO))
+    total_valid = valid["identique"] + valid["different"] + valid["vainqueur_different"]
+    taux = valid["identique"] / total_valid if total_valid else None
+    sortie.update(validation={"echantillon": total_valid, **dict(valid), "taux_identique": None if taux is None else round(taux, 3)},
+                  differences=differences)
+    autorise = bool(candidats) and total_valid >= 30 and taux is not None and taux >= SA_SEUIL_CONCORDANCE
+    if candidats and not autorise:
+        J.alerte(f"sportsapi365 : {len(candidats)} scores prêts mais concordance insuffisante ou échantillon trop petit "
+                 f"({valid['identique']}/{total_valid}), rien n'est appliqué")
+    appliques = 0
+    deja = {(c[0], c[1], c[2]) for l in complements.values() for c in l}
+    for k, gagn, sc, drap in (candidats if autorise else []):
+        m = base.simples[k]
+        cle_m = (m["t"], m["g"], m["p"])
+        if cle_m in deja or cle_m in complets_ext:
+            continue
+        annee = base.tournois[m["t"]]["annee"]
+        if gagn == m["g"]:
+            complements.setdefault(str(annee), []).append([m["t"], m["g"], m["p"], sc, drap, None])
+        else:
+            # l'API désigne l'autre joueur : on ne corrige que si les sets terminés concordent avec le score
+            # public retourné (abandon), comme pour Cito
+            c_sets = re.findall(r"(\d+)-(\d+)", sc)
+            i_sets = re.findall(r"(\d+)-(\d+)", inverser_score(m.get("score") or ""))
+            if drap & ABANDON and c_sets and i_sets[:len(c_sets)] == c_sets:
+                complements.setdefault(str(annee), []).append([m["t"], m["g"], m["p"], sc, drap, None, 1])
+            else:
+                stats["vainqueur_different_ignore"] += 1
+                continue
+        deja.add(cle_m)
+        appliques += 1
+    sortie["scores_appliques"] = appliques
+    sortie.update(stats)
+    # fusion dans le complément chiffré de Cito (même format, l'appli le lit déjà)
+    for annee, liste in complements.items():
+        contenu = resultat_cito.setdefault(int(annee) if str(annee).isdigit() else annee, {
+            "tournois": {}, "joueurs": {}, "complements": [], "matchs": [], "classements": {}})
+        existants = {(c[0], c[1], c[2]) for c in contenu["complements"] if c[4]}
+        for c in liste:
+            if (c[0], c[1], c[2]) not in existants:
+                contenu["complements"].append(c)
+    ecrire_chiffre(SA_ETAT, {"jours_faits": sorted(faits), "complements": complements, "range_ok": range_ok}, code)
+    sortie["jours_restants_apres"] = sum(1 for j in a_faire if j not in faits)
+    return sortie
+
+
 # ---------------------------------------------------------------- trous restants
 def compter_trous(base, fin_sackmann, resultats):
     """Compte, depuis la fin de l'archive, les matchs au score complet et avec statistiques,
@@ -2988,6 +3210,7 @@ def compter_trous(base, fin_sackmann, resultats):
     t = defaultdict(Counter)
     par_tournoi, exemples, sans_score = defaultdict(Counter), defaultdict(list), Counter()
     diag, cas_cito = defaultdict(Counter), []
+    dates_trous, sans_date_trous = defaultdict(set), Counter()
     for idx, m in enumerate(base.simples):
         if m["debut"] <= fin_sackmann:
             continue
@@ -3007,6 +3230,10 @@ def compter_trous(base, fin_sackmann, resultats):
             tr = base.tournois[m["t"]]
             par_tournoi[cat][f"{tr['nom']} ({tr['debut']})"] += 1
             sans_score[cat] += not (m.get("score") or "").strip()
+            if m.get("date"):
+                dates_trous[cat].add(m["date"][:10])
+            else:
+                sans_date_trous[cat] += 1
             if idx not in CITO_VUS:
                 diag[cat]["absent_de_cito"] += 1
             elif CITO_VUS[idx][0]:
@@ -3036,6 +3263,12 @@ def compter_trous(base, fin_sackmann, resultats):
                for cat, v in sorted(t.items()) if v["matchs"]}
     J.chiffres["trous_depuis_archive"] = tableau
     J.chiffres["cas_cito_non_appliques"] = cas_cito
+    haut = set().union(*(dates_trous[c] for c in dates_trous if not c.startswith("ITF")))
+    J.chiffres["trous_jours"] = {
+        "jours_par_categorie": {c: len(dates_trous[c]) for c in sorted(dates_trous)},
+        "matchs_sans_date_par_categorie": dict(sans_date_trous),
+        "jours_distincts_ATP_et_Challenger": len(haut),
+        "jours_distincts_tout": len(set().union(*dates_trous.values())) if dates_trous else 0}
     J.chiffres["trous_detail"] = {cat: {"sans_aucun_score": sans_score[cat],
                                         "diagnostic": dict(diag[cat]),
                                         "tournois_les_plus_touches": dict(par_tournoi[cat].most_common(12)),
@@ -3319,6 +3552,19 @@ def main():
                 garder = sorted(set(garder) | set(ecrire_tml(resultat_cito, code, "cito")))
             except Exception as e:  # noqa: BLE001
                 J.alerte(f"Cito : {type(e).__name__} {e}\n{traceback.format_exc(limit=4)}".replace(cle_cito, "***"))
+        cle_sa = os.environ.get("SPORTSAPI365_KEY", "").strip()
+        if not cle_sa:
+            J.info("sportsapi365 : secret SPORTSAPI365_KEY absent, étape sautée")
+        elif not code:
+            J.alerte("sportsapi365 : secret CODE_TML absent, étape sautée")
+        else:
+            try:
+                J.chiffres["sa365"] = integrer_sa365(base, fin, cle_sa, code, [resultat, resultat_cito], resultat_cito)
+                J.info("sportsapi365 : " + json.dumps({k: v for k, v in J.chiffres["sa365"].items() if k != "differences"},
+                                                      ensure_ascii=False))
+                garder = sorted(set(garder) | set(ecrire_tml(resultat_cito, code, "cito")))
+            except Exception as e:  # noqa: BLE001
+                J.alerte(f"sportsapi365 : {type(e).__name__} {e}\n{traceback.format_exc(limit=4)}".replace(cle_sa, "***"))
         try:
             compter_trous(base, fin, [resultat, resultat_cito])
         except Exception as e:  # noqa: BLE001
