@@ -1,0 +1,50 @@
+name: Collecte H2H Tennis
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # chaque nuit à 05:17 UTC (06:17 à Paris en hiver)
+  workflow_dispatch:        # bouton « Run workflow » pour lancer à la main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collecte
+  cancel-in-progress: false
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90   # la collecte Cito peut durer une demi-heure (10 appels par minute)
+    env:
+      KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+      CODE_TML: ${{ secrets.CODE_TML }}
+      CITO_API_KEY: ${{ secrets.CITO_API_KEY }}
+      SPORTSAPI365_KEY: ${{ secrets.SPORTSAPI365_KEY }}
+    steps:
+      - name: Récupérer le dépôt
+        run: |
+          git clone --depth 1 "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" .
+      - name: Installer les outils (Kaggle, chiffrement)
+        run: python3 -m pip install --quiet --upgrade kaggle cryptography
+      - name: Lancer le collecteur
+        id: collecteur
+        continue-on-error: true
+        run: python3 collecteur.py
+      - name: Enregistrer les données et le rapport
+        run: |
+          git config user.name "collecteur-h2h"
+          git config user.email "collecteur-h2h@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Aucun changement"
+          else
+            git commit -q -m "Collecte du $(date -u +%Y-%m-%d)"
+            # un autre envoi (actualités, contrôle) a pu passer entre-temps : on se recale puis on renvoie
+            for i in 1 2 3 4; do git pull -q --rebase && git push -q && break; sleep 15; done
+          fi
+      - name: Signaler un échec du collecteur
+        if: steps.collecteur.outcome == 'failure'
+        run: |
+          echo "Le collecteur a échoué : voir rapport/rapport.md"
+          exit 1
