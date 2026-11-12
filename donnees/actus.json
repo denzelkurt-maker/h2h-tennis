@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T13:55+00:00",
+ "maj": "2026-11-12T15:37+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -20,14 +20,63 @@
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 15 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 28 articles",
+  "RMC Sport": "ok, 25 articles",
   "franceinfo": "ok, 20 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 15 articles",
-  "Ubitennis": "ok, 11 articles"
+  "Ubitennis": "ok, 12 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/cobolli-rend-hommage-a-son-compatriote-et-ami-sinner-jannik-nest-pas-a-turin-mais-cest-comme-sil-y-etait",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T15:20+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Cobolli-1024x579.jpeg",
+   "titre": "Cobolli rend hommage à son compatriote et ami Sinner : « Jannik n’est pas à Turin, mais c’est comme s’il y était »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-proposition-de-nadal-fait-du-bruit-rafa-na-aucun-interet-a-vouloir-retirer-des-tournois-sur-dur-ca-augmenterait-le-risque-quil-perde-ses-records-sur-terre-battue",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T14:52+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/05/Nadal-hommage-public-RG-2025-1024x592.jpeg",
+   "titre": "La proposition de Nadal fait du bruit : « Rafa n’a aucun intérêt à vouloir retirer des tournois sur dur, ça augmenterait le risque qu’il perde ses records sur terre battue »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-faces-tough-nitto-atp-finals-draw-takes-on-jodar-in-opener/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-12T14:29+00:00",
+   "image": null,
+   "vo": "Alexander Zverev Faces Tough Nitto ATP Finals Draw, Takes On Jodar In Opener",
+   "titre": "Alexander Zverev affronte un tirage au sort difficile pour les Nitto ATP Finals et rencontre Jodar lors du premier match",
+   "titre_fr": "Alexander Zverev affronte un tirage au sort difficile pour les Nitto ATP Finals et rencontre Jodar lors du premier match",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-draw-zverev-gets-us-open-final-rematch-with-shelton-alcaraz-drawn-with-medvedev-866813.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-12T14:23+00:00",
+   "image": null,
+   "vo": "ATP Finals draw: Zverev gets US Open final rematch with Shelton, Alcaraz drawn with Medvedev",
+   "titre": "Tirage au sort des ATP Finals : Zverev retrouve Shelton, son adversaire de la finale de l'US Open, et Alcaraz affronte Medvedev",
+   "titre_fr": "Tirage au sort des ATP Finals : Zverev retrouve Shelton, son adversaire de la finale de l'US Open, et Alcaraz affronte Medvedev",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/dans-les-declarations-de-jannik-sinner-on-comprend-quil-est-pas-sur-a-100-de-revenir-pour-lopen-daustralie-et-quelque-chose-ne-me-semble-pas-tout-a-fait-coherent-alerte-jos",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T14:13+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/01/Sinner-1024x559.jpeg",
+   "titre": "« Dans les déclarations de Jannik Sinner, on comprend qu’il est pas sûr à 100 % de revenir pour l’Open d’Australie, et quelque chose ne me semble pas tout à fait cohérent », alerte José Moron",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/la-revelation-de-juan-carlos-ferrero-nouveau-coach-de-ben-shelton-jai-aussi-discute-avec-le-pere-de-ce-joueur-mais-je-crois-quils-ont-decide-de-prendre-une-autre-direction",
    "source": "We Love Tennis",
@@ -73,6 +122,15 @@
    "date": "2026-11-12T12:32+00:00",
    "image": "https://img.20mn.fr/DlmrwCp8SEqzemiU2mMgNCk/1200x768_arthur-fils-est-fixe-sur-le-programme-qui-l-attend-a-turin-lors-des-finales-atp-photo-d-illustration",
    "titre": "Finales ATP 2026 : Le tableau complet après le tirage au sort",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/tournoi-des-maitres-voila-ce-qui-attend-arthur-fils-apres-le-tirage-au-sort-des-atp-finals_AV-202611120528.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-12T12:16+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/xvLpa6DrE9fRgN5Qquy5vdVCxr4=/0x121:2048x1273/800x0/images/Arthur-Fils-lors-du-Masters-1000-de-Paris-5-novembre-2026-2382798.jpg",
+   "titre": "Tournoi des Maîtres et semaine très lucrative: voilà ce qui attend Arthur Fils après le tirage au sort des ATP Finals",
    "blessure": false
   },
   {
