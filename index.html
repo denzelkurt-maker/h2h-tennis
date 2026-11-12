@@ -705,6 +705,7 @@ body:not(.v-accueil) header.top{display:none}body:not(.v-accueil) .topin{padding
 .alerte.abs{background:rgba(255,210,122,.1);border-color:rgba(255,210,122,.45);color:var(--warn)}
 .jc-th{display:flex;align-items:center;gap:7px;font-size:.66rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#7DB4FF;margin:2px 2px -6px}
 .jc-th svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.dm{padding:7px 0;border-top:1px solid var(--line);font-size:.9rem;line-height:1.35}.dm .t{font-size:.72rem;color:var(--muted)}.dm a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}.dm .dw{color:var(--win);font-weight:700}.dm .dl{color:var(--loss);font-weight:700}
 .jc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:rgba(255,255,255,.09);border-radius:14px;overflow:hidden}
 .jc-grid>div{background:rgba(5,10,22,.78);padding:9px 10px 10px;display:flex;flex-direction:column;gap:2px;min-width:0}
 .jc-grid .k{font-size:.58rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#8FA6C7}
@@ -900,7 +901,7 @@ nav.tabs a[aria-current="page"]::before{content:"";position:absolute;top:-6px;le
    par le collecteur (donnees/), les garde en cache sur l'iPhone et fait
    tous les calculs dans le navigateur.
    ====================================================================== */
-const VERSION_APPLI = "0.8.0";
+const VERSION_APPLI = "0.10.0";
 const BASE = "./donnees/";
 const CACHE = "h2h-tennis-donnees";
 const SURF = {Hard: "Dur", Clay: "Terre", Grass: "Gazon", Carpet: "Moquette"};
@@ -911,7 +912,7 @@ const NOM_TOUR = {Q1: "Q1", Q2: "Q2", Q3: "Q3", Q: "Qualif.", "1T": "1er tour", 
   "5T": "5e tour", RR: "Poule", QF: "Quart", SF: "Demie", BR: "Bronze", F: "Finale"};
 const COMPLET = 1, ABANDON = 2, FORFAIT = 4;
 
-const D = {T: [], tIdx: new Map(), M: [], J: new Map(), parJoueur: new Map(), rang: null, photos: {}, stats: new Map(),
+const D = {TD: [], DM: [], DparJ: new Map(), T: [], tIdx: new Map(), M: [], J: new Map(), parJoueur: new Map(), rang: null, photos: {}, stats: new Map(),
   fichiersStats: [], chiffre: false, maj: null, index: null};
 
 const EMBLEME_GRAND = '<svg width="64" height="64" class="emb" viewBox="0 0 64 64" aria-hidden="true" style="filter: drop-shadow(0 3px 8px rgba(31,111,235,.45));"><rect x="1.5" y="1.5" width="61" height="61" rx="16" fill="#0F2A5C"></rect><circle cx="32" cy="24" r="26" fill="#4C9BFF" fill-opacity=".28"></circle><rect x="1.5" y="1.5" width="61" height="61" rx="16" fill="none" stroke="#7DB4FF" stroke-opacity=".45"></rect><g transform="translate(23 30) rotate(-35)"><ellipse cx="0" cy="-6" rx="9" ry="12" fill="none" stroke="#3E8BFF" stroke-width="3.4"></ellipse><path d="M-5-13h10M-6-7h12M-6-1h12M-3-17v22M3-17v22" stroke="#9CC8FF" stroke-width="1" stroke-opacity=".7"></path><rect x="-2" y="6" width="4" height="13" rx="2" fill="#D9A56B"></rect></g><g transform="translate(41 30) rotate(35)"><ellipse cx="0" cy="-6" rx="9" ry="12" fill="none" stroke="#F07A2E" stroke-width="3.4"></ellipse><path d="M-5-13h10M-6-7h12M-6-1h12M-3-17v22M3-17v22" stroke="#FFC48A" stroke-width="1" stroke-opacity=".7"></path><rect x="-2" y="6" width="4" height="13" rx="2" fill="#D9A56B"></rect></g><circle cx="32" cy="47" r="6" fill="#D8F25C"></circle><path d="M27.5 44c3 1.5 3 4.5 0 6M36.5 44c-3 1.5-3 4.5 0 6" fill="none" stroke="#F7F7F2" stroke-width="1"></path></svg>';
@@ -1008,11 +1009,12 @@ async function charger() {
   // index.json est relu à chaque ouverture (il change chaque nuit) ; les autres viennent du cache s'ils n'ont pas changé
   const noms = Object.keys(index);
   const simples = noms.filter(n => /^simple-\d{4}(-\d{2})?\.json$/.test(n)).sort();
+  const doubles = noms.filter(n => /^double-\d{4}(-\d{2})?\.json$/.test(n)).sort();
   const autres = ["joueurs-historique.json", "joueurs-recents.json", "classements-recents.json", "classements-fin-annee.json", "classement.json", "photos.json"].filter(n => index[n]);
   fetch(BASE + "meta.json", {cache: "no-cache"}).then(r => r.json()).then(m => { D.maj = m.genere_le; const p = document.querySelector(".pied b"); if (p) p.textContent = new Date(D.maj).toLocaleString("fr-FR"); }).catch(() => {});
   const chiffres = noms.filter(n => /^(tml|cito)-\d{4}\.json$/.test(n)).sort();
   D.fichiersStats = noms.filter(n => /^stats-simple-/.test(n)).sort();
-  const tous = [...autres, ...simples, ...chiffres];
+  const tous = [...autres, ...simples, ...doubles, ...chiffres];
   let fait = 0;
   const lus = {};
   await Promise.all(tous.map(async n => {
@@ -1040,6 +1042,17 @@ async function charger() {
     }
     D.stats.set("stats-" + n, {debut: debutFichier, n: f.matchs.length, charge: false});
   }
+  // doubles : gardés à part (équipes « a+b »), sans mélange avec les statistiques du simple
+  for (const n of doubles) {
+    const f = lus[n];
+    const loc = f.tournois.map(t => { const i = D.TD.length; D.TD.push({id: t[0], nom: t[1], niv: t[2], surf: t[3], salle: t[4], debut: t[5]}); return i; });
+    for (const m of f.matchs) {
+      const t = loc[m[0]];
+      D.DM.push({t, tour: m[1], g: m[2], p: m[3], sc: m[4] || "", d: (m[5] || D.TD[t].debut || "").slice(0, 10), dr: m[6]});
+    }
+  }
+  D.DM.sort((a, b) => a.d < b.d ? 1 : a.d > b.d ? -1 : 0);
+  D.DM.forEach((m, i) => { for (const pid of new Set([...m.g.split("+"), ...m.p.split("+")])) { let l = D.DparJ.get(pid); if (!l) D.DparJ.set(pid, l = []); l.push(i); } });
   // compléments chiffrés
   if (chiffres.length) {
     let code = lsLire("h2h-code");
@@ -1943,6 +1956,87 @@ function carteIdentite(pid, tous, titres) {
       <div class="row"><button id="photo">${ph && ph.perso ? "Changer ma photo" : "Ajouter une photo"}</button>${ph && ph.perso ? '<button id="photoSuppr">Retirer</button>' : ""}<button class="primary" id="versH2H">Face-à-face</button></div>
       <input type="file" id="fichierPhoto" accept="image/*" hidden></div></div>`;
 }
+/* graphiques de la fiche joueur : classement dans le temps (échelle logarithmique) et bilan par année */
+function graphesJoueur(pid, tous) {
+  const an0 = anneeCourante(), auj = new Date();
+  const doy = (auj - new Date(auj.getFullYear(), 0, 0)) / 864e5;
+  const pts = [];
+  for (const [an, rk] of (D.finAnnee[pid] || []).slice().sort((a, b) => a[0] - b[0])) if (an < an0 && rk > 0) pts.push([an + 1, rk, "fin " + an]);
+  const cur = D.rangPar && D.rangPar.get(pid);
+  if (cur) pts.push([an0 + doy / 365, cur[0], "au " + dateFr(D.rang.semaine)]);
+  let h = "";
+  if (pts.length >= 2) {
+    const W = 340, H = 170, g = {l: 34, r: 14, t: 14, b: 24};
+    const rmax = Math.max(10, ...pts.map(p => p[1])), lmax = Math.log10(rmax);
+    const x0 = pts[0][0] - 0.3, x1 = pts[pts.length - 1][0] + 0.3;
+    const X = x => g.l + (W - g.l - g.r) * (x - x0) / (x1 - x0);
+    const Y = r => g.t + (H - g.t - g.b) * Math.log10(r) / lmax;
+    const ticks = [1, 10, 100, 1000].filter(t => t <= rmax * 1.01);
+    const annees = pts.filter(p => p[2].startsWith("fin")).map(p => p[0]);
+    const pas = Math.max(1, Math.ceil(annees.length / 7));
+    h += `<div class="panel"><div class="sec-h"><span class="sel-t">Évolution du classement</span><span class="sec-sub">Rang de fin d'année puis rang actuel · plus haut = mieux</span></div>
+      <svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Évolution du classement ATP" style="display:block">
+      ${ticks.map(t => `<line x1="${g.l}" x2="${W - g.r}" y1="${Y(t)}" y2="${Y(t)}" stroke="var(--line)" stroke-width="1"/><text x="${g.l - 5}" y="${Y(t) + 3}" text-anchor="end" font-size="9" fill="var(--muted)">${t}</text>`).join("")}
+      ${annees.filter((a, i) => i % pas === 0).map(a => `<text x="${X(a)}" y="${H - 8}" text-anchor="middle" font-size="9" fill="var(--muted)">${a - 1}</text>`).join("")}
+      <polyline points="${pts.map(p => X(p[0]).toFixed(1) + "," + Y(p[1]).toFixed(1)).join(" ")}" fill="none" stroke="#4C9BFF" stroke-width="2" stroke-linejoin="round"/>
+      ${pts.map((p, i) => `<circle cx="${X(p[0]).toFixed(1)}" cy="${Y(p[1]).toFixed(1)}" r="${i === pts.length - 1 ? 4 : 2.6}" fill="${i === pts.length - 1 ? "#F07A2E" : "#4C9BFF"}"><title>${esc(p[2])} : ${p[1]}e</title></circle>`).join("")}
+      <text x="${Math.min(X(pts[pts.length - 1][0]), W - 6)}" y="${Y(pts[pts.length - 1][1]) - 8}" text-anchor="end" font-size="10" font-weight="700" fill="var(--ink)">${pts[pts.length - 1][1]}e</text></svg>
+      <div class="small muted">Points : rang au 31 décembre de chaque année, puis ${cur ? "classement actuel (point orange)" : "dernier rang connu"}. Touche un point pour la date.</div></div>`;
+  }
+  const par = new Map();
+  for (const m of tous) { if (!compte(m) || !m.d) continue; const a = m.d.slice(0, 4); const x = par.get(a) || {v: 0, d: 0}; m.g === pid ? x.v++ : x.d++; par.set(a, x); }
+  const ans = [...par.entries()].sort((a, b) => a[0] < b[0] ? -1 : 1);
+  if (ans.length >= 2) {
+    const W = 340, H = 150, g = {l: 26, r: 8, t: 10, b: 22};
+    const mx = Math.max(...ans.map(([, x]) => x.v + x.d));
+    const bw = (W - g.l - g.r) / ans.length, hh = n => (H - g.t - g.b) * n / mx;
+    h += `<div class="panel"><div class="sec-h"><span class="sel-t">Bilan par année</span><span class="sec-sub">Victoires (vert) et défaites (rouge) dans la base</span></div>
+      <svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Bilan par année" style="display:block">
+      <text x="${g.l - 4}" y="${g.t + 3}" text-anchor="end" font-size="9" fill="var(--muted)">${mx}</text><text x="${g.l - 4}" y="${H - g.b + 3}" text-anchor="end" font-size="9" fill="var(--muted)">0</text>
+      ${ans.map(([a, x], i) => { const bx = g.l + i * bw + bw * 0.14, w = bw * 0.72, yb = H - g.b;
+        return `<g><title>${a} : ${x.v} V, ${x.d} D</title><rect x="${bx.toFixed(1)}" y="${(yb - hh(x.v)).toFixed(1)}" width="${w.toFixed(1)}" height="${hh(x.v).toFixed(1)}" fill="var(--win)"/><rect x="${bx.toFixed(1)}" y="${(yb - hh(x.v) - hh(x.d)).toFixed(1)}" width="${w.toFixed(1)}" height="${hh(x.d).toFixed(1)}" fill="var(--loss)"/>
+        ${ans.length <= 9 || i % 2 === (ans.length - 1) % 2 ? `<text x="${(bx + w / 2).toFixed(1)}" y="${H - 8}" text-anchor="middle" font-size="9" fill="var(--muted)">${ans.length > 9 ? "'" + a.slice(2) : a}</text>` : ""}</g>`; }).join("")}</svg>
+      <div class="small muted">Tous circuits confondus ; l'ITF n'est présent qu'à partir de 2016. Les forfaits ne comptent pas.</div></div>`;
+  }
+  return h;
+}
+/* ---------------------------------------------------------------- doubles */
+const matchsDeD = pid => (D.DparJ.get(pid) || []).map(i => D.DM[i]);
+const campD = (m, pid) => m.g.split("+").includes(pid) ? "g" : "p";
+const equipe = s => s.split("+").map(p => lienJ(p)).join(" / ");
+function bilanD(l, pid) { let v = 0, d = 0; for (const m of l) { if (!compte(m)) continue; campD(m, pid) === "g" ? v++ : d++; } return {v, d}; }
+function ligneD(m, pid) {
+  const g = campD(m, pid) === "g", t = D.TD[m.t] || {};
+  return `<div class="dm"><div class="t">${dateFr(m.d)} · ${esc(t.nom || "")} · ${esc(NOM_TOUR[m.tour] || m.tour)}</div>
+    <div><span class="${g ? "dw" : "dl"}">${g ? "V" : "D"}</span> ${equipe(g ? m.g : m.p)} <span class="muted">${g ? "bat" : "perd contre"}</span> ${equipe(g ? m.p : m.g)}</div>
+    <div class="small muted">${esc(g ? m.sc : inverserScore(m.sc)) || "score non connu"}${m.dr & FORFAIT ? " · forfait" : ""}</div></div>`;
+}
+function blocDouble(pid) {
+  const l = matchsDeD(pid);
+  if (!l.length) return "";
+  const b = bilanD(l, pid), titres = l.filter(m => m.tour === "F" && campD(m, pid) === "g").length;
+  const par = new Map();
+  for (const m of l) { if (!compte(m)) continue; const mm = (campD(m, pid) === "g" ? m.g : m.p).split("+").find(x => x !== pid); if (!mm) continue;
+    const x = par.get(mm) || {v: 0, d: 0}; campD(m, pid) === "g" ? x.v++ : x.d++; par.set(mm, x); }
+  const parts = [...par.entries()].sort((a, b) => (b[1].v + b[1].d) - (a[1].v + a[1].d)).slice(0, 5);
+  return `<div class="panel"><div class="sec-h"><span class="sel-t">En double</span><span class="sec-sub">${l[l.length - 1].d.slice(0, 4)} à aujourd'hui · ATP et Challenger</span></div>
+    <div class="stiles"><div class="stile tone-n" style="cursor:default"><span class="st-lab">Bilan</span><span class="st-val">${b.v}–${b.d}</span><span class="st-sub">${pctTxt(b.v, b.v + b.d)} de victoires</span></div>
+      <div class="stile tone-n" style="cursor:default"><span class="st-lab">Titres</span><span class="st-val">${titres}</span><span class="st-sub">finales gagnées</span></div></div>
+    ${parts.length ? `<div class="label" style="margin-top:10px">Partenaires les plus fréquents</div>${parts.map(([x, y]) => `<div class="dm"><div>${lienJ(x)} <span class="muted">· ${y.v + y.d} matchs</span></div><div class="small muted">${y.v}–${y.d} ensemble</div></div>`).join("")}` : ""}
+    <div class="label" style="margin-top:10px">Derniers matchs</div>${l.slice(0, 6).map(m => ligneD(m, pid)).join("")}
+    <div class="small muted">Pas de statistiques de match en double. ${l.length} matchs dans la base.</div></div>`;
+}
+function blocDoubleH2H(a, b) {
+  const la = matchsDeD(a);
+  const ensemble = la.filter(m => m.g.split("+").includes(b) || m.p.split("+").includes(b));
+  if (!ensemble.length) return "";
+  const eq = ensemble.filter(m => campD(m, a) === campD(m, b)), contre = ensemble.filter(m => campD(m, a) !== campD(m, b));
+  const be = bilanD(eq, a), bc = bilanD(contre, a);
+  return `<div class="panel"><div class="sec-h"><span class="sel-t">En double</span><span class="sec-sub">${ensemble.length} matchs ensemble ou face à face</span></div>
+    <div class="stiles">${eq.length ? `<div class="stile tone-n" style="cursor:default"><span class="st-lab">Partenaires</span><span class="st-val">${be.v}–${be.d}</span><span class="st-sub">victoires – défaites ensemble</span></div>` : ""}
+      ${contre.length ? `<div class="stile tone-n" style="cursor:default"><span class="st-lab">Adversaires</span><span class="st-val">${bc.v}–${bc.d}</span><span class="st-sub">vu de ${esc(nomJ(a))}</span></div>` : ""}</div>
+    ${ensemble.slice(0, 5).map(m => ligneD(m, a)).join("")}</div>`;
+}
 async function vueJoueur() {
   const pid = SEL.J, v = $("#vue");
   const j = D.J.get(pid) || {nom: pid};
@@ -1996,6 +2090,7 @@ async function vueJoueur() {
       <span class="filt-r">${PREF.nJ === "tous" ? "Tous les matchs" : PREF.nJ + " derniers"} · ${{tous: "toutes surfaces", Hard: "dur", Clay: "terre", Grass: "gazon", salle: "salle"}[PREF.surfJ]} · ${{tous: "tous circuits", A: "ATP", C: "Challenger", I: "ITF"}[PREF.circJ]} · ${L.length} matchs</span></summary>
       ${blocFiltres("nJ", "surfJ", "circJ")}<div class="period">${L.length ? `du ${dateFr(L[L.length - 1].d)} au ${dateFr(L[0].d)}` : "aucun match"}</div></details>
     ${blocActusJoueur(pid)}
+    ${graphesJoueur(pid, tous)}
     <div class="panel"><div class="sec-h"><span class="sel-t">Points clés</span><span class="sec-sub">Sur les ${L.length} matchs pris en compte (série et forme : tous les matchs)</span></div>
       <div class="stiles">
         ${tuile("bilan", "n", "Bilan", `${b.v}–${b.d}`, pctTxt(b.v, b.v + b.d) + " de victoires", b.v + b.d ? 100 * b.v / (b.v + b.d) : 0, "zPts")}
@@ -2013,6 +2108,7 @@ async function vueJoueur() {
       ${parSurf.map(([s, l]) => ligneB("surf" + s, SURF[s] || s, l)).join("")}${salle.length ? ligneB("surfSalle", "dont en salle", salle) : ""}
       ${parCirc.map(([c, l]) => ligneB("circ" + c, NOM_CIRCUIT[c], l)).join("")}${zoneDetail("zRep")}</div>
     <div class="panel"><div class="sec-h"><span class="sel-t">Statistiques de match</span><span class="sec-sub">Moyennes sur les matchs pris en compte qui ont des statistiques</span></div><div id="zStats" class="empty">Chargement…</div></div>
+    ${blocDouble(pid)}
     <div class="panel"><div class="sec-h"><span class="sel-t">Tournois</span><span class="sec-sub">Ses matchs regroupés par tournoi, tour par tour</span></div><div id="zTournois" class="trks"></div></div>`;
   brancherTuiles(v);
   brancherFiltres(v, "nJ", "surfJ", "circJ", () => { PREF.filtOuvert = true; vueJoueur(); });
@@ -2123,6 +2219,7 @@ async function vueH2H() {
     <div class="duel"><div class="half ha"><a class="dlink" href="#/joueur/${encodeURIComponent(a)}"><span class="fn">${esc(texteRang(a))}</span><span class="ln">${esc(nomJ(a))}</span></a><span class="wins">${ba.v}</span></div>
       <div class="half hb"><a class="dlink" href="#/joueur/${encodeURIComponent(b)}"><span class="fn">${esc(texteRang(b))}</span><span class="ln">${esc(nomJ(b))}</span></a><span class="wins">${bb.v}</span></div><span class="vs">VS</span></div>
     ${L.length && L.length < 5 ? '<div class="note">Échantillon faible : moins de 5 confrontations.</div>' : ""}
+    ${blocDoubleH2H(a, b)}
     ${L.length ? `<div class="panel"><div class="sec-h"><span class="sel-t">Points clés</span><span class="sec-sub">Touche une tuile pour les matchs</span></div><div class="stiles">
       ${tuile("der", dernier && dernier.g === a ? "a" : "b", "Dernier match", dernier ? esc(nomJ(dernier.g)) : "–", dernier ? `${dateFr(dernier.d)} · ${esc(D.T[dernier.t].nom)}` : "", null, "zK").replace('class="stile', 'class="stile txt')}
       ${tuile("serie", ser.v ? "a" : "b", "Série en cours", `${ser.n} <small>${esc(nomJ(ser.v ? a : b))}</small>`, "victoires d'affilée", null, "zK")}
