@@ -47,7 +47,8 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 
-VERSION = "1.9.1"
+VERSION = "1.10.0"
+CITO_VUS = {}   # indice de match de l'archive -> True si Cito donne un score complet (diagnostic des trous)
 VERSION_COPIE = 2   # copie compacte de l'archive : 2 = avec statistiques et classements
 PARSEUR_WIKI = 2   # une page lue par une version antérieure du lecteur est relue
 
@@ -2247,6 +2248,7 @@ def integrer_cito(base, mois, meta, fin_sackmann, resultat_tml):
         if trouve is not None:
             m = base.simples[trouve]
             vote[tid][m["t"]] += 1
+            CITO_VUS[trouve] = CITO_VUS.get(trouve, False) or bool(drap & (COMPLET | ABANDON | FORFAIT))
             if t.get("indoor") is not None and base.tournois[m["t"]].get("salle") is None:
                 salles[m["t"]] = 1 if t["indoor"] else 0
             if not m["dr"] & (SRC_VBT | SRC_WIKI):
@@ -2979,7 +2981,8 @@ def compter_trous(base, fin_sackmann, resultats):
         return None
     t = defaultdict(Counter)
     par_tournoi, exemples, sans_score = defaultdict(Counter), defaultdict(list), Counter()
-    for m in base.simples:
+    diag = defaultdict(Counter)
+    for idx, m in enumerate(base.simples):
         if m["debut"] <= fin_sackmann:
             continue
         cat = categorie(base.tournois[m["t"]]["niveau"], m["tour"])
@@ -2998,6 +3001,12 @@ def compter_trous(base, fin_sackmann, resultats):
             tr = base.tournois[m["t"]]
             par_tournoi[cat][f"{tr['nom']} ({tr['debut']})"] += 1
             sans_score[cat] += not (m.get("score") or "").strip()
+            if idx not in CITO_VUS:
+                diag[cat]["absent_de_cito"] += 1
+            elif CITO_VUS[idx]:
+                diag[cat]["cito_complet_non_applique"] += 1
+            else:
+                diag[cat]["cito_incomplet_aussi"] += 1
             if len(exemples[cat]) < 8:
                 exemples[cat].append(f"{tr['nom']} {m['tour']} : « {m.get('score') or ''} »")
     for niveau, m in seuls:
@@ -3014,8 +3023,12 @@ def compter_trous(base, fin_sackmann, resultats):
                for cat, v in sorted(t.items()) if v["matchs"]}
     J.chiffres["trous_depuis_archive"] = tableau
     J.chiffres["trous_detail"] = {cat: {"sans_aucun_score": sans_score[cat],
+                                        "diagnostic": dict(diag[cat]),
                                         "tournois_les_plus_touches": dict(par_tournoi[cat].most_common(12)),
                                         "exemples": exemples[cat]} for cat in sorted(par_tournoi)}
+    J.info("Diagnostic des trous (absent de Cito / Cito incomplet aussi / Cito complet non appliqué) : " + "; ".join(
+        f"{c} {d['absent_de_cito']}/{d['cito_incomplet_aussi']}/{d['cito_complet_non_applique']}"
+        for c, d in sorted(diag.items())))
     J.info("Trous depuis la fin de l'archive : " + "; ".join(
         f"{c} {v['trous_score']}/{v['matchs']}" for c, v in tableau.items()))
 
