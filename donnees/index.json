@@ -1,11 +1,11 @@
 {
  "actus.json": {
-  "octets": 127966,
-  "empreinte": "1cfbcfeae869"
+  "octets": 134240,
+  "empreinte": "60febfd3a23c"
  },
  "cito-2026.json": {
-  "octets": 534050,
-  "empreinte": "1cb507c2fa30"
+  "octets": 534458,
+  "empreinte": "701034a3774e"
  },
  "classement.json": {
   "octets": 134411,
@@ -80,16 +80,16 @@
   "empreinte": "d74b2dd4f441"
  },
  "double-2026-11.json": {
-  "octets": 13313,
-  "empreinte": "3d4dba167840"
+  "octets": 13774,
+  "empreinte": "6f4a2f8b0dc8"
  },
  "joueurs-historique.json": {
   "octets": 621241,
   "empreinte": "7a514f692aa9"
  },
  "joueurs-recents.json": {
-  "octets": 43898,
-  "empreinte": "97061af37a0b"
+  "octets": 44547,
+  "empreinte": "741c1ea84130"
  },
  "photos.json": {
   "octets": 523948,
@@ -97,7 +97,7 @@
  },
  "programme.json": {
   "octets": 33827,
-  "empreinte": "f1b5e3ab5e94"
+  "empreinte": "021ae0607f45"
  },
  "simple-2011.json": {
   "octets": 492691,
@@ -200,8 +200,8 @@
   "empreinte": "ecf2f777fd39"
  },
  "simple-2026-11.json": {
-  "octets": 66100,
-  "empreinte": "5da3762e8cba"
+  "octets": 79741,
+  "empreinte": "1539dccfb2fe"
  },
  "stats-simple-2011.json": {
   "octets": 650600,

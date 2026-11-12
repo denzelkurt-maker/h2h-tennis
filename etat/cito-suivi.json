@@ -1023,13 +1023,13 @@
   },
   "2026-11-11": {
    "pages": 2,
-   "lignes_atp": 263,
+   "lignes_atp": 264,
    "final": false,
    "le": "2026-11-12"
   },
   "2026-11-12": {
    "pages": 1,
-   "lignes_atp": 0,
+   "lignes_atp": 55,
    "final": false,
    "le": "2026-11-12"
   }
@@ -1044,7 +1044,7 @@
   "2026": "2026-11-09"
  },
  "quota": {
-  "restant": 271,
+  "restant": 268,
   "remise_a_zero": "2026-12-09T15:52+00:00",
   "le": "2026-11-12"
  }
