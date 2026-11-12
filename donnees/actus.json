@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T09:36+00:00",
+ "maj": "2026-11-12T11:36+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 36 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 13 articles",
+  "We Love Tennis": "ok, 14 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 27 articles",
   "franceinfo": "ok, 20 articles",
@@ -40,6 +40,44 @@
    "blessure": false
   },
   {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/L-atp-annonce-une-hausse-de-pres-de-50-de-ses-revenus-issus-des-partenariats/1743136#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-12T11:06+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/andrea-gaudenzi-est-le-president-de-l-atp-a-reau-l-equipe/1500000002648754/0:0,2000:1333-828-552-75/04d72.jpg",
+   "titre": "L'ATP annonce une hausse de près de 50 % de ses revenus issus des partenariats",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-si-je-suis-un-papa-decontracte-ou-anxieux-pour-moi-trois-choses-sont-fondamentales-et-non-negociables",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T11:03+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/07/Nadal-fils-femme-Rafa-Junior-Xisca--1024x573.jpeg",
+   "titre": "Rafael Nadal : « Si je suis un papa décontracté ou anxieux ? Pour moi, trois choses sont fondamentales et non négociables »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/taylor-fritz-retablit-la-verite-la-prime-de-participation-au-six-kings-slam-nest-pas-aussi-elevee-que-ce-qui-a-ete-dit-dans-les-medias",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T10:45+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/10/Fritz-conf-presse-1024x577.jpeg",
+   "titre": "Taylor Fritz rétablit la vérité : « La prime de participation au Six Kings Slam n’est pas aussi élevée que ce qui a été dit dans les médias »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/atp-pondering-buying-out-events-to-cut-season-length-says-casper-ruud/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-12T10:11+00:00",
+   "image": null,
+   "vo": "ATP Pondering Buying Out Events To Cut Season Length, Says Casper Ruud",
+   "titre": "L’ATP envisage de racheter des tournois pour raccourcir la saison, selon Casper Ruud",
+   "titre_fr": "L’ATP envisage de racheter des tournois pour raccourcir la saison, selon Casper Ruud",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/jannik-sinner-pas-seulement-blesse-au-genou-je-me-suis-fait-enlever-les-amygdales-il-y-a-quelques-semaines-et-jai-perdu-beaucoup-de-poids-vous-le-voyez-peut-etre-a-mon-visage-il-est-assez-sec",
    "source": "We Love Tennis",
    "langue": "fr",
@@ -47,6 +85,15 @@
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-RG-1024x528.jpeg",
    "titre": "Jannik Sinner, pas seulement blessé au genou : « Je me suis fait enlever les amygdales il y a quelques semaines et j’ai perdu beaucoup de poids. Vous le voyez peut-être à mon visage, il est assez sec »",
    "blessure": true
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Format-points-prize-money-les-finales-atp-comment-ca-marche/1743119#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-12T09:29+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-aura-au-moins-trois-duels-a-disputer-face-a-des-top-10-dans-les-jours-qui-viennent-a-reau-l-equipe/1500000002648642/0:0,2000:1333-828-552-75/ed0b5.jpg",
+   "titre": "Format, points, prize money : les Finales ATP, comment ça marche ?",
+   "blessure": false
   },
   {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/-j-ai-perdu-beaucoup-de-poids-jannik-sinner-s-est-fait-retirer-les-amygdales/1743115#at_medium=RSS_feeds",
@@ -64,6 +111,15 @@
    "date": "2026-11-12T08:59+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2024/05/Nadal-RG-2024-1-1024x561.jpeg",
    "titre": "Carlos Moya, dernier coach de Nadal : « Carlos Alcaraz et Jannik Sinner auraient clairement pu battre Rafa à Roland-Garros, mais sur le long terme, je pense qu’il aurait remporté plus de matchs qu’eux »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/carlos-moya-dernier-coach-de-nadal-carlos-alcaraz-et-jannik-sinner-auraient-clairement-pu-battre-rafa-a-roland-garros",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T08:59+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/05/Nadal-RG-2024-1-1024x561.jpeg",
+   "titre": "Carlos Moya, dernier coach de Nadal : « Carlos Alcaraz et Jannik Sinner auraient clairement pu battre Rafa à Roland-Garros »",
    "blessure": false
   },
   {
