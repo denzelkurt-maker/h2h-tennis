@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T00:42+00:00",
+ "maj": "2026-11-12T01:57+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -20,7 +20,7 @@
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 14 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 27 articles",
+  "RMC Sport": "ok, 28 articles",
   "franceinfo": "ok, 20 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -28,6 +28,26 @@
   "Ubitennis": "ok, 12 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/november-12-2007-the-day-roger-federer-suffered-second-consecutive-loss-513281.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-12T13:00+00:00",
+   "image": null,
+   "vo": "November 12, 2007: The day Roger Federer suffered a second consecutive loss for the first time in four years",
+   "titre": "12 novembre 2007 : le jour où Roger Federer a subi une deuxième défaite consécutive pour la première fois en quatre ans",
+   "titre_fr": "12 novembre 2007 : le jour où Roger Federer a subi une deuxième défaite consécutive pour la première fois en quatre ans",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/12-novembre-2007-le-jour-ou-pour-la-premiere-fois-depuis-quatre-ans-roger-federer-a-subi-deux-defaites-consecutives-513421.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-12T08:20+00:00",
+   "image": null,
+   "titre": "12 novembre 2007 : Le jour où, pour la première fois depuis quatre ans, Roger Federer a subi deux défaites consécutives",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/shevchenko-recovers-from-a-set-down-to-oust-ruud-and-face-tirante-in-stockholm-866694.html",
    "source": "Tennis Majors (EN)",
