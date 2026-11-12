@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T05:45+00:00",
+ "maj": "2026-11-12T07:58+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,17 +15,17 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 37 articles",
+  "L'Équipe": "ok, 36 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 14 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 28 articles",
+  "RMC Sport": "ok, 27 articles",
   "franceinfo": "ok, 20 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 15 articles",
-  "Ubitennis": "erreur : téléchargement impossible : https://www.ubitennis.net/feed/ (<urlopen error timed out>)"
+  "Ubitennis": "ok, 12 articles"
  },
  "articles": [
   {
@@ -46,6 +46,15 @@
    "date": "2026-11-12T08:20+00:00",
    "image": null,
    "titre": "12 novembre 2007 : Le jour où, pour la première fois depuis quatre ans, Roger Federer a subi deux défaites consécutives",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/france/nicolas-escude-sur-la-nomination-de-monfils-plutot-que-tsonga-au-poste-de-capitaine-pour-moi-ce-nest-pas-une-excuse-pour-justifier-que-jo-nait-pas-ete-choisi",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T07:46+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Nicolas-Escude-1024x669.jpeg",
+   "titre": "Nicolas Escudé sur la nomination de Monfils plutôt que Tsonga au poste de capitaine : « Pour moi, ce n’est pas une excuse pour justifier que Jo n’ait pas été choisi »",
    "blessure": false
   },
   {
