@@ -20,6 +20,7 @@ jobs:
       KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
       CODE_TML: ${{ secrets.CODE_TML }}
       CITO_API_KEY: ${{ secrets.CITO_API_KEY }}
+      SPORTSAPI365_KEY: ${{ secrets.SPORTSAPI365_KEY }}
     steps:
       - name: Récupérer le dépôt
         run: |
