@@ -44,29 +44,50 @@ def valeurs(o, cles, trouve=None):
             valeurs(x, cles, trouve)
     return trouve
 
+def liste_matchs(d):
+    if isinstance(d, dict):
+        for k in ("matches", "results", "data", "items"):
+            if isinstance(d.get(k), list):
+                return d[k]
+    return d if isinstance(d, list) else []
+
+def trouver(o, cle):
+    """Premières valeurs d'une clé, n'importe où dans une ligne."""
+    if isinstance(o, dict):
+        if cle in o and isinstance(o[cle], (str, int)):
+            return str(o[cle])
+        for v in o.values():
+            r = trouver(v, cle)
+            if r is not None:
+                return r
+    return None
+
+def essai(titre, chemin):
+    st, h, corps = appel(chemin)
+    sortie.extend([f"## {titre}", chemin, f"HTTP {st}", "Quota : " + ", ".join(f"{k}={v}" for k, v in h.items() if "quota" in k.lower()), ""])
+    try:
+        d = json.loads(corps)
+    except Exception:
+        sortie.extend(["Corps non JSON :", "```", corps[:400], "```", ""])
+        return
+    sortie.extend(["Structure (champs) :", "```"] + [f"{k} : {v}" for k, v in list(structure(d).items())[:110]] + ["```", ""])
+    lignes = liste_matchs(d)
+    sortie.append(f"Lignes : {len(lignes)}")
+    if lignes:
+        from collections import Counter
+        trn = Counter((trouver(l, "name") if not isinstance(l.get("tournament"), dict) else l["tournament"].get("name")) for l in lignes)
+        sortie.extend(["Tournois (nombre de lignes) :", "```", json.dumps(dict(trn.most_common(25)), ensure_ascii=False), "```"])
+        tours = Counter((l.get("round") or {}).get("name") if isinstance(l.get("round"), dict) else str(l.get("roundId")) for l in lignes)
+        sortie.extend(["Tours :", "```", json.dumps(dict(tours.most_common(12)), ensure_ascii=False), "```"])
+        v = valeurs(d, ("rank", "status", "retire", "walkover"))
+        sortie.extend(["Valeurs distinctes (rank, statut, abandon) :", "```"] + [f"{k} : {sorted(x)[:10]}" for k, x in v.items()] + ["```"])
+    sortie.append("")
+
 if not CLE:
     sortie.append("Secret SPORTSAPI365_KEY absent.")
 else:
-    # 1. niveaux de tournoi disponibles pour le circuit masculin (données de référence)
-    st, h, corps = appel("/upcoming/filters/atp?include=options")
-    sortie += ["## 1. /upcoming/filters/atp?include=options", f"HTTP {st}", f"X-Empty-Reason : {h.get('X-Empty-Reason', '-')}",
-               f"Restant (en-têtes) : " + ", ".join(f"{k}={v}" for k, v in h.items() if "limit" in k.lower() or "remaining" in k.lower() or "quota" in k.lower()), ""]
-    try:
-        d = json.loads(corps)
-        sortie += ["Structure :", "```"] + [f"{k} : {v}" for k, v in list(structure(d).items())[:40]] + ["```"]
-        sortie += ["Contenu (référence, tronqué) :", "```", json.dumps(d, ensure_ascii=False)[:3500], "```", ""]
-    except Exception:
-        sortie += ["Corps non JSON :", "```", corps[:400], "```", ""]
-    # 2. matchs à venir ATP simples (structure et niveaux, 20 lignes)
-    st, h, corps = appel("/upcoming/matches/atp?group=singles&include=all%2CfixtureDetails%2Cmetadata&limit=20")
-    sortie += ["## 2. /upcoming/matches/atp?group=singles&limit=20", f"HTTP {st}", f"X-Empty-Reason : {h.get('X-Empty-Reason', '-')}", ""]
-    try:
-        d = json.loads(corps)
-        sortie += ["Structure (noms de champs) :", "```"] + [f"{k} : {v}" for k, v in list(structure(d).items())[:120]] + ["```", ""]
-        v = valeurs(d, ("rank", "level", "categor", "tourtype", "series"))
-        sortie += ["Valeurs distinctes des champs de niveau (20 lignes) :", "```"] + [f"{k} : {sorted(x)[:12]}" for k, x in v.items()] + ["```", ""]
-    except Exception:
-        sortie += ["Corps non JSON :", "```", corps[:400], "```", ""]
+    essai("1. Résultats d'un jour (ATP, tous niveaux)", "/atp/results/2026-10-27")
+    essai("2. À venir niveau 0 (ITF M15/M25)", "/upcoming/matches/atp?group=singles&rank=0&limit=20")
 
 os.makedirs("rapport", exist_ok=True)
 open("rapport/test-sa365.md", "w", encoding="utf-8").write("\n".join(sortie) + "\n")
