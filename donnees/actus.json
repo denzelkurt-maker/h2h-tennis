@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T21:28+00:00",
+ "maj": "2026-11-12T23:24+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 36 articles",
+  "L'Équipe": "ok, 35 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 18 articles",
@@ -24,10 +24,30 @@
   "franceinfo": "ok, 20 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 15 articles",
+  "Tennis Majors (EN)": "ok, 14 articles",
   "Ubitennis": "ok, 12 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/stockholm-day-4-musetti-battles-past-humbert-to-set-up-fritz-semi-final-tabilo-meets-tirante-866848.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-12T22:56+00:00",
+   "image": null,
+   "vo": "Stockholm, Day 4: Musetti battles past Humbert to set up Fritz semi-final, Tabilo meets Tirante",
+   "titre": "Stockholm, jour 4 : Musetti s’impose face à Humbert et se qualifie pour la demi-finale contre Fritz, Tabilo affronte Tirante",
+   "titre_fr": "Stockholm, jour 4 : Musetti s’impose face à Humbert et se qualifie pour la demi-finale contre Fritz, Tabilo affronte Tirante",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Defaite-frustrante-pour-ugo-humbert-contre-lorenzo-musetti-en-quarts-de-finale-a-stockholm/1743295#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-12T22:25+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/ugo-humbert-avait-perdu-au-deuxieme-tour-du-masters-1000-parisien-la-semaine-derniere-p-lahalle-l-equipe/1500000002649181/0:0,1999:1332-828-552-75/906b9.jpg",
+   "titre": "Défaite frustrante pour Ugo Humbert contre Lorenzo Musetti en quarts de finale à Stockholm",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/un-algorithme-predit-le-vainqueur-du-tournoi-des-maitres",
    "source": "We Love Tennis",
