@@ -4,12 +4,12 @@
   "empreinte": "d3c083c37188"
  },
  "cito-2026.json": {
-  "octets": 533822,
-  "empreinte": "25f0e3be511a"
+  "octets": 533982,
+  "empreinte": "2078ae50b84b"
  },
  "classement.json": {
-  "octets": 134411,
-  "empreinte": "58c5181cf6d4"
+  "octets": 134386,
+  "empreinte": "2d8c011c0b1a"
  },
  "classements-fin-annee.json": {
   "octets": 440128,
@@ -92,8 +92,8 @@
   "empreinte": "97061af37a0b"
  },
  "photos.json": {
-  "octets": 523948,
-  "empreinte": "bad83ec22250"
+  "octets": 504644,
+  "empreinte": "30171d296951"
  },
  "programme.json": {
   "octets": 33833,
