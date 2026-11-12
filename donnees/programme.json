@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T15:37+00:00",
+ "maj": "2026-11-12T17:34+00:00",
  "source": "ESPN (API publique)",
  "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
  "colonnes_tournois": [
@@ -43,46 +43,6 @@
  ],
  "matchs": [
   [
-   "2026-11-12T14:20Z",
-   1,
-   "Center Court",
-   "148-2026",
-   "Quarterfinal",
-   "in",
-   [
-    "d7013896-f27c-1590-01c8-3df0a2781e16",
-    "Thiago Agustin Tirante",
-    "Argentina",
-    null
-   ],
-   [
-    "de169e60-0a75-3e19-944b-9b685744b9ce",
-    "Aleksandr Shevchenko",
-    "Kazakhstan",
-    null
-   ]
-  ],
-  [
-   "2026-11-12T17:30Z",
-   1,
-   "Center Court",
-   "148-2026",
-   "Quarterfinal",
-   "pre",
-   [
-    "6493155f-cacc-7aa5-ba78-d952efa4c652",
-    "Taylor Fritz",
-    "USA",
-    1
-   ],
-   [
-    "b147e841-a236-2e4b-5f4d-01bdba396310",
-    "Holger Rune",
-    "Denmark",
-    null
-   ]
-  ],
-  [
    "2026-11-12T19:00Z",
    1,
    "Center Court",
@@ -100,6 +60,26 @@
     "Ugo Humbert",
     "France",
     7
+   ]
+  ],
+  [
+   "2026-11-13T13:00Z",
+   1,
+   "Center Court",
+   "148-2026",
+   "Semifinal",
+   "pre",
+   [
+    "8fa7d691-fc6c-a510-edd4-781c2b6c3126",
+    "Alejandro Tabilo",
+    "Chile",
+    4
+   ],
+   [
+    "d7013896-f27c-1590-01c8-3df0a2781e16",
+    "Thiago Agustin Tirante",
+    "Argentina",
+    null
    ]
   ]
  ],
@@ -2772,7 +2752,7 @@
  "challenger_maj": "2026-11-12T05:46+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-12T15:37+00:00",
+  "date": "2026-11-12T17:34+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",

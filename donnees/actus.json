@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T15:37+00:00",
+ "maj": "2026-11-12T17:33+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,9 +18,9 @@
   "L'Équipe": "ok, 36 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 15 articles",
+  "We Love Tennis": "ok, 17 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 25 articles",
+  "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 20 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -29,12 +29,75 @@
  },
  "articles": [
   {
+   "lien": "https://www.welovetennis.fr/atp/sinner-felicite-ce-joueur-qualifie-au-masters-je-suis-vraiment-tres-heureux-pour-lui-cest-quelquun-de-bien-qui-sentoure-dune-equipe-tres-professionnelle",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T17:14+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Sinner-profil-wim-1024x575.jpeg",
+   "titre": "Sinner félicite ce joueur qualifié au Masters : « Je suis vraiment très heureux pour lui. C’est quelqu’un de bien, qui s’entoure d’une équipe très professionnelle »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/musetti-rend-hommage-a-ce-top-10-apres-sa-grave-blessure-cest-un-tres-gros-travailleur-et-je-sais-que-tout-le-monde-sur-le-circuit-a-ete-touche-lorsquil-a-subi-cette-grave-blessure",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T16:51+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/10/Musetti-1024x625.jpg",
+   "titre": "Musetti rend hommage à ce top 10 après sa grave blessure : « C’est un très gros travailleur et je sais que tout le monde sur le circuit à été touché lorsqu’il a subi cette grave blessure »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/on-connait-ladversaire-de-son-premier-match-pour-arthur-fils-et-cest-du-lourd",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T16:02+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-coup-droit-1024x440.jpeg",
+   "titre": "On connait l’adversaire de son premier match pour Arthur Fils et c’est du lourd !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/brad-gilbert-le-sentait-pour-ferrero-jai-immediatement-senti-a-quel-point-il-etait-impatient-de-reprendre-le-travail",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T15:54+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Brad-Gilbert-1024x555.jpeg",
+   "titre": "Brad Gilbert le sentait pour Ferrero : « J’ai immédiatement senti à quel point il était impatient de reprendre le travail »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-commencera-face-a-ben-shelton-dimanche-aux-finales-atp/1743182#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-12T15:38+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Arthur Fils commencera face à Ben Shelton dimanche aux Finales ATP",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/cobolli-rend-hommage-a-son-compatriote-et-ami-sinner-jannik-nest-pas-a-turin-mais-cest-comme-sil-y-etait",
    "source": "We Love Tennis",
    "langue": "fr",
    "date": "2026-11-12T15:20+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Cobolli-1024x579.jpeg",
    "titre": "Cobolli rend hommage à son compatriote et ami Sinner : « Jannik n’est pas à Turin, mais c’est comme s’il y était »",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-12T14:58+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
+   "titre": "Jannik Sinner",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/tennis-je-n-arrivais-meme-pas-a-bouger-sinner-a-vecu-des-moments-douloureux-et-perdu-beaucoup-de-poids-durant-sa-convalescence_AV-202611120638.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-12T14:57+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/8FKxyvq2qlNxtdluft4GEibMe50=/0x0:2048x1152/800x0/images/Jannik-Sinner-a-Wimbledon-le-29-juin-2026-2311959.jpg",
+   "titre": "Il n'arrivait \"même pas à bouger\" et a \"perdu beaucoup de poids: les révélations de Sinner sur sa difficile convalescence",
    "blessure": false
   },
   {
@@ -1935,15 +1998,6 @@
    "date": "2026-11-06T10:13+00:00",
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/7hlMWjdHbgnZ-rQlpZ9DcPcyXOE=/83x125:1923x1160/800x0/images/Luca-Van-Assche-au-Masters-1000-de-Paris-le-5-novembre-2026-2379122.jpg",
    "titre": "Masters 1000 de Paris: qui est l'atypique Luca Van Assche, dernier Français en lice?",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-06T10:07+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
-   "titre": "Jannik Sinner",
    "blessure": false
   },
   {
