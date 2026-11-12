@@ -1,13 +1,20 @@
-# Test sportsapi365 (2026-11-12 12:17 UTC)
+# Test sportsapi365 (2026-11-12 12:20 UTC)
 
-## 1. Résultats d'un jour (ATP, tous niveaux)
-/atp/results/2026-10-27
+## 1. /round (référentiel des tours)
 HTTP 200
-Quota : x-quota-limit=150, x-quota-remaining=147, x-quota-reset=1797077623230
+Quota : x-quota-limit=150, x-quota-remaining=145, x-quota-reset=1797077623230
+```
+{"data":[{"round_id":6,"round_name":"Third"},{"round_id":9,"round_name":"1/4"},{"round_id":7,"round_name":"Fourth"},{"round_id":14,"round_name":"Rubber 2"},{"round_id":13,"round_name":"Rubber 1"},{"round_id":11,"round_name":"Bronze"},{"round_id":0,"round_name":"Pre-q"},{"round_id":16,"round_name":"Rubber 4"},{"round_id":10,"round_name":"1/2"},{"round_id":15,"round_name":"Rubber 3"},{"round_id":3,"round_name":"Q3"},{"round_id":20,"round_name":"N/A"},{"round_id":12,"round_name":"Final"},{"round_id":2,"round_name":"Q2"},{"round_id":5,"round_name":"Second"},{"round_id":1,"round_name":"Q1"},{"round_id":8,"round_name":"Robin"},{"round_id":4,"round_name":"First"},{"round_id":17,"round_name":"Rubber 5"},{"round_id":21,"round_name":"ER"},{"round_id":22,"round_name":"Q4"},{"round_id":23,"round_name":"CR"},{"round_id":24,"round_name":"QF"},{"round_id":25,"round_name":"Q5"},{"round_id":-1,"round_name":"N/A"}]}
+```
+
+## 2. Résultats du 27/10, pageSize=500
+/atp/results/2026-10-27?pageSize=500
+HTTP 200
+Quota : x-quota-limit=150, x-quota-remaining=144, x-quota-reset=1797077623230
 
 Structure (champs) :
 ```
-data : liste de 100
+data : liste de 326
 data[].id : str
 data[].matchId : str
 data[].date : str
@@ -49,101 +56,28 @@ limit : int
 hasNextPage : bool
 ```
 
-Lignes : 100
+Lignes : 326
 Tournois (nombre de lignes) :
 ```
-{"M25 Norman": 21, "Guayaquil Challenger": 14, "Ningboo Challenger": 14, "Seoul Challenger": 12, "Brest Challenger": 12, "Sioux Falls Challenger": 12, "Swiss Indoors Basel - Basel": 9, "Erste Bank Open - Vienna": 6}
+{"M25 Norman": 31, "M15 Heraklion": 20, "M15 Selva Gardena": 18, "M15 Yanagawa City": 18, "M15 Monastir": 18, "M15 Fergana": 17, "M25 Las Vegas": 16, "M25 Tamworth": 16, "M15 Mazatlan": 16, "M15 Sharm ElSheikh": 16, "Guayaquil Challenger": 14, "Ningboo Challenger": 14, "M25 Sheffield": 14, "M25 Malta": 13, "M15 Pembroke": 13, "Seoul Challenger": 12, "Brest Challenger": 12, "Sioux Falls Challenger": 12, "M15 Joao Pessoa": 12, "Swiss Indoors Basel - Basel": 9, "M15 Singapore": 9, "Erste Bank Open - Vienna": 6}
 ```
 Tours :
 ```
-{"4": 79, "1": 11, "3": 10}
+{"4": 224, "3": 83, "1": 19}
+```
+result_type :
+```
+{"completed": 316, "retired": 9, "walkover": 1}
+```
+Formes de score (chiffres remplacés par 9) :
+```
+{"9-9 9-9": 180, "9-9 9-9 9-9": 59, "9-9 9-9(9)": 20, "9-9(9) 9-9": 16, "9-9 9-9(9) 9-9": 15, "9-9(9) 9-9 9-9": 10, "9-9(9) 9-9(9)": 5, "9-9 9-9 9-9(9)": 4, "9-9 9-9 ret.": 3, "9-9(9) 9-9(9) 9-9": 3, "9-9 ret.": 3, "9-9(9) 9-9(9) 9-9(9)": 2, "9-9 9-9 9-9 ret.": 2, "9-9(9) 9-9 9-9(9)": 2, "9-9(9) 9-9(9) 9-9 ret.": 1}
+```
+(niveau, roundId) :
+```
+{"0/4": 148, "0/3": 80, "1/4": 61, "0/1": 19, "2/4": 15, "1/3": 3}
 ```
 Valeurs distinctes (rank, statut, abandon) :
 ```
-rankId : ['0', '1', '2']
-```
-
-## 2. À venir niveau 0 (ITF M15/M25)
-/upcoming/matches/atp?group=singles&rank=0&limit=20
-HTTP 200
-Quota : x-quota-limit=150, x-quota-remaining=146, x-quota-reset=1797077623230
-
-Structure (champs) :
-```
-total : int
-matches : liste de 20
-matches[].id : int
-matches[].matchId : int
-matches[].liveMatchId : str
-matches[].links.match : str
-matches[].links.live : str
-matches[].tournament.id : int
-matches[].tournament.name : str
-matches[].tournament.date : str
-matches[].tournament.rankId : int
-matches[].tournament.country : str
-matches[].tournament.court.name : str
-matches[].court : str
-matches[].roundId : int
-matches[].rank : int
-matches[].date : str
-matches[].type : str
-matches[].odds.id_b_o : int
-matches[].odds.bookmaker : str
-matches[].odds.id1_o : int
-matches[].odds.id2_o : int
-matches[].odds.total : float
-matches[].odds.k1 : float
-matches[].odds.k2 : float
-matches[].odds.ktb : float
-matches[].odds.ktm : float
-matches[].player1.name : str
-matches[].player1.odd : str
-matches[].player1.oddBookmaker : str
-matches[].player1.countryAcr : str
-matches[].player1.seed : NoneType
-matches[].player1.image : str
-matches[].player1.image_p_name : str
-matches[].player1.id : int
-matches[].player2.id : int
-matches[].player2.name : str
-matches[].player2.odd : str
-matches[].player2.oddBookmaker : str
-matches[].player2.countryAcr : str
-matches[].player2.seed : NoneType
-matches[].player2.image : str
-matches[].player2.image_p_name : str
-matches[].h2h : str
-matches[].h2hSummary.matchCount : int
-matches[].h2hSummary.player1Wins : int
-matches[].h2hSummary.player2Wins : int
-matches[].startTimeStatus : str
-matches[].modelPrediction.available : bool
-matches[].modelPrediction.error : str
-matches[].modelPrediction.message : str
-matches[].modelPrediction.requiredPlan : str
-matches[].modelPrediction.upgradeUrl : str
-page : int
-pageNo : int
-pageSize : int
-limit : int
-hasNextPage : bool
-totalPages : int
-```
-
-Lignes : 20
-Tournois (nombre de lignes) :
-```
-{"M15 Roldan": 6, "M25 Santa Cruz do Sul": 4, "M15 Naples": 4, "M25 Montreal": 3, "M25 San Gregorio di Catania": 1, "M15 Las Palmas de Gran Canaria": 1, "M25 Vale do Lobo": 1}
-```
-Tours :
-```
-{"5": 19, "4": 1}
-```
-Valeurs distinctes (rank, statut, abandon) :
-```
-rankId : ['0']
-rank : ['0']
-startTimeStatus : ['scheduled']
 ```
 
