@@ -1,6 +1,6 @@
 # Contrôle de l'appli
 
-- Date (UTC) : 2026-11-12T01:30:30.020Z
+- Date (UTC) : 2026-11-12T01:42:59.174Z
 - Version de l'appli : 0.10.0
 - État : **OK**
 
@@ -14,11 +14,11 @@
 ```json
 {
  "public": {
-  "duree_chargement_s": 4.075,
+  "duree_chargement_s": 2.826,
   "chiffres": {
    "version_appli": "0.10.0",
    "matchs": 356326,
-   "joueurs": 11829,
+   "joueurs": 11834,
    "tournois": 10494,
    "doublons": 0,
    "complements_dechiffres": false,
@@ -44,8 +44,8 @@
      ]
     ]
    },
-   "photos": 1192,
-   "joueurs_avec_poids": 781,
+   "photos": 1194,
+   "joueurs_avec_poids": 633,
    "sinner": {
     "nom": "Jannik Sinner",
     "matchs": 565,
@@ -86,11 +86,11 @@
   }
  },
  "complet": {
-  "duree_chargement_s": 3.227,
+  "duree_chargement_s": 2.471,
   "chiffres": {
    "version_appli": "0.10.0",
    "matchs": 356942,
-   "joueurs": 11852,
+   "joueurs": 11857,
    "tournois": 10495,
    "doublons": 0,
    "complements_dechiffres": true,
@@ -116,8 +116,8 @@
      ]
     ]
    },
-   "photos": 1192,
-   "joueurs_avec_poids": 781,
+   "photos": 1194,
+   "joueurs_avec_poids": 633,
    "sinner": {
     "nom": "Jannik Sinner",
     "matchs": 565,
@@ -144,15 +144,15 @@
     },
     "ATP qualifications": {
      "matchs": 773,
-     "score_complet": 763,
-     "stats": 748,
-     "score_complet_pct": 98.7
+     "score_complet": 765,
+     "stats": 750,
+     "score_complet_pct": 99
     },
     "ATP tableau": {
      "matchs": 1185,
-     "score_complet": 1184,
-     "stats": 1164,
-     "score_complet_pct": 99.9
+     "score_complet": 1185,
+     "stats": 1165,
+     "score_complet_pct": 100
     }
    }
   }
