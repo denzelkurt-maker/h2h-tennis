@@ -1,7 +1,7 @@
 # Contrôle de l'appli
 
-- Date (UTC) : 2026-11-12T13:03:33.697Z
-- Version de l'appli : 0.10.0
+- Date (UTC) : 2026-11-12T15:22:50.926Z
+- Version de l'appli : 0.11.0
 - État : **OK**
 
 ## Erreurs
@@ -14,9 +14,9 @@
 ```json
 {
  "public": {
-  "duree_chargement_s": 3.681,
+  "duree_chargement_s": 3.324,
   "chiffres": {
-   "version_appli": "0.10.0",
+   "version_appli": "0.11.0",
    "matchs": 356542,
    "joueurs": 11842,
    "tournois": 10495,
@@ -86,9 +86,9 @@
   }
  },
  "complet": {
-  "duree_chargement_s": 3.205,
+  "duree_chargement_s": 2.949,
   "chiffres": {
-   "version_appli": "0.10.0",
+   "version_appli": "0.11.0",
    "matchs": 357004,
    "joueurs": 11852,
    "tournois": 10495,

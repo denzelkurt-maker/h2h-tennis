@@ -1,11 +1,11 @@
 {
- "date": "2026-11-12T13:03:33.697Z",
- "version_appli": "0.10.0",
+ "date": "2026-11-12T15:22:50.926Z",
+ "version_appli": "0.11.0",
  "passages": {
   "public": {
-   "duree_chargement_s": 3.681,
+   "duree_chargement_s": 3.324,
    "chiffres": {
-    "version_appli": "0.10.0",
+    "version_appli": "0.11.0",
     "matchs": 356542,
     "joueurs": 11842,
     "tournois": 10495,
@@ -75,9 +75,9 @@
    }
   },
   "complet": {
-   "duree_chargement_s": 3.205,
+   "duree_chargement_s": 2.949,
    "chiffres": {
-    "version_appli": "0.10.0",
+    "version_appli": "0.11.0",
     "matchs": 357004,
     "joueurs": 11852,
     "tournois": 10495,
