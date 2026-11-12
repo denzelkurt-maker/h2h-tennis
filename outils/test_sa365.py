@@ -79,15 +79,24 @@ def essai(titre, chemin):
         sortie.extend(["Tournois (nombre de lignes) :", "```", json.dumps(dict(trn.most_common(25)), ensure_ascii=False), "```"])
         tours = Counter((l.get("round") or {}).get("name") if isinstance(l.get("round"), dict) else str(l.get("roundId")) for l in lignes)
         sortie.extend(["Tours :", "```", json.dumps(dict(tours.most_common(12)), ensure_ascii=False), "```"])
-        v = valeurs(d, ("rank", "status", "retire", "walkover"))
+        import re
+        rt = Counter(str(l.get("result_type")) for l in lignes if "result_type" in l)
+        if rt:
+            sortie.extend(["result_type :", "```", json.dumps(dict(rt.most_common(12)), ensure_ascii=False), "```"])
+            motifs = Counter(re.sub(r"\d+", "9", str(l.get("result"))) for l in lignes)
+            sortie.extend(["Formes de score (chiffres remplacés par 9) :", "```", json.dumps(dict(motifs.most_common(15)), ensure_ascii=False), "```"])
+            par_tr = Counter((str(trouver(l, "rankId")), str(l.get("roundId"))) for l in lignes)
+            sortie.extend(["(niveau, roundId) :", "```", json.dumps({f"{a}/{b}": n for (a, b), n in par_tr.most_common(20)}), "```"])
+        v = valeurs(d, ("status", "retire", "walkover"))
         sortie.extend(["Valeurs distinctes (rank, statut, abandon) :", "```"] + [f"{k} : {sorted(x)[:10]}" for k, x in v.items()] + ["```"])
     sortie.append("")
 
 if not CLE:
     sortie.append("Secret SPORTSAPI365_KEY absent.")
 else:
-    essai("1. Résultats d'un jour (ATP, tous niveaux)", "/atp/results/2026-10-27")
-    essai("2. À venir niveau 0 (ITF M15/M25)", "/upcoming/matches/atp?group=singles&rank=0&limit=20")
+    st, h, corps = appel("/round")
+    sortie.extend(["## 1. /round (référentiel des tours)", f"HTTP {st}", "Quota : " + ", ".join(f"{k}={v}" for k, v in h.items() if "quota" in k.lower()), "```", corps[:2500], "```", ""])
+    essai("2. Résultats du 27/10, pageSize=500", "/atp/results/2026-10-27?pageSize=500")
 
 os.makedirs("rapport", exist_ok=True)
 open("rapport/test-sa365.md", "w", encoding="utf-8").write("\n".join(sortie) + "\n")
