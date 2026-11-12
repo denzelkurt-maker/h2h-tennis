@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T07:58+00:00",
+ "maj": "2026-11-12T09:36+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,14 +18,14 @@
   "L'Équipe": "ok, 36 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 14 articles",
+  "We Love Tennis": "ok, 13 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 27 articles",
   "franceinfo": "ok, 20 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 15 articles",
-  "Ubitennis": "ok, 12 articles"
+  "Ubitennis": "ok, 11 articles"
  },
  "articles": [
   {
@@ -40,12 +40,48 @@
    "blessure": false
   },
   {
+   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-pas-seulement-blesse-au-genou-je-me-suis-fait-enlever-les-amygdales-il-y-a-quelques-semaines-et-jai-perdu-beaucoup-de-poids-vous-le-voyez-peut-etre-a-mon-visage-il-est-assez-sec",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T09:34+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-RG-1024x528.jpeg",
+   "titre": "Jannik Sinner, pas seulement blessé au genou : « Je me suis fait enlever les amygdales il y a quelques semaines et j’ai perdu beaucoup de poids. Vous le voyez peut-être à mon visage, il est assez sec »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/-j-ai-perdu-beaucoup-de-poids-jannik-sinner-s-est-fait-retirer-les-amygdales/1743115#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-12T09:13+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/jannik-sinner-n-a-plus-rejoue-depuis-la-finale-de-wimbledon-en-juillet-m-romano-ipp-presse-sport/1500000002648631/0:0,2000:1333-828-552-75/542aa.jpg",
+   "titre": "« J'ai perdu beaucoup de poids » : Jannik Sinner s'est fait retirer les amygdales",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/carlos-moya-dernier-coach-de-nadal-carlos-alcaraz-et-jannik-sinner-auraient-clairement-pu-battre-rafa-a-roland-garros-mais-sur-le-long-terme-je-pense-quil-aurait-remporte-plus-de-matchs-qu",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T08:59+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/05/Nadal-RG-2024-1-1024x561.jpeg",
+   "titre": "Carlos Moya, dernier coach de Nadal : « Carlos Alcaraz et Jannik Sinner auraient clairement pu battre Rafa à Roland-Garros, mais sur le long terme, je pense qu’il aurait remporté plus de matchs qu’eux »",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/fr/atp-actualite/12-novembre-2007-le-jour-ou-pour-la-premiere-fois-depuis-quatre-ans-roger-federer-a-subi-deux-defaites-consecutives-513421.html",
    "source": "Tennis Majors",
    "langue": "fr",
    "date": "2026-11-12T08:20+00:00",
    "image": null,
    "titre": "12 novembre 2007 : Le jour où, pour la première fois depuis quatre ans, Roger Federer a subi deux défaites consécutives",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-beaucoup-dinformations-erronees-ont-circule-ces-derniers-temps-mon-entourage-et-moi-sommes-au-courant-de-tout",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-12T08:18+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-conf-presse-RG-2026-1-1024x556.jpeg",
+   "titre": "Jannik Sinner : « Beaucoup d’informations erronées ont circulé ces derniers temps. Mon entourage et moi sommes au courant de tout »",
    "blessure": false
   },
   {
