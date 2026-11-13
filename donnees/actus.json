@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-13T11:35+00:00",
+ "maj": "2026-11-13T13:54+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 34 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 17 articles",
+  "We Love Tennis": "ok, 16 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 20 articles",
@@ -28,6 +28,15 @@
   "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alerte-pour-carlos-alcaraz-juste-avant-le-debut-du-masters-de-turin",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T13:14+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-6386-1024x557.jpg",
+   "titre": "Alerte pour Carlos Alcaraz juste avant le début du Masters de Turin",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/wta-tour-news/november-13-1988-the-day-martina-navratilova-and-chris-evert-played-for-the-80th-and-final-time-304983.html",
    "source": "Tennis Majors (EN)",
@@ -40,12 +49,48 @@
    "blessure": false
   },
   {
+   "lien": "https://www.welovetennis.fr/atp/juan-carlos-ferrero-nouveau-coach-de-ben-shelton-jai-vu-dans-son-regard-quelque-chose-que-je-navais-peut-etre-pas-percu-chez-les-autres-joueurs-auxquels-jai-parle-avant-lui",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T12:22+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Shelton-1024x555.jpeg",
+   "titre": "Juan Carlos Ferrero, nouveau coach de Ben Shelton : « J’ai vu dans son regard quelque chose que je n’avais peut-être pas perçu chez les autres joueurs auxquels j’ai parlé avant lui »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Quand-carlos-alcaraz-et-alexander-zverev-se-tirent-la-bourre-lors-d-un-tie-break-a-l-entrainement-avant-les-finales-atp/1743377#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-13T12:20+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-et-alexander-zverev-apres-la-victoire-de-l-espagnol-en-demi-finales-a-l-open-d-austra/1500000002649602/0:0,2000:1333-828-552-75/1925e.jpg",
+   "titre": "Quand Carlos Alcaraz et Alexander Zverev se tirent la bourre lors d'un tie-break à l'entraînement avant les Finales ATP",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/carlos-moya-ancien-coach-de-nadal-sur-djokovic-il-y-a-peut-etre-un-seul-joueur-qui-na-pas-connu-la-meme-chose-que-novak-actuellement-et-ce-nest-pas-rafa",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T11:59+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Djokovic-1024x551.jpeg",
+   "titre": "Carlos Moya, ancien coach de Nadal, sur Djokovic : « Il y a peut-être un seul joueur qui n’a pas connu la même chose que Novak actuellement et ce n’est pas Rafa »",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/justine-henin-sur-arthur-fils-je-ne-limaginais-peut-etre-pas-capable-de-revenir-aussi-vite-de-cette-maniere-et-daller-chercher-une-qualification-pour-le-masters",
    "source": "We Love Tennis",
    "langue": "fr",
    "date": "2026-11-13T11:26+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Justine-Henin-1024x573.jpeg",
    "titre": "Justine Henin sur Arthur Fils : « Je ne l’imaginais peut-être pas capable de revenir aussi vite, de cette manière, et d’aller chercher une qualification pour le Masters »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/En-cours-d-agrandissement-le-court-14-va-devenir-partiellement-payant-a-partir-de-roland-garros-2027/1743365#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-13T11:22+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/le-court-14-de-roland-garros-est-connu-pour-son-ambiance-p-lahalle-l-equipe/1500000002649568/112:138,1837:1288-828-552-75/04790.jpg",
+   "titre": "En cours d'agrandissement, le court 14 va devenir partiellement payant à partir de Roland-Garros 2027",
    "blessure": false
   },
   {
@@ -70,7 +115,7 @@
    "lien": "https://www.welovetennis.fr/atp/atp-stockholm/la-sage-decision-de-rune-un-an-apres-sa-rupture-totale-du-tendon-dachille-je-ne-veux-pas-prendre-de-risque",
    "source": "We Love Tennis",
    "langue": "fr",
-   "date": "2026-11-13T09:59+00:00",
+   "date": "2026-11-13T09:42+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2025/01/Rune-banc-OA-2025-1024x515.jpeg",
    "titre": "La sage décision de Rune, un an après sa rupture totale du tendon d’Achille : « Je ne veux pas prendre de risque »",
    "blessure": false
@@ -79,7 +124,7 @@
    "lien": "https://www.welovetennis.fr/atp/atp-finals/le-tie-break-exceptionnel-entre-alcaraz-et-zverev-a-lentrainement-avant-le-debut-du-masters",
    "source": "We Love Tennis",
    "langue": "fr",
-   "date": "2026-11-13T09:26+00:00",
+   "date": "2026-11-13T09:16+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2024/11/Zverev-Alcaraz-1024x512.jpeg",
    "titre": "Le tie-break exceptionnel entre Alcaraz et Zverev à l’entraînement avant le début du Masters",
    "blessure": false
@@ -94,15 +139,6 @@
    "blessure": false
   },
   {
-   "lien": "https://www.welovetennis.fr/atp/absent-depuis-quatre-mois-jannik-sinner-revele-son-passe-temps-favori-depuis-que-je-suis-blesse-je-passe-mes-journees-a-jouer-a-ca",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-13T08:28+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Jannik-Sinner-monte-carlo-1024x555.jpeg",
-   "titre": "Absent depuis quatre mois, Jannik Sinner révèle son passe-temps favori : « Depuis que je suis blessé, je passe mes journées à jouer à ça »",
-   "blessure": true
-  },
-  {
    "lien": "https://www.tennismajors.com/fr/wta-actualite/13-novembre-2005-le-jour-ou-amelie-mauresmo-a-remporte-son-premier-titre-majeur-en-simposant-au-masters-513755.html",
    "source": "Tennis Majors",
    "langue": "fr",
@@ -110,6 +146,15 @@
    "image": null,
    "titre": "13 novembre 2005 : Le jour où Amélie Mauresmo a remporté son premier titre majeur en s’imposant au Masters",
    "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/absent-depuis-quatre-mois-jannik-sinner-revele-son-passe-temps-favori-depuis-que-je-suis-blesse-je-passe-mes-journees-a-jouer-a-ca",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T08:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Jannik-Sinner-monte-carlo-1024x555.jpeg",
+   "titre": "Absent depuis quatre mois, Jannik Sinner révèle son passe-temps favori : « Depuis que je suis blessé, je passe mes journées à jouer à ça »",
+   "blessure": true
   },
   {
    "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/i-havent-been-happy-for-the-last-couple-of-years-tirante-opens-up-on-mental-health-and-players-big-egos-866876.html",
@@ -126,7 +171,7 @@
    "lien": "https://www.welovetennis.fr/atp/rafael-nadal-fait-passer-un-message-si-un-jour-un-joueur-du-circuit-mappelle-je-serai-la-pour-lui-repondre-sans-aucun-besoin-den-faire-la-publicite",
    "source": "We Love Tennis",
    "langue": "fr",
-   "date": "2026-11-13T07:25+00:00",
+   "date": "2026-11-13T07:15+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/02/Nadal-1024x552.jpg",
    "titre": "Rafael Nadal fait passer un message : « Si un jour, un joueur du circuit m’appelle, je serai là pour lui répondre, sans aucun besoin d’en faire la publicité »",
    "blessure": false
