@@ -685,6 +685,7 @@ button.field{display:block;font:inherit;font-size:16px;font-weight:600;text-alig
 .jc-rk{align-self:flex-start;display:inline-flex;align-items:baseline;gap:6px;margin-top:9px;padding:5px 11px;border-radius:999px;background:rgba(76,155,255,.2);border:1px solid rgba(125,180,255,.5);color:#fff;font-weight:800;font-size:.9rem;white-space:nowrap}
 .jc-rk small{font-weight:700;color:#B8C7E0;font-size:.75rem}
 .jc-rk.vieux{background:rgba(255,210,122,.12);border-color:rgba(255,210,122,.5)}
+.sports-btn{text-decoration:none}
 .maj-ico{flex:none;width:44px;height:44px;border-radius:12px;padding:0;font-size:1.3rem;display:grid;place-items:center;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:#fff}
 .maj-ico:disabled{opacity:.5}
 .ess .stile .st-val{font-size:1.3rem}
@@ -1579,7 +1580,7 @@ function vueAccueil() {
   const vedette = resultatsVedette(E.duJour, 12);
   const jourTxt = new Date().toLocaleDateString("fr-FR", {weekday: "long", day: "numeric", month: "long"}).replace(/^./, c => c.toUpperCase());
   v.innerHTML = `
-    <div class="hello">${EMBLEME_GRAND.replace('width="64" height="64"', 'width="46" height="46"')}
+    <div class="hello"><a class="maj-ico sports-btn" href="../" aria-label="Accueil des sports"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></a>${EMBLEME_GRAND.replace('width="64" height="64"', 'width="46" height="46"')}
       <div style="flex:1;min-width:0"><div class="t">H2H <span>Tennis</span></div><div class="s">${esc(jourTxt)} · données du ${D.maj ? new Date(D.maj).toLocaleString("fr-FR").slice(0, 16).replace(" ", " à ") : "?"}</div></div>
       <button class="maj-ico" id="majBtn" aria-label="Mettre à jour les données">⟳</button></div>
     <div id="majZone"><div class="prog" id="majProg" hidden><i></i></div><div id="majEtat" class="small muted ctr"></div></div>
