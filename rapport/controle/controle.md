@@ -1,6 +1,6 @@
 # Contrôle de l'appli
 
-- Date (UTC) : 2026-11-13T22:47:09.156Z
+- Date (UTC) : 2026-11-13T22:51:40.597Z
 - Version de l'appli : 0.11.0
 - État : **OK**
 
@@ -14,18 +14,18 @@
 ```json
 {
  "public": {
-  "duree_chargement_s": 2.168,
+  "duree_chargement_s": 3.404,
   "chiffres": {
    "version_appli": "0.11.0",
-   "matchs": 356542,
-   "joueurs": 11843,
+   "matchs": 356679,
+   "joueurs": 11847,
    "tournois": 10495,
    "doublons": 0,
    "complements_dechiffres": false,
    "classement": {
-    "semaine": "2026-11-02",
+    "semaine": "2026-11-09",
     "source": "ATP, via Wikimedia Commons",
-    "rangs": 2301,
+    "rangs": 2297,
     "top3": [
      [
       1,
@@ -40,7 +40,7 @@
      [
       3,
       "Carlos Alcaraz",
-      6100
+      7100
      ]
     ]
    },
@@ -53,28 +53,28 @@
    },
    "depuis_juin": {
     "Challenger tableau": {
-     "matchs": 3401,
-     "score_complet": 1911,
+     "matchs": 3423,
+     "score_complet": 1923,
      "stats": 0,
      "score_complet_pct": 56.2
     },
     "Challenger qualifications": {
-     "matchs": 2734,
-     "score_complet": 1625,
+     "matchs": 2737,
+     "score_complet": 1628,
      "stats": 0,
-     "score_complet_pct": 59.4
+     "score_complet_pct": 59.5
     },
     "ITF": {
-     "matchs": 9167,
-     "score_complet": 5374,
+     "matchs": 9275,
+     "score_complet": 5439,
      "stats": 0,
      "score_complet_pct": 58.6
     },
     "ATP qualifications": {
-     "matchs": 742,
-     "score_complet": 365,
+     "matchs": 746,
+     "score_complet": 368,
      "stats": 0,
-     "score_complet_pct": 49.2
+     "score_complet_pct": 49.3
     },
     "ATP tableau": {
      "matchs": 1170,
@@ -86,18 +86,18 @@
   }
  },
  "complet": {
-  "duree_chargement_s": 1.836,
+  "duree_chargement_s": 3.599,
   "chiffres": {
    "version_appli": "0.11.0",
-   "matchs": 357095,
-   "joueurs": 11853,
-   "tournois": 10495,
+   "matchs": 357141,
+   "joueurs": 11857,
+   "tournois": 10496,
    "doublons": 0,
    "complements_dechiffres": true,
    "classement": {
-    "semaine": "2026-11-02",
+    "semaine": "2026-11-09",
     "source": "ATP, via Wikimedia Commons",
-    "rangs": 2301,
+    "rangs": 2297,
     "top3": [
      [
       1,
@@ -112,7 +112,7 @@
      [
       3,
       "Carlos Alcaraz",
-      6100
+      7100
      ]
     ]
    },
@@ -125,33 +125,33 @@
    },
    "depuis_juin": {
     "Challenger tableau": {
-     "matchs": 3521,
-     "score_complet": 3517,
-     "stats": 3262,
+     "matchs": 3522,
+     "score_complet": 3518,
+     "stats": 3263,
      "score_complet_pct": 99.9
     },
     "Challenger qualifications": {
-     "matchs": 2805,
-     "score_complet": 2796,
-     "stats": 2417,
-     "score_complet_pct": 99.7
+     "matchs": 2828,
+     "score_complet": 2825,
+     "stats": 2440,
+     "score_complet_pct": 99.9
     },
     "ITF": {
-     "matchs": 9476,
-     "score_complet": 9441,
+     "matchs": 9496,
+     "score_complet": 9467,
      "stats": 4234,
-     "score_complet_pct": 99.6
+     "score_complet_pct": 99.7
     },
     "ATP qualifications": {
      "matchs": 777,
-     "score_complet": 773,
+     "score_complet": 774,
      "stats": 753,
-     "score_complet_pct": 99.5
+     "score_complet_pct": 99.6
     },
     "ATP tableau": {
-     "matchs": 1185,
-     "score_complet": 1185,
-     "stats": 1165,
+     "matchs": 1187,
+     "score_complet": 1187,
+     "stats": 1167,
      "score_complet_pct": 100
     }
    }
