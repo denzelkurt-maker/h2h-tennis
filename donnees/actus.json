@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-13T15:28+00:00",
+ "maj": "2026-11-13T17:33+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 34 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 16 articles",
+  "We Love Tennis": "ok, 17 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 20 articles",
@@ -28,6 +28,51 @@
   "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/arthur-fils-pense-deja-a-sa-reconversion-je-reve-de-faire-ce-metier",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T17:08+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-entree-Paris-1024x505.jpeg",
+   "titre": "Arthur Fils pense déjà à sa reconversion : « Je rêve de faire ce métier »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/cobolli-sur-la-place-de-numero-1-mondial-de-zverev-alcaraz-et-sinner-restent-les-meilleurs-a-mes-yeux-mais",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T16:37+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Cobolli-Zverev-regard-filet-RG-2026-1024x485.jpeg",
+   "titre": "Cobolli sur la place de numéro 1 mondial de Zverev : « Alcaraz et Sinner restent les meilleurs à mes yeux, mais… »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-le-solitaire-je-ne-vois-pas-souvent-mes-parents-je-me-sens-tres-bien-a-monte-carlo-jaime-rester-seul-chez-moi",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T16:17+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Jannik-Sinner-monte-carlo-1024x555.jpeg",
+   "titre": "Jannik Sinner, le solitaire : « Je ne vois pas souvent mes parents. Je me sens très bien à Monte-Carlo. J’aime rester seul chez moi »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/-le-nombre-de-places-accessibles-en-placement-libre-quasiment-inchange-face-aux-critiques-les-precisions-de-la-fft-sur-le-court-14-de-roland-garros-qui-sera-partiellement-payant/1743429#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-13T16:07+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/le-court-14-etait-plein-lors-du-3e-tour-de-roland-garros-2025-entre-nuno-borges-et-alexei-popyrin-a-reau-l-equipe/1500000002649704/0:0,2000:1333-828-552-75/49b00.jpg",
+   "titre": "« Le nombre de places accessibles en placement libre quasiment inchangé » : face aux critiques, les précisions de la FFT sur le court 14 de Roland-Garros qui sera partiellement payant",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jimmy-connors-sur-shelton-desormais-coache-par-ferrero-il-y-a-une-personne-qui-a-deja-fait-ses-preuves-dans-cette-relation-et-ce-nest-pas-shelton",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T15:36+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/11/Jimmy-Connors--1024x482.jpg",
+   "titre": "Jimmy Connors sur Shelton, désormais coaché par Ferrero : « Il y a une personne qui a déjà fait ses preuves dans cette relation, et ce n’est pas Shelton »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/nicolas-escude-sur-gael-monfils-nouveau-capitaine-de-coupe-davis-il-na-pas-toujours-ete-irreprochable",
    "source": "We Love Tennis",
@@ -136,6 +181,15 @@
    "date": "2026-11-13T11:22+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/le-court-14-de-roland-garros-est-connu-pour-son-ambiance-p-lahalle-l-equipe/1500000002649568/112:138,1837:1288-828-552-75/04790.jpg",
    "titre": "En cours d'agrandissement, le court 14 va devenir partiellement payant à partir de Roland-Garros 2027",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/roland-garros/roland-garros-pathetique-belle-arnaque-pourquoi-les-nouvelles-tribunes-payantes-du-court-n-14-font-polemique_AV-202611130480.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-13T11:19+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/V3NM1CqNG7Cse6Ucx1mgJd39zEs=/0x186:2048x1338/800x0/images/Le-court-14-de-Roland-Garros-le-23-mai-2025-2383510.jpg",
+   "titre": "Roland-Garros: \"Pathétique\", \"belle arnaque\"... Pourquoi les nouvelles tribunes payantes du court n°14 font polémique",
    "blessure": false
   },
   {

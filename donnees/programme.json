@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-13T15:28+00:00",
+ "maj": "2026-11-13T17:33+00:00",
  "source": "ESPN (API publique)",
  "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
  "colonnes_tournois": [
@@ -43,11 +43,11 @@
  ],
  "matchs": [
   [
-   "2026-11-13T16:00Z",
+   "2026-11-14T12:00Z",
    1,
    "Center Court",
    "148-2026",
-   "Semifinal",
+   "Final",
    "pre",
    [
     "6493155f-cacc-7aa5-ba78-d952efa4c652",
@@ -56,10 +56,10 @@
     1
    ],
    [
-    "9b79e506-da5f-e10a-6b4e-9a2a93ed34bb",
-    "Lorenzo Musetti",
-    "Italy",
-    3
+    "d7013896-f27c-1590-01c8-3df0a2781e16",
+    "Thiago Agustin Tirante",
+    "Argentina",
+    null
    ]
   ],
   [
@@ -2972,7 +2972,7 @@
  "challenger_maj": "2026-11-13T01:51+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-13T15:28+00:00",
+  "date": "2026-11-13T17:33+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
