@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-13T07:57+00:00",
+ "maj": "2026-11-13T09:38+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -25,7 +25,7 @@
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 14 articles",
-  "Ubitennis": "ok, 12 articles"
+  "Ubitennis": "ok, 11 articles"
  },
  "articles": [
   {
@@ -38,6 +38,33 @@
    "titre": "13 novembre 1988 : le jour où Martina Navratilova et Chris Evert se sont affrontées pour la 80e et dernière fois",
    "titre_fr": "13 novembre 1988 : le jour où Martina Navratilova et Chris Evert se sont affrontées pour la 80e et dernière fois",
    "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/le-tie-break-exceptionnel-entre-alcaraz-et-zverev-a-lentrainement-avant-le-debut-du-masters",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T09:26+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/11/Zverev-Alcaraz-1024x512.jpeg",
+   "titre": "Le tie-break exceptionnel entre Alcaraz et Zverev à l’entraînement avant le début du Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/flavio-cobolli-6e-mondial-cest-le-meilleur-entraineur-du-monde-jai-ete-sur-le-point-de-lui-envoyer-un-message-mais-je-nai-jamais-reussi-a-le-faire",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T08:55+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Flavio-Cobolli-RG-2026-1024x555.jpeg",
+   "titre": "Flavio Cobolli, 6e mondial : « C’est le meilleur entraîneur du monde. J’ai été sur le point de lui envoyer un message, mais je n’ai jamais réussi à le faire »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/absent-depuis-quatre-mois-jannik-sinner-revele-son-passe-temps-favori-depuis-que-je-suis-blesse-je-passe-mes-journees-a-jouer-a-ca",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T08:28+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Jannik-Sinner-monte-carlo-1024x555.jpeg",
+   "titre": "Absent depuis quatre mois, Jannik Sinner révèle son passe-temps favori : « Depuis que je suis blessé, je passe mes journées à jouer à ça »",
+   "blessure": true
   },
   {
    "lien": "https://www.tennismajors.com/fr/wta-actualite/13-novembre-2005-le-jour-ou-amelie-mauresmo-a-remporte-son-premier-titre-majeur-en-simposant-au-masters-513755.html",
@@ -1621,7 +1648,7 @@
    "langue": "fr",
    "date": "2026-11-08T10:40+00:00",
    "image": null,
-   "titre": "Championne de Wimbledon, Masters, Tchèque : tout ce que vous avez toujours voulu savoir sur Linda Noskova (sans prendre le temps de chercher)",
+   "titre": "Championne de Wimbledon, Masters, Tchèque : tout ce que vous avez toujours voulu savoir sur Linda Noskova (sans prendre le temps de chercher) – mis à jour pendant le Masters 2026",
    "blessure": false
   },
   {
