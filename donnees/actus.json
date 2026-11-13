@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-13T22:50+00:00",
+ "maj": "2026-11-13T23:23+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -57,6 +57,24 @@
    "date": "2026-11-13T21:16+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/alexander-zverev-vendredi-en-conference-de-presse-a-turin-f-faugere-l-equipe/1500000002649956/0:0,800:533-828-552-75/44b13.jpg",
    "titre": "Alexander Zverev serait visé par une nouvelle plainte de son ex-compagne pour fausses déclarations",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/alexander-zverev_DN-202108310603.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-13T21:15+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ro1b_ee7A8WZ2xsKr02jgkzHzCk=/0x40:768x472/800x0/images/Alexander-Zverev-oppose-a-Daniil-Medvedev-au-Masters-de-fin-de-saison-a-Turin-le-16-novembre-2021-1167815.jpg",
+   "titre": "Alexander Zverev",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/le-numero-un-mondial-de-nouveau-dans-la-tourmente-zverev-vise-par-une-nouvelle-action-en-justice-de-son-ex-compagne_AV-202611130873.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-13T21:15+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/VCDFsQNvS9xbzmTYUjShaLQHM-w=/0x0:2048x1152/800x0/images/Alexander-Zverev-lors-du-Rolex-Paris-Masters-en-novembre-2026-2383827.jpg",
+   "titre": "Le numéro un mondial de nouveau dans la tourmente: Zverev visé par une nouvelle action en justice de son ex-compagne",
    "blessure": false
   },
   {
