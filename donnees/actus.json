@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T23:24+00:00",
+ "maj": "2026-11-13T01:51+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -29,6 +29,26 @@
  },
  "articles": [
   {
+   "lien": "https://www.tennismajors.com/wta-tour-news/november-13-1988-the-day-martina-navratilova-and-chris-evert-played-for-the-80th-and-final-time-304983.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-13T12:40+00:00",
+   "image": null,
+   "vo": "November 13, 1988: The day Martina Navratilova and Chris Evert played for the 80th and final time",
+   "titre": "13 novembre 1988 : le jour où Martina Navratilova et Chris Evert se sont affrontées pour la 80e et dernière fois",
+   "titre_fr": "13 novembre 1988 : le jour où Martina Navratilova et Chris Evert se sont affrontées pour la 80e et dernière fois",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/wta-actualite/13-novembre-2005-le-jour-ou-amelie-mauresmo-a-remporte-son-premier-titre-majeur-en-simposant-au-masters-513755.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-13T08:20+00:00",
+   "image": null,
+   "titre": "13 novembre 2005 : Le jour où Amélie Mauresmo a remporté son premier titre majeur en s’imposant au Masters",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/stockholm-day-4-musetti-battles-past-humbert-to-set-up-fritz-semi-final-tabilo-meets-tirante-866848.html",
    "source": "Tennis Majors (EN)",
    "langue": "en",
@@ -44,7 +64,7 @@
    "source": "L'Équipe",
    "langue": "fr",
    "date": "2026-11-12T22:25+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/ugo-humbert-avait-perdu-au-deuxieme-tour-du-masters-1000-parisien-la-semaine-derniere-p-lahalle-l-equipe/1500000002649181/0:0,1999:1332-828-552-75/906b9.jpg",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/ugo-humbert-avait-perdu-au-deuxieme-tour-du-masters-1000-parisien-la-semaine-derniere-p-lahalle-l-equipe/1500000002649181/143:139,1863:1286-828-552-75/1a9f0.jpg",
    "titre": "Défaite frustrante pour Ugo Humbert contre Lorenzo Musetti en quarts de finale à Stockholm",
    "blessure": false
   },

@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T23:24+00:00",
+ "maj": "2026-11-13T01:51+00:00",
  "source": "ESPN (API publique)",
  "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
  "colonnes_tournois": [
@@ -79,6 +79,246 @@
     "9b79e506-da5f-e10a-6b4e-9a2a93ed34bb",
     "Lorenzo Musetti",
     "Italy",
+    3
+   ]
+  ],
+  [
+   "2026-11-15T13:00Z",
+   1,
+   "Inalpi Arena",
+   "339-2026",
+   "Group Stage",
+   "pre",
+   [
+    "fd06b6ea-593b-d5b3-da2b-767ec3e4232c",
+    "Alexander Zverev",
+    "Germany",
+    1
+   ],
+   [
+    "14a740e2-9290-3b00-84d2-8a65c9754208",
+    "Rafael Jodar",
+    "Spain",
+    8
+   ]
+  ],
+  [
+   "2026-11-15T19:30Z",
+   1,
+   "",
+   "339-2026",
+   "Group Stage",
+   "pre",
+   [
+    "2358bec1-f6f0-3540-a37e-13bc322d2c08",
+    "Ben Shelton",
+    "USA",
+    3
+   ],
+   [
+    "911397bc-b02d-3987-94ce-642b3aeac50d",
+    "Arthur Fils",
+    "France",
+    6
+   ]
+  ],
+  [
+   "2026-11-16T05:00Z",
+   0,
+   "",
+   "339-2026",
+   "Group Stage",
+   "pre",
+   [
+    "07843754-8bdf-63b0-5983-24252738169e",
+    "Carlos Alcaraz",
+    "Spain",
+    2
+   ],
+   [
+    "62b541a8-4480-30f7-87a6-b45d09376f39",
+    "Flavio Cobolli",
+    "Italy",
+    5
+   ]
+  ],
+  [
+   "2026-11-16T05:00Z",
+   0,
+   "",
+   "339-2026",
+   "Group Stage",
+   "pre",
+   [
+    "62b541a8-4480-30f7-87a6-b45d09376f39",
+    "Flavio Cobolli",
+    "Italy",
+    5
+   ],
+   [
+    "f901758a-d8f2-442c-9cd3-44513fcbf31e",
+    "Frances Tiafoe",
+    "USA",
+    7
+   ]
+  ],
+  [
+   "2026-11-16T13:00Z",
+   1,
+   "Inalpi Arena",
+   "339-2026",
+   "Group Stage",
+   "pre",
+   [
+    "07843754-8bdf-63b0-5983-24252738169e",
+    "Carlos Alcaraz",
+    "Spain",
+    2
+   ],
+   [
+    "f901758a-d8f2-442c-9cd3-44513fcbf31e",
+    "Frances Tiafoe",
+    "USA",
+    7
+   ]
+  ],
+  [
+   "2026-11-16T19:30Z",
+   1,
+   "Inalpi Arena",
+   "339-2026",
+   "Group Stage",
+   "pre",
+   [
+    "469710ae-79d9-770e-e3b7-d71e5148642c",
+    "Daniil Medvedev",
+    "Russia",
+    4
+   ],
+   [
+    "62b541a8-4480-30f7-87a6-b45d09376f39",
+    "Flavio Cobolli",
+    "Italy",
+    5
+   ]
+  ],
+  [
+   "2026-11-17T05:00Z",
+   0,
+   "",
+   "339-2026",
+   "Group Stage",
+   "pre",
+   [
+    "fd06b6ea-593b-d5b3-da2b-767ec3e4232c",
+    "Alexander Zverev",
+    "Germany",
+    1
+   ],
+   [
+    "911397bc-b02d-3987-94ce-642b3aeac50d",
+    "Arthur Fils",
+    "France",
+    6
+   ]
+  ],
+  [
+   "2026-11-17T05:00Z",
+   0,
+   "",
+   "339-2026",
+   "Group Stage",
+   "pre",
+   [
+    "469710ae-79d9-770e-e3b7-d71e5148642c",
+    "Daniil Medvedev",
+    "Russia",
+    4
+   ],
+   [
+    "f901758a-d8f2-442c-9cd3-44513fcbf31e",
+    "Frances Tiafoe",
+    "USA",
+    7
+   ]
+  ],
+  [
+   "2026-11-17T05:00Z",
+   0,
+   "",
+   "339-2026",
+   "Group Stage",
+   "pre",
+   [
+    "07843754-8bdf-63b0-5983-24252738169e",
+    "Carlos Alcaraz",
+    "Spain",
+    2
+   ],
+   [
+    "469710ae-79d9-770e-e3b7-d71e5148642c",
+    "Daniil Medvedev",
+    "Russia",
+    4
+   ]
+  ],
+  [
+   "2026-11-17T05:00Z",
+   0,
+   "",
+   "339-2026",
+   "Group Stage",
+   "pre",
+   [
+    "911397bc-b02d-3987-94ce-642b3aeac50d",
+    "Arthur Fils",
+    "France",
+    6
+   ],
+   [
+    "14a740e2-9290-3b00-84d2-8a65c9754208",
+    "Rafael Jodar",
+    "Spain",
+    8
+   ]
+  ],
+  [
+   "2026-11-17T05:00Z",
+   0,
+   "",
+   "339-2026",
+   "Group Stage",
+   "pre",
+   [
+    "2358bec1-f6f0-3540-a37e-13bc322d2c08",
+    "Ben Shelton",
+    "USA",
+    3
+   ],
+   [
+    "14a740e2-9290-3b00-84d2-8a65c9754208",
+    "Rafael Jodar",
+    "Spain",
+    8
+   ]
+  ],
+  [
+   "2026-11-17T05:00Z",
+   0,
+   "",
+   "339-2026",
+   "Group Stage",
+   "pre",
+   [
+    "fd06b6ea-593b-d5b3-da2b-767ec3e4232c",
+    "Alexander Zverev",
+    "Germany",
+    1
+   ],
+   [
+    "2358bec1-f6f0-3540-a37e-13bc322d2c08",
+    "Ben Shelton",
+    "USA",
     3
    ]
   ]
@@ -2012,7 +2252,7 @@
   ],
   [
    "2026-10-12",
-   "Maia Open",
+   "Maia Challenger",
    "Maia",
    "Portugal",
    "Clay",
@@ -2111,7 +2351,7 @@
   ],
   [
    "2026-10-26",
-   "Brest Open",
+   "Brest Challenger",
    "Brest",
    "France",
    "Hard",
@@ -2749,10 +2989,10 @@
   "salle",
   "categorie"
  ],
- "challenger_maj": "2026-11-12T05:46+00:00",
+ "challenger_maj": "2026-11-13T01:51+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-12T23:24+00:00",
+  "date": "2026-11-13T01:51+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
