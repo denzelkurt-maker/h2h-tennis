@@ -1,6 +1,6 @@
 # Contrôle de l'appli
 
-- Date (UTC) : 2026-11-13T06:06:31.761Z
+- Date (UTC) : 2026-11-13T22:47:09.156Z
 - Version de l'appli : 0.11.0
 - État : **OK**
 
@@ -14,7 +14,7 @@
 ```json
 {
  "public": {
-  "duree_chargement_s": 3.642,
+  "duree_chargement_s": 2.168,
   "chiffres": {
    "version_appli": "0.11.0",
    "matchs": 356542,
@@ -86,7 +86,7 @@
   }
  },
  "complet": {
-  "duree_chargement_s": 3.222,
+  "duree_chargement_s": 1.836,
   "chiffres": {
    "version_appli": "0.11.0",
    "matchs": 357095,
