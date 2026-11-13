@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-13T05:39+00:00",
+ "maj": "2026-11-13T07:57+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 35 articles",
+  "L'Équipe": "ok, 34 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 18 articles",
@@ -46,6 +46,26 @@
    "date": "2026-11-13T08:20+00:00",
    "image": null,
    "titre": "13 novembre 2005 : Le jour où Amélie Mauresmo a remporté son premier titre majeur en s’imposant au Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/i-havent-been-happy-for-the-last-couple-of-years-tirante-opens-up-on-mental-health-and-players-big-egos-866876.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-13T07:41+00:00",
+   "image": null,
+   "vo": "“I haven’t been happy for the last couple of years”: Tirante opens up on mental health and players’ big egos",
+   "titre": "« Je n'ai pas été heureux ces dernières années » : Tirante se confie sur la santé mentale et les gros egos des joueurs",
+   "titre_fr": "« Je n'ai pas été heureux ces dernières années » : Tirante se confie sur la santé mentale et les gros egos des joueurs",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-fait-passer-un-message-si-un-jour-un-joueur-du-circuit-mappelle-je-serai-la-pour-lui-repondre-sans-aucun-besoin-den-faire-la-publicite",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T07:25+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/02/Nadal-1024x552.jpg",
+   "titre": "Rafael Nadal fait passer un message : « Si un jour, un joueur du circuit m’appelle, je serai là pour lui répondre, sans aucun besoin d’en faire la publicité »",
    "blessure": false
   },
   {
