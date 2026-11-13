@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-13T21:30+00:00",
+ "maj": "2026-11-13T22:50+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 33 articles",
+  "L'Équipe": "ok, 32 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 17 articles",
@@ -24,10 +24,41 @@
   "franceinfo": "ok, 20 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 15 articles",
+  "Tennis Majors (EN)": "ok, 14 articles",
   "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/it-is-no-secret-that-he-has-been-kind-of-conservative-musetti-on-sinner-absent-from-the-davis-cup-finals-866917.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-13T21:42+00:00",
+   "image": null,
+   "vo": "“It is no secret that he has been kind of conservative”: Musetti on Sinner, absent from the Davis Cup Finals",
+   "titre": "« Ce n'est un secret pour personne qu'il a été plutôt conservateur » : Musetti à propos de Sinner, absent des finales de la Coupe Davis",
+   "titre_fr": "« Ce n'est un secret pour personne qu'il a été plutôt conservateur » : Musetti à propos de Sinner, absent des finales de la Coupe Davis",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/carlos-makes-me-more-uncomfortable-than-jannik-fritz-on-what-separates-him-from-the-top-two-ahead-of-stockholm-final-866919.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-13T21:34+00:00",
+   "image": null,
+   "vo": "“Carlos makes me more uncomfortable than Jannik”: Fritz on what separates him from the top two ahead of Stockholm final",
+   "titre": "« Carlos me met plus mal à l'aise que Jannik » : Fritz explique ce qui le distingue des deux premiers avant la finale de Stockholm",
+   "titre_fr": "« Carlos me met plus mal à l'aise que Jannik » : Fritz explique ce qui le distingue des deux premiers avant la finale de Stockholm",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Alexander-zverev-serait-vise-par-une-nouvelle-plainte-de-son-ex-compagne-pour-fausses-declarations/1743510#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-13T21:16+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/alexander-zverev-vendredi-en-conference-de-presse-a-turin-f-faugere-l-equipe/1500000002649956/0:0,800:533-828-552-75/44b13.jpg",
+   "titre": "Alexander Zverev serait visé par une nouvelle plainte de son ex-compagne pour fausses déclarations",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/fritz-avenges-lyon-defeat-to-musetti-and-reaches-career-best-sixth-final-of-the-season-in-stockholm-866900.html",
    "source": "Tennis Majors (EN)",
