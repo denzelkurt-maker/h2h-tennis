@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-13T17:33+00:00",
+ "maj": "2026-11-13T19:37+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -24,10 +24,57 @@
   "franceinfo": "ok, 20 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 14 articles",
+  "Tennis Majors (EN)": "ok, 15 articles",
   "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/fritz-avenges-lyon-defeat-to-musetti-and-reaches-career-best-sixth-final-of-the-season-in-stockholm-866900.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-13T18:55+00:00",
+   "image": null,
+   "vo": "Fritz avenges Lyon defeat to Musetti and reaches career-best sixth final of the season in Stockholm",
+   "titre": "Fritz prend sa revanche sur Musetti après sa défaite à Lyon et atteint sa sixième finale de la saison à Stockholm, un record dans sa carrière",
+   "titre_fr": "Fritz prend sa revanche sur Musetti après sa défaite à Lyon et atteint sa sixième finale de la saison à Stockholm, un record dans sa carrière",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-sur-son-alerte-physique-ca-ma-derange-de-devoir-arreter-lentrainement-plus-tot-car-cetait-sur-le-court-central-et-il-y-avait-beaucoup-de-monde",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T18:38+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-6385-1024x569.jpg",
+   "titre": "Carlos Alcaraz, sur son alerte physique : « Ça m’a dérangé de devoir arrêter l’entraînement plus tôt, car c’était sur le court central et il y avait beaucoup de monde »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/actu/juan-carlos-ferrero-interroge-sur-les-rumeurs-au-sujet-de-jannik-sinner-jai-effectivement-eu-des-contacts-tres-importants-mais-je-ne-vais-pas-les-reveler",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T18:27+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/11/Ferrero-Masters-2023-1024x558.jpeg",
+   "titre": "Juan Carlos Ferrero, interrogé sur les rumeurs au sujet de Jannik Sinner : « J’ai effectivement eu des contacts très importants, mais je ne vais pas les révéler »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-avant-le-debut-de-ses-premieres-finales-atp-je-sais-que-je-suis-a-ma-place/1743469#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-13T18:05+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-face-aux-medias-vendredi-a-turin-franck-faugere-l-equipe/1500000002649870/0:0,800:533-828-552-75/6f0e7.jpg",
+   "titre": "Arthur Fils, avant le début de ses premières Finales ATP : « Je sais que je suis à ma place »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/bjorn-borg-sur-son-plus-beau-titre-cette-victoire-a-ete-la-plus-gratifiante-de-toute-ma-carriere",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T17:50+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2021/03/Borg--1024x527.jpg",
+   "titre": "Bjorn Borg, sur son plus beau titre : « Cette victoire a été la plus gratifiante de toute ma carrière »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/arthur-fils-pense-deja-a-sa-reconversion-je-reve-de-faire-ce-metier",
    "source": "We Love Tennis",
@@ -65,6 +112,17 @@
    "blessure": false
   },
   {
+   "lien": "https://www.tennismajors.com/atp/tirante-beats-tabilo-to-reach-first-atp-final-in-stockholm-the-day-he-opened-up-on-his-mental-health-866889.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-13T15:50+00:00",
+   "image": null,
+   "vo": "Tirante beats Tabilo to reach first ATP final in Stockholm, the day he opened up on his mental health",
+   "titre": "Tirante bat Tabilo et atteint sa première finale ATP à Stockholm, le jour où il s'est confié sur sa santé mentale",
+   "titre_fr": "Tirante bat Tabilo et atteint sa première finale ATP à Stockholm, le jour où il s'est confié sur sa santé mentale",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/jimmy-connors-sur-shelton-desormais-coache-par-ferrero-il-y-a-une-personne-qui-a-deja-fait-ses-preuves-dans-cette-relation-et-ce-nest-pas-shelton",
    "source": "We Love Tennis",
    "langue": "fr",
@@ -98,6 +156,15 @@
    "date": "2026-11-13T14:42+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-pres-1024x517.jpeg",
    "titre": "Richard Gasquet à Fils avant le début du Masters de Turin : « Je n’ai qu’un seul mot pour Arthur »",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/video-tennis-arthur-fils-au-masters-les-huit-qualifies-de-turin_VN-202611130583.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-13T14:35+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/1I4KR67qc_NQa9JgrbkbqE6HmBM=/0x0:1280x720/800x0/images/Tennis-Arthur-Fils-au-Masters-les-huit-qualifies-de-Turin-2383619.jpg",
+   "titre": "Tennis : Arthur Fils au Masters, les huit qualifiés de Turin",
    "blessure": false
   },
   {
