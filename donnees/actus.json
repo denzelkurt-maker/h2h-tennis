@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-13T13:54+00:00",
+ "maj": "2026-11-13T15:28+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -28,6 +28,51 @@
   "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/nicolas-escude-sur-gael-monfils-nouveau-capitaine-de-coupe-davis-il-na-pas-toujours-ete-irreprochable",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T15:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Gael-Monfils-1024x555.jpeg",
+   "titre": "Nicolas Escudé sur Gaël Monfils, nouveau capitaine de Coupe Davis : « Il n’a pas toujours été irréprochable »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Fils-devant-zverev-et-shelton-djokovic-loin-derriere-quel-serait-le-classement-atp-sans-les-points-des-grands-chelems/1743412#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-13T15:08+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-va-disputer-les-finales-atp-pour-la-premiere-fois-p-lahalle-l-equipe/1500000002649679/216:118,1941:1268-828-552-75/29d3c.jpg",
+   "titre": "Fils devant Zverev et Shelton, Djokovic loin derrière... Quel serait le classement ATP sans les points des Grands Chelems ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/richard-gasquet-a-fils-avant-le-debut-du-masters-de-turin-je-nai-quun-seul-mot-pour-arthur",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T14:42+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-pres-1024x517.jpeg",
+   "titre": "Richard Gasquet à Fils avant le début du Masters de Turin : « Je n’ai qu’un seul mot pour Arthur »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-stockholm/lorenzo-musetti-apres-sa-grosse-victoire-contre-ugo-humbert-cetait-la-cle-du-match",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T14:16+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/PHOTO-2026-09-03-23-22-04-e1794578997761-1024x570.jpg",
+   "titre": "Lorenzo Musetti, après sa grosse victoire contre Ugo Humbert : « C’était la clé du match »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp-wta/toni-nadal-voici-pourquoi-un-joueur-apprend-beaucoup-plus-quand-il-joue-sur-terre-battue-que-sur-dur",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T13:44+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/06/Toni-Nadal-RG-2025-1024x523.jpg",
+   "titre": "Toni Nadal : « Voici pourquoi un joueur apprend beaucoup plus quand il joue sur terre battue que sur dur »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/alerte-pour-carlos-alcaraz-juste-avant-le-debut-du-masters-de-turin",
    "source": "We Love Tennis",
