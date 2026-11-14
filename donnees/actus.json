@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T21:18+00:00",
+ "maj": "2026-11-14T23:15+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 35 articles",
+  "L'Équipe": "ok, 34 articles",
   "Tennis Majors": "ok, 16 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 17 articles",
@@ -24,10 +24,21 @@
   "franceinfo": "ok, 19 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 13 articles",
+  "Tennis Majors (EN)": "ok, 11 articles",
   "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-and-ferrero-reunite-with-a-hug-in-turin-almost-a-year-after-their-split-866963.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-14T20:40+00:00",
+   "image": null,
+   "vo": "Alcaraz and Ferrero reunite with a hug in Turin, almost a year after their split",
+   "titre": "Alcaraz et Ferrero se retrouvent et s'enlacent à Turin, près d'un an après leur séparation",
+   "titre_fr": "Alcaraz et Ferrero se retrouvent et s'enlacent à Turin, près d'un an après leur séparation",
+   "blessure": false
+  },
   {
    "lien": "https://www.lequipe.fr/Tennis/Article/Sous-les-yeux-de-carlos-alcaraz-ben-shelton-et-juan-carlos-ferrero-accordent-leurs-violons-aux-finales-atp-genial-d-avoir-un-esprit-aussi-brillant-que-le-sien-a-mes-cotes/1743700#at_medium=RSS_feeds",
    "source": "L'Équipe",
@@ -139,15 +150,6 @@
    "blessure": false
   },
   {
-   "lien": "https://rmcsport.bfmtv.com/tennis/carlos-alcaraz_DN-202305240409.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-14T16:05+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/q0HhSAPh4WNCQyuuNy78EIUsorg=/0x159:2048x1311/800x0/images/Carlos-Alcaraz-a-Madrid-1628893.jpg",
-   "titre": "Carlos Alcaraz",
-   "blessure": false
-  },
-  {
    "lien": "https://rmcsport.bfmtv.com/tennis/atp/tennis-pourquoi-alcaraz-utilise-une-raquette-sans-cordage-a-l-entrainement_AV-202611140296.html",
    "source": "RMC Sport",
    "langue": "fr",
@@ -172,17 +174,6 @@
    "date": "2026-11-14T15:41+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2022/07/Borg-wimbledon-1024x542.jpeg",
    "titre": "Bjorn Borg : « Quand j’arrivais dans un hôtel, il y avait 300 ou 400 personnes dans le hall. Quand j’allais au restaurant, il y avait des photographes et des journalistes. Quel que soit le pays où je me trouvais, je ne p",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-and-ferrero-reunite-with-a-hug-in-turin-almost-a-year-after-their-split-866963.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-14T15:40+00:00",
-   "image": null,
-   "vo": "Alcaraz and Ferrero reunite with a hug in Turin, almost a year after their split",
-   "titre": "Alcaraz et Ferrero se retrouvent et s'enlacent à Turin, près d'un an après leur séparation",
-   "titre_fr": "Alcaraz et Ferrero se retrouvent et s'enlacent à Turin, près d'un an après leur séparation",
    "blessure": false
   },
   {
@@ -1936,6 +1927,15 @@
    "image": null,
    "vo": "Djokovic’s ATP Finals hopes dashed in Paris, but eyes turn to 2027 Australian Open",
    "titre_fr": "Les espoirs de Djokovic en finale de l'ATP se sont brisés à Paris, mais les yeux se tournent vers l'Open d'Australie 2027"
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/carlos-alcaraz_DN-202305240409.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-09T18:17+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/q0HhSAPh4WNCQyuuNy78EIUsorg=/0x159:2048x1311/800x0/images/Carlos-Alcaraz-a-Madrid-1628893.jpg",
+   "titre": "Carlos Alcaraz",
+   "blessure": false
   },
   {
    "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/paris-bercy/un-melange-de-djokovic-et-federer-comment-alcaraz-a-conquis-le-masters-1000-de-paris_AV-202611090813.html",
