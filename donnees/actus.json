@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T07:44+00:00",
+ "maj": "2026-11-14T09:27+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -40,12 +40,41 @@
    "blessure": true
   },
   {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-groups-schedule-format-how-to-watch-866945.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-14T08:35+00:00",
+   "image": null,
+   "vo": "ATP Finals 2026: groups, schedule, format and how to watch",
+   "titre": "ATP Finals 2026 : groupes, calendrier, format et comment regarder",
+   "titre_fr": "ATP Finals 2026 : groupes, calendrier, format et comment regarder",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-avant-ses-retrouvailles-avec-ferrero-jai-vraiment-hate-quil-soit-ici-et-surtout-de-lui-faire-un-gros-calin-ca-fait-longtemps-quon-ne-sest-pas",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T08:19+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/05/Ferrero-Alcaraz-1024x492.jpeg",
+   "titre": "Carlos Alcaraz, avant ses retrouvailles avec Ferrero : « J’ai vraiment hâte qu’il soit ici, et surtout, de lui faire un gros câlin. Ça fait longtemps qu’on ne s’est pas vus »",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/fr/wta-actualite/14-novembre-1994-le-jour-ou-navratilova-dispute-dernier-match-carriere-tennis-majors-305255.html",
    "source": "Tennis Majors",
    "langue": "fr",
    "date": "2026-11-14T08:15+00:00",
    "image": null,
    "titre": "14 novembre 1994 : Le jour où Navratilova a disputé le dernier match de sa (première) carrière",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/avant-le-masters-zverev-de-nouveau-inquiete-dans-son-affaire-de-violences-conjugales",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T07:48+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Zverev-1385-1024x558.jpg",
+   "titre": "Avant le Masters, Zverev de nouveau inquiété dans son affaire de violences conjugales",
    "blessure": false
   },
   {
