@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T15:20+00:00",
+ "maj": "2026-11-14T17:18+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,10 +15,10 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 32 articles",
+  "L'Équipe": "ok, 33 articles",
   "Tennis Majors": "ok, 16 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 15 articles",
+  "We Love Tennis": "ok, 16 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 19 articles",
@@ -29,6 +29,89 @@
  },
  "articles": [
   {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-il-n-a-pas-ete-reconnu-coupable-mais-il-n-a-pas-non-plus-ete-declare-innocent-pourquoi-alexander-zverev-ferait-l-objet-d-une-nouvelle-plainte-de-son-ex-compagne/1743593#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-14T16:45+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Pourquoi Zverev ferait l'objet d'une nouvelle plainte de son ex-compagne",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4262879-20261114-finales-atp-2026-chaine-tv-voir-matches?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-14T16:43+00:00",
+   "image": "https://img.20mn.fr/zJt7En2ETMGKeHGUmgO1Qik/1200x768_tout-est-pret-a-turin-pour-les-atp-finals",
+   "titre": "Finales ATP 2026 : Sur quelle chaîne TV voir les matches ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-stockholm/taylor-fritz-titre-apres-le-traumatisme-alcaraz-je-me-serais-senti-comme-un-lache-si-je-netais-pas-venu",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T16:20+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fritz-1024x511.jpeg",
+   "titre": "Taylor Fritz titré après le traumatisme Alcaraz : « Je me serais senti comme un lâche si je n’étais pas venu »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/les-retrouvailles-tant-attendues-entre-alcaraz-et-ferrero",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T16:07+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Capture-decran-2026-11-14-a-16.53.10-1024x542.png",
+   "titre": "Les retrouvailles tant attendues entre Alcaraz et Ferrero",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-et-juan-carlos-ferrero-nouvel-entraineur-de-ben-shelton-se-retrouvent-a-turin/1743649#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-14T16:01+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-et-juan-carlos-ferrero-sur-le-central-ce-samedi-a-turin-f-faugere-l-equipe/1500000002650649/0:0,800:533-828-552-75/345c5.jpg",
+   "titre": "Carlos Alcaraz et Juan Carlos Ferrero, nouvel entraîneur de Ben Shelton, se retrouvent à Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/bjorn-borg-quand-jarrivais-dans-un-hotel-il-y-avait-300-ou-400-personnes-dans-le-hall-quand-jallais-au-restaurant-il-y-avait-des-photographes-et-des-journalistes-quel-que-soit-le-pa",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T15:41+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/07/Borg-wimbledon-1024x542.jpeg",
+   "titre": "Bjorn Borg : « Quand j’arrivais dans un hôtel, il y avait 300 ou 400 personnes dans le hall. Quand j’allais au restaurant, il y avait des photographes et des journalistes. Quel que soit le pays où je me trouvais, je ne p",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-and-ferrero-reunite-with-a-hug-in-turin-almost-a-year-after-their-split-866963.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-14T15:40+00:00",
+   "image": null,
+   "vo": "Alcaraz and Ferrero reunite with a hug in Turin, almost a year after their split",
+   "titre": "Alcaraz et Ferrero se retrouvent et s'enlacent à Turin, près d'un an après leur séparation",
+   "titre_fr": "Alcaraz et Ferrero se retrouvent et s'enlacent à Turin, près d'un an après leur séparation",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/atp/avant-le-masters-a-turin-alexander-zverev-est-il-un-numero-un-mondial-au-rabais_8281652.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-14T15:27+00:00",
+   "image": "https://www.franceinfo.fr/pictures/nuDfkKaRyjrek2KFq8ivLhc-T-A/0x0:4287x2411/432x243/filters:format(jpg)/2026/11/13/6af76f21636bb372831007.jpg",
+   "titre": "Avant le Masters à Turin, Alexander Zverev est-il un numéro un mondial au rabais ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Video/Finales-atp-carlos-alcaraz-annonce-la-couleur-avant-son-entree-en-lice-aux-finales-atp-je-ferai-tout-ce-qu-il-faudra-pour-gagner-ce-titre/20245545#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-14T15:26+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Alcaraz : «Je ferai tout ce qu’il faudra pour gagner ce titre»",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/arthur-fils-devoile-sa-veritable-taille",
    "source": "We Love Tennis",
    "langue": "fr",
@@ -38,12 +121,12 @@
    "blessure": false
   },
   {
-   "lien": "https://www.franceinfo.fr/sports/tennis/atp/avant-le-masters-a-turin-alexander-zverev-est-il-un-numero-un-mondial-au-rabais_8281652.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Douzieme-titre-atp-pour-taylor-fritz-tombeur-de-thiago-tirante-a-stockholm/1743634#at_medium=RSS_feeds",
+   "source": "L'Équipe",
    "langue": "fr",
-   "date": "2026-11-14T14:51+00:00",
-   "image": "https://www.franceinfo.fr/pictures/pfUZZXTEzNwkDw6tM2Glj3NQMxs/0x223:4287x2634/432x243/filters:format(jpg)/2026/11/13/6af76f21636bb372831007.jpg",
-   "titre": "Avant le Masters à Turin, Alexander Zverev est-il un numéro un mondial au rabais ?",
+   "date": "2026-11-14T15:00+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/taylor-fritz-n-avait-pas-perdu-un-set-avant-d-affronter-thiago-tirante-a-reau-l-equipe/1500000002650616/0:0,2000:1333-828-552-75/73072.jpg",
+   "titre": "Douzième titre ATP pour Taylor Fritz, tombeur de Thiago Tirante à Stockholm",
    "blessure": false
   },
   {
@@ -111,6 +194,15 @@
    "date": "2026-11-14T14:15+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2022/01/Nadal-trophee-AO-2022-australie-1024x580.jpeg",
    "titre": "Rafael Nadal désigne les trois matchs les plus mémorables de sa carrière, et il y a de quoi être surpris…",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-designe-les-trois-matchs-les-plus-memorables-de-sa-carriere-avec-une-sacree-surprise",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T14:15+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/01/Nadal-trophee-AO-2022-australie-1024x580.jpeg",
+   "titre": "Rafael Nadal désigne les trois matchs les plus mémorables de sa carrière, avec une sacrée surprise",
    "blessure": false
   },
   {
@@ -194,15 +286,6 @@
    "date": "2026-11-14T10:25+00:00",
    "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
    "titre": "Barthès, le premier maître français",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/-il-n-a-pas-ete-reconnu-coupable-mais-il-n-a-pas-non-plus-ete-declare-innocent-pourquoi-alexander-zverev-ferait-l-objet-d-une-nouvelle-plainte-de-son-ex-compagne/1743593#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-14T10:20+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Pourquoi Zverev ferait l'objet d'une nouvelle plainte de son ex-compagne",
    "blessure": false
   },
   {
