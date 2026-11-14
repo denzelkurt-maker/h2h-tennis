@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T19:27+00:00",
+ "maj": "2026-11-14T21:18+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 34 articles",
+  "L'Équipe": "ok, 35 articles",
   "Tennis Majors": "ok, 16 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 17 articles",
@@ -28,6 +28,15 @@
   "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Sous-les-yeux-de-carlos-alcaraz-ben-shelton-et-juan-carlos-ferrero-accordent-leurs-violons-aux-finales-atp-genial-d-avoir-un-esprit-aussi-brillant-que-le-sien-a-mes-cotes/1743700#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-14T20:20+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Shelton-Ferrero, prise de marques sous les yeux d'Alcaraz",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/i-basically-had-no-tendon-left-fritz-reveals-the-extent-of-his-knee-problem-finally-excited-about-an-injury-free-pre-season-866977.html",
    "source": "Tennis Majors (EN)",
@@ -64,6 +73,15 @@
    "date": "2026-11-14T18:09+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/albano-olivetti-a-gauche-et-theo-arribage-visent-le-sacre-a-turin-a-reau-l-equipe/1500000002650727/0:0,800:533-828-552-75/28203.jpg",
    "titre": "La paire française de double Théo Arribagé -Albano Olivetti vise très haut aux Finales ATP : « On n'a peur de personne »",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/atp-finals-une-qualification-vraiment-miraculeuse-pour-arthur-fils_AV-202611140316.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-14T17:44+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/nJKUoNQtB9LSMLirvziQsu-IGeY=/0x0:2048x1152/800x0/images/Arthur-Fils-lors-de-la-ceremonie-des-ATP-Finals-le-13-novembre-2026-2384080.jpg",
+   "titre": "ATP Finals: une qualification vraiment miraculeuse pour Arthur Fils?",
    "blessure": false
   },
   {
