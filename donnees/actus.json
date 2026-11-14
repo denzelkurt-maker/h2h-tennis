@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T09:27+00:00",
+ "maj": "2026-11-14T11:17+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -38,6 +38,69 @@
    "titre": "14 novembre 1994 : le jour où Martina Navratilova a pris sa retraite du circuit",
    "titre_fr": "14 novembre 1994 : le jour où Martina Navratilova a pris sa retraite du circuit",
    "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/medvedev-jai-vu-que-tout-le-monde-avait-deja-commence-a-publier-des-photos-de-vacances-je-vais-donc-tout-donner-et-ensuite-direction-les-maldives",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T10:54+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Medvedev-5433-1024x544.jpg",
+   "titre": "Medvedev : « J’ai vu que tout le monde avait déjà commencé à publier des photos de vacances. Je vais donc tout donner et ensuite, direction les Maldives »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Video/Finales-atp-pour-daniil-medvedev-le-parcours-de-matvey-safonov-le-gardien-de-but-du-psg-est-inspirant/20245533#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-14T10:40+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Medvedev : «Safonov est inspirant»",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/zverev-avant-son-entree-en-lice-sur-le-masters-de-turin-pour-linstant-je-ne-pense-pas-a-alcaraz-nous-ne-devons-manquer-de-respect-a-personne",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T10:26+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alexander-Zverev-1024x555.jpeg",
+   "titre": "Zverev, avant son entrée en lice sur le Masters de Turin : « Pour l’instant, je ne pense pas à Alcaraz. Nous ne devons manquer de respect à personne",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Tournees-avec-rod-laver-paria-en-france-et-interdit-de-roland-garros-qui-est-pierre-barthes-le-premier-francais-au-masters-cinquante-cinq-ans-avant-arthur-fils/1743370#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-14T10:25+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Barthès, le premier maître français",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-il-n-a-pas-ete-reconnu-coupable-mais-il-n-a-pas-non-plus-ete-declare-innocent-pourquoi-alexander-zverev-ferait-l-objet-d-une-nouvelle-plainte-de-son-ex-compagne/1743593#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-14T10:20+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Pourquoi Zverev ferait l'objet d'une nouvelle plainte de son ex-compagne",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/marion-bartoli-designe-son-favori-pour-le-masters-de-turin-quand-il-joue-comme-ca-il-est-pratiquement-imbattable",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T09:56+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/10/Bartoli-1024x511.jpeg",
+   "titre": "Marion Bartoli désigne son favori pour le Masters de Turin : « Quand il joue comme ça, il est pratiquement imbattable »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-sur-son-etat-de-forme-ce-nest-jamais-facile-de-finir-une-saison-maintenant-jarrive-ici-je-sais-que-je-suis-a-ma-place",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T09:28+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-revers-1024x501.jpeg",
+   "titre": "Arthur Fils, sur son état de forme : « Ce n’est jamais facile de finir une saison. Maintenant, j’arrive ici, je sais que je suis à ma place »",
+   "blessure": false
   },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-groups-schedule-format-how-to-watch-866945.html",
@@ -157,6 +220,15 @@
   },
   {
    "lien": "https://www.welovetennis.fr/actu/juan-carlos-ferrero-interroge-sur-les-rumeurs-au-sujet-de-jannik-sinner-jai-effectivement-eu-des-contacts-tres-importants-mais-je-ne-vais-pas-les-reveler",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-13T18:27+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/11/Ferrero-Masters-2023-1024x558.jpeg",
+   "titre": "Juan Carlos Ferrero, interrogé sur les rumeurs au sujet de Jannik Sinner : « J’ai effectivement eu des contacts très importants, mais je ne vais pas les révéler »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/juan-carlos-ferrero-interroge-sur-les-rumeurs-au-sujet-de-jannik-sinner-jai-effectivement-eu-des-contacts-tres-importants-mais-je-ne-vais-pas-les-reveler",
    "source": "We Love Tennis",
    "langue": "fr",
    "date": "2026-11-13T18:27+00:00",
