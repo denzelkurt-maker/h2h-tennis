@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-13T23:23+00:00",
+ "maj": "2026-11-14T01:46+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,19 +15,48 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 32 articles",
-  "Tennis Majors": "ok, 17 articles",
+  "L'Équipe": "ok, 31 articles",
+  "Tennis Majors": "ok, 16 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 17 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 26 articles",
-  "franceinfo": "ok, 20 articles",
+  "franceinfo": "ok, 19 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 14 articles",
   "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/wta-tour-news/november-14-1994-the-day-martina-navratilova-retired-from-the-tour-305254.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-14T11:02+00:00",
+   "image": null,
+   "vo": "November 14, 1994: The day Martina Navratilova retired from the Tour",
+   "titre": "14 novembre 1994 : le jour où Martina Navratilova a pris sa retraite du circuit",
+   "titre_fr": "14 novembre 1994 : le jour où Martina Navratilova a pris sa retraite du circuit",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/wta-actualite/14-novembre-1994-le-jour-ou-navratilova-dispute-dernier-match-carriere-tennis-majors-305255.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-14T08:15+00:00",
+   "image": null,
+   "titre": "14 novembre 1994 : Le jour où Navratilova a disputé le dernier match de sa (première) carrière",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Fils-devant-zverev-et-shelton-djokovic-loin-derriere-quel-serait-le-classement-atp-sans-les-points-des-grands-chelems/1743412#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-14T00:02+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Fils avantagé, Djoko largué : quel serait le classement sans les Grands Chelems ?",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/it-is-no-secret-that-he-has-been-kind-of-conservative-musetti-on-sinner-absent-from-the-davis-cup-finals-866917.html",
    "source": "Tennis Majors (EN)",
@@ -187,15 +216,6 @@
    "date": "2026-11-13T15:11+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Gael-Monfils-1024x555.jpeg",
    "titre": "Nicolas Escudé sur Gaël Monfils, nouveau capitaine de Coupe Davis : « Il n’a pas toujours été irréprochable »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Fils-devant-zverev-et-shelton-djokovic-loin-derriere-quel-serait-le-classement-atp-sans-les-points-des-grands-chelems/1743412#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-13T15:08+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-va-disputer-les-finales-atp-pour-la-premiere-fois-p-lahalle-l-equipe/1500000002649679/216:118,1941:1268-828-552-75/29d3c.jpg",
-   "titre": "Fils devant Zverev et Shelton, Djokovic loin derrière... Quel serait le classement ATP sans les points des Grands Chelems ?",
    "blessure": false
   },
   {
