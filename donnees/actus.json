@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T13:34+00:00",
+ "maj": "2026-11-14T15:20+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 31 articles",
+  "L'Équipe": "ok, 32 articles",
   "Tennis Majors": "ok, 16 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 15 articles",
@@ -28,6 +28,91 @@
   "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/arthur-fils-devoile-sa-veritable-taille",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T15:16+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-balle-1024x544.jpeg",
+   "titre": "Arthur Fils dévoile sa véritable taille",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/atp/avant-le-masters-a-turin-alexander-zverev-est-il-un-numero-un-mondial-au-rabais_8281652.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-14T14:51+00:00",
+   "image": "https://www.franceinfo.fr/pictures/pfUZZXTEzNwkDw6tM2Glj3NQMxs/0x223:4287x2634/432x243/filters:format(jpg)/2026/11/13/6af76f21636bb372831007.jpg",
+   "titre": "Avant le Masters à Turin, Alexander Zverev est-il un numéro un mondial au rabais ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Video/Finales-atp-alexandrer-zverev-avant-les-finales-atp-cette-annee-j-ai-realise-bon-nombre-de-mes-reves/20245542#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-14T14:48+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Zverev : «J’ai réalisé bon nombre de mes rêves»",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/patrick-mouratoglou-sur-alexander-zverev-sil-parvient-a-faire-cela-tout-le-monde-fermera-sa-bouche",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T14:45+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/03/Mouratoglou-1-1024x578.jpeg",
+   "titre": "Patrick Mouratoglou sur Alexander Zverev : « S’il parvient à faire cela, tout le monde fermera sa bouche »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/atp-finals-2026-groupes-programme-format-ou-regarder-810161.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-14T14:38+00:00",
+   "image": null,
+   "titre": "ATP Finals 2026 : groupes, programme, format et où regarder le tournoi",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/stockholm-open-atp-250-atp/fritz-decroche-enfin-son-premier-titre-indoor-a-stockholm-en-simposant-face-a-tirante-au-tie-break-du-set-decisif-810171.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-14T14:35+00:00",
+   "image": null,
+   "titre": "Fritz décroche enfin son premier titre indoor à Stockholm en s’imposant face à Tirante au tie-break du set décisif",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/carlos-alcaraz-seeks-nitto-atp-finals-title-in-turin-return/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-14T14:30+00:00",
+   "image": null,
+   "vo": "Carlos Alcaraz Seeks Nitto ATP Finals Title In Turin Return",
+   "titre": "Carlos Alcaraz vise le titre des Nitto ATP Finals lors de son retour à Turin",
+   "titre_fr": "Carlos Alcaraz vise le titre des Nitto ATP Finals lors de son retour à Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/fritz-finally-wins-his-first-indoor-title-in-stockholm-edging-tirante-in-a-final-set-tie-break-866958.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-14T14:29+00:00",
+   "image": null,
+   "vo": "Fritz finally wins his first indoor title in Stockholm, edging Tirante in a final-set tie-break",
+   "titre": "Fritz remporte enfin son premier titre en salle à Stockholm, battant Tirante au jeu décisif du dernier set",
+   "titre_fr": "Fritz remporte enfin son premier titre en salle à Stockholm, battant Tirante au jeu décisif du dernier set",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-designe-les-trois-matchs-les-plus-memorables-de-sa-carriere-et-il-y-a-de-quoi-etre-surpris",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T14:15+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/01/Nadal-trophee-AO-2022-australie-1024x580.jpeg",
+   "titre": "Rafael Nadal désigne les trois matchs les plus mémorables de sa carrière, et il y a de quoi être surpris…",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-avant-ses-debuts-sur-le-masters-de-turin-je-ne-peux-pas-marcher-vous-voyez",
    "source": "We Love Tennis",

@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T13:35+00:00",
+ "maj": "2026-11-14T15:20+00:00",
  "source": "ESPN (API publique)",
  "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
  "colonnes_tournois": [
@@ -42,26 +42,6 @@
   ]
  ],
  "matchs": [
-  [
-   "2026-11-14T12:10Z",
-   1,
-   "Center Court",
-   "148-2026",
-   "Final",
-   "in",
-   [
-    "6493155f-cacc-7aa5-ba78-d952efa4c652",
-    "Taylor Fritz",
-    "USA",
-    1
-   ],
-   [
-    "d7013896-f27c-1590-01c8-3df0a2781e16",
-    "Thiago Agustin Tirante",
-    "Argentina",
-    null
-   ]
-  ],
   [
    "2026-11-15T13:00Z",
    1,
@@ -2972,7 +2952,7 @@
  "challenger_maj": "2026-11-13T22:50+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-14T13:35+00:00",
+  "date": "2026-11-14T15:20+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
