@@ -1,6 +1,6 @@
 # Rapport de collecte H2H Tennis
 
-- Date (UTC) : 2026-11-13T22:51:04+00:00
+- Date (UTC) : 2026-11-14T05:55:45+00:00
 - Version du collecteur : 1.11.1
 - État : **OK**
 
@@ -115,11 +115,11 @@
   "noms_rapproches": 2517,
   "doublons_sackmann": 1041,
   "noms_nouveaux": 474,
-  "ajoutes": 16749,
-  "score_complet": 8573,
+  "ajoutes": 16799,
+  "score_complet": 8593,
   "noms_rapproches_orthographe": 60,
   "noms_homonymes_resolus_par_activite": 21,
-  "qualifs_itf_ignorees": 13395,
+  "qualifs_itf_ignorees": 13448,
   "categorie_inconnue": 189,
   "coupe_davis_ignoree": 61
  },
@@ -225,13 +225,13 @@
  },
  "wikipedia": {
   "pages_trouvees": 307,
-  "pages_lues": 16,
-  "matchs": 102,
-  "pages_sans_match": 8,
-  "budget_restant": 484
+  "pages_lues": 2,
+  "matchs": 15,
+  "pages_sans_match": 1,
+  "budget_restant": 498
  },
  "doubles": {
-  "matchs": 24531,
+  "matchs": 24532,
   "joueurs_double_nouveaux": 365,
   "noms_rapproches_orthographe": 117,
   "sans_date": 69,
@@ -260,8 +260,8 @@
  ],
  "cito": {
   "appels_cette_nuit": 2,
-  "quota_restant": 263,
-  "reserve_gardee": 73,
+  "quota_restant": 261,
+  "reserve_gardee": 72,
   "remise_a_zero": "2026-12-09T15:52+00:00",
   "cout_mesure": {
    "journee": {
@@ -269,23 +269,23 @@
     "unites": 1
    }
   },
-  "lignes_par_appel_journee": 244.0,
+  "lignes_par_appel_journee": 252.0,
   "parametres": {
    "taille": 200,
    "stats": true,
    "tour": true
   },
   "journees_restant_a_rattraper": 0,
-  "matchs_atp_en_cache": 20478,
+  "matchs_atp_en_cache": 20486,
   "details": {
-   "lignes_recues": 244,
-   "lignes_gardee": 244,
-   "avec_stats": 58
+   "lignes_recues": 252,
+   "lignes_gardee": 252,
+   "avec_stats": 62
   }
  },
  "cito_trous_restants": {
   "raisons": {
-   "absent_de_cito_ou_noms_differents": 279,
+   "absent_de_cito_ou_noms_differents": 283,
    "dans_cito_autre_raison": 55
   },
   "tournois_absents_de_cito": {
@@ -310,59 +310,47 @@
   "doubles_gardes_pour_plus_tard": 185,
   "joueurs_rapproches": 3142,
   "deja_dans_archive": 1367,
-  "qualifs_itf_ignorees": 1742,
+  "qualifs_itf_ignorees": 1745,
   "joueurs_homonymes_par_activite": 21,
   "joueurs_rapproches_orthographe": 67,
   "juniors_ignores": 308,
-  "scores_completes": 7320,
-  "statistiques_ajoutees": 11575,
-  "rien_a_ajouter": 2380,
+  "scores_completes": 7345,
+  "statistiques_ajoutees": 11601,
+  "rien_a_ajouter": 2389,
   "deja_dans_tennismylife": 106,
   "equipes_ignorees": 321,
   "joueurs_nouveaux": 308,
   "vainqueur_corrige": 6,
   "vainqueur_different_ignore": 5,
   "scores_retournes": 1,
-  "matchs_absents_ailleurs_I15": 134,
-  "matchs_absents_ailleurs_C": 94,
-  "matchs_absents_ailleurs_I25": 90,
-  "matchs_absents_ailleurs_A": 8,
+  "matchs_absents_ailleurs_I15": 126,
+  "matchs_absents_ailleurs_C": 74,
+  "matchs_absents_ailleurs_I25": 82,
+  "matchs_absents_ailleurs_A": 6,
   "matchs_absents_ailleurs_G": 7,
   "matchs_absents_ailleurs_M": 4,
   "categories_inconnues": {}
  },
  "sa365": {
-  "trous_avant": 268,
-  "jours_avec_trous": 106,
-  "jours_restants_avant": 7,
+  "trous_avant": 272,
+  "jours_avec_trous": 107,
+  "jours_restants_avant": 2,
   "plafond_requetes": 6,
-  "appels": 6,
-  "quota_restant": 55,
-  "lignes_lues": 2051,
+  "appels": 1,
+  "quota_restant": 54,
+  "lignes_lues": 383,
   "arret": null,
   "validation": {
-   "echantillon": 623,
-   "identique": 610,
-   "different": 8,
-   "vainqueur_different": 5,
-   "taux_identique": 0.979
+   "echantillon": 95,
+   "identique": 95,
+   "taux_identique": 1.0
   },
-  "differences": [
-   "Birmingham CH 1T : nous « 7-6(3) 6-3 », API « 6-0 6-3 »",
-   "M15 Gimcheon 1T : nous « 7-5 6-4 », API « 6-3 6-3 »",
-   "M15 Rosbach 1T : nous « 6-1 6-3 », API « 6-1 6-2 »",
-   "Kosice CH SF : nous « 6-3 2-6 6-4 », API « 3-6 6-2 6-3 »",
-   "M15 Bucharest F : nous « 4-6 7-5 7-5 », API « 6-2 7-6(5) »",
-   "M15 Tsaghkadzor 2T : nous « 6-1 6-1 », API « 6-3 6-3 »",
-   "M15 Bucharest QF : nous « 7-5 7-6(4) », API « 6-3 6-3 »",
-   "M15 Luan QF : nous « 6-2 6-2 », API « 6-4 1-6 6-3 »"
-  ],
-  "scores_appliques": 13,
-  "joueurs_rapproches": 1456,
-  "sans_correspondance": 593,
-  "joueurs_rapproches_orthographe": 30,
-  "joueurs_homonymes_par_activite": 12,
-  "joueurs_nouveaux": 193,
+  "differences": [],
+  "scores_appliques": 4,
+  "joueurs_rapproches": 341,
+  "sans_correspondance": 59,
+  "joueurs_rapproches_orthographe": 6,
+  "joueurs_homonymes_par_activite": 2,
   "jours_restants_apres": 1
  },
  "trous_depuis_archive": {
@@ -379,19 +367,19 @@
    "avec_stats_%": 98.2
   },
   "Challenger qualifications": {
-   "matchs": 2701,
+   "matchs": 2706,
    "score_complet_%": 99.9,
    "trous_score": 3,
    "avec_stats_%": 90.3
   },
   "Challenger tableau": {
-   "matchs": 3360,
+   "matchs": 3363,
    "score_complet_%": 99.9,
    "trous_score": 3,
-   "avec_stats_%": 97.2
+   "avec_stats_%": 97.1
   },
   "ITF": {
-   "matchs": 9106,
+   "matchs": 9110,
    "score_complet_%": 99.8,
    "trous_score": 18,
    "avec_stats_%": 46.5
@@ -533,7 +521,7 @@
    "2026-08": 3184,
    "2026-09": 3091,
    "2026-10": 2913,
-   "2026-11": 1362
+   "2026-11": 1412
   },
   "stats": {
    "2011": 9374,
@@ -574,7 +562,7 @@
    "2026-08": 377,
    "2026-09": 398,
    "2026-10": 408,
-   "2026-11": 211
+   "2026-11": 212
   }
  }
 }
@@ -583,23 +571,23 @@
 ## Déroulement
 
 ```
-   0.8s  Historique Sackmann relu depuis la copie du dépôt : 339936 matchs
-   1.3s  Valuebetennis 2026 : 46582 matchs ATP
-   1.8s  Valuebetennis intégré : ajoutes=16749, avant_fenetre=15147, categorie_inconnue=189, coupe_davis_ignoree=61, doublons_sackmann=1041, noms_homonymes_resolus_par_activite=21, noms_nouveaux=474, noms_rapproches=2517, noms_rapproches_orthographe=60, qualifs_itf_ignorees=13395, score_complet=8573
-   3.5s  Kaggle : lignes=1177, non_rapproches=124, rapproches=1053, scores_completes=521
-   4.6s  Kaggle (catégories, salle, classements) : classements_recents_kaggle=785, lignes_non_rapprochees=1186, lignes_rapprochees=37827, tournois_250_500=785, tournois_A_sans_categorie=3, tournois_salle_renseignee=970
-  38.6s  Wikipédia : budget_restant=484, matchs=102, pages_lues=16, pages_sans_match=8, pages_trouvees=307
-  39.1s  Doubles intégrés : date_ou_surface_par_simple=183, joueurs_double_nouveaux=365, matchs=24531, noms_abreges_rapproches=445, noms_rapproches_orthographe=117, sans_date=69
-  40.3s  TennisMyLife 2026.csv : 2774 matchs
-  41.3s  TennisMyLife 2026_challenger.csv : 6909 matchs
-  42.3s  TennisMyLife 2026_atp_quali.csv : 1282 matchs
-  42.5s  TennisMyLife : avant_fenetre=5025, coupe_davis_ignoree=100, deja_dans_archive=410, joueurs_homonymes_par_activite=5, joueurs_rapproches=832, joueurs_rapproches_orthographe=17, matchs_absents_ailleurs_A=16, matchs_absents_ailleurs_C=99, matchs_absents_ailleurs_G=154, matchs_absents_ailleurs_M=9, scores_completes=2050, statistiques_ajoutees=5136, tournois_salle_completee=11, vainqueur_different_ignore=16
-  58.7s  Cito : 2 appels, 20478 matchs en cache, 0 journées à rattraper, quota restant 263
-  59.2s  Cito intégré : deja_dans_archive=1367, deja_dans_tennismylife=106, doubles_gardes_pour_plus_tard=185, equipes_ignorees=321, joueurs_homonymes_par_activite=21, joueurs_nouveaux=308, joueurs_rapproches=3142, joueurs_rapproches_orthographe=67, juniors_ignores=308, matchs_absents_ailleurs_A=8, matchs_absents_ailleurs_C=94, matchs_absents_ailleurs_G=7, matchs_absents_ailleurs_I15=134, matchs_absents_ailleurs_I25=90, matchs_absents_ailleurs_M=4, qualifs_itf_ignorees=1742, rien_a_ajouter=2380, scores_completes=7320, scores_retournes=1, statistiques_ajoutees=11575, vainqueur_corrige=6, vainqueur_different_ignore=5
-  69.7s  sportsapi365 : {"trous_avant": 268, "jours_avec_trous": 106, "jours_restants_avant": 7, "plafond_requetes": 6, "appels": 6, "quota_restant": 55, "lignes_lues": 2051, "arret": null, "validation": {"echantillon": 623, "identique": 610, "different": 8, "vainqueur_different": 5, "taux_identique": 0.979}, "scores_appliques": 13, "joueurs_rapproches": 1456, "sans_correspondance": 593, "joueurs_rapproches_orthographe": 30, "joueurs_homonymes_par_activite": 12, "joueurs_nouveaux": 193, "jours_restants_apres": 1}
-  70.0s  Diagnostic des trous (absent de Cito / Cito incomplet aussi / Cito complet non appliqué) : ATP qualifications 3/0/0; Challenger qualifications 3/0/0; Challenger tableau 3/0/0; ITF 18/0/0
-  70.0s  Trous depuis la fin de l'archive : ATP qualifications 3/892; ATP tableau 0/1222; Challenger qualifications 3/2701; Challenger tableau 3/3360; ITF 18/9106
-  80.9s  Photos : 1192 joueurs avec photo libre, 781 avec poids
-  81.1s  Classement Commons : 2297 rangs, licence CC0-1.0, modifié 2026-11-13T11:57:45Z, {'rattaches_nom': 1613, 'rattaches_code': 478, 'rattaches_aucun': 206}
-  83.5s  Données écrites : 11641 joueurs
+   1.3s  Historique Sackmann relu depuis la copie du dépôt : 339936 matchs
+   2.9s  Valuebetennis 2026 : 46685 matchs ATP
+   3.6s  Valuebetennis intégré : ajoutes=16799, avant_fenetre=15147, categorie_inconnue=189, coupe_davis_ignoree=61, doublons_sackmann=1041, noms_homonymes_resolus_par_activite=21, noms_nouveaux=474, noms_rapproches=2517, noms_rapproches_orthographe=60, qualifs_itf_ignorees=13448, score_complet=8593
+   5.3s  Kaggle : lignes=1177, non_rapproches=124, rapproches=1053, scores_completes=521
+   7.3s  Kaggle (catégories, salle, classements) : classements_recents_kaggle=785, lignes_non_rapprochees=1186, lignes_rapprochees=37827, tournois_250_500=785, tournois_A_sans_categorie=3, tournois_salle_renseignee=970
+  32.5s  Wikipédia : budget_restant=498, matchs=15, pages_lues=2, pages_sans_match=1, pages_trouvees=307
+  33.5s  Doubles intégrés : date_ou_surface_par_simple=183, joueurs_double_nouveaux=365, matchs=24532, noms_abreges_rapproches=445, noms_rapproches_orthographe=117, sans_date=69
+  34.7s  TennisMyLife 2026.csv : 2774 matchs
+  35.9s  TennisMyLife 2026_challenger.csv : 6909 matchs
+  36.8s  TennisMyLife 2026_atp_quali.csv : 1282 matchs
+  37.2s  TennisMyLife : avant_fenetre=5025, coupe_davis_ignoree=100, deja_dans_archive=410, joueurs_homonymes_par_activite=5, joueurs_rapproches=832, joueurs_rapproches_orthographe=17, matchs_absents_ailleurs_A=16, matchs_absents_ailleurs_C=99, matchs_absents_ailleurs_G=154, matchs_absents_ailleurs_M=9, scores_completes=2050, statistiques_ajoutees=5136, tournois_salle_completee=11, vainqueur_different_ignore=16
+  53.6s  Cito : 2 appels, 20486 matchs en cache, 0 journées à rattraper, quota restant 261
+  54.3s  Cito intégré : deja_dans_archive=1367, deja_dans_tennismylife=106, doubles_gardes_pour_plus_tard=185, equipes_ignorees=321, joueurs_homonymes_par_activite=21, joueurs_nouveaux=308, joueurs_rapproches=3142, joueurs_rapproches_orthographe=67, juniors_ignores=308, matchs_absents_ailleurs_A=6, matchs_absents_ailleurs_C=74, matchs_absents_ailleurs_G=7, matchs_absents_ailleurs_I15=126, matchs_absents_ailleurs_I25=82, matchs_absents_ailleurs_M=4, qualifs_itf_ignorees=1745, rien_a_ajouter=2389, scores_completes=7345, scores_retournes=1, statistiques_ajoutees=11601, vainqueur_corrige=6, vainqueur_different_ignore=5
+  56.7s  sportsapi365 : {"trous_avant": 272, "jours_avec_trous": 107, "jours_restants_avant": 2, "plafond_requetes": 6, "appels": 1, "quota_restant": 54, "lignes_lues": 383, "arret": null, "validation": {"echantillon": 95, "identique": 95, "taux_identique": 1.0}, "scores_appliques": 4, "joueurs_rapproches": 341, "sans_correspondance": 59, "joueurs_rapproches_orthographe": 6, "joueurs_homonymes_par_activite": 2, "jours_restants_apres": 1}
+  57.1s  Diagnostic des trous (absent de Cito / Cito incomplet aussi / Cito complet non appliqué) : ATP qualifications 3/0/0; Challenger qualifications 3/0/0; Challenger tableau 3/0/0; ITF 18/0/0
+  57.1s  Trous depuis la fin de l'archive : ATP qualifications 3/892; ATP tableau 0/1222; Challenger qualifications 3/2706; Challenger tableau 3/3363; ITF 18/9110
+  60.5s  Photos : 1192 joueurs avec photo libre, 781 avec poids
+  60.6s  Classement Commons : 2297 rangs, licence CC0-1.0, modifié 2026-11-13T11:57:45Z, {'rattaches_nom': 1613, 'rattaches_code': 478, 'rattaches_aucun': 206}
+  64.9s  Données écrites : 11641 joueurs
 ```
