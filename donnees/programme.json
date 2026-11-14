@@ -2572,6 +2572,15 @@
   ],
   [
    "2026-11-23",
+   "El Salvador Open",
+   "San Salvador",
+   "El Salvador",
+   "Hard",
+   0,
+   50
+  ],
+  [
+   "2026-11-23",
    "Florianópolis Challenger",
    "Florianópolis",
    "Brazil",
@@ -2598,15 +2607,6 @@
    50
   ],
   [
-   "2026-11-23",
-   "San Salvador Challenger",
-   "San Salvador",
-   "El Salvador",
-   "Hard",
-   0,
-   50
-  ],
-  [
    "2026-11-30",
    "Challenger Seguros del Estado",
    "Bogotá",
@@ -2626,20 +2626,20 @@
   ],
   [
    "2026-11-30",
-   "Chișinău Indoors",
-   "Chișinău",
-   "Moldova",
-   "Hard",
-   1,
-   50
-  ],
-  [
-   "2026-11-30",
    "Crete Challenger V",
    "Hersonissos",
    "Greece",
    "Hard",
    0,
+   50
+  ],
+  [
+   "2026-11-30",
+   "Satul German Open",
+   "Chișinău",
+   "Moldova",
+   "Hard",
+   1,
    50
   ],
   [
@@ -2662,7 +2662,16 @@
   ],
   [
    "2026-12-07",
-   "Copenhagen Challenger",
+   "Corcovado Tennis Open",
+   "Rio de Janeiro",
+   "Brazil",
+   "Clay",
+   0,
+   50
+  ],
+  [
+   "2026-12-07",
+   "Kjøbenhavn Open",
    "Copenhagen",
    "Denmark",
    "Hard",
@@ -2671,7 +2680,7 @@
   ],
   [
    "2026-12-07",
-   "La Paz Challenger",
+   "La Paz Open",
    "La Paz",
    "Bolivia",
    "Clay",
@@ -2698,18 +2707,18 @@
   ],
   [
    "2026-12-07",
-   "Rio de Janeiro Challenger",
-   "Rio de Janeiro",
-   "Brazil",
-   "Clay",
-   0,
-   50
-  ],
-  [
-   "2026-12-07",
    "Trnava Challenger II",
    "Trnava",
    "Slovakia",
+   "Hard",
+   1,
+   50
+  ],
+  [
+   "2026-12-14",
+   "A-Rete Park Challenger",
+   "Guanzate",
+   "Italy",
    "Hard",
    1,
    50
@@ -2725,16 +2734,7 @@
   ],
   [
    "2026-12-14",
-   "Guanzate Challenger",
-   "Guanzate",
-   "Italy",
-   "Hard",
-   1,
-   50
-  ],
-  [
-   "2026-12-14",
-   "La Paz Challenger II",
+   "La Paz Open II",
    "La Paz",
    "Bolivia",
    "Clay",
@@ -2949,10 +2949,10 @@
   "salle",
   "categorie"
  ],
- "challenger_maj": "2026-11-13T22:50+00:00",
+ "challenger_maj": "2026-11-14T19:27+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-14T17:18+00:00",
+  "date": "2026-11-14T19:27+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
