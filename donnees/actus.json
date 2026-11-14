@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T11:17+00:00",
+ "maj": "2026-11-14T13:34+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 31 articles",
   "Tennis Majors": "ok, 16 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 16 articles",
+  "We Love Tennis": "ok, 15 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 19 articles",
@@ -28,6 +28,42 @@
   "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-avant-ses-debuts-sur-le-masters-de-turin-je-ne-peux-pas-marcher-vous-voyez",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T13:14+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-2-1024x496.jpeg",
+   "titre": "Carlos Alcaraz avant ses débuts sur le Masters de Turin : « Je ne peux pas marcher, vous voyez ? »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/jannik-sinner-apercu-en-tres-bonne-compagnie-avant-le-masters-de-turin",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T12:43+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Sinner-323-1024x543.jpg",
+   "titre": "Jannik Sinner aperçu en très bonne compagnie avant le Masters de Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/entre-carlos-alcaraz-et-jannik-sinner-taylor-fritz-est-un-peu-perdu-je-me-sens-a-laise-face-a-lui-mais-il-arrive-quand-meme-a-me-battre-en-jouant-a-ma-facon",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T12:13+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fritz-1024x511.jpeg",
+   "titre": "Entre Carlos Alcaraz et Jannik Sinner, Taylor Fritz est un peu perdu : « Je me sens à l’aise face à lui, mais il arrive quand même à me battre en jouant à ma façon »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/la-blague-tres-malaisante-de-zverev-en-conference-de-presse-tu-vas-mourir",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-14T11:40+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-conf-presse-1024x521.jpeg",
+   "titre": "La blague très malaisante de Zverev en conférence de presse : « Tu vas mourir ? »",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/wta-tour-news/november-14-1994-the-day-martina-navratilova-retired-from-the-tour-305254.html",
    "source": "Tennis Majors (EN)",
