@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-15T21:18+00:00",
+ "maj": "2026-11-15T23:20+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,19 +15,104 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 36 articles",
+  "L'Équipe": "ok, 35 articles",
   "Tennis Majors": "ok, 14 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 16 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 24 articles",
-  "franceinfo": "ok, 19 articles",
+  "RMC Sport": "ok, 23 articles",
+  "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 13 articles",
-  "Ubitennis": "ok, 11 articles"
+  "Tennis Majors (EN)": "ok, 12 articles",
+  "Ubitennis": "ok, 10 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.ubitennis.net/2026/11/ben-shelton-sees-off-fills-to-clinch-first-atp-finals-win-of-career/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-15T23:14+00:00",
+   "image": null,
+   "vo": "Ben Shelton Sees Off Fils To Clinch First ATP Finals Win of Career",
+   "titre": "Ben Shelton bat Fils et remporte sa première victoire en ATP Finals de sa carrière",
+   "titre_fr": "Ben Shelton bat Fils et remporte sa première victoire en ATP Finals de sa carrière",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Video/Finales-atp-le-resume-d-arthur-fils-ben-shelton-aux-finales-atp/20245663#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T22:51+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Le résumé de Fils - Shelton",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Qualifie-au-masters-sans-victoire-en-majeur-brad-gilbert-raconte-son-etonnante-annee-1989-on-peut-reussir-sa-saison-en-se-ratant-en-grand-chelem/1743605#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T22:12+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Brad Gilbert sur le hold-up de 89 : «On peut réussir sa saison en se ratant en Grand Chelem»",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/justine-henin-apres-la-defaite-dentree-darthur-fils-sur-le-masters-il-y-a-quand-meme-un-point-extremement-positif",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T21:59+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-regard-smash-1024x540.jpeg",
+   "titre": "Justine Henin, après la défaite d’entrée d’Arthur Fils sur le Masters : « Il y a quand même un point extrêmement positif »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-perd-son-premier-match-de-poule-aux-finales-atp-face-a-un-tres-bon-ben-shelton/1743894#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T21:45+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-s-est-trop-souvent-retrouve-sur-la-defensive-face-a-ben-shelton-f-faugere-l-equipe/1500000002651530/0:0,2000:1333-828-552-75/1eec1.jpg",
+   "titre": "Arthur Fils perd son premier match de poule aux Finales ATP face à un très bon Ben Shelton",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters/arthur-fils-battu-en-trois-manches-par-l-americain-ben-shelton-lors-de-son-entree-en-lice-au-masters-de-turin_8283944.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-15T21:43+00:00",
+   "image": "https://www.franceinfo.fr/pictures/iTLuY3EO4T97TgxTSRiHOA_sQiQ/0x0:8256x4644/432x243/filters:format(jpg)/2026/11/15/6afa25bcad0b3171057069.jpg",
+   "titre": "Arthur Fils battu en trois manches par l'Américain Ben Shelton lors de son entrée en lice au Masters de Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/shelton-holds-off-fils-fightback-to-join-zverev-on-top-of-the-john-mcenroe-group-867094.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-15T21:43+00:00",
+   "image": null,
+   "vo": "Shelton holds off Fils’ fightback to join Zverev on top of the John McEnroe Group",
+   "titre": "Shelton résiste au retour de Fils et rejoint Zverev en tête du groupe John McEnroe",
+   "titre_fr": "Shelton résiste au retour de Fils et rejoint Zverev en tête du groupe John McEnroe",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-demarre-mal-son-masters-de-turin",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T21:41+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-2-1024x505.jpeg",
+   "titre": "Arthur Fils démarre mal son Masters de Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-je-serai-a-turin-en-2026-la-premonition-qui-a-porte-arthur-fils-au-plus-fort-de-ses-doutes-et-l-a-mene-jusqu-aux-finales-atp/1743671#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T21:09+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "«Je serai à Turin en 2026» : la prémonition qui a porté Fils au plus fort de ses doutes",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/jodar-confirms-davis-cup-final-8-with-spain-something-unique-867064.html",
    "source": "Tennis Majors (EN)",
@@ -126,15 +211,6 @@
    "date": "2026-11-15T17:44+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Jannik-Sinner-1024x555.jpeg",
    "titre": "Jannik Sinner met en garde la nouvelle génération sur les réseaux sociaux : « Je recommande de s’en tenir à l’écart : c’est plus agréable de retrouver quelqu’un autour d’un café »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/-je-serai-a-turin-en-2026-la-premonition-qui-a-porte-arthur-fils-au-plus-fort-de-ses-doutes-et-l-a-mene-jusqu-aux-finales-atp/1743671#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T17:40+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "«Je serai à Turin en 2026» : la prémonition qui a porté Fils au plus fort de ses doutes",
    "blessure": false
   },
   {
@@ -312,15 +388,6 @@
    "date": "2026-11-15T12:35+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Masters-1024x513.jpeg",
    "titre": "Carlos Alcaraz prévient tout le monde avant le début du Masters de Turin : « Je travaille très bien, je m’entraîne dur et je fais tout ce que je peux pour être dans les meilleures conditions possibles »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Qualifie-au-masters-sans-victoire-en-majeur-brad-gilbert-raconte-son-etonnante-annee-1989-on-peut-reussir-sa-saison-en-se-ratant-en-grand-chelem/1743605#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T12:04+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Gilbert : «On peut réussir sa saison en se ratant en Grand Chelem»",
    "blessure": false
   },
   {
