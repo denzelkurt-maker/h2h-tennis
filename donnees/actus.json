@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-15T13:36+00:00",
+ "maj": "2026-11-15T15:22+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,12 +15,12 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 34 articles",
+  "L'Équipe": "ok, 35 articles",
   "Tennis Majors": "ok, 14 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 14 articles",
+  "We Love Tennis": "ok, 13 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 25 articles",
+  "RMC Sport": "ok, 24 articles",
   "franceinfo": "ok, 19 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "ok, 8 articles",
@@ -28,6 +28,62 @@
   "Ubitennis": "ok, 10 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/zverev-comme-en-mission-le-n1-mondial-lance-ses-atp-finals-par-une-victoire-en-deux-sets-face-a-jodar-810228.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-15T15:19+00:00",
+   "image": null,
+   "titre": "Zverev comme en mission : le n°1 mondial lance ses ATP Finals par une victoire en deux sets face à Jodar",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/zverev-on-a-mission-as-he-opens-atp-finals-with-straight-sets-win-over-jodar-867040.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-15T15:03+00:00",
+   "image": null,
+   "vo": "Zverev on a mission as he opens ATP Finals with straight-sets win over Jodar",
+   "titre": "Zverev en mission : il entame les ATP Finals par une victoire en deux sets face à Jodar",
+   "titre_fr": "Zverev en mission : il entame les ATP Finals par une victoire en deux sets face à Jodar",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-pas-vraiment-impressionne-avant-ses-debuts-sur-le-masters-de-turin-je-suis-7e-mondial-et-je-sais-que-je-suis-a-ma-place",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T14:35+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Arthur-Fils-Masters-1024x556.jpeg",
+   "titre": "Arthur Fils pas vraiment impressionné avant ses débuts sur le Masters de Turin : « Je suis 7e mondial et je sais que je suis à ma place »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/forfait-pour-le-masters-jannik-sinner-est-pourtant-bien-present-a-turin-et-fait-passer-un-message-je-suis-desole",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T14:05+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Sinner-discours-interview-1024x529.jpg",
+   "titre": "Forfait pour le Masters, Jannik Sinner est pourtant bien présent à Turin et fait passer un message : « Je suis désolé… »",
+   "blessure": true
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/masters-a-quelle-heure-et-sur-quelle-chaine-tv-regarder-le-match-entre-arthur-fils-et-ben-shelton_AV-202611150264.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-15T13:55+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/nJKUoNQtB9LSMLirvziQsu-IGeY=/0x0:2048x1152/800x0/images/Arthur-Fils-lors-de-la-ceremonie-des-ATP-Finals-le-13-novembre-2026-2384080.jpg",
+   "titre": "Masters: à quelle heure et sur quelle chaîne TV regarder le match entre Arthur Fils et Ben Shelton",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/zverev-peut-raconter-ce-quil-veut-en-conference-de-presse-il-est-oblige-de-gagner-ce-masters-sinon-on-dira-toujours-ca-a-son-sujet-explique-benoit-maylin",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T13:45+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-Masters-1024x520.jpeg",
+   "titre": "« Zverev peut raconter ce qu’il veut en conférence de presse, il est obligé de gagner ce Masters. Sinon, on dira toujours ça à son sujet », explique Benoît Maylin",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/bjorn-borg-sur-son-addiction-a-la-drogue-jai-failli-mourir-a-plusieurs-reprises",
    "source": "We Love Tennis",
@@ -73,6 +129,17 @@
    "vo": "November 15, 1981: The day Jimmy Connors and John McEnroe misbehaved at Wembley",
    "titre": "15 novembre 1981 : le jour où Jimmy Connors et John McEnroe se sont mal comportés à Wembley",
    "titre_fr": "15 novembre 1981 : le jour où Jimmy Connors et John McEnroe se sont mal comportés à Wembley",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-prize-money-866946.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-15T11:00+00:00",
+   "image": null,
+   "vo": "ATP Finals 2026 prize money: how much does an undefeated champion earn?",
+   "titre": "Prix en argent des ATP Finals 2026 : combien gagne un champion invaincu ?",
+   "titre_fr": "Prix en argent des ATP Finals 2026 : combien gagne un champion invaincu ?",
    "blessure": false
   },
   {
