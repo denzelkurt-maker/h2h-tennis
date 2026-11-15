@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-15T19:27+00:00",
+ "maj": "2026-11-15T21:18+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 35 articles",
+  "L'Équipe": "ok, 36 articles",
   "Tennis Majors": "ok, 14 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 16 articles",
@@ -28,6 +28,44 @@
   "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/jodar-confirms-davis-cup-final-8-with-spain-something-unique-867064.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-15T20:53+00:00",
+   "image": null,
+   "vo": "Jodar confirms Davis Cup Final 8 with Spain: “Something unique”",
+   "titre": "Jodar confirme la présence de l'Espagne aux quarts de finale de la Coupe Davis : « C'est quelque chose d'unique »",
+   "titre_fr": "Jodar confirme la présence de l'Espagne aux quarts de finale de la Coupe Davis : « C'est quelque chose d'unique »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/zverev-sur-son-pietre-bilan-face-au-top-10-six-de-ces-defaites-etaient-contre-sinner-alors-on-peut-lenlever-du-compte-car-cest-un-robot-pas-un-etre-humain",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T20:21+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-conf-presse-1024x521.jpeg",
+   "titre": "Zverev, sur son piètre bilan face au Top 10 : « Six de ces défaites étaient contre Sinner. Alors, on peut l’enlever du compte ? Car c’est un robot, pas un être humain »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Albano-olivetti-et-theo-arribage-s-inclinent-d-entree-en-double-aux-finales-atp/1743877#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T20:16+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/albano-olivetti-et-theo-arribage-sont-associes-en-double-depuis-une-petite-annee-a-reau-l-equipe/1500000002651472/13:141,1546:1163-828-552-75/97f10.jpg",
+   "titre": "Albano Olivetti et Théo Arribagé s'inclinent d'entrée en double aux Finales ATP",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/video-tennis-finales-atp-fils-peut-creer-la-surprise-bartoli-voit-le-francais-en-demi-finale_VN-202611150386.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-15T19:38+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/ocSlTpYLvxmtHAa-oPZt-hIh4Pc=/0x0:1280x720/800x0/images/Tennis-Finales-ATP-Fils-peut-creer-la-surprise-Bartoli-voit-le-Francais-en-demi-finale-2384403.jpg",
+   "titre": "Tennis/ Finales ATP : \"Fils peut créer la surprise\", Bartoli voit le Français en demi-finale !",
+   "blessure": false
+  },
   {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/9-francais-avant-arthur-fils-et-des-fortunes-diverses-les-bleus-aux-finales-atp-en-stats/1743778#at_medium=RSS_feeds",
    "source": "L'Équipe",
