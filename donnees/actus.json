@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-15T17:18+00:00",
+ "maj": "2026-11-15T19:27+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,16 +18,96 @@
   "L'Équipe": "ok, 35 articles",
   "Tennis Majors": "ok, 14 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 14 articles",
+  "We Love Tennis": "ok, 16 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 24 articles",
   "franceinfo": "ok, 19 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 12 articles",
-  "Ubitennis": "ok, 10 articles"
+  "Tennis Majors (EN)": "ok, 13 articles",
+  "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/9-francais-avant-arthur-fils-et-des-fortunes-diverses-les-bleus-aux-finales-atp-en-stats/1743778#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T18:50+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "9 Français avant Fils et des fortunes diverses : les Bleus aux Finales ATP en stats",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/once-again-asked-if-he-is-the-best-in-the-world-zverev-claims-the-best-12-months-867065.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-15T18:44+00:00",
+   "image": null,
+   "vo": "Once again asked if he is the best in the world, Zverev claims “the best 12 months”",
+   "titre": "Interrogé une fois de plus pour savoir s'il est le meilleur joueur du monde, Zverev affirme avoir connu « les 12 meilleurs mois » de sa carrière.",
+   "titre_fr": "Interrogé une fois de plus pour savoir s'il est le meilleur joueur du monde, Zverev affirme avoir connu « les 12 meilleurs mois » de sa carrière.",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/hes-a-robot-not-a-human-being-zverev-on-sinner-and-his-record-against-the-top-10-867061.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-15T18:36+00:00",
+   "image": null,
+   "vo": "“He’s a robot, not a human being”: Zverev on Sinner and his record against the top 10",
+   "titre": "« C'est un robot, pas un être humain » : Zverev à propos de Sinner et de son bilan contre le top 10",
+   "titre_fr": "« C'est un robot, pas un être humain » : Zverev à propos de Sinner et de son bilan contre le top 10",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-history-records-most-titles-866948.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-15T18:28+00:00",
+   "image": null,
+   "vo": "ATP Finals history and records: who has won the most titles?",
+   "titre": "Historique et records des ATP Finals : qui a remporté le plus de titres ?",
+   "titre_fr": "Historique et records des ATP Finals : qui a remporté le plus de titres ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-shrugs-off-poor-record-against-top-10-players-after-atp-finals-win/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-15T18:26+00:00",
+   "image": null,
+   "vo": "Alexander Zverev Shrugs Off Poor Record Against Top-10 Players After ATP Finals Win",
+   "titre": "Alexander Zverev fait fi de ses mauvais résultats face aux joueurs du Top 10 après sa victoire aux ATP Finals",
+   "titre_fr": "Alexander Zverev fait fi de ses mauvais résultats face aux joueurs du Top 10 après sa victoire aux ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-met-en-garde-la-nouvelle-generation-sur-les-reseaux-sociaux-je-recommande-de-sen-tenir-a-lecart-cest-plus-agreable-de-retrouver-quelquun-autour-dun-cafe",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T17:44+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Jannik-Sinner-1024x555.jpeg",
+   "titre": "Jannik Sinner met en garde la nouvelle génération sur les réseaux sociaux : « Je recommande de s’en tenir à l’écart : c’est plus agréable de retrouver quelqu’un autour d’un café »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-je-serai-a-turin-en-2026-la-premonition-qui-a-porte-arthur-fils-au-plus-fort-de-ses-doutes-et-l-a-mene-jusqu-aux-finales-atp/1743671#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T17:40+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "«Je serai à Turin en 2026» : la prémonition qui a porté Fils au plus fort de ses doutes",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alexander-zverev-apres-sa-victoire-dentree-contre-la-revelation-de-lannee-je-ne-dirais-pas-que-cetait-parfait",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T17:24+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Zverev-revers-1024x481.jpeg",
+   "titre": "Alexander Zverev, après sa victoire d’entrée contre la révélation de l’année : « Je ne dirais pas que c’était parfait »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/toni-nadal-previent-alcaraz-sinner-et-zverev-il-faudra-surveiller-ce-joueur-il-est-capable-de-mettre-carlos-jannik-et-sascha-en-difficulte",
    "source": "We Love Tennis",
@@ -374,30 +454,12 @@
    "blessure": false
   },
   {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/9-francais-avant-arthur-fils-et-des-fortunes-diverses-les-bleus-aux-finales-atp-en-stats/1743778#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T07:15+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/gilles-simon-sebastien-grosjean-et-jo-wilfried-tsonga-l-equipe/1500000002651084/0:0,1500:1000-828-552-75/d4702.jpg",
-   "titre": "9 Français avant Arthur Fils et des fortunes diverses : les Bleus aux Finales ATP en stats",
-   "blessure": false
-  },
-  {
    "lien": "https://www.20minutes.fr/sport/tennis/4262880-20261115-shelton-arthur-fils-chaine-tv-heure-voir-1er-match-finales-atp?at_medium=display&at_campaign=149",
    "source": "20 Minutes",
    "langue": "fr",
    "date": "2026-11-15T06:32+00:00",
    "image": "https://img.20mn.fr/az9nZCuUR8u74PUv3IWFwSk/1200x768_arthur-fils-retrouve-ben-shelton-aux-finales-atp-de-turin-dimanche-photo-d-illustration",
    "titre": "Shelton-Arthur Fils : Sur quelle chaîne TV et à quelle heure voir le 1er match des Finales ATP ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/-je-serai-a-turin-en-2026-la-premonition-qui-a-porte-arthur-fils-au-plus-fort-de-ses-doutes-et-l-a-mene-jusqu-aux-finales-atp/1743671#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T04:40+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-vendredi-soir-a-turin-f-faugere-l-equipe/1500000002650702/15:12,769:515-828-552-75/792b0.jpg",
-   "titre": "« Je serai à Turin en 2026 » : la prémonition qui a porté Arthur Fils au plus fort de ses doutes et l'a mené jusqu'aux Finales ATP",
    "blessure": false
   },
   {
