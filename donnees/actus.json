@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T23:15+00:00",
+ "maj": "2026-11-15T01:49+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -16,7 +16,7 @@
  ],
  "flux": {
   "L'Équipe": "ok, 34 articles",
-  "Tennis Majors": "ok, 16 articles",
+  "Tennis Majors": "ok, 14 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 17 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
@@ -24,10 +24,30 @@
   "franceinfo": "ok, 19 articles",
   "20 Minutes": "ok, 19 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 11 articles",
+  "Tennis Majors (EN)": "ok, 12 articles",
   "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/november-15-1981-the-day-jimmy-connors-and-john-mcenroe-misbehaved-at-wembley-305470.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-15T11:20+00:00",
+   "image": null,
+   "vo": "November 15, 1981: The day Jimmy Connors and John McEnroe misbehaved at Wembley",
+   "titre": "15 novembre 1981 : le jour où Jimmy Connors et John McEnroe se sont mal comportés à Wembley",
+   "titre_fr": "15 novembre 1981 : le jour où Jimmy Connors et John McEnroe se sont mal comportés à Wembley",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/15-novembre-2015-le-jour-ou-novak-djokovic-a-finalise-la-serie-de-victoires-la-plus-longue-de-lhistoire-du-masters-514116.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-15T08:30+00:00",
+   "image": null,
+   "titre": "15 novembre 2015 : Le jour où Novak Djokovic a finalisé la série de victoires la plus longue de l’histoire du Masters",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-and-ferrero-reunite-with-a-hug-in-turin-almost-a-year-after-their-split-866963.html",
    "source": "Tennis Majors (EN)",
@@ -156,6 +176,15 @@
    "date": "2026-11-14T16:05+00:00",
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Z34QqtwFITDap0M7RBNqB1ezpAs=/431x0:1887x819/800x0/images/Carlos-Alcaraz-s-entraine-avec-une-raquette-sans-cordage-au-Masters-de-Turin-novembre-2026-2384046.jpg",
    "titre": "Tennis: pourquoi Alcaraz utilise une raquette sans cordage à l'entraînement",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/carlos-alcaraz_DN-202305240409.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-14T16:05+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/q0HhSAPh4WNCQyuuNy78EIUsorg=/0x159:2048x1311/800x0/images/Carlos-Alcaraz-a-Madrid-1628893.jpg",
+   "titre": "Carlos Alcaraz",
    "blessure": false
   },
   {
@@ -1927,15 +1956,6 @@
    "image": null,
    "vo": "Djokovic’s ATP Finals hopes dashed in Paris, but eyes turn to 2027 Australian Open",
    "titre_fr": "Les espoirs de Djokovic en finale de l'ATP se sont brisés à Paris, mais les yeux se tournent vers l'Open d'Australie 2027"
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/carlos-alcaraz_DN-202305240409.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-09T18:17+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/q0HhSAPh4WNCQyuuNy78EIUsorg=/0x159:2048x1311/800x0/images/Carlos-Alcaraz-a-Madrid-1628893.jpg",
-   "titre": "Carlos Alcaraz",
-   "blessure": false
   },
   {
    "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/paris-bercy/un-melange-de-djokovic-et-federer-comment-alcaraz-a-conquis-le-masters-1000-de-paris_AV-202611090813.html",
