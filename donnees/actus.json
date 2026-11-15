@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-15T15:22+00:00",
+ "maj": "2026-11-15T17:18+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,16 +18,110 @@
   "L'Équipe": "ok, 35 articles",
   "Tennis Majors": "ok, 14 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 13 articles",
+  "We Love Tennis": "ok, 14 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 24 articles",
   "franceinfo": "ok, 19 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "ok, 8 articles",
+  "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 12 articles",
   "Ubitennis": "ok, 10 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/toni-nadal-previent-alcaraz-sinner-et-zverev-il-faudra-surveiller-ce-joueur-il-est-capable-de-mettre-carlos-jannik-et-sascha-en-difficulte",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T16:46+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/05/Toni-Nadal-1024x555.jpeg",
+   "titre": "Toni Nadal prévient Alcaraz, Sinner et Zverev : « Il faudra surveiller ce joueur. Il est capable de mettre Carlos, Jannik et Sascha en difficulté »",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/alexander-zverev_DN-202108310603.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-15T16:43+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ro1b_ee7A8WZ2xsKr02jgkzHzCk=/0x40:768x472/800x0/images/Alexander-Zverev-oppose-a-Daniil-Medvedev-au-Masters-de-fin-de-saison-a-Turin-le-16-novembre-2021-1167815.jpg",
+   "titre": "Alexander Zverev",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/masters-zverev-soigne-son-entree-en-lice-face-a-rafael-jodar_AV-202611150318.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-15T16:43+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/DhpStS5Y8pMZli3qc1KO5NoSISg=/0x27:2048x1179/800x0/images/Alexander-Zverev-lors-du-Masters-de-Turin-le-15-novembre-2026-2384341.jpg",
+   "titre": "Masters: Zverev soigne son entrée en lice face à Rafael Jodar",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/daniil-medvedev-devoile-son-grand-objectif-avant-la-fin-de-sa-carriere-jai-tout-connu-dans-ce-sport-mais-jaimerais-faire-beaucoup-mieux-dans-cette-competition",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T16:17+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Medvedev-Masters-1024x551.jpeg",
+   "titre": "Daniil Medvedev dévoile son grand objectif avant la fin de sa carrière : « J’ai tout connu dans ce sport mais j’aimerais faire beaucoup mieux dans cette compétition »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Video/Finales-atp-les-temps-forts-d-alexander-zverev-rafael-jodar-aux-finales-atp/20245625#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T16:12+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Les temps forts de Zverev - Jodar",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-il-n-a-pas-ete-reconnu-coupable-mais-il-n-a-pas-non-plus-ete-declare-innocent-pourquoi-alexander-zverev-ferait-l-objet-d-une-nouvelle-plainte-de-son-ex-compagne/1743593#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T15:53+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Pourquoi Zverev ferait l'objet d'une nouvelle plainte de son ex-compagne",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/andy-murray-designe-le-vainqueur-du-masters-de-turin-je-miserais-sur-lui-je-pense-quil-aborde-ce-tournoi-un-peu-plus-frais-que-les-autres",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T15:36+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/04/Murray-regard--1024x512.jpeg",
+   "titre": "Andy Murray désigne le vainqueur du Masters de Turin : « Je miserais sur lui. Je pense qu’il aborde ce tournoi un peu plus frais que les autres »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/almost-my-second-dad-sinner-on-losing-cahill-and-why-norman-is-the-right-fit-867047.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-15T15:33+00:00",
+   "image": null,
+   "vo": "“Almost my second dad”: Sinner on losing Cahill, and why Norman is the right fit",
+   "titre": "« Presque mon deuxième père » : Sinner parle de la perte de Cahill et explique pourquoi Norman est le bon choix",
+   "titre_fr": "« Presque mon deuxième père » : Sinner parle de la perte de Cahill et explique pourquoi Norman est le bon choix",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-begins-nitto-atp-finals-campaign-with-victory-over-rafael-jodar/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-15T15:27+00:00",
+   "image": null,
+   "vo": "Alexander Zverev Begins Nitto ATP Finals Campaign With Victory Over Rafael Jodar",
+   "titre": "Alexander Zverev entame sa campagne aux Nitto ATP Finals par une victoire sur Rafael Jodar",
+   "titre_fr": "Alexander Zverev entame sa campagne aux Nitto ATP Finals par une victoire sur Rafael Jodar",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Alexander-zverev-ne-tremble-pas-face-a-rafael-jodar-et-se-lance-idealement-dans-les-finales-atp/1743817#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T15:23+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Alexander Zverev ne tremble pas face à Rafael Jodar et se lance idéalement dans les Finales ATP",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/zverev-comme-en-mission-le-n1-mondial-lance-ses-atp-finals-par-une-victoire-en-deux-sets-face-a-jodar-810228.html",
    "source": "Tennis Majors",
@@ -149,6 +243,17 @@
    "date": "2026-11-15T10:56+00:00",
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/EfDymfMPDgAmgBjKF_UZLC9vqIM=/0x0:1280x720/800x0/images/Masters-Il-peut-finir-top-5-apres-ce-tournoi-Fils-a-t-il-tout-a-gagner-a-Turin-2384265.jpg",
    "titre": "Masters : \"Il peut finir top 5 après ce tournoi\", Fils a-t-il tout à gagner à Turin ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-format-round-robin-qualification-tie-break-rules-866947.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-15T10:45+00:00",
+   "image": null,
+   "vo": "ATP Finals 2026: format explained, round robin, qualification and tie-break rules",
+   "titre": "ATP Finals 2026 : explication du format, tournoi toutes rondes, qualifications et règles de tie-break",
+   "titre_fr": "ATP Finals 2026 : explication du format, tournoi toutes rondes, qualifications et règles de tie-break",
    "blessure": false
   },
   {
@@ -378,15 +483,6 @@
    "date": "2026-11-14T17:29+00:00",
    "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
    "titre": "Ces Français racontent la folie du Masters : «On était considérés comme des mégastars»",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/-il-n-a-pas-ete-reconnu-coupable-mais-il-n-a-pas-non-plus-ete-declare-innocent-pourquoi-alexander-zverev-ferait-l-objet-d-une-nouvelle-plainte-de-son-ex-compagne/1743593#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-14T16:45+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Pourquoi Zverev ferait l'objet d'une nouvelle plainte de son ex-compagne",
    "blessure": false
   },
   {
@@ -750,15 +846,6 @@
    "date": "2026-11-13T21:16+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/alexander-zverev-vendredi-en-conference-de-presse-a-turin-f-faugere-l-equipe/1500000002649956/0:0,800:533-828-552-75/44b13.jpg",
    "titre": "Alexander Zverev serait visé par une nouvelle plainte de son ex-compagne pour fausses déclarations",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/alexander-zverev_DN-202108310603.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-13T21:15+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ro1b_ee7A8WZ2xsKr02jgkzHzCk=/0x40:768x472/800x0/images/Alexander-Zverev-oppose-a-Daniil-Medvedev-au-Masters-de-fin-de-saison-a-Turin-le-16-novembre-2021-1167815.jpg",
-   "titre": "Alexander Zverev",
    "blessure": false
   },
   {
