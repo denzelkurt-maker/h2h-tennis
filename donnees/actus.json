@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-15T09:27+00:00",
+ "maj": "2026-11-15T11:21+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -23,7 +23,7 @@
   "RMC Sport": "ok, 25 articles",
   "franceinfo": "ok, 19 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "erreur : no element found: line 1, column 0",
+  "ESPN": "ok, 8 articles",
   "Tennis Majors (EN)": "ok, 12 articles",
   "Ubitennis": "ok, 10 articles"
  },
@@ -37,6 +37,42 @@
    "vo": "November 15, 1981: The day Jimmy Connors and John McEnroe misbehaved at Wembley",
    "titre": "15 novembre 1981 : le jour où Jimmy Connors et John McEnroe se sont mal comportés à Wembley",
    "titre_fr": "15 novembre 1981 : le jour où Jimmy Connors et John McEnroe se sont mal comportés à Wembley",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/video-masters-il-peut-finir-top-5-apres-ce-tournoi-fils-a-t-il-tout-a-gagner-a-turin_VN-202611150191.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-15T10:56+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/EfDymfMPDgAmgBjKF_UZLC9vqIM=/0x0:1280x720/800x0/images/Masters-Il-peut-finir-top-5-apres-ce-tournoi-Fils-a-t-il-tout-a-gagner-a-Turin-2384265.jpg",
+   "titre": "Masters : \"Il peut finir top 5 après ce tournoi\", Fils a-t-il tout à gagner à Turin ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/brad-gilbert-devoile-lobjectif-darthur-fils-pour-la-saison-prochaine-en-2027-il-doit-se-dire-je-ne-vais-pas-manquer-un-grand-chelem-je-suis-vieux-maintenant-et-je-peux-vous-le-dire-gag",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T10:40+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Brad-Gilbert-1024x555.jpeg",
+   "titre": "Brad Gilbert dévoile l’objectif d’Arthur Fils pour la saison prochaine : « en 2027, il doit se dire « je ne vais pas manquer un Grand Chelem ». Je suis vieux maintenant, et je peux vous le dire, gagner Washington ou Cinc",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-a-voulu-imite-djokvoic-et-parler-toutes-les-langues-je-comprends-litalien-mais-je-ne-sais-pas-le-parler-vous-savez-jai-essaye-de-lapprendre-avec-duolin",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T10:21+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Paris-2026-1024x512.jpeg",
+   "titre": "Carlos Alcaraz a voulu imité Djokvoic et parler toutes les langues : « Je comprends l’italien, mais je ne sais pas le parler. Vous savez, j’ai essayé de l’apprendre avec Duolingo il y a quelques mois »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/arthur-fils-manque-de-puissance-selon-une-legende-italienne-qui-deraille-completement-il-nest-pas-dote-dun-bras-exceptionnel-mais-il-a-une-bonne-explosivite",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T09:50+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-coup-droit-1024x440.jpeg",
+   "titre": "Arthur Fils manque de puissance selon une légende Italienne qui déraille complétement : « Il n’est pas doté d’un bras exceptionnel, mais il a une bonne explosivité »",
    "blessure": false
   },
   {
@@ -596,6 +632,17 @@
    "blessure": false
   },
   {
+   "lien": "https://www.espn.com/tennis/story/_/id/50473425/atp-finals-alcaraz-zverev-shelton-tiafoe-jodar-medvedev",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-13T20:42+00:00",
+   "image": null,
+   "vo": "ATP Finals preview: Can Alcaraz close out the year with a big win?",
+   "titre": "Aperçu des ATP Finals : Alcaraz peut-il terminer l'année par une grande victoire ?",
+   "titre_fr": "Aperçu des ATP Finals : Alcaraz peut-il terminer l'année par une grande victoire ?",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/fritz-avenges-lyon-defeat-to-musetti-and-reaches-career-best-sixth-final-of-the-season-in-stockholm-866900.html",
    "source": "Tennis Majors (EN)",
    "langue": "en",
@@ -1037,6 +1084,17 @@
    "date": "2026-11-12T15:20+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Cobolli-1024x579.jpeg",
    "titre": "Cobolli rend hommage à son compatriote et ami Sinner : « Jannik n’est pas à Turin, mais c’est comme s’il y était »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50455327/frances-tiafoe-atp-finals-2026-first",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-12T15:09+00:00",
+   "image": null,
+   "vo": "Waiting game pays off for Tiafoe as he heads into ATP Finals",
+   "titre": "La patience de Tiafoe porte ses fruits alors qu'il se dirige vers les ATP Finals",
+   "titre_fr": "La patience de Tiafoe porte ses fruits alors qu'il se dirige vers les ATP Finals",
    "blessure": false
   },
   {
@@ -1776,6 +1834,17 @@
    "blessure": false
   },
   {
+   "lien": "https://www.espn.com/tennis/story/_/id/50441535/jannik-sinner-knee-plans-return-saudi-exhibition",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-10T15:42+00:00",
+   "image": null,
+   "vo": "Sinner targets Saudi Arabia exhibition in comeback from knee injury",
+   "titre": "Sinner vise l'exposition en Arabie saoudite pour son retour après une blessure au genou",
+   "titre_fr": "Sinner vise l'exposition en Arabie saoudite pour son retour après une blessure au genou",
+   "blessure": true
+  },
+  {
    "titre": "Les premiers noms de Zverev et Alcaraz pour l'équipe d'Europe à la Laver Cup 2027 à Los Angeles",
    "lien": "https://www.tennismajors.com/others-news/laver-cup/zverev-and-alcaraz-first-names-for-team-europe-at-laver-cup-2027-in-los-angeles-866596.html",
    "source": "Tennis Majors (EN)",
@@ -2273,6 +2342,17 @@
    "blessure": false
   },
   {
+   "lien": "https://www.espn.com/tennis/story/_/id/50421284/carlos-alcaraz-beats-ben-shelton-win-paris-masters-title",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-08T19:35+00:00",
+   "image": null,
+   "vo": "Alcaraz shakes Shelton to win Paris title, continue late-season surge",
+   "titre": "Alcaraz bat Shelton pour remporter le titre à Paris et poursuivre son ascension en fin de saison",
+   "titre_fr": "Alcaraz bat Shelton pour remporter le titre à Paris et poursuivre son ascension en fin de saison",
+   "blessure": false
+  },
+  {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/Ben-shelton-apres-sa-defaite-contre-carlos-alcaraz-en-finale-du-rolex-paris-masters-tout-se-joue-sur-des-petits-details/1742277#at_medium=RSS_feeds",
    "source": "L'Équipe",
    "langue": "fr",
@@ -2549,6 +2629,28 @@
    "blessure": false
   },
   {
+   "lien": "https://www.espn.com/tennis/story/_/id/50409999/alcaraz-looking-revenge-vs-shelton-paris-masters-final",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-07T20:07+00:00",
+   "image": null,
+   "vo": "Alcaraz looking for 'revenge' against Shelton in Paris Masters final",
+   "titre": "Alcaraz cherche à « se venger » de Shelton en finale du Masters de Paris",
+   "titre_fr": "Alcaraz cherche à « se venger » de Shelton en finale du Masters de Paris",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50402471/alacaraz-shelton-advance-semifinals-paris-masters",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-07T20:03+00:00",
+   "image": null,
+   "vo": "Alcaraz, Shelton into Paris Masters semis; ATP Finals field set",
+   "titre": "Alcaraz et Shelton en demi-finales du Masters de Paris ; le tableau des ATP Finals est établi",
+   "titre_fr": "Alcaraz et Shelton en demi-finales du Masters de Paris ; le tableau des ATP Finals est établi",
+   "blessure": false
+  },
+  {
    "lien": "https://www.20minutes.fr/sport/tennis/4261208-20261107-si-ca-peut-motiver-certains-venir-gael-monfils-capitaine-bleus-coupe-davis-donner-nouvel-elan?at_medium=display&at_campaign=149",
    "source": "20 Minutes",
    "langue": "fr",
@@ -2645,6 +2747,17 @@
    "date": "2026-11-07T17:36+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/luca-van-assche-elimine-en-demi-finales-du-rolex-paris-masters-a-reau-l-equipe/1500000002644891/228:172,1855:1257-828-552-75/8cb66.jpg",
    "titre": "Luca Van Assche après sa défaite en demi-finales du Rolex Paris Masters face à Ben Shelton : « Je n'ai pas de regrets, je me suis donné à fond »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50407241/gael-monfils-stays-tennis-captain-france-davis-cup-team",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-07T17:17+00:00",
+   "image": null,
+   "vo": "Monfils stays in tennis as captain of France's Davis Cup team",
+   "titre": "Monfils reste dans le monde du tennis en tant que capitaine de l'équipe de France de Coupe Davis",
+   "titre_fr": "Monfils reste dans le monde du tennis en tant que capitaine de l'équipe de France de Coupe Davis",
    "blessure": false
   },
   {
@@ -3253,6 +3366,17 @@
    "date": "2026-11-03T10:10+00:00",
    "image": "https://www.franceinfo.fr/pictures/GIrc5OmHjDZquZ--hNcVcHoUXAg/0x0:6725x3782/432x243/filters:format(jpg)/2026/11/03/6ae9b39421c63184611836.jpg",
    "titre": "Masters 1000 de Paris : Ugo Humbert souffre mais passe au 2e tour",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50354131/alexander-sasha-zverev-world-no-1-ranking-domestic-abuse-charges",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-02T15:18+00:00",
+   "image": null,
+   "vo": "FAQ: Why Zverev's rise to world No. 1 provokes mixed feelings",
+   "titre": "FAQ : Pourquoi l'ascension de Zverev au rang de numéro 1 mondial suscite-t-elle des sentiments mitigés ?",
+   "titre_fr": "FAQ : Pourquoi l'ascension de Zverev au rang de numéro 1 mondial suscite-t-elle des sentiments mitigés ?",
    "blessure": false
   },
   {
