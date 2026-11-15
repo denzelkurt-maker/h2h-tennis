@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-15T11:21+00:00",
+ "maj": "2026-11-15T13:36+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 34 articles",
   "Tennis Majors": "ok, 14 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 15 articles",
+  "We Love Tennis": "ok, 14 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 25 articles",
   "franceinfo": "ok, 19 articles",
@@ -28,6 +28,42 @@
   "Ubitennis": "ok, 10 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/bjorn-borg-sur-son-addiction-a-la-drogue-jai-failli-mourir-a-plusieurs-reprises",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T13:20+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Borg-719-1024x518.jpg",
+   "titre": "Bjorn Borg, sur son addiction à la drogue : « J’ai failli mourir à plusieurs reprises »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-previent-tout-le-monde-avant-le-debut-du-masters-de-turin-je-travaille-tres-bien-je-mentraine-dur-et-je-fais-tout-ce-que-je-peux-pour-etre-dans-les-meilleures-conditions-possible",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T12:35+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Masters-1024x513.jpeg",
+   "titre": "Carlos Alcaraz prévient tout le monde avant le début du Masters de Turin : « Je travaille très bien, je m’entraîne dur et je fais tout ce que je peux pour être dans les meilleures conditions possibles »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Qualifie-au-masters-sans-victoire-en-majeur-brad-gilbert-raconte-son-etonnante-annee-1989-on-peut-reussir-sa-saison-en-se-ratant-en-grand-chelem/1743605#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T12:04+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Gilbert : «On peut réussir sa saison en se ratant en Grand Chelem»",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/holger-rune-interroge-sur-son-caractere-explosif-novak-djokovic-ma-dit-une-chose-un-jour",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T11:43+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2021/09/Djokovic-3-1024x436.jpg",
+   "titre": "Holger Rune, interrogé sur son caractère explosif : « Novak Djokovic m’a dit une chose un jour »",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/november-15-1981-the-day-jimmy-connors-and-john-mcenroe-misbehaved-at-wembley-305470.html",
    "source": "Tennis Majors (EN)",
@@ -58,12 +94,30 @@
    "blessure": false
   },
   {
+   "lien": "https://www.welovetennis.fr/atp/brad-gilbert-devoile-lobjectif-darthur-fils-pour-la-saison-prochaine-il-doit-se-dire-une-seule-chose-gagner-washington-ou-cincinnati-ca-ne-vaut-pas-lus-open",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T10:40+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Brad-Gilbert-1024x555.jpeg",
+   "titre": "Brad Gilbert dévoile l’objectif d’Arthur Fils pour la saison prochaine : « Il doit se dire une seule chose. Gagner Washington ou Cincinnati, ça ne vaut pas l’US Open »",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-a-voulu-imite-djokvoic-et-parler-toutes-les-langues-je-comprends-litalien-mais-je-ne-sais-pas-le-parler-vous-savez-jai-essaye-de-lapprendre-avec-duolin",
    "source": "We Love Tennis",
    "langue": "fr",
    "date": "2026-11-15T10:21+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Paris-2026-1024x512.jpeg",
    "titre": "Carlos Alcaraz a voulu imité Djokvoic et parler toutes les langues : « Je comprends l’italien, mais je ne sais pas le parler. Vous savez, j’ai essayé de l’apprendre avec Duolingo il y a quelques mois »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-nest-pas-novak-djokovic-je-comprends-litalien-mais-je-ne-sais-pas-le-parler-jai-essaye-de-lapprendre-avec-duolingo-il-y-a-quelques-mois",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T10:21+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Paris-2026-1024x512.jpeg",
+   "titre": "Carlos Alcaraz n’est pas Novak Djokovic : « Je comprends l’italien, mais je ne sais pas le parler. J’ai essayé de l’apprendre avec Duolingo il y a quelques mois »",
    "blessure": false
   },
   {
@@ -76,6 +130,15 @@
    "blessure": false
   },
   {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-manque-de-puissance-selon-une-legende-italienne-qui-deraille-completement-il-nest-pas-dote-dun-bras-exceptionnel",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T09:50+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-coup-droit-1024x440.jpeg",
+   "titre": "Arthur Fils manque de puissance selon une légende Italienne qui déraille complètement : « Il n’est pas doté d’un bras exceptionnel »",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/sinner-plaisante-avec-la-legende-du-foot-italienne-paolo-maldini-je-crois-que-nous-avons-les-memes-genoux",
    "source": "We Love Tennis",
    "langue": "fr",
@@ -85,12 +148,30 @@
    "blessure": false
   },
   {
+   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-plaisante-avec-une-legende-du-foot-italien-je-crois-que-nous-avons-les-memes-genoux",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T09:18+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-1452-1024x550.jpg",
+   "titre": "Jannik Sinner plaisante avec une légende du foot italien : « Je crois que nous avons les mêmes genoux »",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/kyrgios-sen-prend-violemment-a-un-membre-du-big-4-je-ne-saurais-meme-pas-sil-est-encore-un-ami-je-voulais-quil-vienne-dans-mon-podcast-et-il-sest-comporte-comme-s",
    "source": "We Love Tennis",
    "langue": "fr",
    "date": "2026-11-15T08:43+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2022/09/Kyrgios-1024x555.jpeg",
    "titre": "Kyrgios s’en prend violemment à un membre du Big 4 : « Je ne saurais même pas s’il est encore un ami. Je voulais qu’il vienne dans mon podcast, et il s’est comporté comme s’il était trop important »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/kyrgios-sen-prend-a-un-membre-du-big-4-je-ne-saurais-meme-pas-sil-est-encore-un-ami-je-voulais-quil-vienne-dans-mon-podcast-et-il-sest-comporte-comme-sil-et",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-15T08:43+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/09/Kyrgios-1024x555.jpeg",
+   "titre": "Kyrgios s’en prend à un membre du Big 4 : « Je ne saurais même pas s’il est encore un ami. Je voulais qu’il vienne dans mon podcast, et il s’est comporté comme s’il était trop important »",
    "blessure": false
   },
   {
@@ -127,15 +208,6 @@
    "date": "2026-11-15T07:15+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/gilles-simon-sebastien-grosjean-et-jo-wilfried-tsonga-l-equipe/1500000002651084/0:0,1500:1000-828-552-75/d4702.jpg",
    "titre": "9 Français avant Arthur Fils et des fortunes diverses : les Bleus aux Finales ATP en stats",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Qualifie-au-masters-sans-victoire-en-majeur-brad-gilbert-raconte-son-etonnante-annee-1989-on-peut-reussir-sa-saison-en-se-ratant-en-grand-chelem/1743605#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T07:05+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Gilbert : «On peut réussir sa saison en se ratant en Grand Chelem»",
    "blessure": false
   },
   {
