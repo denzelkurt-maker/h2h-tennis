@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-15T05:33+00:00",
+ "maj": "2026-11-15T07:48+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 35 articles",
   "Tennis Majors": "ok, 14 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 17 articles",
+  "We Love Tennis": "ok, 16 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 25 articles",
   "franceinfo": "ok, 19 articles",
@@ -46,6 +46,33 @@
    "date": "2026-11-15T08:30+00:00",
    "image": null,
    "titre": "15 novembre 2015 : Le jour où Novak Djokovic a finalisé la série de victoires la plus longue de l’histoire du Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/9-francais-avant-arthur-fils-et-des-fortunes-diverses-les-bleus-aux-finales-atp-en-stats/1743778#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T07:15+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/gilles-simon-sebastien-grosjean-et-jo-wilfried-tsonga-l-equipe/1500000002651084/0:0,1500:1000-828-552-75/d4702.jpg",
+   "titre": "9 Français avant Arthur Fils et des fortunes diverses : les Bleus aux Finales ATP en stats",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Qualifie-au-masters-sans-victoire-en-majeur-brad-gilbert-raconte-son-etonnante-annee-1989-on-peut-reussir-sa-saison-en-se-ratant-en-grand-chelem/1743605#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T07:05+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Gilbert : «On peut réussir sa saison en se ratant en Grand Chelem»",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4262880-20261115-shelton-arthur-fils-chaine-tv-heure-voir-1er-match-finales-atp?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-15T06:32+00:00",
+   "image": "https://img.20mn.fr/az9nZCuUR8u74PUv3IWFwSk/1200x768_arthur-fils-retrouve-ben-shelton-aux-finales-atp-de-turin-dimanche-photo-d-illustration",
+   "titre": "Shelton-Arthur Fils : Sur quelle chaîne TV et à quelle heure voir le 1er match des Finales ATP ?",
    "blessure": false
   },
   {
