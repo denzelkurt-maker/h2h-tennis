@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-15T03:31+00:00",
+ "maj": "2026-11-15T05:33+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,14 +15,14 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 34 articles",
+  "L'Équipe": "ok, 35 articles",
   "Tennis Majors": "ok, 14 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 17 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 25 articles",
   "franceinfo": "ok, 19 articles",
-  "20 Minutes": "ok, 19 articles",
+  "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 12 articles",
   "Ubitennis": "ok, 11 articles"
@@ -46,6 +46,24 @@
    "date": "2026-11-15T08:30+00:00",
    "image": null,
    "titre": "15 novembre 2015 : Le jour où Novak Djokovic a finalisé la série de victoires la plus longue de l’histoire du Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/arthur-fils/au-masters-de-turin-arthur-fils-devra-confirmer-son-nouveau-statut-apres-une-annee-en-dents-de-scie_8274734.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-15T05:00+00:00",
+   "image": "https://www.franceinfo.fr/pictures/ivIiQ3_7kJkaszSYACk4ajipRYw/0x0:4802x2701/432x243/filters:format(jpg)/2026/11/10/6af32838850e7261928198.jpg",
+   "titre": "Au Masters de Turin, Arthur Fils devra confirmer son nouveau statut après une année en dents de scie",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-je-serai-a-turin-en-2026-la-premonition-qui-a-porte-arthur-fils-au-plus-fort-de-ses-doutes-et-l-a-mene-jusqu-aux-finales-atp/1743671#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T04:40+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-vendredi-soir-a-turin-f-faugere-l-equipe/1500000002650702/15:12,769:515-828-552-75/792b0.jpg",
+   "titre": "« Je serai à Turin en 2026 » : la prémonition qui a porté Arthur Fils au plus fort de ses doutes et l'a mené jusqu'aux Finales ATP",
    "blessure": false
   },
   {
