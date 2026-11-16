@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-16T21:30+00:00",
+ "maj": "2026-11-16T23:25+00:00",
  "source": "ESPN (API publique)",
  "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
  "colonnes_tournois": [
@@ -76,7 +76,47 @@
    ]
   ],
   [
-   "2026-11-18T05:00Z",
+   "2026-11-18T13:00Z",
+   1,
+   "Inalpi Arena",
+   "339-2026",
+   "Group Stage",
+   "pre",
+   [
+    "07843754-8bdf-63b0-5983-24252738169e",
+    "Carlos Alcaraz",
+    "Spain",
+    2
+   ],
+   [
+    "469710ae-79d9-770e-e3b7-d71e5148642c",
+    "Daniil Medvedev",
+    "Russia",
+    4
+   ]
+  ],
+  [
+   "2026-11-18T19:30Z",
+   1,
+   "Inalpi Arena",
+   "339-2026",
+   "Group Stage",
+   "pre",
+   [
+    "62b541a8-4480-30f7-87a6-b45d09376f39",
+    "Flavio Cobolli",
+    "Italy",
+    5
+   ],
+   [
+    "f901758a-d8f2-442c-9cd3-44513fcbf31e",
+    "Frances Tiafoe",
+    "USA",
+    7
+   ]
+  ],
+  [
+   "2026-11-19T05:00Z",
    0,
    "",
    "339-2026",
@@ -96,27 +136,7 @@
    ]
   ],
   [
-   "2026-11-18T05:00Z",
-   0,
-   "",
-   "339-2026",
-   "Group Stage",
-   "pre",
-   [
-    "62b541a8-4480-30f7-87a6-b45d09376f39",
-    "Flavio Cobolli",
-    "Italy",
-    5
-   ],
-   [
-    "f901758a-d8f2-442c-9cd3-44513fcbf31e",
-    "Frances Tiafoe",
-    "USA",
-    7
-   ]
-  ],
-  [
-   "2026-11-18T05:00Z",
+   "2026-11-19T05:00Z",
    0,
    "",
    "339-2026",
@@ -136,7 +156,7 @@
    ]
   ],
   [
-   "2026-11-18T05:00Z",
+   "2026-11-19T05:00Z",
    0,
    "",
    "339-2026",
@@ -156,27 +176,7 @@
    ]
   ],
   [
-   "2026-11-18T05:00Z",
-   0,
-   "",
-   "339-2026",
-   "Group Stage",
-   "pre",
-   [
-    "07843754-8bdf-63b0-5983-24252738169e",
-    "Carlos Alcaraz",
-    "Spain",
-    2
-   ],
-   [
-    "469710ae-79d9-770e-e3b7-d71e5148642c",
-    "Daniil Medvedev",
-    "Russia",
-    4
-   ]
-  ],
-  [
-   "2026-11-18T05:00Z",
+   "2026-11-19T05:00Z",
    0,
    "",
    "339-2026",
@@ -2865,7 +2865,7 @@
  "challenger_maj": "2026-11-16T15:42+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-16T21:30+00:00",
+  "date": "2026-11-16T23:25+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",

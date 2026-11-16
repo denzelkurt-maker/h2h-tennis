@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-16T21:30+00:00",
+ "maj": "2026-11-16T23:25+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,8 +15,8 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 35 articles",
-  "Tennis Majors": "ok, 15 articles",
+  "L'Équipe": "ok, 36 articles",
+  "Tennis Majors": "ok, 16 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 14 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
@@ -24,10 +24,81 @@
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 14 articles",
+  "Tennis Majors (EN)": "ok, 17 articles",
   "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/medvedev-confirms-he-will-keep-golubev-as-coach-next-year-for-the-moment-867168.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-16T22:53+00:00",
+   "image": null,
+   "vo": "Medvedev confirms he will keep Golubev as coach next year, “for the moment”",
+   "titre": "Medvedev confirme qu'il conservera Golubev comme entraîneur l'année prochaine, « pour le moment »",
+   "titre_fr": "Medvedev confirme qu'il conservera Golubev comme entraîneur l'année prochaine, « pour le moment »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/the-best-chance-to-beat-him-medvedev-sees-an-opening-against-alcaraz-in-turin-867166.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-16T22:45+00:00",
+   "image": null,
+   "vo": "“The best chance to beat him”: Medvedev sees an opening against Alcaraz in Turin",
+   "titre": "« La meilleure chance de le battre » : Medvedev voit une ouverture contre Alcaraz à Turin",
+   "titre_fr": "« La meilleure chance de le battre » : Medvedev voit une ouverture contre Alcaraz à Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/daniil-medvedev-begins-title-tilt-with-resilient-victory-over-flavio-cobolli/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-16T22:20+00:00",
+   "image": null,
+   "vo": "Daniil Medvedev Begins Title Tilt With Resilient Victory Over Flavio Cobolli",
+   "titre": "Daniil Medvedev entame sa course au titre par une victoire résiliente sur Flavio Cobolli",
+   "titre_fr": "Daniil Medvedev entame sa course au titre par une victoire résiliente sur Flavio Cobolli",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/intouchable-au-service-medvedev-gache-la-premiere-apparition-de-cobolli-aux-masters-de-turin-810333.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-16T22:01+00:00",
+   "image": null,
+   "titre": "Intouchable au service, Medvedev gâche la première apparition de Cobolli aux Masters de Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/atp-finals-pourquoi-theo-arribage-et-albano-olivetti-changent-de-raquette-entre-deux-jeux_AV-202611160951.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-16T21:53+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Lfbjg8koZT4tJymQzhLETf8JL9s=/0x106:2048x1258/800x0/images/Theo-Arribage-et-Albano-Olivetti-le-2-novembre-2026-2385075.jpg",
+   "titre": "ATP Finals: pourquoi Théo Arribagé et Albano Olivetti changent de raquettes entre deux jeux",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/unbreakable-medvedev-spoils-cobollis-atp-finals-debut-in-turin-867159.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-16T21:31+00:00",
+   "image": null,
+   "vo": "Unbreakable Medvedev spoils Cobolli’s first appearance at the ATP Finals in Turin",
+   "titre": "L’inarrêtable Medvedev gâche la première apparition de Cobolli aux ATP Finals à Turin",
+   "titre_fr": "L’inarrêtable Medvedev gâche la première apparition de Cobolli aux ATP Finals à Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Daniil-medvedev-demarre-bien-ses-finales-atp-en-battant-flavio-cobolli/1744124#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-16T21:27+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/daniil-medvedev-a-battu-flavio-cobolli-f-faugere-l-equipe/1500000002652312/0:0,2000:1333-828-552-75/744f5.jpg",
+   "titre": "Daniil Medvedev démarre bien ses Finales ATP en battant Flavio Cobolli",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/alcaraz-apres-sa-demonstration-contre-tiafoe-je-ne-me-sens-pas-invincible-mais-parfois-jai-limpression-detre-meilleur-que-mon-adversaire-dans-tous-les-aspects-du-jeu",
    "source": "We Love Tennis",
@@ -3725,69 +3796,6 @@
    "date": "2026-11-07T07:05+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/casper-ruud-affrontera-carlos-alcaraz-en-demies-a-paris-a-reau-l-equipe/1500000002644504/277:176,1903:1260-828-552-75/72b34.jpg",
    "titre": "Casper Ruud écarte Nuno Borges et complète les demi-finales du Rolex Paris Masters",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4261091-20261107-masters-1000-paris-si-plenitude-arena-transformait-enfin-chaudron-demi-finale-luca-van-assche?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-07T07:02+00:00",
-   "image": "https://img.20mn.fr/5AbL8--dSC2AwVtR4NdeTik/1200x768_credit-obligatoire-photo-de-martin-isaac-shutterstock-17007319h-supporters-de-boca-juniors-boca-juniors-vs-ohiggins-eliminatoires-de-la-coupe-d-amerique-du-sud-estadio-alberto-j-armando-caba-buenos-aires-argentine-23-juillet-2026-shutterstock-editorial-boca-juniors-vs-ohiggins-sudam-17007319h-2607242246",
-   "titre": "Masters 1000 de Paris : Et si la Plénitude Arena se transformait enfin un chaudron pour la demi-finale de Van Assche ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4261101-20261107-rolex-paris-masters-2026-chaine-tv-heure-voir-demi-finale-van-assche-shelton-direct?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-07T06:17+00:00",
-   "image": "https://img.20mn.fr/34gLJ6VaR3e9tZ2uZjOAKyk/1200x768_le-francais-luca-van-assche-aura-fort-a-faire-samedi-en-demi-finale-du-rolex-paris-masters-contre-ben-shelton",
-   "titre": "Rolex Paris Masters 2026 : Sur quelle chaîne TV et à quelle heure voir la demi-finale Van Assche-Shelton en direct ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4261098-20261107-masters-1000-paris-balles-match-sauvees-points-fou-comment-carlos-alcaraz-encore-revenu-enfer?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-07T05:32+00:00",
-   "image": "https://img.20mn.fr/mEbhpsNgSMeElUidc16UeSk/1200x768_l-espagnol-carlos-alcaraz-joue-un-revers-contre-taylor-fritz-des-etats-unis-lors-de-la-cinquieme-journee-du-rolex-paris-masters-2026-le-6-novembre-2026-a-nanterre-en-france-photo-de-tnani-badreddine-defodi-images-649-20261106-bt779545-jpg-649-rolex-paris-masters-2026-cinquieme-jour-defodi-images-649-20261106-bt779545-credit-tnani-badreddine-defodi-images-sipa-2611062307",
-   "titre": "Masters 1000 de Paris : Balles de match sauvées, points de fou… Comment Carlos Alcaraz est encore revenu de l’enfer",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/paris-bercy/direct-masters-1000-de-paris-suivez-en-live-les-quarts-de-finale-avec-van-assche-alcaraz-shelton-et-ruud_LN-202611060440.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-07T00:02+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/0ufbMutrGjiFSxQIrL9XRJj-6Vk=/34x461:1634x1361/800x0/images/Carlos-Alcaraz-lors-de-son-quart-de-finale-face-a-Taylor-Fritz-le-6-novembre-2026-2379599.jpg",
-   "titre": "Masters 1000 de Paris: Alcaraz signe une remontada et file dans le dernier carré",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/masters-1000-de-paris-luca-van-assche-resiste-a-hijikata-et-s-offre-une-demi-finale-a-la-maison_AV-202611060835.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-06T18:55+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/bIxmJftwVnmUPa_HECTz7obM0NU=/0x93:2048x1245/800x0/images/Luca-Van-Assche-2379514.jpg",
-   "titre": "Masters 1000 de Paris: Luca Van Assche résiste à Hijikata et s’offre une demi-finale à la maison",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4261031-20261106-masters-1000-paris-equilibre-lie-maths-tres-haut-niveau-qualifie-demie-van-assche-grosse-tete?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-06T18:49+00:00",
-   "image": "https://img.20mn.fr/UmquKmV_QU2t13Szu83vSik/1200x768_luca-van-assche-fra-participe-aux-8es-de-finale-du-rolex-paris-masters-a-la-paris-la-defense-arena-de-nanterre-a-l-ouest-de-paris-en-france-le-jeudi-5-novembre-2026-saidichristophe-saidi1159-credit-christophe-saidi-sipa-2611060921",
-   "titre": "Masters 1000 de Paris : « Un équilibre lié aux maths de très haut niveau »… Qualifié en demie, Van Assche la grosse tête",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/dernier-francais-en-lice-luca-van-assche-se-qualifie-pour-les-demi-finales-du-masters-1000-de-paris-apres-un-gros-combat-face-a-rinky-hijikata_8271113.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-06T18:18+00:00",
-   "image": "https://www.franceinfo.fr/pictures/vTLVpHha8jv82ksH7ZUhdC-zyo8/0x0:5169x2907/432x243/filters:format(jpg)/2026/11/06/6aee178772cbc105050017.jpg",
-   "titre": "Dernier Français en lice, Luca van Assche se qualifie pour les demi-finales du Masters 1000 de Paris après un gros combat face à Rinky Hijikata",
    "blessure": false
   }
  ]
