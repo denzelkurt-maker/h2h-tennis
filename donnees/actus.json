@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-16T15:41+00:00",
+ "maj": "2026-11-16T17:45+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -16,9 +16,9 @@
  ],
  "flux": {
   "L'Équipe": "ok, 36 articles",
-  "Tennis Majors": "ok, 14 articles",
+  "Tennis Majors": "ok, 15 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 14 articles",
+  "We Love Tennis": "ok, 13 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 23 articles",
   "franceinfo": "ok, 18 articles",
@@ -28,6 +28,62 @@
   "Ubitennis": "ok, 10 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-avant-daffronter-le-nouveau-phenomene-du-circuit-il-va-falloir-aller-le-chercher-et-le-gagner-il-ma-battu-deux-fois-cette-annee-on-va-voir-ce-que-ca-donne",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T17:42+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-decu-1-1024x499.jpeg",
+   "titre": "Arthur Fils, avant d’affronter le nouveau phénomène du circuit : « Il va falloir aller le chercher et le gagner. Il m’a battu deux fois cette année. On va voir ce que ça donne »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/frances-tiafoe-totalement-surclasse-par-carlos-alcaraz-il-y-a-des-moments-ou-il-est-vraiment-superman-il-faut-vraiment-savoir-apprecier-la-grandeur",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T17:20+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Tiafoe-filet-1024x492.jpeg",
+   "titre": "Frances Tiafoe, totalement surclassé par Carlos Alcaraz : « Il y a des moments où il est vraiment Superman. Il faut vraiment savoir apprécier la grandeur »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/souverain-alcaraz-lance-ses-atp-finals-en-ecrasant-tiafoe-en-69-minutes-810313.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-16T16:50+00:00",
+   "image": null,
+   "titre": "Souverain, Alcaraz lance ses ATP Finals en écrasant Tiafoe en 69 minutes",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/laveu-de-frances-tiafoe-au-filet-apres-sa-lourde-defaite-contre-carlos-alcaraz-jai-essaye-mec-mais-tu-es-bien-trop-fort",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T16:20+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Capture-decran-2026-11-16-a-17.12.24-1024x765.png",
+   "titre": "L’aveu de Frances Tiafoe au filet après sa lourde défaite contre Carlos Alcaraz : « J’ai essayé mec, mais tu es bien trop fort »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-opens-atp-finals-campaign-by-crushing-tiafoe-in-69-minutes-867137.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-16T16:19+00:00",
+   "image": null,
+   "vo": "Imperious Alcaraz opens ATP Finals campaign by crushing Tiafoe in 69 minutes",
+   "titre": "L’impérieux Alcaraz entame sa campagne aux ATP Finals en écrasant Tiafoe en 69 minutes",
+   "titre_fr": "L’impérieux Alcaraz entame sa campagne aux ATP Finals en écrasant Tiafoe en 69 minutes",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/gustavo-kuerten-devoile-son-joueur-prefere-entre-carlos-alcaraz-et-jannik-sinner-il-me-plait-enormement-cest-un-garcon-exceptionnel-et-il-incarne-ce-que-devrait-etre-le-tennisman-contemp",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T15:50+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Alcaraz-Sinner-1.jpeg",
+   "titre": "Gustavo Kuerten dévoile son joueur préféré entre Carlos Alcaraz et Jannik Sinner : « Il me plaît énormément, c’est un garçon exceptionnel et il incarne ce que devrait être le tennisman contemporain »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/tim-henman-sur-les-retrouvailles-entre-alcaraz-et-ferrero-cetait-un-peu-genant-quand-juan-carlos-est-entre-sur-le-court-on-sentait-vraiment-que-cetait-la-premiere-fois-quils",
    "source": "We Love Tennis",
@@ -3730,62 +3786,6 @@
    "date": "2026-11-05T19:54+00:00",
    "image": "https://www.franceinfo.fr/pictures/nxOpycqVShyypwrWHrYalwL0O88/0x36:6770x3844/432x243/filters:format(jpg)/2026/11/05/6aecbff3763b1892817424.jpg",
    "titre": "Tombeur de Lorenzo Musetti à Paris, Luca Van Assche se qualifie pour la première fois de sa carrière en quart de finale d'un Masters 1000, Arthur Fils déjà éliminé",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/direct-masters-1000-de-paris-suivez-les-8es-de-finale-avec-fils-alcaraz-halys-et-shelton-en-live_LN-202611050365.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-05T19:45+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/BqKhRxnEAWY7tGO9CbvGa54DapY=/0x72:2048x1224/800x0/images/Arthur-Fils-au-Rolex-Paris-Masters-le-04-11-2026-2378779.jpg",
-   "titre": "Masters 1000 de Paris: van Assche dernier rescapé du clan français après la défaite de Fils",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/video-tennis-un-sentiment-incroyable-d-etre-en-quarts-a-paris-se-rejouit-van-assche_VN-202611050781.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-05T19:25+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/6JAYHyNhsxjt4kw6k-_Ly6LVTdk=/0x0:1280x720/800x0/images/Tennis-Un-sentiment-incroyable-d-etre-en-quarts-a-Paris-se-rejouit-van-Assche-2378793.jpg",
-   "titre": "Tennis : \"Un sentiment incroyable d'être en quarts à Paris\", se réjouit van Assche",
-   "blessure": false
-  },
-  {
-   "titre": "Ben Shelton se tourne vers les « feux d'artifice » lors d'un concours à enjeux élevés contre Tommy Paul à Paris",
-   "lien": "https://www.ubitennis.net/2026/11/ben-shelton-looking-forward-to-fireworks-in-high-stakes-contest-against-tommy-paul-in-paris/",
-   "source": "Ubitennis",
-   "date": "2026-11-05T19:21+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Ben Shelton Looking Forward To ‘Fireworks’ In High-Stakes Contest Against Tommy Paul In Paris",
-   "titre_fr": "Ben Shelton se tourne vers les « feux d'artifice » lors d'un concours à enjeux élevés contre Tommy Paul à Paris"
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4260708-20261105-masters-1000-paris-assez-unique-luca-van-assche-joueur-frisson-france-attendait?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-05T19:10+00:00",
-   "image": "https://img.20mn.fr/mmlt_yc3TC-e6qQh2wRoTSk/1200x768_le-francais-luca-van-assche-reagit-apres-avoir-battu-l-italien-lorenzo-musetti-au-troisieme-tour-du-tournoi-de-tennis-paris-masters-a-nanterre-pres-de-paris-le-jeudi-5-novembre-2026-photo-ap-emma-da-silva-nvs120-26309623491671-2611051820",
-   "titre": "Masters 1000 de Paris : « Il est assez unique »… Luca Van Assche, le joueur frisson que la France n’attendait pas ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/video-tennis-pas-tres-loin-de-battre-le-n-4-mondial-rinderknech-revient-sur-son-elimination-en-8emes_VN-202611050760.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-05T19:01+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/vdYTwKV4ePozAd_Sjs8fCPDkgSs=/0x0:1280x720/800x0/images/Tennis-Pas-tres-loin-de-battre-le-n-4-mondial-Rinderknech-revient-sur-son-elimination-en-8emes-2378783.jpg",
-   "titre": "Tennis : \"Pas très loin de battre le n°4 mondial\", Rinderknech revient sur son élimination en 8èmes",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/arthur-fils/yannick-noah-en-premier-supporter-d-arthur-fils-lors-de-sa-victoire-au-masters-1000-de-paris_8268968.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-05T08:25+00:00",
-   "image": "https://www.franceinfo.fr/pictures/gC2Wh4mVu05taxHDP-bBz30dQwU/0x0:423x752/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/11/05/6aec3d688c1d5665308020.jpg",
-   "titre": "Yannick Noah en premier supporter d'Arthur Fils lors de sa victoire au Masters 1000 de Paris",
    "blessure": false
   }
  ]
