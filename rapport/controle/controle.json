@@ -1,35 +1,35 @@
 {
- "date": "2026-11-15T05:59:17.848Z",
+ "date": "2026-11-16T06:22:43.637Z",
  "version_appli": "0.11.0",
  "passages": {
   "public": {
-   "duree_chargement_s": 2.804,
+   "duree_chargement_s": 2.175,
    "chiffres": {
     "version_appli": "0.11.0",
     "matchs": 356782,
-    "joueurs": 11847,
+    "joueurs": 11856,
     "tournois": 10497,
     "doublons": 0,
     "complements_dechiffres": false,
     "classement": {
      "semaine": "2026-11-09",
      "source": "ATP, via Wikimedia Commons",
-     "rangs": 2297,
+     "rangs": 2315,
      "top3": [
       [
        1,
        "Alexander Zverev",
-       9550
+       9320
       ],
       [
        2,
        "Jannik Sinner",
-       9450
+       7950
       ],
       [
        3,
        "Carlos Alcaraz",
-       7100
+       6100
       ]
      ]
     },
@@ -75,33 +75,33 @@
    }
   },
   "complet": {
-   "duree_chargement_s": 2.309,
+   "duree_chargement_s": 1.916,
    "chiffres": {
     "version_appli": "0.11.0",
-    "matchs": 357207,
-    "joueurs": 11857,
-    "tournois": 10498,
+    "matchs": 357288,
+    "joueurs": 11868,
+    "tournois": 10504,
     "doublons": 0,
     "complements_dechiffres": true,
     "classement": {
      "semaine": "2026-11-09",
      "source": "ATP, via Wikimedia Commons",
-     "rangs": 2297,
+     "rangs": 2315,
      "top3": [
       [
        1,
        "Alexander Zverev",
-       9550
+       9320
       ],
       [
        2,
        "Jannik Sinner",
-       9450
+       7950
       ],
       [
        3,
        "Carlos Alcaraz",
-       7100
+       6100
       ]
      ]
     },
@@ -114,20 +114,20 @@
     },
     "depuis_juin": {
      "Challenger tableau": {
-      "matchs": 3536,
-      "score_complet": 3532,
-      "stats": 3276,
+      "matchs": 3557,
+      "score_complet": 3553,
+      "stats": 3299,
       "score_complet_pct": 99.9
      },
      "Challenger qualifications": {
-      "matchs": 2845,
-      "score_complet": 2839,
-      "stats": 2448,
-      "score_complet_pct": 99.8
+      "matchs": 2888,
+      "score_complet": 2884,
+      "stats": 2497,
+      "score_complet_pct": 99.9
      },
      "ITF": {
-      "matchs": 9530,
-      "score_complet": 9501,
+      "matchs": 9545,
+      "score_complet": 9516,
       "stats": 4234,
       "score_complet_pct": 99.7
      },
@@ -138,9 +138,9 @@
       "score_complet_pct": 99.6
      },
      "ATP tableau": {
-      "matchs": 1188,
-      "score_complet": 1188,
-      "stats": 1168,
+      "matchs": 1190,
+      "score_complet": 1190,
+      "stats": 1170,
       "score_complet_pct": 100
      }
     }
