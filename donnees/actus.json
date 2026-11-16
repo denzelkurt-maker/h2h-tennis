@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-16T05:56+00:00",
+ "maj": "2026-11-16T09:25+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 37 articles",
   "Tennis Majors": "ok, 14 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 16 articles",
+  "We Love Tennis": "ok, 17 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 23 articles",
   "franceinfo": "ok, 18 articles",
@@ -46,6 +46,51 @@
    "vo": "November 16, 2001: The day Lleyton Hewitt became world No 1 for the first time",
    "titre": "16 novembre 2001 : le jour où Lleyton Hewitt est devenu numéro 1 mondial pour la première fois",
    "titre_fr": "16 novembre 2001 : le jour où Lleyton Hewitt est devenu numéro 1 mondial pour la première fois",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/open-metz-grand-est/un-tableau-de-grande-qualite-pour-la-premiere-edition-de-lopen-metz-grand-est-qui-debute-ce-lundi",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T08:37+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/10/Jacquet-213-1024x504.jpg",
+   "titre": "Un tableau de grande qualité pour la première edition de l’Open Metz Grand Est qui débute ce lundi !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4263163-20261116-masters-atp-super-match-arthur-fils-proche-gros-coup-grande-premiere-contre-ben-shelton?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-16T08:16+00:00",
+   "image": "https://img.20mn.fr/NWRlu8WKQuWPEGeGIj1LPSk/1200x768_credit-obligatoire-photo-de-marco-canoniero-shutterstock-17278180bm-ben-shelton-des-etats-unis-l-affronte-le-francais-arthur-fils-r-a-la-fin-du-match-en-simple-a-la-ronde-entre-ben-shelton-des-etats-unis-et-arthur-fils-de-france-lors-de-la-premiere-journee-des-nitto-atp-finals-2026-a-l-inalpi-arena-le-15-novembre-2026-a-turin-en-italie-ben-shelton-contre-arthur-fils-inalpi-arena-turin-italie-15-novembre-2026-shutterstock-editorial-ben-shelton-vs-arthur-fils-in-17278180bm-2611160109",
+   "titre": "Masters ATP : « C’était un super match »… Arthur Fils proche d’un gros coup pour sa grande première contre Ben Shelton",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/ben-shelton-vainqueur-darthur-fils-sur-le-masters-de-turin-vous-savez-on-dit-que-paris-etait-lun-des-courts-les-plus-rapides-de-tous-les-temps-je-pense-quavec-la-lege",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T08:12+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Shelton-1-1024x518.jpeg",
+   "titre": "Ben Shelton, vainqueur d’Arthur Fils sur le Masters de Turin : « Vous savez, on dit que Paris était l’un des courts les plus rapides de tous les temps. Je pense qu’avec la légère altitude ici, la balle vole un peu plus »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/arthur-fils-apres-sa-defaite-face-a-ben-shelton-jai-perdu-contre-un-ami-il-y-a-pire-dans-la-vie-je-suis-deja-concentre-sur-mon-match-de-mardi",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T07:41+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-service-1-1024x599.jpeg",
+   "titre": "Arthur Fils après sa défaite face à Ben Shelton : « J’ai perdu contre un ami, il y a pire dans la vie. Je suis déjà concentré sur mon match de mardi »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-sur-son-premier-adversaire-au-masters-de-turin-il-sait-tout-faire-sur-un-court-de-tennis",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T07:08+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-1024x552.jpeg",
+   "titre": "Carlos Alcaraz, sur son premier adversaire au Masters de Turin : « Il sait tout faire sur un court de tennis »",
    "blessure": false
   },
   {
@@ -3738,55 +3783,6 @@
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/aYvnqfwafdeEunfXg88A0yZHKpw=/0x103:2048x1255/800x0/images/Gael-Monfils-au-Rolex-Paris-Masters-le-3-novembre-2026-2377427.jpg",
    "titre": "DIRECT. Masters 1000 de Paris: fortune diverse pour les Français, un bel hommage pour Monfils",
    "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/gael-monfils/video-si-j-ai-pu-vivre-ce-reve-c-est-grace-a-vous-les-adieux-emouvants-de-gael-monfils-au-public-francais-et-au-tennis-en-marge-du-masters-1000-de-paris_8266532.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-03T20:30+00:00",
-   "image": "https://www.franceinfo.fr/pictures/-2qflEoQw-YObJNi1PIef1DCroo/0x900:8640x5760/432x243/filters:format(jpg)/2026/11/03/6aea434b88347082103242.jpg",
-   "titre": "VIDEO. \"Si j'ai pu vivre ce rêve, c'est grâce à vous\"... Les adieux émouvants de Gaël Monfils au public français et au tennis en marge du Masters 1000 de Paris",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/masters-1000-de-paris-moise-kouame-balaye-au-1er-tour-arthur-rinderknech-et-quentin-halys-passent_8265965.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-03T14:09+00:00",
-   "image": "https://www.franceinfo.fr/pictures/JgofPMPsKBZgDtvlFLgIkwfi8EQ/0x0:6163x3466/432x243/filters:format(jpg)/2026/11/03/6ae9e99e51700699608613.jpg",
-   "titre": "Masters 1000 de Paris : Arthur Rinderknech et Quentin Halys passent, fin de parcours pour Moïse Kouamé, Benjamin Bonzi et Arthur Gea",
-   "blessure": false
-  },
-  {
-   "titre": "Megaways vs machines à sous classiques : comment le gameplay et les paiements diffèrent",
-   "lien": "https://www.ubitennis.net/2026/11/megaways-vs-classic-slots-how-gameplay-and-payouts-differ/",
-   "source": "Ubitennis",
-   "date": "2026-11-03T12:41+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Megaways vs. Classic Slots: How Gameplay and Payouts Differ",
-   "titre_fr": "Megaways vs machines à sous classiques : comment le gameplay et les paiements diffèrent"
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/gael-monfils-l-ultime-reverence-d-un-artiste_8265824.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-03T12:38+00:00",
-   "image": "https://www.franceinfo.fr/pictures/aM8RweBVkJFmLF5NlWp21f8fHu0/0x0:1024x576/432x243/filters:format(jpg)/2026/09/03/6a997bf92ddc5711075831.jpg",
-   "titre": "Masters 1000 de Paris : Gaël Monfils, l'ultime révérence d'un artiste",
-   "blessure": false
-  },
-  {
-   "titre": "‘A Joy To Watch’ – Carlos Alcaraz salue la saison révolutionnaire de Jodar",
-   "lien": "https://www.ubitennis.net/2026/11/a-joy-to-watch-carlos-alcaraz-hails-jodars-breakthrough-season/",
-   "source": "Ubitennis",
-   "date": "2026-11-03T10:33+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "‘A Joy To Watch’ – Carlos Alcaraz Hails Jodar’s Breakthrough Season",
-   "titre_fr": "‘A Joy To Watch’ – Carlos Alcaraz salue la saison révolutionnaire de Jodar"
   }
  ]
 }
