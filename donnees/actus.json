@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-16T17:45+00:00",
+ "maj": "2026-11-16T19:40+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,19 +15,68 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 36 articles",
+  "L'Équipe": "ok, 35 articles",
   "Tennis Majors": "ok, 15 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 13 articles",
+  "We Love Tennis": "ok, 14 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 23 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 14 articles",
-  "Ubitennis": "ok, 10 articles"
+  "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alcaraz-apres-sa-demonstration-contre-tiafoe-je-ne-me-sens-pas-invincible-mais-parfois-jai-limpression-detre-meilleur-que-mon-adversaire-dans-tous-les-aspects-du-jeu",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T18:45+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-coup-droit-1-1024x544.jpeg",
+   "titre": "Alcaraz, après sa démonstration contre Tiafoe : « Je ne me sens pas invincible mais parfois, j’ai l’impression d’être meilleur que mon adversaire dans tous les aspects du jeu »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Video/Finales-atp-le-resume-d-alcaraz-tiafoe/20245712#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-16T18:30+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Le résumé vidéo d'Alcaraz - Tiafoe",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/jimmy-connors-pose-le-debat-carlos-alcaraz-est-il-vraiment-si-bon-que-ca-ou-est-ce-que-tous-les-autres-sont-mediocres",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T18:09+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/11/Connors-Jimmy-1024x497.jpg",
+   "titre": "Jimmy Connors pose le débat : « Carlos Alcaraz est-il vraiment si bon que ça ? Ou est-ce que tous les autres sont médiocres ? »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/i-always-said-that-im-not-bad-on-indoor-court-alcaraz-finally-at-home-under-the-roof-867145.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-16T17:52+00:00",
+   "image": null,
+   "vo": "“I always said that I’m not bad on indoor court”: Alcaraz finally at home under the roof",
+   "titre": "« J'ai toujours dit que je n'étais pas mauvais sur les courts couverts » : Alcaraz enfin à l'aise sous le toit",
+   "titre_fr": "« J'ai toujours dit que je n'étais pas mauvais sur les courts couverts » : Alcaraz enfin à l'aise sous le toit",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/frances-tiafoe-draws-positives-from-atp-finals-thrashing-by-superman-alcaraz/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-16T17:47+00:00",
+   "image": null,
+   "vo": "Frances Tiafoe Draws Positives From ATP Finals Thrashing By ‘Superman’ Alcaraz",
+   "titre": "Frances Tiafoe tire des enseignements positifs de sa défaite aux ATP Finals face à « Superman » Alcaraz",
+   "titre_fr": "Frances Tiafoe tire des enseignements positifs de sa défaite aux ATP Finals face à « Superman » Alcaraz",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-avant-daffronter-le-nouveau-phenomene-du-circuit-il-va-falloir-aller-le-chercher-et-le-gagner-il-ma-battu-deux-fois-cette-annee-on-va-voir-ce-que-ca-donne",
    "source": "We Love Tennis",
@@ -82,6 +131,15 @@
    "date": "2026-11-16T15:50+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Alcaraz-Sinner-1.jpeg",
    "titre": "Gustavo Kuerten dévoile son joueur préféré entre Carlos Alcaraz et Jannik Sinner : « Il me plaît énormément, c’est un garçon exceptionnel et il incarne ce que devrait être le tennisman contemporain »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/gustavo-kuerten-adoube-jannik-sinner-il-me-plait-enormement-cest-un-garcon-exceptionnel-et-il-incarne-ce-que-devrait-etre-le-tennisman-contemporain",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T15:50+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Kuerten-1024x550.jpeg",
+   "titre": "Gustavo Kuerten adoube Jannik Sinner : « Il me plaît énormément, c’est un garçon exceptionnel et il incarne ce que devrait être le tennisman contemporain »",
    "blessure": false
   },
   {
@@ -3730,62 +3788,6 @@
    "date": "2026-11-06T18:18+00:00",
    "image": "https://www.franceinfo.fr/pictures/vTLVpHha8jv82ksH7ZUhdC-zyo8/0x0:5169x2907/432x243/filters:format(jpg)/2026/11/06/6aee178772cbc105050017.jpg",
    "titre": "Dernier Français en lice, Luca van Assche se qualifie pour les demi-finales du Masters 1000 de Paris après un gros combat face à Rinky Hijikata",
-   "blessure": false
-  },
-  {
-   "titre": "Alexander Zverev n'est pas différent : l'examen minutieux vient avec le fait d'être n ° 1 mondial",
-   "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-is-no-different-the-scrutiny-comes-with-being-world-no-1/",
-   "source": "Ubitennis",
-   "date": "2026-11-06T10:13+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Alexander Zverev Is No Different: The Scrutiny Comes With Being World No. 1",
-   "titre_fr": "Alexander Zverev n'est pas différent : l'examen minutieux vient avec le fait d'être n ° 1 mondial"
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/masters-1000-de-paris-qui-est-l-atypique-luca-van-assche-dernier-francais-en-lice_AV-202611060412.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-06T10:13+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/7hlMWjdHbgnZ-rQlpZ9DcPcyXOE=/83x125:1923x1160/800x0/images/Luca-Van-Assche-au-Masters-1000-de-Paris-le-5-novembre-2026-2379122.jpg",
-   "titre": "Masters 1000 de Paris: qui est l'atypique Luca Van Assche, dernier Français en lice?",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/la-fin-d-une-collaboration-prolifique-sinner-se-separe-de-son-entraineur-historique-et-annonce-son-successeur_AV-202611060405.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-06T10:07+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/HLdAf_JgMmGDs19L2F0TkLfGnWc=/0x0:2048x1152/800x0/images/Darren-Cahill-et-Jannik-Sinner-a-Vienne-en-2025-2379105.jpg",
-   "titre": "La fin d'une collaboration prolifique: Sinner se sépare de son entraîneur historique et annonce son successeur",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4260654-20261106-comment-masters-1000-paris-devenu-plus-rapides-circuit-plus-grand-bonheur-joueurs?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-06T07:02+00:00",
-   "image": "https://img.20mn.fr/WxqqCyTkRWS5dBxkL1zD9Sk/1200x768_l-espagnol-carlos-alcaraz-joue-un-coup-droit-contre-l-americain-alex-michelsen-lors-de-la-troisieme-journee-du-rolex-paris-masters-2026-le-4-novembre-2026-a-nanterre-en-france-photo-de-tnani-badreddine-defodi-images-649-20261104-ts063964-jpg-649-rolex-paris-masters-2026-troisieme-jour-defodi-images-649-20261104-ts063964-credit-tnani-badreddine-defodi-images-sipa-2611042137",
-   "titre": "Comment le Masters 1000 de Paris est devenu l’un des plus rapides du circuit pour le plus grand bonheur des joueurs",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4260799-20261105-masters-1000-paris-comme-si-fait-mauvais-match-arthur-fils-nouvelle-desillusion-parisienne?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-05T20:43+00:00",
-   "image": "https://img.20mn.fr/5ZUEgBHNRS2-wviWfI0yGik/1200x768_le-francais-arthur-fils-s-essuie-alors-qu-il-affronte-taylor-fritz-des-etats-unis-lors-de-leur-match-des-8es-de-finale-du-tournoi-de-tennis-paris-masters-a-nanterre-pres-de-paris-le-jeudi-5-novembre-2026-photo-ap-emma-da-silva-th162-26309717322285-2611052057",
-   "titre": "Masters 1000 de Paris : « Pas comme si j’avais fait un mauvais match »… Arthur Fils, la nouvelle désillusion parisienne",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/malgre-un-gros-combat-arthur-rinderknech-s-incline-en-huitieme-de-finale-du-masters-1000-de-paris-face-a-ben-shelton_8269331.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-05T19:54+00:00",
-   "image": "https://www.franceinfo.fr/pictures/nxOpycqVShyypwrWHrYalwL0O88/0x36:6770x3844/432x243/filters:format(jpg)/2026/11/05/6aecbff3763b1892817424.jpg",
-   "titre": "Tombeur de Lorenzo Musetti à Paris, Luca Van Assche se qualifie pour la première fois de sa carrière en quart de finale d'un Masters 1000, Arthur Fils déjà éliminé",
    "blessure": false
   }
  ]
