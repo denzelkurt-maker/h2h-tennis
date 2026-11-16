@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-15T23:20+00:00",
+ "maj": "2026-11-16T02:07+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,19 +15,66 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 35 articles",
+  "L'Équipe": "ok, 37 articles",
   "Tennis Majors": "ok, 14 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 16 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 23 articles",
+  "RMC Sport": "ok, 24 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 12 articles",
+  "Tennis Majors (EN)": "ok, 13 articles",
   "Ubitennis": "ok, 10 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/16-novembre-2001-le-jour-ou-hewitt-est-devenu-numero-1-mondial-masters-305775.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-16T14:50+00:00",
+   "image": null,
+   "titre": "16 novembre 2001 : Le jour où Hewitt est devenu numéro 1 mondial",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/november-16-2001-lleyton-hewitt-secures-world-no-1-spot-305731.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-16T10:18+00:00",
+   "image": null,
+   "vo": "November 16, 2001: The day Lleyton Hewitt became world No 1 for the first time",
+   "titre": "16 novembre 2001 : le jour où Lleyton Hewitt est devenu numéro 1 mondial pour la première fois",
+   "titre_fr": "16 novembre 2001 : le jour où Lleyton Hewitt est devenu numéro 1 mondial pour la première fois",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-apres-sa-defaite-contre-ben-shelton-aux-finales-atp-il-faut-rester-en-vie/1743941#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T23:52+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-salue-le-public-apres-sa-defaite-contre-ben-shelton-f-faugere-l-equipe/1500000002651684/0:0,800:533-828-552-75/e0a52.jpg",
+   "titre": "Arthur Fils, après sa défaite contre Ben Shelton aux Finales ATP : « Il faut rester en vie »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/shelton-resiste-au-retour-de-fils-et-rejoint-zverev-en-tete-du-groupe-john-mcenroe-810271.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-15T23:23+00:00",
+   "image": null,
+   "titre": "Shelton résiste au retour de Fils et rejoint Zverev en tête du groupe John McEnroe",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Demarrage-a-toute-allure-puis-victime-du-service-de-bombardier-de-ben-shelton-arthur-fils-a-vecu-une-premiere-amere-aux-finales-atp/1743934#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T23:20+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Première amère pour Fils",
+   "blessure": false
+  },
   {
    "lien": "https://www.ubitennis.net/2026/11/ben-shelton-sees-off-fills-to-clinch-first-atp-finals-win-of-career/",
    "source": "Ubitennis",
@@ -3740,48 +3787,6 @@
    "image": null,
    "vo": "‘A Joy To Watch’ – Carlos Alcaraz Hails Jodar’s Breakthrough Season",
    "titre_fr": "‘A Joy To Watch’ – Carlos Alcaraz salue la saison révolutionnaire de Jodar"
-  },
-  {
-   "titre": "Novak Djokovic « proche » de la résolution d'un mystérieux problème de santé alors qu'il court après les finales de l'ATP",
-   "lien": "https://www.ubitennis.net/2026/11/novak-djokovic-close-to-solving-mysterious-health-issue-as-he-chases-after-atp-finals-spot/",
-   "source": "Ubitennis",
-   "date": "2026-11-03T10:27+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Novak Djokovic ‘Close’ To Solving Mysterious Health Issue As He Chases After ATP Finals Spot",
-   "titre_fr": "Novak Djokovic « proche » de la résolution d'un mystérieux problème de santé alors qu'il court après les finales de l'ATP"
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/masters-1000-de-paris-ugo-humbert-souffre-mais-passe-au-2e-tour_8265533.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-03T10:10+00:00",
-   "image": "https://www.franceinfo.fr/pictures/GIrc5OmHjDZquZ--hNcVcHoUXAg/0x0:6725x3782/432x243/filters:format(jpg)/2026/11/03/6ae9b39421c63184611836.jpg",
-   "titre": "Masters 1000 de Paris : Ugo Humbert souffre mais passe au 2e tour",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.espn.com/tennis/story/_/id/50354131/alexander-sasha-zverev-world-no-1-ranking-domestic-abuse-charges",
-   "source": "ESPN",
-   "langue": "en",
-   "date": "2026-11-02T15:18+00:00",
-   "image": null,
-   "vo": "FAQ: Why Zverev's rise to world No. 1 provokes mixed feelings",
-   "titre": "FAQ : Pourquoi l'ascension de Zverev au rang de numéro 1 mondial suscite-t-elle des sentiments mitigés ?",
-   "titre_fr": "FAQ : Pourquoi l'ascension de Zverev au rang de numéro 1 mondial suscite-t-elle des sentiments mitigés ?",
-   "blessure": false
-  },
-  {
-   "titre": "Jack Draper avertit que les décisions motivées par l'argent mettent en danger une génération de joueurs",
-   "lien": "https://www.ubitennis.net/2026/11/jack-draper-warns-money-driven-decisions-are-putting-a-generation-of-players-at-risk/",
-   "source": "Ubitennis",
-   "date": "2026-11-02T14:53+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Jack Draper Warns Money-Driven Decisions Are Putting A Generation Of Players At Risk",
-   "titre_fr": "Jack Draper avertit que les décisions motivées par l'argent mettent en danger une génération de joueurs"
   }
  ]
 }
