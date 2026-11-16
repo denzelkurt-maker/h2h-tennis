@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-16T11:49+00:00",
+ "maj": "2026-11-16T15:41+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 37 articles",
+  "L'Équipe": "ok, 36 articles",
   "Tennis Majors": "ok, 14 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 14 articles",
@@ -23,11 +23,20 @@
   "RMC Sport": "ok, 23 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "ok, 8 articles",
-  "Tennis Majors (EN)": "ok, 13 articles",
+  "ESPN": "erreur : no element found: line 1, column 0",
+  "Tennis Majors (EN)": "ok, 14 articles",
   "Ubitennis": "ok, 10 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/tim-henman-sur-les-retrouvailles-entre-alcaraz-et-ferrero-cetait-un-peu-genant-quand-juan-carlos-est-entre-sur-le-court-on-sentait-vraiment-que-cetait-la-premiere-fois-quils",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T15:16+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Ferrero-Alcaraz-1024x476.jpeg",
+   "titre": "Tim Henman sur les retrouvailles entre Alcaraz et Ferrero : « C’était un peu gênant. Quand Juan Carlos est entré sur le court, on sentait vraiment que c’était la première fois qu’ils avaient un quelconque contact depuis ",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/fr/atp-actualite/16-novembre-2001-le-jour-ou-hewitt-est-devenu-numero-1-mondial-masters-305775.html",
    "source": "Tennis Majors",
@@ -35,6 +44,91 @@
    "date": "2026-11-16T14:50+00:00",
    "image": null,
    "titre": "16 novembre 2001 : Le jour où Hewitt est devenu numéro 1 mondial",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/carlos-alcaraz-powers-past-tiafoe-in-atp-finals-opener/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-16T14:47+00:00",
+   "image": null,
+   "vo": "Carlos Alcaraz Powers Past Tiafoe In ATP Finals Opener",
+   "titre": "Carlos Alcaraz domine Tiafoe lors du match d'ouverture des ATP Finals",
+   "titre_fr": "Carlos Alcaraz domine Tiafoe lors du match d'ouverture des ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-en-demonstration-face-a-frances-tiafoe-pour-son-entree-en-lice-aux-finales-atp-de-turin/1744020#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-16T14:38+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-ce-lundi-a-turin-f-faugere-l-equipe/1500000002652050/0:0,2000:1333-828-552-75/27480.jpg",
+   "titre": "Carlos Alcaraz en démonstration face à Frances Tiafoe pour son entrée en lice aux Finales ATP de Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-apres-avoir-balaye-frances-tiafoe-je-savais-exactement-ce-que-javais-a-faire",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T14:37+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-entrainement-1024x544.jpeg",
+   "titre": "Carlos Alcaraz, après avoir balayé Frances Tiafoe : « Je savais exactement ce que j’avais à faire »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/fils-vs-jodar-a-must-win-rematch-in-turin-after-two-defeats-to-the-spaniard-this-summer-867127.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-16T14:20+00:00",
+   "image": null,
+   "vo": "Fils vs Jodar: a must-win rematch in Turin after two defeats to the Spaniard this summer",
+   "titre": "Fils contre Jodar : une revanche à ne pas manquer à Turin après deux défaites contre l’Espagnol cet été",
+   "titre_fr": "Fils contre Jodar : une revanche à ne pas manquer à Turin après deux défaites contre l’Espagnol cet été",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alexander-zverev-je-suis-sans-aucun-doute-le-meilleur-joueur-du-monde-dans-les-tournois-du-grand-chelem-cette-saison",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T14:15+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-conf-presse-1-1024x530.jpeg",
+   "titre": "Alexander Zverev : « Je suis sans aucun doute le meilleur joueur du monde dans les tournois du Grand Chelem cette saison »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/guto-miguel-sparring-partner-sur-le-masters-de-turin-parmi-tous-les-joueurs-cest-le-plus-impressionnant-pas-seulement-pour-la-facon-dont-il-frappe-mais-pour-la-maniere-dont-il-nous-traite",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T13:04+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Capture-decran-2026-11-16-a-13.22.29-1024x571.png",
+   "titre": "Guto Miguel, sparring-partner sur le Masters de Turin : « Parmi tous les joueurs, c’est le plus impressionnant. Pas seulement pour la façon dont il frappe, mais pour la manière dont il nous traite »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/juan-carlos-ferrero-toujours-autant-emu-au-sujet-dalcaraz-ca-fait-bizarre-je-dois-etre-honnete-il-restera-toujours-dans-mon-petit-coeur",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T12:39+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Ferrero-1024x553.jpeg",
+   "titre": "Juan Carlos Ferrero toujours autant ému au sujet d’Alcaraz : « Ça fait bizarre, je dois être honnête. Il restera toujours dans mon petit cœur »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-a-ben-shelton-au-filet-apres-leur-duel-sur-le-masters-de-turin-quel-match-de-fou-tu-as-ete-trop-fort",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T12:03+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-Shelton-1-1024x548.jpeg",
+   "titre": "Arthur Fils à Ben Shelton au filet après leur duel sur le Masters de Turin : « Quel match de fou ! Tu as été trop fort »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/du-tennis-au-pied-des-tours-dans-les-quartiers-nord-de-marseille_8284646.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-16T12:00+00:00",
+   "image": "https://www.franceinfo.fr/pictures/feP8ld0PWhsaLw3xmqSM8LG-hjc/14x0:466x803/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/11/16/6afade15a0b87674509171.jpg",
+   "titre": "Du tennis au pied des tours dans les quartiers Nord de Marseille",
    "blessure": false
   },
   {
@@ -121,12 +215,30 @@
    "blessure": false
   },
   {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/ben-shelton-vainqueur-darthur-fils-sur-le-masters-de-turin-vous-savez-on-dit-que-paris-etait-lun-des-courts-les-plus-rapides-de-tous-les-temps-je-pense-quavec-la-lege",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T08:12+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Shelton-coup-droit-1024x499.jpeg",
+   "titre": "Ben Shelton, vainqueur d’Arthur Fils sur le Masters de Turin : « Vous savez, on dit que Paris était l’un des courts les plus rapides de tous les temps. Je pense qu’avec la légère altitude ici, la balle vole un peu plus »",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/arthur-fils-apres-sa-defaite-face-a-ben-shelton-jai-perdu-contre-un-ami-il-y-a-pire-dans-la-vie-je-suis-deja-concentre-sur-mon-match-de-mardi",
    "source": "We Love Tennis",
    "langue": "fr",
    "date": "2026-11-16T07:41+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-service-1-1024x599.jpeg",
    "titre": "Arthur Fils après sa défaite face à Ben Shelton : « J’ai perdu contre un ami, il y a pire dans la vie. Je suis déjà concentré sur mon match de mardi »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-apres-sa-defaite-face-a-ben-shelton-sur-le-masters-de-turin-jai-perdu-contre-un-ami-il-y-a-pire-dans-la-vie",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T07:41+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-service-1-1024x599.jpeg",
+   "titre": "Arthur Fils, après sa défaite face à Ben Shelton sur le Masters de Turin : « J’ai perdu contre un ami, il y a pire dans la vie »",
    "blessure": false
   },
   {
@@ -3674,116 +3786,6 @@
    "date": "2026-11-05T08:25+00:00",
    "image": "https://www.franceinfo.fr/pictures/gC2Wh4mVu05taxHDP-bBz30dQwU/0x0:423x752/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/11/05/6aec3d688c1d5665308020.jpg",
    "titre": "Yannick Noah en premier supporter d'Arthur Fils lors de sa victoire au Masters 1000 de Paris",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4260342-20261105-masters-1000-paris-fils-halys-van-assche-francais-partout-tous-gouts-3e-tour?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-05T06:02+00:00",
-   "image": "https://img.20mn.fr/Heav8VdXQTy7KzHXa7NoYik/1200x768_arthur-fils-a-conclu-un-joli-4-5-pour-le-tennis-francais-au-2e-tour-du-masters-1000-de-paris-mercredi-soir-en-battant-tomas-machac-6-3-7-6-il-sera-oppose-a-taylor-fritz-ce-jeudi",
-   "titre": "Masters 1000 Paris : Fils, Halys, Van Assche… Des Français partout et pour tous les goûts en 8e de finale",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/masters-1000-de-paris-arthur-fils-une-victoire-pour-feter-sa-place-au-masters_AD-202611041005.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-04T23:00+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/5TGGyOiBpcMnfuGajTbE3qFB7ZY=/0x140:2048x1292/800x0/images/Arthur-Fils-lors-du-tournoi-ATP-de-Bruxelles-24-octobre-2026-2372480.jpg",
-   "titre": "Masters 1000 de Paris: Arthur Fils, une victoire pour fêter sa place au Masters",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/arthur-fils-enflamme-le-public-et-rallie-les-8es-du-masters-1000-de-paris_8268512.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-04T22:18+00:00",
-   "image": "https://www.franceinfo.fr/pictures/ZRdgBMLdZ0_H5Ntc7pYSX2TAchg/2527x0:4824x4084/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/11/04/6aebaf206a074321376022.jpg",
-   "titre": "Arthur Fils enflamme le public et rallie les 8es du Masters 1000 de Paris",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/paris-bercy/direct-masters-1000-de-paris-suivez-la-fin-du-2e-tour-avec-fils-alcaraz-djokovic-et-zverev-en-live_LN-202611040398.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-04T21:55+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/5TGGyOiBpcMnfuGajTbE3qFB7ZY=/0x140:2048x1292/800x0/images/Arthur-Fils-lors-du-tournoi-ATP-de-Bruxelles-24-octobre-2026-2372480.jpg",
-   "titre": "Masters 1000 de Paris: Fils et Halys en 8e, Djokovic et Zverev prennent déjà la porte",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/autoritaire-arthur-fils-reussit-son-entree-en-lice-au-masters-1000-de-paris-et-rallie-les-huitiemes-de-finale_8268386.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-04T21:53+00:00",
-   "image": "https://www.franceinfo.fr/pictures/FWEMtIBGIVOaBVXVdUov0GKRkOE/0x0:3839x2159/432x243/filters:format(jpg)/2026/11/04/6aeba2c76acc4485557474.jpg",
-   "titre": "Autoritaire, Arthur Fils réussit son entrée en lice au Masters 1000 de Paris et rallie les huitièmes de finale",
-   "blessure": false
-  },
-  {
-   "titre": "Novak Djokovic fait exploser la « performance terrible » alors que les finales de l'ATP espèrent se terminer à Paris",
-   "lien": "https://www.ubitennis.net/2026/11/novak-djokovic-blasts-terrible-performance-as-atp-finals-hopes-end-in-paris/",
-   "source": "Ubitennis",
-   "date": "2026-11-04T20:43+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Novak Djokovic Blasts ‘Terrible Performance’ As ATP Finals Hopes End In Paris",
-   "titre_fr": "Novak Djokovic fait exploser la « performance terrible » alors que les finales de l'ATP espèrent se terminer à Paris"
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4260448-20261104-masters-1000-paris-novak-djokovic-vacances-apres-naufrage-2e-tour-contre-hijikata?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-04T18:08+00:00",
-   "image": "https://img.20mn.fr/bFJ027WQQ_a_uIswjV2xIik/1200x768_l-australien-rinky-hijikata-a-joue-le-feu-dans-les-deux-dernieres-manches-pour-s-imposer-contre-novak-djokovic-au-2e-tour-du-masters-1000-de-paris-mercredi-4-novembre",
-   "titre": "Masters 1000 de Paris : Novak Djokovic « en vacances » après son naufrage au 2e tour contre Hijikata",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/novak-djokovic-hors-course-pour-les-finales-atp-apres-son-elimination-des-le-2e-tour-du-masters-1000-de-paris_8268152.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-04T17:18+00:00",
-   "image": "https://www.franceinfo.fr/pictures/SgiVld38dMjnCnwMCqxqVPnugMA/0x0:3007x1691/432x243/filters:format(jpg)/2026/11/03/6aea00d498d41975880733.jpg",
-   "titre": "Novak Djokovic hors course pour les Finales ATP après son élimination dès le 2e tour du Masters 1000 de Paris",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/football/liga/4260441-20261104-liga-immense-fierte-real-madrid-veut-voir-rafael-nadal-integrer-conseil-administration?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-04T17:18+00:00",
-   "image": "https://img.20mn.fr/t8JTykDwSFC8Hurnm-8scyk/1200x768_12-septembre-2026-madrid-madrid-espagne-rafael-nadal-lors-du-match-de-football-de-la-liga-entre-le-real-madrid-cf-et-le-rayo-vallecano-au-stade-santiago-bernabeu-de-madrid-en-espagne-le-12-septembre-2026-credit-image-ruben-albarran-zuma-press-wire-20260912-zsp-a206-106-zeus-2609130054",
-   "titre": "Liga : « Une immense fierté »… Le Real Madrid veut voir Rafael Nadal intégrer son conseil d’administration",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4260426-20261104-masters-1000-paris-merite-etre-elimine-irrite-zverev-pire-numero-mondial?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-04T16:37+00:00",
-   "image": "https://img.20mn.fr/K7QVHOKTS6iPZ_9lpCl3dSk/1200x768_alexander-zverev-d-allemagne-retourne-le-ballon-contre-lorenzo-musetti-d-italie-lors-de-leur-match-de-deuxieme-tour-du-tournoi-de-tennis-paris-masters-a-nanterre-pres-de-paris-le-mercredi-4-novembre-2026-ap-photo-teresa-suarez-sua107-26308480319550-2611041435",
-   "titre": "Masters 1000 de Paris : « Je mérite d’être là où je suis »… Éliminé et irrité, Zverev est-il le pire numéro un mondial ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/paris-bercy/masters-1000-de-paris-grace-au-psg-j-ai-eu-mes-heures-de-sommeil-la-joie-de-quentin-halys-apres-son-exploit-face-a-francis-tiafoe_AV-202611040665.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-04T15:37+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/AW9v9xjHIXN9P_dqerEE3OWzlsE=/0x17:2048x1169/800x0/images/Quentin-Halys-au-Masters-1000-de-Paris-le-4-novembre-2026-2377959.jpg",
-   "titre": "Masters 1000 de Paris: \"Grâce au PSG, j’ai eu mes heures de sommeil\", la joie de Quentin Halys après son exploit face à Francis Tiafoe",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/masters-1000-de-paris-le-nouveau-n-1-mondial-alexander-zverev-tombe-d-entree-face-a-lorenzo-musetti_8267837.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-04T15:11+00:00",
-   "image": "https://www.franceinfo.fr/pictures/pGjPwKNaBsSwk-RFDIPOSFt5Ocs/0x0:3515x1977/432x243/filters:format(jpg)/2026/11/04/6aeb42cf12bcf559594342.jpg",
-   "titre": "Alexander Zverev tombe d'entrée au Masters 1000 de Paris pour son premier match en tant que n°1 mondial",
    "blessure": false
   }
  ]
