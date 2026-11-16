@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-16T09:25+00:00",
+ "maj": "2026-11-16T11:49+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,12 +18,12 @@
   "L'Équipe": "ok, 37 articles",
   "Tennis Majors": "ok, 14 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 17 articles",
+  "We Love Tennis": "ok, 14 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 23 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "erreur : no element found: line 1, column 0",
+  "ESPN": "ok, 8 articles",
   "Tennis Majors (EN)": "ok, 13 articles",
   "Ubitennis": "ok, 10 articles"
  },
@@ -38,6 +38,42 @@
    "blessure": false
   },
   {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/frances-tiafoe-avant-daffronter-carlos-alcaraz-sur-le-masters-de-turin-nous-sommes-probablement-parmi-les-derniers-joueurs-capables-de-realiser-tous-les-coups",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T11:34+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/07/Tiafoe-Alcaraz-1024x555.jpeg",
+   "titre": "Frances Tiafoe avant d’affronter Carlos Alcaraz sur le Masters de Turin : « Nous sommes probablement parmi les derniers joueurs capables de réaliser tous les coups »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/shelton-a-propos-de-ferrero-deja-present-dans-sa-box-ces-derniers-jours-nous-avons-deja-beaucoup-travaille-en-essayant-de-progresser-chaque-jour",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-16T10:48+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Shelton-entree-1024x544.jpeg",
+   "titre": "Shelton à propos de Ferrero déjà présent dans sa box : « Ces derniers jours, nous avons déjà beaucoup travaillé, en essayant de progresser chaque jour »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Vainqueur-du-masters-1000-de-shanghai-alejandro-davidovich-fokina-est-forfait-pour-la-coupe-davis-avec-l-espagne/1743980#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-16T10:46+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/alejandro-davidovich-fokina-a-connu-plusieurs-problemes-physiques-pendant-la-saison-a-reau-l-equipe/1500000002651884/0:0,1999:1332-828-552-75/3f157.jpg",
+   "titre": "Vainqueur du Masters 1000 de Shanghai, Alejandro Davidovich Fokina est forfait pour la Coupe Davis avec l'Espagne",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-beaucoup-se-servent-d-un-reglement-debile-entre-rebonds-infinis-perte-de-temps-volontaire-pourquoi-le-service-crispe-de-plus-en-plus/1743862#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-16T10:30+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/alexander-zverev-au-service-ce-dimanche-a-turin-face-a-rafael-jodar-f-faugere-l-equipe/1500000002651426/31:20,785:523-828-552-75/5a07d.jpg",
+   "titre": "« Beaucoup se servent d'un règlement débile » : entre rebonds infinis, perte de temps volontaire, pourquoi le service crispe de plus en plus",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/atp/november-16-2001-lleyton-hewitt-secures-world-no-1-spot-305731.html",
    "source": "Tennis Majors (EN)",
    "langue": "en",
@@ -46,6 +82,15 @@
    "vo": "November 16, 2001: The day Lleyton Hewitt became world No 1 for the first time",
    "titre": "16 novembre 2001 : le jour où Lleyton Hewitt est devenu numéro 1 mondial pour la première fois",
    "titre_fr": "16 novembre 2001 : le jour où Lleyton Hewitt est devenu numéro 1 mondial pour la première fois",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Demarrage-a-toute-allure-puis-victime-du-service-de-bombardier-de-ben-shelton-arthur-fils-a-vecu-une-premiere-amere-aux-finales-atp/1743934#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-16T09:40+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Première amère pour Fils",
    "blessure": false
   },
   {
@@ -112,15 +157,6 @@
    "blessure": false
   },
   {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Demarrage-a-toute-allure-puis-victime-du-service-de-bombardier-de-ben-shelton-arthur-fils-a-vecu-une-premiere-amere-aux-finales-atp/1743934#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T23:20+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Première amère pour Fils",
-   "blessure": false
-  },
-  {
    "lien": "https://www.ubitennis.net/2026/11/ben-shelton-sees-off-fills-to-clinch-first-atp-finals-win-of-career/",
    "source": "Ubitennis",
    "langue": "en",
@@ -138,6 +174,17 @@
    "date": "2026-11-15T22:51+00:00",
    "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
    "titre": "Le résumé de Fils - Shelton",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50490503/alexander-zverev-opens-atp-finals-win-rafael-jodar",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-15T22:46+00:00",
+   "image": null,
+   "vo": "Top-ranked Zverev opens ATP Finals with convincing win over Jodar",
+   "titre": "Zverev, classé numéro 1, ouvre les ATP Finals par une victoire convaincante sur Jodar",
+   "titre_fr": "Zverev, classé numéro 1, ouvre les ATP Finals par une victoire convaincante sur Jodar",
    "blessure": false
   },
   {
@@ -3737,51 +3784,6 @@
    "date": "2026-11-04T15:11+00:00",
    "image": "https://www.franceinfo.fr/pictures/pGjPwKNaBsSwk-RFDIPOSFt5Ocs/0x0:3515x1977/432x243/filters:format(jpg)/2026/11/04/6aeb42cf12bcf559594342.jpg",
    "titre": "Alexander Zverev tombe d'entrée au Masters 1000 de Paris pour son premier match en tant que n°1 mondial",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4260376-20261104-tennis-quentin-halys-qualifie-arthur-fils-premier-masters-dit-merci?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-04T14:16+00:00",
-   "image": "https://img.20mn.fr/_p6Ceq0XR5a67VpDyQgyOCk/1200x768_le-francais-arthur-fils-est-qualifie-pour-les-masters-de-turin-en-novembre",
-   "titre": "Tennis : Quentin Halys qualifie Arthur Fils pour son premier Masters, on dit merci qui ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/arthur-fils/tennis-arthur-fils-qualifie-pour-le-masters-premier-francais-depuis-gael-monfils-en-2016_8267726.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-04T12:46+00:00",
-   "image": "https://www.franceinfo.fr/pictures/JeTKKUzI9gWGqD_71-9loPlADMM/0x0:5048x2839/432x243/filters:format(jpg)/2026/11/04/6aeb289190eec433336324.jpg",
-   "titre": "Arthur Fils qualifié pour le Masters, premier Français depuis Gaël Monfils en 2016",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/gael-monfils/les-mots-touchants-de-gael-monfils-a-l-adresse-de-sa-fille-skai_8267348.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-04T08:30+00:00",
-   "image": "https://www.franceinfo.fr/pictures/PJeMDfZsFYaVPxy4Fhf23RMSU2s/128x0:2980x5070/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/11/04/6aeaece06856b081874026.jpg",
-   "titre": "Les mots touchants de Gaël Monfils à l'adresse de sa fille Skaï",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/gael-monfils/en-images-ses-debuts-triomphants-en-juniors-ses-matchs-epiques-a-roland-garros-ses-13-titres-atp-les-moments-marquants-de-la-carriere-de-gael-monfils_8264078.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-04T05:30+00:00",
-   "image": "https://www.franceinfo.fr/pictures/_CTpn2FGJwa__Qx9Q7ljIQD4uok/0x405:3896x2597/432x243/filters:format(jpg)/2026/11/03/6aea4ef8b5f19577835404.jpg",
-   "titre": "EN IMAGES. Ses débuts triomphants en juniors, ses matchs épiques à Roland-Garros, ses 13 titres ATP... Les moments marquants de la carrière de Gaël Monfils",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/direct-masters-1000-de-paris-suivez-en-live-le-1er-tour-du-rolex-paris-masters_LN-202611020395.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-03T21:27+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/aYvnqfwafdeEunfXg88A0yZHKpw=/0x103:2048x1255/800x0/images/Gael-Monfils-au-Rolex-Paris-Masters-le-3-novembre-2026-2377427.jpg",
-   "titre": "DIRECT. Masters 1000 de Paris: fortune diverse pour les Français, un bel hommage pour Monfils",
    "blessure": false
   }
  ]
