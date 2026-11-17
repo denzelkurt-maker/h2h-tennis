@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T17:43+00:00",
+ "maj": "2026-11-17T18:07+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -28,6 +28,15 @@
   "Ubitennis": "ok, 13 articles"
  },
  "articles": [
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/comme-un-quart-de-finale-arthur-fils-impatient-d-en-decoudre-avec-le-n-1-mondial-alexander-zverev-aux-atp-finals_AV-202611170821.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-17T17:44+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/MxAVGor1XXRdhRBuqOaiRmGBdK0=/0x106:2048x1258/800x0/images/Arthur-Fils-aux-ATP-Finals-le-17-novembre-2026-2385656.jpg",
+   "titre": "\"Comme un quart de finale\": Arthur Fils impatient d'en découdre avec le n°1 mondial Alexander Zverev aux ATP Finals",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/jimmy-connors-apres-avoir-ete-opere-dun-cancer-mettez-de-la-creme-solaire",
    "source": "We Love Tennis",
@@ -76,6 +85,15 @@
    "blessure": false
   },
   {
+   "lien": "https://rmcsport.bfmtv.com/tennis/video-masters-atp-pas-grand-chose-a-perdre-fils-serein-avant-de-defier-zverev_VN-202611170769.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-17T17:03+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/0CJPxKrYBK7PAIi72UY7pHS0L6U=/0x0:1280x720/800x0/images/Masters-ATP-Pas-grand-chose-a-perdre-Fils-serein-avant-de-defier-Zverev-2385607.jpg",
+   "titre": "Masters ATP : \"Pas grand chose à perdre\", Fils serein avant de défier Zverev",
+   "blessure": false
+  },
+  {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-apres-sa-premiere-victoire-aux-finales-atp-je-m-en-suis-un-peu-voulu-sur-le-premier-set/1744290#at_medium=RSS_feeds",
    "source": "L'Équipe",
    "langue": "fr",
@@ -109,6 +127,24 @@
    "date": "2026-11-17T16:17+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Djokovic-1024x551.jpeg",
    "titre": "Ivan Ljubicic sans détour sur les chances de Novak Djokovic en Grand Chelem : « Cela ne dépend plus de lui »",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/tennis-le-message-incendiaire-du-numero-un-mondial-en-double-contre-le-president-de-l-atp_AV-202611170721.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-17T16:12+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/wEJm8PZzd-eSjedQCCowSgyg1dI=/0x0:2048x1152/800x0/images/Harri-Heliovaara-et-Henry-Patten-recoivent-le-trophee-des-numeros-un-en-double-le-16-novembre-2026-2385550.jpg",
+   "titre": "Tennis: le message incendiaire du numéro un mondial en double contre le président de l'ATP",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/masters-atp-pourquoi-la-victoire-d-arthur-fils-face-a-rafael-jodar-est-historique-pour-le-tennis-francais_AV-202611170688.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-17T15:31+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/wewdOfJ998E-gPPnXaquKL4O86s=/0x0:2048x1152/800x0/images/Arthur-Fils-lors-du-Masters-ATP-le-17-novembre-2026-2385529.jpg",
+   "titre": "Masters ATP: pourquoi la victoire d'Arthur Fils face à Rafael Jodar est historique pour le tennis français",
    "blessure": false
   },
   {
@@ -3762,42 +3798,6 @@
    "date": "2026-11-08T08:26+00:00",
    "image": "https://img.20mn.fr/BpTJ2LozTBqYMK8KKU8qQyk/1200x768_carlos-alcaraz-vise-un-premier-titre-au-masters-1000-de-paris-dimanche-apres-midi-photo-d-illustration",
    "titre": "Alcaraz - Shelton : Sur quelle chaîne TV et à quelle heure voir la finale du Rolex Paris Masters 2026 ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Entre-carlos-alcaraz-et-ben-shelton-le-rolex-paris-masters-attend-son-nouveau-vainqueur/1742056#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-08T05:50+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-reussit-enfin-au-rolex-paris-masters-a-reau-l-equipe/1500000002645020/0:0,2000:1333-828-552-75/c5835.jpg",
-   "titre": "Entre Carlos Alcaraz et Ben Shelton, le Rolex Paris Masters attend son nouveau vainqueur",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/-il-m-a-dit-qu-il-etait-tres-heureux-pour-moi-ben-shelton-revele-avoir-prevenu-alcaraz-qu-il-avait-embauche-ferrero-avant-l-officialisation/1742139#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T23:21+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "« Il m'a dit qu'il était très heureux pour moi » : Ben Shelton révèle avoir prévenu Alcaraz qu'il avait embauché Ferrero avant l'officialisation",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Video/Rolex-paris-masters-les-temps-forts-de-la-defaite-de-luca-van-assche-face-a-ben-shelton/20245104#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T23:13+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Les temps forts du quart de finale du Rolex Paris Masters entre Luca Van Assche et Ben Shelton",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Video/Rolex-paris-masters-les-temps-forts-du-quart-de-finale-du-rolex-paris-masters-entre-carlos-alcaraz-et-taylor-fritz/20245051#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T22:41+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Les temps forts du quart de finale du Rolex Paris Masters entre Carlos Alcaraz et Taylor Fritz",
    "blessure": false
   }
  ]
