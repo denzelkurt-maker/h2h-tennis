@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T07:58+00:00",
+ "maj": "2026-11-17T09:41+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 37 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 16 articles",
+  "We Love Tennis": "ok, 17 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 23 articles",
   "franceinfo": "ok, 18 articles",
@@ -28,6 +28,62 @@
   "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.ubitennis.net/2026/11/atp-chiefs-under-fire-for-skipping-doubles-trophy-presentation-at-year-end-finals/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-17T09:39+00:00",
+   "image": null,
+   "vo": "ATP Chiefs Under Fire For Skipping Doubles Trophy Presentation At Year-End Finals",
+   "titre": "Les dirigeants de l'ATP critiqués pour avoir sauté la remise du trophée du double lors des finales de fin d'année",
+   "titre_fr": "Les dirigeants de l'ATP critiqués pour avoir sauté la remise du trophée du double lors des finales de fin d'année",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-responsable-de-lassociation-ferrero-shelton-toni-lache-une-bombe-je-savais-que-ben-cherchait-un-entraineur-parce-quil-a-appele-mon-neveu-rafael-pour-lui-demander-conseil",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T09:32+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/05/Toni-Nadal-1024x555.jpeg",
+   "titre": "Rafael Nadal responsable de l’association Ferrero-Shelton ? Toni lâche une bombe : « Je savais que Ben cherchait un entraîneur parce qu’il a appelé mon neveu Rafael pour lui demander conseil",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/sinner-manque-beaucoup-a-ce-joueur-personnellement-ca-maurait-beaucoup-arrange-sans-aucun-doute-son-premier-match-naurait-pas-fini-comme-ca-jaurais-pu-jouer-beaucoup",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T09:07+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/PHOTO-2026-11-16-23-10-08-1024x682.jpg",
+   "titre": "Sinner manque beaucoup à ce joueur : « Personnellement, ça m’aurait beaucoup arrangé, sans aucun doute son premier match n’aurait pas fini comme ça. J’aurais pu jouer beaucoup plus sereinement »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/carlos-alcaraz-devoile-la-premiere-chose-quil-fera-a-la-fin-de-la-saison-eh-bien-je-ne-peux-pas-encore-y-jouer-parce-que-mon-equipe-ne-me-le-permet-pas",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T08:37+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-public-1-1024x510.jpeg",
+   "titre": "Carlos Alcaraz dévoile la première chose qu’il fera à la fin de la saison : « Eh bien, je ne peux pas encore y jouer, parce que mon équipe ne me le permet pas »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Lapo-becherini-le-preparateur-physique-charge-de-preserver-la-puissance-d-arthur-fils-son-tennis-implique-de-l-intensite-tout-au-long-d-un-match/1744122#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T08:28+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Becherini, préparateur physique de Fils : «Son tennis implique de l'intensité»",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/cobolli-y-croit-encore-je-suis-un-peu-triste-de-ma-prestation-et-de-cette-defaite-mais-ce-nest-pas-termine-il-me-reste-encore-deux-matchs",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T08:12+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/PHOTO-2026-11-16-23-28-55.jpg",
+   "titre": "Cobolli y croit encore : « je suis un peu triste de ma prestation et de cette défaite, mais ce n’est pas terminé. Il me reste encore deux matchs »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/medvedev-vainqueur-face-a-cobolli-compte-bien-enchainer-je-pense-que-ce-court-offre-les-meilleures-chances-de-battre-alcaraz",
    "source": "We Love Tennis",
@@ -82,15 +138,6 @@
    "date": "2026-11-17T06:32+00:00",
    "image": "https://img.20mn.fr/A0CLkIfjTMyZG_fKSo5-byk/1200x768_battu-par-ben-shelton-lors-du-1er-match-arthur-fils-defie-rafael-jodar-mardi-aux-finales-atp-de-turin-photo-d-illustration",
    "titre": "Arthur Fils-Jodar : Sur quelle chaîne TV et à quelle heure voir le 2e match de groupe des ATP Finals Masters ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Lapo-becherini-le-preparateur-physique-charge-de-preserver-la-puissance-d-arthur-fils-son-tennis-implique-de-l-intensite-tout-au-long-d-un-match/1744122#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T04:34+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-et-son-preparateur-physique-lapo-becherini-collaborent-depuis-plus-d-un-an-f-faugere-l-equipe/1500000002652308/0:0,1500:1000-828-552-75/f86b5.jpg",
-   "titre": "Lapo Becherini, le préparateur physique chargé de préserver la puissance d'Arthur Fils : « Son tennis implique de l'intensité tout au long d'un match »",
    "blessure": false
   },
   {
@@ -3751,51 +3798,6 @@
    "date": "2026-11-07T13:37+00:00",
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/e4fszUJgXsJaQGJMcMPBMtUf43w=/0x165:2048x1317/800x0/images/Gael-Monfils-fait-ses-adieux-a-l-US-Open-et-aux-tournois-du-Grand-Chelem-apres-sa-defaite-contre-Learner-Tien-6-3-6-4-6-3-le-4-septembre-2026-2342145.jpg",
    "titre": "Coupe Davis: Sarah Pitkowski pointe \"la plus grande mission\" de Gaël Monfils après sa nomination à la tête des Bleus",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/coupe-davis/coupe-davis-les-coulisses-de-la-nomination-de-gael-monfils-a-la-tete-des-bleus_AV-202611070287.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-07T12:52+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/4KiNC9J4vmtgTMTRghzHYdGpmW8=/240x64:2000x1054/800x0/images/Cedric-Pioline-Gael-Monfils-et-Gilles-Moretton-au-Rolex-Paris-Masters-le-3-novembre-2026-2379797.jpg",
-   "titre": "Coupe Davis: les coulisses de la nomination de Gaël Monfils à la tête des Bleus",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4261153-20261107-direct-van-assche-shelton-surprise-semaine-francais-marche-finale-historique-suivez-match?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-07T12:17+00:00",
-   "image": "https://img.20mn.fr/HQUt8rz0RGKi4k-SVndZYyk/1200x768_le-francais-luca-van-assche-a-droite-rend-le-ballon-a-ben-shelton-des-etats-unis-lors-d-un-match-de-demi-finale-du-tournoi-de-tennis-paris-masters-a-nanterre-pres-de-paris-en-france-le-samedi-7-novembre-2026-ap-photo-thibault-camus-ena135-26311558421124-2611071641",
-   "titre": "Van Assche - Shelton : L'Américain met fin au rêve de Van Assche après un gros combat... Revivez le match avec nous...",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/gael-monfils-nomme-nouveau-capitaine-de-l-equipe-de-france-de-coupe-davis-de-tennis_8272202.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-07T11:09+00:00",
-   "image": "https://www.franceinfo.fr/pictures/KrQyFGJg9_863-YuEyHLBI3B3j8/0x0:5426x3052/432x243/filters:format(jpg)/2026/11/07/6aef06d45997e570886216.jpg",
-   "titre": "Gaël Monfils nommé nouveau capitaine de l'équipe de France de Coupe Davis de tennis",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/casper-ruud_DN-202305240418.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-07T11:05+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/7hGD-QtOfDWqykkQXlcxEYeTBoE=/15x0:1999x1116/800x0/images/C-Ruud-1638436.jpg",
-   "titre": "Casper Ruud",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/La-fft-officialise-la-nomination-de-gael-monfils-comme-capitaine-de-l-equipe-de-france-de-coupe-davis/1741876#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T10:51+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/gael-monfils-a-peine-retraite-comme-joueur-reprend-du-service-comme-capitaine-de-l-equipe-de-france-de-coupe-davis-p-lahalle-l-equipe/1500000002644568/0:0,2000:1333-828-552-75/35f2c.jpg",
-   "titre": "La FFT officialise la nomination de Gaël Monfils comme capitaine de l'équipe de France de Coupe Davis",
    "blessure": false
   }
  ]
