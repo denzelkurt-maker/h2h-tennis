@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T09:41+00:00",
+ "maj": "2026-11-17T11:29+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,16 +18,83 @@
   "L'Équipe": "ok, 37 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 17 articles",
+  "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 23 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 17 articles",
-  "Ubitennis": "ok, 11 articles"
+  "Ubitennis": "ok, 12 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/tim-henman-pour-moi-zverev-est-le-joueur-le-plus-resistant-du-circuit-avec-tout-le-respect-que-je-leur-dois-alcaraz-et-sinner-nont-pas-fait-preuve-de-cela-cette-annee",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T11:02+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-revers-1024x507.jpeg",
+   "titre": "Tim Henman : « Pour moi, Zverev est le joueur le plus résistant du circuit. Avec tout le respect que je leur dois, Alcaraz et Sinner n’ont pas fait preuve de cela cette année »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/ljubicic-sur-la-date-de-retour-de-sinner-jai-vu-jannik-a-monte-carlo-avant-de-venir-a-turin-il-etait-souriant-et-ma-dit-quil-suivait-tous-les-protocoles",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T10:43+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Ljubicic-micro-1024x525.jpeg",
+   "titre": "Ljubicic sur la date de retour de Sinner : « J’ai vu Jannik à Monte-Carlo avant de venir à Turin. Il était souriant et m’a dit qu’il suivait tous les protocoles »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-tout-le-monde-etait-contre-cette-decision-radicale-theo-arribage-le-toulousain-qui-a-fait-fi-des-avis-pour-se-consacrer-entierement-au-double/1744056#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T10:41+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Arribagé, fils de footballeur et spécialiste de double",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/masters-2026-tous-les-scenarios-de-qualification-810353.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-17T10:32+00:00",
+   "image": null,
+   "titre": "Zverev et Shelton peuvent se qualifier aujourd’hui : tous les scénarios de qualification des ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-all-the-qualification-scenarios-867176.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-17T10:29+00:00",
+   "image": null,
+   "vo": "Zverev and Shelton can qualify today: all the qualification scenarios at the ATP Finals",
+   "titre": "Zverev et Shelton peuvent se qualifier aujourd’hui : tous les scénarios de qualification aux ATP Finals",
+   "titre_fr": "Zverev et Shelton peuvent se qualifier aujourd’hui : tous les scénarios de qualification aux ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/flavio-cobolli-feeling-the-weight-of-sinners-absence-at-atp-finals/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-17T10:14+00:00",
+   "image": null,
+   "vo": "Flavio Cobolli Feeling The Weight of Sinner’s Absence At ATP Finals",
+   "titre": "Flavio Cobolli ressent le poids de l'absence de Sinner aux ATP Finals",
+   "titre_fr": "Flavio Cobolli ressent le poids de l'absence de Sinner aux ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/corretja-previent-alcaraz-a-propos-de-son-prochain-adversaire-il-est-tres-intelligent-et-sait-comment-manoeuvrer-ses-adversaires-tu-vas-devoir-te-battre-enormement",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T10:04+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Alex-1024x546.jpg",
+   "titre": "Corretja prévient Alcaraz à propos de son prochain adversaire : « Il est très intelligent et sait comment manoeuvrer ses adversaires…Tu vas devoir te battre enormément »",
+   "blessure": false
+  },
   {
    "lien": "https://www.ubitennis.net/2026/11/atp-chiefs-under-fire-for-skipping-doubles-trophy-presentation-at-year-end-finals/",
    "source": "Ubitennis",
@@ -85,12 +152,30 @@
    "blessure": false
   },
   {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/flavio-cobolli-battu-par-daniil-medvedev-je-suis-un-peu-triste-de-ma-prestation-et-de-cette-defaite-mais-ce-nest-pas-termine-il-me-reste-encore-deux-matchs",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T08:12+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/PHOTO-2026-11-16-23-28-55.jpg",
+   "titre": "Flavio Cobolli, battu par Daniil Medvedev : « Je suis un peu triste de ma prestation et de cette défaite, mais ce n’est pas terminé. Il me reste encore deux matchs »",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/medvedev-vainqueur-face-a-cobolli-compte-bien-enchainer-je-pense-que-ce-court-offre-les-meilleures-chances-de-battre-alcaraz",
    "source": "We Love Tennis",
    "langue": "fr",
    "date": "2026-11-17T07:51+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Medvedev-5419-1024x521.jpg",
    "titre": "Medvedev vainqueur face à Cobolli compte bien enchaîner : « Je pense que ce court offre les meilleures chances de battre Alcaraz… »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/daniil-medvedev-previent-deja-alcaraz-je-pense-que-ce-court-offre-les-meilleures-chances-de-battre-carlos",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T07:51+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Medvedev-5419-1024x521.jpg",
+   "titre": "Daniil Medvedev prévient déjà Alcaraz : « Je pense que ce court offre les meilleures chances de battre Carlos »",
    "blessure": false
   },
   {
@@ -3717,87 +3802,6 @@
    "date": "2026-11-07T16:58+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/gilles-simon-et-gilles-moretton-ont-justifie-la-nomination-de-gael-monfils-comme-capitaine-de-coupe-davis-samedi-au-rolex-paris-masters-a-reau-l-equipe/1500000002644849/121:212,1794:1328-828-552-75/0c4de.jpg",
    "titre": "Gilles Simon sur la nomination de Gaël Monfils comme capitaine de l'équipe de France de Coupe Davis : « Ça lui tenait à coeur, plus que ce que vous pouvez imaginer »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/rolex-paris-masters-1000-atp/shelton-soffre-sa-premiere-finale-de-masters-1000-hors-du-canada-et-met-fin-au-parcours-de-van-assche-809712.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-07T16:50+00:00",
-   "image": null,
-   "titre": "Shelton s’offre sa première finale de Masters 1000 hors du Canada et met fin au parcours de Van Assche",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/l-epopee-du-francais-luca-van-assche-stoppee-en-demi-finales-du-masters-1000-de-paris-par-ben-shelton_8272385.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-07T16:10+00:00",
-   "image": "https://www.franceinfo.fr/pictures/GK0KG5hQW2gHoUXR3IIhr-Bmymk/0x0:8640x4860/432x243/filters:format(jpg)/2026/11/07/6aef32e6bfc5e748824347.jpg",
-   "titre": "L'épopée du Français Luca van Assche stoppée en demi-finales du Masters 1000 de Paris par Ben Shelton",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Sacre-boucan-et-show-renversant-on-se-souviendra-de-la-premiere-qualification-de-carlos-alcaraz-en-demi-finales-du-rolex-paris-masters/1741848#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T16:06+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Alcaraz, sacré boucan et show renversant",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Battu-en-trois-sets-par-ben-shelton-luca-van-assche-s-arrete-en-demi-finales-du-rolex-paris-masters/1741949#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T16:01+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/luca-van-assche-n-est-pas-passe-loin-d-une-premiere-finale-en-masters-1000-a-reau-l-equipe/1500000002644803/0:0,2000:1333-828-552-75/a9491.jpg",
-   "titre": "Battu en trois sets par Ben Shelton, Luca Van Assche s'arrête en demi-finales du Rolex Paris Masters",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp-actualite/stockholm-open-atp-250/stockholm-rune-de-retour-la-ou-il-setait-blesse-affrontera-bergs-au-1er-tour-809693.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-07T15:33+00:00",
-   "image": null,
-   "titre": "Stockholm : Rune de retour là où il s’était blessé, affrontera Bergs au 1er tour",
-   "blessure": true
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Luca-van-assche-le-teigneux-qui-a-appris-a-prendre-le-jeu-a-son-compte-il-frappe-beaucoup-plus-fort-en-coup-droit/1741814#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T14:40+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Van Assche, le teigneux devenu conquérant dans le jeu",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/coupe-davis-actualite/la-surprise-gael-monfils-nomme-capitaine-de-lequipe-de-france-de-coupe-davis-809677.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-07T14:07+00:00",
-   "image": null,
-   "titre": "La surprise : Gaël Monfils nommé capitaine de l’équipe de France de Coupe Davis",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Luca-van-assche-l-enfant-qui-ne-supportait-pas-de-rater-ca-provoquait-chez-lui-des-coups-de-colere/1741828#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T13:38+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Van Assche, l'enfant qui ne supportait pas de rater",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/coupe-davis/coupe-davis-sarah-pitkowski-pointe-la-plus-grande-mission-de-gael-monfils-apres-sa-nomination-a-la-tete-des-bleus_AV-202611070320.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-07T13:37+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/e4fszUJgXsJaQGJMcMPBMtUf43w=/0x165:2048x1317/800x0/images/Gael-Monfils-fait-ses-adieux-a-l-US-Open-et-aux-tournois-du-Grand-Chelem-apres-sa-defaite-contre-Learner-Tien-6-3-6-4-6-3-le-4-septembre-2026-2342145.jpg",
-   "titre": "Coupe Davis: Sarah Pitkowski pointe \"la plus grande mission\" de Gaël Monfils après sa nomination à la tête des Bleus",
    "blessure": false
   }
  ]
