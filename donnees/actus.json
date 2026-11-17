@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-16T23:25+00:00",
+ "maj": "2026-11-17T01:56+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -16,7 +16,7 @@
  ],
  "flux": {
   "L'Équipe": "ok, 36 articles",
-  "Tennis Majors": "ok, 16 articles",
+  "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 14 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
@@ -28,6 +28,26 @@
   "Ubitennis": "ok, 11 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/17-novembre-1991-le-jour-ou-pete-sampras-remporte-son-premier-masters-306028.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-17T07:00+00:00",
+   "image": null,
+   "titre": "17 novembre 1991 : Le jour où Pete Sampras a remporté son premier Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/november-17-1991-sampras-wins-first-masters-title-306014.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-17T06:45+00:00",
+   "image": null,
+   "vo": "November 17, 1991: The day Pete Sampras claimed his first season-ending ATP Masters Cup",
+   "titre": "17 novembre 1991 : le jour où Pete Sampras a remporté sa première Masters Cup ATP de fin de saison",
+   "titre_fr": "17 novembre 1991 : le jour où Pete Sampras a remporté sa première Masters Cup ATP de fin de saison",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/medvedev-confirms-he-will-keep-golubev-as-coach-next-year-for-the-moment-867168.html",
    "source": "Tennis Majors (EN)",
@@ -3778,24 +3798,6 @@
    "date": "2026-11-07T09:30+00:00",
    "image": null,
    "titre": "7 novembre 1993 : Le jour où le public de Paris-Bercy a sifflé Ivanisevic parce qu’il servait trop bien",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/apres-avoir-sauve-deux-balles-de-match-carlos-alcaraz-se-qualifie-pour-les-demi-finales-du-masters-1000-de-paris_8272091.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-07T09:28+00:00",
-   "image": "https://www.franceinfo.fr/pictures/Pjl-v3w2cTnX3frZYr_Jv97hK3c/0x0:2133x1199/432x243/filters:format(jpg)/2026/11/07/6aeeeb8f2c98f077229482.jpg",
-   "titre": "Après avoir sauvé deux balles de match, Carlos Alcaraz se qualifie pour les demi-finales du Masters 1000 de Paris",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Casper-ruud-ecarte-nuno-borges-et-complete-les-demi-finales-du-rolex-paris-masters/1741859#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T07:05+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/casper-ruud-affrontera-carlos-alcaraz-en-demies-a-paris-a-reau-l-equipe/1500000002644504/277:176,1903:1260-828-552-75/72b34.jpg",
-   "titre": "Casper Ruud écarte Nuno Borges et complète les demi-finales du Rolex Paris Masters",
    "blessure": false
   }
  ]
