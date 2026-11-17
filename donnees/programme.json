@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T21:33+00:00",
+ "maj": "2026-11-17T23:31+00:00",
  "source": "ESPN (API publique)",
  "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
  "colonnes_tournois": [
@@ -76,9 +76,29 @@
    ]
   ],
   [
-   "2026-11-19T05:00Z",
-   0,
-   "",
+   "2026-11-19T13:00Z",
+   1,
+   "Inalpi Arena",
+   "339-2026",
+   "Group Stage",
+   "pre",
+   [
+    "2358bec1-f6f0-3540-a37e-13bc322d2c08",
+    "Ben Shelton",
+    "USA",
+    3
+   ],
+   [
+    "14a740e2-9290-3b00-84d2-8a65c9754208",
+    "Rafael Jodar",
+    "Spain",
+    8
+   ]
+  ],
+  [
+   "2026-11-19T19:30Z",
+   1,
+   "Inalpi Arena",
    "339-2026",
    "Group Stage",
    "pre",
@@ -96,7 +116,7 @@
    ]
   ],
   [
-   "2026-11-19T05:00Z",
+   "2026-11-20T05:00Z",
    0,
    "",
    "339-2026",
@@ -116,7 +136,7 @@
    ]
   ],
   [
-   "2026-11-19T05:00Z",
+   "2026-11-20T05:00Z",
    0,
    "",
    "339-2026",
@@ -133,26 +153,6 @@
     "Flavio Cobolli",
     "Italy",
     5
-   ]
-  ],
-  [
-   "2026-11-19T05:00Z",
-   0,
-   "",
-   "339-2026",
-   "Group Stage",
-   "pre",
-   [
-    "2358bec1-f6f0-3540-a37e-13bc322d2c08",
-    "Ben Shelton",
-    "USA",
-    3
-   ],
-   [
-    "14a740e2-9290-3b00-84d2-8a65c9754208",
-    "Rafael Jodar",
-    "Spain",
-    8
    ]
   ]
  ],
@@ -2825,7 +2825,7 @@
  "challenger_maj": "2026-11-17T13:56+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-17T21:33+00:00",
+  "date": "2026-11-17T23:31+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",

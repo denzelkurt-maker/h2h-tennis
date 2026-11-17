@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T21:33+00:00",
+ "maj": "2026-11-17T23:31+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 39 articles",
+  "L'Équipe": "ok, 41 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 16 articles",
@@ -25,9 +25,56 @@
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 17 articles",
-  "Ubitennis": "ok, 13 articles"
+  "Ubitennis": "ok, 14 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-qualifies-for-semi-finals-at-nitto-atp-finals-with-victory-over-shelton/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-17T22:02+00:00",
+   "image": null,
+   "vo": "Alexander Zverev Qualifies For Semi-Finals At Nitto ATP Finals With Victory Over Shelton",
+   "titre": "Alexander Zverev se qualifie pour les demi-finales des Nitto ATP Finals grâce à sa victoire sur Shelton",
+   "titre_fr": "Alexander Zverev se qualifie pour les demi-finales des Nitto ATP Finals grâce à sa victoire sur Shelton",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Quels-scenarios-qualifient-arthur-fils-pour-les-demies-des-finales-atp/1744365#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T22:00+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-mardi-a-turin-f-faugere-l-equipe/1500000002653071/0:0,1998:1332-828-552-75/386f0.jpg",
+   "titre": "Quels scénarios qualifient Arthur Fils pour les demies des Finales ATP ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Une-premiere-depuis-quinze-ans-avant-de-defier-le-numero-1-mondial-perfectible-en-indoor-arthur-fils-reste-en-vie-aux-finales-atp/1744353#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T21:35+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Fils met fin à quinze ans de disette et reste en vie à Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/zverev-trop-solide-pour-shelton-premier-qualifie-en-demi-finales",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T21:34+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-1024x480.jpeg",
+   "titre": "Zverev, trop solide pour Shelton, premier qualifié en demi-finales !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/intouchable-au-service-zverev-domine-shelton-et-file-en-demi-finales-a-turin-810390.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-17T21:32+00:00",
+   "image": null,
+   "titre": "Intouchable au service, Zverev domine Shelton et file en demi-finales à Turin",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/untouchable-on-serve-zverev-beats-shelton-to-reach-the-atp-finals-semi-finals-867214.html",
    "source": "Tennis Majors (EN)",
@@ -37,6 +84,15 @@
    "vo": "Untouchable on serve, Zverev beats Shelton to reach the ATP Finals semi-finals",
    "titre": "Intouchable au service, Zverev bat Shelton et atteint les demi-finales des ATP Finals",
    "titre_fr": "Intouchable au service, Zverev bat Shelton et atteint les demi-finales des ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Serein-face-a-ben-shelton-alexander-zverev-valide-deja-sa-qualification-pour-les-demies-des-finales-atp/1744348#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T21:21+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/alexander-zverev-s-est-montre-imperial-au-service-f-faugere-l-equipe/1500000002653025/0:0,2000:1333-828-552-75/9ad1a.jpg",
+   "titre": "Serein face à Ben Shelton, Alexander Zverev valide déjà sa qualification pour les demies des Finales ATP",
    "blessure": false
   },
   {
@@ -357,7 +413,7 @@
    "langue": "fr",
    "date": "2026-11-17T10:32+00:00",
    "image": null,
-   "titre": "Zverev qualifié, trois joueurs pour une place : tous les scénarios de qualification des ATP Finals",
+   "titre": "Alcaraz et Medvedev peuvent se qualifier mercredi : tous les scénarios de qualification des ATP Finals",
    "blessure": false
   },
   {
@@ -366,10 +422,10 @@
    "langue": "en",
    "date": "2026-11-17T10:29+00:00",
    "image": null,
-   "vo": "Zverev through, three players for one spot: all the qualification scenarios at the ATP Finals",
-   "titre": "Zverev qualifié, trois joueurs pour une place : tous les scénarios de qualification pour les ATP Finals",
+   "vo": "Alcaraz and Medvedev can qualify on Wednesday: all the qualification scenarios at the ATP Finals",
+   "titre": "Alcaraz et Medvedev peuvent se qualifier mercredi : tous les scénarios de qualification aux ATP Finals",
    "blessure": false,
-   "titre_fr": "Zverev qualifié, trois joueurs pour une place : tous les scénarios de qualification pour les ATP Finals"
+   "titre_fr": "Alcaraz et Medvedev peuvent se qualifier mercredi : tous les scénarios de qualification aux ATP Finals"
   },
   {
    "lien": "https://www.ubitennis.net/2026/11/flavio-cobolli-feeling-the-weight-of-sinners-absence-at-atp-finals/",
@@ -3747,62 +3803,6 @@
    "image": null,
    "titre": "Paris n’allait pas lui résister : après une saison freinée par les blessures, Alcaraz ne laisse pas passer sa chance de gagner un Masters 1000 à Paris",
    "blessure": true
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/carlos-alcaraz-remporte-le-masters-1000-de-paris-pour-la-premiere-fois-grace-a-son-succes-contre-ben-shelton-en-finale_8273420.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-08T16:28+00:00",
-   "image": "https://www.franceinfo.fr/pictures/XNWOL57qNoEVGq-cq0M9jM1yU-Y/0x0:6471x3639/432x243/filters:format(jpg)/2026/11/08/6af0aaace71a2883612290.jpg",
-   "titre": "Carlos Alcaraz remporte le Masters 1000 de Paris pour la première fois grâce à son succès contre Ben Shelton en finale",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-domine-ben-shelton-en-finale-du-rolex-paris-masters-et-remporte-son-premier-masters-1000-a-paris/1742240#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-08T16:19+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/premier-masters-1000-a-paris-pour-carlos-alcaraz-p-lahalle-l-equipe/1500000002645735/0:0,1998:1332-828-552-75/b32e3.jpg",
-   "titre": "Carlos Alcaraz domine Ben Shelton en finale du Rolex Paris Masters et remporte son premier Masters 1000 à Paris",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Quentin-halys-et-pierre-hugues-herbert-apres-leur-victoire-en-double-au-rolex-paris-masters-le-but-c-etait-d-aller-chercher-un-gros-titre/1742226#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-08T15:05+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/pierre-hugues-herbert-et-quentin-halys-celebrent-leur-sacre-dimanche-p-lahalle-l-equipe/1500000002645669/0:0,2000:1333-828-552-75/95444.jpg",
-   "titre": "Quentin Halys et Pierre-Hugues Herbert après leur victoire en double au Rolex Paris Masters : « Le but, c'était d'aller chercher un gros titre »",
-   "blessure": false
-  },
-  {
-   "titre": "La saison d'Alexandra Eala se termine par une perte de choc pour le n ° 102 mondial Liu en finale à Hong Kong",
-   "lien": "https://www.ubitennis.net/2026/11/alexandra-ealas-season-ends-with-shock-loss-to-world-no-102-liu-in-hong-kong-final/",
-   "source": "Ubitennis",
-   "date": "2026-11-08T14:52+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Alexandra Eala’s Season Ends With Shock Loss To World No.102 Liu In Hong Kong Final",
-   "titre_fr": "La saison d'Alexandra Eala se termine par une perte de choc pour le n ° 102 mondial Liu en finale à Hong Kong"
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/paris-bercy/masters-1000-de-paris-la-paire-francaise-halys-herbert-vainqueure-en-double_AV-202611080293.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-08T14:22+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/ePF8_CRsgcqnpaRa8xlPTziMetg=/0x106:2048x1258/800x0/images/Quentin-Halys-et-Pierre-Hugues-Herbert-en-finale-du-double-du-Rolex-Paris-Masters-le-8-novembre-2026-2380310.jpg",
-   "titre": "Masters 1000 de Paris: la paire française Halys-Herbert vainqueure en double",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Fin-de-saison-pour-luca-van-assche-qui-renonce-au-tournoi-de-stockholm/1742208#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-08T13:51+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/luca-van-assche-sera-lundi-34e-mondial-a-reau-l-equipe/1500000002645619/469:347,1679:1153-828-552-75/91f08.jpg",
-   "titre": "Fin de saison pour Luca Van Assche qui renonce au tournoi de Stockholm",
-   "blessure": false
   }
  ]
 }
