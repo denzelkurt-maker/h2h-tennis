@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T05:40+00:00",
+ "maj": "2026-11-17T07:58+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,10 +15,10 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 36 articles",
+  "L'Équipe": "ok, 37 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 14 articles",
+  "We Love Tennis": "ok, 16 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 23 articles",
   "franceinfo": "ok, 18 articles",
@@ -29,12 +29,39 @@
  },
  "articles": [
   {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/medvedev-vainqueur-face-a-cobolli-compte-bien-enchainer-je-pense-que-ce-court-offre-les-meilleures-chances-de-battre-alcaraz",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T07:51+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Medvedev-5419-1024x521.jpg",
+   "titre": "Medvedev vainqueur face à Cobolli compte bien enchaîner : « Je pense que ce court offre les meilleures chances de battre Alcaraz… »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/lenorme-coup-de-gueule-de-benoit-maylin-sur-arthur-fils-cetait-encore-une-fois-tres-tres-pauvre-il-sepuise-tout-seul-a-envoyer-des-souches-il-gagne-le-deuxieme-set-cest-comme-sil-avai",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T07:08+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-regard-smash-1024x540.jpeg",
+   "titre": "L’énorme coup de gueule de Benoît Maylin sur Arthur Fils : « C’était encore une fois très très pauvre. Il s’épuise tout seul à envoyer des souches. Il gagne le deuxième set, c’est comme s’il avait gagné le tournoi »",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/fr/atp-actualite/17-novembre-1991-le-jour-ou-pete-sampras-remporte-son-premier-masters-306028.html",
    "source": "Tennis Majors",
    "langue": "fr",
    "date": "2026-11-17T07:00+00:00",
    "image": null,
    "titre": "17 novembre 1991 : Le jour où Pete Sampras a remporté son premier Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-le-match-entre-arthur-fils-et-rafael-jodar-en-atp-finals/1743970#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T06:50+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-est-actuellement-septieme-mondial-f-faugere-l-equipe/1500000002651848/0:0,2000:1333-828-552-75/52b8a.jpg",
+   "titre": "À quelle heure et sur quelle chaîne voir le match entre Arthur Fils et Rafael Jodar en Finales ATP ?",
    "blessure": false
   },
   {
@@ -46,6 +73,15 @@
    "vo": "November 17, 1991: The day Pete Sampras claimed his first season-ending ATP Masters Cup",
    "titre": "17 novembre 1991 : le jour où Pete Sampras a remporté sa première Masters Cup ATP de fin de saison",
    "titre_fr": "17 novembre 1991 : le jour où Pete Sampras a remporté sa première Masters Cup ATP de fin de saison",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4263407-20261117-arthur-fils-jodar-chaine-tv-heure-voir-2e-match-groupe-atp-finals-masters?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-17T06:32+00:00",
+   "image": "https://img.20mn.fr/A0CLkIfjTMyZG_fKSo5-byk/1200x768_battu-par-ben-shelton-lors-du-1er-match-arthur-fils-defie-rafael-jodar-mardi-aux-finales-atp-de-turin-photo-d-illustration",
+   "titre": "Arthur Fils-Jodar : Sur quelle chaîne TV et à quelle heure voir le 2e match de groupe des ATP Finals Masters ?",
    "blessure": false
   },
   {
@@ -3760,44 +3796,6 @@
    "date": "2026-11-07T10:51+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/gael-monfils-a-peine-retraite-comme-joueur-reprend-du-service-comme-capitaine-de-l-equipe-de-france-de-coupe-davis-p-lahalle-l-equipe/1500000002644568/0:0,2000:1333-828-552-75/35f2c.jpg",
    "titre": "La FFT officialise la nomination de Gaël Monfils comme capitaine de l'équipe de France de Coupe Davis",
-   "blessure": false
-  },
-  {
-   "titre": "Carlos Alcaraz économise des points de match pour mettre fin aux espoirs de Taylor Fritz en finale de l'ATP à Paris",
-   "lien": "https://www.ubitennis.net/2026/11/carlos-alcaraz-saves-match-points-to-end-taylor-fritzs-atp-finals-hopes-in-paris/",
-   "source": "Ubitennis",
-   "date": "2026-11-07T10:30+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Carlos Alcaraz Saves Match Points To End Taylor Fritz’s ATP Finals Hopes In Paris",
-   "titre_fr": "Carlos Alcaraz économise des points de match pour mettre fin aux espoirs de Taylor Fritz en finale de l'ATP à Paris"
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/rolex-paris-masters-1000-atp/de-paris-a-paris-comment-van-assche-a-arrete-de-se-trouver-des-excuses-pour-devenir-meilleur-que-jamais-809621.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-07T10:21+00:00",
-   "image": null,
-   "titre": "De Paris à Paris : comment Van Assche a arrêté de se trouver des excuses pour devenir meilleur que jamais",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/coupe-davis/info-rmc-sport-gael-monfils-nomme-capitaine-de-l-equipe-de-france-de-coupe-davis_AN-202611070197.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-07T10:21+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/XWC-35a5HHMBvdx4_34hkvMKzqw=/0x32:2048x1184/800x0/images/Gael-Monfils-lors-du-Rolex-Paris-Masters-le-3-novembre-2026-2379704.jpg",
-   "titre": "Gaël Monfils nommé capitaine de l'équipe de France de Coupe Davis",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Gael-monfils-tres-bientot-nomme-capitaine-de-l-equipe-de-france-de-coupe-davis/1741870#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T09:48+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/gael-monfils-mardi-dernier-lors-de-l-hommage-qui-lui-a-ete-rendu-a-la-plenitude-arena-pour-l-ensemble-de-sa-carriere-p-lahalle-l-equipe/1500000002644544/241:375,1524:1231-828-552-75/2e87a.jpg",
-   "titre": "Gaël Monfils très bientôt nommé capitaine de l'équipe de France de Coupe Davis ?",
    "blessure": false
   }
  ]
