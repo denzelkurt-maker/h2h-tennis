@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T13:56+00:00",
+ "maj": "2026-11-17T15:33+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -25,9 +25,92 @@
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 17 articles",
-  "Ubitennis": "ok, 12 articles"
+  "Ubitennis": "ok, 13 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.ubitennis.net/2026/11/arthur-fils-downs-out-of-sorts-rafael-jodar-to-keep-nitto-atp-finals-bid-alive/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-17T15:27+00:00",
+   "image": null,
+   "vo": "Arthur Fils Downs Out-Of-Sorts Rafael Jodar To Keep Nitto ATP Finals Bid Alive",
+   "titre": "Arthur Fils bat Rafael Jodar, qui n'est pas dans son assiette, et garde ainsi ses chances de participer aux Nitto ATP Finals",
+   "titre_fr": "Arthur Fils bat Rafael Jodar, qui n'est pas dans son assiette, et garde ainsi ses chances de participer aux Nitto ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-tout-le-monde-etait-contre-cette-decision-radicale-theo-arribage-le-toulousain-qui-a-fait-fi-des-avis-pour-se-consacrer-entierement-au-double/1744056#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T15:16+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Arribagé, fils de footballeur et spécialiste de double",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-renverse-jodar-et-reprend-espoir-sur-le-masters-de-turin",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T15:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-3-1024x521.jpeg",
+   "titre": "Arthur Fils renverse Jodar et reprend espoir sur le Masters de Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/arthur-fils/arthur-fils-se-defait-de-rafael-jodar-au-masters-de-turin-premiere-victoire-francaise-depuis-2011-dans-cette-competition_8286668.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-17T15:06+00:00",
+   "image": "https://www.franceinfo.fr/pictures/8myr5cWiEG-V5pwRe_zbonLnX2U/0x0:1024x576/432x243/filters:format(jpg)/2026/11/17/6afc6ce672584976983710.jpg",
+   "titre": "Arthur Fils se défait de Rafael Jodar au Masters de Turin, première victoire française depuis 2011 dans cette compétition",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Une-victoire-qui-relance-tout-arthur-fils-s-impose-contre-rafael-jodar-et-se-replace-pour-la-qualification-en-demi-finales-des-finales-atp/1744255#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T15:04+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arhur-fils-se-relance-aux-finales-atp-f-faugere-l-equipe/1500000002652831/0:0,1999:1333-828-552-75/f72c8.jpg",
+   "titre": "Une victoire qui relance tout : Arthur Fils s'impose contre Rafael Jodar et se replace pour la qualification en demi-finales des Finales ATP",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/jaime-murray-quand-on-voit-alcaraz-a-la-salle-de-sport-avant-un-match-il-y-a-six-personnes-de-son-equipe-qui-le-regardent-faire-des-exercices-avec-un-rouleau-de-massage-mais-dans-quel-monde-vivo",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T14:46+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/01/Alcaraz-box-team-equipe-Molina-Lopez-Samuel-frere-agent-coach-1024x544.jpeg",
+   "titre": "Jaime Murray : « Quand on voit Alcaraz à la salle de sport avant un match, il y a six personnes de son équipe qui le regardent faire des exercices avec un rouleau de massage. Mais dans quel monde vivons-nous ? »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/andrea-gaudenzi-sechement-recadre-par-le-numero-1-mondial-en-double-cest-vraiment-dommage-que-le-president-de-latp-ne-soit-pas-avec-nous-sur-le-court",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T14:14+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/11/Gaudenzi-ATP-1024x517.jpeg",
+   "titre": "Andrea Gaudenzi sèchement recadré par le numéro 1 mondial en double : « C’est vraiment dommage que le président de l’ATP ne soit pas avec nous sur le court »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Numero-1-mondial-en-double-henry-patten-interpelle-le-president-de-l-atp-andrea-gaudenzi-absent-pour-la-remise-du-trophee-c-est-tres-decevant/1744246#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T14:11+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/henry-patten-a-gauche-et-harri-helioevaara-lundi-a-turin-m-rana-foto-ipp/1500000002652796/0:0,800:533-828-552-75/aad83.jpg",
+   "titre": "Numéro 1 mondial en double, Henry Patten interpelle le président de l'ATP Andrea Gaudenzi, absent pour la remise du trophée : « C'est très décevant »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/flavio-cobolli-labsence-de-jannik-sinner-ne-maide-pas-ca-maurait-enleve-un-peu-de-pression-je-sens-que-je-dois-faire-honneur-a-son-nom",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T13:51+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Cobolli-presse-conf.jpeg",
+   "titre": "Flavio Cobolli : « L’absence de Jannik Sinner ne m’aide pas, ça m’aurait enlevé un peu de pression. Je sens que je dois faire honneur à son nom »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/andy-murray-sur-le-nouveau-phenomene-du-circuit-jaime-vraiment-le-regarder-jouer-sa-progression-est-sans-precedent",
    "source": "We Love Tennis",
@@ -71,15 +154,6 @@
    "date": "2026-11-17T10:43+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Ljubicic-micro-1024x525.jpeg",
    "titre": "Ljubicic sur la date de retour de Sinner : « J’ai vu Jannik à Monte-Carlo avant de venir à Turin. Il était souriant et m’a dit qu’il suivait tous les protocoles »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/-tout-le-monde-etait-contre-cette-decision-radicale-theo-arribage-le-toulousain-qui-a-fait-fi-des-avis-pour-se-consacrer-entierement-au-double/1744056#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T10:41+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Arribagé, fils de footballeur et spécialiste de double",
    "blessure": false
   },
   {
@@ -184,6 +258,15 @@
    "langue": "fr",
    "date": "2026-11-17T08:12+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/PHOTO-2026-11-16-23-28-55.jpg",
+   "titre": "Flavio Cobolli, battu par Daniil Medvedev : « Je suis un peu triste de ma prestation et de cette défaite, mais ce n’est pas terminé. Il me reste encore deux matchs »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/flavio-cobolli-battu-par-daniil-medvedev-je-suis-un-peu-triste-de-ma-prestation-et-de-cette-defaite-mais-ce-nest-pas-termine-il-me-reste-encore-deux-matchs",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T08:12+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Cobolli-revers-1024x458.jpeg",
    "titre": "Flavio Cobolli, battu par Daniil Medvedev : « Je suis un peu triste de ma prestation et de cette défaite, mais ce n’est pas terminé. Il me reste encore deux matchs »",
    "blessure": false
   },
@@ -3719,87 +3802,6 @@
    "date": "2026-11-07T18:54+00:00",
    "image": null,
    "titre": "« Je suis frais, et j’ai la dalle ! » : Alcaraz s’offre sa première finale à Paris sans concéder une seule balle de break, finale en vue contre Shelton",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/David-ferrer-sera-l-entraineur-de-casper-ruud-la-saison-prochaine/1742013#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T18:19+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/david-ferrer-va-entrainer-casper-ruud-p-lahale-a-reau-l-equipe/1500000002644932/0:0,1500:1000-828-552-75/9ef8d.jpg",
-   "titre": "David Ferrer sera l'entraîneur de Casper Ruud la saison prochaine",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4261198-20261107-masters-1000-paris-niveau-jouer-mecs-luca-van-assche-avenir-rose?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-07T18:01+00:00",
-   "image": "https://img.20mn.fr/T2koGq5dRkGsfQFUAxiXeik/1200x768_luca-van-assche-fra-lors-de-la-demi-finale-du-rolex-paris-masters-a-la-penitude-arena-le-samedi-7-novembre-2026-nanterre-ouest-de-paris-france-photo-christophe-saidi-sipa-saidichristophe-sac-7713-credit-christophe-saidi-sipa-2611071730",
-   "titre": "Masters 1000 de Paris : « J’ai le niveau pour jouer ces mecs »… Pour Luca Van Assche, un avenir en rose ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Comment-lucas-van-assche-a-dilapide-son-break-d-avance-dans-le-troisieme-set-et-perdu-le-fil-face-a-ben-shelton-au-rolex-paris-masters/1742005#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T18:00+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/luca-van-assche-a-peche-en-coup-droit-durant-le-troisieme-set-a-reau-l-equipe/1500000002644914/0:0,1500:1000-828-552-75/d4bd9.jpg",
-   "titre": "Comment Luca Van Assche a dilapidé son break d'avance dans le troisième set et perdu le fil face à Ben Shelton au Rolex Paris Masters",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters-1000/solide-carlos-alcaraz-rejoint-ben-shelton-en-finale-du-masters-1000-de-paris_8272580.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-07T17:57+00:00",
-   "image": "https://www.franceinfo.fr/pictures/dIyvZ40hjTFJ9rSResc3fGJ-h6M/0x0:7281x4095/432x243/filters:format(jpg)/2026/11/07/6aef6129ecf98566794315.jpg",
-   "titre": "Solide, Carlos Alcaraz rejoint Ben Shelton en finale du Masters 1000 de Paris",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Trop-fort-pour-casper-ruud-carlos-alcaraz-va-disputer-sa-premiere-finale-face-a-ben-shelton-au-rolex-paris-masters/1742002#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T17:56+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-n-a-jamais-fremi-devant-casper-ruud-ce-samedi-a-reau-l-equipe/1500000002644907/0:0,2000:1333-828-552-75/e3435.jpg",
-   "titre": "Trop fort pour Casper Ruud, Carlos Alcaraz va disputer sa première finale face à Ben Shelton au Rolex Paris Masters",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/paris-bercy/direct-masters-1000-de-paris-suivez-en-live-les-demi-finales-van-assche-shelton-et-ruud-alcaraz_LN-202611070215.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-07T17:56+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/0ufbMutrGjiFSxQIrL9XRJj-6Vk=/34x461:1634x1361/800x0/images/Carlos-Alcaraz-lors-de-son-quart-de-finale-face-a-Taylor-Fritz-le-6-novembre-2026-2379599.jpg",
-   "titre": "Masters 1000 de Paris: fin du rêve pour Van Assche, Shelton défiera Alcaraz en finale",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/shelton-quand-je-breake-le-plus-souvent-cest-que-je-viens-de-perdre-mon-service-809744.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-07T17:43+00:00",
-   "image": null,
-   "titre": "Shelton, après son retour face à Van Assche : « Quand je breake, le plus souvent c’est que je viens de perdre mon service »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/coupe-davis/il-y-a-eu-une-approche-collective-moretton-revele-les-coulisses-du-choix-de-gael-monfils-comme-capitaine-de-l-equipe-de-france-de-coupe-davis_AV-202611070447.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-07T17:38+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/s93OFVfIGYZm6FlobM10nc-DnLo=/0x114:2048x1266/800x0/images/Gael-Monfils-honore-lors-du-Rolex-Paris-Masters-le-3-novembre-2026-2377426.jpg",
-   "titre": "\"Il y a eu une approche collective\": Moretton révèle les coulisses du choix de Gaël Monfils comme capitaine de l'équipe de France de Coupe Davis",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Luca-van-assche-apres-sa-defaite-en-demi-finales-du-rolex-paris-masters-face-a-ben-shelton-je-n-ai-pas-de-regrets-je-me-suis-donne-a-fond/1741995#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T17:36+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/luca-van-assche-elimine-en-demi-finales-du-rolex-paris-masters-a-reau-l-equipe/1500000002644891/228:172,1855:1257-828-552-75/8cb66.jpg",
-   "titre": "Luca Van Assche après sa défaite en demi-finales du Rolex Paris Masters face à Ben Shelton : « Je n'ai pas de regrets, je me suis donné à fond »",
    "blessure": false
   }
  ]

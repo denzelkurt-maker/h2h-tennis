@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T13:56+00:00",
+ "maj": "2026-11-17T15:33+00:00",
  "source": "ESPN (API publique)",
  "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
  "colonnes_tournois": [
@@ -35,26 +35,6 @@
   ]
  ],
  "matchs": [
-  [
-   "2026-11-17T13:10Z",
-   1,
-   "Inalpi Arena",
-   "339-2026",
-   "Group Stage",
-   "in",
-   [
-    "911397bc-b02d-3987-94ce-642b3aeac50d",
-    "Arthur Fils",
-    "France",
-    6
-   ],
-   [
-    "14a740e2-9290-3b00-84d2-8a65c9754208",
-    "Rafael Jodar",
-    "Spain",
-    8
-   ]
-  ],
   [
    "2026-11-17T19:30Z",
    1,
@@ -2865,7 +2845,7 @@
  "challenger_maj": "2026-11-17T13:56+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-17T13:56+00:00",
+  "date": "2026-11-17T15:33+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
