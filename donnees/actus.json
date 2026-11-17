@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T15:33+00:00",
+ "maj": "2026-11-17T17:43+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -29,6 +29,89 @@
  },
  "articles": [
   {
+   "lien": "https://www.welovetennis.fr/atp/jimmy-connors-apres-avoir-ete-opere-dun-cancer-mettez-de-la-creme-solaire",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T17:40+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/11/Jimmy-Connors--1024x482.jpg",
+   "titre": "Jimmy Connors, après avoir été opéré d’un cancer : « Mettez de la crème solaire »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/fils-renverse-jodar-et-reste-en-vie-aux-atp-finals-810372.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-17T17:19+00:00",
+   "image": null,
+   "titre": "Fils renverse Jodar et reste en vie aux ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/alexander-zverev-en-froid-avec-une-legende-du-tennis-je-veux-bien-discuter-avec-lui-mais-pas-ici-ca-vous-pouvez-loublier",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T17:07+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-1-1024x544.jpeg",
+   "titre": "Alexander Zverev, en froid avec une légende du tennis : « Je veux bien discuter avec lui, mais pas ici. Ça, vous pouvez l’oublier »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/fils-turns-it-around-against-jodar-to-stay-alive-at-the-atp-finals-867196.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-17T17:07+00:00",
+   "image": null,
+   "vo": "Fils turns it around against Jodar to stay alive at the ATP Finals",
+   "titre": "Fils renverse la situation face à Jodar pour rester en lice aux ATP Finals",
+   "titre_fr": "Fils renverse la situation face à Jodar pour rester en lice aux ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-tout-le-monde-etait-contre-cette-decision-radicale-theo-arribage-le-toulousain-qui-a-fait-fi-des-avis-pour-se-consacrer-entierement-au-double/1744056#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T17:05+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Arribagé, fils de footballeur et spécialiste de double",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-apres-sa-premiere-victoire-aux-finales-atp-je-m-en-suis-un-peu-voulu-sur-le-premier-set/1744290#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T17:00+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-celebre-sa-victoire-face-a-rafael-jodar-f-faugere-l-equipe/1500000002652921/0:0,2000:1333-828-552-75/0223b.jpg",
+   "titre": "Arthur Fils après sa première victoire aux Finales ATP : « Je m'en suis un peu voulu sur le premier set »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-avant-daffronter-alexander-zverev-sur-le-masters-de-turin-je-nai-pas-peur-et-rien-a-perdre",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T16:40+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-service-1-1024x599.jpeg",
+   "titre": "Arthur Fils avant d’affronter Alexander Zverev sur le Masters de Turin : « Je n’ai pas peur et rien à perdre »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Premiere-victoire-francaise-depuis-15-ans-les-chiffres-de-la-premiere-victoire-d-arthur-fils-aux-finales-atp/1744282#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T16:32+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-mardi-a-turin-face-a-rafael-jodar-f-faugere-l-equipe/1500000002652905/0:0,1500:1000-828-552-75/c4c8b.jpg",
+   "titre": "Première victoire française depuis 15 ans : les chiffres de la première victoire d'Arthur Fils aux Finales ATP",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/ivan-ljubicic-sans-detour-sur-les-chances-de-novak-djokovic-en-grand-chelem-cela-ne-depend-plus-de-lui",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T16:17+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Djokovic-1024x551.jpeg",
+   "titre": "Ivan Ljubicic sans détour sur les chances de Novak Djokovic en Grand Chelem : « Cela ne dépend plus de lui »",
+   "blessure": false
+  },
+  {
    "lien": "https://www.ubitennis.net/2026/11/arthur-fils-downs-out-of-sorts-rafael-jodar-to-keep-nitto-atp-finals-bid-alive/",
    "source": "Ubitennis",
    "langue": "en",
@@ -37,15 +120,6 @@
    "vo": "Arthur Fils Downs Out-Of-Sorts Rafael Jodar To Keep Nitto ATP Finals Bid Alive",
    "titre": "Arthur Fils bat Rafael Jodar, qui n'est pas dans son assiette, et garde ainsi ses chances de participer aux Nitto ATP Finals",
    "titre_fr": "Arthur Fils bat Rafael Jodar, qui n'est pas dans son assiette, et garde ainsi ses chances de participer aux Nitto ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/-tout-le-monde-etait-contre-cette-decision-radicale-theo-arribage-le-toulousain-qui-a-fait-fi-des-avis-pour-se-consacrer-entierement-au-double/1744056#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T15:16+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Arribagé, fils de footballeur et spécialiste de double",
    "blessure": false
   },
   {
@@ -3724,84 +3798,6 @@
    "date": "2026-11-07T22:41+00:00",
    "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
    "titre": "Les temps forts du quart de finale du Rolex Paris Masters entre Carlos Alcaraz et Taylor Fritz",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/-ce-n-est-pas-un-one-shot-battu-en-demi-finales-du-rolex-paris-masters-luca-van-assche-aborde-la-suite-avec-confiance-et-ambition/1742074#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T21:28+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Van Assche, un parcours qui valide les progrès et donne des certitudes pour la suite",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Quentin-halys-et-pierre-hugues-herbert-se-paient-les-numeros-1-mondiaux-et-se-qualifient-pour-la-finale-du-double-au-rolex-paris-masters/1742086#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T20:57+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/quentin-halys-a-gauche-et-pierre-hugues-herbert-ici-en-2025-joueront-le-titre-dimanche-a-nanterre-pierre-lahalle-l-equipe/1500000002645081/0:0,1999:1332-828-552-75/5c2e3.jpg",
-   "titre": "Quentin Halys et Pierre-Hugues Herbert se paient les numéros 1 mondiaux et se qualifient pour la finale du double au Rolex Paris Masters",
-   "blessure": false
-  },
-  {
-   "titre": "Carlos Alcaraz « fier » d'atteindre la première finale de Paris, met en place Shelton Rematch",
-   "lien": "https://www.ubitennis.net/2026/11/carlos-alcaraz-proud-to-reach-first-paris-final-sets-up-shelton-rematch/",
-   "source": "Ubitennis",
-   "date": "2026-11-07T20:45+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Carlos Alcaraz ‘Proud’ To Reach First Paris Final, Sets Up Shelton Rematch",
-   "titre_fr": "Carlos Alcaraz « fier » d'atteindre la première finale de Paris, met en place Shelton Rematch"
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/nos-articles/listes-nos-articles/casper-ruud-questions-christian-pere-terre-battue-rafa-nadal-academy-prize-money-classement-grand-chelem-462402.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-07T20:40+00:00",
-   "image": null,
-   "titre": "Demi-finale à Paris, David Ferrer, Christian Ruud : tout ce que vous avez toujours voulu savoir sur Casper Ruud (sans prendre le temps de chercher) – mis à jour après l’arrivée de David Ferrer",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.espn.com/tennis/story/_/id/50409999/alcaraz-looking-revenge-vs-shelton-paris-masters-final",
-   "source": "ESPN",
-   "langue": "en",
-   "date": "2026-11-07T20:07+00:00",
-   "image": null,
-   "vo": "Alcaraz looking for 'revenge' against Shelton in Paris Masters final",
-   "titre": "Alcaraz cherche à « se venger » de Shelton en finale du Masters de Paris",
-   "titre_fr": "Alcaraz cherche à « se venger » de Shelton en finale du Masters de Paris",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.espn.com/tennis/story/_/id/50402471/alacaraz-shelton-advance-semifinals-paris-masters",
-   "source": "ESPN",
-   "langue": "en",
-   "date": "2026-11-07T20:03+00:00",
-   "image": null,
-   "vo": "Alcaraz, Shelton into Paris Masters semis; ATP Finals field set",
-   "titre": "Alcaraz et Shelton en demi-finales du Masters de Paris ; le tableau des ATP Finals est établi",
-   "titre_fr": "Alcaraz et Shelton en demi-finales du Masters de Paris ; le tableau des ATP Finals est établi",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4261208-20261107-si-ca-peut-motiver-certains-venir-gael-monfils-capitaine-bleus-coupe-davis-donner-nouvel-elan?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-07T19:07+00:00",
-   "image": "https://img.20mn.fr/Qxi3EJmTQmqwP__KppBvMik/1200x768_nanterre-france-3-novembre-le-francais-gael-monfils-a-recu-un-hommage-special-lors-de-la-deuxieme-journee-du-rolex-paris-masters-2026-a-la-plenitude-arena-le-3-novembre-2026-a-nanterre-en-france-photo-de-just-pictures-photo-d-eurasia-sport-images-just-pictures-sipa-usa-74749801-2611040349",
-   "titre": "« Si ça peut en motiver certains à venir »… Gaël Monfils capitaine des Bleus de Coupe Davis pour donner un nouvel élan",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/rolex-paris-masters-1000-atp/je-suis-frais-et-jai-la-dalle-alcaraz-soffre-sa-premiere-finale-a-paris-sans-conceder-une-seule-balle-de-break-finale-en-vue-contre-shelton-809756.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-07T18:54+00:00",
-   "image": null,
-   "titre": "« Je suis frais, et j’ai la dalle ! » : Alcaraz s’offre sa première finale à Paris sans concéder une seule balle de break, finale en vue contre Shelton",
    "blessure": false
   }
  ]
