@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-16T23:25+00:00",
+ "maj": "2026-11-17T13:56+00:00",
  "source": "ESPN (API publique)",
  "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
  "colonnes_tournois": [
@@ -36,12 +36,12 @@
  ],
  "matchs": [
   [
-   "2026-11-17T13:00Z",
+   "2026-11-17T13:10Z",
    1,
    "Inalpi Arena",
    "339-2026",
    "Group Stage",
-   "pre",
+   "in",
    [
     "911397bc-b02d-3987-94ce-642b3aeac50d",
     "Arthur Fils",
@@ -2862,10 +2862,10 @@
   "salle",
   "categorie"
  ],
- "challenger_maj": "2026-11-16T15:42+00:00",
+ "challenger_maj": "2026-11-17T13:56+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-17T11:29+00:00",
+  "date": "2026-11-17T13:56+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",

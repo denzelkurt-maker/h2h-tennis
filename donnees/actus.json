@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T11:29+00:00",
+ "maj": "2026-11-17T13:56+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 37 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 18 articles",
+  "We Love Tennis": "ok, 17 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 23 articles",
   "franceinfo": "ok, 18 articles",
@@ -28,6 +28,33 @@
   "Ubitennis": "ok, 12 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/andy-murray-sur-le-nouveau-phenomene-du-circuit-jaime-vraiment-le-regarder-jouer-sa-progression-est-sans-precedent",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T13:14+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/01/Murray-1650-2-1024x556.jpg",
+   "titre": "Andy Murray sur le nouveau phénomène du circuit : « J’aime vraiment le regarder jouer. Sa progression est sans précédent »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-avant-daffronter-medvedev-sur-le-masters-de-turin-pourquoi-daniil-est-si-difficile-a-affronter-parce-que-tu-pars-en-guerre-ce-sont-des-matchs-tres-exigeants-tant-physiquement",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T12:40+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-revers-1024x483.jpeg",
+   "titre": "Carlos Alcaraz, avant d’affronter Medvedev sur le Masters de Turin : « Pourquoi Daniil est si difficile à affronter ? Parce que tu pars en guerre. Ce sont des matchs très exigeants, tant physiquement que mentalement »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/greg-rusedski-previent-alcaraz-cela-reste-un-probleme-pour-carlos-cest-ce-que-roger-federer-a-su-faire-mieux-que-quiconque",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T11:42+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-service-1024x550.jpeg",
+   "titre": "Greg Rusedski prévient Alcaraz : « Cela reste un problème pour Carlos. C’est ce que Roger Federer a su faire mieux que quiconque »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/tim-henman-pour-moi-zverev-est-le-joueur-le-plus-resistant-du-circuit-avec-tout-le-respect-que-je-leur-dois-alcaraz-et-sinner-nont-pas-fait-preuve-de-cela-cette-annee",
    "source": "We Love Tennis",
@@ -3773,35 +3800,6 @@
    "date": "2026-11-07T17:36+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/luca-van-assche-elimine-en-demi-finales-du-rolex-paris-masters-a-reau-l-equipe/1500000002644891/228:172,1855:1257-828-552-75/8cb66.jpg",
    "titre": "Luca Van Assche après sa défaite en demi-finales du Rolex Paris Masters face à Ben Shelton : « Je n'ai pas de regrets, je me suis donné à fond »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.espn.com/tennis/story/_/id/50407241/gael-monfils-stays-tennis-captain-france-davis-cup-team",
-   "source": "ESPN",
-   "langue": "en",
-   "date": "2026-11-07T17:17+00:00",
-   "image": null,
-   "vo": "Monfils stays in tennis as captain of France's Davis Cup team",
-   "titre": "Monfils reste dans le monde du tennis en tant que capitaine de l'équipe de France de Coupe Davis",
-   "titre_fr": "Monfils reste dans le monde du tennis en tant que capitaine de l'équipe de France de Coupe Davis",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/coupe-davis-actualite/il-fallait-un-electrochoc-moretton-et-simon-defendent-le-choix-de-monfils-chez-les-bleus-809722.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-07T17:04+00:00",
-   "image": null,
-   "titre": "« Il fallait un électrochoc » : Moretton et Simon défendent le choix de Monfils chez les Bleus",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Gilles-simon-sur-la-nomination-de-gael-monfils-comme-capitaine-de-l-equipe-de-france-de-coupe-davis-ca-lui-tenait-a-coeur-plus-que-ce-que-vous-pouvez-imaginer/1741974#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-07T16:58+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/gilles-simon-et-gilles-moretton-ont-justifie-la-nomination-de-gael-monfils-comme-capitaine-de-coupe-davis-samedi-au-rolex-paris-masters-a-reau-l-equipe/1500000002644849/121:212,1794:1328-828-552-75/0c4de.jpg",
-   "titre": "Gilles Simon sur la nomination de Gaël Monfils comme capitaine de l'équipe de France de Coupe Davis : « Ça lui tenait à coeur, plus que ce que vous pouvez imaginer »",
    "blessure": false
   }
  ]
