@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T19:44+00:00",
+ "maj": "2026-11-17T21:33+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 38 articles",
+  "L'Équipe": "ok, 39 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 16 articles",
@@ -29,6 +29,46 @@
  },
  "articles": [
   {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/untouchable-on-serve-zverev-beats-shelton-to-reach-the-atp-finals-semi-finals-867214.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-17T21:27+00:00",
+   "image": null,
+   "vo": "Untouchable on serve, Zverev beats Shelton to reach the ATP Finals semi-finals",
+   "titre": "Intouchable au service, Zverev bat Shelton et atteint les demi-finales des ATP Finals",
+   "titre_fr": "Intouchable au service, Zverev bat Shelton et atteint les demi-finales des ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/open-metz-grand-est/les-francais-repondent-present-cinq-tricolores-decrochent-leur-billet-pour-les-huitiemes",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T21:09+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2021/11/Herbert-paris-1024x557.jpeg",
+   "titre": "Les Français répondent présent, cinq Tricolores décrochent leur billet pour les huitièmes !",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/coupe-davis/coupe-davis-theo-arribage-et-albano-olivetti-surveilles-de-pres-par-captaine-monfils_AV-202611170926.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-17T20:22+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/j8PlzdCOPNsDWJjzSUh6xpABInU=/0x40:2048x1192/800x0/images/Albano-Olivetti-et-Theo-Arribage-le-17-novembre-2026-2385752.jpg",
+   "titre": "Coupe Davis: Théo Arribagé et Albano Olivetti surveillés de près par Captaine Monfils",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/play-as-less-as-possible-and-go-as-deep-as-possible-fils-sets-out-his-2027-plan-867201.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-17T20:10+00:00",
+   "image": null,
+   "vo": "“Play as less as possible and go as deep as possible”: Fils sets out his 2027 plan",
+   "titre": "« Jouer le moins possible et aller le plus loin possible » : Fils dévoile son plan pour 2027",
+   "titre_fr": "« Jouer le moins possible et aller le plus loin possible » : Fils dévoile son plan pour 2027",
+   "blessure": false
+  },
+  {
    "lien": "https://www.franceinfo.fr/sports/tennis/arthur-fils/arthur-fils-remporte-son-premier-match-en-carriere-au-masters_8287070.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
    "source": "franceinfo",
    "langue": "fr",
@@ -38,12 +78,21 @@
    "blessure": false
   },
   {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/-il-nous-a-appeles-theo-arribage-et-albano-olivetti-ont-recu-un-coup-de-fil-de-gael-monfils-capitaine-de-l-equipe-de-france-de-coupe-davis/1744325#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T19:27+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/albano-olivetti-a-gauche-et-theo-arribage-a-turin-mardi-f-faugere-l-equipe/1500000002652991/0:0,800:533-828-552-75/2990e.jpg",
+   "titre": "« Il nous a appelés » : Théo Arribagé et Albano Olivetti ont reçu un coup de fil de Gaël Monfils, capitaine de l'équipe de France de Coupe Davis",
+   "blessure": false
+  },
+  {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/Finales-atp-theo-arribage-et-albano-olivetti-s-imposent-contre-orlando-luz-et-rafael-matos-et-restent-en-course-pour-les-demi-finales/1744312#at_medium=RSS_feeds",
    "source": "L'Équipe",
    "langue": "fr",
    "date": "2026-11-17T18:46+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/theo-arribage-et-albano-olivetti-ont-gagne-contre-orlando-luz-et-rafael-matos-f-faugere-l-equipe/1500000002652967/0:0,1999:1333-828-552-75/6e375.jpg",
-   "titre": "Finales ATP : Théo Arribagé et Albano Olivetti s'imposent contre Orlando Luz et Rafael Matos et restent en course pour les demi-finales",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/theo-arribage-de-face-et-albano-olivetti-ont-gagne-contre-orlando-luz-et-rafael-matos-f-faugere-l-equipe/1500000002652967/0:0,1999:1333-828-552-75/6e375.jpg",
+   "titre": "Théo Arribagé et Albano Olivetti s'imposent contre Orlando Luz et Rafael Matos et restent en course pour les demi-finales des Finales ATP",
    "blessure": false
   },
   {
@@ -308,7 +357,7 @@
    "langue": "fr",
    "date": "2026-11-17T10:32+00:00",
    "image": null,
-   "titre": "Zverev et Shelton peuvent se qualifier aujourd’hui : tous les scénarios de qualification des ATP Finals",
+   "titre": "Zverev qualifié, trois joueurs pour une place : tous les scénarios de qualification des ATP Finals",
    "blessure": false
   },
   {
@@ -317,10 +366,10 @@
    "langue": "en",
    "date": "2026-11-17T10:29+00:00",
    "image": null,
-   "vo": "Zverev and Shelton can qualify today: all the qualification scenarios at the ATP Finals",
-   "titre": "Zverev et Shelton peuvent se qualifier aujourd’hui : tous les scénarios de qualification aux ATP Finals",
-   "titre_fr": "Zverev et Shelton peuvent se qualifier aujourd’hui : tous les scénarios de qualification aux ATP Finals",
-   "blessure": false
+   "vo": "Zverev through, three players for one spot: all the qualification scenarios at the ATP Finals",
+   "titre": "Zverev qualifié, trois joueurs pour une place : tous les scénarios de qualification pour les ATP Finals",
+   "blessure": false,
+   "titre_fr": "Zverev qualifié, trois joueurs pour une place : tous les scénarios de qualification pour les ATP Finals"
   },
   {
    "lien": "https://www.ubitennis.net/2026/11/flavio-cobolli-feeling-the-weight-of-sinners-absence-at-atp-finals/",
@@ -3753,51 +3802,6 @@
    "date": "2026-11-08T13:51+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/luca-van-assche-sera-lundi-34e-mondial-a-reau-l-equipe/1500000002645619/469:347,1679:1153-828-552-75/91f08.jpg",
    "titre": "Fin de saison pour Luca Van Assche qui renonce au tournoi de Stockholm",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Quentin-halys-et-pierre-hugues-herbert-titres-en-double-du-rolex-paris-masters/1742206#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-08T13:37+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/pierre-hugues-herbert-et-quentin-halys-titres-au-rolex-paris-masters-p-lahalle-l-equipe/1500000002645611/0:0,1999:1333-828-552-75/c223a.jpg",
-   "titre": "Quentin Halys et Pierre-Hugues Herbert titrés en double du Rolex Paris Masters",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/rolex-paris-masters-1000-atp/le-tournoi-prend-de-lampleur-plus-de-200-000-spectateurs-et-une-surface-rapide-amenee-a-rester-pioline-dresse-le-bilan-du-rolex-paris-masters-2026-809849.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-08T13:34+00:00",
-   "image": null,
-   "titre": "« Le tournoi prend de l’ampleur » : plus de 200 000 spectateurs et une surface rapide amenée à rester, Pioline dresse le bilan du Rolex Paris Masters 2026",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Cedric-pioline-directeur-du-rolex-paris-masters-les-fans-se-sont-approprie-le-lieu/1742199#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-08T12:34+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/le-parcours-de-luca-van-assche-a-tenu-en-haleine-le-public-du-rolex-paris-masters-cette-annee-a-reau-l-equipe/1500000002645594/0:0,1500:1000-828-552-75/91706.jpg",
-   "titre": "Cédric Pioline, directeur du Rolex Paris Masters : « Les fans se sont approprié le lieu »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/video-monfils-capitaine-des-bleus-son-point-fort-c-est-l-imprevisibilite-pitkowski-surprise-du-choix_VN-202611080188.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-08T10:55+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/sSoHloDl0iMeiPcFvqk5ECoMRJA=/0x0:1280x720/800x0/images/Monfils-capitaine-des-Bleus-Son-point-fort-c-est-l-imprevisibilite-Pitkowski-surprise-du-choix-2380200.jpg",
-   "titre": "Coupe Davis : Monfils, capitaine français… \"Son point fort, c'est l'imprévisibilité\" Pitkowski surprise",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/wta-actualite/8-novembre-2007-le-jour-ou-justine-henin-na-pas-laisse-un-jeu-a-marion-bartoli-303753.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-08T10:49+00:00",
-   "image": null,
-   "titre": "8 novembre 2007 : Le jour où Justine Henin a battu Marion Bartoli 6-0, 6-0",
    "blessure": false
   }
  ]
