@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T18:07+00:00",
+ "maj": "2026-11-17T19:44+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,10 +15,10 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 37 articles",
+  "L'Équipe": "ok, 38 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 17 articles",
+  "We Love Tennis": "ok, 16 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 23 articles",
   "franceinfo": "ok, 18 articles",
@@ -28,6 +28,42 @@
   "Ubitennis": "ok, 13 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/arthur-fils/arthur-fils-remporte-son-premier-match-en-carriere-au-masters_8287070.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-17T19:29+00:00",
+   "image": "https://www.franceinfo.fr/pictures/zmpfWNRQXm4wXhW5x-Y5qhERhYA/268x0:652x682/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/11/17/6afc6ce672584976983710.jpg",
+   "titre": "Arthur Fils remporte son premier match en carrière au Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Finales-atp-theo-arribage-et-albano-olivetti-s-imposent-contre-orlando-luz-et-rafael-matos-et-restent-en-course-pour-les-demi-finales/1744312#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T18:46+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/theo-arribage-et-albano-olivetti-ont-gagne-contre-orlando-luz-et-rafael-matos-f-faugere-l-equipe/1500000002652967/0:0,1999:1333-828-552-75/6e375.jpg",
+   "titre": "Finales ATP : Théo Arribagé et Albano Olivetti s'imposent contre Orlando Luz et Rafael Matos et restent en course pour les demi-finales",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/justine-henin-apres-la-premiere-victoire-darthur-fils-sur-le-masters-de-turin-je-naime-pas-dire-cela",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-17T18:45+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Arthur-Fils-1-1024x562.jpeg",
+   "titre": "Justine Henin après la première victoire d’Arthur Fils sur le Masters de Turin : « Je n’aime pas dire cela… »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Video/Le-resume-de-la-victoire-d-arthur-fils-face-a-rafael-jodar/20245769#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T18:21+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Le résumé vidéo de la victoire de Fils face à Jodar",
+   "blessure": false
+  },
   {
    "lien": "https://rmcsport.bfmtv.com/tennis/atp/comme-un-quart-de-finale-arthur-fils-impatient-d-en-decoudre-avec-le-n-1-mondial-alexander-zverev-aux-atp-finals_AV-202611170821.html",
    "source": "RMC Sport",
@@ -3762,42 +3798,6 @@
    "date": "2026-11-08T10:49+00:00",
    "image": null,
    "titre": "8 novembre 2007 : Le jour où Justine Henin a battu Marion Bartoli 6-0, 6-0",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/wta-actualite/championne-de-wimbledon-masters-tcheque-tout-ce-que-vous-avez-toujours-voulu-savoir-sur-linda-noskova-sans-prendre-le-temps-de-chercher-809834.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-08T10:40+00:00",
-   "image": null,
-   "titre": "Championne de Wimbledon, Masters, Tchèque : tout ce que vous avez toujours voulu savoir sur Linda Noskova (sans prendre le temps de chercher) – mis à jour pendant le Masters 2026",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/rolex-paris-masters-1000-atp/edberg-sur-le-service-volee-je-suis-sur-quil-va-revenir-pas-comme-a-la-grande-epoque-mais-il-reviendra-809809.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-08T09:22+00:00",
-   "image": null,
-   "titre": "Edberg sur le service-volée : « Je suis sûr qu’il va revenir, pas comme à la grande époque, mais il reviendra »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/rolex-paris-masters-1000-atp/mes-reflexes-devront-etre-au-top-alcaraz-en-quete-dun-premier-titre-au-paris-masters-face-a-shelton-qui-lavait-vaincu-a-lus-open-809806.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-08T09:16+00:00",
-   "image": null,
-   "titre": "« Mes réflexes devront être au top » : Alcaraz en quête d’un premier titre au Paris Masters face à Shelton, qui l’avait vaincu à l’US Open",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4261260-20261108-alcaraz-shelton-chaine-tv-heure-voir-finale-rolex-paris-masters-2026?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-08T08:26+00:00",
-   "image": "https://img.20mn.fr/BpTJ2LozTBqYMK8KKU8qQyk/1200x768_carlos-alcaraz-vise-un-premier-titre-au-masters-1000-de-paris-dimanche-apres-midi-photo-d-illustration",
-   "titre": "Alcaraz - Shelton : Sur quelle chaîne TV et à quelle heure voir la finale du Rolex Paris Masters 2026 ?",
    "blessure": false
   }
  ]
