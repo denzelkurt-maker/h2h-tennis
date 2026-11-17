@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T03:31+00:00",
+ "maj": "2026-11-17T05:40+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -46,6 +46,15 @@
    "vo": "November 17, 1991: The day Pete Sampras claimed his first season-ending ATP Masters Cup",
    "titre": "17 novembre 1991 : le jour où Pete Sampras a remporté sa première Masters Cup ATP de fin de saison",
    "titre_fr": "17 novembre 1991 : le jour où Pete Sampras a remporté sa première Masters Cup ATP de fin de saison",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Lapo-becherini-le-preparateur-physique-charge-de-preserver-la-puissance-d-arthur-fils-son-tennis-implique-de-l-intensite-tout-au-long-d-un-match/1744122#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T04:34+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-et-son-preparateur-physique-lapo-becherini-collaborent-depuis-plus-d-un-an-f-faugere-l-equipe/1500000002652308/0:0,1500:1000-828-552-75/f86b5.jpg",
+   "titre": "Lapo Becherini, le préparateur physique chargé de préserver la puissance d'Arthur Fils : « Son tennis implique de l'intensité tout au long d'un match »",
    "blessure": false
   },
   {
@@ -3789,15 +3798,6 @@
    "date": "2026-11-07T09:48+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/gael-monfils-mardi-dernier-lors-de-l-hommage-qui-lui-a-ete-rendu-a-la-plenitude-arena-pour-l-ensemble-de-sa-carriere-p-lahalle-l-equipe/1500000002644544/241:375,1524:1231-828-552-75/2e87a.jpg",
    "titre": "Gaël Monfils très bientôt nommé capitaine de l'équipe de France de Coupe Davis ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp-actualite/7-novembre-1993-le-jour-ou-le-public-de-paris-bercy-a-siffle-ivanisevic-parce-quil-servait-trop-bien-512076.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-07T09:30+00:00",
-   "image": null,
-   "titre": "7 novembre 1993 : Le jour où le public de Paris-Bercy a sifflé Ivanisevic parce qu’il servait trop bien",
    "blessure": false
   }
  ]
