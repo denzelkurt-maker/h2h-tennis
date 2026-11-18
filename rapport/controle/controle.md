@@ -1,6 +1,6 @@
 # Contrôle de l'appli
 
-- Date (UTC) : 2026-11-17T18:10:16.504Z
+- Date (UTC) : 2026-11-18T06:16:26.315Z
 - Version de l'appli : 0.11.0
 - État : **OK**
 
@@ -14,12 +14,12 @@
 ```json
 {
  "public": {
-  "duree_chargement_s": 2.999,
+  "duree_chargement_s": 2.829,
   "chiffres": {
    "version_appli": "0.11.0",
-   "matchs": 356952,
-   "joueurs": 11861,
-   "tournois": 10503,
+   "matchs": 357106,
+   "joueurs": 11867,
+   "tournois": 10515,
    "doublons": 0,
    "complements_dechiffres": false,
    "classement": {
@@ -53,10 +53,10 @@
    },
    "depuis_juin": {
     "Challenger tableau": {
-     "matchs": 3477,
-     "score_complet": 1950,
+     "matchs": 3549,
+     "score_complet": 1977,
      "stats": 0,
-     "score_complet_pct": 56.1
+     "score_complet_pct": 55.7
     },
     "Challenger qualifications": {
      "matchs": 2885,
@@ -65,8 +65,8 @@
      "score_complet_pct": 59.6
     },
     "ITF": {
-     "matchs": 9339,
-     "score_complet": 5478,
+     "matchs": 9419,
+     "score_complet": 5525,
      "stats": 0,
      "score_complet_pct": 58.7
     },
@@ -77,8 +77,8 @@
      "score_complet_pct": 49.3
     },
     "ATP tableau": {
-     "matchs": 1177,
-     "score_complet": 1141,
+     "matchs": 1179,
+     "score_complet": 1143,
      "stats": 0,
      "score_complet_pct": 96.9
     }
@@ -86,12 +86,12 @@
   }
  },
  "complet": {
-  "duree_chargement_s": 2.556,
+  "duree_chargement_s": 2.159,
   "chiffres": {
    "version_appli": "0.11.0",
-   "matchs": 357470,
-   "joueurs": 11873,
-   "tournois": 10513,
+   "matchs": 357540,
+   "joueurs": 11879,
+   "tournois": 10516,
    "doublons": 0,
    "complements_dechiffres": true,
    "classement": {
@@ -125,20 +125,20 @@
    },
    "depuis_juin": {
     "Challenger tableau": {
-     "matchs": 3610,
-     "score_complet": 3605,
-     "stats": 3350,
+     "matchs": 3650,
+     "score_complet": 3646,
+     "stats": 3382,
      "score_complet_pct": 99.9
     },
     "Challenger qualifications": {
      "matchs": 2958,
-     "score_complet": 2953,
-     "stats": 2544,
-     "score_complet_pct": 99.8
+     "score_complet": 2955,
+     "stats": 2550,
+     "score_complet_pct": 99.9
     },
     "ITF": {
-     "matchs": 9601,
-     "score_complet": 9572,
+     "matchs": 9630,
+     "score_complet": 9601,
      "stats": 4234,
      "score_complet_pct": 99.7
     },
@@ -149,9 +149,9 @@
      "score_complet_pct": 99.6
     },
     "ATP tableau": {
-     "matchs": 1193,
-     "score_complet": 1193,
-     "stats": 1173,
+     "matchs": 1194,
+     "score_complet": 1194,
+     "stats": 1174,
      "score_complet_pct": 100
     }
    }
