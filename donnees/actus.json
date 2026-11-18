@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T05:42+00:00",
+ "maj": "2026-11-18T07:57+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -35,6 +35,24 @@
    "date": "2026-11-18T15:40+00:00",
    "image": null,
    "titre": "18 novembre 1990 : Le jour où Monica Seles et Gabriela Sabatini ont joué un match en cinq sets",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/laveu-de-zverev-apres-sa-qualification-pour-les-demi-finales-quand-jai-perdu-dentree-a-paris-il-y-a-deux-semaines-une-legende-du-tennis-ma-dit-je-vois-bien-que-tu",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T07:40+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-1-1024x544.jpeg",
+   "titre": "L’aveu de Zverev après sa qualification pour les demi-finales : « Quand j’ai perdu d’entrée à Paris il y a deux semaines, une légende du tennis m’a dit : ‘Je vois bien que tu es stressé, que tu ne profites pas vraiment d",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/comment-arthur-fils-peut-il-se-qualifier-pour-les-demi-finales-tous-les-scenarios-possibles",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T07:10+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-regard-smash-1024x540.jpeg",
+   "titre": "Comment Arthur Fils peut-il se qualifier pour les demi-finales ? Tous les scénarios possibles !",
    "blessure": false
   },
   {
@@ -3784,26 +3802,6 @@
    "date": "2026-11-08T17:26+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/matteo-martineau-lors-des-qualifications-de-roland-garros-en-2025-p-lahalle-l-equipe/1500000002645804/116:68,1946:1289-828-552-75/55738.jpg",
    "titre": "La délivrance à 27 ans : Matteo Martineau remporte son premier Challenger en Italie et pourra disputer les qualifications de l'Open d'Australie",
-   "blessure": false
-  },
-  {
-   "titre": "Carlos Alcaraz Topples Shelton pour remporter les Masters de Paris",
-   "lien": "https://www.ubitennis.net/2026/11/carlos-alcaraz-topples-shelton-to-win-paris-masters/",
-   "source": "Ubitennis",
-   "date": "2026-11-08T17:03+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Carlos Alcaraz Topples Shelton To Win Paris Masters",
-   "titre_fr": "Carlos Alcaraz Topples Shelton pour remporter les Masters de Paris"
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4261303-20261108-carlos-alcaraz-desormais-tout-gagne-paris-shelton-rien-pu-faire-finale?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-08T16:54+00:00",
-   "image": "https://img.20mn.fr/ZtsaJdqnRsaClMOfSke0ayk/1200x768_l-espagnol-carlos-alcaraz-est-lance-avec-le-masters-de-fin-d-annee-a-turin-ou-s-affronteront-les-8-meilleurs-mondiaux",
-   "titre": "Carlos Alcaraz a désormais tout gagné à Paris, Shelton n’a rien pu faire en finale",
    "blessure": false
   }
  ]
