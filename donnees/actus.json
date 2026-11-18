@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T09:39+00:00",
+ "maj": "2026-11-18T11:37+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,12 +18,12 @@
   "L'Équipe": "ok, 41 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 16 articles",
+  "We Love Tennis": "ok, 15 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 23 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "erreur : no element found: line 1, column 0",
+  "ESPN": "ok, 9 articles",
   "Tennis Majors (EN)": "ok, 18 articles",
   "Ubitennis": "ok, 14 articles"
  },
@@ -35,6 +35,62 @@
    "date": "2026-11-18T15:40+00:00",
    "image": null,
    "titre": "18 novembre 1990 : Le jour où Monica Seles et Gabriela Sabatini ont joué un match en cinq sets",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/justine-henin-sur-carlos-alcaraz-meme-quand-il-se-fait-agresser-moi-je-le-trouve-plus-rapide-que-jamais-il-est-bondissant",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T11:20+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Justine-Henin-1024x573.jpeg",
+   "titre": "Justine Henin sur Carlos Alcaraz : « Même quand il se fait agresser, moi je le trouve plus rapide que jamais. Il est bondissant »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-on-tend-vers-l-objectif-souhaite-qui-est-d-elargir-la-base-de-la-pyramide-quand-le-centre-national-d-entrainement-du-tennis-francais-se-transforme-en-site-de-tournoi/1744405#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-18T10:50+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Quand le CNE se transforme en site de tournoi",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/adriano-panatta-se-lache-le-match-entre-cobolli-et-medvedev-cetait-du-tennis-quel-est-limbecile-qui-decide-de-ca",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T10:27+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Panatta-RG-2026-1024x541.jpeg",
+   "titre": "Adriano Panatta se lâche : « Le match entre Cobolli et Medvedev, c’était du tennis ? Quel est l’imbécile qui décide de ça ? »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Ceremonie-boudee-par-l-atp-video-censuree-et-dialogue-au-point-mort-a-turin-la-grogne-des-joueurs-de-double-monte/1744351#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-18T10:00+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Cérémonie boudée par l'ATP, vidéo censurée et dialogue au point mort : à Turin, la grogne des joueurs de double monte",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/rafael-jodar-apres-sa-defaite-contre-arthur-fils-ce-nest-pas-une-excuse",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T09:59+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Jodar-1024x488.jpeg",
+   "titre": "Rafael Jodar, après sa défaite contre Arthur Fils : « Ce n’est pas une excuse »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-faces-another-lawsuit-what-we-know-so-far/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-18T09:44+00:00",
+   "image": null,
+   "vo": "Alexander Zverev Faces Another Lawsuit – What We Know So Far",
+   "titre": "Alexander Zverev fait face à une nouvelle poursuite judiciaire – Ce que nous savons jusqu'à présent",
+   "titre_fr": "Alexander Zverev fait face à une nouvelle poursuite judiciaire – Ce que nous savons jusqu'à présent",
    "blessure": false
   },
   {
@@ -111,6 +167,17 @@
    "date": "2026-11-17T22:00+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-mardi-a-turin-f-faugere-l-equipe/1500000002653071/0:0,1998:1332-828-552-75/386f0.jpg",
    "titre": "Quels scénarios qualifient Arthur Fils pour les demies des Finales ATP ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50513841/alexander-zverev-beats-ben-shelton-semis-atp-finals",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-17T21:56+00:00",
+   "image": null,
+   "vo": "Top-ranked Zverev gets 7th career win vs. Shelton to make semis of ATP Finals",
+   "titre": "Zverev, classé numéro 1, remporte sa 7e victoire en carrière contre Shelton et se qualifie pour les demi-finales des ATP Finals",
+   "titre_fr": "Zverev, classé numéro 1, remporte sa 7e victoire en carrière contre Shelton et se qualifie pour les demi-finales des ATP Finals",
    "blessure": false
   },
   {
@@ -852,6 +919,17 @@
    "date": "2026-11-16T15:16+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Ferrero-Alcaraz-1024x476.jpeg",
    "titre": "Tim Henman sur les retrouvailles entre Alcaraz et Ferrero : « C’était un peu gênant. Quand Juan Carlos est entré sur le court, on sentait vraiment que c’était la première fois qu’ils avaient un quelconque contact depuis ",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50501663/carlos-alcaraz-dominates-frances-tiafoe-atp-finals-opener",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-16T15:11+00:00",
+   "image": null,
+   "vo": "Alcaraz dominates Tiafoe in ATP Finals opener, extends win streak to 10 matches",
+   "titre": "Alcaraz domine Tiafoe lors du match d'ouverture des ATP Finals et porte sa série de victoires à 10 matches",
+   "titre_fr": "Alcaraz domine Tiafoe lors du match d'ouverture des ATP Finals et porte sa série de victoires à 10 matches",
    "blessure": false
   },
   {
@@ -3724,82 +3802,6 @@
    "date": "2026-11-08T22:00+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/gregory-caraz-joseph-phitoussi-pablo-pradat-et-benoit-geldof-dr/1500000002646078/11:307,735:789-828-552-75/1b73f.jpg",
    "titre": "La France remporte la Coupe Davis juniors pour la première fois depuis 21 ans",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Video/Rolex-paris-masters-les-temps-forts-de-la-victoire-de-carlos-alcaraz-face-a-ben-sheltonen-finale-du-rolex-paris-masters/20245172#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-08T21:26+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Les temps forts de la victoire de Carlos Alcaraz face à Ben Sheltonen finale du Rolex Paris Masters",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/il-faut-que-j-aille-a-stockholm-pour-me-retirer-sinon-je-prends-une-grosse-amende-la-drole-de-mesaventure-de-luca-van-assche-apres-sa-belle-performance-au-rolex-paris-masters_AV-202611080420.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-08T21:19+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/BCA1sMsOsnqGswKGgbb8pq7Zv0Y=/0x134:2048x1286/800x0/images/Luca-Van-Assche-lors-de-son-quart-de-finale-au-Masters-1000-de-Paris-le-6-novembre-2026-2379719.jpg",
-   "titre": "\"Il faut que j'aille à Stockholm sinon je prends une grosse amende\": la drôle de mésaventure de Luca Van Assche après sa belle performance au Rolex Paris Masters",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Gael-monfils-capitaine-de-coupe-davis-les-dessous-d-une-decision-qui-a-pris-tout-le-monde-a-contre-pied-je-ne-suis-meme-pas-sur-que-lui-meme-y-ait-pense/1742048#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-08T21:00+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Monfils, les dessous d'une décision qui a pris tout le monde à contre-pied",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/C-etait-pourtant-l-arme-fatale-de-ben-shelton-comment-carlos-alcaraz-a-neutralise-le-service-de-l-americain-en-finale-du-rolex-paris-masters/1742349#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-08T21:00+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/ben-shelton-est-souvent-monte-dans-des-conditions-defavorables-a-cause-de-la-qualite-des-retours-de-carlos-alcaraz-p-lahalle-l-equipe/1500000002645988/0:0,1500:1000-828-552-75/1caf1.jpg",
-   "titre": "C'était pourtant l'arme fatale de Ben Shelton : comment Carlos Alcaraz a neutralisé le service de l'Américain en finale du Rolex Paris Masters",
-   "blessure": false
-  },
-  {
-   "titre": "Linette met fin au règne de Tjen à Chennai pour remporter le premier titre depuis 2024",
-   "lien": "https://www.tennismajors.com/wta-tour-news/wta-chennai-open/linette-ends-tjens-chennai-reign-to-win-first-title-since-2024-866264.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-08T20:24+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Linette ends Tjen’s Chennai reign to win first title since 2024",
-   "titre_fr": "Linette met fin au règne de Tjen à Chennai pour remporter le premier titre depuis 2024"
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Apres-son-sacre-au-rolex-paris-masters-quels-titres-manquent-au-palmares-de-carlos-alcaraz/1742340#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-08T20:22+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-a-remporte-le-rolex-paris-masters-p-lahalle-l-equipe/1500000002645973/371:507,1546:1290-828-552-75/82d8f.jpg",
-   "titre": "Après son sacre au Rolex Paris Masters, quels titres manquent au palmarès de Carlos Alcaraz ?",
-   "blessure": false
-  },
-  {
-   "titre": "Alcaraz en route pour un tour du chapeau en salle : « Probablement le meilleur que j'ai joué depuis mon retour »",
-   "lien": "https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/alcaraz-on-course-for-an-indoor-hat-trick-probably-the-best-ive-played-since-my-comeback-866433.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-08T20:15+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Alcaraz on course for an indoor hat-trick: “Probably the best I’ve played since my comeback”",
-   "titre_fr": "Alcaraz en route pour un tour du chapeau en salle : « Probablement le meilleur que j'ai joué depuis mon retour »"
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Du-show-et-du-jeu-pour-le-bonheur-du-public-carlos-alcaraz-a-fini-par-briser-sa-malediction-au-rolex-paris-masters/1742334#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-08T20:15+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Une semaine au show et Alcaraz a fini par briser sa malédiction",
    "blessure": false
   }
  ]

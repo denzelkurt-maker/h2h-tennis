@@ -2661,6 +2661,15 @@
   ],
   [
    "2027-01-04",
+   "Challenger del Biobío",
+   "Los Ángeles",
+   "Chile",
+   "Clay",
+   0,
+   50
+  ],
+  [
+   "2027-01-04",
    "Lexus Nottingham Challenger",
    "Nottingham",
    "United Kingdom",
@@ -2691,6 +2700,15 @@
    "Glasgow Challenger",
    "Glasgow",
    "United Kingdom",
+   "Hard",
+   1,
+   75
+  ],
+  [
+   "2027-01-18",
+   "All In Open",
+   "Lyon",
+   "France",
    "Hard",
    1,
    75
@@ -2822,10 +2840,10 @@
   "salle",
   "categorie"
  ],
- "challenger_maj": "2026-11-17T13:56+00:00",
+ "challenger_maj": "2026-11-18T11:37+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-18T09:39+00:00",
+  "date": "2026-11-18T11:37+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
