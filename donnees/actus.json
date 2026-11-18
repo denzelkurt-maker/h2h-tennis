@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T15:37+00:00",
+ "maj": "2026-11-18T17:38+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -29,12 +29,77 @@
  },
  "articles": [
   {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/daniil-medvedev-apres-sa-defaite-contre-alcaraz-sur-le-masters-de-turin-pour-pouvoir-battre-ce-carlos-la-il-faut-jouer-un-match-parfait-ou-presque-ce-que-je-nai-pas-reussi-a-faire-et-jai-p",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T17:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Medvedev-conf-1024x584.jpeg",
+   "titre": "Daniil Medvedev, après sa défaite contre Alcaraz sur le Masters de Turin : « Pour pouvoir battre ce Carlos-là, il faut jouer un match parfait ou presque, ce que je n’ai pas réussi à faire, et j’ai perdu »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/angelo-binaghi-sur-jannik-sinner-apres-avoir-ete-injustement-accuse-de-dopage-il-doit-subir-cela-jai-de-la-peine-pour-ce-garcon-car-il-ne-meritait-pas-ca",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T16:37+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Sinner-profil-wim-1024x575.jpeg",
+   "titre": "Angelo Binaghi sur Jannik Sinner : « Après avoir été injustement accusé de dopage, il doit subir cela. J’ai de la peine pour ce garçon, car il ne méritait pas ça »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-explains-the-treatment-he-received-during-his-match-against-medvedev-867240.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-18T16:18+00:00",
+   "image": null,
+   "vo": "Alcaraz explains the treatment he received during his match against Medvedev",
+   "titre": "Alcaraz explique le traitement qu'il a reçu lors de son match contre Medvedev",
+   "titre_fr": "Alcaraz explique le traitement qu'il a reçu lors de son match contre Medvedev",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/alcaraz-rassure-apres-setre-fait-soigner-contre-medvedev-810416.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-18T16:17+00:00",
+   "image": null,
+   "titre": "Alcaraz rassure après s’être fait soigner contre Medvedev",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alexander-zverev-a-un-journaliste-en-conference-de-presse-tu-devrais-etre-mon-entraineur",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T16:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-conf-presse-1-1024x530.jpeg",
+   "titre": "Alexander Zverev à un journaliste en conférence de presse : « Tu devrais être mon entraîneur »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Ceremonie-boudee-par-l-atp-video-censuree-et-dialogue-au-point-mort-a-turin-la-grogne-des-joueurs-de-double-monte/1744351#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-18T15:59+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "La grogne des joueurs de double monte",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/fr/wta-actualite/18-novembre-1990-le-jour-ou-monica-seles-et-gabriela-sabatini-ont-joue-un-match-en-cinq-sets-306315.html",
    "source": "Tennis Majors",
    "langue": "fr",
    "date": "2026-11-18T15:40+00:00",
    "image": null,
    "titre": "18 novembre 1990 : Le jour où Monica Seles et Gabriela Sabatini ont joué un match en cinq sets",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-previent-tout-le-monde-pour-2027-voici-lobjectif-et-si-je-peux-faire-comme-jannik-sinner",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T15:39+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-conf-presse--1024x536.jpeg",
+   "titre": "Arthur Fils prévient tout le monde pour 2027 : « Voici l’objectif. Et si je peux faire comme Jannik Sinner… »",
    "blessure": false
   },
   {
@@ -64,15 +129,6 @@
    "date": "2026-11-18T14:49+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-1024x552.jpeg",
    "titre": "Alcaraz, sur son alerte physique lors de sa victoire contre Medvedev : « Je vais maintenant analyser cela avec mon équipe et nous verrons comment ça se présente »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Ceremonie-boudee-par-l-atp-video-censuree-et-dialogue-au-point-mort-a-turin-la-grogne-des-joueurs-de-double-monte/1744351#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-18T14:47+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "La grogne des joueurs de double monte",
    "blessure": false
   },
   {
@@ -3735,70 +3791,6 @@
    "image": null,
    "vo": "Ferrero on Shelton: “He can have a high chance of competing on equal terms with those at the top”",
    "titre_fr": "Ferrero sur Shelton : « Il peut avoir de grandes chances de concourir sur un pied d'égalité avec ceux qui sont au sommet »"
-  },
-  {
-   "titre": "Humbert et le qualifié Gojo ont organisé les 16 derniers affrontements à Stockholm",
-   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/humbert-and-qualifier-gojo-set-up-last-16-clash-in-stockholm-866519.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-09T19:35+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Humbert and qualifier Gojo set up last-16 clash in Stockholm",
-   "titre_fr": "Humbert et le qualifié Gojo ont organisé les 16 derniers affrontements à Stockholm"
-  },
-  {
-   "titre": "Les espoirs de Djokovic en finale de l'ATP se sont brisés à Paris, mais les yeux se tournent vers l'Open d'Australie 2027",
-   "lien": "https://www.ubitennis.net/2026/11/djokovics-atp-finals-hopes-dashed-in-paris-but-eyes-turn-to-2027-australian-open/",
-   "source": "Ubitennis",
-   "date": "2026-11-09T18:26+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Djokovic’s ATP Finals hopes dashed in Paris, but eyes turn to 2027 Australian Open",
-   "titre_fr": "Les espoirs de Djokovic en finale de l'ATP se sont brisés à Paris, mais les yeux se tournent vers l'Open d'Australie 2027"
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/paris-bercy/un-melange-de-djokovic-et-federer-comment-alcaraz-a-conquis-le-masters-1000-de-paris_AV-202611090813.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-09T18:17+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/jFfp4H51nEtLEFR03HpeOkqNmgg=/0x106:2048x1258/800x0/images/Carlos-Alcaraz-tout-sourire-apres-sa-victoire-au-Masters-1000-de-Paris-le-8-novembre-2026-2380956.jpg",
-   "titre": "\"Un mélange de Djokovic et Federer\", comment Alcaraz a conquis le Masters 1000 de Paris",
-   "blessure": false
-  },
-  {
-   "titre": "9 novembre 1993 : Le jour où le grand Bjorn Borg a joué son dernier match professionnel",
-   "lien": "https://www.tennismajors.com/atp/moscow-vtb-kremlin-cup-atp-250/november-9-1993-the-day-bjorn-borg-played-his-final-professional-match-303941.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-09T15:56+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "November 9, 1993: The day the great Bjorn Borg played his last-ever professional match",
-   "titre_fr": "9 novembre 1993 : Le jour où le grand Bjorn Borg a joué son dernier match professionnel"
-  },
-  {
-   "titre": "Norrie rembobine huit matchs consécutifs contre Duckworth pour mettre en place Fritz Clash",
-   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/norrie-reels-off-eight-straight-games-against-duckworth-to-set-up-fritz-clash-866501.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-09T15:54+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Norrie reels off eight straight games against Duckworth to set up Fritz clash",
-   "titre_fr": "Norrie rembobine huit matchs consécutifs contre Duckworth pour mettre en place Fritz Clash"
-  },
-  {
-   "titre": "Le Suisse Leandro Riedi s'ouvre sur la tentative de suicide pour la première fois",
-   "lien": "https://www.ubitennis.net/2026/11/switzerlands-leandro-riedi-opens-up-about-suicide-attempt-for-the-first-time/",
-   "source": "Ubitennis",
-   "date": "2026-11-09T15:12+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Switzerland’s Leandro Riedi Opens Up About Suicide Attempt For The First Time",
-   "titre_fr": "Le Suisse Leandro Riedi s'ouvre sur la tentative de suicide pour la première fois"
   }
  ]
 }
