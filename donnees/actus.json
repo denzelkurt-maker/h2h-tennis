@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T21:34+00:00",
+ "maj": "2026-11-18T23:31+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,26 +18,75 @@
   "L'Équipe": "ok, 41 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 18 articles",
+  "We Love Tennis": "ok, 19 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 23 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 18 articles",
-  "Ubitennis": "ok, 15 articles"
+  "Tennis Majors (EN)": "ok, 19 articles",
+  "Ubitennis": "ok, 16 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Avec-son-coup-droit-considere-comme-l-un-des-cinq-meilleurs-au-monde-arthur-fils-vise-l-exploit-face-au-numero-1-mondial-alexander-zverev-aux-finales-atp/1744494#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-18T22:57+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Le coup droit, l'atout maître de Fils",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/the-saddest-match-of-my-career-cobolli-in-tears-after-his-turin-exit-867281.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-18T22:47+00:00",
+   "image": null,
+   "vo": "“The saddest match of my career”: Cobolli fights back tears after his Turin exit",
+   "titre": "« Le match le plus triste de ma carrière » : Cobolli retient ses larmes après son élimination à Turin",
+   "titre_fr": "« Le match le plus triste de ma carrière » : Cobolli retient ses larmes après son élimination à Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/tiafoe-ecrase-cobolli-devant-le-public-italien-alcaraz-qualifie-en-tant-que-premier-de-son-groupe-aux-atp-finals-810440.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-18T21:56+00:00",
+   "image": null,
+   "titre": "« C’était assez brutal » : Tiafoe écrase Cobolli face au public turinois, Alcaraz premier de son groupe",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/frances-tiafoe-downs-lacklustre-cobolli-to-keep-atp-finals-dream-alive/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-18T21:36+00:00",
+   "image": null,
+   "vo": "Frances Tiafoe Downs Lacklustre Cobolli To Keep ATP Finals Dream Alive",
+   "titre": "Frances Tiafoe bat un Cobolli peu convaincant et garde vivant son rêve des ATP Finals",
+   "titre_fr": "Frances Tiafoe bat un Cobolli peu convaincant et garde vivant son rêve des ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/la-detresse-de-flavio-cobolli-apres-son-elimination-du-masters-de-turin",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T21:22+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Cobolli-revers-1024x458.jpeg",
+   "titre": "La détresse de Flavio Cobolli après son élimination du Masters de Turin",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/tiafoe-crushes-cobolli-in-front-on-italian-crowd-alcaraz-qualified-as-group-winner-at-the-atp-finals-867257.html",
    "source": "Tennis Majors (EN)",
    "langue": "en",
    "date": "2026-11-18T21:18+00:00",
    "image": null,
-   "vo": "Tiafoe crushes Cobolli in front on Italian crowd, Alcaraz qualified as group winner at the ATP Finals",
-   "titre": "Tiafoe écrase Cobolli devant le public italien, Alcaraz qualifié en tant que vainqueur de groupe aux ATP Finals",
-   "titre_fr": "Tiafoe écrase Cobolli devant le public italien, Alcaraz qualifié en tant que vainqueur de groupe aux ATP Finals",
-   "blessure": false
+   "vo": "“That was pretty brutal”: Tiafoe silences Turin to crush Cobolli, Alcaraz tops group",
+   "titre": "« C'était assez brutal » : Tiafoe fait taire Turin en écrasant Cobolli, Alcaraz termine en tête du groupe",
+   "blessure": false,
+   "titre_fr": "« C'était assez brutal » : Tiafoe fait taire Turin en écrasant Cobolli, Alcaraz termine en tête du groupe"
   },
   {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/Frances-tiafoe-maitrise-flavio-cobolli-carlos-alcaraz-directement-qualifie-pour-le-dernier-carre-des-finales-atp/1744542#at_medium=RSS_feeds",
@@ -67,6 +116,17 @@
    "blessure": false
   },
   {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/wow-that-was-a-good-one-alcaraz-admits-he-sometimes-surprises-himself-867253.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-18T19:25+00:00",
+   "image": null,
+   "vo": "“Wow, that was a good one”: Alcaraz admits he sometimes surprises himself",
+   "titre": "« Waouh, celle-là était vraiment bonne » : Alcaraz admet qu'il se surprend parfois lui-même",
+   "titre_fr": "« Waouh, celle-là était vraiment bonne » : Alcaraz admet qu'il se surprend parfois lui-même",
+   "blessure": false
+  },
+  {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/Alejandro-davidovich-fokina-16e-mondial-et-ami-d-arthur-fils-quand-je-vois-arthur-je-vois-une-star/1744513#at_medium=RSS_feeds",
    "source": "L'Équipe",
    "langue": "fr",
@@ -92,15 +152,6 @@
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Tsonga-Nadal-Open-Australie-2008-1024x532.jpg",
    "titre": "Tsonga, sur la carrière de Nadal : « Rafa avait mal mais il jouait quand même. Et une blessure où tu peux jouer, ce n’est pas vraiment une blessure pour moi »",
    "blessure": true
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Avec-son-coup-droit-considere-comme-l-un-des-cinq-meilleurs-au-monde-arthur-fils-vise-l-exploit-face-au-numero-1-mondial-alexander-zverev-aux-finales-atp/1744494#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-18T17:59+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Le coup droit, l'atout maître de Fils",
-   "blessure": false
   },
   {
    "lien": "https://www.welovetennis.fr/atp/un-gros-probleme-se-profile-pour-latp-deux-tournois-atp-500-sont-plus-que-jamais-menaces-explique-jose-moron",
@@ -153,10 +204,10 @@
    "langue": "en",
    "date": "2026-11-18T16:18+00:00",
    "image": null,
-   "vo": "Alcaraz explains the treatment he received during his match against Medvedev",
-   "titre": "Alcaraz explique le traitement qu'il a reçu lors de son match contre Medvedev",
-   "titre_fr": "Alcaraz explique le traitement qu'il a reçu lors de son match contre Medvedev",
-   "blessure": false
+   "vo": "“Suddenly I felt a little problem of my hamstring” – Alcaraz explains the treatment he received",
+   "titre": "« Soudain, j'ai ressenti un petit problème au niveau de mon ischio-jambier » – Alcaraz explique le traitement qu'il a reçu",
+   "blessure": false,
+   "titre_fr": "« Soudain, j'ai ressenti un petit problème au niveau de mon ischio-jambier » – Alcaraz explique le traitement qu'il a reçu"
   },
   {
    "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/alcaraz-rassure-apres-setre-fait-soigner-contre-medvedev-810416.html",
@@ -3735,53 +3786,6 @@
    "date": "2026-11-10T13:44+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2024/11/Ferrero-Turin-Masters-2024-1024x550.jpeg",
    "titre": "Ferrero, nouveau coach de Shelton, battu par Alcaraz en finale : « C’était la première fois en huit ans que je devais réfléchir à des stratégies pour contrer le jeu de Carlos »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/france/jo-wilfried-tsonga-apres-la-nomination-de-gael-monfils-au-poste-de-capitaine-de-coupe-davis-jai-informe-gilles-moretton-que-si-un-jour-il-pensait-a-moi-il-fallait-me-prevenir-bien-en-amont",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T13:14+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Tsonga-RG-2026-1024x618.jpeg",
-   "titre": "Jo-Wilfried Tsonga, après la nomination de Gaël Monfils au poste de capitaine de Coupe Davis : « J’ai informé Gilles Moretton que si un jour il pensait à moi, il fallait me prévenir bien en amont »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/steve-johnson-declasse-novak-djokovic-je-vais-etre-honnete-avec-vous-jetais-optimiste-pour-lui-ces-dernieres-semaines-mais-pour-moi-cest-desormais-officiel-il-nest-plus-dan",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T12:51+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Djokovic-profil-1024x604.jpeg",
-   "titre": "Steve Johnson déclasse Novak Djokovic : « Je vais être honnête avec vous, j’étais optimiste pour lui ces dernières semaines mais pour moi, c’est désormais officiel : il n’est plus dans la course pour aucun grand tournoi ",
-   "blessure": false
-  },
-  {
-   "titre": "10 novembre 1973 : Le jour où Jimmy Connors et Bjorn Borg se sont affrontés pour la première fois",
-   "lien": "https://www.tennismajors.com/atp/november-10-1973-the-day-jimmy-connors-and-bjorn-borg-faced-off-for-the-first-time-512755.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-10T12:28+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "November 10, 1973: The day Jimmy Connors and Bjorn Borg faced off for the first time",
-   "titre_fr": "10 novembre 1973 : Le jour où Jimmy Connors et Bjorn Borg se sont affrontés pour la première fois"
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/musetti-apres-avoir-souligne-le-merite-de-zverev-en-termes-de-niveau-je-pense-quil-ne-fait-aucun-doute-que-si-tout-le-monde-est-au-meilleur-de-sa-forme-sinner-et-alcaraz-restent-meille",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T12:21+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Musetti-Zverev-1024x555.jpeg",
-   "titre": "Musetti, après avoir souligné le mérite de Zverev : « En termes de niveau, je pense qu’il ne fait aucun doute que si tout le monde est au meilleur de sa forme, Sinner et Alcaraz restent meilleurs que n’importe qui d’autr",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/jim-courier-tranche-entre-federer-nadal-et-djokovic-je-me-mets-dans-la-peau-dun-avocat-et-je-me-demande-comment-je-pourrais-gagner-un-debat-si-je-devais-opposer-les-statistiques-de-roger-et-raf",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T11:42+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/02/Federer-Nadal-Djokovic.jpeg",
-   "titre": "Jim Courier tranche entre Federer, Nadal et Djokovic : « Je me mets dans la peau d’un avocat et je me demande comment je pourrais gagner un débat si je devais opposer les statistiques de Roger et Rafa à celles de Novak »",
    "blessure": false
   }
  ]
