@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T17:38+00:00",
+ "maj": "2026-11-18T19:42+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 41 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 17 articles",
+  "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 23 articles",
   "franceinfo": "ok, 18 articles",
@@ -28,6 +28,51 @@
   "Ubitennis": "ok, 15 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Alejandro-davidovich-fokina-16e-mondial-et-ami-d-arthur-fils-quand-je-vois-arthur-je-vois-une-star/1744513#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-18T18:45+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-et-alejandro-davidovich-fokina-a-roland-garros-en-2023-a-reau-l-equipe/1500000002653647/0:0,800:533-828-552-75/74d1b.jpg",
+   "titre": "Alejandro Davidovich Fokina, 16e mondial et ami d'Arthur Fils : « Quand je vois Arthur, je vois une star »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/laveu-forcement-inquietant-dalcaraz-apres-sa-victoire-contre-medvedev-je-ne-vais-pas-mentir-je-sens-un-peu-ma-cuisse-malheureusement-je-jouais-tres-bien-et-tout-a-coup-jai-ressen",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T18:45+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-conf-presse-1024x555.jpeg",
+   "titre": "L’aveu forcément inquiétant d’Alcaraz après sa victoire contre Medvedev : « Je ne vais pas mentir, je sens un peu ma cuisse. Malheureusement, je jouais très bien, et tout à coup, j’ai ressenti un petit problème à ce nive",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/tsonga-sur-la-carriere-de-nadal-rafa-avait-mal-mais-il-jouait-quand-meme-et-une-blessure-ou-tu-peux-jouer-ce-nest-pas-vraiment-une-blessure-pour-moi",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T18:06+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Tsonga-Nadal-Open-Australie-2008-1024x532.jpg",
+   "titre": "Tsonga, sur la carrière de Nadal : « Rafa avait mal mais il jouait quand même. Et une blessure où tu peux jouer, ce n’est pas vraiment une blessure pour moi »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Avec-son-coup-droit-considere-comme-l-un-des-cinq-meilleurs-au-monde-arthur-fils-vise-l-exploit-face-au-numero-1-mondial-alexander-zverev-aux-finales-atp/1744494#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-18T17:59+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Le coup droit, l'atout maître de Fils",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/un-gros-probleme-se-profile-pour-latp-deux-tournois-atp-500-sont-plus-que-jamais-menaces-explique-jose-moron",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T17:38+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2019/12/AMBIANCE-529-1024x683.jpeg",
+   "titre": "« Un gros problème se profile pour l’ATP. Deux tournois ATP 500 sont plus que jamais menacés », explique José Moron",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/daniil-medvedev-apres-sa-defaite-contre-alcaraz-sur-le-masters-de-turin-pour-pouvoir-battre-ce-carlos-la-il-faut-jouer-un-match-parfait-ou-presque-ce-que-je-nai-pas-reussi-a-faire-et-jai-p",
    "source": "We Love Tennis",
@@ -63,7 +108,7 @@
    "langue": "fr",
    "date": "2026-11-18T16:17+00:00",
    "image": null,
-   "titre": "Alcaraz rassure après s’être fait soigner contre Medvedev",
+   "titre": "Alcaraz s’explique sur ses soins pendant son match contre Medvedev",
    "blessure": false
   },
   {
@@ -3738,59 +3783,6 @@
    "image": null,
    "vo": "Shelton, Alcaraz, Mosquito: Everything you always wanted to know about Juan Carlos Ferrero (but never had time to find out) – updated after his Marca interview",
    "titre_fr": "Shelton, Alcaraz, Mosquito : Tout ce que vous avez toujours voulu savoir sur Juan Carlos Ferrero (mais que vous n'avez jamais eu le temps de découvrir) – mise à jour après son entretien avec Marca"
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-sur-sa-lancee-arthur-fils-en-forme-et-rafael-jodar-pret-pour-l-exploit-le-barometre-des-huit-qualifies-pour-les-finales-atp-de-turin/1742507#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-09T22:49+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Le baromètre des huit qualifiés pour Turin",
-   "blessure": false
-  },
-  {
-   "titre": "Borg et Dahlin battus alors que les trois jokers suédois tombent à Stockholm",
-   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/borg-and-dahlin-beaten-as-all-three-swedish-wildcards-fall-in-stockholm-866561.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-09T22:01+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Borg and Dahlin beaten as all three Swedish wildcards fall in Stockholm",
-   "titre_fr": "Borg et Dahlin battus alors que les trois jokers suédois tombent à Stockholm"
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/riedi-reveals-2024-suicide-attempt-i-am-living-proof-that-things-can-get-better-866634.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-09T21:59+00:00",
-   "image": null,
-   "vo": "Riedi reveals 2024 suicide attempt: “I am living proof that things can get better”",
-   "titre": "Riedi révèle une tentative de suicide en 2024 : « Je suis la preuve vivante que les choses peuvent s'améliorer »",
-   "titre_fr": "Riedi révèle une tentative de suicide en 2024 : « Je suis la preuve vivante que les choses peuvent s'améliorer »",
-   "blessure": false
-  },
-  {
-   "titre": "Zverev : « Je ne pense pas avoir grand-chose d'autre à prouver »",
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/zverev-i-dont-think-i-have-much-else-to-prove-866520.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-09T20:14+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Zverev: “I don’t think I have much else to prove”",
-   "titre_fr": "Zverev : « Je ne pense pas avoir grand-chose d'autre à prouver »"
-  },
-  {
-   "titre": "Ferrero sur Shelton : « Il peut avoir de grandes chances de concourir sur un pied d'égalité avec ceux qui sont au sommet »",
-   "lien": "https://www.tennismajors.com/atp/ferrero-on-shelton-he-can-have-a-high-chance-of-competing-on-equal-terms-with-those-at-the-top-866522.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-09T19:51+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Ferrero on Shelton: “He can have a high chance of competing on equal terms with those at the top”",
-   "titre_fr": "Ferrero sur Shelton : « Il peut avoir de grandes chances de concourir sur un pied d'égalité avec ceux qui sont au sommet »"
   }
  ]
 }
