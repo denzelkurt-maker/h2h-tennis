@@ -1053,15 +1053,15 @@
   },
   "2026-11-16": {
    "pages": 1,
-   "lignes_atp": 63,
-   "final": false,
-   "le": "2026-11-17"
+   "lignes_atp": 69,
+   "final": true,
+   "le": "2026-11-18"
   },
   "2026-11-17": {
    "pages": 1,
-   "lignes_atp": 95,
+   "lignes_atp": 146,
    "final": false,
-   "le": "2026-11-17"
+   "le": "2026-11-18"
   }
  },
  "parametres": {
@@ -1074,9 +1074,9 @@
   "2026": "2026-11-09"
  },
  "quota": {
-  "restant": 248,
+  "restant": 246,
   "remise_a_zero": "2026-12-09T15:52+00:00",
-  "le": "2026-11-17"
+  "le": "2026-11-18"
  },
  "classement_essais": {
   "2026-11-17": 1
