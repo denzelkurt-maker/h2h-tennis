@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T19:42+00:00",
+ "maj": "2026-11-18T21:34+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -28,6 +28,44 @@
   "Ubitennis": "ok, 15 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/tiafoe-crushes-cobolli-in-front-on-italian-crowd-alcaraz-qualified-as-group-winner-at-the-atp-finals-867257.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-18T21:18+00:00",
+   "image": null,
+   "vo": "Tiafoe crushes Cobolli in front on Italian crowd, Alcaraz qualified as group winner at the ATP Finals",
+   "titre": "Tiafoe écrase Cobolli devant le public italien, Alcaraz qualifié en tant que vainqueur de groupe aux ATP Finals",
+   "titre_fr": "Tiafoe écrase Cobolli devant le public italien, Alcaraz qualifié en tant que vainqueur de groupe aux ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Frances-tiafoe-maitrise-flavio-cobolli-carlos-alcaraz-directement-qualifie-pour-le-dernier-carre-des-finales-atp/1744542#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-18T21:16+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/frances-tiafoe-s-est-relance-face-a-flavio-cobolli-ce-mercredi-soir-a-turin-f-faugere-l-equipe/1500000002653736/0:0,2000:1333-828-552-75/7340f.jpg",
+   "titre": "Frances Tiafoe maîtrise Flavio Cobolli, Carlos Alcaraz directement qualifié pour le dernier carré des Finales ATP",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/tiafoe-fait-tres-mal-a-cobolli-alcaraz-qualifie-et-premier-de-son-groupe",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T21:13+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Tiafoe-1024x566.jpeg",
+   "titre": "Tiafoe fait très mal à Cobolli, Alcaraz qualifié et premier de son groupe",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/open-metz-grand-est/hugo-gaston-desormais-coache-par-guy-forget-soffre-un-joli-choc-contre-un-compatriote",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T19:55+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Gaston-RG-2025-1024x533.jpeg",
+   "titre": "Hugo Gaston, désormais coaché par Guy Forget, s’offre un joli choc contre un compatriote",
+   "blessure": false
+  },
   {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/Alejandro-davidovich-fokina-16e-mondial-et-ami-d-arthur-fils-quand-je-vois-arthur-je-vois-une-star/1744513#at_medium=RSS_feeds",
    "source": "L'Équipe",
@@ -74,6 +112,15 @@
    "blessure": false
   },
   {
+   "lien": "https://www.welovetennis.fr/atp/un-gros-probleme-se-profile-pour-latp-deux-tournois-atp-500-sont-plus-que-jamais-menaces",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T17:38+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2019/12/AMBIANCE-529-1024x683.jpeg",
+   "titre": "« Un gros problème se profile pour l’ATP. Deux tournois ATP 500 sont plus que jamais menacés »",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/daniil-medvedev-apres-sa-defaite-contre-alcaraz-sur-le-masters-de-turin-pour-pouvoir-battre-ce-carlos-la-il-faut-jouer-un-match-parfait-ou-presque-ce-que-je-nai-pas-reussi-a-faire-et-jai-p",
    "source": "We Love Tennis",
    "langue": "fr",
@@ -89,6 +136,15 @@
    "date": "2026-11-18T16:37+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Sinner-profil-wim-1024x575.jpeg",
    "titre": "Angelo Binaghi sur Jannik Sinner : « Après avoir été injustement accusé de dopage, il doit subir cela. J’ai de la peine pour ce garçon, car il ne méritait pas ça »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/apres-avoir-ete-injustement-accuse-de-dopage-jannik-sinner-doit-subir-cela-jai-de-la-peine-pour-ce-garcon-explique-angelo-binaghi",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T16:37+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Sinner-profil-wim-1024x575.jpeg",
+   "titre": "« Après avoir été injustement accusé de dopage, Jannik Sinner doit subir cela. J’ai de la peine pour ce garçon », explique Angelo Binaghi",
    "blessure": false
   },
   {
@@ -776,7 +832,7 @@
    "langue": "fr",
    "date": "2026-11-17T10:32+00:00",
    "image": null,
-   "titre": "Alcaraz peut se qualifier ce soir : tous les scénarios de qualification des ATP Finals",
+   "titre": "Fils, Shelton ou Jodar ? Tous les scénarios de qualification des ATP Finals",
    "blessure": false
   },
   {
@@ -785,10 +841,10 @@
    "langue": "en",
    "date": "2026-11-17T10:29+00:00",
    "image": null,
-   "vo": "Alcaraz can qualify tonight: all the qualification scenarios at the ATP Finals",
-   "titre": "Alcaraz peut se qualifier ce soir : tous les scénarios de qualification pour les ATP Finals",
+   "vo": "Fils, Shelton or Jodar? All the qualification scenarios at the ATP Finals",
+   "titre": "Fils, Shelton ou Jodar ? Tous les scénarios de qualification aux ATP Finals",
    "blessure": false,
-   "titre_fr": "Alcaraz peut se qualifier ce soir : tous les scénarios de qualification pour les ATP Finals"
+   "titre_fr": "Fils, Shelton ou Jodar ? Tous les scénarios de qualification aux ATP Finals"
   },
   {
    "lien": "https://www.ubitennis.net/2026/11/flavio-cobolli-feeling-the-weight-of-sinners-absence-at-atp-finals/",
@@ -3727,62 +3783,6 @@
    "image": "https://www.welovetennis.fr/wp-content/uploads/2023/02/Federer-Nadal-Djokovic.jpeg",
    "titre": "Jim Courier tranche entre Federer, Nadal et Djokovic : « Je me mets dans la peau d’un avocat et je me demande comment je pourrais gagner un débat si je devais opposer les statistiques de Roger et Rafa à celles de Novak »",
    "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/absent-depuis-quatre-mois-jannik-sinner-prend-enfin-la-parole-je-suis-un-joueur-de-tennis-pas-un-medecin-donc-la-seule-option-a-ce-moment-la-etait-de-leur-faire-confiance",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T11:18+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-1024x555.jpeg",
-   "titre": "Absent depuis quatre mois, Jannik Sinner prend enfin la parole : « Je suis un joueur de tennis, pas un médecin, donc la seule option à ce moment-là était de leur faire confiance »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/holger-rune-aujourdhui-406e-mondial-mon-objectif-est-de-devenir-numero-1-et-de-remporter-des-tournois-du-grand-chelem-je-minspire-de-federer-a-son-retour-de-blessure-en-2017",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T09:59+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/04/Rune-regard-MC-2025-1024x539.jpeg",
-   "titre": "Holger Rune, aujourd’hui 406e mondial : « Mon objectif est de devenir numéro 1 et de remporter des tournois du Grand Chelem. Je m’inspire de Federer à son retour de blessure en 2017 »",
-   "blessure": true
-  },
-  {
-   "lien": "https://www.welovetennis.fr/france/benoit-maylin-en-remet-une-couche-gilles-simon-nous-sort-que-gael-monfils-capitaine-cest-genial-je-ne-dis-pas-que-cest-nul-on-verra-bien-mais-je-ne-vois-pas-du-tout-en-quoi-ce-choix-est-va",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T09:28+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Gilles-Simon-Gael-Monfils--1024x515.jpeg",
-   "titre": "Benoît Maylin en remet une couche : « Gilles Simon nous sort que Gaël Monfils capitaine, c’est génial. Je ne dis pas que c’est nul, on verra bien, mais je ne vois pas du tout en quoi ce choix est valide »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp-actualite/10-novembre-1997-le-jour-ou-andre-agassi-a-plonge-a-la-141e-place-mondiale-304241.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-10T09:00+00:00",
-   "image": null,
-   "titre": "10 novembre 1997 : Le jour où Andre Agassi a plongé à la 141e place mondiale",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/-je-n-ai-jamais-vraiment-ete-candidat-jo-wilfried-tsonga-revient-sur-la-nomination-de-gael-monfils-a-la-tete-de-l-equipe-de-france-de-coupe-davis/1742669#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-10T07:30+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/jo-wilfried-tsonga-lors-de-l-hommage-a-gael-monfils-a-la-plenitude-arena-la-semaine-derniere-a-reau-l-equipe/1500000002647094/0:0,2000:1333-828-552-75/de49f.jpg",
-   "titre": "« Je n'ai jamais vraiment été candidat » : Jo-Wilfried Tsonga revient sur la nomination de Gaël Monfils à la tête de l'équipe de France de Coupe Davis",
-   "blessure": false
-  },
-  {
-   "titre": "Shelton, Alcaraz, Mosquito : Tout ce que vous avez toujours voulu savoir sur Juan Carlos Ferrero (mais que vous n'avez jamais eu le temps de découvrir) – mise à jour après son entretien avec Marca",
-   "lien": "https://www.tennismajors.com/atp/mosquito-world-no-1-alcaraz-everything-you-always-wanted-to-know-about-juan-carlos-ferrero-but-never-had-time-to-find-out-627961.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-09T22:55+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Shelton, Alcaraz, Mosquito: Everything you always wanted to know about Juan Carlos Ferrero (but never had time to find out) – updated after his Marca interview",
-   "titre_fr": "Shelton, Alcaraz, Mosquito : Tout ce que vous avez toujours voulu savoir sur Juan Carlos Ferrero (mais que vous n'avez jamais eu le temps de découvrir) – mise à jour après son entretien avec Marca"
   }
  ]
 }

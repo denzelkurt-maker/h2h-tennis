@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T19:42+00:00",
+ "maj": "2026-11-18T21:34+00:00",
  "source": "ESPN (API publique)",
  "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
  "colonnes_tournois": [
@@ -35,26 +35,6 @@
   ]
  ],
  "matchs": [
-  [
-   "2026-11-18T19:40Z",
-   1,
-   "Inalpi Arena",
-   "339-2026",
-   "Group Stage",
-   "pre",
-   [
-    "62b541a8-4480-30f7-87a6-b45d09376f39",
-    "Flavio Cobolli",
-    "Italy",
-    5
-   ],
-   [
-    "f901758a-d8f2-442c-9cd3-44513fcbf31e",
-    "Frances Tiafoe",
-    "USA",
-    7
-   ]
-  ],
   [
    "2026-11-19T13:00Z",
    1,
@@ -96,29 +76,9 @@
    ]
   ],
   [
-   "2026-11-20T05:00Z",
-   0,
-   "",
-   "339-2026",
-   "Group Stage",
-   "pre",
-   [
-    "469710ae-79d9-770e-e3b7-d71e5148642c",
-    "Daniil Medvedev",
-    "Russia",
-    4
-   ],
-   [
-    "f901758a-d8f2-442c-9cd3-44513fcbf31e",
-    "Frances Tiafoe",
-    "USA",
-    7
-   ]
-  ],
-  [
-   "2026-11-20T05:00Z",
-   0,
-   "",
+   "2026-11-20T13:00Z",
+   1,
+   "Inalpi Arena",
    "339-2026",
    "Group Stage",
    "pre",
@@ -133,6 +93,26 @@
     "Flavio Cobolli",
     "Italy",
     5
+   ]
+  ],
+  [
+   "2026-11-20T19:30Z",
+   1,
+   "Inalpi Arena",
+   "339-2026",
+   "Group Stage",
+   "pre",
+   [
+    "469710ae-79d9-770e-e3b7-d71e5148642c",
+    "Daniil Medvedev",
+    "Russia",
+    4
+   ],
+   [
+    "f901758a-d8f2-442c-9cd3-44513fcbf31e",
+    "Frances Tiafoe",
+    "USA",
+    7
    ]
   ]
  ],
@@ -2823,7 +2803,7 @@
  "challenger_maj": "2026-11-18T11:37+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-18T19:42+00:00",
+  "date": "2026-11-18T21:34+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
