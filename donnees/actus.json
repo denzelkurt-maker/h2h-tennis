@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T23:31+00:00",
+ "maj": "2026-11-18T01:58+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -24,10 +24,30 @@
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 17 articles",
+  "Tennis Majors (EN)": "ok, 18 articles",
   "Ubitennis": "ok, 14 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/fr/wta-actualite/18-novembre-1990-le-jour-ou-monica-seles-et-gabriela-sabatini-ont-joue-un-match-en-cinq-sets-306315.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-18T15:40+00:00",
+   "image": null,
+   "titre": "18 novembre 1990 : Le jour où Monica Seles et Gabriela Sabatini ont joué un match en cinq sets",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/wta-tour-news/november-18-1990-seles-and-sabatini-go-five-306295.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-18T03:20+00:00",
+   "image": null,
+   "vo": "November 18, 1990: The day Monica Seles & Gabriela Sabatini played the first five-setter in women’s tennis in 89 years",
+   "titre": "18 novembre 1990 : le jour où Monica Seles et Gabriela Sabatini ont disputé le premier match en cinq sets du tennis féminin depuis 89 ans",
+   "titre_fr": "18 novembre 1990 : le jour où Monica Seles et Gabriela Sabatini ont disputé le premier match en cinq sets du tennis féminin depuis 89 ans",
+   "blessure": false
+  },
   {
    "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-qualifies-for-semi-finals-at-nitto-atp-finals-with-victory-over-shelton/",
    "source": "Ubitennis",
@@ -3785,24 +3805,6 @@
    "image": "https://img.20mn.fr/ZtsaJdqnRsaClMOfSke0ayk/1200x768_l-espagnol-carlos-alcaraz-est-lance-avec-le-masters-de-fin-d-annee-a-turin-ou-s-affronteront-les-8-meilleurs-mondiaux",
    "titre": "Carlos Alcaraz a désormais tout gagné à Paris, Shelton n’a rien pu faire en finale",
    "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/paris-bercy/direct-masters-1000-de-paris-suivez-la-finale-entre-alcaraz-et-shelton-en-live_LN-202611080269.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-08T16:45+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/JDIx5f4dLTDkYqHxeyQJwqHTAT0=/0x25:1200x700/800x0/images/Masters-1000-de-Paris-Carlos-Alcaraz-le-7-novembre-2026-2380288.jpg",
-   "titre": "Masters 1000 de Paris: premier sacre pour Carlos Alcaraz",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/rolex-paris-masters-1000-atp/paris-nallait-pas-lui-resister-apres-une-saison-freinee-par-les-blessures-alcaraz-ne-laisse-pas-passer-sa-chance-de-gagner-un-masters-1000-a-paris-809861.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-08T16:31+00:00",
-   "image": null,
-   "titre": "Paris n’allait pas lui résister : après une saison freinée par les blessures, Alcaraz ne laisse pas passer sa chance de gagner un Masters 1000 à Paris",
-   "blessure": true
   }
  ]
 }
