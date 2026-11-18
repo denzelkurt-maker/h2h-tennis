@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T13:55+00:00",
+ "maj": "2026-11-18T15:37+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,14 +18,14 @@
   "L'Équipe": "ok, 41 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 16 articles",
+  "We Love Tennis": "ok, 17 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 23 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 18 articles",
-  "Ubitennis": "ok, 14 articles"
+  "Ubitennis": "ok, 15 articles"
  },
  "articles": [
   {
@@ -35,6 +35,82 @@
    "date": "2026-11-18T15:40+00:00",
    "image": null,
    "titre": "18 novembre 1990 : Le jour où Monica Seles et Gabriela Sabatini ont joué un match en cinq sets",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/justine-henin-sur-la-victoire-dalcaraz-contre-medvedev-daniil-connait-le-tarif-quand-carlos-joue-comme-ca-mais-il-a-peut-etre-flanche-un-peu-vite-par-moment",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T15:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-public-1-1024x510.jpeg",
+   "titre": "Justine Henin sur la victoire d’Alcaraz contre Medvedev : « Daniil connaît le tarif quand Carlos joue comme ça. Mais il a peut-être flanché un peu vite par moment »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/carlos-alcaraz-survives-injury-scare-to-cruise-past-daniil-medvedev-at-nitto-atp-finals/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-18T14:50+00:00",
+   "image": null,
+   "vo": "Carlos Alcaraz Survives Injury Scare To Cruise Past Daniil Medvedev At Nitto ATP Finals",
+   "titre": "Carlos Alcaraz surmonte une frayeur liée à une blessure pour battre Daniil Medvedev aux Nitto ATP Finals",
+   "titre_fr": "Carlos Alcaraz surmonte une frayeur liée à une blessure pour battre Daniil Medvedev aux Nitto ATP Finals",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alcaraz-sur-son-alerte-physique-lors-de-sa-victoire-contre-medvedev-je-vais-maintenant-analyser-cela-avec-mon-equipe-et-nous-verrons-comment-ca-se-presente",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T14:49+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-1024x552.jpeg",
+   "titre": "Alcaraz, sur son alerte physique lors de sa victoire contre Medvedev : « Je vais maintenant analyser cela avec mon équipe et nous verrons comment ça se présente »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Ceremonie-boudee-par-l-atp-video-censuree-et-dialogue-au-point-mort-a-turin-la-grogne-des-joueurs-de-double-monte/1744351#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-18T14:47+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "La grogne des joueurs de double monte",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/En-surclassant-daniil-medvedev-carlos-alcaraz-met-un-pied-dans-le-dernier-carre-des-finales-atp/1744447#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-18T14:42+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/apres-sa-demonstration-face-a-tiafoe-alcaraz-n-a-pas-leve-le-pied-face-a-medvedev-f-faugere-l-equipe/1500000002653513/0:0,2000:1333-828-552-75/c3d2f.jpg",
+   "titre": "En surclassant Daniil Medvedev, Carlos Alcaraz met un pied dans le dernier carré des Finales ATP",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/alcaraz-domine-medvedev-et-se-rapproche-des-demi-finales-810408.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-18T14:38+00:00",
+   "image": null,
+   "titre": "Alcaraz domine Medvedev et se rapproche des demi-finales",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-beats-medvedev-in-straight-sets-one-step-from-the-semi-finals-867235.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-18T14:38+00:00",
+   "image": null,
+   "vo": "Alcaraz beats Medvedev in straight sets, one step from the semi-finals",
+   "titre": "Alcaraz bat Medvedev en trois sets, à un pas des demi-finales",
+   "titre_fr": "Alcaraz bat Medvedev en trois sets, à un pas des demi-finales",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/inquietude-pour-carlos-alcaraz-vainqueur-de-medvedev-et-quasiment-qualifie-en-demi-finale",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T14:25+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-coup-droit-1-1024x544.jpeg",
+   "titre": "Inquiétude pour Carlos Alcaraz, vainqueur de Medvedev et quasiment qualifié en demi-finale",
    "blessure": false
   },
   {
@@ -87,7 +163,7 @@
    "source": "We Love Tennis",
    "langue": "fr",
    "date": "2026-11-18T11:58+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Tsonga-1024x507.jpeg",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/06/Tsonga-Djokovic-Roland-Garros-2012-1024x544.jpg",
    "titre": "Jo-Wilfried Tsonga : « J’ai vu certains joueurs changer, et je pense notamment à Novak Djokovic. Quand je l’ai connu au début, il n’était pas comme ça »",
    "blessure": false
   },
@@ -116,15 +192,6 @@
    "date": "2026-11-18T10:27+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Panatta-RG-2026-1024x541.jpeg",
    "titre": "Adriano Panatta se lâche : « Le match entre Cobolli et Medvedev, c’était du tennis ? Quel est l’imbécile qui décide de ça ? »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Ceremonie-boudee-par-l-atp-video-censuree-et-dialogue-au-point-mort-a-turin-la-grogne-des-joueurs-de-double-monte/1744351#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-18T10:00+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Cérémonie boudée par l'ATP, vidéo censurée et dialogue au point mort : à Turin, la grogne des joueurs de double monte",
    "blessure": false
   },
   {
@@ -608,7 +675,7 @@
    "langue": "fr",
    "date": "2026-11-17T10:32+00:00",
    "image": null,
-   "titre": "Alcaraz et Medvedev peuvent se qualifier mercredi : tous les scénarios de qualification des ATP Finals",
+   "titre": "Alcaraz peut se qualifier ce soir : tous les scénarios de qualification des ATP Finals",
    "blessure": false
   },
   {
@@ -617,10 +684,10 @@
    "langue": "en",
    "date": "2026-11-17T10:29+00:00",
    "image": null,
-   "vo": "Alcaraz and Medvedev can qualify on Wednesday: all the qualification scenarios at the ATP Finals",
-   "titre": "Alcaraz et Medvedev peuvent se qualifier mercredi : tous les scénarios de qualification aux ATP Finals",
+   "vo": "Alcaraz can qualify tonight: all the qualification scenarios at the ATP Finals",
+   "titre": "Alcaraz peut se qualifier ce soir : tous les scénarios de qualification pour les ATP Finals",
    "blessure": false,
-   "titre_fr": "Alcaraz et Medvedev peuvent se qualifier mercredi : tous les scénarios de qualification aux ATP Finals"
+   "titre_fr": "Alcaraz peut se qualifier ce soir : tous les scénarios de qualification pour les ATP Finals"
   },
   {
    "lien": "https://www.ubitennis.net/2026/11/flavio-cobolli-feeling-the-weight-of-sinners-absence-at-atp-finals/",
@@ -3732,75 +3799,6 @@
    "image": null,
    "vo": "Switzerland’s Leandro Riedi Opens Up About Suicide Attempt For The First Time",
    "titre_fr": "Le Suisse Leandro Riedi s'ouvre sur la tentative de suicide pour la première fois"
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4261714-20261109-tennis-essaye-suicider-puissant-temoignage-suisse-leandro-riedi-autour-sante-mentale?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-09T15:09+00:00",
-   "image": "https://img.20mn.fr/mLK7yloORZmgaizTmiZmvCk/1200x768_22-mai-2026-paris-france-le-suisse-leandro-riedi-lors-de-la-cinquieme-journee-de-qualification-de-roland-garros-2026-open-de-france-2026-tournoi-de-tennis-du-grand-chelem-au-stade-roland-garros-le-22-mai-2026-a-paris-france-image-de-credit-matthieu-mirville-zuma-press-wire-20260522-zsp-m308-071-zeus-2605222051",
-   "titre": "Tennis : « J’ai essayé de me suicider »… Le puissant témoignage du Suisse Leandro Riedi autour de la santé mentale",
-   "blessure": false
-  },
-  {
-   "titre": "Michelsen reste ininterrompu contre Hanfmann pour mettre en place Cerundolo Clash à Stockholm",
-   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/michelsen-stays-unbroken-against-hanfmann-to-set-up-cerundolo-clash-in-stockholm-866500.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-09T14:50+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Michelsen stays unbroken against Hanfmann to set up Cerundolo clash in Stockholm",
-   "titre_fr": "Michelsen reste ininterrompu contre Hanfmann pour mettre en place Cerundolo Clash à Stockholm"
-  },
-  {
-   "titre": "Van Assche termine sa saison en se retirant de Stockholm ; Mannarino prend sa place",
-   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/van-assche-ends-his-season-by-pulling-out-of-stockholm-mannarino-takes-his-place-866502.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-09T14:44+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Van Assche ends his season by pulling out of Stockholm; Mannarino takes his place",
-   "titre_fr": "Van Assche termine sa saison en se retirant de Stockholm ; Mannarino prend sa place"
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/tennis-le-message-puissant-de-leandro-riedi-qui-a-tente-de-se-suicider_AV-202611090617.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-09T14:28+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/4n_P8R99X0BCvWA26BaOFYVVDHM=/0x62:2032x1205/800x0/images/Leandro-Riedi-lors-du-Challenger-de-Pau-en-2026-2380840.jpg",
-   "titre": "Tennis: le message puissant de Leandro Riedi, qui a tenté de se suicider",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp-actualite/9-novembre-1993-le-jour-ou-borg-a-pris-sa-retraite-pour-de-bon-303969.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-09T13:46+00:00",
-   "image": null,
-   "titre": "9 novembre 1993 : Le jour où Borg a pris sa retraite, cette fois pour de bon",
-   "blessure": true
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Le-suisse-leandro-riedi-revele-avoir-tente-de-se-suicider-il-y-a-deux-ans-et-adresse-un-message-de-prevention/1742469#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-09T11:34+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/leandro-riedi-en-2023-lors-d-une-rencontre-de-coupe-davis-p-lahalle-l-equipe/1500000002646585/0:0,2000:1333-828-552-75/88909.jpg",
-   "titre": "Le Suisse Leandro Riedi révèle avoir tenté de se suicider il y a deux ans et adresse un message de prévention",
-   "blessure": false
-  },
-  {
-   "titre": "Fritz de retour dans le top 10, Ruud dans le top 20 : le classement ATP après Paris",
-   "lien": "https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/fritz-back-in-the-top-10-ruud-in-the-top-20-the-atp-rankings-after-paris-866483.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-09T11:19+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Fritz back in the top 10, Ruud in the Top 20: the ATP rankings after Paris",
-   "titre_fr": "Fritz de retour dans le top 10, Ruud dans le top 20 : le classement ATP après Paris"
   }
  ]
 }
