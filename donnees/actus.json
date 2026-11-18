@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T07:57+00:00",
+ "maj": "2026-11-18T09:39+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -35,6 +35,33 @@
    "date": "2026-11-18T15:40+00:00",
    "image": null,
    "titre": "18 novembre 1990 : Le jour où Monica Seles et Gabriela Sabatini ont joué un match en cinq sets",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4263753-20261118-atp-finals-comment-arthur-fils-peut-qualifier-demi-finales-masters?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-18T09:32+00:00",
+   "image": "https://img.20mn.fr/-VQRTAdyQiWNECpzsAAI1Ck/1200x768_ipa91310423-arthur-fils-fra-lors-des-nitto-atp-finals-2026-un-match-international-de-tennis-a-turin-en-italie-le-17-novembre-2026-ipa-agency-net-ip-apressitaly-ipa91310423-credit-ipa-agency-net-sipa-2611171816",
+   "titre": "ATP Finals : Comment Arthur Fils peut se qualifier pour les demi-finales du Masters ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/shelton-apres-sa-septieme-defaite-en-autant-de-duels-contre-zverev-cest-complique-de-laffronter-pour-trois-raisons",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T09:28+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Shelton-coup-droit-1024x499.jpeg",
+   "titre": "Shelton, après sa septième défaite en autant de duels contre Zverev : « C’est compliqué de l’affronter pour trois raisons »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-apres-sa-victoire-contre-rafael-jodar-honnetement-je-ny-ai-pas-pense-mais-si-vous-me-dites-que-cela-faisait-assez-longtemps-quaucun-francais-navait-remporte-le-m",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T08:18+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-Arthur-presse-conf-1024x550.jpeg",
+   "titre": "Arthur Fils, après sa victoire contre Rafael Jodar : « Honnêtement, je n’y ai pas pensé, mais si vous me dites que cela faisait assez longtemps qu’aucun Français n’avait remporté le moindre match au Masters, je suis cont",
    "blessure": false
   },
   {
@@ -434,6 +461,15 @@
    "date": "2026-11-17T11:02+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-revers-1024x507.jpeg",
    "titre": "Tim Henman : « Pour moi, Zverev est le joueur le plus résistant du circuit. Avec tout le respect que je leur dois, Alcaraz et Sinner n’ont pas fait preuve de cela cette année »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4263491-20261117-direct-fils-jodar-victoire-obligatoire-arthur-fils-veut-rester-vie-masters-suivez-match?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-17T11:02+00:00",
+   "image": "https://img.20mn.fr/SfRMD-p4SWSLejmZ8oK4ayk/1200x768_ipa91306362-arthur-fils-fra-lors-des-nitto-atp-finals-2026-un-match-international-de-tennis-a-turin-en-italie-le-17-novembre-2026-ipa-agency-net-ip-apressitaly-ipa91306362-credit-ipa-agency-net-sipa-2611171546",
+   "titre": "Fils - Jodar : Arthur Fils renverse tout et met fin à une série noire de quinze ans pour le tennis français au Masters… Revivez ce match avec nous",
    "blessure": false
   },
   {
@@ -3764,44 +3800,6 @@
    "date": "2026-11-08T20:15+00:00",
    "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
    "titre": "Une semaine au show et Alcaraz a fini par briser sa malédiction",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.espn.com/tennis/story/_/id/50421284/carlos-alcaraz-beats-ben-shelton-win-paris-masters-title",
-   "source": "ESPN",
-   "langue": "en",
-   "date": "2026-11-08T19:35+00:00",
-   "image": null,
-   "vo": "Alcaraz shakes Shelton to win Paris title, continue late-season surge",
-   "titre": "Alcaraz bat Shelton pour remporter le titre à Paris et poursuivre son ascension en fin de saison",
-   "titre_fr": "Alcaraz bat Shelton pour remporter le titre à Paris et poursuivre son ascension en fin de saison",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Ben-shelton-apres-sa-defaite-contre-carlos-alcaraz-en-finale-du-rolex-paris-masters-tout-se-joue-sur-des-petits-details/1742277#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-08T18:13+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/ben-shelton-dimanche-en-finale-du-rolex-paris-masters-p-lahalle-l-equipe/1500000002645841/0:0,2000:1333-828-552-75/1dbe3.jpg",
-   "titre": "Ben Shelton après sa défaite contre Carlos Alcaraz en finale du Rolex Paris Masters : « Tout se joue sur des petits détails »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-apres-sa-victoire-au-rolex-paris-masters-mentalement-j-ai-franchi-un-cap/1742274#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-08T17:56+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-celebre-sa-victoire-au-rolex-paris-masters-avec-ses-parents-p-lahalle-l-equipe/1500000002645829/0:0,2000:1333-828-552-75/ad830.jpg",
-   "titre": "Carlos Alcaraz après sa victoire au Rolex Paris Masters : « Mentalement, j'ai franchi un cap »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/La-delivrance-a-27-ans-matteo-martineau-remporte-son-premier-challenger-en-italie-et-pourra-disputer-les-qualifications-de-l-open-d-australie/1742264#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-08T17:26+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/matteo-martineau-lors-des-qualifications-de-roland-garros-en-2025-p-lahalle-l-equipe/1500000002645804/116:68,1946:1289-828-552-75/55738.jpg",
-   "titre": "La délivrance à 27 ans : Matteo Martineau remporte son premier Challenger en Italie et pourra disputer les qualifications de l'Open d'Australie",
    "blessure": false
   }
  ]
