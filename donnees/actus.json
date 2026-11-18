@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T11:37+00:00",
+ "maj": "2026-11-18T13:55+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,12 +18,12 @@
   "L'Équipe": "ok, 41 articles",
   "Tennis Majors": "ok, 17 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 15 articles",
+  "We Love Tennis": "ok, 16 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 23 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "ok, 9 articles",
+  "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 18 articles",
   "Ubitennis": "ok, 14 articles"
  },
@@ -35,6 +35,60 @@
    "date": "2026-11-18T15:40+00:00",
    "image": null,
    "titre": "18 novembre 1990 : Le jour où Monica Seles et Gabriela Sabatini ont joué un match en cinq sets",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/gustavo-kuerten-met-fin-au-debat-sur-la-place-de-numero-1-mondial-dalexander-zverev-les-chiffres-sont-la-et-cest-merite",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T13:35+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Kuerten-1024x550.jpeg",
+   "titre": "Gustavo Kuerten met fin au débat sur la place de numéro 1 mondial d’Alexander Zverev : « Les chiffres sont là, et c’est mérité »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/julien-varlet-sur-arthur-fils-ivanisevic-ne-lui-parle-jamais-de-tactique-en-match-je-ne-paie-pas-un-coach-pour-quil-me-dise-come-on-go-champs-ou-find-the-way",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T13:27+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-decu-1-1024x499.jpeg",
+   "titre": "Julien Varlet sur Arthur Fils : « Ivanisevic ne lui parle jamais de tactique en match. Je ne paie pas un coach pour qu’il me dise : ‘Come on’, ‘Go champs’ ou ‘Find the way’ »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-na-pas-vraiment-la-retraite-imaginee-jy-vais-moins-quavant-malheureusement",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T12:48+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/05/Nadal-conf-RG-2025-2-1024x568.jpeg",
+   "titre": "Rafael Nadal n’a pas vraiment la retraite imaginée : « J’y vais moins qu’avant, malheureusement »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/1h36-sur-le-court-mais-10-minutes-de-temps-de-jeu-effectif-le-match-express-entre-alexander-zverev-et-ben-shelton-aux-finales-atp/1744427#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-18T12:27+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/ben-shelton-a-gauche-a-ete-battu-par-alexander-zverev-a-droite-mardi-soir-f-faugere-l-equipe/1500000002653444/183:151,1809:1235-828-552-75/4bbd7.jpg",
+   "titre": "1h36' sur le court mais 10 minutes de temps de jeu effectif : le match express entre Alexander Zverev et Ben Shelton aux Finales ATP",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/ljubicic-tranche-entre-alcaraz-et-sinner-je-prefere-son-jeu-lun-ressemble-davantage-a-federer-et-lautre-a-djokovic",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T12:26+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Alcaraz-Sinner-2.jpeg",
+   "titre": "Ljubicic tranche entre Alcaraz et Sinner : « Je préfère son jeu. L’un ressemble davantage à Federer et l’autre à Djokovic »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jo-wilfried-tsonga-jai-vu-certains-joueurs-changer-et-je-pense-notamment-a-novak-djokovic-quand-je-lai-connu-au-debut-il-netait-pas-comme-ca",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-18T11:58+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Tsonga-1024x507.jpeg",
+   "titre": "Jo-Wilfried Tsonga : « J’ai vu certains joueurs changer, et je pense notamment à Novak Djokovic. Quand je l’ai connu au début, il n’était pas comme ça »",
    "blessure": false
   },
   {
@@ -3747,62 +3801,6 @@
    "image": null,
    "vo": "Fritz back in the top 10, Ruud in the Top 20: the ATP rankings after Paris",
    "titre_fr": "Fritz de retour dans le top 10, Ruud dans le top 20 : le classement ATP après Paris"
-  },
-  {
-   "titre": "Comment la technologie change la façon dont les fans de tennis suivent et apprécient le sport",
-   "lien": "https://www.tennismajors.com/others-news/how-technology-is-changing-the-way-tennis-fans-follow-and-enjoy-sports-866482.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-09T11:04+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "How technology is changing the way tennis fans follow and enjoy sports",
-   "titre_fr": "Comment la technologie change la façon dont les fans de tennis suivent et apprécient le sport"
-  },
-  {
-   "lien": "https://www.lequipe.fr/Medias/Actualites/Le-tennis-atp-de-retour-sur-bein-sports-en-2028/1742446#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-09T10:06+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/bein-sports-sera-le-nouveau-diffuseur-du-tennis-atp-a-partir-de-janvier-2028-et-succede-a-eurosport-p-lahalle-l-equipe/1500000002646370/0:0,2000:1333-828-552-75/fc8a4.jpg",
-   "titre": "Le tennis ATP de retour sur beIN Sports en 2028",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Demi-finaliste-a-paris-luca-van-assche-atteint-le-meilleur-classement-atp-de-sa-carriere-carlos-alcaraz-solide-3e/1742443#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-09T09:20+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/luca-van-assche-a-mis-un-terme-a-sa-saison-en-renoncant-au-tournoi-de-stockholm-a-reau-l-equipe/1500000002646341/0:0,2000:1333-828-552-75/71584.jpg",
-   "titre": "Demi-finaliste à Paris, Luca Van Assche atteint le meilleur classement ATP de sa carrière, Carlos Alcaraz solide 3e",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/l-essentiel-du-sport/laperche-dompte-le-rhum-alcaraz-sacre-a-paris-le-xv-de-france-en-balade-face-aux-fidji-le-recap-sport-du-week-end_8273111.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-09T05:00+00:00",
-   "image": "https://www.franceinfo.fr/pictures/AphozOrxrHIF26tTmRlTzKgVUKo/0x0:1920x1080/432x243/filters:format(jpg)/2026/11/08/6af0ddc84da1e037965958.jpg",
-   "titre": "Laperche dompte le Rhum, Alcaraz sacré à Paris, le XV de France en balade face aux Fidji... Le récap sport du week-end",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/-il-faut-que-j-aille-a-stockholm-pour-me-retirer-sur-place-sinon-je-prends-une-grosse-amende-apres-sa-demi-finale-a-paris-van-assche-contraint-d-aller-en-suede-pour-declarer-forfait/1742405#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-08T23:21+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/luca-van-assche-est-alle-jusqu-en-demi-finales-du-masters-1000-de-paris-a-reau-l-equipe/1500000002646159/0:0,2000:1333-828-552-75/2a3f5.jpg",
-   "titre": "« Il faut que j'aille à Stockholm pour me retirer sur place sinon je prends une grosse amende » : après sa demi-finale à Paris, Van Assche contraint d'aller en Suède pour déclarer forfait",
-   "blessure": true
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/La-france-remporte-la-coupe-davis-juniors-pour-la-premiere-fois-depuis-21-ans/1742389#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-08T22:00+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/gregory-caraz-joseph-phitoussi-pablo-pradat-et-benoit-geldof-dr/1500000002646078/11:307,735:789-828-552-75/1b73f.jpg",
-   "titre": "La France remporte la Coupe Davis juniors pour la première fois depuis 21 ans",
-   "blessure": false
   }
  ]
 }
