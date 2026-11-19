@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-19T09:41+00:00",
+ "maj": "2026-11-19T11:34+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,9 +18,9 @@
   "L'Équipe": "ok, 44 articles",
   "Tennis Majors": "ok, 18 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 19 articles",
+  "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 24 articles",
+  "RMC Sport": "ok, 25 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -46,6 +46,51 @@
    "vo": "November 19, 2005: The day Roger Federer scored the only double bagel in the history of the Masters Cup/ATP Finals",
    "titre": "19 novembre 2005 : le jour où Roger Federer a réalisé le seul double bagel de l'histoire de la Masters Cup/des ATP Finals",
    "titre_fr": "19 novembre 2005 : le jour où Roger Federer a réalisé le seul double bagel de l'histoire de la Masters Cup/des ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-decision-de-sinner-fait-jaser-cest-choquant",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T11:12+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Sinner-decu-wim-1024x510.jpeg",
+   "titre": "La décision de Sinner fait jaser : « C’est choquant »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alejandro-davidovich-fokina-sur-arthur-fils-qui-est-aussi-son-temoin-de-mariage-il-est-une-source-dinspiration-pour-moi-jai-envie-davoir-la-meme-mentalite-que-lui-jai-envie-de-limiter",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T10:46+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fokina-2251-1024x515.jpg",
+   "titre": "Alejandro Davidovich Fokina sur Arthur Fils, qui est aussi son témoin de mariage : « Il est une source d’inspiration pour moi, j’ai envie d’avoir la même mentalité que lui. J’ai envie de l’imiter »",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/atp-finals-a-quelle-heure-et-sur-quelle-chaine-tv-voir-le-match-entre-fils-et-zverev-au-masters_AV-202611190478.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-19T10:42+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/wewdOfJ998E-gPPnXaquKL4O86s=/0x0:2048x1152/800x0/images/Arthur-Fils-lors-du-Masters-ATP-le-17-novembre-2026-2385529.jpg",
+   "titre": "ATP Finals: à quelle heure et sur quelle chaîne TV voir le match entre Fils et Zverev au Masters?",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/masters-atp-arthur-fils-qualifie-en-demi-finales-si_AV-202611190461.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-19T10:22+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/abb5ItzUycaIpn9Sa28kJPj5mds=/0x162:1648x1089/800x0/images/Arthur-Fils-au-Masters-le-17-novembre-2026-2386755.jpg",
+   "titre": "ATP Finals: Arthur Fils qualifié en demi-finales si...",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/le-grand-moment-de-partage-entre-alcaraz-et-son-equipe-apres-la-victoire-contre-medvedev",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T10:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Capture-decran-2026-11-18-a-21.30.47-1024x474.png",
+   "titre": "Le grand moment de partage entre Alcaraz et son équipe après la victoire contre Medvedev",
    "blessure": false
   },
   {
@@ -3736,57 +3781,6 @@
    "titre": "Tsonga sur la capitainerie de Monfils : « Je n'ai jamais vraiment été candidat »",
    "titre_fr": "Tsonga sur la capitainerie de Monfils : « Je n'ai jamais vraiment été candidat »",
    "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/musetti-beats-samuel-to-reach-stockholm-quarter-finals-866628.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-10T22:20+00:00",
-   "image": null,
-   "vo": "Musetti beats Samuel to reach Stockholm quarter-finals",
-   "titre": "Musetti bat Samuel pour atteindre les quarts de finale de Stockholm",
-   "titre_fr": "Musetti bat Samuel pour atteindre les quarts de finale de Stockholm",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Holger-rune-s-impose-a-stockholm-sur-le-court-ou-il-s-etait-gravement-blesse-au-tendon-d-achille-il-y-a-un-an/1742877#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-10T20:05+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/holger-rune-la-semaine-derniere-au-rolex-paris-masters-p-lahalle-l-equipe/1500000002647670/64:11,1739:1128-828-552-75/ef884.jpg",
-   "titre": "Holger Rune s'impose à Stockholm, sur le court où il s'était gravement blessé au tendon d'Achille il y a un an",
-   "blessure": true
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/isner-on-alcaraz-his-serve-is-not-a-top-10-serve-by-any-means-866593.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-10T20:03+00:00",
-   "image": null,
-   "vo": "Isner on Alcaraz: “His serve is not a top-10 serve by any means”",
-   "titre": "Isner sur Alcaraz : « Son service n'est en aucun cas un service top-10 »",
-   "titre_fr": "Isner sur Alcaraz : « Son service n'est en aucun cas un service top-10 »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Alexander-zverev-et-carlos-alcaraz-representeront-team-europe-lors-de-la-laver-cup-2027-a-los-angeles/1742868#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-10T19:34+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Alexander Zverev et Carlos Alcaraz représenteront Team Europe lors de la Laver Cup 2027 à Los Angeles",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/rune-beats-eighth-seed-bergs-in-stockholm-to-set-up-kecmanovic-clash-866611.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-10T19:31+00:00",
-   "image": null,
-   "vo": "Rune beats eighth seed Bergs in Stockholm to set up Kecmanovic second-round clash",
-   "titre": "Rune bat Bergs, huitième tête de série, à Stockholm pour mettre en place l'affrontement de deuxième tour de Kecmanovic",
-   "blessure": false,
-   "titre_fr": "Rune bat Bergs, huitième tête de série, à Stockholm pour mettre en place l'affrontement de deuxième tour de Kecmanovic"
   }
  ]
 }
