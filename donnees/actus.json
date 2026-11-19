@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-19T15:38+00:00",
+ "maj": "2026-11-19T17:37+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -20,7 +20,7 @@
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 25 articles",
+  "RMC Sport": "ok, 24 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -28,6 +28,86 @@
   "Ubitennis": "ok, 16 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/ben-shelton-sur-arthur-fils-je-ne-serai-pas-contre-lui",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T17:09+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Shelton-entree-1024x544.jpeg",
+   "titre": "Ben Shelton sur Arthur Fils : « Je ne serai pas contre lui »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/atp-finals-first-year-on-tour-top-10-everything-you-always-wanted-to-know-about-rafael-jodar-867337.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-19T17:09+00:00",
+   "image": null,
+   "vo": "ATP Finals, first year on tour, top 10: Everything you always wanted to know about Rafael Jodar (but never had time to find out)",
+   "titre": "ATP Finals, première année sur le circuit, top 10 : tout ce que vous avez toujours voulu savoir sur Rafael Jodar (mais que vous n’avez jamais eu le temps de découvrir)",
+   "titre_fr": "ATP Finals, première année sur le circuit, top 10 : tout ce que vous avez toujours voulu savoir sur Rafael Jodar (mais que vous n’avez jamais eu le temps de découvrir)",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/im-not-sure-whats-going-to-happen-next-year-jodar-to-review-his-set-up-with-his-father-in-december-867327.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-19T16:50+00:00",
+   "image": null,
+   "vo": "“One month to think”: Jodar to review his set-up with his father as a sole staff member in December",
+   "titre": "« Un mois pour réfléchir » : Jodar va revoir son organisation avec son père comme seul employé en décembre",
+   "titre_fr": "« Un mois pour réfléchir » : Jodar va revoir son organisation avec son père comme seul employé en décembre",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/rafael-jodar-apres-son-elimination-du-masters-ayant-affronte-les-meilleurs-joueurs-du-monde-je-me-rends-compte-dune-chose",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T16:41+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Jodar-1024x488.jpeg",
+   "titre": "Rafael Jodar, après son élimination du Masters : « Ayant affronté les meilleurs joueurs du monde, je me rends compte d’une chose »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/ben-shelton-battles-past-rafael-jodar-to-keep-semi-final-bid-alive-and-kicking-at-nitto-atp-finals/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-19T16:14+00:00",
+   "image": null,
+   "vo": "Ben Shelton Battles Past Rafael Jodar To Keep Semi-Final Bid Alive And Kicking At Nitto ATP Finals",
+   "titre": "Ben Shelton vient à bout de Rafael Jodar pour rester en lice pour une place en demi-finale aux Nitto ATP Finals",
+   "titre_fr": "Ben Shelton vient à bout de Rafael Jodar pour rester en lice pour une place en demi-finale aux Nitto ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/le-message-de-ben-shelton-pour-son-ami-arthur-fils-qui-peut-le-priver-dune-place-en-demi-finales",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T16:01+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-Shelton-1024x533.jpeg",
+   "titre": "Le message de Ben Shelton pour son ami Arthur Fils, qui peut le priver d’une place en demi-finales",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/wta-tour-news/ash-barty-and-shingo-kunieda-elected-to-the-international-tennis-hall-of-fame-867316.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-19T15:44+00:00",
+   "image": null,
+   "vo": "Ash Barty and Shingo Kunieda elected to the International Tennis Hall of Fame",
+   "titre": "Ash Barty et Shingo Kunieda élus au Temple de la renommée international du tennis",
+   "titre_fr": "Ash Barty et Shingo Kunieda élus au Temple de la renommée international du tennis",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/je-vais-regarder-le-match-darthur-shelton-ecarte-jodar-et-oblige-fils-a-battre-zverev-en-deux-sets-810496.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-19T15:42+00:00",
+   "image": null,
+   "titre": "« Je vais regarder le match d’Arthur » : Shelton écarte Jodar et oblige Fils à battre Zverev en deux sets",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/fr/atp-actualite/nitto-atp-finals/19-novembre-2006-le-jour-ou-federer-a-conclu-une-saison-exceptionnelle-avec-le-masters-306497.html",
    "source": "Tennis Majors",
@@ -44,6 +124,15 @@
    "date": "2026-11-19T15:36+00:00",
    "image": "https://www.franceinfo.fr/pictures/uoehxUgGYEFxiajP3Zd8bycHoRk/0x0:5392x3033/432x243/filters:format(jpg)/2026/11/19/6aff1320b7012470733133.jpg",
    "titre": "Ben Shelton domine Rafael Jodar au Masters de Turin et complique la tâche d'Arthur Fils",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/ben-shelton-assure-arthur-fils-na-desormais-plus-le-choix",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T15:31+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Arthur-Fils-1-1024x562.jpeg",
+   "titre": "Ben Shelton assure, Arthur Fils n’a désormais plus le choix !",
    "blessure": false
   },
   {
@@ -64,15 +153,6 @@
    "date": "2026-11-19T15:24+00:00",
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/FWHLWgBGv1lBtmGMHgiNF_cO0Fc=/54x180:1990x1269/800x0/images/Arthur-Fils-au-Masters-ATP-le-17-novembre-2026-2386958.jpg",
    "titre": "DIRECT. Arthur Fils-Alexander Zverev: suivez en live le match des ATP Finals qui peut envoyer le Français en demi-finale",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/ben-shelton-assure-arthur-fils-na-desormais-plus-le-choix",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T15:22+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Arthur-Fils-1-1024x562.jpeg",
-   "titre": "Ben Shelton assure, Arthur Fils n’a désormais plus le choix !",
    "blessure": false
   },
   {
@@ -884,7 +964,7 @@
    "source": "L'Équipe",
    "langue": "fr",
    "date": "2026-11-17T22:00+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-mardi-a-turin-f-faugere-l-equipe/1500000002653071/0:0,1998:1332-828-552-75/386f0.jpg",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-mardi-a-turin-lors-des-finales-atp-f-faugere-l-equipe/1500000002653071/0:0,1998:1332-828-552-75/386f0.jpg",
    "titre": "Quels scénarios qualifient Arthur Fils pour les demies des Finales ATP ?",
    "blessure": false
   },
@@ -1273,7 +1353,7 @@
    "langue": "fr",
    "date": "2026-11-17T10:32+00:00",
    "image": null,
-   "titre": "Fils, Shelton ou Jodar ? Tous les scénarios de qualification des ATP Finals",
+   "titre": "Fils ou Shelton ? Tous les scénarios de qualification des ATP Finals",
    "blessure": false
   },
   {
@@ -1282,10 +1362,10 @@
    "langue": "en",
    "date": "2026-11-17T10:29+00:00",
    "image": null,
-   "vo": "Fils, Shelton or Jodar? All the qualification scenarios at the ATP Finals",
-   "titre": "Fils, Shelton ou Jodar ? Tous les scénarios de qualification aux ATP Finals",
+   "vo": "Fils or Shelton? All the qualification scenarios at the ATP Finals",
+   "titre": "Fils ou Shelton ? Tous les scénarios de qualification pour les ATP Finals",
    "blessure": false,
-   "titre_fr": "Fils, Shelton ou Jodar ? Tous les scénarios de qualification aux ATP Finals"
+   "titre_fr": "Fils ou Shelton ? Tous les scénarios de qualification pour les ATP Finals"
   },
   {
    "lien": "https://www.ubitennis.net/2026/11/flavio-cobolli-feeling-the-weight-of-sinners-absence-at-atp-finals/",
@@ -3704,82 +3784,6 @@
    "vo": "Fritz beats Norrie in Stockholm for fourth quarter-final in four weeks",
    "titre": "Fritz bat Norrie à Stockholm et atteint son quatrième quart de finale en quatre semaines",
    "titre_fr": "Fritz bat Norrie à Stockholm et atteint son quatrième quart de finale en quatre semaines",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/humbert-beats-qualifier-gojo-to-set-up-musetti-clash-in-stockholm-866667.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-11T18:05+00:00",
-   "image": null,
-   "vo": "Humbert beats qualifier Gojo to set up Musetti clash in Stockholm",
-   "titre": "Humbert bat le qualifié Gojo et se qualifie pour affronter Musetti à Stockholm",
-   "titre_fr": "Humbert bat le qualifié Gojo et se qualifie pour affronter Musetti à Stockholm",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-interroge-sur-carlos-alcaraz-pour-etre-honnete-je-nai-pas-beaucoup-regarde-de-tennis-a-cette-periode-parce-que-je-voulais-etre-la-bas-moi-aussi",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-11T17:50+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Alcaraz-Sinner-2.jpeg",
-   "titre": "Jannik Sinner, interrogé sur Carlos Alcaraz : « Pour être honnête, je n’ai pas beaucoup regardé de tennis à cette période parce que je voulais être là-bas moi aussi »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/wta/wta-finals/kim-clijsters-inquiete-pour-la-numero-1-mondiale-je-lai-vue-a-plusieurs-reprises-ces-derniers-mois-et-elle-semblait-vraiment-epuisee",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-11T17:22+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/01/Rybakina-1-1024x541.jpeg",
-   "titre": "Kim Clijsters inquiète pour la numéro 1 mondiale : « Je l’ai vue à plusieurs reprises ces derniers mois, et elle semblait vraiment épuisée »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/ferrero-ex-coach-dalcaraz-et-nouvel-entraineur-de-shelton-je-savais-que-sinner-chercherait-a-sadjoindre-les-services-dune-personne-experimentee-ayant-remporte-des-titre",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-11T16:58+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/05/Ferrero-RG-2025-1024x543.jpeg",
-   "titre": "Ferrero, ex-coach d’Alcaraz et nouvel entraîneur de Shelton : « Je savais que Sinner chercherait à s’adjoindre les services d’une personne expérimentée ayant remporté des titres importants »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Ugo-humbert-rejoint-lorenzo-musetti-en-quarts-de-finale-de-l-atp-250-de-stockholm/1742995#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-11T16:29+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/ugo-humbert-s-est-hisse-en-quarts-a-stockholm-p-lahalle-l-equipe/1500000002648228/132:133,1620:1125-828-552-75/25d1d.jpg",
-   "titre": "Ugo Humbert rejoint Lorenzo Musetti en quarts de finale de l'ATP 250 de Stockholm",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/tommy-haas-sur-les-comparaisons-entre-alexander-zverev-et-une-legende-du-jeu-cest-injuste",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-11T16:25+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alexander-Zverev-1024x555.jpeg",
-   "titre": "Tommy Haas sur les comparaisons entre Alexander Zverev et une légende du jeu : « C’est injuste »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/tabilo-edges-sonego-in-three-sets-to-set-up-michelsen-clash-in-stockholm-866662.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-11T16:02+00:00",
-   "image": null,
-   "vo": "Tabilo edges Sonego in three sets to set up Michelsen clash in Stockholm",
-   "titre": "Tabilo bat Sonego en trois sets et se qualifie pour affronter Michelsen à Stockholm",
-   "titre_fr": "Tabilo bat Sonego en trois sets et se qualifie pour affronter Michelsen à Stockholm",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/toni-nadal-rafa-ne-pouvait-pas-jouer-a-roland-garros-sans-prendre-une-pastille",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-11T15:59+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/06/Toni-Nadal-RG-2025-1024x523.jpg",
-   "titre": "Toni Nadal : « Rafa ne pouvait pas jouer à Roland-Garros sans prendre une pastille »",
    "blessure": false
   }
  ]
