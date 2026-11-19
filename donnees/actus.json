@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-19T01:57+00:00",
+ "maj": "2026-11-19T03:36+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -20,7 +20,7 @@
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 19 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 23 articles",
+  "RMC Sport": "ok, 24 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -133,6 +133,24 @@
    "date": "2026-11-18T21:13+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Tiafoe-1024x566.jpeg",
    "titre": "Tiafoe fait très mal à Cobolli, Alcaraz qualifié et premier de son groupe",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/alexander-zverev_DN-202108310603.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-18T20:25+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ro1b_ee7A8WZ2xsKr02jgkzHzCk=/0x40:768x472/800x0/images/Alexander-Zverev-oppose-a-Daniil-Medvedev-au-Masters-de-fin-de-saison-a-Turin-le-16-novembre-2021-1167815.jpg",
+   "titre": "Alexander Zverev",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/tennis-zverev-vise-par-une-nouvelle-plainte-de-son-ex-compagne_AD-202611180961.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-18T20:25+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/VCDFsQNvS9xbzmTYUjShaLQHM-w=/0x0:2048x1152/800x0/images/Alexander-Zverev-lors-du-Rolex-Paris-Masters-en-novembre-2026-2383827.jpg",
+   "titre": "Tennis: Zverev visé par une nouvelle plainte de son ex-compagne",
    "blessure": false
   },
   {
@@ -1733,15 +1751,6 @@
    "date": "2026-11-15T16:46+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2022/05/Toni-Nadal-1024x555.jpeg",
    "titre": "Toni Nadal prévient Alcaraz, Sinner et Zverev : « Il faudra surveiller ce joueur. Il est capable de mettre Carlos, Jannik et Sascha en difficulté »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/alexander-zverev_DN-202108310603.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-15T16:43+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ro1b_ee7A8WZ2xsKr02jgkzHzCk=/0x40:768x472/800x0/images/Alexander-Zverev-oppose-a-Daniil-Medvedev-au-Masters-de-fin-de-saison-a-Turin-le-16-novembre-2021-1167815.jpg",
-   "titre": "Alexander Zverev",
    "blessure": false
   },
   {
@@ -3779,15 +3788,6 @@
    "date": "2026-11-10T14:45+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Darren-Cahill-1024x553.jpeg",
    "titre": "Darren Cahill, désormais ex-entraîneur de Sinner : « S’il y a cinq ans, on m’avait dit que Jannik remporterait cinq titres du Grand Chelem, tous les Masters 1000 et qu’il deviendrait numéro 1 mondial, je vous aurais dema",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/stefan-edberg-je-suis-sur-que-ce-joueur-remportera-un-grand-chelem-un-jour",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T14:15+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Edberg-Stefan-1024x604.jpeg",
-   "titre": "Stefan Edberg : « Je suis sûr que ce joueur remportera un Grand Chelem un jour »",
    "blessure": false
   }
  ]
