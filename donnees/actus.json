@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-19T05:41+00:00",
+ "maj": "2026-11-19T08:00+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 41 articles",
+  "L'Équipe": "ok, 43 articles",
   "Tennis Majors": "ok, 18 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 19 articles",
@@ -24,7 +24,7 @@
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 19 articles",
+  "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 16 articles"
  },
  "articles": [
@@ -46,6 +46,71 @@
    "vo": "November 19, 2005: The day Roger Federer scored the only double bagel in the history of the Masters Cup/ATP Finals",
    "titre": "19 novembre 2005 : le jour où Roger Federer a réalisé le seul double bagel de l'histoire de la Masters Cup/des ATP Finals",
    "titre_fr": "19 novembre 2005 : le jour où Roger Federer a réalisé le seul double bagel de l'histoire de la Masters Cup/des ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/indoor-hard-courts-should-not-be-slow-medvedev-takes-a-side-in-the-court-speed-debate-867252.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-19T07:56+00:00",
+   "image": null,
+   "vo": "“Indoor hard courts should not be slow”: Medvedev takes a side in the court speed debate",
+   "titre": "« Les courts durs en salle ne devraient pas être lents » : Medvedev prend parti dans le débat sur la vitesse des courts",
+   "titre_fr": "« Les courts durs en salle ne devraient pas être lents » : Medvedev prend parti dans le débat sur la vitesse des courts",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/la-magnifique-declaration-de-carlos-alcaraz-ma-blessure-ma-fait-prendre-conscience-de-ce-qui-est-vraiment-important-et-ce-nest-pas-la-victoire-ce-nest-pas-de-gagner-ou-de-per",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T07:33+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-sourire-presse-conf-1024x556.jpeg",
+   "titre": "La magnifique déclaration de Carlos Alcaraz : « Ma blessure m’a fait prendre conscience de ce qui est vraiment important. Et ce n’est pas la victoire, ce n’est pas de gagner ou de perdre des finales de tournois. C’est si",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4264027-20261119-tennis-risque-alexander-zverev-vise-nouvelle-plainte-ex-compagne?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-19T07:23+00:00",
+   "image": "https://img.20mn.fr/8-KNycqOQcyxjRjt9z5afCk/1200x768_alexander-zverev-lors-du-match-de-simple-masculin-de-la-phase-de-groupes-du-tournoi-de-tennis-atp-world-tour-finals-2026-turin-17-11-2026-agf-editorial-can181126-06-credit-marco-canoniero-agf-sipa-2611180941",
+   "titre": "Tennis : Que risque Alexander Zverev, visé par une nouvelle plainte de son ex-compagne ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-reste-serein-malgre-une-alerte-a-un-ischio-jambier-lors-des-finales-atp/1744582#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-19T07:15+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-mercredi-sur-le-court-central-de-l-inalpi-arena-de-turin-f-faugere-l-equipe/1500000002653923/0:0,2000:1333-828-552-75/e7275.jpg",
+   "titre": "Carlos Alcaraz reste serein malgré une alerte à un ischio-jambier lors des Finales ATP",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Dans-les-conditions-rapides-des-finales-atp-alexander-zverev-adversaire-d-arthur-fils-est-pratiquement-impossible-a-breaker/1744530#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-19T07:08+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/alexander-zverev-au-service-face-a-ben-shelton-mardi-f-faugere-l-equipe/1500000002653701/0:0,800:533-828-552-75/8dd2d.jpg",
+   "titre": "Dans les conditions ultra rapides des Finales ATP, Alexander Zverev, prochain adversaire d'Arthur Fils, est pratiquement impossible à breaker",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-nouvelle-decision-tres-inquietante-de-jannik-sinner",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T07:08+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Sinner-323-1024x543.jpg",
+   "titre": "La nouvelle décision très inquiétante de Jannik Sinner",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4263984-20261119-alexander-zverev-arthur-fils-chaine-tv-heure-voir-3e-match-atp-finales-masters?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-19T06:47+00:00",
+   "image": "https://img.20mn.fr/xdPRxPkxQwaRtClQDrE_BSk/1200x768_le-francais-arthur-fils-vise-une-qualification-en-demi-finales-des-atp-finales-masters-photo-d-illustration",
+   "titre": "Alexander Zverev-Arthur Fils : Sur quelle chaîne TV et à quelle heure voir le 3e match des ATP Finales Masters",
    "blessure": false
   },
   {
@@ -178,7 +243,7 @@
    "source": "L'Équipe",
    "langue": "fr",
    "date": "2026-11-18T18:45+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-et-alejandro-davidovich-fokina-a-roland-garros-en-2023-a-reau-l-equipe/1500000002653647/0:0,800:533-828-552-75/74d1b.jpg",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-et-alejandro-davidovich-fokina-a-roland-garros-en-2023-a-reau-l-equipe/1500000002653647/0:0,800:533-828-552-75/689bf.jpg",
    "titre": "Alejandro Davidovich Fokina, 16e mondial et ami d'Arthur Fils : « Quand je vois Arthur, je vois une star »",
    "blessure": false
   },
@@ -3720,75 +3785,6 @@
    "image": null,
    "vo": "Etcheverry withdraws from Stockholm with left calf issue, Tirante gets walkover",
    "titre_fr": "Etcheverry se retire de Stockholm avec un problème de mollet gauche, Tirante se fait renverser"
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/bjorn-borg-quand-je-repense-a-ma-carriere-il-y-a-une-chose-que-je-regrette-vraiment-et-ce-nest-pas-le-fait-davoir-arrete-le-tennis",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T16:04+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/07/Borg-wimbledon-1024x542.jpeg",
-   "titre": "Bjorn Borg : « Quand je repense à ma carrière, il y a une chose que je regrette vraiment. Et ce n’est pas le fait d’avoir arrêté le tennis »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/john-isner-categorique-sur-un-aspect-du-jeu-de-carlos-alcaraz-ce-nest-en-aucun-cas-un-coup-dun-joueur-faisant-partie-du-top-10-mondial",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T15:46+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-service--1024x551.jpeg",
-   "titre": "John Isner catégorique sur un aspect du jeu de Carlos Alcaraz : « Ce n’est en aucun cas un coup d’un joueur faisant partie du top 10 mondial »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.espn.com/tennis/story/_/id/50441535/jannik-sinner-knee-plans-return-saudi-exhibition",
-   "source": "ESPN",
-   "langue": "en",
-   "date": "2026-11-10T15:42+00:00",
-   "image": null,
-   "vo": "Sinner targets Saudi Arabia exhibition in comeback from knee injury",
-   "titre": "Sinner vise l'exposition en Arabie saoudite pour son retour après une blessure au genou",
-   "titre_fr": "Sinner vise l'exposition en Arabie saoudite pour son retour après une blessure au genou",
-   "blessure": true
-  },
-  {
-   "titre": "Les premiers noms de Zverev et Alcaraz pour l'équipe d'Europe à la Laver Cup 2027 à Los Angeles",
-   "lien": "https://www.tennismajors.com/others-news/laver-cup/zverev-and-alcaraz-first-names-for-team-europe-at-laver-cup-2027-in-los-angeles-866596.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-10T15:35+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Zverev and Alcaraz first names for Team Europe at Laver Cup 2027 in Los Angeles",
-   "titre_fr": "Les premiers noms de Zverev et Alcaraz pour l'équipe d'Europe à la Laver Cup 2027 à Los Angeles"
-  },
-  {
-   "titre": "Qualificatif Shevchenko bat Mannarino à Stockholm pour mettre en place Ruud Clash",
-   "lien": "https://www.tennismajors.com/atp/qualifier-shevchenko-beats-mannarino-in-stockholm-to-set-up-ruud-clash-866587.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-10T15:25+00:00",
-   "blessure": false,
-   "langue": "en",
-   "image": null,
-   "vo": "Qualifier Shevchenko beats Mannarino in Stockholm to set up Ruud clash",
-   "titre_fr": "Qualificatif Shevchenko bat Mannarino à Stockholm pour mettre en place Ruud Clash"
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/dominic-thiem-sur-sa-defaite-contre-rafael-nadal-en-finale-de-roland-garros-2019-il-faut-accepter-que-de-lautre-cote-du-filet-se-trouve-un-adversaire-qui-evolue-tout-simplement-dans-une-autre-c",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T15:16+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/02/Nadal-Thiem-finale-Roland-Garros-2019-filet-1024x544.jpg",
-   "titre": "Dominic Thiem, sur sa défaite contre Rafael Nadal en finale de Roland-Garros 2019 : « Il faut accepter que de l’autre côté du filet se trouve un adversaire qui évolue tout simplement dans une autre catégorie »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/darren-cahill-desormais-ex-entraineur-de-sinner-sil-y-a-cinq-ans-on-mavait-dit-que-jannik-remporterait-cinq-titres-du-grand-chelem-tous-les-masters-1000-et-quil-deviendrait",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T14:45+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Darren-Cahill-1024x553.jpeg",
-   "titre": "Darren Cahill, désormais ex-entraîneur de Sinner : « S’il y a cinq ans, on m’avait dit que Jannik remporterait cinq titres du Grand Chelem, tous les Masters 1000 et qu’il deviendrait numéro 1 mondial, je vous aurais dema",
-   "blessure": false
   }
  ]
 }
