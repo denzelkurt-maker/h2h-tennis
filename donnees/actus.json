@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-19T13:57+00:00",
+ "maj": "2026-11-19T15:38+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 44 articles",
+  "L'Équipe": "ok, 46 articles",
   "Tennis Majors": "ok, 18 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 18 articles",
@@ -38,6 +38,71 @@
    "blessure": false
   },
   {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters/ben-shelton-domine-rafael-jodar-au-masters-de-turin-et-complique-la-tache-d-arthur-fils_8290220.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-19T15:36+00:00",
+   "image": "https://www.franceinfo.fr/pictures/uoehxUgGYEFxiajP3Zd8bycHoRk/0x0:5392x3033/432x243/filters:format(jpg)/2026/11/19/6aff1320b7012470733133.jpg",
+   "titre": "Ben Shelton domine Rafael Jodar au Masters de Turin et complique la tâche d'Arthur Fils",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/ill-be-watching-arthur-shelton-edges-jodar-and-leaves-fils-needing-a-straight-sets-win-over-zverev-867320.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-19T15:26+00:00",
+   "image": null,
+   "vo": "“I’ll be watching Arthur”: Shelton edges Jodar and leaves Fils needing a straight-sets win over Zverev",
+   "titre": "« Je regarderai Arthur » : Shelton bat Jodar et laisse Fils dans l'obligation de remporter une victoire en deux sets contre Zverev",
+   "titre_fr": "« Je regarderai Arthur » : Shelton bat Jodar et laisse Fils dans l'obligation de remporter une victoire en deux sets contre Zverev",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/direct-arthur-fils-alexander-zverev-suivez-en-live-le-match-des-atp-finals-qui-peut-envoyer-le-francais-en-demi-finale_LN-202611190665.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-19T15:24+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/FWHLWgBGv1lBtmGMHgiNF_cO0Fc=/54x180:1990x1269/800x0/images/Arthur-Fils-au-Masters-ATP-le-17-novembre-2026-2386958.jpg",
+   "titre": "DIRECT. Arthur Fils-Alexander Zverev: suivez en live le match des ATP Finals qui peut envoyer le Français en demi-finale",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/ben-shelton-assure-arthur-fils-na-desormais-plus-le-choix",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T15:22+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Arthur-Fils-1-1024x562.jpeg",
+   "titre": "Ben Shelton assure, Arthur Fils n’a désormais plus le choix !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Ben-shelton-s-offre-rafael-jodar-en-deux-sets-la-qualification-pour-les-demies-des-finales-atp-se-complique-pour-arthur-fils/1744666#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-19T15:21+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/ben-shelton-s-est-impose-en-deux-manches-f-faugere-l-equipe/1500000002654256/0:0,2000:1333-828-552-75/f0a4e.jpg",
+   "titre": "Ben Shelton s'offre Rafael Jodar en deux sets, la qualification pour les demies des Finales ATP se complique pour Arthur Fils",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jo-wilfried-tsonga-sur-la-vie-sans-federer-nadal-et-djokovic-cest-la-question-a-100-000-dollars",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T15:10+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Tsonga-1024x507.jpeg",
+   "titre": "Jo-Wilfried Tsonga sur la vie sans Federer, Nadal et Djokovic : « C’est la question à 100 000 dollars »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Examens-rassurants-pour-carlos-alcaraz-qui-devrait-jouer-vendredi-son-dernier-match-de-poule-des-finales-atp-contre-flavio-cobolli/1744659#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-19T14:56+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-a-termine-son-match-face-a-daniil-medvedev-avec-un-gros-bandage-a-la-cuisse-gauche-mercredi-a-turin-f-faugere-l-equipe/1500000002654248/40:203,1528:1195-828-552-75/80d45.jpg",
+   "titre": "Examens rassurants pour Carlos Alcaraz, qui devrait jouer vendredi son dernier match de la phase de groupes des Finales ATP contre Flavio Cobolli",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/atp/november-19-2005-the-day-roger-federer-scored-the-only-double-bagel-in-the-history-of-the-masters-cup-515890.html",
    "source": "Tennis Majors (EN)",
    "langue": "en",
@@ -46,6 +111,33 @@
    "vo": "November 19, 2005: The day Roger Federer scored the only double bagel in the history of the Masters Cup/ATP Finals",
    "titre": "19 novembre 2005 : le jour où Roger Federer a réalisé le seul double bagel de l'histoire de la Masters Cup/des ATP Finals",
    "titre_fr": "19 novembre 2005 : le jour où Roger Federer a réalisé le seul double bagel de l'histoire de la Masters Cup/des ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/enorme-soulagement-pour-carlos-alcaraz",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T14:37+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-poing-hargne-victoire-1024x573.jpeg",
+   "titre": "Énorme soulagement pour Carlos Alcaraz !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/juan-carlos-ferrero-nouveau-coach-de-ben-shelton-sur-arthur-fils-ce-nest-pas-le-meilleur-mais-cest-lun-des-meilleurs-coups-droits-du-monde",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T14:08+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Ferrero-1024x568.jpeg",
+   "titre": "Juan Carlos Ferrero, nouveau coach de Ben Shelton, sur Arthur Fils : « Ce n’est pas le meilleur, mais c’est l’un des meilleurs coups droits du monde »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/alcaraz-passe-une-irm-aux-ischio-jambiers-et-annule-son-entrainement-ses-atp-finals-en-suspens-presse-810488.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-19T13:58+00:00",
+   "image": null,
+   "titre": "Alcaraz passe une IRM aux ischio-jambiers et annule son entraînement, ses ATP Finals en suspens (presse)",
    "blessure": false
   },
   {
@@ -58,15 +150,6 @@
    "titre": "Alcaraz passe une IRM du muscle ischio-jambier et annule son entraînement ; sa participation aux ATP Finals est incertaine (article)",
    "titre_fr": "Alcaraz passe une IRM du muscle ischio-jambier et annule son entraînement ; sa participation aux ATP Finals est incertaine (article)",
    "blessure": true
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/juan-carlos-ferrero-nouveau-coach-de-ben-shelton-sur-arthur-fils-ce-nest-pas-le-meilleur-mais-cest-lun-des-meilleurs-coups-droits-du-monde",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T13:42+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Ferrero-1024x568.jpeg",
-   "titre": "Juan Carlos Ferrero, nouveau coach de Ben Shelton, sur Arthur Fils : « Ce n’est pas le meilleur, mais c’est l’un des meilleurs coups droits du monde »",
-   "blessure": false
   },
   {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/justine-henin-avant-le-duel-entre-arthur-fils-et-alexander-zverev-dans-ces-conditions-la-je-crois-quil-faut-etre-realiste",
@@ -3697,89 +3780,6 @@
    "date": "2026-11-11T15:59+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2025/06/Toni-Nadal-RG-2025-1024x523.jpg",
    "titre": "Toni Nadal : « Rafa ne pouvait pas jouer à Roland-Garros sans prendre une pastille »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/holger-rune-une-partie-de-moi-est-amere-avec-les-blessures-de-carlos-alcaraz-et-de-jannik-sinner-il-y-a-avait-tellement-dopportunites-a-saisir-sur-le-circuit-cette-annee",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-11T15:26+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/01/Rune-mou-OA-2025-1024x544.jpeg",
-   "titre": "Holger Rune : « Une partie de moi est amère. Avec les blessures de Carlos Alcaraz et de Jannik Sinner, il y a avait tellement d’opportunités à saisir sur le circuit cette année »",
-   "blessure": true
-  },
-  {
-   "lien": "https://www.welovetennis.fr/live/tous-les-programmes-et-resultats-en-direct",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-11T15:00+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/01/Poignee-de-main-tennis-ambiance-1024x629.jpeg",
-   "titre": "Tous les programmes et résultats en direct !",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/andrea-gaudenzi-president-de-latp-repond-indirectement-a-carlos-alcaraz-si-vous-etes-sinner-ou-alcaraz-et-que-vous-allez-souvent-jusquau-bout-des-tournois-vous-navez",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-11T14:29+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Gaudenzi-ATP-1-1024x554.jpeg",
-   "titre": "Andrea Gaudenzi, président de l’ATP, répond indirectement à Carlos Alcaraz : « Si vous êtes Sinner ou Alcaraz et que vous allez souvent jusqu’au bout des tournois, vous n’avez probablement besoin de disputer que les Gran",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/casper-ruud-confident-new-coach-ferrer-will-help-boost-grand-slam-chances/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-11T13:26+00:00",
-   "image": null,
-   "vo": "Casper Ruud Confident New Coach Ferrer Will Help Boost Grand Slam Chances",
-   "titre": "Casper Ruud Le nouvel entraîneur Ferrer confiant aidera à augmenter les chances du Grand Chelem",
-   "titre_fr": "Casper Ruud Le nouvel entraîneur Ferrer confiant aidera à augmenter les chances du Grand Chelem",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/rennae-stubbs-la-raison-pour-laquelle-ce-joueur-ne-remportera-pas-de-tournoi-du-grand-chelem-a-moins-que-sinner-et-alcaraz-ne-soient-elimines-cest-quil-ne-parvient-pas-a-amelio",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-11T13:20+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fritz-rire-1024x486.jpeg",
-   "titre": "Rennae Stubbs : « La raison pour laquelle ce joueur ne remportera pas de tournoi du Grand Chelem, à moins que Sinner et Alcaraz ne soient éliminés, c’est qu’il ne parvient pas à améliorer son jeu au filet »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-elle-ne-me-manque-absolument-pas-je-vous-le-dis-je-suis-heureux-de-mener-ma-vie-sans-elle",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-11T12:02+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/05/Nadal-emotion-hommage-RG-2025-1024x552.jpeg",
-   "titre": "Rafael Nadal : « Elle ne me manque absolument pas. Je vous le dis, je suis heureux de mener ma vie sans elle »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/john-isner-sur-novak-djokovic-ce-nest-en-aucun-cas-une-affirmation-farfelue-meme-si-je-ne-pense-pas-que-ce-soit-juste",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-11T11:38+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2021/06/Isner-face-RG-2021-e1680354560116-1024x499.jpeg",
-   "titre": "John Isner sur Novak Djokovic : « Ce n’est en aucun cas une affirmation farfelue même si je ne pense pas que ce soit juste »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/jimmy-connors-met-la-pression-sur-zverev-il-a-desormais-une-responsabilite-envers-le-tennis-et-envers-lui-meme-jouer-en-tant-que-double-vainqueur-de-grand-chelem",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-11T11:05+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/11/Jimmy-Connors--1024x482.jpg",
-   "titre": "Jimmy Connors met la pression sur Zverev : « Il a désormais une responsabilité envers le tennis et envers lui-même : jouer en tant que double vainqueur de Grand Chelem »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/attaque-par-zverev-boris-becker-lui-repond-on-dit-des-choses-spontanement-sous-le-coup-de-lemotion-et-la-je-me-dis-les-gars-reflechissez-un-peu",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-11T10:32+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Becker-1024x502.jpeg",
-   "titre": "Attaqué par Zverev, Boris Becker lui répond : « On dit des choses spontanément, sous le coup de l’émotion, et là je me dis : les gars, réfléchissez un peu »",
    "blessure": false
   }
  ]
