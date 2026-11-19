@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T23:31+00:00",
+ "maj": "2026-11-19T01:57+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -16,7 +16,7 @@
  ],
  "flux": {
   "L'Équipe": "ok, 41 articles",
-  "Tennis Majors": "ok, 17 articles",
+  "Tennis Majors": "ok, 18 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 19 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
@@ -28,6 +28,35 @@
   "Ubitennis": "ok, 16 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/nitto-atp-finals/19-novembre-2006-le-jour-ou-federer-a-conclu-une-saison-exceptionnelle-avec-le-masters-306497.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-19T15:40+00:00",
+   "image": null,
+   "titre": "19 novembre 2006 : Le jour où Federer a conclu une saison exceptionnelle avec le Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/november-19-2005-the-day-roger-federer-scored-the-only-double-bagel-in-the-history-of-the-masters-cup-515890.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-19T14:37+00:00",
+   "image": null,
+   "vo": "November 19, 2005: The day Roger Federer scored the only double bagel in the history of the Masters Cup/ATP Finals",
+   "titre": "19 novembre 2005 : le jour où Roger Federer a réalisé le seul double bagel de l'histoire de la Masters Cup/des ATP Finals",
+   "titre_fr": "19 novembre 2005 : le jour où Roger Federer a réalisé le seul double bagel de l'histoire de la Masters Cup/des ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/le-match-le-plus-triste-de-ma-carriere-cobolli-au-bord-des-larmes-apres-son-elimination-a-turin-810453.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-18T23:49+00:00",
+   "image": null,
+   "titre": "« Le match le plus triste de ma carrière » : Cobolli au bord des larmes après son élimination à Turin",
+   "blessure": false
+  },
   {
    "lien": "https://www.lequipe.fr/Tennis/Article/Avec-son-coup-droit-considere-comme-l-un-des-cinq-meilleurs-au-monde-arthur-fils-vise-l-exploit-face-au-numero-1-mondial-alexander-zverev-aux-finales-atp/1744494#at_medium=RSS_feeds",
    "source": "L'Équipe",
@@ -298,7 +327,7 @@
    "langue": "fr",
    "date": "2026-11-18T14:38+00:00",
    "image": null,
-   "titre": "Alcaraz domine Medvedev et se rapproche des demi-finales",
+   "titre": "Alcaraz domine Medvedev sans concéder de balle de break et termine premier de son groupe",
    "blessure": false
   },
   {
@@ -307,10 +336,10 @@
    "langue": "en",
    "date": "2026-11-18T14:38+00:00",
    "image": null,
-   "vo": "Alcaraz beats Medvedev in straight sets, one step from the semi-finals",
-   "titre": "Alcaraz bat Medvedev en trois sets, à un pas des demi-finales",
-   "titre_fr": "Alcaraz bat Medvedev en trois sets, à un pas des demi-finales",
-   "blessure": false
+   "vo": "Alcaraz beats Medvedev without facing a break point, tops Group Lendl",
+   "titre": "Alcaraz bat Medvedev sans concéder de balle de break et termine en tête du groupe Lendl",
+   "blessure": false,
+   "titre_fr": "Alcaraz bat Medvedev sans concéder de balle de break et termine en tête du groupe Lendl"
   },
   {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/inquietude-pour-carlos-alcaraz-vainqueur-de-medvedev-et-quasiment-qualifie-en-demi-finale",
@@ -3759,33 +3788,6 @@
    "date": "2026-11-10T14:15+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Edberg-Stefan-1024x604.jpeg",
    "titre": "Stefan Edberg : « Je suis sûr que ce joueur remportera un Grand Chelem un jour »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/je-n-etais-pas-candidat-tsonga-met-les-choses-au-clair-apres-la-nomination-de-monfils-en-coupe-davis_AV-202611100606.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-10T14:09+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/RKD_V6VvUuZTEl7y-OmB4vYTN7g=/0x118:2048x1270/800x0/images/Jo-Wilfried-Tsonga-et-Gael-Monfils-en-mai-2026-2381518.jpg",
-   "titre": "\"Je n'étais pas candidat\", Tsonga met les choses au clair après la nomination de Monfils en Coupe Davis",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/jo-wilfried-tsonga_DN-201411280298.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-10T14:09+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/O6vYlHT_z3B678unnlELatE0YF0=/16x1:1184x658/800x0/images/-862382.jpg",
-   "titre": "Jo-Wilfried Tsonga",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/ferrero-nouveau-coach-de-shelton-battu-par-alcaraz-en-finale-cetait-la-premiere-fois-en-huit-ans-que-je-devais-reflechir-a-des-strategies-pour-contrer-le-jeu-de-carlos",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T13:44+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/11/Ferrero-Turin-Masters-2024-1024x550.jpeg",
-   "titre": "Ferrero, nouveau coach de Shelton, battu par Alcaraz en finale : « C’était la première fois en huit ans que je devais réfléchir à des stratégies pour contrer le jeu de Carlos »",
    "blessure": false
   }
  ]
