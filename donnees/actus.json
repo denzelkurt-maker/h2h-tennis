@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-19T19:44+00:00",
+ "maj": "2026-11-19T21:30+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 46 articles",
   "Tennis Majors": "ok, 18 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 18 articles",
+  "We Love Tennis": "ok, 19 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 18 articles",
@@ -29,12 +29,70 @@
  },
  "articles": [
   {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/direct-arthur-fils-alexander-zverev-suivez-en-live-le-match-des-atp-finals-qui-peut-envoyer-le-francais-en-demi-finale_LN-202611190665.html",
-   "source": "RMC Sport",
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/zverev-saves-his-best-for-the-tie-break-beats-fils-and-tops-group-mcenroe-unbeaten-867371.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-19T21:27+00:00",
+   "image": null,
+   "vo": "Zverev saves his best for the tie-break, beats Fils and tops Group McEnroe unbeaten",
+   "titre": "Zverev garde le meilleur pour le tie-break, bat Fils et termine en tête du groupe McEnroe sans avoir perdu un match",
+   "titre_fr": "Zverev garde le meilleur pour le tie-break, bat Fils et termine en tête du groupe McEnroe sans avoir perdu un match",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters/pas-d-exploit-pour-arthur-fils-battu-par-le-n-1-mondial-alexander-zverev-et-elimine-du-masters-de-turin_8290640.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
    "langue": "fr",
-   "date": "2026-11-19T19:39+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/FWHLWgBGv1lBtmGMHgiNF_cO0Fc=/54x180:1990x1269/800x0/images/Arthur-Fils-au-Masters-ATP-le-17-novembre-2026-2386958.jpg",
-   "titre": "DIRECT. Arthur Fils-Alexander Zverev: suivez en live le match des ATP Finals qui peut envoyer le Français en demi-finale",
+   "date": "2026-11-19T21:22+00:00",
+   "image": "https://www.franceinfo.fr/pictures/gOVAHug_yDOJ7zBChMCTEIKqxoE/0x0:5392x3033/432x243/filters:format(jpg)/2026/11/19/6aff5bb0dd3fa302096944.jpg",
+   "titre": "Pas d'exploit pour Arthur Fils, battu par le n°1 mondial Alexander Zverev et éliminé du Masters de Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Albano-olivetti-et-theo-arribage-des-morts-de-faim-en-demies-des-finales-atp-un-an-seulement-apres-le-debut-de-leur-association/1744753#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-19T20:29+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/albano-olivetti-a-gauche-et-theo-arribage-sont-en-demies-a-turin-f-faugere-l-equipe/1500000002654467/58:67,708:501-828-552-75/54486.jpg",
+   "titre": "Albano Olivetti et Théo Arribagé, « des meurt-de-faim » en demies des Finales ATP, un an seulement après le début de leur association",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-ne-verra-pas-les-demi-finales-des-finales-atp-apres-la-perte-du-premier-set-face-a-alexander-zverev/1744752#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-19T20:29+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-jeudi-a-turin-f-faugere-l-equipe/1500000002654466/71:105,1901:1325-828-552-75/9c4e5.jpg",
+   "titre": "Arthur Fils ne verra pas les demies des Finales ATP après la perte du premier set face à Alexander Zverev",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/fils-eliminated-shelton-into-the-atp-finals-semi-finals-after-zverev-takes-the-first-set-867361.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-19T20:28+00:00",
+   "image": null,
+   "vo": "Fils eliminated, Shelton into the ATP Finals semi-finals as Zverev wins Group McEnroe",
+   "titre": "Fils éliminé, Shelton en demi-finale des ATP Finals après la victoire de Zverev dans le groupe McEnroe",
+   "titre_fr": "Fils éliminé, Shelton en demi-finale des ATP Finals après la victoire de Zverev dans le groupe McEnroe",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-elimine-du-masters-carlos-alcaraz-connait-son-adversaire-en-demi-finales",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T20:21+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-decu-1-1024x499.jpeg",
+   "titre": "Arthur Fils éliminé du Masters, Carlos Alcaraz connaît son adversaire en demi-finales !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters/les-francais-albano-olivetti-et-theo-arribage-se-qualifient-pour-les-demi-finales-du-masters-atp-apres-leur-victoire-face-a-la-meilleure-paire-mondiale_8290616.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-19T19:56+00:00",
+   "image": "https://www.franceinfo.fr/pictures/lJlQAwEWsX23DALxinAcr93k-J4/0x0:5392x3033/432x243/filters:format(jpg)/2026/11/19/6aff54415466c222071895.jpg",
+   "titre": "Les Français Albano Olivetti et Théo Arribagé se qualifient pour les demi-finales du Masters ATP après leur victoire face à la meilleure paire mondiale",
    "blessure": false
   },
   {
@@ -42,7 +100,7 @@
    "source": "L'Équipe",
    "langue": "fr",
    "date": "2026-11-19T19:00+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/theo-arribage-et-albano-olivetti-joueront-leur-place-en-finale-samedi-a-turin-f-faugere-l-equipe/1500000002654413/0:0,2000:1333-828-552-75/d9039.jpg",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/theo-arribage-et-albano-olivetti-joueront-leur-place-en-finale-samedi-a-turin-f-faugere-l-equipe/1500000002654413/0:0,2000:1333-828-552-75/64030.jpg",
    "titre": "Albano Olivetti et Théo Arribagé s'offrent la première paire mondiale et se qualifient pour les demi-finales des Finales ATP de Turin",
    "blessure": false
   },
@@ -189,6 +247,15 @@
    "date": "2026-11-19T16:01+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-Shelton-1024x533.jpeg",
    "titre": "Le message de Ben Shelton pour son ami Arthur Fils, qui peut le priver d’une place en demi-finales",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/direct-arthur-fils-alexander-zverev-suivez-en-live-le-match-des-atp-finals-qui-peut-envoyer-le-francais-en-demi-finale_LN-202611190665.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-19T15:58+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/FWHLWgBGv1lBtmGMHgiNF_cO0Fc=/54x180:1990x1269/800x0/images/Arthur-Fils-au-Masters-ATP-le-17-novembre-2026-2386958.jpg",
+   "titre": "DIRECT. Arthur Fils-Alexander Zverev: suivez en live le match des ATP Finals qui peut envoyer le Français en demi-finale",
    "blessure": false
   },
   {
@@ -1429,7 +1496,7 @@
    "langue": "fr",
    "date": "2026-11-17T10:32+00:00",
    "image": null,
-   "titre": "Fils ou Shelton ? Tous les scénarios de qualification des ATP Finals",
+   "titre": "Shelton rejoint Zverev en demi-finales : tous les scénarios de qualification restants aux ATP Finals",
    "blessure": false
   },
   {
@@ -3716,71 +3783,6 @@
    "image": "https://medias.lequipe.fr/img-photo-jpg/jannik-sinner-n-a-plus-rejoue-depuis-la-finale-de-wimbledon-en-juillet-m-romano-ipp-presse-sport/1500000002648631/0:0,2000:1333-828-552-75/542aa.jpg",
    "titre": "« J'ai perdu beaucoup de poids » : Jannik Sinner s'est fait retirer les amygdales",
    "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/carlos-moya-dernier-coach-de-nadal-carlos-alcaraz-et-jannik-sinner-auraient-clairement-pu-battre-rafa-a-roland-garros-mais-sur-le-long-terme-je-pense-quil-aurait-remporte-plus-de-matchs-qu",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-12T08:59+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/05/Nadal-RG-2024-1-1024x561.jpeg",
-   "titre": "Carlos Moya, dernier coach de Nadal : « Carlos Alcaraz et Jannik Sinner auraient clairement pu battre Rafa à Roland-Garros, mais sur le long terme, je pense qu’il aurait remporté plus de matchs qu’eux »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/carlos-moya-dernier-coach-de-nadal-carlos-alcaraz-et-jannik-sinner-auraient-clairement-pu-battre-rafa-a-roland-garros",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-12T08:59+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/05/Nadal-RG-2024-1-1024x561.jpeg",
-   "titre": "Carlos Moya, dernier coach de Nadal : « Carlos Alcaraz et Jannik Sinner auraient clairement pu battre Rafa à Roland-Garros »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp-actualite/12-novembre-2007-le-jour-ou-pour-la-premiere-fois-depuis-quatre-ans-roger-federer-a-subi-deux-defaites-consecutives-513421.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-12T08:20+00:00",
-   "image": null,
-   "titre": "12 novembre 2007 : Le jour où, pour la première fois depuis quatre ans, Roger Federer a subi deux défaites consécutives",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-beaucoup-dinformations-erronees-ont-circule-ces-derniers-temps-mon-entourage-et-moi-sommes-au-courant-de-tout",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-12T08:18+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-conf-presse-RG-2026-1-1024x556.jpeg",
-   "titre": "Jannik Sinner : « Beaucoup d’informations erronées ont circulé ces derniers temps. Mon entourage et moi sommes au courant de tout »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/france/nicolas-escude-sur-la-nomination-de-monfils-plutot-que-tsonga-au-poste-de-capitaine-pour-moi-ce-nest-pas-une-excuse-pour-justifier-que-jo-nait-pas-ete-choisi",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-12T07:46+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Nicolas-Escude-1024x669.jpeg",
-   "titre": "Nicolas Escudé sur la nomination de Monfils plutôt que Tsonga au poste de capitaine : « Pour moi, ce n’est pas une excuse pour justifier que Jo n’ait pas été choisi »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/shevchenko-recovers-from-a-set-down-to-oust-ruud-and-face-tirante-in-stockholm-866694.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-11T22:37+00:00",
-   "image": null,
-   "vo": "Shevchenko recovers from a set down to oust Ruud and face Tirante in Stockholm",
-   "titre": "Shevchenko se remet d'un set perdu pour éliminer Ruud et affronter Tirante à Stockholm",
-   "titre_fr": "Shevchenko se remet d'un set perdu pour éliminer Ruud et affronter Tirante à Stockholm",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/explore/video/tennis-la-douleur-ne-me-manque-absolument-pas-rafael-nadal-se-raconte-en-photos/20245337#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-11T22:32+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Nadal se raconte en photos : «La douleur ne me manque absolument pas»",
-   "blessure": true
   }
  ]
 }
