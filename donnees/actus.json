@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-19T17:37+00:00",
+ "maj": "2026-11-19T19:44+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -20,7 +20,7 @@
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 24 articles",
+  "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -28,6 +28,82 @@
   "Ubitennis": "ok, 16 articles"
  },
  "articles": [
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/direct-arthur-fils-alexander-zverev-suivez-en-live-le-match-des-atp-finals-qui-peut-envoyer-le-francais-en-demi-finale_LN-202611190665.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-19T19:39+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/FWHLWgBGv1lBtmGMHgiNF_cO0Fc=/54x180:1990x1269/800x0/images/Arthur-Fils-au-Masters-ATP-le-17-novembre-2026-2386958.jpg",
+   "titre": "DIRECT. Arthur Fils-Alexander Zverev: suivez en live le match des ATP Finals qui peut envoyer le Français en demi-finale",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Albano-olivetti-et-theo-arribage-s-offrent-la-premiere-paire-mondiale-et-se-qualifient-pour-les-demi-finales-des-finales-atp-de-turin/1744725#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-19T19:00+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/theo-arribage-et-albano-olivetti-joueront-leur-place-en-finale-samedi-a-turin-f-faugere-l-equipe/1500000002654413/0:0,2000:1333-828-552-75/d9039.jpg",
+   "titre": "Albano Olivetti et Théo Arribagé s'offrent la première paire mondiale et se qualifient pour les demi-finales des Finales ATP de Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/im-excited-to-sit-and-really-watch-shelton-hands-his-semi-final-fate-to-his-friend-fils-867350.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-19T18:54+00:00",
+   "image": null,
+   "vo": "“I’m excited to sit and really watch”: Shelton hands his semi-final fate to his friend Fils",
+   "titre": "« Je suis impatient de m'asseoir et de vraiment regarder » : Shelton confie son destin en demi-finale à son ami Fils",
+   "titre_fr": "« Je suis impatient de m'asseoir et de vraiment regarder » : Shelton confie son destin en demi-finale à son ami Fils",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/one-of-the-best-tennis-minds-there-is-shelton-on-his-father-bryan-and-what-ferrero-will-add-867345.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-19T18:49+00:00",
+   "image": null,
+   "vo": "“One of the best tennis minds there is”: Shelton on his father Bryan and what Ferrero will add",
+   "titre": "« L'un des plus grands esprits du tennis » : Shelton parle de son père Bryan et de ce que Ferrero apportera",
+   "titre_fr": "« L'un des plus grands esprits du tennis » : Shelton parle de son père Bryan et de ce que Ferrero apportera",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp-wta/une-ancienne-numero-1-mondiale-preferee-a-del-potro-le-choix-qui-fait-parler-cest-une-veritable-honte-jespere-que-tous-les-membres-du-comite-du-hall-of-fame-presenteront-leur-demission-dans",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T18:44+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/03/Del-Potro-1-1024x538.jpeg",
+   "titre": "Une ancienne numéro 1 mondiale préférée à Del Potro, le choix qui fait parler : « C’est une véritable honte. J’espère que tous les membres du comité du Hall of Fame présenteront leur démission dans les prochaines heures ",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alcaraz-a-decide-de-ne-pas-declarer-forfait-a-turin-mais-il-faut-comprendre-quil-le-fait-en-sachant-quil-y-a-un-risque-il-ne-faut-pas-negliger-le-danger-quil-court-pre",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T18:03+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-6385-1024x569.jpg",
+   "titre": "« Alcaraz a décidé de ne pas déclarer forfait à Turin mais il faut comprendre qu’il le fait en sachant qu’il y a un risque. Il ne faut pas négliger le danger qu’il court », prévient José Moron",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/daniil-medvedev-jai-soutenu-nimporte-quel-joueur-qui-affrontait-roger-federer",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T17:42+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Daniil-Medvedev-conf-presse--1024x574.jpeg",
+   "titre": "Daniil Medvedev : « J’ai soutenu n’importe quel joueur qui affrontait Roger Federer »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Blessure-a-la-cuisse-gauche-entrainement-annule-et-examens-rassurants-pour-carlos-alcaraz-l-ombre-d-un-doute-aux-finales-atp/1744695#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-19T17:19+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Alcaraz, la frayeur puis le soulagement",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/ben-shelton-sur-arthur-fils-je-ne-serai-pas-contre-lui",
    "source": "We Love Tennis",
@@ -49,6 +125,15 @@
    "blessure": false
   },
   {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Avec-son-coup-droit-considere-comme-l-un-des-cinq-meilleurs-au-monde-arthur-fils-vise-l-exploit-face-au-numero-1-mondial-alexander-zverev-aux-finales-atp/1744494#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-19T17:08+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Le coup droit, l'atout maître de Fils",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/im-not-sure-whats-going-to-happen-next-year-jodar-to-review-his-set-up-with-his-father-in-december-867327.html",
    "source": "Tennis Majors (EN)",
    "langue": "en",
@@ -66,6 +151,24 @@
    "date": "2026-11-19T16:41+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Jodar-1024x488.jpeg",
    "titre": "Rafael Jodar, après son élimination du Masters : « Ayant affronté les meilleurs joueurs du monde, je me rends compte d’une chose »",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/alexander-zverev_DN-202108310603.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-19T16:27+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ro1b_ee7A8WZ2xsKr02jgkzHzCk=/0x40:768x472/800x0/images/Alexander-Zverev-oppose-a-Daniil-Medvedev-au-Masters-de-fin-de-saison-a-Turin-le-16-novembre-2021-1167815.jpg",
+   "titre": "Alexander Zverev",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp-finals-un-seul-scenario-possible-fils-condamne-a-l-exploit-face-a-zverev-pour-rallier-les-demi-finales-du-masters_AV-202611190752.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-19T16:27+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/S5_m3aTqPtyO2Eq8rg01lMVEOE8=/0x68:2048x1220/800x0/images/Arthur-Fils-lors-de-sa-victoire-face-a-Rafael-Jodar-aux-ATP-Finals-a-Turin-le-17-novembre-2026-2387030.jpg",
+   "titre": "ATP Finals: un seul scénario possible... Fils condamné à l'exploit face à Zverev pour rallier les demi-finales du Masters",
    "blessure": false
   },
   {
@@ -144,15 +247,6 @@
    "vo": "“I’ll be watching Arthur”: Shelton edges Jodar and leaves Fils needing a straight-sets win over Zverev",
    "titre": "« Je regarderai Arthur » : Shelton bat Jodar et laisse Fils dans l'obligation de remporter une victoire en deux sets contre Zverev",
    "titre_fr": "« Je regarderai Arthur » : Shelton bat Jodar et laisse Fils dans l'obligation de remporter une victoire en deux sets contre Zverev",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/direct-arthur-fils-alexander-zverev-suivez-en-live-le-match-des-atp-finals-qui-peut-envoyer-le-francais-en-demi-finale_LN-202611190665.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-19T15:24+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/FWHLWgBGv1lBtmGMHgiNF_cO0Fc=/54x180:1990x1269/800x0/images/Arthur-Fils-au-Masters-ATP-le-17-novembre-2026-2386958.jpg",
-   "titre": "DIRECT. Arthur Fils-Alexander Zverev: suivez en live le match des ATP Finals qui peut envoyer le Français en demi-finale",
    "blessure": false
   },
   {
@@ -238,15 +332,6 @@
    "date": "2026-11-19T13:35+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Justine-Henin-1024x573.jpeg",
    "titre": "Justine Henin, avant le duel entre Arthur Fils et Alexander Zverev : « Dans ces conditions-là, je crois qu’il faut être réaliste »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Avec-son-coup-droit-considere-comme-l-un-des-cinq-meilleurs-au-monde-arthur-fils-vise-l-exploit-face-au-numero-1-mondial-alexander-zverev-aux-finales-atp/1744494#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T13:29+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Le coup droit, l'atout maître de Fils",
    "blessure": false
   },
   {
@@ -377,15 +462,6 @@
    "date": "2026-11-19T08:40+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Medvedev-filet-1024x503.jpeg",
    "titre": "Daniil Medvedev, surclassé par Carlos Alcaraz : « Je continue de penser que c’est plus facile de le battre sur cette surface »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/alexander-zverev_DN-202108310603.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-19T08:33+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ro1b_ee7A8WZ2xsKr02jgkzHzCk=/0x40:768x472/800x0/images/Alexander-Zverev-oppose-a-Daniil-Medvedev-au-Masters-de-fin-de-saison-a-Turin-le-16-novembre-2021-1167815.jpg",
-   "titre": "Alexander Zverev",
    "blessure": false
   },
   {
@@ -3705,86 +3781,6 @@
    "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
    "titre": "Nadal se raconte en photos : «La douleur ne me manque absolument pas»",
    "blessure": true
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Quels-adversaires-arthur-fils-peut-il-affronter-en-poules-aux-finales-atp/1743077#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-11T21:58+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-va-disputer-les-finales-atp-pour-la-premiere-fois-a-reau-l-equipe/1500000002648391/64:22,1948:1277-828-552-75/45ac1.jpg",
-   "titre": "Quels adversaires Arthur Fils peut-il affronter en poules aux Finales ATP ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/and-then-we-pay-the-price-nadal-wants-fewer-hard-courts-a-two-year-ranking-and-shorter-masters-1000s-866697.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-11T21:39+00:00",
-   "image": null,
-   "vo": "“And then we pay the price”: Nadal wants fewer hard courts, a two-year ranking and shorter Masters 1000s",
-   "titre": "« Et puis nous en payons le prix » : Nadal souhaite moins de courts en dur, un classement sur deux ans et des Masters 1000 plus courts",
-   "titre_fr": "« Et puis nous en payons le prix » : Nadal souhaite moins de courts en dur, un classement sur deux ans et des Masters 1000 plus courts",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/rune-rallies-past-kecmanovic-to-set-up-fritz-clash-in-stockholm-866701.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-11T21:34+00:00",
-   "image": null,
-   "vo": "Rune rallies past Kecmanovic to set up Fritz clash in Stockholm",
-   "titre": "Rune se reprend face à Kecmanovic et se qualifie pour affronter Fritz à Stockholm",
-   "titre_fr": "Rune se reprend face à Kecmanovic et se qualifie pour affronter Fritz à Stockholm",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Changer-les-balles-tous-les-7-jeux-et-non-tous-les-9-est-il-la-solution-face-a-la-grogne-des-joueurs-sur-leur-qualite/1742910#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-11T20:58+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Changer les balles tous les 7 jeux est-il la solution face à la grogne des joueurs ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/la-declaration-de-nadal-qui-va-faire-parler-a-lepoque-ou-je-jouais-encore-il-metait-difficile-de-defendre-cette-position-car-beaucoup-auraient-pu-penser-que-je-cherchais-simple",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-11T18:48+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/05/Nadal-conf-RG-2025-2-1024x568.jpeg",
-   "titre": "La déclaration de Nadal qui va faire parler : « À l’époque où je jouais encore, il m’était difficile de défendre cette position, car beaucoup auraient pu penser que je cherchais simplement à tirer profit de ma domination",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/sinner-lost-weight-after-tonsil-surgery-still-hoping-to-be-back-in-australia-866678.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-11T18:47+00:00",
-   "image": null,
-   "vo": "“The face is quite dry”: Sinner lost weight after tonsil surgery, still hoping to be back in Australia",
-   "titre": "« Le visage est assez émacié » : Sinner a perdu du poids après une opération des amygdales, mais espère toujours être de retour en Australie",
-   "titre_fr": "« Le visage est assez émacié » : Sinner a perdu du poids après une opération des amygdales, mais espère toujours être de retour en Australie",
-   "blessure": true
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/-cela-donnerait-aux-joueurs-un-peu-plus-de-liberte-pour-prendre-de-meilleures-decisions-rafael-nadal-favorable-a-un-classement-glisse-sur-deux-ans-plutot-que-sur-un-an/1743025#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-11T18:40+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/rafael-nadal-s-est-rendu-a-melbourne-pour-l-open-d-australie-cette-annee-p-lahalle-l-equipe/1500000002648293/243:271,1776:1292-828-552-75/c829b.jpg",
-   "titre": "« Cela donnerait aux joueurs un peu plus de liberté pour prendre de meilleures décisions » : Rafael Nadal favorable à un classement glissé sur deux ans plutôt que sur un an",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/fritz-beats-norrie-in-stockholm-for-fourth-quarter-final-in-four-weeks-866669.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-11T18:08+00:00",
-   "image": null,
-   "vo": "Fritz beats Norrie in Stockholm for fourth quarter-final in four weeks",
-   "titre": "Fritz bat Norrie à Stockholm et atteint son quatrième quart de finale en quatre semaines",
-   "titre_fr": "Fritz bat Norrie à Stockholm et atteint son quatrième quart de finale en quatre semaines",
-   "blessure": false
   }
  ]
 }
