@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-19T08:00+00:00",
+ "maj": "2026-11-19T09:41+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 43 articles",
+  "L'Équipe": "ok, 44 articles",
   "Tennis Majors": "ok, 18 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 19 articles",
@@ -49,6 +49,73 @@
    "blessure": false
   },
   {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/i-deserved-to-win-the-first-set-cobollis-body-gave-out-after-an-hour-in-turin-867289.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-19T09:33+00:00",
+   "image": null,
+   "vo": "“I deserved to win the first set”: Cobolli’s body gave out after an hour in Turin",
+   "titre": "« Je méritais de remporter le premier set » : le corps de Cobolli a lâché après une heure de jeu à Turin",
+   "titre_fr": "« Je méritais de remporter le premier set » : le corps de Cobolli a lâché après une heure de jeu à Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/nobody-thought-i-would-qualify-flavio-cobolli-saddened-by-latest-atp-finals-loss/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-19T09:27+00:00",
+   "image": null,
+   "vo": "‘Nobody Thought I Would Qualify’ – Flavio Cobolli Saddened By Latest ATP Finals Loss",
+   "titre": "« Personne ne pensait que je me qualifierais » : Flavio Cobolli attristé par sa dernière défaite aux ATP Finals",
+   "titre_fr": "« Personne ne pensait que je me qualifierais » : Flavio Cobolli attristé par sa dernière défaite aux ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/tiafoe-a-un-journaliste-apres-sa-victoire-contre-cobolli-je-pense-que-vous-mauriez-battu-lors-des-deux-premiers-jeux",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T09:10+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-05-at-17.23.19-e1795041873796-1024x550.jpeg",
+   "titre": "Tiafoe à un journaliste après sa victoire contre Cobolli : « Je pense que vous m’auriez battu lors des deux premiers jeux »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/daniil-medvedev-surclasse-par-carlos-alcaraz-je-continue-de-penser-que-cest-plus-facile-de-le-battre-sur-cette-surface",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T08:40+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Medvedev-filet-1024x503.jpeg",
+   "titre": "Daniil Medvedev, surclassé par Carlos Alcaraz : « Je continue de penser que c’est plus facile de le battre sur cette surface »",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/alexander-zverev_DN-202108310603.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-19T08:33+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ro1b_ee7A8WZ2xsKr02jgkzHzCk=/0x40:768x472/800x0/images/Alexander-Zverev-oppose-a-Daniil-Medvedev-au-Masters-de-fin-de-saison-a-Turin-le-16-novembre-2021-1167815.jpg",
+   "titre": "Alexander Zverev",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/pourquoi-les-propos-d-alexander-zverev-apres-sa-victoire-a-roland-garros-lui-ont-valu-une-nouvelle-plainte-de-son-ancienne-compagne_AV-202611190360.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-19T08:33+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/2hDlaop1_JQhUuQI_UAojLTf3-k=/0x100:2048x1252/800x0/images/Alexander-Zverev-lors-du-Masters-le-17-novembre-2026-2386675.jpg",
+   "titre": "Pourquoi les propos d'Alexander Zverev après sa victoire à Roland-Garros lui ont valu une nouvelle plainte de son ancienne compagne",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/battu-par-tiafoe-et-elimine-du-masters-de-turin-cobolli-ne-digere-pas-je-meritais-de-remporter-le-premier-set-jen-avais-plus-que-lui",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T08:09+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Cobolli-conf-presse-.jpeg",
+   "titre": "Battu par Tiafoe et éliminé du Masters de Turin, Cobolli ne digère pas : « Je méritais de remporter le premier set. J’en avais plus que lui »",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/indoor-hard-courts-should-not-be-slow-medvedev-takes-a-side-in-the-court-speed-debate-867252.html",
    "source": "Tennis Majors (EN)",
    "langue": "en",
@@ -57,6 +124,24 @@
    "vo": "“Indoor hard courts should not be slow”: Medvedev takes a side in the court speed debate",
    "titre": "« Les courts durs en salle ne devraient pas être lents » : Medvedev prend parti dans le débat sur la vitesse des courts",
    "titre_fr": "« Les courts durs en salle ne devraient pas être lents » : Medvedev prend parti dans le débat sur la vitesse des courts",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/L-australienne-ashleigh-barty-ancienne-numero-1-mondiale-va-faire-son-entree-au-hall-of-fame/1744586#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-19T07:46+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/ashleigh-barty-a-wimbledon-en-2021-c-wilson-l-equipe/1500000002653941/74:58,1904:1278-828-552-75/eb475.jpg",
+   "titre": "L'Australienne Ashleigh Barty, ancienne numéro 1 mondiale, va faire son entrée au Hall of Fame",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/A-quelle-heure-et-sur-quelle-chaine-suivre-la-rencontre-entre-arthur-fils-et-alexander-zverev-a-l-atp-finals/1744393#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-19T07:35+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-f-faugere-l-equipe/1500000002653289/0:0,1998:1332-828-552-75/5ed45.jpg",
+   "titre": "À quelle heure et sur quelle chaîne suivre la rencontre entre Arthur Fils et Alexander Zverev en Finales ATP ?",
    "blessure": false
   },
   {
@@ -198,15 +283,6 @@
    "date": "2026-11-18T21:13+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Tiafoe-1024x566.jpeg",
    "titre": "Tiafoe fait très mal à Cobolli, Alcaraz qualifié et premier de son groupe",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/alexander-zverev_DN-202108310603.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-18T20:25+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ro1b_ee7A8WZ2xsKr02jgkzHzCk=/0x40:768x472/800x0/images/Alexander-Zverev-oppose-a-Daniil-Medvedev-au-Masters-de-fin-de-saison-a-Turin-le-16-novembre-2021-1167815.jpg",
-   "titre": "Alexander Zverev",
    "blessure": false
   },
   {
@@ -1801,6 +1877,15 @@
    "blessure": false
   },
   {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-le-match-entre-ben-shelton-et-arthur-fils-a-l-atp-finals/1743399#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-15T17:42+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Où voir le match Shelton - Fils ?",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/alexander-zverev-apres-sa-victoire-dentree-contre-la-revelation-de-lannee-je-ne-dirais-pas-que-cetait-parfait",
    "source": "We Love Tennis",
    "langue": "fr",
@@ -2125,15 +2210,6 @@
    "date": "2026-11-15T08:11+00:00",
    "image": "https://www.franceinfo.fr/pictures/ivIiQ3_7kJkaszSYACk4ajipRYw/0x0:4802x2701/432x243/filters:format(jpg)/2026/11/10/6af32838850e7261928198.jpg",
    "titre": "Au Masters de Turin, Arthur Fils devra confirmer son nouveau statut après une année en dents de scie",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-le-match-entre-ben-shelton-et-arthur-fils-a-l-atp-finals/1743399#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T07:40+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "À quelle heure et sur quelle chaîne voir le match entre Ben Shelton et Arthur Fils aux Finales Atp ?",
    "blessure": false
   },
   {
@@ -3711,80 +3787,6 @@
    "titre": "Rune bat Bergs, huitième tête de série, à Stockholm pour mettre en place l'affrontement de deuxième tour de Kecmanovic",
    "blessure": false,
    "titre_fr": "Rune bat Bergs, huitième tête de série, à Stockholm pour mettre en place l'affrontement de deuxième tour de Kecmanovic"
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Jannik-sinner-sur-la-date-de-son-retour-sur-les-courts-l-objectif-est-d-aller-en-australie/1742853#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-10T18:48+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/jannik-sinner-lors-de-wimbledon-en-juillet-sa-derniere-apparition-sur-les-courts-a-reau-l-equipe/1500000002647628/0:0,1998:1332-828-552-75/b8432.jpg",
-   "titre": "Jannik Sinner, sur la date de son retour sur les courts : « L'objectif est d'aller en Australie »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/alexander-zverev-sur-labsence-systematique-de-sa-mere-dans-sa-box-elle-ne-veut-pas-a-cause-de-cela-je-ne-peux-pas-la-forcer",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T18:09+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Zverev-Senior-pere-papa-coach-box-1024x538.jpeg",
-   "titre": "Alexander Zverev, sur l’absence systématique de sa mère dans sa box : « Elle ne veut pas à cause de cela. Je ne peux pas la forcer »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Mardi-noir-a-stockholm-pour-les-francais-adrian-mannarino-quentin-halys-et-arthur-rinderknech-battus-d-entree/1742820#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-10T17:48+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/c-est-deja-termine-pour-arthur-rinderknech-a-stockholm-p-lahalle-l-equipe/1500000002647577/0:0,800:533-828-552-75/9e81a.jpg",
-   "titre": "Mardi noir à Stockholm pour les Français : Adrian Mannarino, Quentin Halys et Arthur Rinderknech battus d'entrée",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-et-alexander-zverev-ne-lachent-pas-roger-federer",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T17:38+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Alcaraz-Zverev-Laver-Cup-1024x496.jpeg",
-   "titre": "Carlos Alcaraz et Alexander Zverev ne lâchent pas Roger Federer",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/flavio-cobolli-lintrus-du-top-10-il-y-a-un-chiffre-choquant-a-son-sujet-une-grande-premiere-depuis-que-les-statistiques-existent",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T17:08+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Flavio-Cobolli-banc-1024x555.jpeg",
-   "titre": "Flavio Cobolli, l’intrus du Top 10 ? « Il y a un chiffre choquant à son sujet. Une grande première depuis que les statistiques existent »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-en-plus-dalcaraz-deux-joueurs-du-circuit-mont-tout-de-suite-ecrit-quand-jai-annonce-la-fin-de-ma-saison",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-10T16:40+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Sinner-face-1024x543.jpeg",
-   "titre": "Jannik Sinner : « En plus d’Alcaraz, deux joueurs du circuit m’ont tout de suite écrit quand j’ai annoncé la fin de ma saison »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/tv/sport/tennis/4262044-20261110-20-minutes-arena-rendez-sport-20-minutes-28?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-10T16:39+00:00",
-   "image": "https://img.20mn.fr/I5X_Jr_-Rmu0mwHku2XAmCk/1200x768_20-minutes-arena-emission-plonge-coeur-actualite-sportive-programme-debats-jeux-actu-allez-transpirer-plaisir",
-   "titre": "20 Minutes Arena : le rendez-vous sport de 20 Minutes ! #28",
-   "blessure": false
-  },
-  {
-   "titre": "Etcheverry se retire de Stockholm avec un problème de mollet gauche, Tirante se fait renverser",
-   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/etcheverry-withdraws-from-stockholm-with-left-calf-issue-tirante-gets-walkover-866603.html",
-   "source": "Tennis Majors (EN)",
-   "date": "2026-11-10T16:31+00:00",
-   "blessure": true,
-   "langue": "en",
-   "image": null,
-   "vo": "Etcheverry withdraws from Stockholm with left calf issue, Tirante gets walkover",
-   "titre_fr": "Etcheverry se retire de Stockholm avec un problème de mollet gauche, Tirante se fait renverser"
   }
  ]
 }
