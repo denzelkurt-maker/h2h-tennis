@@ -1,6 +1,6 @@
 {
  "version_collecteur": "1.11.1",
- "genere_le": "2026-11-18T06:12:25+00:00",
+ "genere_le": "2026-11-19T06:10:19+00:00",
  "historique_sackmann_jusqua": "2026-06-01",
  "matchs": {
   "simple": {
@@ -70,10 +70,10 @@
    "2026-08": 377,
    "2026-09": 398,
    "2026-10": 408,
-   "2026-11": 243
+   "2026-11": 276
   }
  },
- "joueurs": 11652,
+ "joueurs": 11656,
  "niveaux": {
   "G": "Grand Chelem",
   "M": "Masters 1000",
