@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-19T21:30+00:00",
+ "maj": "2026-11-19T23:27+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,19 +15,135 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 46 articles",
-  "Tennis Majors": "ok, 18 articles",
+  "L'Équipe": "ok, 47 articles",
+  "Tennis Majors": "ok, 19 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 19 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 26 articles",
+  "RMC Sport": "ok, 24 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 21 articles",
-  "Ubitennis": "ok, 16 articles"
+  "Ubitennis": "ok, 17 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-apres-la-fin-de-son-parcours-aux-finales-atp-de-turin-je-pars-en-vacances-avec-plein-de-bons-souvenirs/1744778#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-19T22:55+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-f-faugere-l-equipe/1500000002654543/0:0,2000:1333-828-552-75/0457d.jpg",
+   "titre": "Arthur Fils après la fin de son parcours aux Finales ATP de Turin : « Je pars en vacances avec plein de bons souvenirs »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Video/Finales-atp-le-resume-du-match-entre-alexander-zverev-et-arthur-fils-aux-finales-atp/20245913#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-19T22:38+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Le résumé du match entre Zverev et Fils",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Nicolas-escude-fait-le-bilan-de-la-saison-d-arthur-fils-apres-sa-defaite-face-a-alexander-zverev-aux-finales-atp-il-faudra-juste-etre-encore-un-peu-plus-stable/1744775#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-19T22:36+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/nicolas-escude-voit-arthur-fils-gagner-des-matches-en-grand-chelem-l-an-prochain-f-faugere-p-lahalle-l-equipe/1500000002654529/0:0,1500:1000-828-552-75/38d90.jpg",
+   "titre": "Nicolas Escudé fait le bilan de la saison d'Arthur Fils après sa défaite face à Alexander Zverev aux Finales ATP : « Il faudra juste être encore un peu plus stable »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/i-hope-i-can-play-fils-ready-to-answer-monfils-first-davis-cup-call-867382.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-19T22:36+00:00",
+   "image": null,
+   "vo": "“I hope I can play”: Fils ready to answer Monfils’ first Davis Cup call",
+   "titre": "« J'espère pouvoir jouer » : Fils est prêt à répondre à la première convocation de Monfils pour la Coupe Davis",
+   "titre_fr": "« J'espère pouvoir jouer » : Fils est prêt à répondre à la première convocation de Monfils pour la Coupe Davis",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/a-hell-of-a-season-fils-leaves-turin-at-the-level-and-heads-on-holiday-867385.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-19T22:32+00:00",
+   "image": null,
+   "vo": "“A hell of a season”: Fils leaves Turin “at the level” and heads on holiday",
+   "titre": "« Une saison de folie » : Fils quitte Turin « au niveau » et part en vacances",
+   "titre_fr": "« Une saison de folie » : Fils quitte Turin « au niveau » et part en vacances",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/it-will-probably-stay-until-the-end-of-my-career-zverevs-ankle-flares-up-ahead-of-his-atp-finals-semi-final-867381.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-19T22:27+00:00",
+   "image": null,
+   "vo": "“A topic for me that probably will stay until the end of my career”: Zverev’s ankle flares up ahead of his ATP Finals semi-final",
+   "titre": "« Un sujet qui me concerne et qui restera probablement d'actualité jusqu'à la fin de ma carrière » : la cheville de Zverev se réveille avant sa demi-finale des ATP Finals",
+   "titre_fr": "« Un sujet qui me concerne et qui restera probablement d'actualité jusqu'à la fin de ma carrière » : la cheville de Zverev se réveille avant sa demi-finale des ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/open-metz-grand-est/trois-joueurs-francais-au-rendez-vous-des-quarts-de-finale",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T22:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2021/11/Herbert-paris-1-e1673374661926-1024x520.jpeg",
+   "titre": "Trois joueurs français au rendez-vous des quarts de finale !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alerte-pour-zverev-malgre-sa-victoire-contre-fils-je-vais-probablement-en-souffrir-de-temps-en-temps-jusqua-la-fin-de-ma-carriere",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T21:58+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alexander-Zverev-conf-1024x512.jpeg",
+   "titre": "Alerte pour Zverev malgré sa victoire contre Fils : « Je vais probablement en souffrir de temps en temps jusqu’à la fin de ma carrière… »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-raises-injury-concern-after-beating-fils-at-atp-finals/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-19T21:54+00:00",
+   "image": null,
+   "vo": "Alexander Zverev Raises Injury Concern After Beating Fils At ATP Finals",
+   "titre": "Alexander Zverev suscite des inquiétudes concernant une blessure après avoir battu Fils lors des ATP Finals",
+   "titre_fr": "Alexander Zverev suscite des inquiétudes concernant une blessure après avoir battu Fils lors des ATP Finals",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/justine-henin-apres-la-defaite-darthur-fils-contre-alexander-zverev-je-crois-que-ben-shelton-etait-quand-meme-plutot-confiant",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-19T21:50+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Justine-Henin-1024x573.jpeg",
+   "titre": "Justine Henin, après la défaite d’Arthur Fils contre Alexander Zverev : « Je crois que Ben Shelton était quand même plutôt confiant »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters/pas-d-exploit-pour-arthur-fils-battu-par-le-n-1-mondial-alexander-zverev-et-elimine-du-masters-de-turin_8290640.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-19T21:40+00:00",
+   "image": "https://www.franceinfo.fr/pictures/gOVAHug_yDOJ7zBChMCTEIKqxoE/0x0:5392x3033/432x243/filters:format(jpg)/2026/11/19/6aff5bb0dd3fa302096944.jpg",
+   "titre": "Pas d'exploit pour Arthur Fils, battu par le n°1 mondial Alexander Zverev et éliminé du Masters de Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/zverev-domine-et-elimine-fils-pour-terminer-invaincu-en-tete-du-groupe-mcenroe-810540.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-19T21:38+00:00",
+   "image": null,
+   "titre": "Zverev domine (et élimine) Fils pour terminer invaincu en tête du groupe McEnroe",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/zverev-saves-his-best-for-the-tie-break-beats-fils-and-tops-group-mcenroe-unbeaten-867371.html",
    "source": "Tennis Majors (EN)",
@@ -40,12 +156,12 @@
    "blessure": false
   },
   {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters/pas-d-exploit-pour-arthur-fils-battu-par-le-n-1-mondial-alexander-zverev-et-elimine-du-masters-de-turin_8290640.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Fin-de-parcours-aux-finales-atp-de-turin-pour-arthur-fils-battu-par-alexander-zverev/1744763#at_medium=RSS_feeds",
+   "source": "L'Équipe",
    "langue": "fr",
-   "date": "2026-11-19T21:22+00:00",
-   "image": "https://www.franceinfo.fr/pictures/gOVAHug_yDOJ7zBChMCTEIKqxoE/0x0:5392x3033/432x243/filters:format(jpg)/2026/11/19/6aff5bb0dd3fa302096944.jpg",
-   "titre": "Pas d'exploit pour Arthur Fils, battu par le n°1 mondial Alexander Zverev et éliminé du Masters de Turin",
+   "date": "2026-11-19T21:27+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/il-n-y-a-pas-eu-d-exploit-pour-arthur-fils-ce-jeudi-soir-a-turin-face-a-alexander-zverev-f-faugere-l/1500000002654488/0:0,1998:1332-828-552-75/5ff81.jpg",
+   "titre": "Fin de parcours aux Finales ATP de Turin pour Arthur Fils, battu par Alexander Zverev",
    "blessure": false
   },
   {
@@ -209,15 +325,6 @@
    "date": "2026-11-19T16:41+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Jodar-1024x488.jpeg",
    "titre": "Rafael Jodar, après son élimination du Masters : « Ayant affronté les meilleurs joueurs du monde, je me rends compte d’une chose »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/alexander-zverev_DN-202108310603.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-19T16:27+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ro1b_ee7A8WZ2xsKr02jgkzHzCk=/0x40:768x472/800x0/images/Alexander-Zverev-oppose-a-Daniil-Medvedev-au-Masters-de-fin-de-saison-a-Turin-le-16-novembre-2021-1167815.jpg",
-   "titre": "Alexander Zverev",
    "blessure": false
   },
   {
@@ -387,10 +494,10 @@
    "langue": "en",
    "date": "2026-11-19T13:49+00:00",
    "image": null,
-   "vo": "Alcaraz undergoes MRI on hamstring and cancels training, his ATP Finals in the balance (report)",
-   "titre": "Alcaraz passe une IRM du muscle ischio-jambier et annule son entraînement ; sa participation aux ATP Finals est incertaine (article)",
-   "titre_fr": "Alcaraz passe une IRM du muscle ischio-jambier et annule son entraînement ; sa participation aux ATP Finals est incertaine (article)",
-   "blessure": true
+   "vo": "Alcaraz expected to play Cobolli after MRI (report)",
+   "titre": "Alcaraz devrait jouer contre Cobolli après son IRM (rapport)",
+   "blessure": false,
+   "titre_fr": "Alcaraz devrait jouer contre Cobolli après son IRM (rapport)"
   },
   {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/justine-henin-avant-le-duel-entre-arthur-fils-et-alexander-zverev-dans-ces-conditions-la-je-crois-quil-faut-etre-realiste",
@@ -708,6 +815,15 @@
    "date": "2026-11-18T21:13+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Tiafoe-1024x566.jpeg",
    "titre": "Tiafoe fait très mal à Cobolli, Alcaraz qualifié et premier de son groupe",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/alexander-zverev_DN-202108310603.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-18T20:25+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ro1b_ee7A8WZ2xsKr02jgkzHzCk=/0x40:768x472/800x0/images/Alexander-Zverev-oppose-a-Daniil-Medvedev-au-Masters-de-fin-de-saison-a-Turin-le-16-novembre-2021-1167815.jpg",
+   "titre": "Alexander Zverev",
    "blessure": false
   },
   {
@@ -3672,116 +3788,6 @@
    "date": "2026-11-12T12:32+00:00",
    "image": "https://img.20mn.fr/DlmrwCp8SEqzemiU2mMgNCk/1200x768_arthur-fils-est-fixe-sur-le-programme-qui-l-attend-a-turin-lors-des-finales-atp-photo-d-illustration",
    "titre": "Finales ATP 2026 : Le tableau complet après le tirage au sort",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/tournoi-des-maitres-voila-ce-qui-attend-arthur-fils-apres-le-tirage-au-sort-des-atp-finals_AV-202611120528.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-12T12:16+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/xvLpa6DrE9fRgN5Qquy5vdVCxr4=/0x121:2048x1273/800x0/images/Arthur-Fils-lors-du-Masters-1000-de-Paris-5-novembre-2026-2382798.jpg",
-   "titre": "Tournoi des Maîtres et semaine très lucrative: voilà ce qui attend Arthur Fils après le tirage au sort des ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-evite-carlos-alcaraz-les-deux-poules-du-masters-sont-connues",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-12T12:06+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-pres-1024x517.jpeg",
-   "titre": "Arthur Fils évite Carlos Alcaraz, les deux poules du Masters sont connues !",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-est-fixe-le-francais-affrontera-alexander-zverev-ben-shelton-et-rafael-jodar-en-poules-des-finales-atp/1743140#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-12T12:03+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-la-semaine-derniere-lors-du-rolex-paris-masters-p-lahalle-l-equipe/1500000002648766/229:168,1953:1318-828-552-75/3f900.jpg",
-   "titre": "Arthur Fils est fixé : le Français affrontera Alexander Zverev, Ben Shelton et Rafael Jodar en poules des Finales ATP",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/inquietude-pour-carlos-alcaraz-a-trois-jours-du-debut-du-masters",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-12T11:46+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-6386-1024x557.jpg",
-   "titre": "Inquiétude pour Carlos Alcaraz à trois jours du début du Masters",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/L-atp-annonce-une-hausse-de-pres-de-50-de-ses-revenus-issus-des-partenariats/1743136#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-12T11:06+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/andrea-gaudenzi-est-le-president-de-l-atp-a-reau-l-equipe/1500000002648754/0:0,2000:1333-828-552-75/04d72.jpg",
-   "titre": "L'ATP annonce une hausse de près de 50 % de ses revenus issus des partenariats",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-si-je-suis-un-papa-decontracte-ou-anxieux-pour-moi-trois-choses-sont-fondamentales-et-non-negociables",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-12T11:03+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/07/Nadal-fils-femme-Rafa-Junior-Xisca--1024x573.jpeg",
-   "titre": "Rafael Nadal : « Si je suis un papa décontracté ou anxieux ? Pour moi, trois choses sont fondamentales et non négociables »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/taylor-fritz-retablit-la-verite-la-prime-de-participation-au-six-kings-slam-nest-pas-aussi-elevee-que-ce-qui-a-ete-dit-dans-les-medias",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-12T10:45+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/10/Fritz-conf-presse-1024x577.jpeg",
-   "titre": "Taylor Fritz rétablit la vérité : « La prime de participation au Six Kings Slam n’est pas aussi élevée que ce qui a été dit dans les médias »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/atp-pondering-buying-out-events-to-cut-season-length-says-casper-ruud/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-12T10:11+00:00",
-   "image": null,
-   "vo": "ATP Pondering Buying Out Events To Cut Season Length, Says Casper Ruud",
-   "titre": "L’ATP envisage de racheter des tournois pour raccourcir la saison, selon Casper Ruud",
-   "titre_fr": "L’ATP envisage de racheter des tournois pour raccourcir la saison, selon Casper Ruud",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-pas-seulement-blesse-au-genou-je-me-suis-fait-enlever-les-amygdales-il-y-a-quelques-semaines-et-jai-perdu-beaucoup-de-poids-vous-le-voyez-peut-etre-a-mon-visage-il-est-assez-sec",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-12T09:34+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-RG-1024x528.jpeg",
-   "titre": "Jannik Sinner, pas seulement blessé au genou : « Je me suis fait enlever les amygdales il y a quelques semaines et j’ai perdu beaucoup de poids. Vous le voyez peut-être à mon visage, il est assez sec »",
-   "blessure": true
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-pas-seulement-blesse-au-genou-je-me-suis-fait-enlever-les-amygdales-il-y-a-quelques-semaines-et-jai-perdu-beaucoup-de-poids-vous-le-voyez-peut-etre-a-mon-visage",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-12T09:34+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-RG-1024x528.jpeg",
-   "titre": "Jannik Sinner, pas seulement blessé au genou : « Je me suis fait enlever les amygdales il y a quelques semaines et j’ai perdu beaucoup de poids. Vous le voyez peut-être à mon visage… »",
-   "blessure": true
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Format-points-prize-money-les-finales-atp-comment-ca-marche/1743119#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-12T09:29+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-aura-au-moins-trois-duels-a-disputer-face-a-des-top-10-dans-les-jours-qui-viennent-a-reau-l-equipe/1500000002648642/0:0,2000:1333-828-552-75/ed0b5.jpg",
-   "titre": "Format, points, prize money : les Finales ATP, comment ça marche ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/-j-ai-perdu-beaucoup-de-poids-jannik-sinner-s-est-fait-retirer-les-amygdales/1743115#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-12T09:13+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/jannik-sinner-n-a-plus-rejoue-depuis-la-finale-de-wimbledon-en-juillet-m-romano-ipp-presse-sport/1500000002648631/0:0,2000:1333-828-552-75/542aa.jpg",
-   "titre": "« J'ai perdu beaucoup de poids » : Jannik Sinner s'est fait retirer les amygdales",
    "blessure": false
   }
  ]
