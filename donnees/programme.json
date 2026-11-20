@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-20T19:52+00:00",
+ "maj": "2026-11-20T21:30+00:00",
  "source": "ESPN (API publique)",
  "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
  "colonnes_tournois": [
@@ -36,23 +36,43 @@
  ],
  "matchs": [
   [
-   "2026-11-20T19:40Z",
+   "2026-11-21T13:30Z",
    1,
    "Inalpi Arena",
    "339-2026",
-   "Group Stage",
-   "in",
+   "Semifinal",
+   "pre",
+   [
+    "07843754-8bdf-63b0-5983-24252738169e",
+    "Carlos Alcaraz",
+    "Spain",
+    2
+   ],
+   [
+    "2358bec1-f6f0-3540-a37e-13bc322d2c08",
+    "Ben Shelton",
+    "USA",
+    3
+   ]
+  ],
+  [
+   "2026-11-21T19:30Z",
+   1,
+   "Inalpi Arena",
+   "339-2026",
+   "Semifinal",
+   "pre",
+   [
+    "fd06b6ea-593b-d5b3-da2b-767ec3e4232c",
+    "Alexander Zverev",
+    "Germany",
+    1
+   ],
    [
     "469710ae-79d9-770e-e3b7-d71e5148642c",
     "Daniil Medvedev",
     "Russia",
     4
-   ],
-   [
-    "f901758a-d8f2-442c-9cd3-44513fcbf31e",
-    "Frances Tiafoe",
-    "USA",
-    7
    ]
   ]
  ],
@@ -2743,7 +2763,7 @@
  "challenger_maj": "2026-11-20T05:42+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-20T19:52+00:00",
+  "date": "2026-11-20T21:30+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",

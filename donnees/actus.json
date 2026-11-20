@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-20T19:52+00:00",
+ "maj": "2026-11-20T21:30+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -28,6 +28,37 @@
   "Ubitennis": "ok, 18 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/medvedev-beats-tiafoe-to-complete-a-by-the-book-atp-finals-last-four-867503.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-20T21:16+00:00",
+   "image": null,
+   "vo": "Medvedev beats Tiafoe to complete a by-the-book ATP Finals last four",
+   "titre": "Medvedev bat Tiafoe et complète un carré final des ATP Finals conforme aux pronostics",
+   "titre_fr": "Medvedev bat Tiafoe et complète un carré final des ATP Finals conforme aux pronostics",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Daniil-medvedev-rejoint-alexander-zverev-dans-le-dernier-carre-des-finales-atp-de-turin/1745003#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-20T21:09+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/medvedev-daniil-f-faugere-l-equipe/1500000002655310/0:0,2000:1333-828-552-75/775d6.jpg",
+   "titre": "Daniil Medvedev rejoint Alexander Zverev dans le dernier carré des Finales ATP de Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/we-havent-seen-injuries-changing-gaudenzi-recalls-his-painkiller-years-867431.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-20T21:05+00:00",
+   "image": null,
+   "vo": "“We haven’t seen injuries changing”: Gaudenzi recalls his painkiller years",
+   "titre": "« Nous n'avons pas vu les blessures évoluer » : Gaudenzi se souvient de ses années sous anti-douleurs",
+   "titre_fr": "« Nous n'avons pas vu les blessures évoluer » : Gaudenzi se souvient de ses années sous anti-douleurs",
+   "blessure": true
+  },
   {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/Jimmy-connors-annonce-souffrir-d-un-cancer-de-l-oreille/1744972#at_medium=RSS_feeds",
    "source": "L'Équipe",
@@ -118,6 +149,17 @@
    "date": "2026-11-20T17:16+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-presse-conf-1-1024x562.jpeg",
    "titre": "Carlos Alcaraz aux journalistes en conférence de presse : « Je ne vais pas révéler ici ce que j’ai. Je pense que vous êtes tous déjà là pour spéculer »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/atp-finals-debut-roland-garros-final-acapulco-everything-you-always-wanted-to-know-about-flavio-cobolli-867336.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-20T16:43+00:00",
+   "image": null,
+   "vo": "Age, height, ranking: Everything you always wanted to know about Flavio Cobolli (but never had time to find out)",
+   "titre": "Âge, taille, classement : tout ce que vous avez toujours voulu savoir sur Flavio Cobolli (mais que vous n'avez jamais eu le temps de découvrir)",
+   "titre_fr": "Âge, taille, classement : tout ce que vous avez toujours voulu savoir sur Flavio Cobolli (mais que vous n'avez jamais eu le temps de découvrir)",
    "blessure": false
   },
   {
@@ -574,6 +616,17 @@
    "date": "2026-11-19T22:53+00:00",
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/YfKYpGN4e5MKQY5XKGhAtC15wXE=/0x106:2048x1258/800x0/images/Arthur-Fils-tout-sourire-face-a-Alexandre-Zverev-lors-du-Masters-le-19-novembre-2026-a-Turin-Italie-2387282.jpg",
    "titre": "ATP Finals: cette somme XXL remportée par Arthur Fils malgré son élimination",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/masters-1000-atp-finals-top-10-everything-you-always-wanted-to-know-about-arthur-fils-but-never-had-time-to-find-out-867495.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-19T22:45+00:00",
+   "image": null,
+   "vo": "Masters 1000, ATP Finals, top 10: Everything you always wanted to know about Arthur Fils (but never had time to find out)",
+   "titre": "Masters 1000, ATP Finals, top 10 : tout ce que vous avez toujours voulu savoir sur Arthur Fils (mais que vous n'avez jamais eu le temps de découvrir)",
+   "titre_fr": "Masters 1000, ATP Finals, top 10 : tout ce que vous avez toujours voulu savoir sur Arthur Fils (mais que vous n'avez jamais eu le temps de découvrir)",
    "blessure": false
   },
   {
@@ -3753,55 +3806,6 @@
    "date": "2026-11-14T08:15+00:00",
    "image": null,
    "titre": "14 novembre 1994 : Le jour où Navratilova a disputé le dernier match de sa (première) carrière",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/avant-le-masters-zverev-de-nouveau-inquiete-dans-son-affaire-de-violences-conjugales",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T07:48+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Zverev-1385-1024x558.jpg",
-   "titre": "Avant le Masters, Zverev de nouveau inquiété dans son affaire de violences conjugales",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Fils-devant-zverev-et-shelton-djokovic-loin-derriere-quel-serait-le-classement-atp-sans-les-points-des-grands-chelems/1743412#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-14T00:02+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Fils avantagé, Djoko largué : quel serait le classement sans les Grands Chelems ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/it-is-no-secret-that-he-has-been-kind-of-conservative-musetti-on-sinner-absent-from-the-davis-cup-finals-866917.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-13T21:42+00:00",
-   "image": null,
-   "vo": "“It is no secret that he has been kind of conservative”: Musetti on Sinner, absent from the Davis Cup Finals",
-   "titre": "« Ce n'est un secret pour personne qu'il a été plutôt conservateur » : Musetti à propos de Sinner, absent des finales de la Coupe Davis",
-   "titre_fr": "« Ce n'est un secret pour personne qu'il a été plutôt conservateur » : Musetti à propos de Sinner, absent des finales de la Coupe Davis",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/carlos-makes-me-more-uncomfortable-than-jannik-fritz-on-what-separates-him-from-the-top-two-ahead-of-stockholm-final-866919.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-13T21:34+00:00",
-   "image": null,
-   "vo": "“Carlos makes me more uncomfortable than Jannik”: Fritz on what separates him from the top two ahead of Stockholm final",
-   "titre": "« Carlos me met plus mal à l'aise que Jannik » : Fritz explique ce qui le distingue des deux premiers avant la finale de Stockholm",
-   "titre_fr": "« Carlos me met plus mal à l'aise que Jannik » : Fritz explique ce qui le distingue des deux premiers avant la finale de Stockholm",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Alexander-zverev-serait-vise-par-une-nouvelle-plainte-de-son-ex-compagne-pour-fausses-declarations/1743510#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-13T21:16+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/alexander-zverev-vendredi-en-conference-de-presse-a-turin-f-faugere-l-equipe/1500000002649956/0:0,800:533-828-552-75/44b13.jpg",
-   "titre": "Alexander Zverev serait visé par une nouvelle plainte de son ex-compagne pour fausses déclarations",
    "blessure": false
   }
  ]
