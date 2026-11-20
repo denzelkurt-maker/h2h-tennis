@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-20T01:54+00:00",
+ "maj": "2026-11-20T03:33+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -20,7 +20,7 @@
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 19 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 26 articles",
+  "RMC Sport": "ok, 27 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -82,6 +82,15 @@
    "date": "2026-11-19T22:55+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-f-faugere-l-equipe/1500000002654543/0:0,2000:1333-828-552-75/0457d.jpg",
    "titre": "Arthur Fils après la fin de son parcours aux Finales ATP de Turin : « Je pars en vacances avec plein de bons souvenirs »",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/atp-finals-cette-somme-xxl-remportee-par-arthur-fils-malgre-son-elimination_AV-202611191085.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-19T22:53+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/YfKYpGN4e5MKQY5XKGhAtC15wXE=/0x106:2048x1258/800x0/images/Arthur-Fils-tout-sourire-face-a-Alexandre-Zverev-lors-du-Masters-le-19-novembre-2026-a-Turin-Italie-2387282.jpg",
+   "titre": "ATP Finals: cette somme XXL remportée par Arthur Fils malgré son élimination",
    "blessure": false
   },
   {
@@ -226,7 +235,7 @@
    "langue": "fr",
    "date": "2026-11-19T21:25+00:00",
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/FWHLWgBGv1lBtmGMHgiNF_cO0Fc=/54x180:1990x1269/800x0/images/Arthur-Fils-au-Masters-ATP-le-17-novembre-2026-2386958.jpg",
-   "titre": "DIRECT. ATP Finals: Alexander Zverev prive Arthur Fils des demi-finales",
+   "titre": "ATP Finals: Alexander Zverev prive Arthur Fils des demi-finales",
    "blessure": false
   },
   {
@@ -3779,15 +3788,6 @@
    "vo": "ATP Finals draw: Zverev gets US Open final rematch with Shelton, Alcaraz drawn with Medvedev",
    "titre": "Tirage au sort des ATP Finals : Zverev retrouve Shelton, son adversaire de la finale de l'US Open, et Alcaraz affronte Medvedev",
    "titre_fr": "Tirage au sort des ATP Finals : Zverev retrouve Shelton, son adversaire de la finale de l'US Open, et Alcaraz affronte Medvedev",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/dans-les-declarations-de-jannik-sinner-on-comprend-quil-est-pas-sur-a-100-de-revenir-pour-lopen-daustralie-et-quelque-chose-ne-me-semble-pas-tout-a-fait-coherent-alerte-jos",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-12T14:13+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/01/Sinner-1024x559.jpeg",
-   "titre": "« Dans les déclarations de Jannik Sinner, on comprend qu’il est pas sûr à 100 % de revenir pour l’Open d’Australie, et quelque chose ne me semble pas tout à fait cohérent », alerte José Moron",
    "blessure": false
   }
  ]
