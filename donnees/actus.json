@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-20T21:30+00:00",
+ "maj": "2026-11-20T23:33+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -23,20 +23,87 @@
   "RMC Sport": "ok, 27 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "erreur : no element found: line 1, column 0",
+  "ESPN": "ok, 12 articles",
   "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 18 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/skys-the-limit-tiafoe-sets-his-sights-on-2027-after-his-atp-finals-exit-867530.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-20T23:06+00:00",
+   "image": null,
+   "vo": "“Sky’s the limit”: Tiafoe sets his sights on 2027 after his ATP Finals exit",
+   "titre": "“Sky’s the limit”: Tiafoe sets his sights on 2027 after his ATP Finals exit",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50544020/daniil-medvedev-defeats-frances-tiafoe-faces-alexander-zverev-atp-finals-semis",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-20T22:58+00:00",
+   "image": null,
+   "vo": "'Still no Maldives': Holiday postponed, Medvedev to face Zverev at ATP Finals",
+   "titre": "'Still no Maldives': Holiday postponed, Medvedev to face Zverev at ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50543676/carlos-alcaraz-wins-set-atp-finals-semi-vs-ben-shelton",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-20T22:51+00:00",
+   "image": null,
+   "vo": "Alcaraz limits movement before ATP Finals semifinal vs. Shelton",
+   "titre": "Alcaraz limits movement before ATP Finals semifinal vs. Shelton",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/medvedev-domine-tiafoe-et-complete-le-dernier-carre-des-cracks-aux-atp-finals-810683.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-20T22:09+00:00",
+   "image": null,
+   "titre": "Medvedev domine Tiafoe et complète le dernier carré des cracks aux ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/daniil-medvedev-cruises-into-nitto-atp-finals-semi-finals-with-win-over-tiafoe/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-20T22:07+00:00",
+   "image": null,
+   "vo": "Daniil Medvedev Cruises Into Nitto ATP Finals Semi-Finals With Win Over Tiafoe",
+   "titre": "Daniil Medvedev Cruises Into Nitto ATP Finals Semi-Finals With Win Over Tiafoe",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/not-that-hungry-just-because-im-super-tired-medvedev-drained-but-still-fighting-in-turin-867513.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-20T22:04+00:00",
+   "image": null,
+   "vo": "“Not that hungry just because I’m super tired”: Medvedev, drained but still fighting in Turin",
+   "titre": "“Not that hungry just because I’m super tired”: Medvedev, drained but still fighting in Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/le-message-hilarant-de-daniil-medvedev-apres-sa-qualification-pour-les-demi-finales",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-20T21:51+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Medvedev-Masters-1024x551.jpeg",
+   "titre": "Le message hilarant de Daniil Medvedev après sa qualification pour les demi-finales",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/medvedev-beats-tiafoe-to-complete-a-by-the-book-atp-finals-last-four-867503.html",
    "source": "Tennis Majors (EN)",
    "langue": "en",
    "date": "2026-11-20T21:16+00:00",
    "image": null,
-   "vo": "Medvedev beats Tiafoe to complete a by-the-book ATP Finals last four",
-   "titre": "Medvedev bat Tiafoe et complète un carré final des ATP Finals conforme aux pronostics",
-   "titre_fr": "Medvedev bat Tiafoe et complète un carré final des ATP Finals conforme aux pronostics",
+   "vo": "Medvedev outclasses Tiafoe to complete a heavyweight ATP Finals last four",
+   "titre": "Medvedev outclasses Tiafoe to complete a heavyweight ATP Finals last four",
    "blessure": false
   },
   {
@@ -3741,71 +3808,6 @@
    "date": "2026-11-14T10:40+00:00",
    "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
    "titre": "Medvedev : «Safonov est inspirant»",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/zverev-avant-son-entree-en-lice-sur-le-masters-de-turin-pour-linstant-je-ne-pense-pas-a-alcaraz-nous-ne-devons-manquer-de-respect-a-personne",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T10:26+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alexander-Zverev-1024x555.jpeg",
-   "titre": "Zverev, avant son entrée en lice sur le Masters de Turin : « Pour l’instant, je ne pense pas à Alcaraz. Nous ne devons manquer de respect à personne",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Tournees-avec-rod-laver-paria-en-france-et-interdit-de-roland-garros-qui-est-pierre-barthes-le-premier-francais-au-masters-cinquante-cinq-ans-avant-arthur-fils/1743370#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-14T10:25+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Barthès, le premier maître français",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/marion-bartoli-designe-son-favori-pour-le-masters-de-turin-quand-il-joue-comme-ca-il-est-pratiquement-imbattable",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T09:56+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/10/Bartoli-1024x511.jpeg",
-   "titre": "Marion Bartoli désigne son favori pour le Masters de Turin : « Quand il joue comme ça, il est pratiquement imbattable »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-sur-son-etat-de-forme-ce-nest-jamais-facile-de-finir-une-saison-maintenant-jarrive-ici-je-sais-que-je-suis-a-ma-place",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T09:28+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-revers-1024x501.jpeg",
-   "titre": "Arthur Fils, sur son état de forme : « Ce n’est jamais facile de finir une saison. Maintenant, j’arrive ici, je sais que je suis à ma place »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-groups-schedule-format-how-to-watch-866945.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-14T08:35+00:00",
-   "image": null,
-   "vo": "ATP Finals 2026: groups, schedule, format and how to watch",
-   "titre": "ATP Finals 2026 : groupes, calendrier, format et comment regarder",
-   "titre_fr": "ATP Finals 2026 : groupes, calendrier, format et comment regarder",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-avant-ses-retrouvailles-avec-ferrero-jai-vraiment-hate-quil-soit-ici-et-surtout-de-lui-faire-un-gros-calin-ca-fait-longtemps-quon-ne-sest-pas",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T08:19+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/05/Ferrero-Alcaraz-1024x492.jpeg",
-   "titre": "Carlos Alcaraz, avant ses retrouvailles avec Ferrero : « J’ai vraiment hâte qu’il soit ici, et surtout, de lui faire un gros câlin. Ça fait longtemps qu’on ne s’est pas vus »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/wta-actualite/14-novembre-1994-le-jour-ou-navratilova-dispute-dernier-match-carriere-tennis-majors-305255.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-14T08:15+00:00",
-   "image": null,
-   "titre": "14 novembre 1994 : Le jour où Navratilova a disputé le dernier match de sa (première) carrière",
    "blessure": false
   }
  ]
