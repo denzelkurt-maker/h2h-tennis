@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-20T15:38+00:00",
+ "maj": "2026-11-20T17:44+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,16 +18,90 @@
   "L'Équipe": "ok, 46 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 19 articles",
+  "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 27 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 21 articles",
+  "ESPN": "ok, 11 articles",
+  "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 18 articles"
  },
  "articles": [
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/tennis-lucas-pouille-determine-a-revenir-sur-le-circuit-en-2027-apres-avoir-lache-rinderknech_AV-202611200765.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-20T17:17+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/2CDZgR_04ILL2VPFKlIH2F1sxTU=/577x141:1505x663/800x0/images/Lucas-Pouille-dans-les-tribunes-a-Roland-Garros-en-mai-2025-2105517.jpg",
+   "titre": "Tennis: Lucas Pouille déterminé à revenir sur le circuit en 2027 après avoir lâché Rinderknech",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-aux-journalistes-en-conference-de-presse-je-ne-vais-pas-reveler-ici-ce-que-jai-je-pense-que-vous-etes-tous-deja-la-pour-speculer",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-20T17:16+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-presse-conf-1-1024x562.jpeg",
+   "titre": "Carlos Alcaraz aux journalistes en conférence de presse : « Je ne vais pas révéler ici ce que j’ai. Je pense que vous êtes tous déjà là pour spéculer »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/andy-murray-sur-ses-poignees-de-main-avec-novak-djokovic-quand-il-le-battait-dans-la-defaite-et-meme-quand-lenjeu-etait-enorme-il-se-montrait-toujours-tres-courtois-et-tres-fair-play",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-20T16:42+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/07/Murray-Djokovic-wim-2013-1024x526.jpg",
+   "titre": "Andy Murray sur ses poignées de main avec Novak Djokovic quand il le battait : « Dans la défaite, et même quand l’enjeu était énorme, il se montrait toujours très courtois et très fair-play »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/A-32-ans-lucas-pouille-espere-revenir-a-la-competition-dans-le-courant-de-l-annee-2027/1744917#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-20T16:31+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/lucas-pouille-n-a-plus-joue-en-tournoi-officiel-de-fevrier-2025-p-lahalle-l-equipe/1500000002655124/0:0,2000:1333-828-552-75/d7fc6.jpg",
+   "titre": "A 32 ans, Lucas Pouille « espère revenir à la compétition dans le courant de l'année 2027 »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Service-retour-variations-les-axes-de-progression-d-arthur-fils-pour-2027/1744879#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-20T16:20+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Fils, les axes de progression pour 2027",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nothing-is-set-in-stone-gaudenzi-defends-two-week-masters-before-2030-review-867430.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-20T15:56+00:00",
+   "image": null,
+   "vo": "“Nothing is set in stone”: Gaudenzi defends two-week Masters before 2030 review",
+   "titre": "“Nothing is set in stone”: Gaudenzi defends two-week Masters before 2030 review",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/flavio-cobolli-apres-sa-defaite-contre-carlos-alcaraz-en-general-les-joueurs-partent-en-vacances-aux-maldives-ou-dans-un-endroit-chaud-mais-cette-annee-je-change-de-cap",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-20T15:46+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Cobolli-conf-presse-.jpeg",
+   "titre": "Flavio Cobolli, après sa défaite contre Carlos Alcaraz : « En général, les joueurs partent en vacances aux Maldives ou dans un endroit chaud. Mais cette année, je change de cap »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/i-discovered-i-am-more-fragile-than-i-thought-cobolli-ends-his-atp-finals-0-3-867452.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-20T15:45+00:00",
+   "image": null,
+   "vo": "“I discovered I am more fragile than I thought”: Cobolli ends his ATP Finals 0-3",
+   "titre": "“I discovered I am more fragile than I thought”: Cobolli ends his ATP Finals 0-3",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-keeps-his-diagnosis-to-himself-there-is-always-a-risk-867451.html",
    "source": "Tennis Majors (EN)",
@@ -102,15 +176,6 @@
    "date": "2026-11-20T14:28+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-poing-hargne-victoire-1024x573.jpeg",
    "titre": "Carlos Alcaraz, après avoir balayé Flavio Cobolli : « Je voulais voir comment j’allais me sentir sur le court. J’ai essayé de jouer de la manière la plus agressive possible et de bouger le moins possible »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Service-retour-variations-les-axes-de-progression-d-arthur-fils-pour-2027/1744879#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-20T14:27+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Fils, les axes de progression pour 2027",
    "blessure": false
   },
   {
@@ -245,6 +310,16 @@
    "vo": "Top 100 earners projected to make at least $1.1 million from 2028, ATP says",
    "titre": "Selon l’ATP, les 100 joueurs les mieux rémunérés devraient gagner au moins 1,1 million de dollars à partir de 2028.",
    "titre_fr": "Selon l’ATP, les 100 joueurs les mieux rémunérés devraient gagner au moins 1,1 million de dollars à partir de 2028.",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50539880/atp-tour-unveils-expanded-compensation-top-250-players",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-20T11:06+00:00",
+   "image": null,
+   "vo": "ATP Tour unveils expanded compensation plan to benefit top 250 players",
+   "titre": "ATP Tour unveils expanded compensation plan to benefit top 250 players",
    "blessure": false
   },
   {
@@ -3726,80 +3801,6 @@
    "date": "2026-11-13T18:05+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-face-aux-medias-vendredi-a-turin-franck-faugere-l-equipe/1500000002649870/0:0,800:533-828-552-75/6f0e7.jpg",
    "titre": "Arthur Fils, avant le début de ses premières Finales ATP : « Je sais que je suis à ma place »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/bjorn-borg-sur-son-plus-beau-titre-cette-victoire-a-ete-la-plus-gratifiante-de-toute-ma-carriere",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-13T17:50+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2021/03/Borg--1024x527.jpg",
-   "titre": "Bjorn Borg, sur son plus beau titre : « Cette victoire a été la plus gratifiante de toute ma carrière »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/arthur-fils-pense-deja-a-sa-reconversion-je-reve-de-faire-ce-metier",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-13T17:08+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-entree-Paris-1024x505.jpeg",
-   "titre": "Arthur Fils pense déjà à sa reconversion : « Je rêve de faire ce métier »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/cobolli-sur-la-place-de-numero-1-mondial-de-zverev-alcaraz-et-sinner-restent-les-meilleurs-a-mes-yeux-mais",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-13T16:37+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Cobolli-Zverev-regard-filet-RG-2026-1024x485.jpeg",
-   "titre": "Cobolli sur la place de numéro 1 mondial de Zverev : « Alcaraz et Sinner restent les meilleurs à mes yeux, mais… »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-le-solitaire-je-ne-vois-pas-souvent-mes-parents-je-me-sens-tres-bien-a-monte-carlo-jaime-rester-seul-chez-moi",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-13T16:17+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Jannik-Sinner-monte-carlo-1024x555.jpeg",
-   "titre": "Jannik Sinner, le solitaire : « Je ne vois pas souvent mes parents. Je me sens très bien à Monte-Carlo. J’aime rester seul chez moi »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/-le-nombre-de-places-accessibles-en-placement-libre-quasiment-inchange-face-aux-critiques-les-precisions-de-la-fft-sur-le-court-14-de-roland-garros-qui-sera-partiellement-payant/1743429#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-13T16:07+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/le-court-14-etait-plein-lors-du-3e-tour-de-roland-garros-2025-entre-nuno-borges-et-alexei-popyrin-a-reau-l-equipe/1500000002649704/0:0,2000:1333-828-552-75/49b00.jpg",
-   "titre": "« Le nombre de places accessibles en placement libre quasiment inchangé » : face aux critiques, les précisions de la FFT sur le court 14 de Roland-Garros qui sera partiellement payant",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/tirante-beats-tabilo-to-reach-first-atp-final-in-stockholm-the-day-he-opened-up-on-his-mental-health-866889.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-13T15:50+00:00",
-   "image": null,
-   "vo": "Tirante beats Tabilo to reach first ATP final in Stockholm, the day he opened up on his mental health",
-   "titre": "Tirante bat Tabilo et atteint sa première finale ATP à Stockholm, le jour où il s'est confié sur sa santé mentale",
-   "titre_fr": "Tirante bat Tabilo et atteint sa première finale ATP à Stockholm, le jour où il s'est confié sur sa santé mentale",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/jimmy-connors-sur-shelton-desormais-coache-par-ferrero-il-y-a-une-personne-qui-a-deja-fait-ses-preuves-dans-cette-relation-et-ce-nest-pas-shelton",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-13T15:36+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/11/Jimmy-Connors--1024x482.jpg",
-   "titre": "Jimmy Connors sur Shelton, désormais coaché par Ferrero : « Il y a une personne qui a déjà fait ses preuves dans cette relation, et ce n’est pas Shelton »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/nicolas-escude-sur-gael-monfils-nouveau-capitaine-de-coupe-davis-il-na-pas-toujours-ete-irreprochable",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-13T15:11+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Gael-Monfils-1024x555.jpeg",
-   "titre": "Nicolas Escudé sur Gaël Monfils, nouveau capitaine de Coupe Davis : « Il n’a pas toujours été irréprochable »",
    "blessure": false
   }
  ]
