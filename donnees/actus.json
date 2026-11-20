@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-20T05:42+00:00",
+ "maj": "2026-11-20T07:57+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 47 articles",
+  "L'Équipe": "ok, 48 articles",
   "Tennis Majors": "ok, 20 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 19 articles",
@@ -40,6 +40,44 @@
    "blessure": false
   },
   {
+   "lien": "https://www.welovetennis.fr/atp/zverev-de-retour-en-justice-lavocat-de-laccusation-sexplique-cest-a-ce-moment-la-que-nous-avons-du-prendre-la-decision-de-saisir-la-justice-ce-qui-netait-pas-notre-object",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-20T07:37+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/PHOTO-2026-11-17-12-29-04-1024x682.jpg",
+   "titre": "Zverev de retour en justice, l’avocat de l’accusation s’explique : « C’est à ce moment-là que nous avons dû prendre la décision de saisir la justice, ce qui n’était pas notre objectif initial »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/doha-and-dubais-future-a-2028-calendar-shake-up-clay-to-hard-whats-on-the-table-as-gaudenzi-speaks-in-turin-867399.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-20T07:32+00:00",
+   "image": null,
+   "vo": "Doha and Dubai’s future, a 2028 calendar shake-up, clay to hard: what’s on the table as Gaudenzi speaks in Turin",
+   "titre": "L’avenir de Doha et de Dubaï, un remaniement du calendrier 2028, de la terre battue au revêtement dur : ce qui est sur la table alors que Gaudenzi s’exprime à Turin",
+   "titre_fr": "L’avenir de Doha et de Dubaï, un remaniement du calendrier 2028, de la terre battue au revêtement dur : ce qui est sur la table alors que Gaudenzi s’exprime à Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/lheure-du-bilan-de-la-saison-pour-arthur-fils-si-javais-su-lorsque-jetais-42-que-jallais-finir-lannee-6e-ou-7e-jaurais-signe",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-20T07:15+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-4-1024x521.jpeg",
+   "titre": "L’heure du bilan de la saison pour Arthur Fils : « Si j’avais su lorsque j’étais 42 que j’allais finir l’année 6e ou 7e, j’aurais signé »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Face-a-alexander-zverev-la-marche-etait-trop-haute-pour-arthur-fils-aux-finales-atp-la-premiere-fois-que-je-joue-un-match-ou-apres-un-set-c-est-fini/1744789#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-20T07:10+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Fils, l'exploit a tourné court",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/fr/wta-actualite/20-novembre-1988-sabatini-sadjuge-son-premier-titre-majeur-au-masters-307110.html",
    "source": "Tennis Majors",
    "langue": "fr",
@@ -49,12 +87,12 @@
    "blessure": false
   },
   {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Face-a-alexander-zverev-la-marche-etait-trop-haute-pour-arthur-fils-aux-finales-atp-la-premiere-fois-que-je-joue-un-match-ou-apres-un-set-c-est-fini/1744789#at_medium=RSS_feeds",
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Lucas-pouille-n-est-plus-l-entraineur-d-arthur-rinderknech/1744795#at_medium=RSS_feeds",
    "source": "L'Équipe",
    "langue": "fr",
-   "date": "2026-11-19T23:32+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Fils, l'exploit a tourné court",
+   "date": "2026-11-20T06:38+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/lucas-pouille-et-arthur-rinderknech-au-rolex-paris-masters-debut-novembre-p-lahalle-l-equipe/1500000002654682/0:0,800:533-828-552-75/c6252.jpg",
+   "titre": "Lucas Pouille n'est plus l'entraîneur d'Arthur Rinderknech",
    "blessure": false
   },
   {
@@ -3748,46 +3786,6 @@
    "date": "2026-11-12T14:58+00:00",
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
    "titre": "Jannik Sinner",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/tennis-je-n-arrivais-meme-pas-a-bouger-sinner-a-vecu-des-moments-douloureux-et-perdu-beaucoup-de-poids-durant-sa-convalescence_AV-202611120638.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-12T14:57+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/8FKxyvq2qlNxtdluft4GEibMe50=/0x0:2048x1152/800x0/images/Jannik-Sinner-a-Wimbledon-le-29-juin-2026-2311959.jpg",
-   "titre": "Il n'arrivait \"même pas à bouger\" et a \"perdu beaucoup de poids: les révélations de Sinner sur sa difficile convalescence",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/la-proposition-de-nadal-fait-du-bruit-rafa-na-aucun-interet-a-vouloir-retirer-des-tournois-sur-dur-ca-augmenterait-le-risque-quil-perde-ses-records-sur-terre-battue",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-12T14:52+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/05/Nadal-hommage-public-RG-2025-1024x592.jpeg",
-   "titre": "La proposition de Nadal fait du bruit : « Rafa n’a aucun intérêt à vouloir retirer des tournois sur dur, ça augmenterait le risque qu’il perde ses records sur terre battue »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-faces-tough-nitto-atp-finals-draw-takes-on-jodar-in-opener/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-12T14:29+00:00",
-   "image": null,
-   "vo": "Alexander Zverev Faces Tough Nitto ATP Finals Draw, Takes On Jodar In Opener",
-   "titre": "Alexander Zverev affronte un tirage au sort difficile pour les Nitto ATP Finals et rencontre Jodar lors du premier match",
-   "titre_fr": "Alexander Zverev affronte un tirage au sort difficile pour les Nitto ATP Finals et rencontre Jodar lors du premier match",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-draw-zverev-gets-us-open-final-rematch-with-shelton-alcaraz-drawn-with-medvedev-866813.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-12T14:23+00:00",
-   "image": null,
-   "vo": "ATP Finals draw: Zverev gets US Open final rematch with Shelton, Alcaraz drawn with Medvedev",
-   "titre": "Tirage au sort des ATP Finals : Zverev retrouve Shelton, son adversaire de la finale de l'US Open, et Alcaraz affronte Medvedev",
-   "titre_fr": "Tirage au sort des ATP Finals : Zverev retrouve Shelton, son adversaire de la finale de l'US Open, et Alcaraz affronte Medvedev",
    "blessure": false
   }
  ]
