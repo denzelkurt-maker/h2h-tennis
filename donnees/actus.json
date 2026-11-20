@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-20T09:39+00:00",
+ "maj": "2026-11-20T11:37+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -23,11 +23,58 @@
   "RMC Sport": "ok, 27 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "ok, 11 articles",
+  "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 21 articles",
   "Ubitennis": "ok, 17 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/ce-qua-dit-alexander-zverev-a-arthur-fils-au-filet-apres-lavoir-battu",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-20T11:34+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Capture-decran-2026-11-20-a-12.13.16.png",
+   "titre": "Ce qu’a dit Alexander Zverev à Arthur Fils au filet après l’avoir battu",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/top-100-players-projected-to-earn-at-least-1-1-million-from-2028-atp-says-867413.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-20T11:18+00:00",
+   "image": null,
+   "vo": "Top 100 earners projected to make at least $1.1 million from 2028, ATP says",
+   "titre": "Selon l’ATP, les 100 joueurs les mieux rémunérés devraient gagner au moins 1,1 million de dollars à partir de 2028.",
+   "titre_fr": "Selon l’ATP, les 100 joueurs les mieux rémunérés devraient gagner au moins 1,1 million de dollars à partir de 2028.",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/L-atp-annonce-une-remuneration-globale-record-des-2028-avec-des-revenus-minimums-garantis-en-forte-hausse/1744835#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-20T10:58+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "L'ATP annonce une rémunération globale record dès 2028 avec des revenus minimums garantis en forte hausse",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/fritz-veut-plus-de-respect-envers-zverev-les-deux-grands-chelems-que-sascha-a-remportes-jannik-etait-dans-le-tableau-de-roland-garros-carlos-etait-a-lus-open-il-ne-peut-pas-contr",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-20T10:44+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-victoire-1024x500.jpeg",
+   "titre": "Fritz veut plus de respect envers Zverev : « Les deux Grands Chelems que Sascha a remportés : Jannik était dans le tableau de Roland-Garros. Carlos était à l’US Open. Il ne peut pas contrôler contre qui il joue »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/fils-veut-enfin-rejouer-la-coupe-davis-en-2027-et-fait-un-appel-du-pied-a-monfils-jespere-pouvoir-jouer-jespere-quil-me-selectionnera",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-20T10:17+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-presse-conf-1024x555.jpeg",
+   "titre": "Fils veut enfin rejouer la Coupe Davis en 2027 et fait un appel du pied à Monfils : « J’espère pouvoir jouer. J’espère qu’il me sélectionnera »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/shelton-lucide-sur-ses-axes-de-progression-tout-le-monde-sait-que-jai-un-grand-service-mais-si-mes-adversaires-nont-qua-renvoyer-quelques-balles-parce-quils-sa",
    "source": "We Love Tennis",
@@ -43,7 +90,7 @@
    "langue": "fr",
    "date": "2026-11-20T09:09+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-conf-presse-1024x555.jpeg",
-   "titre": "Alcaraz touché, ce journaliste Espagnol répond : « Je pense qu’il va jouer contre Cobolli avec le frein à main tiré »",
+   "titre": "Alcaraz touché, ce journaliste espagnol répond : « Je pense qu’il va jouer contre Cobolli avec le frein à main tiré »",
    "blessure": true
   },
   {
@@ -93,6 +140,17 @@
    "vo": "Doha and Dubai’s future, a 2028 calendar shake-up, clay to hard: what’s on the table as Gaudenzi speaks in Turin",
    "titre": "L’avenir de Doha et de Dubaï, un remaniement du calendrier 2028, de la terre battue au revêtement dur : ce qui est sur la table alors que Gaudenzi s’exprime à Turin",
    "titre_fr": "L’avenir de Doha et de Dubaï, un remaniement du calendrier 2028, de la terre battue au revêtement dur : ce qui est sur la table alors que Gaudenzi s’exprime à Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/doha-and-dubais-future-a-2028-calendar-shake-up-clay-to-hard-whats-on-the-table-as-gaudenzi-speaks-in-turin-867399.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-20T07:32+00:00",
+   "image": null,
+   "vo": "Doha and Dubai’s future, a 2028 calendar shake-up, clay to hard: what’s on the table as Gaudenzi speaks in Turin",
+   "titre": "L’avenir de Doha et de Dubaï, un remaniement du calendrier 2028, de la terre battue au dur : ce qui est sur la table alors que Gaudenzi s’exprime à Turin",
+   "titre_fr": "L’avenir de Doha et de Dubaï, un remaniement du calendrier 2028, de la terre battue au dur : ce qui est sur la table alors que Gaudenzi s’exprime à Turin",
    "blessure": false
   },
   {
@@ -3739,62 +3797,6 @@
    "titre": "Stockholm, jour 4 : Musetti s’impose face à Humbert et se qualifie pour la demi-finale contre Fritz, Tabilo affronte Tirante",
    "titre_fr": "Stockholm, jour 4 : Musetti s’impose face à Humbert et se qualifie pour la demi-finale contre Fritz, Tabilo affronte Tirante",
    "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Defaite-frustrante-pour-ugo-humbert-contre-lorenzo-musetti-en-quarts-de-finale-a-stockholm/1743295#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-12T22:25+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/ugo-humbert-avait-perdu-au-deuxieme-tour-du-masters-1000-parisien-la-semaine-derniere-p-lahalle-l-equipe/1500000002649181/143:139,1863:1286-828-552-75/1a9f0.jpg",
-   "titre": "Défaite frustrante pour Ugo Humbert contre Lorenzo Musetti en quarts de finale à Stockholm",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/un-algorithme-predit-le-vainqueur-du-tournoi-des-maitres",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-12T18:50+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Turin-Masters-court-2025-central-1024x571.jpeg",
-   "titre": "Un algorithme prédit le vainqueur du tournoi des Maîtres",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/-face-a-l-engouement-toujours-plus-grand-du-public-le-tirage-au-sort-reconduit-pour-obtenir-des-billets-pour-roland-garros-2027/1743243#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-12T18:34+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/le-public-du-court-suzanne-lenglen-lors-du-3e-tour-de-moise-kouame-p-lahalle-l-equipe/1500000002649016/6:38,1947:1332-828-552-75/6d4a8.jpg",
-   "titre": "« Face à l'engouement toujours plus grand du public », le tirage au sort reconduit pour obtenir des billets pour Roland-Garros 2027",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Holger-rune-declare-forfait-avant-son-quart-de-finale-de-l-atp-250-de-stockholm-contre-taylor-fritz/1743239#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-12T18:21+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/holger-rune-ici-au-rolex-paris-masters-p-lahalle-l-equipe/1500000002649007/0:0,1999:1333-828-552-75/a225f.jpg",
-   "titre": "Holger Rune déclare forfait avant son quart de finale de l'ATP 250 de Stockholm contre Taylor Fritz",
-   "blessure": true
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/la-revelation-de-casper-ruud-sur-lavenir-du-calendrier-atp-il-existe-un-projet-visant-a-racheter-certains-tournois-atp-afin-que-la-saison-puisse-se-terminer-quelques-semaines-plus-tot",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-12T18:20+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/04/Ruud-MC-2025-1024x560.jpeg",
-   "titre": "La révélation de Casper Ruud sur l’avenir du calendrier ATP : « Il existe un projet visant à racheter certains tournois ATP afin que la saison puisse se terminer quelques semaines plus tôt »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/rune-pulls-out-of-stockholm-quarter-final-against-fritz-with-hamstring-injury-866833.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-12T18:14+00:00",
-   "image": null,
-   "vo": "Rune pulls out of Stockholm quarter-final against Fritz with hamstring injury",
-   "titre": "Rune se retire du quart de finale de Stockholm contre Fritz en raison d’une blessure aux ischio-jambiers",
-   "titre_fr": "Rune se retire du quart de finale de Stockholm contre Fritz en raison d’une blessure aux ischio-jambiers",
-   "blessure": true
   }
  ]
 }
