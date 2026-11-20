@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-20T17:44+00:00",
+ "maj": "2026-11-20T19:42+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 46 articles",
+  "L'Équipe": "ok, 47 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 18 articles",
@@ -28,6 +28,80 @@
   "Ubitennis": "ok, 18 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Jimmy-connors-annonce-souffrir-d-un-cancer-de-l-oreille/1744972#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-20T19:16+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/jimmy-connors-ici-a-l-us-open-en-2006-j-m-pochat-l-equipe/1500000002655249/0:0,2000:1333-828-552-75/34420.jpg",
+   "titre": "Jimmy Connors annonce souffrir d'un cancer de l'oreille",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Service-retour-variations-les-axes-de-progression-d-arthur-fils-pour-2027/1744879#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-20T18:50+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Fils, les axes de progression pour 2027",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/meme-a-moitie-boiteux-carlos-alcaraz-est-capable-de-battre-un-joueur-du-top-10-de-cette-maniere-il-na-pas-donne-50-de-lui-meme-souligne-jose-moron-choque",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-20T18:44+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-1024x552.jpeg",
+   "titre": "« Même à moitié boiteux, Carlos Alcaraz est capable de battre un joueur du Top 10 de cette manière. Il n’a pas donné 50 % de lui-même », souligne José Moron, choqué",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/masters-1000/tennis-rien-n-est-grave-dans-le-marbre-le-patron-de-l-atp-n-est-pas-ferme-a-un-retour-des-masters-1000-sur-une-semaine_AV-202611200851.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-20T18:27+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ck0L4evao7ilkozKB3I-Vl6Isi8=/0x47:2032x1190/800x0/images/Andrea-Gaudenzi-le-president-de-l-ATP-le-20-novembre-2026-2387916.jpg",
+   "titre": "Tennis: \"Rien n'est gravé dans le marbre\", le patron de l'ATP n'est pas fermé à un retour des Masters 1000 sur une semaine",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alexander-zverev-sur-jannik-sinner-et-carlos-alcaraz-devinez-quoi-cest-egalement-leur-volonte",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-20T18:18+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-1-1024x544.jpeg",
+   "titre": "Alexander Zverev sur Jannik Sinner et Carlos Alcaraz : « Devinez quoi ? C’est également leur volonté »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/binaghi-says-italy-aims-for-a-grass-court-tournament-in-june-2028-867473.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-20T17:55+00:00",
+   "image": null,
+   "vo": "Binaghi says Italy aims for a grass-court tournament in June 2028",
+   "titre": "Binaghi déclare que l'Italie vise un tournoi sur gazon en juin 2028",
+   "titre_fr": "Binaghi déclare que l'Italie vise un tournoi sur gazon en juin 2028",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Pourquoi-albano-olivetti-et-theo-arribage-qualifies-en-demies-des-finales-atp-jouent-ils-chacun-avec-deux-raquettes/1744944#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-20T17:50+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/albano-olivetti-a-gauche-et-theo-arribage-jeudi-a-turin-f-faugere-l-equipe/1500000002655186/0:0,800:533-828-552-75/b6f2a.jpg",
+   "titre": "Pourquoi Albano Olivetti et Théo Arribagé, qualifiés en demies des Finales ATP, jouent-ils chacun avec deux raquettes ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-je-nai-pas-envie-que-ca-sorte-en-gros-titre",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-20T17:40+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-Arthur-presse-conf-1024x550.jpeg",
+   "titre": "Arthur Fils : « Je n’ai pas envie que ça sorte en gros titre ! »",
+   "blessure": false
+  },
   {
    "lien": "https://rmcsport.bfmtv.com/tennis/tennis-lucas-pouille-determine-a-revenir-sur-le-circuit-en-2027-apres-avoir-lache-rinderknech_AV-202611200765.html",
    "source": "RMC Sport",
@@ -65,23 +139,15 @@
    "blessure": false
   },
   {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Service-retour-variations-les-axes-de-progression-d-arthur-fils-pour-2027/1744879#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-20T16:20+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Fils, les axes de progression pour 2027",
-   "blessure": false
-  },
-  {
    "lien": "https://www.tennismajors.com/atp/nothing-is-set-in-stone-gaudenzi-defends-two-week-masters-before-2030-review-867430.html",
    "source": "Tennis Majors (EN)",
    "langue": "en",
    "date": "2026-11-20T15:56+00:00",
    "image": null,
    "vo": "“Nothing is set in stone”: Gaudenzi defends two-week Masters before 2030 review",
-   "titre": "“Nothing is set in stone”: Gaudenzi defends two-week Masters before 2030 review",
-   "blessure": false
+   "titre": "« Rien n'est gravé dans le marbre » : Gaudenzi défend les Masters de deux semaines avant la révision de 2030",
+   "blessure": false,
+   "titre_fr": "« Rien n'est gravé dans le marbre » : Gaudenzi défend les Masters de deux semaines avant la révision de 2030"
   },
   {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/flavio-cobolli-apres-sa-defaite-contre-carlos-alcaraz-en-general-les-joueurs-partent-en-vacances-aux-maldives-ou-dans-un-endroit-chaud-mais-cette-annee-je-change-de-cap",
@@ -99,8 +165,9 @@
    "date": "2026-11-20T15:45+00:00",
    "image": null,
    "vo": "“I discovered I am more fragile than I thought”: Cobolli ends his ATP Finals 0-3",
-   "titre": "“I discovered I am more fragile than I thought”: Cobolli ends his ATP Finals 0-3",
-   "blessure": false
+   "titre": "« J’ai découvert que j’étais plus fragile que je ne le pensais » : Cobolli termine ses ATP Finals sur un score de 0-3",
+   "blessure": false,
+   "titre_fr": "« J’ai découvert que j’étais plus fragile que je ne le pensais » : Cobolli termine ses ATP Finals sur un score de 0-3"
   },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-keeps-his-diagnosis-to-himself-there-is-always-a-risk-867451.html",
@@ -319,8 +386,9 @@
    "date": "2026-11-20T11:06+00:00",
    "image": null,
    "vo": "ATP Tour unveils expanded compensation plan to benefit top 250 players",
-   "titre": "ATP Tour unveils expanded compensation plan to benefit top 250 players",
-   "blessure": false
+   "titre": "L’ATP Tour dévoile un plan d’indemnisation élargi au profit des 250 meilleurs joueurs",
+   "blessure": false,
+   "titre_fr": "L’ATP Tour dévoile un plan d’indemnisation élargi au profit des 250 meilleurs joueurs"
   },
   {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/L-atp-annonce-une-remuneration-globale-record-des-2028-avec-des-revenus-minimums-garantis-en-forte-hausse/1744835#at_medium=RSS_feeds",
@@ -3734,73 +3802,6 @@
    "date": "2026-11-13T21:16+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/alexander-zverev-vendredi-en-conference-de-presse-a-turin-f-faugere-l-equipe/1500000002649956/0:0,800:533-828-552-75/44b13.jpg",
    "titre": "Alexander Zverev serait visé par une nouvelle plainte de son ex-compagne pour fausses déclarations",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/le-numero-un-mondial-de-nouveau-dans-la-tourmente-zverev-vise-par-une-nouvelle-action-en-justice-de-son-ex-compagne_AV-202611130873.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-13T21:15+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/VCDFsQNvS9xbzmTYUjShaLQHM-w=/0x0:2048x1152/800x0/images/Alexander-Zverev-lors-du-Rolex-Paris-Masters-en-novembre-2026-2383827.jpg",
-   "titre": "Le numéro un mondial de nouveau dans la tourmente: Zverev visé par une nouvelle action en justice de son ex-compagne",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.espn.com/tennis/story/_/id/50473425/atp-finals-alcaraz-zverev-shelton-tiafoe-jodar-medvedev",
-   "source": "ESPN",
-   "langue": "en",
-   "date": "2026-11-13T20:42+00:00",
-   "image": null,
-   "vo": "ATP Finals preview: Can Alcaraz close out the year with a big win?",
-   "titre": "Aperçu des ATP Finals : Alcaraz peut-il terminer l'année par une grande victoire ?",
-   "titre_fr": "Aperçu des ATP Finals : Alcaraz peut-il terminer l'année par une grande victoire ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/fritz-avenges-lyon-defeat-to-musetti-and-reaches-career-best-sixth-final-of-the-season-in-stockholm-866900.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-13T18:55+00:00",
-   "image": null,
-   "vo": "Fritz avenges Lyon defeat to Musetti and reaches career-best sixth final of the season in Stockholm",
-   "titre": "Fritz prend sa revanche sur Musetti après sa défaite à Lyon et atteint sa sixième finale de la saison à Stockholm, un record dans sa carrière",
-   "titre_fr": "Fritz prend sa revanche sur Musetti après sa défaite à Lyon et atteint sa sixième finale de la saison à Stockholm, un record dans sa carrière",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-sur-son-alerte-physique-ca-ma-derange-de-devoir-arreter-lentrainement-plus-tot-car-cetait-sur-le-court-central-et-il-y-avait-beaucoup-de-monde",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-13T18:38+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-6385-1024x569.jpg",
-   "titre": "Carlos Alcaraz, sur son alerte physique : « Ça m’a dérangé de devoir arrêter l’entraînement plus tôt, car c’était sur le court central et il y avait beaucoup de monde »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/actu/juan-carlos-ferrero-interroge-sur-les-rumeurs-au-sujet-de-jannik-sinner-jai-effectivement-eu-des-contacts-tres-importants-mais-je-ne-vais-pas-les-reveler",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-13T18:27+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/11/Ferrero-Masters-2023-1024x558.jpeg",
-   "titre": "Juan Carlos Ferrero, interrogé sur les rumeurs au sujet de Jannik Sinner : « J’ai effectivement eu des contacts très importants, mais je ne vais pas les révéler »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/juan-carlos-ferrero-interroge-sur-les-rumeurs-au-sujet-de-jannik-sinner-jai-effectivement-eu-des-contacts-tres-importants-mais-je-ne-vais-pas-les-reveler",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-13T18:27+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/11/Ferrero-Masters-2023-1024x558.jpeg",
-   "titre": "Juan Carlos Ferrero, interrogé sur les rumeurs au sujet de Jannik Sinner : « J’ai effectivement eu des contacts très importants, mais je ne vais pas les révéler »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-avant-le-debut-de-ses-premieres-finales-atp-je-sais-que-je-suis-a-ma-place/1743469#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-13T18:05+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-face-aux-medias-vendredi-a-turin-franck-faugere-l-equipe/1500000002649870/0:0,800:533-828-552-75/6f0e7.jpg",
-   "titre": "Arthur Fils, avant le début de ses premières Finales ATP : « Je sais que je suis à ma place »",
    "blessure": false
   }
  ]
