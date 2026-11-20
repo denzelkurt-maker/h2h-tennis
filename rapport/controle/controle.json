@@ -1,9 +1,9 @@
 {
- "date": "2026-11-20T06:13:01.376Z",
+ "date": "2026-11-20T19:52:20.367Z",
  "version_appli": "0.11.0",
  "passages": {
   "public": {
-   "duree_chargement_s": 3.57,
+   "duree_chargement_s": 3.734,
    "chiffres": {
     "version_appli": "0.11.0",
     "matchs": 357303,
@@ -75,7 +75,7 @@
    }
   },
   "complet": {
-   "duree_chargement_s": 3.588,
+   "duree_chargement_s": 3.557,
    "chiffres": {
     "version_appli": "0.11.0",
     "matchs": 357864,
