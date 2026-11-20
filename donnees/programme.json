@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-20T19:42+00:00",
+ "maj": "2026-11-20T19:52+00:00",
  "source": "ESPN (API publique)",
  "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
  "colonnes_tournois": [
@@ -41,7 +41,7 @@
    "Inalpi Arena",
    "339-2026",
    "Group Stage",
-   "pre",
+   "in",
    [
     "469710ae-79d9-770e-e3b7-d71e5148642c",
     "Daniil Medvedev",
@@ -2743,7 +2743,7 @@
  "challenger_maj": "2026-11-20T05:42+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-20T19:42+00:00",
+  "date": "2026-11-20T19:52+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",

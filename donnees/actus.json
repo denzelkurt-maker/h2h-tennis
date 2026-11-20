@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-20T19:42+00:00",
+ "maj": "2026-11-20T19:52+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -23,7 +23,7 @@
   "RMC Sport": "ok, 27 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "ok, 11 articles",
+  "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 18 articles"
  },
@@ -852,10 +852,10 @@
    "langue": "en",
    "date": "2026-11-19T17:09+00:00",
    "image": null,
-   "vo": "ATP Finals, first year on tour, top 10: Everything you always wanted to know about Rafael Jodar (but never had time to find out)",
-   "titre": "ATP Finals, première année sur le circuit, top 10 : tout ce que vous avez toujours voulu savoir sur Rafael Jodar (mais que vous n’avez jamais eu le temps de découvrir)",
-   "titre_fr": "ATP Finals, première année sur le circuit, top 10 : tout ce que vous avez toujours voulu savoir sur Rafael Jodar (mais que vous n’avez jamais eu le temps de découvrir)",
-   "blessure": false
+   "vo": "ATP Finals, first year on tour, top 10: Everything you always wanted to know about Rafael Jodar (but never had time to find out) – updated after the 2026 ATP Finals",
+   "titre": "ATP Finals, première année sur le circuit, top 10 : tout ce que vous avez toujours voulu savoir sur Rafael Jodar (mais que vous n’avez jamais eu le temps de découvrir) – mis à jour après les ATP Finals 2026",
+   "blessure": false,
+   "titre_fr": "ATP Finals, première année sur le circuit, top 10 : tout ce que vous avez toujours voulu savoir sur Rafael Jodar (mais que vous n’avez jamais eu le temps de découvrir) – mis à jour après les ATP Finals 2026"
   },
   {
    "lien": "https://www.lequipe.fr/Tennis/Article/Avec-son-coup-droit-considere-comme-l-un-des-cinq-meilleurs-au-monde-arthur-fils-vise-l-exploit-face-au-numero-1-mondial-alexander-zverev-aux-finales-atp/1744494#at_medium=RSS_feeds",
