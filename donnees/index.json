@@ -1,11 +1,11 @@
 {
  "actus.json": {
-  "octets": 227627,
-  "empreinte": "2143bf4ad665"
+  "octets": 227781,
+  "empreinte": "c3aa5d10b639"
  },
  "cito-2026.json": {
   "octets": 553678,
-  "empreinte": "0e59d94292dc"
+  "empreinte": "bc668473e824"
  },
  "classement.json": {
   "octets": 135069,
@@ -96,8 +96,8 @@
   "empreinte": "c8fe1d0b86be"
  },
  "programme.json": {
-  "octets": 33026,
-  "empreinte": "7bc545107504"
+  "octets": 33025,
+  "empreinte": "1e330c74e77a"
  },
  "simple-2011.json": {
   "octets": 492691,
