@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T21:20+00:00",
+ "maj": "2026-11-21T23:19+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -20,7 +20,7 @@
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 19 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 27 articles",
+  "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -28,6 +28,86 @@
   "Ubitennis": "ok, 19 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/deserved-to-lose-medvedev-bows-to-a-zverev-who-wont-be-broken-867636.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-21T22:35+00:00",
+   "image": null,
+   "vo": "“Deserved to lose”: Medvedev bows to a Zverev who won’t be broken",
+   "titre": "« J’ai mérité de perdre » : Medvedev s’incline face à un Zverev inébranlable",
+   "titre_fr": "« J’ai mérité de perdre » : Medvedev s’incline face à un Zverev inébranlable",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alexander-zverev-apres-avoir-rejoint-carlos-alcaraz-en-finale-on-a-fait-un-entrainement-avant-le-debut-du-tournoi-et-ca-a-dure-une-eternite",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T22:07+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-revers-1024x507.jpeg",
+   "titre": "Alexander Zverev, après avoir rejoint Carlos Alcaraz en finale : « On a fait un entraînement avant le début du tournoi, et ça a duré une éternité »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/he-just-became-more-consistent-medvedev-on-what-has-changed-in-zverev-867627.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-21T21:59+00:00",
+   "image": null,
+   "vo": "“He just became more consistent”: Medvedev on what has changed in Zverev",
+   "titre": "« Il est juste devenu plus régulier » : Medvedev sur ce qui a changé chez Zverev",
+   "titre_fr": "« Il est juste devenu plus régulier » : Medvedev sur ce qui a changé chez Zverev",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-sails-past-medvedev-to-set-alcaraz-showdown-at-nitto-atp-finals/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-21T21:50+00:00",
+   "image": null,
+   "vo": "Alexander Zverev Sails Past Medvedev To Set Alcaraz Showdown At Nitto ATP Finals",
+   "titre": "Alexander Zverev passe devant Medvedev et se qualifie pour l'affrontement contre Alcaraz aux Nitto ATP Finals",
+   "titre_fr": "Alexander Zverev passe devant Medvedev et se qualifie pour l'affrontement contre Alcaraz aux Nitto ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-un-scenario-de-malade-avant-une-revanche-en-finale-du-double-albano-olivetti-et-theo-arribage-portes-par-un-destin-a-turin/1745249#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-21T21:40+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Olivetti et Arribagé en finale du double au bout d'un «scénario de malade»",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/imbreakable-zverev-soffre-une-finale-contre-alcaraz-aux-atp-finals-810767.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-21T21:26+00:00",
+   "image": null,
+   "titre": "Imbreakable, Zverev s’offre une finale contre Alcaraz aux ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/unbroken-all-week-zverev-turns-the-tables-on-medvedev-to-reach-a-third-atp-finals-final-867615.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-21T21:18+00:00",
+   "image": null,
+   "vo": "Unbroken all week, Zverev turns the tables on Medvedev to reach a third ATP Finals final",
+   "titre": "Sans avoir concédé un seul break de toute la semaine, Zverev renverse la situation face à Medvedev et accède à sa troisième finale des ATP Finals",
+   "titre_fr": "Sans avoir concédé un seul break de toute la semaine, Zverev renverse la situation face à Medvedev et accède à sa troisième finale des ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Alexander-zverev-domine-daniil-medvedev-et-defiera-carlos-alcaraz-pour-le-titre-des-finales-atp/1745237#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-21T21:16+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/alexander-zverev-disputera-dimanche-sa-troisieme-finale-au-masters-il-a-remporte-les-deux-premieres-en-2018-et-en-2021-f-faugere-l-equipe/1500000002656213/0:0,2000:1333-828-552-75/9d3ff.jpg",
+   "titre": "Alexander Zverev domine Daniil Medvedev et défiera Carlos Alcaraz pour le titre des Finales ATP",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/la-finale-tant-attendue-entre-carlos-alcaraz-et-alexander-zverev-aura-bien-lieu",
    "source": "We Love Tennis",
@@ -1398,6 +1478,15 @@
    "blessure": false
   },
   {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Quels-scenarios-qualifient-arthur-fils-pour-les-demies-des-finales-atp/1744365#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-19T19:39+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Les scénarios qui envoient Fils en demi-finales",
+   "blessure": false
+  },
+  {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/Albano-olivetti-et-theo-arribage-s-offrent-la-premiere-paire-mondiale-et-se-qualifient-pour-les-demi-finales-des-finales-atp-de-turin/1744725#at_medium=RSS_feeds",
    "source": "L'Équipe",
    "langue": "fr",
@@ -2446,15 +2535,6 @@
    "date": "2026-11-17T22:01+00:00",
    "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
    "titre": "Le n°1 mondial de double interpelle le président de l'ATP : «C'est très décevant»",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Quels-scenarios-qualifient-arthur-fils-pour-les-demies-des-finales-atp/1744365#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T22:00+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-mardi-a-turin-lors-des-finales-atp-f-faugere-l-equipe/1500000002653071/0:0,1998:1332-828-552-75/386f0.jpg",
-   "titre": "Quels scénarios qualifient Arthur Fils pour les demies des Finales ATP ?",
    "blessure": false
   },
   {
@@ -3748,80 +3828,6 @@
    "date": "2026-11-15T15:19+00:00",
    "image": null,
    "titre": "Zverev comme en mission : le n°1 mondial lance ses ATP Finals par une victoire en deux sets face à Jodar",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/zverev-on-a-mission-as-he-opens-atp-finals-with-straight-sets-win-over-jodar-867040.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-15T15:03+00:00",
-   "image": null,
-   "vo": "Zverev on a mission as he opens ATP Finals with straight-sets win over Jodar",
-   "titre": "Zverev en mission : il entame les ATP Finals par une victoire en deux sets face à Jodar",
-   "titre_fr": "Zverev en mission : il entame les ATP Finals par une victoire en deux sets face à Jodar",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-pas-vraiment-impressionne-avant-ses-debuts-sur-le-masters-de-turin-je-suis-7e-mondial-et-je-sais-que-je-suis-a-ma-place",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T14:35+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Arthur-Fils-Masters-1024x556.jpeg",
-   "titre": "Arthur Fils pas vraiment impressionné avant ses débuts sur le Masters de Turin : « Je suis 7e mondial et je sais que je suis à ma place »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/forfait-pour-le-masters-jannik-sinner-est-pourtant-bien-present-a-turin-et-fait-passer-un-message-je-suis-desole",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T14:05+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Sinner-discours-interview-1024x529.jpg",
-   "titre": "Forfait pour le Masters, Jannik Sinner est pourtant bien présent à Turin et fait passer un message : « Je suis désolé… »",
-   "blessure": true
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/masters-a-quelle-heure-et-sur-quelle-chaine-tv-regarder-le-match-entre-arthur-fils-et-ben-shelton_AV-202611150264.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-15T13:55+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/nJKUoNQtB9LSMLirvziQsu-IGeY=/0x0:2048x1152/800x0/images/Arthur-Fils-lors-de-la-ceremonie-des-ATP-Finals-le-13-novembre-2026-2384080.jpg",
-   "titre": "Masters: à quelle heure et sur quelle chaîne TV regarder le match entre Arthur Fils et Ben Shelton",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/zverev-peut-raconter-ce-quil-veut-en-conference-de-presse-il-est-oblige-de-gagner-ce-masters-sinon-on-dira-toujours-ca-a-son-sujet-explique-benoit-maylin",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T13:45+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-Masters-1024x520.jpeg",
-   "titre": "« Zverev peut raconter ce qu’il veut en conférence de presse, il est obligé de gagner ce Masters. Sinon, on dira toujours ça à son sujet », explique Benoît Maylin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/bjorn-borg-sur-son-addiction-a-la-drogue-jai-failli-mourir-a-plusieurs-reprises",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T13:20+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Borg-719-1024x518.jpg",
-   "titre": "Bjorn Borg, sur son addiction à la drogue : « J’ai failli mourir à plusieurs reprises »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-previent-tout-le-monde-avant-le-debut-du-masters-de-turin-je-travaille-tres-bien-je-mentraine-dur-et-je-fais-tout-ce-que-je-peux-pour-etre-dans-les-meilleures-conditions-possible",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T12:35+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Masters-1024x513.jpeg",
-   "titre": "Carlos Alcaraz prévient tout le monde avant le début du Masters de Turin : « Je travaille très bien, je m’entraîne dur et je fais tout ce que je peux pour être dans les meilleures conditions possibles »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/holger-rune-interroge-sur-son-caractere-explosif-novak-djokovic-ma-dit-une-chose-un-jour",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T11:43+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2021/09/Djokovic-3-1024x436.jpg",
-   "titre": "Holger Rune, interrogé sur son caractère explosif : « Novak Djokovic m’a dit une chose un jour »",
    "blessure": false
   }
  ]
