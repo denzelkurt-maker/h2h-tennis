@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-20T23:33+00:00",
+ "maj": "2026-11-21T01:55+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -23,11 +23,29 @@
   "RMC Sport": "ok, 27 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "ok, 12 articles",
-  "Tennis Majors (EN)": "ok, 20 articles",
+  "ESPN": "erreur : no element found: line 1, column 0",
+  "Tennis Majors (EN)": "ok, 19 articles",
   "Ubitennis": "ok, 18 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/fr/wta-actualite/21-novembre-1999-davenport-met-fin-a-lere-hingis-307810.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-21T09:11+00:00",
+   "image": null,
+   "titre": "21 novembre 1999 : Davenport met fin à l’ère Hingis",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/L-atp-adopte-une-position-attentiste-sur-la-situation-geopolitique-au-moyen-orient-selon-son-president-andrea-gaudenzi/1745032#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-20T23:16+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "L'ATP adopte une position « attentiste » sur la situation géopolitique au Moyen-Orient selon son président Andrea Gaudenzi",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/skys-the-limit-tiafoe-sets-his-sights-on-2027-after-his-atp-finals-exit-867530.html",
    "source": "Tennis Majors (EN)",
@@ -35,8 +53,9 @@
    "date": "2026-11-20T23:06+00:00",
    "image": null,
    "vo": "“Sky’s the limit”: Tiafoe sets his sights on 2027 after his ATP Finals exit",
-   "titre": "“Sky’s the limit”: Tiafoe sets his sights on 2027 after his ATP Finals exit",
-   "blessure": false
+   "titre": "« Le ciel est la limite » : Tiafoe vise 2027 après son élimination des ATP Finals",
+   "blessure": false,
+   "titre_fr": "« Le ciel est la limite » : Tiafoe vise 2027 après son élimination des ATP Finals"
   },
   {
    "lien": "https://www.espn.com/tennis/story/_/id/50544020/daniil-medvedev-defeats-frances-tiafoe-faces-alexander-zverev-atp-finals-semis",
@@ -45,8 +64,9 @@
    "date": "2026-11-20T22:58+00:00",
    "image": null,
    "vo": "'Still no Maldives': Holiday postponed, Medvedev to face Zverev at ATP Finals",
-   "titre": "'Still no Maldives': Holiday postponed, Medvedev to face Zverev at ATP Finals",
-   "blessure": false
+   "titre": "« Toujours pas les Maldives » : les vacances sont reportées, Medvedev affrontera Zverev lors des ATP Finals",
+   "blessure": false,
+   "titre_fr": "« Toujours pas les Maldives » : les vacances sont reportées, Medvedev affrontera Zverev lors des ATP Finals"
   },
   {
    "lien": "https://www.espn.com/tennis/story/_/id/50543676/carlos-alcaraz-wins-set-atp-finals-semi-vs-ben-shelton",
@@ -55,8 +75,9 @@
    "date": "2026-11-20T22:51+00:00",
    "image": null,
    "vo": "Alcaraz limits movement before ATP Finals semifinal vs. Shelton",
-   "titre": "Alcaraz limits movement before ATP Finals semifinal vs. Shelton",
-   "blessure": false
+   "titre": "Alcaraz limite ses déplacements avant la demi-finale des ATP Finals contre Shelton",
+   "blessure": false,
+   "titre_fr": "Alcaraz limite ses déplacements avant la demi-finale des ATP Finals contre Shelton"
   },
   {
    "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/medvedev-domine-tiafoe-et-complete-le-dernier-carre-des-cracks-aux-atp-finals-810683.html",
@@ -74,8 +95,9 @@
    "date": "2026-11-20T22:07+00:00",
    "image": null,
    "vo": "Daniil Medvedev Cruises Into Nitto ATP Finals Semi-Finals With Win Over Tiafoe",
-   "titre": "Daniil Medvedev Cruises Into Nitto ATP Finals Semi-Finals With Win Over Tiafoe",
-   "blessure": false
+   "titre": "Daniil Medvedev se qualifie pour les demi-finales des Nitto ATP Finals en battant Tiafoe",
+   "blessure": false,
+   "titre_fr": "Daniil Medvedev se qualifie pour les demi-finales des Nitto ATP Finals en battant Tiafoe"
   },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/not-that-hungry-just-because-im-super-tired-medvedev-drained-but-still-fighting-in-turin-867513.html",
@@ -84,8 +106,9 @@
    "date": "2026-11-20T22:04+00:00",
    "image": null,
    "vo": "“Not that hungry just because I’m super tired”: Medvedev, drained but still fighting in Turin",
-   "titre": "“Not that hungry just because I’m super tired”: Medvedev, drained but still fighting in Turin",
-   "blessure": false
+   "titre": "« Pas très affamé, juste parce que je suis super fatigué » : Medvedev, épuisé mais toujours combatif à Turin",
+   "blessure": false,
+   "titre_fr": "« Pas très affamé, juste parce que je suis super fatigué » : Medvedev, épuisé mais toujours combatif à Turin"
   },
   {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/le-message-hilarant-de-daniil-medvedev-apres-sa-qualification-pour-les-demi-finales",
@@ -103,8 +126,9 @@
    "date": "2026-11-20T21:16+00:00",
    "image": null,
    "vo": "Medvedev outclasses Tiafoe to complete a heavyweight ATP Finals last four",
-   "titre": "Medvedev outclasses Tiafoe to complete a heavyweight ATP Finals last four",
-   "blessure": false
+   "titre": "Medvedev domine Tiafoe pour compléter un carré d'as de poids lourds aux ATP Finals",
+   "blessure": false,
+   "titre_fr": "Medvedev domine Tiafoe pour compléter un carré d'as de poids lourds aux ATP Finals"
   },
   {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/Daniil-medvedev-rejoint-alexander-zverev-dans-le-dernier-carre-des-finales-atp-de-turin/1745003#at_medium=RSS_feeds",
@@ -3791,24 +3815,6 @@
    "titre": "14 novembre 1994 : le jour où Martina Navratilova a pris sa retraite du circuit",
    "titre_fr": "14 novembre 1994 : le jour où Martina Navratilova a pris sa retraite du circuit",
    "blessure": true
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/medvedev-jai-vu-que-tout-le-monde-avait-deja-commence-a-publier-des-photos-de-vacances-je-vais-donc-tout-donner-et-ensuite-direction-les-maldives",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T10:54+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Medvedev-5433-1024x544.jpg",
-   "titre": "Medvedev : « J’ai vu que tout le monde avait déjà commencé à publier des photos de vacances. Je vais donc tout donner et ensuite, direction les Maldives »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Video/Finales-atp-pour-daniil-medvedev-le-parcours-de-matvey-safonov-le-gardien-de-but-du-psg-est-inspirant/20245533#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-14T10:40+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Medvedev : «Safonov est inspirant»",
-   "blessure": false
   }
  ]
 }
