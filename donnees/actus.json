@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T13:42+00:00",
+ "maj": "2026-11-21T15:27+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 46 articles",
+  "L'Équipe": "ok, 45 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 19 articles",
@@ -29,10 +29,55 @@
  },
  "articles": [
   {
+   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-sur-son-nouveau-poste-je-suis-conscient-de-la-responsabilite-je-vais-etre-la-pendant-de-nombreuses-annees",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T14:55+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/02/Nadal-1024x552.jpg",
+   "titre": "Rafael Nadal sur son nouveau poste : « Je suis conscient de la responsabilité. Je vais être là pendant de nombreuses années »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/que-ca-doit-etre-complique-pour-alcaraz-de-gerer-mentalement-ce-match-sachant-quil-y-a-des-mouvements-ou-des-gestes-quil-ne-peut-ou-ne-doit-pas-faire-souligne-jose-moron",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T14:27+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-6386-1024x557.jpg",
+   "titre": "« Que ça doit être compliqué pour Alcaraz de gérer mentalement ce match, sachant qu’il y a des mouvements ou des gestes qu’il ne peut ou ne doit pas faire », souligne José Moron",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-le-temps-soigne-les-plaies-juan-carlos-ferrero-nouvel-entraineur-de-ben-shelton-qui-affronte-carlos-alcaraz-l-ex-joueur-du-coach-espagnol-en-demies-des-finales-atp/1744975#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-21T14:23+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Ferrero : « Le temps soigne les plaies »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/andrea-gaudenzi-repond-aux-critiques-quand-je-suis-arrive-a-la-tete-de-latp-novak-djokovic-ma-fait-cette-demande",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T13:59+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/11/Djokovic-Gaudenzi-ATP-Finals-Masters-Turin-coupe-trophee-numero-1-2023-1024x526.jpeg",
+   "titre": "Andrea Gaudenzi répond aux critiques : « Quand je suis arrivé à la tête de l’ATP, Novak Djokovic m’a fait cette demande »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/4264664-20261121-espagne-rafael-nadal-integre-conseil-administration-real-madrid?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-21T13:55+00:00",
+   "image": "https://img.20mn.fr/9t29NxUHRvil2Lzx2fgS0yk/1200x768_credit-obligatoire-photo-de-lagencia-la-presse-shutterstock-13668661b-rafael-nadal-et-gabriel-escarrer-pdg-de-melia-hotels-presentent-leur-nouveau-projet-hotelier-au-restaurante-dos-cielos-a-madrid-en-espagne-le-15-decembre-2022-rafael-nadal-et-gabriel-escarrer-presentent-un-nouveau-projet-hotelier-madrid-espagne-15-decembre-2022-shutterstock-editorial-rafael-nadal-and-gabriel-escar-13668661b-2212151353",
+   "titre": "Espagne : Rafael Nadal intègre le conseil d’administration du Real Madrid",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/elimine-arthur-fils-repart-avec-un-titre-special-de-turin-je-tiens-a-remercier-mes-parents-car-je-suppose-que-cest-grace-a-eux",
    "source": "We Love Tennis",
    "langue": "fr",
-   "date": "2026-11-21T13:39+00:00",
+   "date": "2026-11-21T13:28+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-conf-presse--1024x536.jpeg",
    "titre": "Éliminé, Arthur Fils repart avec un titre spécial de Turin : « Je tiens à remercier mes parents, car je suppose que c’est grâce à eux »",
    "blessure": false
@@ -212,15 +257,6 @@
    "date": "2026-11-21T07:23+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-conf-presse-1024x555.jpeg",
    "titre": "Alcaraz, avant de retrouver Shelton en demi-finale : « C’est l’un des défis les plus difficiles auxquels nous sommes confrontés actuellement dans le tennis »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/-le-temps-soigne-les-plaies-juan-carlos-ferrero-nouvel-entraineur-de-ben-shelton-qui-affronte-carlos-alcaraz-l-ex-joueur-du-coach-espagnol-en-demies-des-finales-atp/1744975#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-21T07:20+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Ferrero : « Le temps soigne les plaies »",
    "blessure": false
   },
   {
@@ -1165,6 +1201,15 @@
    "date": "2026-11-19T17:42+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Daniil-Medvedev-conf-presse--1024x574.jpeg",
    "titre": "Daniil Medvedev : « J’ai soutenu n’importe quel joueur qui affrontait Roger Federer »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4264049-20261119-direct-fils-zverev-exploit-porte-arthuro-face-numero-1-mondial-suivez-match?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-19T17:32+00:00",
+   "image": "https://img.20mn.fr/TiSim3W8Q8aWfI3HKlQ_wik/1200x768_le-francais-arthur-fils-renvoie-la-balle-a-l-allemand-alexander-zverev-lors-de-leur-match-de-tennis-de-la-finale-de-l-atp-world-tour-a-turin-en-italie-le-jeudi-19-novembre-2026",
+   "titre": "Fils - Zverev : Arthur Fils éliminé du Masters après une belle bataille contre le n°1 mondial",
    "blessure": false
   },
   {
@@ -3769,51 +3814,6 @@
    "date": "2026-11-14T17:29+00:00",
    "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
    "titre": "Ces Français racontent la folie du Masters : «On était considérés comme des mégastars»",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4262879-20261114-finales-atp-2026-chaine-tv-voir-matches?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-14T16:43+00:00",
-   "image": "https://img.20mn.fr/zJt7En2ETMGKeHGUmgO1Qik/1200x768_tout-est-pret-a-turin-pour-les-atp-finals",
-   "titre": "Finales ATP 2026 : Sur quelle chaîne TV voir les matches ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-stockholm/taylor-fritz-titre-apres-le-traumatisme-alcaraz-je-me-serais-senti-comme-un-lache-si-je-netais-pas-venu",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T16:40+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fritz-1024x511.jpeg",
-   "titre": "Taylor Fritz titré après le traumatisme Alcaraz : « Je me serais senti comme un lâche si je n’étais pas venu »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/les-retrouvailles-tant-attendues-entre-alcaraz-et-ferrero",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T16:07+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Capture-decran-2026-11-14-a-16.53.10-1024x542.png",
-   "titre": "Les retrouvailles tant attendues entre Alcaraz et Ferrero",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/tennis-pourquoi-alcaraz-utilise-une-raquette-sans-cordage-a-l-entrainement_AV-202611140296.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-14T16:05+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Z34QqtwFITDap0M7RBNqB1ezpAs=/431x0:1887x819/800x0/images/Carlos-Alcaraz-s-entraine-avec-une-raquette-sans-cordage-au-Masters-de-Turin-novembre-2026-2384046.jpg",
-   "titre": "Tennis: pourquoi Alcaraz utilise une raquette sans cordage à l'entraînement",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/carlos-alcaraz_DN-202305240409.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-14T16:05+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/q0HhSAPh4WNCQyuuNy78EIUsorg=/0x159:2048x1311/800x0/images/Carlos-Alcaraz-a-Madrid-1628893.jpg",
-   "titre": "Carlos Alcaraz",
    "blessure": false
   }
  ]
