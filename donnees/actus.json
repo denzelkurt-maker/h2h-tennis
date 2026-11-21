@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T05:38+00:00",
+ "maj": "2026-11-21T07:53+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 47 articles",
+  "L'Équipe": "ok, 46 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 18 articles",
@@ -35,6 +35,15 @@
    "date": "2026-11-21T09:11+00:00",
    "image": null,
    "titre": "21 novembre 1999 : Davenport met fin à l’ère Hingis",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alcaraz-avant-de-retrouver-shelton-en-demi-finale-cest-lun-des-defis-les-plus-difficiles-auxquels-nous-sommes-confrontes-actuellement-dans-le-tennis",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T07:23+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-conf-presse-1024x555.jpeg",
+   "titre": "Alcaraz, avant de retrouver Shelton en demi-finale : « C’est l’un des défis les plus difficiles auxquels nous sommes confrontés actuellement dans le tennis »",
    "blessure": false
   },
   {
@@ -3803,15 +3812,6 @@
    "date": "2026-11-14T12:13+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fritz-1024x511.jpeg",
    "titre": "Entre Carlos Alcaraz et Jannik Sinner, Taylor Fritz est un peu perdu : « Je me sens à l’aise face à lui, mais il arrive quand même à me battre en jouant à ma façon »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/la-blague-tres-malaisante-de-zverev-en-conference-de-presse-tu-vas-mourir",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T11:40+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-conf-presse-1024x521.jpeg",
-   "titre": "La blague très malaisante de Zverev en conférence de presse : « Tu vas mourir ? »",
    "blessure": false
   }
  ]
