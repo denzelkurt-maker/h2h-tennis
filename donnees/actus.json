@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T03:31+00:00",
+ "maj": "2026-11-21T05:38+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -35,6 +35,15 @@
    "date": "2026-11-21T09:11+00:00",
    "image": null,
    "titre": "21 novembre 1999 : Davenport met fin à l’ère Hingis",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-le-temps-soigne-les-plaies-juan-carlos-ferrero-nouvel-entraineur-de-ben-shelton-qui-affronte-carlos-alcaraz-l-ex-joueur-du-coach-espagnol-en-demies-des-finales-atp/1744975#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-21T04:15+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/juan-carlos-ferrero-a-gauche-a-l-entrainement-a-turin-avec-ben-shelton-et-son-pere-bryan-f-faugere-l-equipe/1500000002655252/178:47,723:410-828-552-75/bbbc5.jpg",
+   "titre": "« Le temps soigne les plaies » : Juan Carlos Ferrero, nouvel entraîneur de Ben Shelton, qui affronte Carlos Alcaraz, l'ex joueur du coach espagnol, en demies des Finales ATP",
    "blessure": false
   },
   {
@@ -1957,6 +1966,15 @@
    "blessure": false
   },
   {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Numero-1-mondial-en-double-henry-patten-interpelle-le-president-de-l-atp-andrea-gaudenzi-absent-pour-la-remise-du-trophee-c-est-tres-decevant/1744246#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-17T22:01+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Le n°1 mondial de double interpelle le président de l'ATP : «C'est très décevant»",
+   "blessure": false
+  },
+  {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/Quels-scenarios-qualifient-arthur-fils-pour-les-demies-des-finales-atp/1744365#at_medium=RSS_feeds",
    "source": "L'Équipe",
    "langue": "fr",
@@ -2270,15 +2288,6 @@
    "date": "2026-11-17T14:14+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2023/11/Gaudenzi-ATP-1024x517.jpeg",
    "titre": "Andrea Gaudenzi sèchement recadré par le numéro 1 mondial en double : « C’est vraiment dommage que le président de l’ATP ne soit pas avec nous sur le court »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Numero-1-mondial-en-double-henry-patten-interpelle-le-president-de-l-atp-andrea-gaudenzi-absent-pour-la-remise-du-trophee-c-est-tres-decevant/1744246#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T14:11+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/henry-patten-a-gauche-et-harri-helioevaara-lundi-a-turin-m-rana-foto-ipp/1500000002652796/0:0,800:533-828-552-75/aad83.jpg",
-   "titre": "Numéro 1 mondial en double, Henry Patten interpelle le président de l'ATP Andrea Gaudenzi, absent pour la remise du trophée : « C'est très décevant »",
    "blessure": false
   },
   {
@@ -3804,17 +3813,6 @@
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-conf-presse-1024x521.jpeg",
    "titre": "La blague très malaisante de Zverev en conférence de presse : « Tu vas mourir ? »",
    "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/wta-tour-news/november-14-1994-the-day-martina-navratilova-retired-from-the-tour-305254.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-14T11:02+00:00",
-   "image": null,
-   "vo": "November 14, 1994: The day Martina Navratilova retired from the Tour",
-   "titre": "14 novembre 1994 : le jour où Martina Navratilova a pris sa retraite du circuit",
-   "titre_fr": "14 novembre 1994 : le jour où Martina Navratilova a pris sa retraite du circuit",
-   "blessure": true
   }
  ]
 }
