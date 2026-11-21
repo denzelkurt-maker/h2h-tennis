@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T17:25+00:00",
+ "maj": "2026-11-21T19:30+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -28,6 +28,80 @@
   "Ubitennis": "ok, 19 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters/nouvel-exploit-des-francais-theo-arribage-et-albano-olivetti-qualifies-pour-la-finale-du-masters-de-turin_8294081.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-21T19:18+00:00",
+   "image": "https://www.franceinfo.fr/pictures/dxZNteTeZ9gTlp5A_1jYpXa0VBQ/0x0:4096x2304/432x243/filters:format(jpg)/2026/11/21/6b01eacf5ec52945822229.jpg",
+   "titre": "Nouvel exploit des Français Théo Arribagé et Albano Olivetti qualifiés pour la finale du Masters de Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Albano-olivetti-et-theo-arribage-se-qualifient-pour-la-finale-du-masters-de-double-a-turin-apres-leur-victoire-au-super-tie-break/1745191#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-21T19:16+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/theo-arribage-et-albano-olivetti-affronteront-en-finale-la-paire-pavic-arevalo-f-faugere-l-equipe/1500000002656093/0:0,2000:1333-828-552-75/b650c.jpg",
+   "titre": "Albano Olivetti et Théo Arribagé se qualifient pour la finale du Masters de double à Turin après leur victoire au super tie-break",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-apres-sa-qualification-en-finale-si-je-navais-pas-ce-probleme-a-la-jambe-je-ne-me-serais-peut-etre-pas-rendu-compte-dune-chose",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T19:02+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-conf-presse-1024x555.jpeg",
+   "titre": "Carlos Alcaraz, après sa qualification en finale : « Si je n’avais pas ce problème à la jambe, je ne me serais peut-être pas rendu compte d’une chose »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Rafael-jodar-et-joao-fonseca-declarent-logiquement-forfait-pour-le-masters-next-gen-moise-kouame-en-sera/1745179#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-21T18:42+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Rafael Jodar et Joao Fonseca déclarent logiquement forfait pour le Masters Next Gen, Moïse Kouame en sera",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/open-metz-grand-est/pas-de-francais-mais-deux-anciens-top-100-en-finale",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T18:38+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2021/09/Kwon-USO-2020-1024x593.png",
+   "titre": "Pas de Français mais deux anciens Top 100 en finale !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/la-boulette-du-speaker-apres-la-victoire-dalcaraz-contre-shelton-le-respect-pour-zverev-est-mort",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T18:14+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Zverev-pres-RG-2026-1024x540.jpeg",
+   "titre": "La boulette du speaker après la victoire d’Alcaraz contre Shelton : « Le respect pour Zverev est mort »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/ben-shelton-shuts-down-2026-season-with-mixed-feelings/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-21T18:14+00:00",
+   "image": null,
+   "vo": "Ben Shelton Shuts Down 2026 Season With Mixed Feelings",
+   "titre": "Ben Shelton termine la saison 2026 avec des sentiments mitigés",
+   "titre_fr": "Ben Shelton termine la saison 2026 avec des sentiments mitigés",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/murray-sur-alcaraz-tombeur-de-shelton-en-demi-finales-lui-seul-sait-ce-quil-ressent-sur-le-court-et-pour-moi-cetait-assez-clair",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T17:45+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-enttree-1024x567.jpeg",
+   "titre": "Murray sur Alcaraz, tombeur de Shelton en demi-finales : « Lui seul sait ce qu’il ressent sur le court, et pour moi, c’était assez clair »",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/its-a-mixed-review-shelton-sees-plenty-to-improve-after-the-best-season-of-his-career-867573.html",
    "source": "Tennis Majors (EN)",
@@ -3750,78 +3824,6 @@
    "vo": "ATP Finals 2026: format explained, round robin, qualification and tie-break rules",
    "titre": "ATP Finals 2026 : explication du format, tournoi toutes rondes, qualifications et règles de tie-break",
    "titre_fr": "ATP Finals 2026 : explication du format, tournoi toutes rondes, qualifications et règles de tie-break",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/brad-gilbert-devoile-lobjectif-darthur-fils-pour-la-saison-prochaine-en-2027-il-doit-se-dire-je-ne-vais-pas-manquer-un-grand-chelem-je-suis-vieux-maintenant-et-je-peux-vous-le-dire-gag",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T10:40+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Brad-Gilbert-1024x555.jpeg",
-   "titre": "Brad Gilbert dévoile l’objectif d’Arthur Fils pour la saison prochaine : « en 2027, il doit se dire « je ne vais pas manquer un Grand Chelem ». Je suis vieux maintenant, et je peux vous le dire, gagner Washington ou Cinc",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/brad-gilbert-devoile-lobjectif-darthur-fils-pour-la-saison-prochaine-il-doit-se-dire-une-seule-chose-gagner-washington-ou-cincinnati-ca-ne-vaut-pas-lus-open",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T10:40+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Brad-Gilbert-1024x555.jpeg",
-   "titre": "Brad Gilbert dévoile l’objectif d’Arthur Fils pour la saison prochaine : « Il doit se dire une seule chose. Gagner Washington ou Cincinnati, ça ne vaut pas l’US Open »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-a-voulu-imite-djokvoic-et-parler-toutes-les-langues-je-comprends-litalien-mais-je-ne-sais-pas-le-parler-vous-savez-jai-essaye-de-lapprendre-avec-duolin",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T10:21+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Paris-2026-1024x512.jpeg",
-   "titre": "Carlos Alcaraz a voulu imité Djokvoic et parler toutes les langues : « Je comprends l’italien, mais je ne sais pas le parler. Vous savez, j’ai essayé de l’apprendre avec Duolingo il y a quelques mois »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-nest-pas-novak-djokovic-je-comprends-litalien-mais-je-ne-sais-pas-le-parler-jai-essaye-de-lapprendre-avec-duolingo-il-y-a-quelques-mois",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T10:21+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Paris-2026-1024x512.jpeg",
-   "titre": "Carlos Alcaraz n’est pas Novak Djokovic : « Je comprends l’italien, mais je ne sais pas le parler. J’ai essayé de l’apprendre avec Duolingo il y a quelques mois »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/arthur-fils-manque-de-puissance-selon-une-legende-italienne-qui-deraille-completement-il-nest-pas-dote-dun-bras-exceptionnel-mais-il-a-une-bonne-explosivite",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T09:50+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-coup-droit-1024x440.jpeg",
-   "titre": "Arthur Fils manque de puissance selon une légende Italienne qui déraille complétement : « Il n’est pas doté d’un bras exceptionnel, mais il a une bonne explosivité »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-manque-de-puissance-selon-une-legende-italienne-qui-deraille-completement-il-nest-pas-dote-dun-bras-exceptionnel",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T09:50+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-coup-droit-1024x440.jpeg",
-   "titre": "Arthur Fils manque de puissance selon une légende Italienne qui déraille complètement : « Il n’est pas doté d’un bras exceptionnel »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/sinner-plaisante-avec-la-legende-du-foot-italienne-paolo-maldini-je-crois-que-nous-avons-les-memes-genoux",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T09:18+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-1452-1024x550.jpg",
-   "titre": "Sinner plaisante avec la légénde du foot Italienne Paolo Maldini : « Je crois que nous avons les mêmes genoux »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-plaisante-avec-une-legende-du-foot-italien-je-crois-que-nous-avons-les-memes-genoux",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T09:18+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-1452-1024x550.jpg",
-   "titre": "Jannik Sinner plaisante avec une légende du foot italien : « Je crois que nous avons les mêmes genoux »",
    "blessure": false
   }
  ]
