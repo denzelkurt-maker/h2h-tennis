@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T07:53+00:00",
+ "maj": "2026-11-21T09:29+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -29,6 +29,15 @@
  },
  "articles": [
   {
+   "lien": "https://www.welovetennis.fr/atp/darren-cahill-sur-la-blessure-de-sinner-son-ancien-protege-ca-a-ete-frustrant-ca-ne-fait-aucun-doute-un-probleme-mineur-en-apparence-qui-traine-depuis-si-longtemps",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T09:23+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Darren-Cahill-1024x553.jpeg",
+   "titre": "Darren Cahill sur la blessure de Sinner, son ancien protégé : « Ça a été frustrant, ça ne fait aucun doute. Un problème mineur en apparence qui traîne depuis si longtemps »",
+   "blessure": true
+  },
+  {
    "lien": "https://www.tennismajors.com/fr/wta-actualite/21-novembre-1999-davenport-met-fin-a-lere-hingis-307810.html",
    "source": "Tennis Majors",
    "langue": "fr",
@@ -36,6 +45,42 @@
    "image": null,
    "titre": "21 novembre 1999 : Davenport met fin à l’ère Hingis",
    "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/de-la-terre-battue-aux-bureaux-du-real-madrid-rafael-nadal-change-de-terrain_8293520.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-21T08:59+00:00",
+   "image": "https://www.franceinfo.fr/pictures/BGZiGskNA6j_ZjMCe5cZnOwKack/0x0:2779x1563/432x243/filters:format(jpg)/2026/11/21/6b015c08a6321345725627.jpg",
+   "titre": "De la terre battue aux bureaux du Real Madrid : Rafael Nadal change de terrain",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/mouratoglou-designe-le-plus-grand-joueur-en-indoor-il-y-a-un-joueur-qui-est-incontestablement-le-meilleur-de-tous-les-temps-en-salle-et-qui-se-trouve-etre-egalement-le-meilleur-en-exterieur",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T08:53+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Mouratoglou-1024x620.jpeg",
+   "titre": "Mouratoglou désigne le plus grand joueur en indoor : « Il y a un joueur qui est incontestablement le meilleur de tous les temps en salle et qui se trouve être également le meilleur en extérieur »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/nadal-sur-la-separation-entre-alcaraz-et-ferrero-la-realite-cest-que-carlos-a-continue-a-tres-bien-sen-sortir-sans-juan-carlos-et-que-juan-carlos-continuera-surement-a-tres-bie",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T08:28+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/02/Nadal-1024x552.jpg",
+   "titre": "Nadal sur la séparation entre Alcaraz et Ferrero : « La réalité, c’est que Carlos a continué à très bien s’en sortir sans Juan Carlos, et que Juan Carlos continuera sûrement à très bien s’en sortir sans Carlos »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/mats-wilander-tres-inquiet-pour-sinner-revenir-apres-une-blessure-aussi-longue-et-retrouver-immediatement-sa-domination-cest-impossible-ca-pourrait-prendre-environ-un-an",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T07:52+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/09/Wilander-USO-2023-1024x604.jpeg",
+   "titre": "Mats Wilander très inquiet pour Sinner : « Revenir après une blessure aussi longue et retrouver immédiatement sa domination, c’est impossible. Ça pourrait prendre environ un an »",
+   "blessure": true
   },
   {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/alcaraz-avant-de-retrouver-shelton-en-demi-finale-cest-lun-des-defis-les-plus-difficiles-auxquels-nous-sommes-confrontes-actuellement-dans-le-tennis",
@@ -50,9 +95,9 @@
    "lien": "https://www.lequipe.fr/Tennis/Article/-le-temps-soigne-les-plaies-juan-carlos-ferrero-nouvel-entraineur-de-ben-shelton-qui-affronte-carlos-alcaraz-l-ex-joueur-du-coach-espagnol-en-demies-des-finales-atp/1744975#at_medium=RSS_feeds",
    "source": "L'Équipe",
    "langue": "fr",
-   "date": "2026-11-21T04:15+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/juan-carlos-ferrero-a-gauche-a-l-entrainement-a-turin-avec-ben-shelton-et-son-pere-bryan-f-faugere-l-equipe/1500000002655252/178:47,723:410-828-552-75/bbbc5.jpg",
-   "titre": "« Le temps soigne les plaies » : Juan Carlos Ferrero, nouvel entraîneur de Ben Shelton, qui affronte Carlos Alcaraz, l'ex joueur du coach espagnol, en demies des Finales ATP",
+   "date": "2026-11-21T07:20+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Ferrero : « Le temps soigne les plaies »",
    "blessure": false
   },
   {
@@ -3767,51 +3812,6 @@
    "vo": "Fritz finally wins his first indoor title in Stockholm, edging Tirante in a final-set tie-break",
    "titre": "Fritz remporte enfin son premier titre en salle à Stockholm, battant Tirante au jeu décisif du dernier set",
    "titre_fr": "Fritz remporte enfin son premier titre en salle à Stockholm, battant Tirante au jeu décisif du dernier set",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-designe-les-trois-matchs-les-plus-memorables-de-sa-carriere-et-il-y-a-de-quoi-etre-surpris",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T14:15+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/01/Nadal-trophee-AO-2022-australie-1024x580.jpeg",
-   "titre": "Rafael Nadal désigne les trois matchs les plus mémorables de sa carrière, et il y a de quoi être surpris…",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-designe-les-trois-matchs-les-plus-memorables-de-sa-carriere-avec-une-sacree-surprise",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T14:15+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/01/Nadal-trophee-AO-2022-australie-1024x580.jpeg",
-   "titre": "Rafael Nadal désigne les trois matchs les plus mémorables de sa carrière, avec une sacrée surprise",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-avant-ses-debuts-sur-le-masters-de-turin-je-ne-peux-pas-marcher-vous-voyez",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T13:14+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-2-1024x496.jpeg",
-   "titre": "Carlos Alcaraz avant ses débuts sur le Masters de Turin : « Je ne peux pas marcher, vous voyez ? »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/jannik-sinner-apercu-en-tres-bonne-compagnie-avant-le-masters-de-turin",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T12:43+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Sinner-323-1024x543.jpg",
-   "titre": "Jannik Sinner aperçu en très bonne compagnie avant le Masters de Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/entre-carlos-alcaraz-et-jannik-sinner-taylor-fritz-est-un-peu-perdu-je-me-sens-a-laise-face-a-lui-mais-il-arrive-quand-meme-a-me-battre-en-jouant-a-ma-facon",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T12:13+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fritz-1024x511.jpeg",
-   "titre": "Entre Carlos Alcaraz et Jannik Sinner, Taylor Fritz est un peu perdu : « Je me sens à l’aise face à lui, mais il arrive quand même à me battre en jouant à ma façon »",
    "blessure": false
   }
  ]
