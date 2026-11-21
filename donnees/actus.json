@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T11:27+00:00",
+ "maj": "2026-11-21T13:42+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 46 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 18 articles",
+  "We Love Tennis": "ok, 19 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 27 articles",
   "franceinfo": "ok, 18 articles",
@@ -28,6 +28,73 @@
   "Ubitennis": "ok, 18 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/elimine-arthur-fils-repart-avec-un-titre-special-de-turin-je-tiens-a-remercier-mes-parents-car-je-suppose-que-cest-grace-a-eux",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T13:39+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-conf-presse--1024x536.jpeg",
+   "titre": "Éliminé, Arthur Fils repart avec un titre spécial de Turin : « Je tiens à remercier mes parents, car je suppose que c’est grâce à eux »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/serve-is-important-try-to-get-your-chances-on-the-return-world-no-1-zverev-meets-his-bete-noire-medvedev-867539.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-21T13:26+00:00",
+   "image": null,
+   "vo": "“Serve is important…”: world No. 1 Zverev meets his bête noire, a weary but ambitious Medvedev",
+   "titre": "« Le service est important… » : le numéro 1 mondial Zverev rencontre son bête noire, un Medvedev fatigué mais ambitieux",
+   "titre_fr": "« Le service est important… » : le numéro 1 mondial Zverev rencontre son bête noire, un Medvedev fatigué mais ambitieux",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/paolo-cane-sur-jannik-sinner-absent-depuis-quatre-mois-je-pense-quil-a-peur-depuis-ce-qui-sest-passe-a-roland-garros",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T12:44+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-chaud-serviette-RG-2026-1024x521.jpeg",
+   "titre": "Paolo Cane sur Jannik Sinner, absent depuis quatre mois : « Je pense qu’il a peur depuis ce qui s’est passé à Roland-Garros »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-against-the-man-who-beat-him-in-new-york-and-ferrero-is-now-in-that-mans-box-867540.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-21T12:19+00:00",
+   "image": null,
+   "vo": "Alcaraz against the man who beat him in New York, and Ferrero is now in that man’s box",
+   "titre": "Alcaraz contre l’homme qui l’a battu à New York, et Ferrero est maintenant dans la loge de cet homme.",
+   "titre_fr": "Alcaraz contre l’homme qui l’a battu à New York, et Ferrero est maintenant dans la loge de cet homme.",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Devant-richard-gasquet-au-niveau-de-gilles-simon-et-de-gael-monfils-arthur-fils-sera-6e-mondial-lundi/1745085#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-21T12:09+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-s-est-arrete-en-poules-des-finales-atp-f-faugere-l-equipe/1500000002655792/21:12,1963:1307-828-552-75/cf64c.jpg",
+   "titre": "Devant Richard Gasquet, au niveau de Gilles Simon et de Gaël Monfils : Arthur Fils sera 6e mondial lundi",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/brad-gilbert-sur-alcaraz-tout-le-monde-ne-peut-pas-etre-comme-federer-et-se-contenter-de-jouer-avec-elegance-je-pense-que-le-style-de-carlos-est-physique-comme-celui-de-nadal",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T12:03+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-revers--1024x541.jpeg",
+   "titre": "Brad Gilbert sur Alcaraz : « Tout le monde ne peut pas être comme Federer et se contenter de jouer avec élégance. Je pense que le style de Carlos est physique, comme celui de Nadal »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/julien-benneteau-sur-arthur-fils-je-ne-pense-pas-quil-soit-encore-capable-daller-chercher-alcaraz-sinner-et-zverev-sur-une-saison-mais-il-doit-viser-une-demi-finale-de-grand-chelem",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T11:42+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Arthur-Fils-Turin-1024x555.jpeg",
+   "titre": "Julien Benneteau sur Arthur Fils : « Je ne pense pas qu’il soit encore capable d’aller chercher Alcaraz, Sinner et Zverev sur une saison, mais il doit viser une demi-finale de Grand Chelem »",
+   "blessure": false
+  },
   {
    "lien": "https://www.franceinfo.fr/sports/tennis/l-americain-jimmy-connors-ancien-numero-1-mondial-souffre-d-un-cancer-de-l-oreille_8293604.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
    "source": "franceinfo",
@@ -116,6 +183,17 @@
    "date": "2026-11-21T08:28+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/02/Nadal-1024x552.jpg",
    "titre": "Nadal sur la séparation entre Alcaraz et Ferrero : « La réalité, c’est que Carlos a continué à très bien s’en sortir sans Juan Carlos, et que Juan Carlos continuera sûrement à très bien s’en sortir sans Carlos »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/others-news/one-second-of-play-30-seconds-of-wait-its-impossible-mouratoglou-says-tennis-cannot-go-on-like-this-867408.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-21T07:53+00:00",
+   "image": null,
+   "vo": "“One second of play, 30 seconds of wait. It’s impossible”: Mouratoglou says tennis cannot go on like this",
+   "titre": "« Une seconde de jeu, 30 secondes d'attente. C'est impossible » : Mouratoglou affirme que le tennis ne peut pas continuer comme ça",
+   "titre_fr": "« Une seconde de jeu, 30 secondes d'attente. C'est impossible » : Mouratoglou affirme que le tennis ne peut pas continuer comme ça",
    "blessure": false
   },
   {
@@ -3736,78 +3814,6 @@
    "date": "2026-11-14T16:05+00:00",
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/q0HhSAPh4WNCQyuuNy78EIUsorg=/0x159:2048x1311/800x0/images/Carlos-Alcaraz-a-Madrid-1628893.jpg",
    "titre": "Carlos Alcaraz",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-et-juan-carlos-ferrero-nouvel-entraineur-de-ben-shelton-se-retrouvent-a-turin/1743649#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-14T16:01+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-et-juan-carlos-ferrero-sur-le-central-ce-samedi-a-turin-f-faugere-l-equipe/1500000002650649/0:0,800:533-828-552-75/345c5.jpg",
-   "titre": "Carlos Alcaraz et Juan Carlos Ferrero, nouvel entraîneur de Ben Shelton, se retrouvent à Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/bjorn-borg-quand-jarrivais-dans-un-hotel-il-y-avait-300-ou-400-personnes-dans-le-hall-quand-jallais-au-restaurant-il-y-avait-des-photographes-et-des-journalistes-quel-que-soit-le-pa",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T15:41+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/07/Borg-wimbledon-1024x542.jpeg",
-   "titre": "Bjorn Borg : « Quand j’arrivais dans un hôtel, il y avait 300 ou 400 personnes dans le hall. Quand j’allais au restaurant, il y avait des photographes et des journalistes. Quel que soit le pays où je me trouvais, je ne p",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/atp/avant-le-masters-a-turin-alexander-zverev-est-il-un-numero-un-mondial-au-rabais_8281652.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-14T15:27+00:00",
-   "image": "https://www.franceinfo.fr/pictures/nuDfkKaRyjrek2KFq8ivLhc-T-A/0x0:4287x2411/432x243/filters:format(jpg)/2026/11/13/6af76f21636bb372831007.jpg",
-   "titre": "Avant le Masters à Turin, Alexander Zverev est-il un numéro un mondial au rabais ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Video/Finales-atp-carlos-alcaraz-annonce-la-couleur-avant-son-entree-en-lice-aux-finales-atp-je-ferai-tout-ce-qu-il-faudra-pour-gagner-ce-titre/20245545#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-14T15:26+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Alcaraz : «Je ferai tout ce qu’il faudra pour gagner ce titre»",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/arthur-fils-devoile-sa-veritable-taille",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T15:16+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-balle-1024x544.jpeg",
-   "titre": "Arthur Fils dévoile sa véritable taille",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/gael-monfils_DN-201411280299.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-14T15:08+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/oxR5oj7xdmx5EmO0SX4YlcRyOBI=/3x251:4787x2942/800x0/images/-872263.jpg",
-   "titre": "Gaël Monfils",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Douzieme-titre-atp-pour-taylor-fritz-tombeur-de-thiago-tirante-a-stockholm/1743634#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-14T15:00+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/taylor-fritz-n-avait-pas-perdu-un-set-avant-d-affronter-thiago-tirante-a-reau-l-equipe/1500000002650616/0:0,2000:1333-828-552-75/73072.jpg",
-   "titre": "Douzième titre ATP pour Taylor Fritz, tombeur de Thiago Tirante à Stockholm",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Video/Finales-atp-alexandrer-zverev-avant-les-finales-atp-cette-annee-j-ai-realise-bon-nombre-de-mes-reves/20245542#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-14T14:48+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Zverev : «J’ai réalisé bon nombre de mes rêves»",
    "blessure": false
   }
  ]
