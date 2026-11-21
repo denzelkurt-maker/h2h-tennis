@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T19:30+00:00",
+ "maj": "2026-11-21T21:20+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -29,10 +29,59 @@
  },
  "articles": [
   {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/la-finale-tant-attendue-entre-carlos-alcaraz-et-alexander-zverev-aura-bien-lieu",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T21:14+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-2-1024x561.jpeg",
+   "titre": "La finale tant attendue entre Carlos Alcaraz et Alexander Zverev aura bien lieu !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/breaking-news-zverev-beats-medvedev-to-set-up-an-atp-finals-final-against-alcaraz-867610.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-21T21:13+00:00",
+   "image": null,
+   "vo": "BREAKING NEWS: Zverev beats Medvedev to set up an ATP Finals final against Alcaraz",
+   "titre": "FLASH INFO : Zverev bat Medvedev et se qualifie pour la finale des ATP Finals contre Alcaraz",
+   "titre_fr": "FLASH INFO : Zverev bat Medvedev et se qualifie pour la finale des ATP Finals contre Alcaraz",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters/carlos-alcaraz-lache-un-set-mais-se-qualifie-pour-la-finale-du-masters-de-turin-apres-un-gros-combat-face-a-ben-shelton_8293823.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-21T21:12+00:00",
+   "image": "https://www.franceinfo.fr/pictures/oYIy0QKYm2f5eDEba15e35D1hBU/0x312:6000x3687/432x243/filters:format(jpg)/2026/11/21/6b01b5974c187765635604.jpg",
+   "titre": "Alexander Zverev rejoint sans surprise Carlos Alcaraz en finale du Masters de Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Les-bleues-sont-dos-au-mur-face-aux-australiennes-en-bjk-cup-mais-il-va-encore-se-passer-plein-de-choses-promet-alize-cornet/1745226#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-21T21:01+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Les Bleues sont dos au mur",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/gaudenzi-on-court-speed-it-is-the-balance-between-entertainment-and-injuries-867556.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-21T20:42+00:00",
+   "image": null,
+   "vo": "Gaudenzi on court speed: “It is the balance between entertainment and injuries”",
+   "titre": "Gaudenzi sur la vitesse du court : « C'est l'équilibre entre le spectacle et les blessures »",
+   "titre_fr": "Gaudenzi sur la vitesse du court : « C'est l'équilibre entre le spectacle et les blessures »",
+   "blessure": true
+  },
+  {
    "lien": "https://www.franceinfo.fr/sports/tennis/masters/nouvel-exploit-des-francais-theo-arribage-et-albano-olivetti-qualifies-pour-la-finale-du-masters-de-turin_8294081.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
    "source": "franceinfo",
    "langue": "fr",
-   "date": "2026-11-21T19:18+00:00",
+   "date": "2026-11-21T19:38+00:00",
    "image": "https://www.franceinfo.fr/pictures/dxZNteTeZ9gTlp5A_1jYpXa0VBQ/0x0:4096x2304/432x243/filters:format(jpg)/2026/11/21/6b01eacf5ec52945822229.jpg",
    "titre": "Nouvel exploit des Français Théo Arribagé et Albano Olivetti qualifiés pour la finale du Masters de Turin",
    "blessure": false
@@ -42,7 +91,7 @@
    "source": "L'Équipe",
    "langue": "fr",
    "date": "2026-11-21T19:16+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/theo-arribage-et-albano-olivetti-affronteront-en-finale-la-paire-pavic-arevalo-f-faugere-l-equipe/1500000002656093/0:0,2000:1333-828-552-75/b650c.jpg",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/theo-arribage-et-albano-olivetti-affronteront-la-paire-arevalo-pavic-dimanche-en-finale-f-faugere-l-/1500000002656115/0:0,2000:1333-828-552-75/73c31.jpg",
    "titre": "Albano Olivetti et Théo Arribagé se qualifient pour la finale du Masters de double à Turin après leur victoire au super tie-break",
    "blessure": false
   },
@@ -200,15 +249,6 @@
    "date": "2026-11-21T15:47+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-poing-hargne-victoire-1024x573.jpeg",
    "titre": "Diminué ou pas, Carlos Alcaraz est en finale !",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters/carlos-alcaraz-lache-un-set-mais-se-qualifie-pour-la-finale-du-masters-de-turin-apres-un-gros-combat-face-a-ben-shelton_8293823.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-21T15:45+00:00",
-   "image": "https://www.franceinfo.fr/pictures/oYIy0QKYm2f5eDEba15e35D1hBU/0x312:6000x3687/432x243/filters:format(jpg)/2026/11/21/6b01b5974c187765635604.jpg",
-   "titre": "Carlos Alcaraz lâche un set mais se qualifie pour la finale du Masters de Turin, après un gros combat face à Ben Shelton",
    "blessure": false
   },
   {
@@ -3782,48 +3822,6 @@
    "date": "2026-11-15T11:43+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2021/09/Djokovic-3-1024x436.jpg",
    "titre": "Holger Rune, interrogé sur son caractère explosif : « Novak Djokovic m’a dit une chose un jour »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/november-15-1981-the-day-jimmy-connors-and-john-mcenroe-misbehaved-at-wembley-305470.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-15T11:20+00:00",
-   "image": null,
-   "vo": "November 15, 1981: The day Jimmy Connors and John McEnroe misbehaved at Wembley",
-   "titre": "15 novembre 1981 : le jour où Jimmy Connors et John McEnroe se sont mal comportés à Wembley",
-   "titre_fr": "15 novembre 1981 : le jour où Jimmy Connors et John McEnroe se sont mal comportés à Wembley",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-prize-money-866946.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-15T11:00+00:00",
-   "image": null,
-   "vo": "ATP Finals 2026 prize money: how much does an undefeated champion earn?",
-   "titre": "Prix en argent des ATP Finals 2026 : combien gagne un champion invaincu ?",
-   "titre_fr": "Prix en argent des ATP Finals 2026 : combien gagne un champion invaincu ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/video-masters-il-peut-finir-top-5-apres-ce-tournoi-fils-a-t-il-tout-a-gagner-a-turin_VN-202611150191.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-15T10:56+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/EfDymfMPDgAmgBjKF_UZLC9vqIM=/0x0:1280x720/800x0/images/Masters-Il-peut-finir-top-5-apres-ce-tournoi-Fils-a-t-il-tout-a-gagner-a-Turin-2384265.jpg",
-   "titre": "Masters : \"Il peut finir top 5 après ce tournoi\", Fils a-t-il tout à gagner à Turin ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-format-round-robin-qualification-tie-break-rules-866947.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-15T10:45+00:00",
-   "image": null,
-   "vo": "ATP Finals 2026: format explained, round robin, qualification and tie-break rules",
-   "titre": "ATP Finals 2026 : explication du format, tournoi toutes rondes, qualifications et règles de tie-break",
-   "titre_fr": "ATP Finals 2026 : explication du format, tournoi toutes rondes, qualifications et règles de tie-break",
    "blessure": false
   }
  ]
