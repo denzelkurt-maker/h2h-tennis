@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T09:29+00:00",
+ "maj": "2026-11-21T11:27+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -28,6 +28,51 @@
   "Ubitennis": "ok, 18 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/l-americain-jimmy-connors-ancien-numero-1-mondial-souffre-d-un-cancer-de-l-oreille_8293604.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-21T11:10+00:00",
+   "image": "https://www.franceinfo.fr/pictures/DzQUkkawEfyyaTX76oXhyV6t6HU/0x0:3543x1992/432x243/filters:format(jpg)/2026/11/21/6b017af450a3f118113580.jpg",
+   "titre": "L'Américain Jimmy Connors, ancien numéro 1 mondial de tennis, souffre d'un cancer de l'oreille",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/juan-carlos-ferrero-ex-coach-dalcaraz-et-nouvel-entraineur-de-shelton-cest-une-situation-etrange-pour-moi",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T11:05+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Ferrero-Alcaraz-1024x476.jpeg",
+   "titre": "Juan Carlos Ferrero, ex-coach d’Alcaraz et nouvel entraîneur de Shelton : « C’est une situation étrange pour moi »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/medvedev-avant-de-retrouver-zverev-en-demi-finale-aujourdhui-en-particulier-et-dans-ce-tournoi-je-ne-suis-pas-vraiment-motive-je-dois-dire-je-suis-epuise",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T10:54+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Daniil-Medvedev-conf-presse--1024x574.jpeg",
+   "titre": "Medvedev avant de retrouver Zverev en demi-finale : « Aujourd’hui en particulier, et dans ce tournoi, je ne suis pas vraiment motivé, je dois dire… Je suis épuisé ! »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/alex-corretja-prend-la-defense-de-zverev-cest-de-larrogance-que-de-dire-quil-ne-merite-pas-detre-numero-un-mondial-parce-quun-autre-sest-blesse-cest-comme-dire-quun-match-est-faci",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T10:22+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-revers-1024x507.jpeg",
+   "titre": "Alex Corretja prend la défense de Zverev : « C’est de l’arrogance que de dire qu’il ne mérite pas d’être numéro un mondial parce qu’un autre s’est blessé. C’est comme dire qu’un match est facile. Va le gagner toi-même »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/shelton-oppose-a-alcaraz-en-demi-finale-jadore-les-matchs-que-nous-disputons-car-cest-le-joueur-le-plus-spectaculaire-du-circuit-et-contre-lui-les-points-sont-vraiment-passion",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-21T09:54+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Shelton-2-1024x532.jpeg",
+   "titre": "Shelton, opposé à Alcaraz en demi-finale : « J’adore les matchs que nous disputons car c’est le joueur le plus spectaculaire du circuit et, contre lui, les points sont vraiment passionnants »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/darren-cahill-sur-la-blessure-de-sinner-son-ancien-protege-ca-a-ete-frustrant-ca-ne-fait-aucun-doute-un-probleme-mineur-en-apparence-qui-traine-depuis-si-longtemps",
    "source": "We Love Tennis",
@@ -3763,55 +3808,6 @@
    "date": "2026-11-14T14:48+00:00",
    "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
    "titre": "Zverev : «J’ai réalisé bon nombre de mes rêves»",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/patrick-mouratoglou-sur-alexander-zverev-sil-parvient-a-faire-cela-tout-le-monde-fermera-sa-bouche",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-14T14:45+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/03/Mouratoglou-1-1024x578.jpeg",
-   "titre": "Patrick Mouratoglou sur Alexander Zverev : « S’il parvient à faire cela, tout le monde fermera sa bouche »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/atp-finals-2026-groupes-programme-format-ou-regarder-810161.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-14T14:38+00:00",
-   "image": null,
-   "titre": "ATP Finals 2026 : groupes, programme, format et où regarder le tournoi",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/stockholm-open-atp-250-atp/fritz-decroche-enfin-son-premier-titre-indoor-a-stockholm-en-simposant-face-a-tirante-au-tie-break-du-set-decisif-810171.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-14T14:35+00:00",
-   "image": null,
-   "titre": "Fritz décroche enfin son premier titre indoor à Stockholm en s’imposant face à Tirante au tie-break du set décisif",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/carlos-alcaraz-seeks-nitto-atp-finals-title-in-turin-return/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-14T14:30+00:00",
-   "image": null,
-   "vo": "Carlos Alcaraz Seeks Nitto ATP Finals Title In Turin Return",
-   "titre": "Carlos Alcaraz vise le titre des Nitto ATP Finals lors de son retour à Turin",
-   "titre_fr": "Carlos Alcaraz vise le titre des Nitto ATP Finals lors de son retour à Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/fritz-finally-wins-his-first-indoor-title-in-stockholm-edging-tirante-in-a-final-set-tie-break-866958.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-14T14:29+00:00",
-   "image": null,
-   "vo": "Fritz finally wins his first indoor title in Stockholm, edging Tirante in a final-set tie-break",
-   "titre": "Fritz remporte enfin son premier titre en salle à Stockholm, battant Tirante au jeu décisif du dernier set",
-   "titre_fr": "Fritz remporte enfin son premier titre en salle à Stockholm, battant Tirante au jeu décisif du dernier set",
    "blessure": false
   }
  ]
