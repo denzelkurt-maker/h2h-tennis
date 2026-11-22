@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-22T15:28+00:00",
+ "maj": "2026-11-22T17:26+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,14 +15,14 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 42 articles",
+  "L'Équipe": "ok, 41 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 25 articles",
+  "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 17 articles",
-  "20 Minutes": "ok, 18 articles",
+  "20 Minutes": "ok, 17 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 19 articles"
@@ -35,6 +35,78 @@
    "date": "2026-11-22T17:20+00:00",
    "image": null,
    "titre": "22 novembre 2015 : le jour où Novak Djokovic a remporté un 4ème titre consécutif au Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Combien-vont-toucher-albano-olivetti-et-theo-arribage-apres-leur-titre-surprise-aux-finales-atp/1745422#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T17:11+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Combien vont toucher Albano Olivetti et Théo Arribagé après leur titre surprise aux Finales ATP ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/open-metz-grand-est/grande-premiere-pour-le-champion-auteur-dune-semaine-parfaite",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T17:10+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Capture-decran-2026-11-22-a-18.08.11.png",
+   "titre": "Grande première pour le champion, auteur d’une semaine parfaite",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/julien-varlet-carlos-alcaraz-est-encore-au-dessus-de-roger-federer-dans-ce-domaine",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T16:47+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-coup-droit-1-1024x544.jpeg",
+   "titre": "Julien Varlet : « Carlos Alcaraz est encore au-dessus de Roger Federer dans ce domaine »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-cette-blessure-m-aide-a-comprendre-que-je-n-ai-pas-besoin-de-courir-comme-un-fou-sur-toutes-les-balles-carlos-alcaraz-un-cameleon-qui-s-adapte-a-toutes-les-situations/1745241#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T16:10+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Alcaraz, un caméléon qui s'adapte à tout",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/les-francais-arribage-et-olivetti-sacres-on-setait-dit-avant-paris-quil-nous-fallait-un-gros-titre-cest-juste-incroyable",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T16:10+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Arribage-Olivetti-1024x555.jpeg",
+   "titre": "Les Français Arribagé et Olivetti sacrés : « On s’était dit avant Paris qu’il nous fallait un gros titre. C’est juste incroyable »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters/les-surprenants-francais-albano-olivetti-et-theo-arribage-s-offrent-un-premier-sacre-au-masters-de-turin-des-leur-premiere-participation_8294963.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-22T16:00+00:00",
+   "image": "https://www.franceinfo.fr/pictures/2ECLnEFH3L-a0Q9nFg9YKof_UuM/0x0:3680x2070/432x243/filters:format(jpg)/2026/11/22/6b03094b32e18324108688.jpg",
+   "titre": "Les surprenants français Albano Olivetti et Théo Arribagé s’offrent un premier sacre au Masters de Turin, dès leur première participation",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Premiere-participation-et-premier-sacre-pour-albano-olivetti-et-theo-arribage-aux-finales-atp-de-turin/1745398#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T15:47+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/albano-olivetti-a-g-et-theo-arribage-l-ont-emporte-ce-dimanche-f-faugere-l-equipe/1500000002656874/0:0,2000:1333-828-552-75/b066b.jpg",
+   "titre": "Première participation et premier sacre pour Albano Olivetti et Théo Arribagé aux Finales ATP de Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-face-a-un-enorme-dilemme-ces-jours-sont-cruciaux-pour-sa-decision-qui-pourrait-changer-sa-carriere",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T15:47+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Sinner-323-1024x543.jpg",
+   "titre": "Jannik Sinner face à un énorme dilemme : « Ces jours sont cruciaux pour sa décision qui pourrait changer sa carrière »",
    "blessure": false
   },
   {
@@ -53,15 +125,6 @@
    "date": "2026-11-22T14:55+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-Masters-1024x520.jpeg",
    "titre": "« Si Alexander Zverev bat Carlos Alcaraz et termine sa saison 2026 sur un troisième titre au Masters, il va fermer beaucoup de bouches »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/-cette-blessure-m-aide-a-comprendre-que-je-n-ai-pas-besoin-de-courir-comme-un-fou-sur-toutes-les-balles-carlos-alcaraz-un-cameleon-qui-s-adapte-a-toutes-les-situations/1745241#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-22T14:39+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Alcaraz, un caméléon qui s'adapte à tout",
    "blessure": false
   },
   {
@@ -133,6 +196,24 @@
    "vo": "Gaudenzi open to joint men’s and women’s Finals: “Tennis should be all combined”",
    "titre": "Gaudenzi ouvert à l'idée de finales mixtes hommes-femmes : « Le tennis devrait être entièrement mixte »",
    "titre_fr": "Gaudenzi ouvert à l'idée de finales mixtes hommes-femmes : « Le tennis devrait être entièrement mixte »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/sinner-et-alcaraz-sont-la-reference-la-derniere-chance-de-zverev-de-battre-les-meilleurs-dans-son-annee-de-numero-un-810799.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-22T13:03+00:00",
+   "image": null,
+   "titre": "« [Sinner et Alcaraz] sont la référence » : la dernière chance de Zverev de battre les meilleurs dans son année de numéro un",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/alcaraz-ou-lart-de-devenir-un-champion-capable-dexplorer-ses-ressources-dans-les-moindres-details-810791.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-22T12:51+00:00",
+   "image": null,
+   "titre": "Alcaraz, ou l’art de devenir un champion capable d’explorer ses ressources dans les moindres détails",
    "blessure": false
   },
   {
@@ -3743,91 +3824,6 @@
    "date": "2026-11-16T08:12+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Shelton-1-1024x518.jpeg",
    "titre": "Ben Shelton, vainqueur d’Arthur Fils sur le Masters de Turin : « Vous savez, on dit que Paris était l’un des courts les plus rapides de tous les temps. Je pense qu’avec la légère altitude ici, la balle vole un peu plus »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/ben-shelton-vainqueur-darthur-fils-sur-le-masters-de-turin-vous-savez-on-dit-que-paris-etait-lun-des-courts-les-plus-rapides-de-tous-les-temps-je-pense-quavec-la-lege",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-16T08:12+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Shelton-coup-droit-1024x499.jpeg",
-   "titre": "Ben Shelton, vainqueur d’Arthur Fils sur le Masters de Turin : « Vous savez, on dit que Paris était l’un des courts les plus rapides de tous les temps. Je pense qu’avec la légère altitude ici, la balle vole un peu plus »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/arthur-fils-apres-sa-defaite-face-a-ben-shelton-jai-perdu-contre-un-ami-il-y-a-pire-dans-la-vie-je-suis-deja-concentre-sur-mon-match-de-mardi",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-16T07:41+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-service-1-1024x599.jpeg",
-   "titre": "Arthur Fils après sa défaite face à Ben Shelton : « J’ai perdu contre un ami, il y a pire dans la vie. Je suis déjà concentré sur mon match de mardi »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-apres-sa-defaite-face-a-ben-shelton-sur-le-masters-de-turin-jai-perdu-contre-un-ami-il-y-a-pire-dans-la-vie",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-16T07:41+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-service-1-1024x599.jpeg",
-   "titre": "Arthur Fils, après sa défaite face à Ben Shelton sur le Masters de Turin : « J’ai perdu contre un ami, il y a pire dans la vie »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-sur-son-premier-adversaire-au-masters-de-turin-il-sait-tout-faire-sur-un-court-de-tennis",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-16T07:08+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-1024x552.jpeg",
-   "titre": "Carlos Alcaraz, sur son premier adversaire au Masters de Turin : « Il sait tout faire sur un court de tennis »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-apres-sa-defaite-contre-ben-shelton-aux-finales-atp-il-faut-rester-en-vie/1743941#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T23:52+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-salue-le-public-apres-sa-defaite-contre-ben-shelton-f-faugere-l-equipe/1500000002651684/0:0,800:533-828-552-75/e0a52.jpg",
-   "titre": "Arthur Fils, après sa défaite contre Ben Shelton aux Finales ATP : « Il faut rester en vie »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/shelton-resiste-au-retour-de-fils-et-rejoint-zverev-en-tete-du-groupe-john-mcenroe-810271.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-15T23:23+00:00",
-   "image": null,
-   "titre": "Shelton résiste au retour de Fils et rejoint Zverev en tête du groupe John McEnroe",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/ben-shelton-sees-off-fills-to-clinch-first-atp-finals-win-of-career/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-15T23:14+00:00",
-   "image": null,
-   "vo": "Ben Shelton Sees Off Fils To Clinch First ATP Finals Win of Career",
-   "titre": "Ben Shelton bat Fils et remporte sa première victoire en ATP Finals de sa carrière",
-   "titre_fr": "Ben Shelton bat Fils et remporte sa première victoire en ATP Finals de sa carrière",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Video/Finales-atp-le-resume-d-arthur-fils-ben-shelton-aux-finales-atp/20245663#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T22:51+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Le résumé de Fils - Shelton",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.espn.com/tennis/story/_/id/50490503/alexander-zverev-opens-atp-finals-win-rafael-jodar",
-   "source": "ESPN",
-   "langue": "en",
-   "date": "2026-11-15T22:46+00:00",
-   "image": null,
-   "vo": "Top-ranked Zverev opens ATP Finals with convincing win over Jodar",
-   "titre": "Zverev, classé numéro 1, ouvre les ATP Finals par une victoire convaincante sur Jodar",
-   "titre_fr": "Zverev, classé numéro 1, ouvre les ATP Finals par une victoire convaincante sur Jodar",
    "blessure": false
   }
  ]
