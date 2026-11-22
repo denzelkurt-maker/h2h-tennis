@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-22T05:38+00:00",
+ "maj": "2026-11-22T07:54+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -23,7 +23,7 @@
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "ok, 13 articles",
+  "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 19 articles",
   "Ubitennis": "ok, 19 articles"
  },
@@ -46,6 +46,33 @@
    "vo": "November 22, 2015: The day Novak Djokovic won a record fourth straight ATP World Tour Finals in London",
    "titre": "22 novembre 2015 : le jour où Novak Djokovic a remporté un quatrième ATP World Tour Finals consécutif à Londres, un record",
    "titre_fr": "22 novembre 2015 : le jour où Novak Djokovic a remporté un quatrième ATP World Tour Finals consécutif à Londres, un record",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/medvedev-defait-par-un-zverev-imperial-en-demi-finale-ce-quil-fait-mieux-dans-son-jeu-cest-cet-element-il-a-egalement-gagne-en-regularite-il-a-cesse-de-perdre-des-matchs-quil",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T07:22+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Medvedev-conf-presse-regard-1024x556.jpeg",
+   "titre": "Medvedev défait par un Zverev impérial en demi-finale : « Ce qu’il fait mieux dans son jeu c’est cet élément. Il a également gagné en régularité. Il a cessé de perdre des matchs qu’il n’aurait pas dû perdre »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4264726-20261122-zverev-alcaraz-chaine-tv-heure-voir-finale-masters-atp-finals?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-22T06:02+00:00",
+   "image": "https://img.20mn.fr/v06udG8gRzSI17gS0hcJjSk/1200x768_carlos-alcaraz-affronte-alexander-zverev-dimanche-en-finale-des-masters-photo-d-illustration",
+   "titre": "Zverev-Alcaraz : Sur quelle chaîne TV et à quelle heure voir la finale des Masters ATP Finals ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Apres-quatre-matches-sans-avoir-perdu-le-moindre-set-alexander-zverev-s-attend-a-batailler-en-finale-face-a-carlos-alcaraz/1745270#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T06:00+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/pour-la-quatrieme-fois-cette-semaine-alexander-zverev-s-est-impose-ce-samedi-face-a-daniil-medvedev-en-demi-finales-en-deux-sets-gagnants-et-sans-avoir-perdu-le-moindre-jeu-de-service-marco-alpozzi-lapresse-icon-sport/1500000002656285/0:0,919:613-828-552-75/ad905.jpg",
+   "titre": "Après quatre matches sans avoir perdu le moindre set, Alexander Zverev s'attend à batailler en finale face à Carlos Alcaraz",
    "blessure": false
   },
   {
@@ -3801,33 +3828,6 @@
    "date": "2026-11-15T16:17+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Medvedev-Masters-1024x551.jpeg",
    "titre": "Daniil Medvedev dévoile son grand objectif avant la fin de sa carrière : « J’ai tout connu dans ce sport mais j’aimerais faire beaucoup mieux dans cette compétition »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Video/Finales-atp-les-temps-forts-d-alexander-zverev-rafael-jodar-aux-finales-atp/20245625#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T16:12+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Les temps forts de Zverev - Jodar",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/-il-n-a-pas-ete-reconnu-coupable-mais-il-n-a-pas-non-plus-ete-declare-innocent-pourquoi-alexander-zverev-ferait-l-objet-d-une-nouvelle-plainte-de-son-ex-compagne/1743593#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T15:53+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Pourquoi Zverev ferait l'objet d'une nouvelle plainte de son ex-compagne",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/andy-murray-designe-le-vainqueur-du-masters-de-turin-je-miserais-sur-lui-je-pense-quil-aborde-ce-tournoi-un-peu-plus-frais-que-les-autres",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T15:36+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/04/Murray-regard--1024x512.jpeg",
-   "titre": "Andy Murray désigne le vainqueur du Masters de Turin : « Je miserais sur lui. Je pense qu’il aborde ce tournoi un peu plus frais que les autres »",
    "blessure": false
   }
  ]
