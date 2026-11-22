@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-22T07:54+00:00",
+ "maj": "2026-11-22T09:29+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -49,6 +49,51 @@
    "blessure": false
   },
   {
+   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-il-est-vrai-que-zverev-a-realise-une-excellente-saison-cette-annee-mais-il-nen-reste-pas-moins-que-alcaraz-et-sinner-ont-tous-deux-ete-blesses-pendant-une-partie-de-la-saiso",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T09:24+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/02/Nadal-1024x552.jpg",
+   "titre": "Rafael Nadal : « Il est vrai que Zverev a réalisé une excellente saison cette année, mais il n’en reste pas moins que Alcaraz et Sinner ont tous deux été blessés pendant une partie de la saison »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-meme-quand-je-joue-ici-en-italie-contre-sinner-jai-limpression-que-tout-le-stade-nest-pas-contre-moi",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T08:52+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-enttree-1024x567.jpeg",
+   "titre": "Carlos Alcaraz : « Même quand je joue ici en Italie contre Sinner, j’ai l’impression que tout le stade n’est pas contre moi »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-cette-blessure-m-aide-a-comprendre-que-je-n-ai-pas-besoin-de-courir-comme-un-fou-sur-toutes-les-balles-carlos-alcaraz-un-cameleon-qui-s-adapte-a-toutes-les-situations/1745241#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T08:29+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Alcaraz, un caméléon qui s'adapte à tout",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/open-metz-grand-est/le-tennis-en-vedette-a-metz",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T08:27+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/metz-1024x528.png",
+   "titre": "Le tennis en vedette à Metz !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/bryan-shelton-sur-son-fils-ben-au-debut-il-ne-sinteressait-pas-au-tennis-il-voyait-sa-soeur-partir-en-tournoi-et-les-finales-ont-souvent-lieu-le-lundi-honnetement-je-pense-quil-etai",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T07:53+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Shelton-2-1024x532.jpeg",
+   "titre": "Bryan Shelton sur son fils Ben : « Au début, il ne s’intéressait pas au tennis. Il voyait sa sœur partir en tournoi et les finales ont souvent lieu le lundi. Honnêtement, je pense qu’il était simplement jaloux qu’elle pu",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/medvedev-defait-par-un-zverev-imperial-en-demi-finale-ce-quil-fait-mieux-dans-son-jeu-cest-cet-element-il-a-egalement-gagne-en-regularite-il-a-cesse-de-perdre-des-matchs-quil",
    "source": "We Love Tennis",
    "langue": "fr",
@@ -85,15 +130,6 @@
    "titre": "Zverev bat Medvedev et affronte Alcaraz pour le trophée des ATP Finals",
    "titre_fr": "Zverev bat Medvedev et affronte Alcaraz pour le trophée des ATP Finals",
    "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/-cette-blessure-m-aide-a-comprendre-que-je-n-ai-pas-besoin-de-courir-comme-un-fou-sur-toutes-les-balles-carlos-alcaraz-un-cameleon-qui-s-adapte-a-toutes-les-situations/1745241#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-22T04:30+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/malgre-une-blessure-a-la-cuisse-gauche-carlos-alcaraz-a-reussi-a-decrocher-sa-qualification-pour-la-finale-f-faugere-l-equipe/1500000002656220/0:0,2000:1333-828-552-75/06049.jpg",
-   "titre": "« Cette blessure m'aide à comprendre que je n'ai pas besoin de courir comme un fou sur toutes les balles » : Carlos Alcaraz, un caméléon qui s'adapte à toutes les situations",
-   "blessure": true
   },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/deserved-to-lose-medvedev-bows-to-a-zverev-who-wont-be-broken-867636.html",
@@ -3792,42 +3828,6 @@
    "date": "2026-11-15T17:42+00:00",
    "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
    "titre": "Où voir le match Shelton - Fils ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/alexander-zverev-apres-sa-victoire-dentree-contre-la-revelation-de-lannee-je-ne-dirais-pas-que-cetait-parfait",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T17:24+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Zverev-revers-1024x481.jpeg",
-   "titre": "Alexander Zverev, après sa victoire d’entrée contre la révélation de l’année : « Je ne dirais pas que c’était parfait »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/toni-nadal-previent-alcaraz-sinner-et-zverev-il-faudra-surveiller-ce-joueur-il-est-capable-de-mettre-carlos-jannik-et-sascha-en-difficulte",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T16:46+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/05/Toni-Nadal-1024x555.jpeg",
-   "titre": "Toni Nadal prévient Alcaraz, Sinner et Zverev : « Il faudra surveiller ce joueur. Il est capable de mettre Carlos, Jannik et Sascha en difficulté »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/masters-zverev-soigne-son-entree-en-lice-face-a-rafael-jodar_AV-202611150318.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-15T16:43+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/DhpStS5Y8pMZli3qc1KO5NoSISg=/0x27:2048x1179/800x0/images/Alexander-Zverev-lors-du-Masters-de-Turin-le-15-novembre-2026-2384341.jpg",
-   "titre": "Masters: Zverev soigne son entrée en lice face à Rafael Jodar",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/daniil-medvedev-devoile-son-grand-objectif-avant-la-fin-de-sa-carriere-jai-tout-connu-dans-ce-sport-mais-jaimerais-faire-beaucoup-mieux-dans-cette-competition",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T16:17+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Medvedev-Masters-1024x551.jpeg",
-   "titre": "Daniil Medvedev dévoile son grand objectif avant la fin de sa carrière : « J’ai tout connu dans ce sport mais j’aimerais faire beaucoup mieux dans cette compétition »",
    "blessure": false
   }
  ]
