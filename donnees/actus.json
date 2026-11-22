@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-22T09:29+00:00",
+ "maj": "2026-11-22T11:27+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -20,7 +20,7 @@
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 19 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 26 articles",
+  "RMC Sport": "ok, 27 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -46,6 +46,42 @@
    "vo": "November 22, 2015: The day Novak Djokovic won a record fourth straight ATP World Tour Finals in London",
    "titre": "22 novembre 2015 : le jour où Novak Djokovic a remporté un quatrième ATP World Tour Finals consécutif à Londres, un record",
    "titre_fr": "22 novembre 2015 : le jour où Novak Djokovic a remporté un quatrième ATP World Tour Finals consécutif à Londres, un record",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/ben-shelton-carlos-alcaraz-ma-tue-avec-ce-coup-quand-un-mec-aussi-doue-qui-fait-autant-de-choses-tres-bien-dans-le-jeu-sert-de-cette-facon-ca-te-rajoute-une-pression-enorme",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T11:15+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Shelton-1024x515.jpeg",
+   "titre": "Ben Shelton : « Carlos Alcaraz m’a tué avec ce coup. Quand un mec aussi doué, qui fait autant de choses très bien dans le jeu, sert de cette façon, ça te rajoute une pression énorme »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/zverev-avant-daffronter-alcaraz-en-finale-je-me-sens-tres-bien-au-service-mais-je-vais-affronter-le-meilleur-relanceur-du-monde",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T10:53+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-victoire-1024x500.jpeg",
+   "titre": "Zverev, avant d’affronter Alcaraz en finale : « Je me sens très bien au service, mais je vais affronter le meilleur relanceur du monde »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/selon-certaines-rumeurs-en-italie-sinner-envisagerait-de-se-faire-operer-et-ne-reviendrait-pas-avant-peut-etre-le-mois-davril-declare-jose-moron",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T10:28+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Sinner-victoire-wim-1024x536.jpeg",
+   "titre": "« Selon certaines rumeurs en Italie, Sinner envisagerait de se faire opérer et ne reviendrait pas avant, peut-être, le mois d’avril », déclare José Moron",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/le-verdict-de-shelton-sur-son-annee-2026-le-bilan-de-ma-saison-est-mitige",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T09:53+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Shelton-1024x555.jpeg",
+   "titre": "Le verdict de Shelton sur son année 2026 : « Le bilan de ma saison est mitigé »",
    "blessure": false
   },
   {
@@ -3788,46 +3824,6 @@
    "vo": "“He’s a robot, not a human being”: Zverev on Sinner and his record against the top 10",
    "titre": "« C'est un robot, pas un être humain » : Zverev à propos de Sinner et de son bilan contre le top 10",
    "titre_fr": "« C'est un robot, pas un être humain » : Zverev à propos de Sinner et de son bilan contre le top 10",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-history-records-most-titles-866948.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-15T18:28+00:00",
-   "image": null,
-   "vo": "ATP Finals history and records: who has won the most titles?",
-   "titre": "Historique et records des ATP Finals : qui a remporté le plus de titres ?",
-   "titre_fr": "Historique et records des ATP Finals : qui a remporté le plus de titres ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-shrugs-off-poor-record-against-top-10-players-after-atp-finals-win/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-15T18:26+00:00",
-   "image": null,
-   "vo": "Alexander Zverev Shrugs Off Poor Record Against Top-10 Players After ATP Finals Win",
-   "titre": "Alexander Zverev fait fi de ses mauvais résultats face aux joueurs du Top 10 après sa victoire aux ATP Finals",
-   "titre_fr": "Alexander Zverev fait fi de ses mauvais résultats face aux joueurs du Top 10 après sa victoire aux ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-met-en-garde-la-nouvelle-generation-sur-les-reseaux-sociaux-je-recommande-de-sen-tenir-a-lecart-cest-plus-agreable-de-retrouver-quelquun-autour-dun-cafe",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T17:44+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Jannik-Sinner-1024x555.jpeg",
-   "titre": "Jannik Sinner met en garde la nouvelle génération sur les réseaux sociaux : « Je recommande de s’en tenir à l’écart : c’est plus agréable de retrouver quelqu’un autour d’un café »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-le-match-entre-ben-shelton-et-arthur-fils-a-l-atp-finals/1743399#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T17:42+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Où voir le match Shelton - Fils ?",
    "blessure": false
   }
  ]
