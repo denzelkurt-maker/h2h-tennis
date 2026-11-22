@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-22T11:27+00:00",
+ "maj": "2026-11-22T13:41+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,12 +15,12 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 44 articles",
+  "L'Équipe": "ok, 43 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 19 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 27 articles",
+  "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -46,6 +46,51 @@
    "vo": "November 22, 2015: The day Novak Djokovic won a record fourth straight ATP World Tour Finals in London",
    "titre": "22 novembre 2015 : le jour où Novak Djokovic a remporté un quatrième ATP World Tour Finals consécutif à Londres, un record",
    "titre_fr": "22 novembre 2015 : le jour où Novak Djokovic a remporté un quatrième ATP World Tour Finals consécutif à Londres, un record",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alexander-zverev-avant-de-retrouver-carlos-alcaraz-ma-defaite-contre-lui-en-australie-na-pas-change-ma-saison-mais-ma-prouve-une-chose",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T13:32+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/01/Alcaraz-Zverev-1024x513.jpeg",
+   "titre": "Alexander Zverev, avant de retrouver Carlos Alcaraz : « Ma défaite contre lui en Australie n’a pas changé ma saison mais m’a prouvé une chose »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/brad-gilbert-pessimiste-pour-jannik-sinner-je-ne-le-vois-pas-capable-de-faire-la-meme-chose-que-novak-djokovic-cetait-un-miracle",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T13:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-29-at-17.02.19-1024x548.jpeg",
+   "titre": "Brad Gilbert pessimiste pour Jannik Sinner : « Je ne le vois pas capable de faire la même chose que Novak Djokovic. C’était un miracle »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/marion-bartoli-sur-alexander-zverev-cest-un-debat-qui-mexaspere",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T12:40+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/10/Bartoli-1024x511.jpeg",
+   "titre": "Marion Bartoli sur Alexander Zverev : « C’est un débat qui m’exaspère »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/ivan-ljubicic-sur-carlos-alcaraz-ces-dernieres-annees-il-donnait-parfois-limpression-de-ne-pas-etre-totalement-convaincu-de-ses-capacites-en-indoor-ni-de-savoir-vraiment-comment-jouer",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T12:05+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Ljubicic-1024x534.jpeg",
+   "titre": "Ivan Ljubicic sur Carlos Alcaraz : « Ces dernières années, il donnait parfois l’impression de ne pas être totalement convaincu de ses capacités en indoor, ni de savoir vraiment comment jouer »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/jim-courier-si-alexander-zverev-bat-alcaraz-dans-une-grande-finale-comme-celle-ci-alors-il-lui-sera-plus-facile-de-dire-si-carlos-avait-ete-en-finale-a-la-place-de-ben-shelton-a-lus-open-j",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T11:44+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-entree-veste-1024x521.jpeg",
+   "titre": "Jim Courier : « Si Alexander Zverev bat Alcaraz dans une grande finale comme celle-ci, alors il lui sera plus facile de dire : ‘Si Carlos avait été en finale à la place de Ben Shelton à l’US Open, je l’aurais battu lui a",
    "blessure": false
   },
   {
@@ -3775,55 +3820,6 @@
    "date": "2026-11-15T20:21+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-conf-presse-1024x521.jpeg",
    "titre": "Zverev, sur son piètre bilan face au Top 10 : « Six de ces défaites étaient contre Sinner. Alors, on peut l’enlever du compte ? Car c’est un robot, pas un être humain »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Albano-olivetti-et-theo-arribage-s-inclinent-d-entree-en-double-aux-finales-atp/1743877#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T20:16+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/albano-olivetti-et-theo-arribage-sont-associes-en-double-depuis-une-petite-annee-a-reau-l-equipe/1500000002651472/13:141,1546:1163-828-552-75/97f10.jpg",
-   "titre": "Albano Olivetti et Théo Arribagé s'inclinent d'entrée en double aux Finales ATP",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/video-tennis-finales-atp-fils-peut-creer-la-surprise-bartoli-voit-le-francais-en-demi-finale_VN-202611150386.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-15T19:38+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/ocSlTpYLvxmtHAa-oPZt-hIh4Pc=/0x0:1280x720/800x0/images/Tennis-Finales-ATP-Fils-peut-creer-la-surprise-Bartoli-voit-le-Francais-en-demi-finale-2384403.jpg",
-   "titre": "Tennis/ Finales ATP : \"Fils peut créer la surprise\", Bartoli voit le Français en demi-finale !",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/9-francais-avant-arthur-fils-et-des-fortunes-diverses-les-bleus-aux-finales-atp-en-stats/1743778#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T18:50+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "9 Français avant Fils et des fortunes diverses : les Bleus aux Finales ATP en stats",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/once-again-asked-if-he-is-the-best-in-the-world-zverev-claims-the-best-12-months-867065.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-15T18:44+00:00",
-   "image": null,
-   "vo": "Once again asked if he is the best in the world, Zverev claims “the best 12 months”",
-   "titre": "Interrogé une fois de plus pour savoir s'il est le meilleur joueur du monde, Zverev affirme avoir connu « les 12 meilleurs mois » de sa carrière.",
-   "titre_fr": "Interrogé une fois de plus pour savoir s'il est le meilleur joueur du monde, Zverev affirme avoir connu « les 12 meilleurs mois » de sa carrière.",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/hes-a-robot-not-a-human-being-zverev-on-sinner-and-his-record-against-the-top-10-867061.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-15T18:36+00:00",
-   "image": null,
-   "vo": "“He’s a robot, not a human being”: Zverev on Sinner and his record against the top 10",
-   "titre": "« C'est un robot, pas un être humain » : Zverev à propos de Sinner et de son bilan contre le top 10",
-   "titre_fr": "« C'est un robot, pas un être humain » : Zverev à propos de Sinner et de son bilan contre le top 10",
    "blessure": false
   }
  ]
