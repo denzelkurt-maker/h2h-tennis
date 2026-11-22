@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-22T17:26+00:00",
+ "maj": "2026-11-22T19:32+00:00",
  "source": "ESPN (API publique)",
  "note": "matchs de simple ATP à venir sur 3 jours et tournois ATP des 5 prochaines semaines ; heures en UTC ; Challenger et ITF non couverts",
  "colonnes_tournois": [
@@ -34,28 +34,7 @@
    "Turin, Italy"
   ]
  ],
- "matchs": [
-  [
-   "2026-11-22T17:15Z",
-   1,
-   "Inalpi Arena",
-   "339-2026",
-   "Final",
-   "in",
-   [
-    "fd06b6ea-593b-d5b3-da2b-767ec3e4232c",
-    "Alexander Zverev",
-    "Germany",
-    1
-   ],
-   [
-    "07843754-8bdf-63b0-5983-24252738169e",
-    "Carlos Alcaraz",
-    "Spain",
-    2
-   ]
-  ]
- ],
+ "matchs": [],
  "challenger": [
   [
    "2026-01-05",
@@ -2740,10 +2719,10 @@
   "salle",
   "categorie"
  ],
- "challenger_maj": "2026-11-21T23:20+00:00",
+ "challenger_maj": "2026-11-22T19:32+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-22T17:26+00:00",
+  "date": "2026-11-22T19:32+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
