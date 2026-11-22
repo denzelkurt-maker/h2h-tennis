@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-22T03:33+00:00",
+ "maj": "2026-11-22T05:38+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -23,7 +23,7 @@
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "erreur : no element found: line 1, column 0",
+  "ESPN": "ok, 13 articles",
   "Tennis Majors (EN)": "ok, 19 articles",
   "Ubitennis": "ok, 19 articles"
  },
@@ -47,6 +47,26 @@
    "titre": "22 novembre 2015 : le jour où Novak Djokovic a remporté un quatrième ATP World Tour Finals consécutif à Londres, un record",
    "titre_fr": "22 novembre 2015 : le jour où Novak Djokovic a remporté un quatrième ATP World Tour Finals consécutif à Londres, un record",
    "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50553968/zverev-tops-medvedev-sets-showdown-alcaraz-atp-finals-title",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-22T04:34+00:00",
+   "image": null,
+   "vo": "Zverev tops Medvedev, faces Alcaraz for ATP Finals trophy",
+   "titre": "Zverev bat Medvedev et affronte Alcaraz pour le trophée des ATP Finals",
+   "titre_fr": "Zverev bat Medvedev et affronte Alcaraz pour le trophée des ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-cette-blessure-m-aide-a-comprendre-que-je-n-ai-pas-besoin-de-courir-comme-un-fou-sur-toutes-les-balles-carlos-alcaraz-un-cameleon-qui-s-adapte-a-toutes-les-situations/1745241#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T04:30+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/malgre-une-blessure-a-la-cuisse-gauche-carlos-alcaraz-a-reussi-a-decrocher-sa-qualification-pour-la-finale-f-faugere-l-equipe/1500000002656220/0:0,2000:1333-828-552-75/06049.jpg",
+   "titre": "« Cette blessure m'aide à comprendre que je n'ai pas besoin de courir comme un fou sur toutes les balles » : Carlos Alcaraz, un caméléon qui s'adapte à toutes les situations",
+   "blessure": true
   },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/deserved-to-lose-medvedev-bows-to-a-zverev-who-wont-be-broken-867636.html",
@@ -3808,28 +3828,6 @@
    "date": "2026-11-15T15:36+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2025/04/Murray-regard--1024x512.jpeg",
    "titre": "Andy Murray désigne le vainqueur du Masters de Turin : « Je miserais sur lui. Je pense qu’il aborde ce tournoi un peu plus frais que les autres »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/almost-my-second-dad-sinner-on-losing-cahill-and-why-norman-is-the-right-fit-867047.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-15T15:33+00:00",
-   "image": null,
-   "vo": "“Almost my second dad”: Sinner on losing Cahill, and why Norman is the right fit",
-   "titre": "« Presque mon deuxième père » : Sinner parle de la perte de Cahill et explique pourquoi Norman est le bon choix",
-   "titre_fr": "« Presque mon deuxième père » : Sinner parle de la perte de Cahill et explique pourquoi Norman est le bon choix",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-begins-nitto-atp-finals-campaign-with-victory-over-rafael-jodar/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-15T15:27+00:00",
-   "image": null,
-   "vo": "Alexander Zverev Begins Nitto ATP Finals Campaign With Victory Over Rafael Jodar",
-   "titre": "Alexander Zverev entame sa campagne aux Nitto ATP Finals par une victoire sur Rafael Jodar",
-   "titre_fr": "Alexander Zverev entame sa campagne aux Nitto ATP Finals par une victoire sur Rafael Jodar",
    "blessure": false
   }
  ]
