@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-22T13:41+00:00",
+ "maj": "2026-11-22T15:28+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,16 +15,16 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 43 articles",
+  "L'Équipe": "ok, 42 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 19 articles",
+  "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 26 articles",
-  "franceinfo": "ok, 18 articles",
+  "RMC Sport": "ok, 25 articles",
+  "franceinfo": "ok, 17 articles",
   "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 19 articles",
+  "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 19 articles"
  },
  "articles": [
@@ -35,6 +35,42 @@
    "date": "2026-11-22T17:20+00:00",
    "image": null,
    "titre": "22 novembre 2015 : le jour où Novak Djokovic a remporté un 4ème titre consécutif au Masters",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Jannik-sinner-hesiterait-a-s-engager-dans-un-processus-avec-intervention-chirurgicale-sur-son-genou-droit/1745384#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T15:06+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/jannik-sinner-celebre-il-y-a-quelques-jours-sur-le-court-des-finales-atp-ici-aux-cotes-de-l-ex-n09-mondiale-andrea-petkovic-et-du-boss-de-l-atp-andrea-gaudenzi-f-faugere-l-equipe/1500000002656836/293:268,1655:1176-828-552-75/c181d.jpg",
+   "titre": "Jannik Sinner hésiterait à s'engager dans un processus avec intervention chirurgicale sur son genou droit",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/si-alexander-zverev-bat-carlos-alcaraz-et-termine-sa-saison-2026-sur-un-troisieme-titre-au-masters-il-va-fermer-beaucoup-de-bouches",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T14:55+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-Masters-1024x520.jpeg",
+   "titre": "« Si Alexander Zverev bat Carlos Alcaraz et termine sa saison 2026 sur un troisième titre au Masters, il va fermer beaucoup de bouches »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/-cette-blessure-m-aide-a-comprendre-que-je-n-ai-pas-besoin-de-courir-comme-un-fou-sur-toutes-les-balles-carlos-alcaraz-un-cameleon-qui-s-adapte-a-toutes-les-situations/1745241#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T14:39+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Alcaraz, un caméléon qui s'adapte à tout",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/boris-becker-jai-ete-surpris-par-carlos-alcaraz-quelque-chose-a-change-cette-annee",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T14:28+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/11/Boris-Becker-1-1024x568.jpeg",
+   "titre": "Boris Becker : « J’ai été surpris par Carlos Alcaraz. Quelque chose a changé cette année »",
    "blessure": false
   },
   {
@@ -49,6 +85,17 @@
    "blessure": false
   },
   {
+   "lien": "https://www.tennismajors.com/atp/sinner-could-face-knee-surgery-with-three-options-on-the-table-report-867672.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-22T13:41+00:00",
+   "image": null,
+   "vo": "Sinner could face knee surgery, with three options on the table (report)",
+   "titre": "Sinner pourrait devoir subir une opération du genou, avec trois options possibles (article)",
+   "titre_fr": "Sinner pourrait devoir subir une opération du genou, avec trois options possibles (article)",
+   "blessure": true
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/alexander-zverev-avant-de-retrouver-carlos-alcaraz-ma-defaite-contre-lui-en-australie-na-pas-change-ma-saison-mais-ma-prouve-une-chose",
    "source": "We Love Tennis",
    "langue": "fr",
@@ -58,12 +105,34 @@
    "blessure": false
   },
   {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-history-records-most-titles-866948.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-22T13:20+00:00",
+   "image": null,
+   "vo": "ATP Finals history and records: who has won the most titles?",
+   "titre": "Historique et records des ATP Finals : qui a remporté le plus de titres ?",
+   "titre_fr": "Historique et records des ATP Finals : qui a remporté le plus de titres ?",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/brad-gilbert-pessimiste-pour-jannik-sinner-je-ne-le-vois-pas-capable-de-faire-la-meme-chose-que-novak-djokovic-cetait-un-miracle",
    "source": "We Love Tennis",
    "langue": "fr",
    "date": "2026-11-22T13:11+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-29-at-17.02.19-1024x548.jpeg",
    "titre": "Brad Gilbert pessimiste pour Jannik Sinner : « Je ne le vois pas capable de faire la même chose que Novak Djokovic. C’était un miracle »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/gaudenzi-open-to-joint-mens-and-womens-finals-tennis-should-be-all-combined-867555.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-22T13:11+00:00",
+   "image": null,
+   "vo": "Gaudenzi open to joint men’s and women’s Finals: “Tennis should be all combined”",
+   "titre": "Gaudenzi ouvert à l'idée de finales mixtes hommes-femmes : « Le tennis devrait être entièrement mixte »",
+   "titre_fr": "Gaudenzi ouvert à l'idée de finales mixtes hommes-femmes : « Le tennis devrait être entièrement mixte »",
    "blessure": false
   },
   {
@@ -121,12 +190,34 @@
    "blessure": true
   },
   {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/the-defeat-against-alcaraz-that-told-zverev-he-was-right-how-melbourne-launched-his-year-867658.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-22T09:59+00:00",
+   "image": null,
+   "vo": "The defeat against Alcaraz that told Zverev he was right: how Melbourne launched his year",
+   "titre": "La défaite contre Alcaraz qui a confirmé à Zverev qu'il avait raison : comment Melbourne a lancé son année",
+   "titre_fr": "La défaite contre Alcaraz qui a confirmé à Zverev qu'il avait raison : comment Melbourne a lancé son année",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/le-verdict-de-shelton-sur-son-annee-2026-le-bilan-de-ma-saison-est-mitige",
    "source": "We Love Tennis",
    "langue": "fr",
    "date": "2026-11-22T09:53+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Shelton-1024x555.jpeg",
    "titre": "Le verdict de Shelton sur son année 2026 : « Le bilan de ma saison est mitigé »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/they-are-the-benchmark-zverevs-last-chance-to-beat-the-best-in-his-year-as-no-1-867655.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-22T09:33+00:00",
+   "image": null,
+   "vo": "“[Sinner and Alcaraz] are the benchmark”: Zverev’s last chance to beat the best in his year as No. 1",
+   "titre": "« [Sinner et Alcaraz] sont la référence » : la dernière chance de Zverev de battre les meilleurs de son année en tant que numéro 1",
+   "titre_fr": "« [Sinner et Alcaraz] sont la référence » : la dernière chance de Zverev de battre les meilleurs de son année en tant que numéro 1",
    "blessure": false
   },
   {
@@ -139,21 +230,23 @@
    "blessure": true
   },
   {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-and-the-art-of-becoming-a-complete-champion-with-no-secrets-from-himself-867645.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-22T09:20+00:00",
+   "image": null,
+   "vo": "Alcaraz and the art of becoming a champion who explores his resources down to the last detail",
+   "titre": "Alcaraz et l'art de devenir un champion qui explore ses ressources dans les moindres détails",
+   "titre_fr": "Alcaraz et l'art de devenir un champion qui explore ses ressources dans les moindres détails",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-meme-quand-je-joue-ici-en-italie-contre-sinner-jai-limpression-que-tout-le-stade-nest-pas-contre-moi",
    "source": "We Love Tennis",
    "langue": "fr",
    "date": "2026-11-22T08:52+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-enttree-1024x567.jpeg",
    "titre": "Carlos Alcaraz : « Même quand je joue ici en Italie contre Sinner, j’ai l’impression que tout le stade n’est pas contre moi »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/-cette-blessure-m-aide-a-comprendre-que-je-n-ai-pas-besoin-de-courir-comme-un-fou-sur-toutes-les-balles-carlos-alcaraz-un-cameleon-qui-s-adapte-a-toutes-les-situations/1745241#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-22T08:29+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Alcaraz, un caméléon qui s'adapte à tout",
    "blessure": false
   },
   {
@@ -3735,91 +3828,6 @@
    "vo": "Top-ranked Zverev opens ATP Finals with convincing win over Jodar",
    "titre": "Zverev, classé numéro 1, ouvre les ATP Finals par une victoire convaincante sur Jodar",
    "titre_fr": "Zverev, classé numéro 1, ouvre les ATP Finals par une victoire convaincante sur Jodar",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Qualifie-au-masters-sans-victoire-en-majeur-brad-gilbert-raconte-son-etonnante-annee-1989-on-peut-reussir-sa-saison-en-se-ratant-en-grand-chelem/1743605#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T22:12+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Brad Gilbert sur le hold-up de 89 : «On peut réussir sa saison en se ratant en Grand Chelem»",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/justine-henin-apres-la-defaite-dentree-darthur-fils-sur-le-masters-il-y-a-quand-meme-un-point-extremement-positif",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T21:59+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-regard-smash-1024x540.jpeg",
-   "titre": "Justine Henin, après la défaite d’entrée d’Arthur Fils sur le Masters : « Il y a quand même un point extrêmement positif »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-perd-son-premier-match-de-poule-aux-finales-atp-face-a-un-tres-bon-ben-shelton/1743894#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T21:45+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-s-est-trop-souvent-retrouve-sur-la-defensive-face-a-ben-shelton-f-faugere-l-equipe/1500000002651530/0:0,2000:1333-828-552-75/1eec1.jpg",
-   "titre": "Arthur Fils perd son premier match de poule aux Finales ATP face à un très bon Ben Shelton",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters/arthur-fils-battu-en-trois-manches-par-l-americain-ben-shelton-lors-de-son-entree-en-lice-au-masters-de-turin_8283944.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-15T21:43+00:00",
-   "image": "https://www.franceinfo.fr/pictures/iTLuY3EO4T97TgxTSRiHOA_sQiQ/0x0:8256x4644/432x243/filters:format(jpg)/2026/11/15/6afa25bcad0b3171057069.jpg",
-   "titre": "Arthur Fils battu en trois manches par l'Américain Ben Shelton lors de son entrée en lice au Masters de Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/shelton-holds-off-fils-fightback-to-join-zverev-on-top-of-the-john-mcenroe-group-867094.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-15T21:43+00:00",
-   "image": null,
-   "vo": "Shelton holds off Fils’ fightback to join Zverev on top of the John McEnroe Group",
-   "titre": "Shelton résiste au retour de Fils et rejoint Zverev en tête du groupe John McEnroe",
-   "titre_fr": "Shelton résiste au retour de Fils et rejoint Zverev en tête du groupe John McEnroe",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-demarre-mal-son-masters-de-turin",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T21:41+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-2-1024x505.jpeg",
-   "titre": "Arthur Fils démarre mal son Masters de Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/-je-serai-a-turin-en-2026-la-premonition-qui-a-porte-arthur-fils-au-plus-fort-de-ses-doutes-et-l-a-mene-jusqu-aux-finales-atp/1743671#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-15T21:09+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "«Je serai à Turin en 2026» : la prémonition qui a porté Fils au plus fort de ses doutes",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/jodar-confirms-davis-cup-final-8-with-spain-something-unique-867064.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-15T20:53+00:00",
-   "image": null,
-   "vo": "Jodar confirms Davis Cup Final 8 with Spain: “Something unique”",
-   "titre": "Jodar confirme la présence de l'Espagne aux quarts de finale de la Coupe Davis : « C'est quelque chose d'unique »",
-   "titre_fr": "Jodar confirme la présence de l'Espagne aux quarts de finale de la Coupe Davis : « C'est quelque chose d'unique »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/zverev-sur-son-pietre-bilan-face-au-top-10-six-de-ces-defaites-etaient-contre-sinner-alors-on-peut-lenlever-du-compte-car-cest-un-robot-pas-un-etre-humain",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-15T20:21+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-conf-presse-1024x521.jpeg",
-   "titre": "Zverev, sur son piètre bilan face au Top 10 : « Six de ces défaites étaient contre Sinner. Alors, on peut l’enlever du compte ? Car c’est un robot, pas un être humain »",
    "blessure": false
   }
  ]
