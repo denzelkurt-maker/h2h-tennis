@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-22T19:32+00:00",
+ "maj": "2026-11-22T21:26+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -20,23 +20,219 @@
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 17 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 25 articles",
+  "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 17 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 21 articles",
-  "Ubitennis": "ok, 19 articles"
+  "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/right-now-the-ranking-says-its-sasha-alcaraz-wont-call-himself-the-best-player-in-the-world-but-says-every-top-player-sees-himself-as-no-1-867747.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-22T21:22+00:00",
+   "image": null,
+   "vo": "“Right now the ranking says it’s Sasha”: Alcaraz won’t call himself the best player in the world, but says every top player sees himself as No. 1",
+   "titre": "« À l'heure actuelle, le classement indique que c'est Sasha » : Alcaraz ne se considère pas comme le meilleur joueur du monde, mais affirme que tous les meilleurs joueurs se voient comme le numéro 1",
+   "titre_fr": "« À l'heure actuelle, le classement indique que c'est Sasha » : Alcaraz ne se considère pas comme le meilleur joueur du monde, mais affirme que tous les meilleurs joueurs se voient comme le numéro 1",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/blind-trust-in-every-member-of-my-team-a-year-after-ferrero-alcaraz-answers-the-doubters-867744.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-22T21:07+00:00",
+   "image": null,
+   "vo": "“Blind trust in every member of my team”: a year after Ferrero, Alcaraz answers the doubters",
+   "titre": "« Une confiance aveugle en chaque membre de mon équipe » : un an après Ferrero, Alcaraz répond aux sceptiques",
+   "titre_fr": "« Une confiance aveugle en chaque membre de mon équipe » : un an après Ferrero, Alcaraz répond aux sceptiques",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/withdrawing-had-not-been-considered-alcaraz-heads-to-the-davis-cup-a-year-after-his-hamstring-kept-him-out-867739.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-22T20:54+00:00",
+   "image": null,
+   "vo": "“Withdrawing had not been considered”: Alcaraz heads to the Davis Cup, a year after his hamstring kept him out",
+   "titre": "« Le retrait n’a pas été envisagé » : Alcaraz se rend à la Coupe Davis, un an après que sa blessure aux ischio-jambiers l’en ait empêché",
+   "titre_fr": "« Le retrait n’a pas été envisagé » : Alcaraz se rend à la Coupe Davis, un an après que sa blessure aux ischio-jambiers l’en ait empêché",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/qui-a-remporte-les-quatre-tournois-du-grand-chelem-et-les-atp-finals-agassi-federer-djokovic-et-desormais-alcaraz-810883.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-22T20:32+00:00",
+   "image": null,
+   "titre": "Qui a remporté les quatre tournois du Grand Chelem et les ATP Finals ? Agassi, Federer, Djokovic et désormais Alcaraz",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/justine-henin-sur-carlos-alcaraz-qui-fait-deja-mieux-que-rafael-nadal-ils-ne-sont-pas-nombreux-a-avoir-remporte-les-quatre-tournois-du-grand-chelem-et-le-masters",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T20:28+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Justine-Henin-1024x573.jpeg",
+   "titre": "Justine Henin sur Carlos Alcaraz, qui fait déjà mieux que Rafael Nadal : « Ils ne sont pas nombreux à avoir remporté les quatre tournois du Grand Chelem et le Masters »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/alexander-zverev-qui-est-il-vraiment-tennis-majors-79971.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-22T20:15+00:00",
+   "image": null,
+   "titre": "N°1 mondial, Roland-Garros, US Open, ATP Finals : tout ce que vous avez toujours voulu savoir sur Alexander Zverev (sans prendre le temps de chercher) – mis à jour après les ATP Finals 2026",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/us-open-olympics-german-atp-finals-everything-you-always-wanted-to-know-about-alexander-zverev-but-never-had-time-to-find-out-updated-after-chengdu-open-win-711982.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-22T20:15+00:00",
+   "image": null,
+   "vo": "World No. 1, Roland-Garros, US Open: Everything you always wanted to know about Alexander Zverev (but never had time to find out) – updated after the 2026 ATP Finals",
+   "titre": "Numéro 1 mondial, Roland-Garros, US Open : tout ce que vous avez toujours voulu savoir sur Alexander Zverev (mais que vous n'avez jamais eu le temps de découvrir) – mis à jour après les ATP Finals 2026",
+   "titre_fr": "Numéro 1 mondial, Roland-Garros, US Open : tout ce que vous avez toujours voulu savoir sur Alexander Zverev (mais que vous n'avez jamais eu le temps de découvrir) – mis à jour après les ATP Finals 2026",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-a-alexander-zverev-apres-lavoir-battu-en-finale-personne-ne-merite-plus-ce-classement-que-toi",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T20:14+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Turin-1024x568.jpeg",
+   "titre": "Carlos Alcaraz à Alexander Zverev après l’avoir battu en finale : « Personne ne mérite plus ce classement que toi »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/fils-up-to-no-6-alcaraz-350-points-off-sinner-a-tighter-year-end-top-20-867727.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-22T20:12+00:00",
+   "image": null,
+   "vo": "Fils up to No. 6, Alcaraz 350 points off Sinner: a tighter year-end top 20",
+   "titre": "Fils jusqu’au n° 6, Alcaraz à 350 points de Sinner : un top 20 de fin d’année plus serré",
+   "titre_fr": "Fils jusqu’au n° 6, Alcaraz à 350 points de Sinner : un top 20 de fin d’année plus serré",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/who-has-won-all-four-grand-slams-and-the-atp-finals-agassi-federer-djokovic-and-now-alcaraz-867724.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-22T20:08+00:00",
+   "image": null,
+   "vo": "Who has won all four Grand Slams and the ATP Finals? Agassi, Federer, Djokovic and now Alcaraz",
+   "titre": "Qui a remporté les quatre tournois du Grand Chelem et le Masters ? Agassi, Federer, Djokovic et maintenant Alcaraz",
+   "titre_fr": "Qui a remporté les quatre tournois du Grand Chelem et le Masters ? Agassi, Federer, Djokovic et maintenant Alcaraz",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Un-trophee-de-plus-dans-sa-collection-avec-sa-victoire-lors-des-finales-atp-carlos-alcaraz-rentre-dans-le-club-des-sept-trois-quarts/1745462#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T20:06+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/andre-agassi-roger-federer-carlos-alcaraz-et-novak-djokovic-de-gauche-a-droite-f-faugere-p-lahalle-m-canoniero-l-equipe-picture-alliance-presse-sports/1500000002657039/0:0,1806:1204-828-552-75/9b2de.jpg",
+   "titre": "Un trophée de plus à son palmarès : avec sa victoire lors des Finales ATP, où se situe Carlos Alcaraz parmi les plus grands collectionneurs ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/real-madrid-golf-juan-carlos-ferrero-14-questions-que-vous-vous-posez-sur-carlos-alcaraz-garfia-299979.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-22T20:00+00:00",
+   "image": null,
+   "titre": "ATP Finals, Grand Chelem, Ferrero : tout ce que vous avez toujours voulu savoir sur Carlos Alcaraz (sans prendre le temps de chercher) – mis à jour après les ATP Finals 2026",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/real-madrid-golf-juan-carlos-ferrero-10-questions-you-might-have-about-carlos-alcaraz-299821.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-22T20:00+00:00",
+   "image": null,
+   "vo": "ATP Finals, Career Grand Slam, Ferrero: Everything you always wanted to know about Carlos Alcaraz (but never had time to find out) – updated after the 2026 ATP Finals",
+   "titre": "ATP Finals, Grand Chelem en carrière, Ferrero : tout ce que vous avez toujours voulu savoir sur Carlos Alcaraz (mais que vous n’avez jamais eu le temps de découvrir) – mis à jour après les ATP Finals 2026",
+   "titre_fr": "ATP Finals, Grand Chelem en carrière, Ferrero : tout ce que vous avez toujours voulu savoir sur Carlos Alcaraz (mais que vous n’avez jamais eu le temps de découvrir) – mis à jour après les ATP Finals 2026",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/masters/carlos-alcaraz-eteint-le-n-1-mondial-alexander-zverev-pour-decrocher-le-premier-masters-de-sa-carriere_8295140.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-22T19:45+00:00",
+   "image": "https://www.franceinfo.fr/pictures/gk_DV2dJ3IXq61GiSjkB3ITTpew/0x0:8256x4644/432x243/filters:format(jpg)/2026/11/22/6b0336d012849709988245.jpg",
+   "titre": "Carlos Alcaraz éteint le n°1 mondial Alexander Zverev pour décrocher le premier Masters de sa carrière",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/head-heart-and-balls-carlos-alcaraz-follows-grandpas-advice-to-win-first-atp-finals-title/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-22T19:45+00:00",
+   "image": null,
+   "vo": "Head, Heart And Balls: Carlos Alcaraz Follows Grandpa’s Advice To Win First ATP Finals Title",
+   "titre": "Tête, cœur et couilles : Carlos Alcaraz suit les conseils de son grand-père pour remporter son premier titre aux ATP Finals",
+   "titre_fr": "Tête, cœur et couilles : Carlos Alcaraz suit les conseils de son grand-père pour remporter son premier titre aux ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alexander-zverev-a-carlos-alcaraz-qui-la-battu-en-finale-si-tu-prenais-ta-retraite-demain-ce-serait-ok-tu-pourrais-juste-te-detendre",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-22T19:44+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Capture-decran-2026-11-22-a-20.43.01.png",
+   "titre": "Alexander Zverev à Carlos Alcaraz, qui l’a battu en finale : « Si tu prenais ta retraite demain, ce serait ok. Tu pourrais juste te détendre »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Du-pessimisme-des-debuts-a-l-apotheose-de-turin-olivetti-arribage-l-histoire-d-un-double-qui-reve-de-coupe-davis-et-de-grands-chelems/1745456#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T19:43+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Du pessimisme des débuts à l'apothéose de Turin : Olivetti-Arribagé, l'histoire d'un double qui rêve de Coupe Davis et de Grands Chelems",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/alcaraz-ecarte-trois-balles-de-set-resiste-a-zverev-et-soffre-enfin-les-atp-finals-810860.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-22T19:37+00:00",
+   "image": null,
+   "titre": "« Vraiment fier » : Alcaraz écarte trois balles de set, résiste à Zverev et s’offre enfin les ATP Finals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4264817-20261122-finales-atp-carlos-alcaraz-vient-bout-alexander-zverev-offre-premier-masters?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-22T19:34+00:00",
+   "image": "https://img.20mn.fr/ZxEnSQwJQaK_8gYVI7od0yk/1200x768_l-espagnol-carlos-alcaraz-fait-la-fete-apres-avoir-remporte-son-dernier-match-contre-l-allemand-alexander-zverev-lors-de-la-finale-de-l-atp-world-tour-a-turin-le-dimanche-22-novembre-2026-photo-ap-luca-bruno-mas190-26326696480194-2611222022",
+   "titre": "Finales ATP : Carlos Alcaraz vient à bout d’Alexander Zverev et s’offre son premier Masters",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-saves-three-set-points-holds-off-zverev-and-finally-conquers-the-atp-finals-867708.html",
    "source": "Tennis Majors (EN)",
    "langue": "en",
    "date": "2026-11-22T19:25+00:00",
    "image": null,
-   "vo": "Alcaraz saves three set points, holds off Zverev and finally conquers the ATP Finals",
-   "titre": "Alcaraz sauve trois balles de set, résiste à Zverev et remporte finalement les ATP Finals",
-   "titre_fr": "Alcaraz sauve trois balles de set, résiste à Zverev et remporte finalement les ATP Finals",
+   "vo": "“Truly proud”: Alcaraz saves three set points, holds off Zverev and finally conquers the ATP Finals",
+   "titre": "« Vraiment fier » : Alcaraz sauve trois balles de set, résiste à Zverev et remporte finalement les ATP Finals",
+   "blessure": false,
+   "titre_fr": "« Vraiment fier » : Alcaraz sauve trois balles de set, résiste à Zverev et remporte finalement les ATP Finals"
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-s-offre-un-premier-titre-aux-finales-atp-de-turin-en-dominant-alexander-zverev/1745452#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T19:20+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Carlos Alcaraz s'offre un premier titre aux Finales ATP de Turin en dominant Alexander Zverev",
    "blessure": false
   },
   {
@@ -46,15 +242,6 @@
    "date": "2026-11-22T19:18+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-public-1-1024x510.jpeg",
    "titre": "Alcaraz domine Zverev, c’est qui le patron ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters/carlos-alcaraz-eteint-le-n-1-mondial-alexander-zverev-pour-decrocher-le-premier-masters-de-sa-carriere_8295140.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-22T19:18+00:00",
-   "image": "https://www.franceinfo.fr/pictures/gk_DV2dJ3IXq61GiSjkB3ITTpew/0x0:8256x4644/432x243/filters:format(jpg)/2026/11/22/6b0336d012849709988245.jpg",
-   "titre": "Carlos Alcaraz éteint le n°1 mondial Alexander Zverev pour décrocher le premier Masters de sa carrière",
    "blessure": false
   },
   {
@@ -167,6 +354,15 @@
    "date": "2026-11-22T16:47+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-coup-droit-1-1024x544.jpeg",
    "titre": "Julien Varlet : « Carlos Alcaraz est encore au-dessus de Roger Federer dans ce domaine »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4264809-20261122-finales-atp-exploit-francais-arribage-olivetti-vainqueurs-double-premiere-participation?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-22T16:29+00:00",
+   "image": "https://img.20mn.fr/fmq0Bx_fQImWsW7zqjoQySk/1200x768_les-francais-theo-arribage-et-albano-olivetti-posent-avec-le-trophee-apres-avoir-remporte-leur-dernier-match-de-double-contre-marcelo-arevalo-du-salvador-et-mate-pavic-de-croatie-lors-de-la-finale-de-l-atp-world-tour-a-turin-le-dimanche-22-novembre-2026-photo-ap-luca-bruno-mas123-26326578842856-2611221706",
+   "titre": "Finales ATP : Exploit des Français Arribagé et Olivetti, vainqueurs en double dès leur première participation",
    "blessure": false
   },
   {
@@ -3636,198 +3832,6 @@
    "date": "2026-11-16T18:45+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-coup-droit-1-1024x544.jpeg",
    "titre": "Alcaraz, après sa démonstration contre Tiafoe : « Je ne me sens pas invincible mais parfois, j’ai l’impression d’être meilleur que mon adversaire dans tous les aspects du jeu »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Video/Finales-atp-le-resume-d-alcaraz-tiafoe/20245712#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-16T18:30+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Le résumé vidéo d'Alcaraz - Tiafoe",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/jimmy-connors-pose-le-debat-carlos-alcaraz-est-il-vraiment-si-bon-que-ca-ou-est-ce-que-tous-les-autres-sont-mediocres",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-16T18:09+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/11/Connors-Jimmy-1024x497.jpg",
-   "titre": "Jimmy Connors pose le débat : « Carlos Alcaraz est-il vraiment si bon que ça ? Ou est-ce que tous les autres sont médiocres ? »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/i-always-said-that-im-not-bad-on-indoor-court-alcaraz-finally-at-home-under-the-roof-867145.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-16T17:52+00:00",
-   "image": null,
-   "vo": "“I always said that I’m not bad on indoor court”: Alcaraz finally at home under the roof",
-   "titre": "« J'ai toujours dit que je n'étais pas mauvais sur les courts couverts » : Alcaraz enfin à l'aise sous le toit",
-   "titre_fr": "« J'ai toujours dit que je n'étais pas mauvais sur les courts couverts » : Alcaraz enfin à l'aise sous le toit",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/frances-tiafoe-draws-positives-from-atp-finals-thrashing-by-superman-alcaraz/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-16T17:47+00:00",
-   "image": null,
-   "vo": "Frances Tiafoe Draws Positives From ATP Finals Thrashing By ‘Superman’ Alcaraz",
-   "titre": "Frances Tiafoe tire des enseignements positifs de sa défaite aux ATP Finals face à « Superman » Alcaraz",
-   "titre_fr": "Frances Tiafoe tire des enseignements positifs de sa défaite aux ATP Finals face à « Superman » Alcaraz",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-avant-daffronter-le-nouveau-phenomene-du-circuit-il-va-falloir-aller-le-chercher-et-le-gagner-il-ma-battu-deux-fois-cette-annee-on-va-voir-ce-que-ca-donne",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-16T17:42+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-decu-1-1024x499.jpeg",
-   "titre": "Arthur Fils, avant d’affronter le nouveau phénomène du circuit : « Il va falloir aller le chercher et le gagner. Il m’a battu deux fois cette année. On va voir ce que ça donne »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/frances-tiafoe-totalement-surclasse-par-carlos-alcaraz-il-y-a-des-moments-ou-il-est-vraiment-superman-il-faut-vraiment-savoir-apprecier-la-grandeur",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-16T17:20+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Tiafoe-filet-1024x492.jpeg",
-   "titre": "Frances Tiafoe, totalement surclassé par Carlos Alcaraz : « Il y a des moments où il est vraiment Superman. Il faut vraiment savoir apprécier la grandeur »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/souverain-alcaraz-lance-ses-atp-finals-en-ecrasant-tiafoe-en-69-minutes-810313.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-16T16:50+00:00",
-   "image": null,
-   "titre": "Souverain, Alcaraz lance ses ATP Finals en écrasant Tiafoe en 69 minutes",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/laveu-de-frances-tiafoe-au-filet-apres-sa-lourde-defaite-contre-carlos-alcaraz-jai-essaye-mec-mais-tu-es-bien-trop-fort",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-16T16:20+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Capture-decran-2026-11-16-a-17.12.24-1024x765.png",
-   "titre": "L’aveu de Frances Tiafoe au filet après sa lourde défaite contre Carlos Alcaraz : « J’ai essayé mec, mais tu es bien trop fort »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-opens-atp-finals-campaign-by-crushing-tiafoe-in-69-minutes-867137.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-16T16:19+00:00",
-   "image": null,
-   "vo": "Imperious Alcaraz opens ATP Finals campaign by crushing Tiafoe in 69 minutes",
-   "titre": "L’impérieux Alcaraz entame sa campagne aux ATP Finals en écrasant Tiafoe en 69 minutes",
-   "titre_fr": "L’impérieux Alcaraz entame sa campagne aux ATP Finals en écrasant Tiafoe en 69 minutes",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/gustavo-kuerten-devoile-son-joueur-prefere-entre-carlos-alcaraz-et-jannik-sinner-il-me-plait-enormement-cest-un-garcon-exceptionnel-et-il-incarne-ce-que-devrait-etre-le-tennisman-contemp",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-16T15:50+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Alcaraz-Sinner-1.jpeg",
-   "titre": "Gustavo Kuerten dévoile son joueur préféré entre Carlos Alcaraz et Jannik Sinner : « Il me plaît énormément, c’est un garçon exceptionnel et il incarne ce que devrait être le tennisman contemporain »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/gustavo-kuerten-adoube-jannik-sinner-il-me-plait-enormement-cest-un-garcon-exceptionnel-et-il-incarne-ce-que-devrait-etre-le-tennisman-contemporain",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-16T15:50+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Kuerten-1024x550.jpeg",
-   "titre": "Gustavo Kuerten adoube Jannik Sinner : « Il me plaît énormément, c’est un garçon exceptionnel et il incarne ce que devrait être le tennisman contemporain »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/tim-henman-sur-les-retrouvailles-entre-alcaraz-et-ferrero-cetait-un-peu-genant-quand-juan-carlos-est-entre-sur-le-court-on-sentait-vraiment-que-cetait-la-premiere-fois-quils",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-16T15:16+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Ferrero-Alcaraz-1024x476.jpeg",
-   "titre": "Tim Henman sur les retrouvailles entre Alcaraz et Ferrero : « C’était un peu gênant. Quand Juan Carlos est entré sur le court, on sentait vraiment que c’était la première fois qu’ils avaient un quelconque contact depuis ",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.espn.com/tennis/story/_/id/50501663/carlos-alcaraz-dominates-frances-tiafoe-atp-finals-opener",
-   "source": "ESPN",
-   "langue": "en",
-   "date": "2026-11-16T15:11+00:00",
-   "image": null,
-   "vo": "Alcaraz dominates Tiafoe in ATP Finals opener, extends win streak to 10 matches",
-   "titre": "Alcaraz domine Tiafoe lors du match d'ouverture des ATP Finals et porte sa série de victoires à 10 matches",
-   "titre_fr": "Alcaraz domine Tiafoe lors du match d'ouverture des ATP Finals et porte sa série de victoires à 10 matches",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp-actualite/16-novembre-2001-le-jour-ou-hewitt-est-devenu-numero-1-mondial-masters-305775.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-16T14:50+00:00",
-   "image": null,
-   "titre": "16 novembre 2001 : Le jour où Hewitt est devenu numéro 1 mondial",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/carlos-alcaraz-powers-past-tiafoe-in-atp-finals-opener/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-16T14:47+00:00",
-   "image": null,
-   "vo": "Carlos Alcaraz Powers Past Tiafoe In ATP Finals Opener",
-   "titre": "Carlos Alcaraz domine Tiafoe lors du match d'ouverture des ATP Finals",
-   "titre_fr": "Carlos Alcaraz domine Tiafoe lors du match d'ouverture des ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-en-demonstration-face-a-frances-tiafoe-pour-son-entree-en-lice-aux-finales-atp-de-turin/1744020#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-16T14:38+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-ce-lundi-a-turin-f-faugere-l-equipe/1500000002652050/0:0,2000:1333-828-552-75/27480.jpg",
-   "titre": "Carlos Alcaraz en démonstration face à Frances Tiafoe pour son entrée en lice aux Finales ATP de Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-apres-avoir-balaye-frances-tiafoe-je-savais-exactement-ce-que-javais-a-faire",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-16T14:37+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-entrainement-1024x544.jpeg",
-   "titre": "Carlos Alcaraz, après avoir balayé Frances Tiafoe : « Je savais exactement ce que j’avais à faire »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/fils-vs-jodar-a-must-win-rematch-in-turin-after-two-defeats-to-the-spaniard-this-summer-867127.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-16T14:20+00:00",
-   "image": null,
-   "vo": "Fils vs Jodar: a must-win rematch in Turin after two defeats to the Spaniard this summer",
-   "titre": "Fils contre Jodar : une revanche à ne pas manquer à Turin après deux défaites contre l’Espagnol cet été",
-   "titre_fr": "Fils contre Jodar : une revanche à ne pas manquer à Turin après deux défaites contre l’Espagnol cet été",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/alexander-zverev-je-suis-sans-aucun-doute-le-meilleur-joueur-du-monde-dans-les-tournois-du-grand-chelem-cette-saison",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-16T14:15+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-conf-presse-1-1024x530.jpeg",
-   "titre": "Alexander Zverev : « Je suis sans aucun doute le meilleur joueur du monde dans les tournois du Grand Chelem cette saison »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/guto-miguel-sparring-partner-sur-le-masters-de-turin-parmi-tous-les-joueurs-cest-le-plus-impressionnant-pas-seulement-pour-la-facon-dont-il-frappe-mais-pour-la-maniere-dont-il-nous-traite",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-16T13:04+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Capture-decran-2026-11-16-a-13.22.29-1024x571.png",
-   "titre": "Guto Miguel, sparring-partner sur le Masters de Turin : « Parmi tous les joueurs, c’est le plus impressionnant. Pas seulement pour la façon dont il frappe, mais pour la manière dont il nous traite »",
    "blessure": false
   }
  ]
