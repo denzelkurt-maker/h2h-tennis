@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21",
+ "maj": "2026-11-22",
  "sources": "Wikidata (CC0) ; photos Wikimedia Commons, licence et auteur propres à chaque photo, à afficher sous la photo",
  "colonnes": [
   "wikidata",
@@ -4173,11 +4173,11 @@
   ],
   "s104918": [
    "Q10125",
-   "Murray A. REN21 (1) (51602037818).jpg",
-   "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Murray_A._REN21_%281%29_%2851602037818%29.jpg/330px-Murray_A._REN21_%281%29_%2851602037818%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "si.robi",
-   "CC BY-SA 2.0",
-   "https://creativecommons.org/licenses/by-sa/2.0",
+   "2015 Australian Open - Andy Murray 12 (cropped).jpg",
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/2015_Australian_Open_-_Andy_Murray_12_%28cropped%29.jpg/330px-2015_Australian_Open_-_Andy_Murray_12_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "Brendan Dennis",
+   "CC BY-SA 4.0",
+   "https://creativecommons.org/licenses/by-sa/4.0",
    82,
    191,
    "MC10"
@@ -7610,7 +7610,7 @@
    "si.robi",
    "CC BY-SA 2.0",
    "https://creativecommons.org/licenses/by-sa/2.0",
-   88,
+   97,
    191,
    "SM25"
   ],
