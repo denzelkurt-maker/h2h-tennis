@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-22T21:26+00:00",
+ "maj": "2026-11-22T23:26+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,12 +15,12 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 41 articles",
+  "L'Équipe": "ok, 40 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 17 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 26 articles",
+  "RMC Sport": "ok, 25 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 17 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -28,6 +28,55 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Numero-1-mondial-vainqueur-de-deux-titres-du-grand-chelem-le-paradoxe-alexander-zverev-qui-coince-devant-sinner-ou-alcaraz/1745499#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T22:42+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/alexander-zverev-lors-de-sa-defaite-dimanche-a-turin-face-a-carlos-alcaraz-l-bruno-ap/1500000002657113/0:0,2000:1333-828-552-75/db257.jpg",
+   "titre": "Numéro 1 mondial, vainqueur de deux titres du Grand Chelem, le paradoxe Alexander Zverev qui coince devant Sinner ou Alcaraz",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/it-comes-once-every-two-months-zverev-explains-his-ankle-says-the-davis-cup-is-not-in-danger-867755.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-22T22:41+00:00",
+   "image": null,
+   "vo": "“It comes once every two months”: Zverev explains his ankle, says the Davis Cup is not in danger",
+   "titre": "« Ça arrive une fois tous les deux mois » : Zverev explique sa blessure à la cheville et affirme que sa participation à la Coupe Davis n'est pas compromise",
+   "titre_fr": "« Ça arrive une fois tous les deux mois » : Zverev explique sa blessure à la cheville et affirme que sa participation à la Coupe Davis n'est pas compromise",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/he-earned-his-luck-a-bit-more-than-i-did-zverev-on-alcarazs-return-and-a-final-without-his-biggest-weapon-867754.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-22T22:31+00:00",
+   "image": null,
+   "vo": "“He earned his luck a bit more than I did”: Zverev on Alcaraz’s return and a final without his biggest weapon",
+   "titre": "« Il a eu un peu plus de chance que moi » : Zverev à propos du retour d'Alcaraz et d'une finale sans son atout le plus important",
+   "titre_fr": "« Il a eu un peu plus de chance que moi » : Zverev à propos du retour d'Alcaraz et d'une finale sans son atout le plus important",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Un-jeu-irresistible-et-une-victoire-lors-des-finales-atp-malgre-quelques-pepins-physiques-carlos-alcaraz-le-surdoue-tout-terrain-qui-roulerait-meme-sur-l-eau/1745488#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T22:04+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Alcaraz, le surdoué tout terrain qui roulerait même sur l'eau",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Faillites-individuelles-absence-de-revolte-face-a-l-australie-les-bleues-n-ont-pas-repondu-a-l-attente-de-la-capitaine-alize-cornet-malgre-tout-comprehensive-il-va-vraiment-falloir-que-je-les-aide/1745472#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T21:32+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Piétinées sans se révolter, les Bleues si loin d'une splendeur passée",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/right-now-the-ranking-says-its-sasha-alcaraz-wont-call-himself-the-best-player-in-the-world-but-says-every-top-player-sees-himself-as-no-1-867747.html",
    "source": "Tennis Majors (EN)",
@@ -321,6 +370,15 @@
    "blessure": false
   },
   {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/direct-masters-atp-suivez-la-finale-entre-alexander-zverev-et-carlos-alcaraz-en-live_LN-202611220326.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-22T17:25+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/hgNsKanenuIr-zlLFksXXlPhiO8=/6x111:2038x1254/800x0/images/Carlos-Alcaraz-lors-du-Masters-ATP-de-Turin-le-21-novembre-2026-2388509.jpg",
+   "titre": "DIRECT. Masters ATP: suivez la finale entre Alexander Zverev et Carlos Alcaraz en live",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/fr/atp-actualite/nitto-atp-finals/22-novembre-2015-le-jour-ou-novak-djokovic-a-remporte-un-4eme-titre-consecutif-au-masters-atp-federer-516494.html",
    "source": "Tennis Majors",
    "langue": "fr",
@@ -366,6 +424,24 @@
    "blessure": false
   },
   {
+   "lien": "https://rmcsport.bfmtv.com/tennis/alexander-zverev_DN-202108310603.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-22T16:16+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ro1b_ee7A8WZ2xsKr02jgkzHzCk=/0x40:768x472/800x0/images/Alexander-Zverev-oppose-a-Daniil-Medvedev-au-Masters-de-fin-de-saison-a-Turin-le-16-novembre-2021-1167815.jpg",
+   "titre": "Alexander Zverev",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/carlos-alcaraz_DN-202305240409.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-22T16:16+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/q0HhSAPh4WNCQyuuNy78EIUsorg=/0x159:2048x1311/800x0/images/Carlos-Alcaraz-a-Madrid-1628893.jpg",
+   "titre": "Carlos Alcaraz",
+   "blessure": false
+  },
+  {
    "lien": "https://www.lequipe.fr/Tennis/Article/-cette-blessure-m-aide-a-comprendre-que-je-n-ai-pas-besoin-de-courir-comme-un-fou-sur-toutes-les-balles-carlos-alcaraz-un-cameleon-qui-s-adapte-a-toutes-les-situations/1745241#at_medium=RSS_feeds",
    "source": "L'Équipe",
    "langue": "fr",
@@ -406,7 +482,7 @@
    "source": "RMC Sport",
    "langue": "fr",
    "date": "2026-11-22T15:46+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/C7PKUtkCLgIi95mReTdPqeNy0bc=/0x0:2048x1152/800x0/images/Theo-Arribage-et-Albano-Olivetti-lors-du-Masters-ATP-a-Turin-le-22-novembre-2026-2388499.jpg",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/74inbBNvNPWBquXIT_cT8OZF3iI=/0x0:2032x1143/800x0/images/Theo-Arribage-et-Albano-Olivetti-lors-du-Masters-ATP-a-Turin-le-22-novembre-2026-2388514.jpg",
    "titre": "Une performance historique: les Français Théo Arribagé et Albano Olivetti remportent le Masters ATP en double",
    "blessure": false
   },
@@ -2280,15 +2356,6 @@
    "blessure": false
   },
   {
-   "lien": "https://rmcsport.bfmtv.com/tennis/alexander-zverev_DN-202108310603.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-19T16:27+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ro1b_ee7A8WZ2xsKr02jgkzHzCk=/0x40:768x472/800x0/images/Alexander-Zverev-oppose-a-Daniil-Medvedev-au-Masters-de-fin-de-saison-a-Turin-le-16-novembre-2021-1167815.jpg",
-   "titre": "Alexander Zverev",
-   "blessure": false
-  },
-  {
    "lien": "https://www.ubitennis.net/2026/11/ben-shelton-battles-past-rafael-jodar-to-keep-semi-final-bid-alive-and-kicking-at-nitto-atp-finals/",
    "source": "Ubitennis",
    "langue": "en",
@@ -3765,73 +3832,6 @@
    "vo": "“The best chance to beat him”: Medvedev sees an opening against Alcaraz in Turin",
    "titre": "« La meilleure chance de le battre » : Medvedev voit une ouverture contre Alcaraz à Turin",
    "titre_fr": "« La meilleure chance de le battre » : Medvedev voit une ouverture contre Alcaraz à Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/daniil-medvedev-begins-title-tilt-with-resilient-victory-over-flavio-cobolli/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-16T22:20+00:00",
-   "image": null,
-   "vo": "Daniil Medvedev Begins Title Tilt With Resilient Victory Over Flavio Cobolli",
-   "titre": "Daniil Medvedev entame sa course au titre par une victoire résiliente sur Flavio Cobolli",
-   "titre_fr": "Daniil Medvedev entame sa course au titre par une victoire résiliente sur Flavio Cobolli",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/-beaucoup-se-servent-d-un-reglement-debile-entre-rebonds-infinis-perte-de-temps-volontaire-pourquoi-le-service-crispe-de-plus-en-plus/1743862#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-16T22:14+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Pourquoi le service crispe de plus en plus",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/intouchable-au-service-medvedev-gache-la-premiere-apparition-de-cobolli-aux-masters-de-turin-810333.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-16T22:01+00:00",
-   "image": null,
-   "titre": "Intouchable au service, Medvedev gâche la première apparition de Cobolli aux Masters de Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/atp-finals-pourquoi-theo-arribage-et-albano-olivetti-changent-de-raquette-entre-deux-jeux_AV-202611160951.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-16T21:53+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Lfbjg8koZT4tJymQzhLETf8JL9s=/0x106:2048x1258/800x0/images/Theo-Arribage-et-Albano-Olivetti-le-2-novembre-2026-2385075.jpg",
-   "titre": "ATP Finals: pourquoi Théo Arribagé et Albano Olivetti changent de raquettes entre deux jeux",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/unbreakable-medvedev-spoils-cobollis-atp-finals-debut-in-turin-867159.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-16T21:31+00:00",
-   "image": null,
-   "vo": "Unbreakable Medvedev spoils Cobolli’s first appearance at the ATP Finals in Turin",
-   "titre": "L’inarrêtable Medvedev gâche la première apparition de Cobolli aux ATP Finals à Turin",
-   "titre_fr": "L’inarrêtable Medvedev gâche la première apparition de Cobolli aux ATP Finals à Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Daniil-medvedev-demarre-bien-ses-finales-atp-en-battant-flavio-cobolli/1744124#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-16T21:27+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/daniil-medvedev-a-battu-flavio-cobolli-f-faugere-l-equipe/1500000002652312/0:0,2000:1333-828-552-75/744f5.jpg",
-   "titre": "Daniil Medvedev démarre bien ses Finales ATP en battant Flavio Cobolli",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/alcaraz-apres-sa-demonstration-contre-tiafoe-je-ne-me-sens-pas-invincible-mais-parfois-jai-limpression-detre-meilleur-que-mon-adversaire-dans-tous-les-aspects-du-jeu",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-16T18:45+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-coup-droit-1-1024x544.jpeg",
-   "titre": "Alcaraz, après sa démonstration contre Tiafoe : « Je ne me sens pas invincible mais parfois, j’ai l’impression d’être meilleur que mon adversaire dans tous les aspects du jeu »",
    "blessure": false
   }
  ]
