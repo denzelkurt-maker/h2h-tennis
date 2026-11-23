@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-23T03:40+00:00",
+ "maj": "2026-11-23T05:46+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -20,7 +20,7 @@
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 17 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 26 articles",
+  "RMC Sport": "ok, 25 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 17 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -283,6 +283,15 @@
    "blessure": false
   },
   {
+   "lien": "https://rmcsport.bfmtv.com/tennis/video-masters-atp-double-sacres-arribage-et-olivetti-racontent-leur-celebration_VN-202611220406.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-22T19:34+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/iP-g70L6ssSpdGy1DTskNGP_jco=/0x0:1280x720/800x0/images/Masters-ATP-Double-Sacres-Arribage-et-Olivetti-racontent-leur-celebration-2388576.jpg",
+   "titre": "Masters ATP Double : Sacrés, Arribagé et Olivetti racontent leur célébration",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-saves-three-set-points-holds-off-zverev-and-finally-conquers-the-atp-finals-867708.html",
    "source": "Tennis Majors (EN)",
    "langue": "en",
@@ -298,7 +307,7 @@
    "source": "RMC Sport",
    "langue": "fr",
    "date": "2026-11-22T19:24+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/g7J95izF3Jeyv6ZYEExPYqa3A1c=/0x0:2032x1143/800x0/images/Carlos-Alcaraz-lors-du-Masters-ATP-de-Turin-le-22-novembre-2026-2388571.jpg",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/yCWjwa7DppHsLpPeottnRIJXPso=/0x0:2048x1152/800x0/images/Carlos-Alcaraz-lors-du-Masters-ATP-de-Turin-le-22-novembre-2026-2388575.jpg",
    "titre": "Masters ATP: Alcaraz remporte son premier Tournoi des Maîtres à 23 ans",
    "blessure": false
   },
@@ -439,6 +448,24 @@
    "date": "2026-11-22T16:29+00:00",
    "image": "https://img.20mn.fr/fmq0Bx_fQImWsW7zqjoQySk/1200x768_les-francais-theo-arribage-et-albano-olivetti-posent-avec-le-trophee-apres-avoir-remporte-leur-dernier-match-de-double-contre-marcelo-arevalo-du-salvador-et-mate-pavic-de-croatie-lors-de-la-finale-de-l-atp-world-tour-a-turin-le-dimanche-22-novembre-2026-photo-ap-luca-bruno-mas123-26326578842856-2611221706",
    "titre": "Finales ATP : Exploit des Français Arribagé et Olivetti, vainqueurs en double dès leur première participation",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/alexander-zverev_DN-202108310603.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-22T16:16+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ro1b_ee7A8WZ2xsKr02jgkzHzCk=/0x40:768x472/800x0/images/Alexander-Zverev-oppose-a-Daniil-Medvedev-au-Masters-de-fin-de-saison-a-Turin-le-16-novembre-2021-1167815.jpg",
+   "titre": "Alexander Zverev",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/carlos-alcaraz_DN-202305240409.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-22T16:16+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/q0HhSAPh4WNCQyuuNy78EIUsorg=/0x159:2048x1311/800x0/images/Carlos-Alcaraz-a-Madrid-1628893.jpg",
+   "titre": "Carlos Alcaraz",
    "blessure": false
   },
   {
@@ -2347,15 +2374,6 @@
    "blessure": false
   },
   {
-   "lien": "https://rmcsport.bfmtv.com/tennis/alexander-zverev_DN-202108310603.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-19T16:27+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ro1b_ee7A8WZ2xsKr02jgkzHzCk=/0x40:768x472/800x0/images/Alexander-Zverev-oppose-a-Daniil-Medvedev-au-Masters-de-fin-de-saison-a-Turin-le-16-novembre-2021-1167815.jpg",
-   "titre": "Alexander Zverev",
-   "blessure": false
-  },
-  {
    "lien": "https://rmcsport.bfmtv.com/tennis/atp-finals-un-seul-scenario-possible-fils-condamne-a-l-exploit-face-a-zverev-pour-rallier-les-demi-finales-du-masters_AV-202611190752.html",
    "source": "RMC Sport",
    "langue": "fr",
@@ -3810,26 +3828,6 @@
    "vo": "November 17, 1991: The day Pete Sampras claimed his first season-ending ATP Masters Cup",
    "titre": "17 novembre 1991 : le jour où Pete Sampras a remporté sa première Masters Cup ATP de fin de saison",
    "titre_fr": "17 novembre 1991 : le jour où Pete Sampras a remporté sa première Masters Cup ATP de fin de saison",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4263407-20261117-arthur-fils-jodar-chaine-tv-heure-voir-2e-match-groupe-atp-finals-masters?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-17T06:32+00:00",
-   "image": "https://img.20mn.fr/A0CLkIfjTMyZG_fKSo5-byk/1200x768_battu-par-ben-shelton-lors-du-1er-match-arthur-fils-defie-rafael-jodar-mardi-aux-finales-atp-de-turin-photo-d-illustration",
-   "titre": "Arthur Fils-Jodar : Sur quelle chaîne TV et à quelle heure voir le 2e match de groupe des ATP Finals Masters ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/daniil-medvedev-begins-title-tilt-with-resilient-victory-over-flavio-cobolli/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-16T22:20+00:00",
-   "image": null,
-   "vo": "Daniil Medvedev Begins Title Tilt With Resilient Victory Over Flavio Cobolli",
-   "titre": "Daniil Medvedev entame la course au titre par une victoire résiliente sur Flavio Cobolli",
-   "titre_fr": "Daniil Medvedev entame la course au titre par une victoire résiliente sur Flavio Cobolli",
    "blessure": false
   }
  ]
