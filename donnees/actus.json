@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-23T15:44+00:00",
+ "maj": "2026-11-23T17:37+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,16 +18,54 @@
   "L'Équipe": "ok, 39 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 19 articles",
+  "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 26 articles",
+  "RMC Sport": "ok, 25 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 17 articles",
-  "ESPN": "ok, 14 articles",
+  "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/i-would-have-signed-it-zverev-proud-of-his-fight-and-of-his-season-despite-the-turin-final-867756.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-23T17:23+00:00",
+   "image": null,
+   "vo": "“I would have signed it”: Zverev proud of his fight and of his season despite the Turin final",
+   "titre": "« Je l'aurais signé » : Zverev est fier de son combat et de sa saison malgré la finale de Turin",
+   "titre_fr": "« Je l'aurais signé » : Zverev est fier de son combat et de sa saison malgré la finale de Turin",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/matteo-berrettini-sur-la-tres-mauvaise-nouvelle-au-sujet-de-sinner-jai-envie-de-lui-dire-quil-a-tout-le-temps-devant-lui-quil-est-jeune-et-je-suis-certain-quil-reviendra-en",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T16:37+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Sinner-decu-wim-1024x510.jpeg",
+   "titre": "Matteo Berrettini sur la très mauvaise nouvelle au sujet de Sinner : « J’ai envie de lui dire qu’il a tout le temps devant lui, qu’il est jeune, et je suis certain qu’il reviendra en étant le Jannik que nous connaissons ",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/rennae-stubbs-sur-la-vengeance-dalcaraz-je-parie-que-carlos-na-pas-oublie-ce-que-zverev-lui-a-dit-ce-jour-la-je-trouvais-cela-inutile",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T16:19+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-Alcaraz--1024x512.jpeg",
+   "titre": "Rennae Stubbs sur la vengeance d’Alcaraz : « Je parie que Carlos n’a pas oublié ce que Zverev lui a dit ce jour-là. Je trouvais cela inutile »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/david-ferrer-sur-le-nouveau-phenomene-du-circuit-nous-savions-quil-finirait-par-atteindre-ce-niveau-mais-quil-y-soit-parvenu-en-seulement-un-an-est-tout-simplement-incroyable",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T15:56+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Ferrer-capitaine-Espagne-1024x560.jpeg",
+   "titre": "David Ferrer sur le nouveau phénomène du circuit : « Nous savions qu’il finirait par atteindre ce niveau, mais qu’il y soit parvenu en seulement un an est tout simplement incroyable »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/tim-henman-sur-alexander-zverev-battu-par-carlos-alcaraz-en-finale-cest-la-question-que-jaimerais-lui-poser-pour-essayer-de-comprendre",
    "source": "We Love Tennis",
@@ -3790,42 +3828,6 @@
    "date": "2026-11-17T16:40+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-service-1-1024x599.jpeg",
    "titre": "Arthur Fils avant d’affronter Alexander Zverev sur le Masters de Turin : « Je n’ai pas peur et rien à perdre »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Premiere-victoire-francaise-depuis-15-ans-les-chiffres-de-la-premiere-victoire-d-arthur-fils-aux-finales-atp/1744282#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T16:32+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-mardi-a-turin-face-a-rafael-jodar-f-faugere-l-equipe/1500000002652905/0:0,1500:1000-828-552-75/c4c8b.jpg",
-   "titre": "Première victoire française depuis 15 ans : les chiffres de la première victoire d'Arthur Fils aux Finales ATP",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/ivan-ljubicic-sans-detour-sur-les-chances-de-novak-djokovic-en-grand-chelem-cela-ne-depend-plus-de-lui",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T16:17+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Djokovic-1024x551.jpeg",
-   "titre": "Ivan Ljubicic sans détour sur les chances de Novak Djokovic en Grand Chelem : « Cela ne dépend plus de lui »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/tennis-le-message-incendiaire-du-numero-un-mondial-en-double-contre-le-president-de-l-atp_AV-202611170721.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-17T16:12+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/wEJm8PZzd-eSjedQCCowSgyg1dI=/0x0:2048x1152/800x0/images/Harri-Heliovaara-et-Henry-Patten-recoivent-le-trophee-des-numeros-un-en-double-le-16-novembre-2026-2385550.jpg",
-   "titre": "Tennis: le message incendiaire du numéro un mondial en double contre le président de l'ATP",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/masters-atp-pourquoi-la-victoire-d-arthur-fils-face-a-rafael-jodar-est-historique-pour-le-tennis-francais_AV-202611170688.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-17T15:31+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/wewdOfJ998E-gPPnXaquKL4O86s=/0x0:2048x1152/800x0/images/Arthur-Fils-lors-du-Masters-ATP-le-17-novembre-2026-2385529.jpg",
-   "titre": "Masters ATP: pourquoi la victoire d'Arthur Fils face à Rafael Jodar est historique pour le tennis français",
    "blessure": false
   }
  ]
