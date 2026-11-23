@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-23T05:46+00:00",
+ "maj": "2026-11-23T08:11+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -35,6 +35,24 @@
    "date": "2026-11-23T13:55+00:00",
    "image": null,
    "titre": "23 novembre 1986 : le jour où Martina Navratilova a établi un record unique en remportant le Masters pour la huitième fois",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alexander-zverev-apres-sa-defaite-en-finale-contre-carlos-alcaraz-jai-en-quelque-sorte-joue-sans-ma-plus-grande-arme-car-javais-tres-mal-a-la-cheville",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T07:48+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-Alcaraz--1024x512.jpeg",
+   "titre": "Alexander Zverev, après sa défaite en finale contre Carlos Alcaraz : « J’ai en quelque sorte joué sans ma plus grande arme car j’avais très mal à la cheville »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-apres-sa-victoire-contre-alexander-zverev-quand-je-me-suis-allonge-sur-le-court-pour-celebrer-je-me-suis-dit-honnetement-sil-vous-plait-faites-quil-n",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T07:16+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-celebration--1024x512.jpeg",
+   "titre": "Carlos Alcaraz, après sa victoire contre Alexander Zverev : « Quand je me suis allongé sur le court pour célébrer, je me suis dit honnêtement : ‘s’il vous plaît, faites qu’il n’y ait pas une annonce tardive et que ma bal",
    "blessure": false
   },
   {
@@ -3808,26 +3826,6 @@
    "date": "2026-11-17T07:00+00:00",
    "image": null,
    "titre": "17 novembre 1991 : Le jour où Pete Sampras a remporté son premier Masters",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-le-match-entre-arthur-fils-et-rafael-jodar-en-atp-finals/1743970#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T06:50+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-est-actuellement-septieme-mondial-f-faugere-l-equipe/1500000002651848/0:0,2000:1333-828-552-75/52b8a.jpg",
-   "titre": "À quelle heure et sur quelle chaîne voir le match entre Arthur Fils et Rafael Jodar en Finales ATP ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/november-17-1991-sampras-wins-first-masters-title-306014.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-17T06:45+00:00",
-   "image": null,
-   "vo": "November 17, 1991: The day Pete Sampras claimed his first season-ending ATP Masters Cup",
-   "titre": "17 novembre 1991 : le jour où Pete Sampras a remporté sa première Masters Cup ATP de fin de saison",
-   "titre_fr": "17 novembre 1991 : le jour où Pete Sampras a remporté sa première Masters Cup ATP de fin de saison",
    "blessure": false
   }
  ]
