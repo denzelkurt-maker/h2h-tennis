@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-23T11:32+00:00",
+ "maj": "2026-11-23T14:03+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,10 +15,10 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 40 articles",
+  "L'Équipe": "ok, 39 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 17 articles",
+  "We Love Tennis": "ok, 19 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 25 articles",
   "franceinfo": "ok, 18 articles",
@@ -35,6 +35,89 @@
    "date": "2026-11-23T13:55+00:00",
    "image": null,
    "titre": "23 novembre 1986 : le jour où Martina Navratilova a établi un record unique en remportant le Masters pour la huitième fois",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-nen-a-pas-fini-avec-2026-cette-competition-est-tout-aussi-importante-que-le-masters-pour-moi",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T13:35+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-conf-1024x533.jpeg",
+   "titre": "Carlos Alcaraz n’en a pas fini avec 2026 : « Cette compétition est tout aussi importante que le Masters pour moi »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alexander-zverev-si-on-mavait-dit-en-debut-de-saison-que-je-perdrai-la-finale-du-masters-contre-carlos-alcaraz-apres-une-saison-pareille-jaurais-signe",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T13:08+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-presse-conf-1024x579.jpeg",
+   "titre": "Alexander Zverev : « Si on m’avait dit en début de saison que je perdrai la finale du Masters contre Carlos Alcaraz après une saison pareille, j’aurais signé »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-decision-majeure-de-jannik-sinner-pose-question-il-aura-peut-etre-le-regret-davoir-attendu-trop-longtemps-pour-eviter-quelque-chose-qui-au-bout-du-compte-etait-inevitable",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T12:44+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-29-at-17.02.19-1024x548.jpeg",
+   "titre": "La décision majeure de Jannik Sinner pose question : « Il aura peut-être le regret d’avoir attendu trop longtemps pour éviter quelque chose qui, au bout du compte, était inévitable »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jannik-sinner-opte-pour-loperation-et-peut-oublier-lopen-daustralie",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T12:12+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Sinner-profil-wim-1024x575.jpeg",
+   "titre": "Jannik Sinner opte pour l’opération et peut oublier l’Open d’Australie !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-sur-son-attitude-lors-des-changements-de-cote-je-pense-que-le-fait-de-danser-et-de-chanter-un-peu-maide-beaucoup-a-me-detendre",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T11:59+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-sourire-presse-conf-1024x556.jpeg",
+   "titre": "Carlos Alcaraz sur son attitude lors des changements de côté : « Je pense que le fait de danser et de chanter un peu m’aide beaucoup à me détendre »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Jannik-sinner-pourrait-se-faire-operer-du-genou-droit-des-ce-mardi-selon-des-medias-italiens/1745566#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-23T11:58+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/jannik-sinner-lors-de-la-finale-de-wimbledon-a-reau-l-equipe/1500000002657568/236:123,1769:1145-828-552-75/6b411.jpg",
+   "titre": "Selon des médias italiens, Jannik Sinner va se faire opérer du genou droit dès ce mardi et être absent plusieurs mois",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-nouveau-6e-mondial-au-classement-atp-alexander-zverev-creuse-son-avance-sur-jannik-sinner/1745562#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-23T11:51+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-atteint-son-meilleur-classement-f-faugere-l-equipe/1500000002657561/95:27,1925:1247-828-552-75/c64f5.jpg",
+   "titre": "Arthur Fils nouveau 6e mondial au classement ATP, Alexander Zverev creuse son avance sur Jannik Sinner",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/alex-corretja-apres-le-sacre-dalcaraz-quand-rafael-nadal-remportait-tous-ces-titres-ca-semblait-normal-alors-que-ca-ne-lest-pas-cest-la-meme-chose-aujourdhui-avec",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T11:28+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Carlos-Alcaraz-trophee-1024x555.jpeg",
+   "titre": "Alex Corretja, après le sacre d’Alcaraz : « Quand Rafael Nadal remportait tous ces titres, ça semblait normal, alors que ça ne l’est pas. C’est la même chose aujourd’hui avec Carlos »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/this-trophy-gives-value-to-everything-that-has-happened-this-year-alcaraz-from-four-and-a-half-months-out-to-the-so-desired-atp-finals-crown-867787.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-23T11:04+00:00",
+   "image": null,
+   "vo": "“This trophy gives value to everything that has happened this year”: Alcaraz, from four and a half months out to the so desired ATP Finals crown",
+   "titre": "« Ce trophée donne de la valeur à tout ce qui s’est passé cette année » : Alcaraz, de quatre mois et demi d’absence à la couronne tant convoitée des ATP Finals",
+   "titre_fr": "« Ce trophée donne de la valeur à tout ce qui s’est passé cette année » : Alcaraz, de quatre mois et demi d’absence à la couronne tant convoitée des ATP Finals",
    "blessure": false
   },
   {
@@ -128,6 +211,17 @@
    "blessure": false
   },
   {
+   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/those-little-moments-help-me-a-lot-alcaraz-explains-why-he-sang-and-danced-at-changeovers-in-the-atp-finals-final-867783.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-23T07:35+00:00",
+   "image": null,
+   "vo": "“Those little moments help me a lot”: Alcaraz explains why he sang and danced at changeovers in the ATP Finals final",
+   "titre": "« Ces petits moments m'aident beaucoup » : Alcaraz explique pourquoi il a chanté et dansé lors des changements de côté en finale des ATP Finals",
+   "titre_fr": "« Ces petits moments m'aident beaucoup » : Alcaraz explique pourquoi il a chanté et dansé lors des changements de côté en finale des ATP Finals",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-apres-sa-victoire-contre-alexander-zverev-quand-je-me-suis-allonge-sur-le-court-pour-celebrer-je-me-suis-dit-honnetement-sil-vous-plait-faites-quil-n",
    "source": "We Love Tennis",
    "langue": "fr",
@@ -183,15 +277,6 @@
    "date": "2026-11-22T22:04+00:00",
    "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
    "titre": "Alcaraz, le surdoué tout terrain qui roulerait même sur l'eau",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Faillites-individuelles-absence-de-revolte-face-a-l-australie-les-bleues-n-ont-pas-repondu-a-l-attente-de-la-capitaine-alize-cornet-malgre-tout-comprehensive-il-va-vraiment-falloir-que-je-les-aide/1745472#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-22T21:32+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Piétinées sans se révolter, les Bleues si loin d'une splendeur passée",
    "blessure": false
   },
   {
@@ -726,6 +811,15 @@
    "date": "2026-11-22T12:40+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2025/10/Bartoli-1024x511.jpeg",
    "titre": "Marion Bartoli sur Alexander Zverev : « C’est un débat qui m’exaspère »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Faillites-individuelles-absence-de-revolte-face-a-l-australie-les-bleues-n-ont-pas-repondu-a-l-attente-de-la-capitaine-alize-cornet-malgre-tout-comprehensive-il-va-vraiment-falloir-que-je-les-aide/1745472#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T12:16+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Piétinées, les Bleues si loin d'une splendeur passée",
    "blessure": false
   },
   {
@@ -3730,102 +3824,6 @@
    "date": "2026-11-17T11:42+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-service-1024x550.jpeg",
    "titre": "Greg Rusedski prévient Alcaraz : « Cela reste un problème pour Carlos. C’est ce que Roger Federer a su faire mieux que quiconque »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/tim-henman-pour-moi-zverev-est-le-joueur-le-plus-resistant-du-circuit-avec-tout-le-respect-que-je-leur-dois-alcaraz-et-sinner-nont-pas-fait-preuve-de-cela-cette-annee",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T11:02+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-revers-1024x507.jpeg",
-   "titre": "Tim Henman : « Pour moi, Zverev est le joueur le plus résistant du circuit. Avec tout le respect que je leur dois, Alcaraz et Sinner n’ont pas fait preuve de cela cette année »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4263491-20261117-direct-fils-jodar-victoire-obligatoire-arthur-fils-veut-rester-vie-masters-suivez-match?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-17T11:02+00:00",
-   "image": "https://img.20mn.fr/SfRMD-p4SWSLejmZ8oK4ayk/1200x768_ipa91306362-arthur-fils-fra-lors-des-nitto-atp-finals-2026-un-match-international-de-tennis-a-turin-en-italie-le-17-novembre-2026-ipa-agency-net-ip-apressitaly-ipa91306362-credit-ipa-agency-net-sipa-2611171546",
-   "titre": "Fils - Jodar : Arthur Fils renverse tout et met fin à une série noire de quinze ans pour le tennis français au Masters… Revivez ce match avec nous",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/ljubicic-sur-la-date-de-retour-de-sinner-jai-vu-jannik-a-monte-carlo-avant-de-venir-a-turin-il-etait-souriant-et-ma-dit-quil-suivait-tous-les-protocoles",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T10:43+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Ljubicic-micro-1024x525.jpeg",
-   "titre": "Ljubicic sur la date de retour de Sinner : « J’ai vu Jannik à Monte-Carlo avant de venir à Turin. Il était souriant et m’a dit qu’il suivait tous les protocoles »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/masters-2026-tous-les-scenarios-de-qualification-810353.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-17T10:32+00:00",
-   "image": null,
-   "titre": "Shelton rejoint Zverev en demi-finales : tous les scénarios de qualification restants aux ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-all-the-qualification-scenarios-867176.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-17T10:29+00:00",
-   "image": null,
-   "vo": "Fils or Shelton? All the qualification scenarios at the ATP Finals",
-   "titre": "Fils ou Shelton ? Tous les scénarios de qualification pour les ATP Finals",
-   "blessure": false,
-   "titre_fr": "Fils ou Shelton ? Tous les scénarios de qualification pour les ATP Finals"
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/flavio-cobolli-feeling-the-weight-of-sinners-absence-at-atp-finals/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-17T10:14+00:00",
-   "image": null,
-   "vo": "Flavio Cobolli Feeling The Weight of Sinner’s Absence At ATP Finals",
-   "titre": "Flavio Cobolli ressent le poids de l'absence de Sinner aux ATP Finals",
-   "titre_fr": "Flavio Cobolli ressent le poids de l'absence de Sinner aux ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/corretja-previent-alcaraz-a-propos-de-son-prochain-adversaire-il-est-tres-intelligent-et-sait-comment-manoeuvrer-ses-adversaires-tu-vas-devoir-te-battre-enormement",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T10:04+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Alex-1024x546.jpg",
-   "titre": "Corretja prévient Alcaraz à propos de son prochain adversaire : « Il est très intelligent et sait comment manoeuvrer ses adversaires…Tu vas devoir te battre enormément »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/atp-chiefs-under-fire-for-skipping-doubles-trophy-presentation-at-year-end-finals/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-17T09:39+00:00",
-   "image": null,
-   "vo": "ATP Chiefs Under Fire For Skipping Doubles Trophy Presentation At Year-End Finals",
-   "titre": "Les dirigeants de l'ATP critiqués pour avoir sauté la remise du trophée du double lors des finales de fin d'année",
-   "titre_fr": "Les dirigeants de l'ATP critiqués pour avoir sauté la remise du trophée du double lors des finales de fin d'année",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-responsable-de-lassociation-ferrero-shelton-toni-lache-une-bombe-je-savais-que-ben-cherchait-un-entraineur-parce-quil-a-appele-mon-neveu-rafael-pour-lui-demander-conseil",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T09:32+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/05/Toni-Nadal-1024x555.jpeg",
-   "titre": "Rafael Nadal responsable de l’association Ferrero-Shelton ? Toni lâche une bombe : « Je savais que Ben cherchait un entraîneur parce qu’il a appelé mon neveu Rafael pour lui demander conseil",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/sinner-manque-beaucoup-a-ce-joueur-personnellement-ca-maurait-beaucoup-arrange-sans-aucun-doute-son-premier-match-naurait-pas-fini-comme-ca-jaurais-pu-jouer-beaucoup",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T09:07+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/PHOTO-2026-11-16-23-10-08-1024x682.jpg",
-   "titre": "Sinner manque beaucoup à ce joueur : « Personnellement, ça m’aurait beaucoup arrangé, sans aucun doute son premier match n’aurait pas fini comme ça. J’aurais pu jouer beaucoup plus sereinement »",
    "blessure": false
   }
  ]
