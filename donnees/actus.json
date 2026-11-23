@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-23T17:37+00:00",
+ "maj": "2026-11-23T19:44+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -20,7 +20,7 @@
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 25 articles",
+  "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 17 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -28,6 +28,53 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/sinner-to-undergo-knee-surgery-in-finland-on-tuesday-set-to-miss-the-australian-open-report-867806.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-23T19:00+00:00",
+   "image": null,
+   "vo": "Sinner to undergo knee surgery in Finland on Tuesday, set to miss the Australian Open (report)",
+   "titre": "Sinner va subir une opération du genou en Finlande mardi et devrait manquer l'Open d'Australie (article)",
+   "titre_fr": "Sinner va subir une opération du genou en Finlande mardi et devrait manquer l'Open d'Australie (article)",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/alcaraz-la-classe-incarnee-je-nai-pas-du-tout-limpression-detre-le-meilleur-joueur-du-monde-en-ce-moment-le-numero-1-cest-zverev-il-faut-quon-en-prenne-conscience",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T18:38+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/01/Alcaraz-Zverev-1024x513.jpeg",
+   "titre": "Alcaraz, la classe incarnée : « Je n’ai pas du tout l’impression d’être le meilleur joueur du monde en ce moment. Le numéro 1, c’est Zverev. Il faut qu’on en prenne conscience »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/rick-macci-senflamme-sur-carlos-alcaraz-nous-navons-jamais-vu-un-joueur-dote-dun-tel-talent",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T18:18+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-revers--1024x541.jpeg",
+   "titre": "Rick Macci s’enflamme sur Carlos Alcaraz : « Nous n’avons jamais vu un joueur doté d’un tel talent »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Quel-sera-le-classement-de-jannik-sinner-s-il-manque-les-trois-premiers-mois-de-2027/1745672#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-23T18:09+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/jannik-sinner-durant-wimbledon-a-reau-l-equipe/1500000002657897/111:63,1888:1248-828-552-75/d47c4.jpg",
+   "titre": "Quel sera le classement de Jannik Sinner s'il manque les trois premiers mois de 2027 ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/lucas-pouille-apres-lannonce-de-son-grand-retour-jaimerais-beaucoup-etre-a-roland-garros",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T17:45+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/07/Pouille-wim-2024-Lucas-1024x534.jpeg",
+   "titre": "Lucas Pouille, après l’annonce de son grand retour : « J’aimerais beaucoup être à Roland-Garros »",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/i-would-have-signed-it-zverev-proud-of-his-fight-and-of-his-season-despite-the-turin-final-867756.html",
    "source": "Tennis Majors (EN)",
@@ -67,11 +114,29 @@
    "blessure": false
   },
   {
+   "lien": "https://rmcsport.bfmtv.com/tennis/video-tennis-s-ils-sont-meilleurs-il-faut-les-prendre-moscato-tranche-pour-la-coupe-davis_VN-202611230641.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-23T15:52+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/dRnukFdKPT1ksA0WQAuG7ou4cQI=/0x0:1280x720/800x0/images/Tennis-S-ils-sont-meilleurs-il-faut-les-prendre-Moscato-tranche-pour-la-Coupe-Davis-2389024.jpg",
+   "titre": "Tennis : S'ils sont meilleurs \"il faut les prendre\" Moscato tranche pour la Coupe Davis",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/video-tennis-c-est-peut-etre-le-plus-gros-defi-de-ma-carriere-qui-m-attend-pouille-annonce-son-retour-a-la-competition-pour-2027_VN-202611230632.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-23T15:42+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/r7SEYBrd3N2bDIFWNaWDieoi-n0=/0x0:1280x720/800x0/images/Tennis-C-est-peut-etre-le-plus-gros-defi-de-ma-carriere-qui-m-attend-Pouille-annonce-son-retour-a-la-competition-pour-2027-2389020.jpg",
+   "titre": "Tennis : \"C'est peut-être le plus gros défi de ma carrière qui m'attend\", Pouille annonce son retour à la compétition pour 2027",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/tim-henman-sur-alexander-zverev-battu-par-carlos-alcaraz-en-finale-cest-la-question-que-jaimerais-lui-poser-pour-essayer-de-comprendre",
    "source": "We Love Tennis",
    "langue": "fr",
    "date": "2026-11-23T15:17+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-Alcaraz-trophee-Masters-finale-1024x497.jpeg",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-Alcaraz-ceremonie--1024x512.jpeg",
    "titre": "Tim Henman sur Alexander Zverev, battu par Carlos Alcaraz en finale : « C’est la question que j’aimerais lui poser pour essayer de comprendre »",
    "blessure": false
   },
@@ -3764,71 +3829,6 @@
    "image": "https://www.welovetennis.fr/wp-content/uploads/2022/11/Jimmy-Connors--1024x482.jpg",
    "titre": "Jimmy Connors, après avoir été opéré d’un cancer : « Mettez de la crème solaire »",
    "blessure": true
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/fils-renverse-jodar-et-reste-en-vie-aux-atp-finals-810372.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-17T17:19+00:00",
-   "image": null,
-   "titre": "Fils renverse Jodar et reste en vie aux ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/alexander-zverev-en-froid-avec-une-legende-du-tennis-je-veux-bien-discuter-avec-lui-mais-pas-ici-ca-vous-pouvez-loublier",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T17:07+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-1-1024x544.jpeg",
-   "titre": "Alexander Zverev, en froid avec une légende du tennis : « Je veux bien discuter avec lui, mais pas ici. Ça, vous pouvez l’oublier »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/fils-turns-it-around-against-jodar-to-stay-alive-at-the-atp-finals-867196.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-17T17:07+00:00",
-   "image": null,
-   "vo": "Fils turns it around against Jodar to stay alive at the ATP Finals",
-   "titre": "Fils renverse la situation face à Jodar pour rester en lice aux ATP Finals",
-   "titre_fr": "Fils renverse la situation face à Jodar pour rester en lice aux ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/-tout-le-monde-etait-contre-cette-decision-radicale-theo-arribage-le-toulousain-qui-a-fait-fi-des-avis-pour-se-consacrer-entierement-au-double/1744056#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T17:05+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Arribagé, fils de footballeur et spécialiste de double",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/video-masters-atp-pas-grand-chose-a-perdre-fils-serein-avant-de-defier-zverev_VN-202611170769.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-17T17:03+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/0CJPxKrYBK7PAIi72UY7pHS0L6U=/0x0:1280x720/800x0/images/Masters-ATP-Pas-grand-chose-a-perdre-Fils-serein-avant-de-defier-Zverev-2385607.jpg",
-   "titre": "Masters ATP : \"Pas grand chose à perdre\", Fils serein avant de défier Zverev",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-apres-sa-premiere-victoire-aux-finales-atp-je-m-en-suis-un-peu-voulu-sur-le-premier-set/1744290#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T17:00+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-celebre-sa-victoire-face-a-rafael-jodar-f-faugere-l-equipe/1500000002652921/0:0,2000:1333-828-552-75/0223b.jpg",
-   "titre": "Arthur Fils après sa première victoire aux Finales ATP : « Je m'en suis un peu voulu sur le premier set »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-avant-daffronter-alexander-zverev-sur-le-masters-de-turin-je-nai-pas-peur-et-rien-a-perdre",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T16:40+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-service-1-1024x599.jpeg",
-   "titre": "Arthur Fils avant d’affronter Alexander Zverev sur le Masters de Turin : « Je n’ai pas peur et rien à perdre »",
-   "blessure": false
   }
  ]
 }
