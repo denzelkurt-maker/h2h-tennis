@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-23T09:57+00:00",
+ "maj": "2026-11-23T11:32+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -35,6 +35,33 @@
    "date": "2026-11-23T13:55+00:00",
    "image": null,
    "titre": "23 novembre 1986 : le jour où Martina Navratilova a établi un record unique en remportant le Masters pour la huitième fois",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/actu/meilleur-classement-pour-arthur-fils-deja-au-niveau-de-gael-monfils-et-juste-derriere-jo-wilfried-tsonga",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T10:50+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Arthur-Fils-1-1024x562.jpeg",
+   "titre": "Meilleur classement pour Arthur Fils, déjà au niveau de Gaël Monfils et juste derrière Jo-Wilfried Tsonga",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/lattitude-dalcaraz-lors-des-changements-de-cote-fait-parler-si-en-tant-quadversaire-je-me-retrouve-face-a-un-gars-comme-carlos-et-que-je-le-vois-danser-pendant-les-pauses-au-rythme-de-la-m",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T10:25+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Capture-decran-2026-11-23-a-11.24.36-1024x555.png",
+   "titre": "L’attitude d’Alcaraz lors des changements de côté fait parler : « Si en tant qu’adversaire, je me retrouve face à un gars comme Carlos, et que je le vois danser pendant les pauses au rythme de la musique, je commence à t",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/murray-apres-la-victoire-dalcaraz-contre-zverev-quand-carlos-est-entre-sur-le-court-je-lobservais-et-je-me-suis-dit-une-chose",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T09:55+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-enttree-1024x567.jpeg",
+   "titre": "Murray, après la victoire d’Alcaraz contre Zverev : « Quand Carlos est entré sur le court, je l’observais et je me suis dit une chose »",
    "blessure": false
   },
   {
@@ -3799,33 +3826,6 @@
    "date": "2026-11-17T09:07+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/PHOTO-2026-11-16-23-10-08-1024x682.jpg",
    "titre": "Sinner manque beaucoup à ce joueur : « Personnellement, ça m’aurait beaucoup arrangé, sans aucun doute son premier match n’aurait pas fini comme ça. J’aurais pu jouer beaucoup plus sereinement »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/carlos-alcaraz-devoile-la-premiere-chose-quil-fera-a-la-fin-de-la-saison-eh-bien-je-ne-peux-pas-encore-y-jouer-parce-que-mon-equipe-ne-me-le-permet-pas",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T08:37+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-public-1-1024x510.jpeg",
-   "titre": "Carlos Alcaraz dévoile la première chose qu’il fera à la fin de la saison : « Eh bien, je ne peux pas encore y jouer, parce que mon équipe ne me le permet pas »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Lapo-becherini-le-preparateur-physique-charge-de-preserver-la-puissance-d-arthur-fils-son-tennis-implique-de-l-intensite-tout-au-long-d-un-match/1744122#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T08:28+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Becherini, préparateur physique de Fils : «Son tennis implique de l'intensité»",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/cobolli-y-croit-encore-je-suis-un-peu-triste-de-ma-prestation-et-de-cette-defaite-mais-ce-nest-pas-termine-il-me-reste-encore-deux-matchs",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T08:12+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/PHOTO-2026-11-16-23-28-55.jpg",
-   "titre": "Cobolli y croit encore : « je suis un peu triste de ma prestation et de cette défaite, mais ce n’est pas terminé. Il me reste encore deux matchs »",
    "blessure": false
   }
  ]
