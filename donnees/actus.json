@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-23T19:44+00:00",
+ "maj": "2026-11-23T21:31+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -20,7 +20,7 @@
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 26 articles",
+  "RMC Sport": "ok, 25 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 17 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -28,6 +28,68 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.ubitennis.net/2026/11/report-jannik-sinner-to-have-knee-surgery-and-will-miss-australian-open/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-23T20:54+00:00",
+   "image": null,
+   "vo": "REPORT: Jannik Sinner To Have Knee Surgery And Will Miss Australian Open",
+   "titre": "ARTICLE : Jannik Sinner va subir une opération du genou et manquera l’Open d’Australie",
+   "titre_fr": "ARTICLE : Jannik Sinner va subir une opération du genou et manquera l’Open d’Australie",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.tennismajors.com/others-news/davis-cup-news/berrettini-called-up-davidovich-fokina-and-shapovalov-out-the-davis-cup-final-8-squads-867814.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-23T20:52+00:00",
+   "image": null,
+   "vo": "Berrettini called up, Davidovich Fokina and Shapovalov out: the Davis Cup Final 8 squads",
+   "titre": "Berrettini appelé, Davidovich Fokina et Shapovalov écartés : les équipes des 8 finalistes de la Coupe Davis",
+   "titre_fr": "Berrettini appelé, Davidovich Fokina et Shapovalov écartés : les équipes des 8 finalistes de la Coupe Davis",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/alexander-zverev-olga-sharypova-violences-conjugales-accusations-denegations-abus-atp-503795.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-23T20:40+00:00",
+   "image": null,
+   "titre": "Accusations de violence conjugale envers Zverev : les 22 dates-clés",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/alexander-zverev-ex-girl-friend-olga-sharypova-domestic-abuse-violence-accusations-dates-503798.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-23T20:40+00:00",
+   "image": null,
+   "vo": "Domestic abuse allegations against Alexander Zverev: Key dates – updated in November 2026",
+   "titre": "Allégations de violences conjugales à l'encontre d'Alexander Zverev : dates clés – mise à jour en novembre 2026",
+   "titre_fr": "Allégations de violences conjugales à l'encontre d'Alexander Zverev : dates clés – mise à jour en novembre 2026",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Absent-depuis-juillet-jannik-sinner-s-envole-vers-la-finlande-pour-regler-le-plus-grand-defi-medical-de-sa-carriere/1745664#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-23T20:20+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Sinner face au plus grand défi médical de sa carrière",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/zverev-faces-civil-lawsuit-from-former-partner-brenda-patea-over-his-lequipe-interview-867813.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-23T20:20+00:00",
+   "image": null,
+   "vo": "Zverev faces civil lawsuit from former partner Brenda Patea over his L’Équipe interview",
+   "titre": "Zverev fait l'objet d'une plainte civile déposée par son ancienne compagne Brenda Patea à la suite de son entretien avec L’Équipe",
+   "titre_fr": "Zverev fait l'objet d'une plainte civile déposée par son ancienne compagne Brenda Patea à la suite de son entretien avec L’Équipe",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/sinner-to-undergo-knee-surgery-in-finland-on-tuesday-set-to-miss-the-australian-open-report-867806.html",
    "source": "Tennis Majors (EN)",
@@ -3775,60 +3837,6 @@
    "image": "https://www.franceinfo.fr/pictures/zmpfWNRQXm4wXhW5x-Y5qhERhYA/268x0:652x682/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/11/17/6afc6ce672584976983710.jpg",
    "titre": "Arthur Fils remporte son premier match en carrière au Masters",
    "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/-il-nous-a-appeles-theo-arribage-et-albano-olivetti-ont-recu-un-coup-de-fil-de-gael-monfils-capitaine-de-l-equipe-de-france-de-coupe-davis/1744325#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T19:27+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/albano-olivetti-a-gauche-et-theo-arribage-a-turin-mardi-f-faugere-l-equipe/1500000002652991/0:0,800:533-828-552-75/2990e.jpg",
-   "titre": "« Il nous a appelés » : Théo Arribagé et Albano Olivetti ont reçu un coup de fil de Gaël Monfils, capitaine de l'équipe de France de Coupe Davis",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Finales-atp-theo-arribage-et-albano-olivetti-s-imposent-contre-orlando-luz-et-rafael-matos-et-restent-en-course-pour-les-demi-finales/1744312#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T18:46+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/theo-arribage-de-face-et-albano-olivetti-ont-gagne-contre-orlando-luz-et-rafael-matos-f-faugere-l-equipe/1500000002652967/0:0,1999:1333-828-552-75/6e375.jpg",
-   "titre": "Théo Arribagé et Albano Olivetti s'imposent contre Orlando Luz et Rafael Matos et restent en course pour les demi-finales des Finales ATP",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/justine-henin-apres-la-premiere-victoire-darthur-fils-sur-le-masters-de-turin-je-naime-pas-dire-cela",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T18:45+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Arthur-Fils-1-1024x562.jpeg",
-   "titre": "Justine Henin après la première victoire d’Arthur Fils sur le Masters de Turin : « Je n’aime pas dire cela… »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Video/Le-resume-de-la-victoire-d-arthur-fils-face-a-rafael-jodar/20245769#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T18:21+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Le résumé vidéo de la victoire de Fils face à Jodar",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/comme-un-quart-de-finale-arthur-fils-impatient-d-en-decoudre-avec-le-n-1-mondial-alexander-zverev-aux-atp-finals_AV-202611170821.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-17T17:44+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/MxAVGor1XXRdhRBuqOaiRmGBdK0=/0x106:2048x1258/800x0/images/Arthur-Fils-aux-ATP-Finals-le-17-novembre-2026-2385656.jpg",
-   "titre": "\"Comme un quart de finale\": Arthur Fils impatient d'en découdre avec le n°1 mondial Alexander Zverev aux ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/jimmy-connors-apres-avoir-ete-opere-dun-cancer-mettez-de-la-creme-solaire",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T17:40+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/11/Jimmy-Connors--1024x482.jpg",
-   "titre": "Jimmy Connors, après avoir été opéré d’un cancer : « Mettez de la crème solaire »",
-   "blessure": true
   }
  ]
 }
