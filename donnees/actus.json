@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-23T14:03+00:00",
+ "maj": "2026-11-23T15:44+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -20,14 +20,68 @@
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 19 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 25 articles",
+  "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 17 articles",
-  "ESPN": "erreur : no element found: line 1, column 0",
+  "ESPN": "ok, 14 articles",
   "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/tim-henman-sur-alexander-zverev-battu-par-carlos-alcaraz-en-finale-cest-la-question-que-jaimerais-lui-poser-pour-essayer-de-comprendre",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T15:17+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-Alcaraz-trophee-Masters-finale-1024x497.jpeg",
+   "titre": "Tim Henman sur Alexander Zverev, battu par Carlos Alcaraz en finale : « C’est la question que j’aimerais lui poser pour essayer de comprendre »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/alcaraz-va-devenir-le-plus-grand-joueur-de-lhistoire-du-tennis-a-son-age-il-est-plus-complet-que-federer-nadal-et-djokovic",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T14:56+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-coupe-trophee-Masters-1024x513.jpeg",
+   "titre": "« Alcaraz va devenir le plus grand joueur de l’histoire du tennis. À son âge, il est plus complet que Federer, Nadal et Djokovic »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Lucas-pouille-explique-pourquoi-il-a-decide-de-revenir-sur-le-circuit-atp-en-2027-peut-etre-le-plus-gros-defi-de-ma-carriere/1745604#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-23T14:42+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/lucas-pouille-au-rolex-paris-masters-cette-annee-p-lahalle-l-equipe/1500000002657709/116:46,1946:1266-828-552-75/1b8d7.jpg",
+   "titre": "Lucas Pouille explique pourquoi il a décidé de revenir sur le circuit ATP en 2027 : « Peut-être le plus gros défi de ma carrière »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/oui-je-reviens-en-2027-a-la-competition-annonce-le-joueur-de-tennis-francais-lucas-pouille-ancien-membre-du-top-10-mondial_8295863.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-23T14:30+00:00",
+   "image": "https://www.franceinfo.fr/pictures/IDU6OBomFI-wRGNKFcNq-ljy530/0x0:2107x1185/432x243/filters:format(jpg)/2026/11/23/6b042e460ae67505261200.jpg",
+   "titre": "\"Oui, je reviens en 2027 à la compétition\", annonce le joueur de tennis français Lucas Pouille, ancien membre du top 10 mondial",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/tennis-gravement-blesse-en-fevrier-2024-lucas-pouille-annonce-son-retour-sur-les-courts_AV-202611230580.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-23T14:25+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/2CDZgR_04ILL2VPFKlIH2F1sxTU=/577x141:1505x663/800x0/images/Lucas-Pouille-dans-les-tribunes-a-Roland-Garros-en-mai-2025-2105517.jpg",
+   "titre": "Tennis: gravement blessé en février 2024, Lucas Pouille annonce son retour sur les courts",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-nature-exacte-de-la-blessure-de-jannik-sinner-expliquee",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T14:15+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-29-at-17.02.19-1024x548.jpeg",
+   "titre": "La nature exacte de la blessure de Jannik Sinner expliquée",
+   "blessure": true
+  },
   {
    "lien": "https://www.tennismajors.com/fr/wta-actualite/23-novembre-1986-le-jour-ou-martina-navratilova-etabli-record-unique-en-remportant-masters-pour-huitieme-fois-516621.html",
    "source": "Tennis Majors",
@@ -54,6 +108,24 @@
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-presse-conf-1024x579.jpeg",
    "titre": "Alexander Zverev : « Si on m’avait dit en début de saison que je perdrai la finale du Masters contre Carlos Alcaraz après une saison pareille, j’aurais signé »",
    "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-23T13:01+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
+   "titre": "Jannik Sinner",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/tennis-sinner-en-passe-de-se-faire-operer-en-finlande-vers-une-absence-de-plusieurs-mois_AV-202611230528.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-23T13:01+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/TdUih5Nz52grFs32wb8XABF0cjQ=/0x49:2048x1201/800x0/images/Jannick-Sinner-assiste-au-match-Juventus-AC-Milan-1-1-Serie-A-le-6-septembre-2026-2354502.jpg",
+   "titre": "Tennis: Sinner en passe de se faire opérer en Finlande, vers une absence de plusieurs mois?",
+   "blessure": true
   },
   {
    "lien": "https://www.welovetennis.fr/atp/la-decision-majeure-de-jannik-sinner-pose-question-il-aura-peut-etre-le-regret-davoir-attendu-trop-longtemps-pour-eviter-quelque-chose-qui-au-bout-du-compte-etait-inevitable",
@@ -107,6 +179,17 @@
    "date": "2026-11-23T11:28+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Carlos-Alcaraz-trophee-1024x555.jpeg",
    "titre": "Alex Corretja, après le sacre d’Alcaraz : « Quand Rafael Nadal remportait tous ces titres, ça semblait normal, alors que ça ne l’est pas. C’est la même chose aujourd’hui avec Carlos »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50572011/zverev-earns-final-no-1-atp-ranking-loss-alcaraz",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-23T11:25+00:00",
+   "image": null,
+   "vo": "Consistent Zverev earns final No. 1 ATP ranking despite loss to Alcaraz",
+   "titre": "Zverev, grâce à sa régularité, atteint la finale du classement ATP n° 1 malgré sa défaite face à Alcaraz",
+   "titre_fr": "Zverev, grâce à sa régularité, atteint la finale du classement ATP n° 1 malgré sa défaite face à Alcaraz",
    "blessure": false
   },
   {
@@ -237,6 +320,17 @@
    "date": "2026-11-22T23:31+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/pedro-martinez-lors-du-tournoi-de-wimbledon-en-2025-p-lahalle-l-equipe/1500000002657152/0:0,2000:1333-828-552-75/147ef.jpg",
    "titre": "« Je n'avais pas le temps de revenir » : le périple en voiture de 850 km de Pedro Martinez entre Metz et Bologne pour la Coupe Davis",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50563835/carlos-alcaraz-wins-season-ending-atp-finals",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-22T22:45+00:00",
+   "image": null,
+   "vo": "Alcaraz adds ATP Finals trophy to career Grand Slam",
+   "titre": "Alcaraz ajoute le trophée des ATP Finals à son Grand Chelem en carrière",
+   "titre_fr": "Alcaraz ajoute le trophée des ATP Finals à son Grand Chelem en carrière",
    "blessure": false
   },
   {
@@ -3732,98 +3826,6 @@
    "date": "2026-11-17T15:31+00:00",
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/wewdOfJ998E-gPPnXaquKL4O86s=/0x0:2048x1152/800x0/images/Arthur-Fils-lors-du-Masters-ATP-le-17-novembre-2026-2385529.jpg",
    "titre": "Masters ATP: pourquoi la victoire d'Arthur Fils face à Rafael Jodar est historique pour le tennis français",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/arthur-fils-downs-out-of-sorts-rafael-jodar-to-keep-nitto-atp-finals-bid-alive/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-17T15:27+00:00",
-   "image": null,
-   "vo": "Arthur Fils Downs Out-Of-Sorts Rafael Jodar To Keep Nitto ATP Finals Bid Alive",
-   "titre": "Arthur Fils bat Rafael Jodar, qui n'est pas dans son assiette, et garde ainsi ses chances de participer aux Nitto ATP Finals",
-   "titre_fr": "Arthur Fils bat Rafael Jodar, qui n'est pas dans son assiette, et garde ainsi ses chances de participer aux Nitto ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-renverse-jodar-et-reprend-espoir-sur-le-masters-de-turin",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T15:11+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-3-1024x521.jpeg",
-   "titre": "Arthur Fils renverse Jodar et reprend espoir sur le Masters de Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/arthur-fils/arthur-fils-se-defait-de-rafael-jodar-au-masters-de-turin-premiere-victoire-francaise-depuis-2011-dans-cette-competition_8286668.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-17T15:06+00:00",
-   "image": "https://www.franceinfo.fr/pictures/8myr5cWiEG-V5pwRe_zbonLnX2U/0x0:1024x576/432x243/filters:format(jpg)/2026/11/17/6afc6ce672584976983710.jpg",
-   "titre": "Arthur Fils se défait de Rafael Jodar au Masters de Turin, première victoire française depuis 2011 dans cette compétition",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Une-victoire-qui-relance-tout-arthur-fils-s-impose-contre-rafael-jodar-et-se-replace-pour-la-qualification-en-demi-finales-des-finales-atp/1744255#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T15:04+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arhur-fils-se-relance-aux-finales-atp-f-faugere-l-equipe/1500000002652831/0:0,1999:1333-828-552-75/f72c8.jpg",
-   "titre": "Une victoire qui relance tout : Arthur Fils s'impose contre Rafael Jodar et se replace pour la qualification en demi-finales des Finales ATP",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/jaime-murray-quand-on-voit-alcaraz-a-la-salle-de-sport-avant-un-match-il-y-a-six-personnes-de-son-equipe-qui-le-regardent-faire-des-exercices-avec-un-rouleau-de-massage-mais-dans-quel-monde-vivo",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T14:46+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/01/Alcaraz-box-team-equipe-Molina-Lopez-Samuel-frere-agent-coach-1024x544.jpeg",
-   "titre": "Jaime Murray : « Quand on voit Alcaraz à la salle de sport avant un match, il y a six personnes de son équipe qui le regardent faire des exercices avec un rouleau de massage. Mais dans quel monde vivons-nous ? »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/andrea-gaudenzi-sechement-recadre-par-le-numero-1-mondial-en-double-cest-vraiment-dommage-que-le-president-de-latp-ne-soit-pas-avec-nous-sur-le-court",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T14:14+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/11/Gaudenzi-ATP-1024x517.jpeg",
-   "titre": "Andrea Gaudenzi sèchement recadré par le numéro 1 mondial en double : « C’est vraiment dommage que le président de l’ATP ne soit pas avec nous sur le court »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/flavio-cobolli-labsence-de-jannik-sinner-ne-maide-pas-ca-maurait-enleve-un-peu-de-pression-je-sens-que-je-dois-faire-honneur-a-son-nom",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T13:51+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Cobolli-presse-conf.jpeg",
-   "titre": "Flavio Cobolli : « L’absence de Jannik Sinner ne m’aide pas, ça m’aurait enlevé un peu de pression. Je sens que je dois faire honneur à son nom »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/andy-murray-sur-le-nouveau-phenomene-du-circuit-jaime-vraiment-le-regarder-jouer-sa-progression-est-sans-precedent",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T13:14+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/01/Murray-1650-2-1024x556.jpg",
-   "titre": "Andy Murray sur le nouveau phénomène du circuit : « J’aime vraiment le regarder jouer. Sa progression est sans précédent »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-avant-daffronter-medvedev-sur-le-masters-de-turin-pourquoi-daniil-est-si-difficile-a-affronter-parce-que-tu-pars-en-guerre-ce-sont-des-matchs-tres-exigeants-tant-physiquement",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T12:40+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-revers-1024x483.jpeg",
-   "titre": "Carlos Alcaraz, avant d’affronter Medvedev sur le Masters de Turin : « Pourquoi Daniil est si difficile à affronter ? Parce que tu pars en guerre. Ce sont des matchs très exigeants, tant physiquement que mentalement »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/greg-rusedski-previent-alcaraz-cela-reste-un-probleme-pour-carlos-cest-ce-que-roger-federer-a-su-faire-mieux-que-quiconque",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T11:42+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-service-1024x550.jpeg",
-   "titre": "Greg Rusedski prévient Alcaraz : « Cela reste un problème pour Carlos. C’est ce que Roger Federer a su faire mieux que quiconque »",
    "blessure": false
   }
  ]
