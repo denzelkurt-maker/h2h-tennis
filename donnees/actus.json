@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-23T08:11+00:00",
+ "maj": "2026-11-23T09:57+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -35,6 +35,60 @@
    "date": "2026-11-23T13:55+00:00",
    "image": null,
    "titre": "23 novembre 1986 : le jour où Martina Navratilova a établi un record unique en remportant le Masters pour la huitième fois",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Medias/Actualites/Combien-bein-sports-va-payer-pour-les-droits-tv-du-tennis-atp-de-2028-a-2031/1745538#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-23T09:32+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/futur-diffuseur-du-tennis-atp-a-partir-de-2028-bein-sports-reglera-moins-de-10-millions-d-euros-pour-ses-quatre-ans-de-contrat-f-faugere-l-equipe/1500000002657425/0:0,2000:1333-828-552-75/26569.jpg",
+   "titre": "Combien beIN Sports va payer pour les droits TV du tennis ATP de 2028 à 2031",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/le-bilan-embarrassant-du-numero-1-mondial-alexander-zverev-face-a-carlos-alcaraz-et-jannik-sinner-depuis-deux-ans",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T09:28+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-Alcaraz-ceremonie--1024x512.jpeg",
+   "titre": "Le bilan embarrassant du numéro 1 mondial, Alexander Zverev, face à Carlos Alcaraz et Jannik Sinner depuis deux ans",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/un-jackpot-incroyable-combien-ont-gagne-theo-arribage-et-albano-olivetti-apres-leur-titre-au-masters-atp_AV-202611230376.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-23T09:10+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/VksgWO3Zm8un0mBxAcwpc2z_P8s=/0x0:2048x1152/800x0/images/Theo-Arribage-en-noir-et-Albano-Olivetti-aux-ATP-Finals-le-17-novembre-2026-2387574.jpg",
+   "titre": "Un jackpot incroyable: combien ont gagné Théo Arribagé et Albano Olivetti après leur titre au Masters ATP?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/le-difficile-role-de-parent-quand-on-a-un-enfant-champion-a-la-maison_8295698.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-23T09:08+00:00",
+   "image": "https://www.franceinfo.fr/pictures/6120mdsL6ooMvi5yq1iR7Vvo4YY/20x0:468x797/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/11/23/6b040271dc1a4172167818.jpg",
+   "titre": "Le difficile rôle de parent quand on a un enfant champion à la maison",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/marion-bartoli-apres-la-victoire-de-carlos-alcaraz-contre-alexander-zverev-si-vous-etes-fan-de-tennis-cest-impossible-de-ne-pas-laimer-moi-je-suis-en-admiration-totale",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T08:58+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/10/Bartoli-1024x511.jpeg",
+   "titre": "Marion Bartoli, après la victoire de Carlos Alcaraz contre Alexander Zverev : « Si vous êtes fan de tennis, c’est impossible de ne pas l’aimer. Moi, je suis en admiration totale »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/atp-finals/la-reaction-de-nadal-apres-le-sacre-dalcaraz-au-masters-un-tournoi-quil-na-lui-meme-jamais-remporte",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-23T08:22+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/05/Nadal-Alcaraz-mad-2022-1024x465.jpeg",
+   "titre": "La réaction de Nadal après le sacre d’Alcaraz au Masters, un tournoi qu’il n’a lui-même jamais remporté",
    "blessure": false
   },
   {
@@ -3772,60 +3826,6 @@
    "date": "2026-11-17T08:12+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/PHOTO-2026-11-16-23-28-55.jpg",
    "titre": "Cobolli y croit encore : « je suis un peu triste de ma prestation et de cette défaite, mais ce n’est pas terminé. Il me reste encore deux matchs »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/flavio-cobolli-battu-par-daniil-medvedev-je-suis-un-peu-triste-de-ma-prestation-et-de-cette-defaite-mais-ce-nest-pas-termine-il-me-reste-encore-deux-matchs",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T08:12+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/PHOTO-2026-11-16-23-28-55.jpg",
-   "titre": "Flavio Cobolli, battu par Daniil Medvedev : « Je suis un peu triste de ma prestation et de cette défaite, mais ce n’est pas terminé. Il me reste encore deux matchs »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/flavio-cobolli-battu-par-daniil-medvedev-je-suis-un-peu-triste-de-ma-prestation-et-de-cette-defaite-mais-ce-nest-pas-termine-il-me-reste-encore-deux-matchs",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T08:12+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Cobolli-revers-1024x458.jpeg",
-   "titre": "Flavio Cobolli, battu par Daniil Medvedev : « Je suis un peu triste de ma prestation et de cette défaite, mais ce n’est pas terminé. Il me reste encore deux matchs »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/medvedev-vainqueur-face-a-cobolli-compte-bien-enchainer-je-pense-que-ce-court-offre-les-meilleures-chances-de-battre-alcaraz",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T07:51+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Medvedev-5419-1024x521.jpg",
-   "titre": "Medvedev vainqueur face à Cobolli compte bien enchaîner : « Je pense que ce court offre les meilleures chances de battre Alcaraz… »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/daniil-medvedev-previent-deja-alcaraz-je-pense-que-ce-court-offre-les-meilleures-chances-de-battre-carlos",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T07:51+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Medvedev-5419-1024x521.jpg",
-   "titre": "Daniil Medvedev prévient déjà Alcaraz : « Je pense que ce court offre les meilleures chances de battre Carlos »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/lenorme-coup-de-gueule-de-benoit-maylin-sur-arthur-fils-cetait-encore-une-fois-tres-tres-pauvre-il-sepuise-tout-seul-a-envoyer-des-souches-il-gagne-le-deuxieme-set-cest-comme-sil-avai",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T07:08+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-regard-smash-1024x540.jpeg",
-   "titre": "L’énorme coup de gueule de Benoît Maylin sur Arthur Fils : « C’était encore une fois très très pauvre. Il s’épuise tout seul à envoyer des souches. Il gagne le deuxième set, c’est comme s’il avait gagné le tournoi »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp-actualite/17-novembre-1991-le-jour-ou-pete-sampras-remporte-son-premier-masters-306028.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-17T07:00+00:00",
-   "image": null,
-   "titre": "17 novembre 1991 : Le jour où Pete Sampras a remporté son premier Masters",
    "blessure": false
   }
  ]
