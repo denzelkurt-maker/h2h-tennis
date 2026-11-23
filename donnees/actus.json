@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-22T23:26+00:00",
+ "maj": "2026-11-23T01:59+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -24,10 +24,28 @@
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 17 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
-  "Tennis Majors (EN)": "ok, 21 articles",
+  "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/fr/wta-actualite/23-novembre-1986-le-jour-ou-martina-navratilova-etabli-record-unique-en-remportant-masters-pour-huitieme-fois-516621.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-23T13:55+00:00",
+   "image": null,
+   "titre": "23 novembre 1986 : le jour où Martina Navratilova a établi un record unique en remportant le Masters pour la huitième fois",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/-je-n-avais-pas-le-temps-de-revenir-le-periple-en-voiture-de-850-km-de-pedro-martinez-entre-metz-et-bologne-pour-la-coupe-davis/1745516#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T23:31+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/pedro-martinez-lors-du-tournoi-de-wimbledon-en-2025-p-lahalle-l-equipe/1500000002657152/0:0,2000:1333-828-552-75/147ef.jpg",
+   "titre": "« Je n'avais pas le temps de revenir » : le périple en voiture de 850 km de Pedro Martinez entre Metz et Bologne pour la Coupe Davis",
+   "blessure": false
+  },
   {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/Numero-1-mondial-vainqueur-de-deux-titres-du-grand-chelem-le-paradoxe-alexander-zverev-qui-coince-devant-sinner-ou-alcaraz/1745499#at_medium=RSS_feeds",
    "source": "L'Équipe",
@@ -276,6 +294,15 @@
    "titre_fr": "« Vraiment fier » : Alcaraz sauve trois balles de set, résiste à Zverev et remporte finalement les ATP Finals"
   },
   {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/direct-masters-atp-suivez-la-finale-entre-alexander-zverev-et-carlos-alcaraz-en-live_LN-202611220326.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-22T19:24+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/g7J95izF3Jeyv6ZYEExPYqa3A1c=/0x0:2032x1143/800x0/images/Carlos-Alcaraz-lors-du-Masters-ATP-de-Turin-le-22-novembre-2026-2388571.jpg",
+   "titre": "Masters ATP: Alcaraz remporte son premier Tournoi des Maîtres à 23 ans",
+   "blessure": false
+  },
+  {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-s-offre-un-premier-titre-aux-finales-atp-de-turin-en-dominant-alexander-zverev/1745452#at_medium=RSS_feeds",
    "source": "L'Équipe",
    "langue": "fr",
@@ -367,15 +394,6 @@
    "date": "2026-11-22T18:17+00:00",
    "image": "https://www.franceinfo.fr/pictures/cKEIfvB9z5f65ryTshPgn9ysvxg/0x0:5392x3033/432x243/filters:format(jpg)/2026/11/22/6b0333536fc68874150402.jpg",
    "titre": "Les surprenants français Albano Olivetti et Théo Arribagé s’offrent un premier sacre au Masters de Turin, dès leur première participation",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/direct-masters-atp-suivez-la-finale-entre-alexander-zverev-et-carlos-alcaraz-en-live_LN-202611220326.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-22T17:25+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/hgNsKanenuIr-zlLFksXXlPhiO8=/6x111:2038x1254/800x0/images/Carlos-Alcaraz-lors-du-Masters-ATP-de-Turin-le-21-novembre-2026-2388509.jpg",
-   "titre": "DIRECT. Masters ATP: suivez la finale entre Alexander Zverev et Carlos Alcaraz en live",
    "blessure": false
   },
   {
@@ -3810,28 +3828,6 @@
    "date": "2026-11-17T06:32+00:00",
    "image": "https://img.20mn.fr/A0CLkIfjTMyZG_fKSo5-byk/1200x768_battu-par-ben-shelton-lors-du-1er-match-arthur-fils-defie-rafael-jodar-mardi-aux-finales-atp-de-turin-photo-d-illustration",
    "titre": "Arthur Fils-Jodar : Sur quelle chaîne TV et à quelle heure voir le 2e match de groupe des ATP Finals Masters ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/medvedev-confirms-he-will-keep-golubev-as-coach-next-year-for-the-moment-867168.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-16T22:53+00:00",
-   "image": null,
-   "vo": "Medvedev confirms he will keep Golubev as coach next year, “for the moment”",
-   "titre": "Medvedev confirme qu'il conservera Golubev comme entraîneur l'année prochaine, « pour le moment »",
-   "titre_fr": "Medvedev confirme qu'il conservera Golubev comme entraîneur l'année prochaine, « pour le moment »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/the-best-chance-to-beat-him-medvedev-sees-an-opening-against-alcaraz-in-turin-867166.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-16T22:45+00:00",
-   "image": null,
-   "vo": "“The best chance to beat him”: Medvedev sees an opening against Alcaraz in Turin",
-   "titre": "« La meilleure chance de le battre » : Medvedev voit une ouverture contre Alcaraz à Turin",
-   "titre_fr": "« La meilleure chance de le battre » : Medvedev voit une ouverture contre Alcaraz à Turin",
    "blessure": false
   }
  ]
