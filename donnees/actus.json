@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-24T08:05+00:00",
+ "maj": "2026-11-24T09:47+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,10 +15,10 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 39 articles",
+  "L'Équipe": "ok, 40 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 18 articles",
+  "We Love Tennis": "ok, 17 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 18 articles",
@@ -46,6 +46,62 @@
    "vo": "November 24, 1996: The day Sampras won his third ATP Finals crown after an epic battle with Becker",
    "titre": "24 novemre 1996 : le jour où Sampras a remporté son troisième titre aux ATP Finals après une bataille épique contre Becker",
    "titre_fr": "24 novemre 1996 : le jour où Sampras a remporté son troisième titre aux ATP Finals après une bataille épique contre Becker",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/le-magnifique-message-de-musetti-envers-sinner-jannik-est-la-force-motrice-du-tennis-italien-et-pour-moi-il-est-une-grande-source-dinspiration",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T09:22+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/11/Italie-Coupe-Davis-Berrettini-Sinner-Musetti-Volandri-1024x537.jpeg",
+   "titre": "Le magnifique message de Musetti envers Sinner : « Jannik est la force motrice du tennis italien, et pour moi, il est une grande source d’inspiration »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/jannik-sinner-must-not-rush-comeback-from-surgery-warns-berrettini/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-24T09:11+00:00",
+   "image": null,
+   "vo": "Jannik Sinner Must Not Rush Comeback From Surgery, Warns Berrettini",
+   "titre": "Jannik Sinner ne doit pas se précipiter pour revenir après son opération, prévient Berrettini",
+   "titre_fr": "Jannik Sinner ne doit pas se précipiter pour revenir après son opération, prévient Berrettini",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Seulement-deux-trophees-sur-le-circuit-atp-cette-saison-alexander-zverev-est-devenu-le-numero-1-mondial-terminant-l-annee-avec-le-moins-de-titres/1745743#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-24T08:45+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/alexander-zverev-aux-finales-atp-f-faugere-l-equipe/1500000002658199/0:0,1998:1332-828-552-75/25a5c.jpg",
+   "titre": "Seulement deux trophées sur le circuit ATP cette saison : Alexander Zverev est devenu le numéro 1 mondial terminant l'année avec le moins de titres",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/gael-monfils_DN-201411280299.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-24T08:23+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/oxR5oj7xdmx5EmO0SX4YlcRyOBI=/3x251:4787x2942/800x0/images/-872263.jpg",
+   "titre": "Gaël Monfils",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/coupe-davis/coupe-davis-la-paire-arribage-olivetti-va-obliger-monfils-a-prendre-sa-premiere-grosse-decision_AV-202611240349.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-24T08:23+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/74inbBNvNPWBquXIT_cT8OZF3iI=/0x0:2032x1143/800x0/images/Theo-Arribage-et-Albano-Olivetti-lors-du-Masters-ATP-a-Turin-le-22-novembre-2026-2388514.jpg",
+   "titre": "Coupe Davis: la paire Arribagé-Olivetti va obliger Monfils à prendre sa première grosse décision",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/un-ancien-top-10-ne-comprend-pas-les-critiques-a-propos-de-zverev-numero-un-mondial-tu-joues-le-gars-qui-est-en-face-de-toi-zverev-se-pointe-semaine-apres-semaine-et-joue-tous-les-tournois-il",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T08:21+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2021/05/Isner-service-Madrid-2021-1024x683.jpeg",
+   "titre": "Un ancien Top 10 ne comprend pas les critiques à propos de Zverev numéro un mondial : « Tu joues le gars qui est en face de toi… Zverev se pointe semaine après semaine et joue tous les tournois. Il est d’une durabilité r",
    "blessure": false
   },
   {
@@ -3778,64 +3834,6 @@
    "vo": "Alexander Zverev Qualifies For Semi-Finals At Nitto ATP Finals With Victory Over Shelton",
    "titre": "Alexander Zverev se qualifie pour les demi-finales des Nitto ATP Finals grâce à sa victoire sur Shelton",
    "titre_fr": "Alexander Zverev se qualifie pour les demi-finales des Nitto ATP Finals grâce à sa victoire sur Shelton",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Numero-1-mondial-en-double-henry-patten-interpelle-le-president-de-l-atp-andrea-gaudenzi-absent-pour-la-remise-du-trophee-c-est-tres-decevant/1744246#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T22:01+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Le n°1 mondial de double interpelle le président de l'ATP : «C'est très décevant»",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.espn.com/tennis/story/_/id/50513841/alexander-zverev-beats-ben-shelton-semis-atp-finals",
-   "source": "ESPN",
-   "langue": "en",
-   "date": "2026-11-17T21:56+00:00",
-   "image": null,
-   "vo": "Top-ranked Zverev gets 7th career win vs. Shelton to make semis of ATP Finals",
-   "titre": "Zverev, classé numéro 1, remporte sa 7e victoire en carrière contre Shelton et se qualifie pour les demi-finales des ATP Finals",
-   "titre_fr": "Zverev, classé numéro 1, remporte sa 7e victoire en carrière contre Shelton et se qualifie pour les demi-finales des ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Une-premiere-depuis-quinze-ans-avant-de-defier-le-numero-1-mondial-perfectible-en-indoor-arthur-fils-reste-en-vie-aux-finales-atp/1744353#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T21:35+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Fils met fin à quinze ans de disette et reste en vie à Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals-atp/zverev-trop-solide-pour-shelton-premier-qualifie-en-demi-finales",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T21:34+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-1024x480.jpeg",
-   "titre": "Zverev, trop solide pour Shelton, premier qualifié en demi-finales !",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/intouchable-au-service-zverev-domine-shelton-et-file-en-demi-finales-a-turin-810390.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-17T21:32+00:00",
-   "image": null,
-   "titre": "Intouchable au service, Zverev domine Shelton et file en demi-finales à Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/untouchable-on-serve-zverev-beats-shelton-to-reach-the-atp-finals-semi-finals-867214.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-17T21:27+00:00",
-   "image": null,
-   "vo": "Untouchable on serve, Zverev beats Shelton to reach the ATP Finals semi-finals",
-   "titre": "Intouchable au service, Zverev bat Shelton et atteint les demi-finales des ATP Finals",
-   "titre_fr": "Intouchable au service, Zverev bat Shelton et atteint les demi-finales des ATP Finals",
    "blessure": false
   }
  ]
