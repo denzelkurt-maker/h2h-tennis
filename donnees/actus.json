@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-24T11:36+00:00",
+ "maj": "2026-11-24T13:58+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 40 articles",
+  "L'Équipe": "ok, 42 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 17 articles",
@@ -29,12 +29,93 @@
  },
  "articles": [
   {
+   "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-persiste-et-signe-je-ne-joue-pas-pour-entrer-dans-lhistoire-je-ne-joue-pas-pour-battre-des-records-je-joue-juste-pour-une-seule-chose",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T13:44+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-public-1-1024x510.jpeg",
+   "titre": "Carlos Alcaraz persiste et signe : « Je ne joue pas pour entrer dans l’histoire, je ne joue pas pour battre des records, je joue juste pour une seule chose… »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp-wta/brad-gilbert-connait-deja-les-deux-vainqueurs-de-lopen-daustralie-2027-je-mise-sur-eux",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T13:14+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/01/Alcaraz-Melbourne-Open-Australie-2025-court-ambiance-1024x545.jpeg",
+   "titre": "Brad Gilbert connaît déjà les deux vainqueurs de l’Open d’Australie 2027 : « Je mise sur eux »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Operation-reussie-pour-jannik-sinner-au-genou-droit-une-absence-de-trois-mois-annoncee/1745786#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-24T13:12+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/jannik-sinner-a-ete-opere-du-genou-droit-ce-mardi-a-reau-l-equipe/1500000002658491/0:0,1998:1332-828-552-75/49319.jpg",
+   "titre": "Opération réussie pour Jannik Sinner au genou droit, une absence de trois mois annoncée",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-24T13:07+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
+   "titre": "Jannik Sinner",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/tennis-jannik-sinner-opere-du-genou-plusieurs-mois-d-absence-a-venir_AD-202611240592.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-24T13:07+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/TdUih5Nz52grFs32wb8XABF0cjQ=/0x49:2048x1201/800x0/images/Jannick-Sinner-assiste-au-match-Juventus-AC-Milan-1-1-Serie-A-le-6-septembre-2026-2354502.jpg",
+   "titre": "Tennis: Jannik Sinner opéré du genou, plusieurs mois d’absence à venir",
+   "blessure": true
+  },
+  {
    "lien": "https://www.tennismajors.com/fr/atp-actualite/24-novembre-1996-le-jour-ou-pete-sampras-a-remporte-son-3e-masters-309304.html",
    "source": "Tennis Majors",
    "langue": "fr",
    "date": "2026-11-24T13:00+00:00",
    "image": null,
    "titre": "24 novembre 1996 : le jour où Sampras a dominé Becker dans un des plus grands matchs de l’histoire",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Video/Coupe-davis-espagne-rafael-jodar-avant-la-phase-finale-de-la-coupe-davis-ici-tout-ne-depend-pas-de-soi/20246227#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-24T12:47+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Jodar : «Ici, tout ne dépend pas que de soi»",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/cobolli-accuse-le-coup-apres-la-tres-mauvaise-nouvelle-concernant-sinner-nous-ne-connaissons-pas-les-details-il-serait-donc-inutile-que-jen-parle-cest-en-tout-cas-un-coup-dur-p",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T12:40+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Sinner-profil-wim-1024x575.jpeg",
+   "titre": "Cobolli accuse le coup après la très mauvaise nouvelle concernant Sinner : « Nous ne connaissons pas les détails, il serait donc inutile que j’en parle. C’est en tout cas un coup dur pour le tennis italien »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-blessure-de-jannik-sinner-a-ete-totalement-sous-estimee-quand-on-en-arrive-a-prendre-une-decision-pareille-en-novembre-apres-quatre-mois-cest-une-defaite-pour-tous-du-joueur-a-l",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T12:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-conf-presse-RG-2026-1024x556.jpeg",
+   "titre": "« La blessure de Jannik Sinner a été totalement sous-estimée. Quand on en arrive à prendre une décision pareille en novembre après quatre mois, c’est une défaite pour tous : du joueur à l’équipe, aux médecins », estime D",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/les-tensions-entre-musetti-et-berrettini-semblent-se-confirmer",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T11:52+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/11/Italie-Coupe-Davis-Berrettini-Sinner-Musetti-Volandri-1024x537.jpeg",
+   "titre": "Les tensions entre Musetti et Berrettini semblent se confirmer",
    "blessure": false
   },
   {
@@ -58,6 +139,24 @@
    "titre": "RAPPORT : Jannik Sinner subit une opération du genou « réussie » en Finlande",
    "titre_fr": "RAPPORT : Jannik Sinner subit une opération du genou « réussie » en Finlande",
    "blessure": true
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Qualifs-a-roland-garros-essai-au-psg-reve-olympique-en-bobsleigh-et-agent-de-joueurs-les-mille-vies-de-laurent-rizzo-vice-champion-de-monde-avec-l-equipe-de-france-senior-de-tennis/1745626#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-24T11:13+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Roland-Garros, PSG et bobsleigh : les mille vies de Laurent Rizzo",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-duree-dabsence-de-jannik-sinner-devoilee-apres-son-operation-reussie",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T11:12+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Sinner-323-1024x543.jpg",
+   "titre": "La durée d’absence de Jannik Sinner dévoilée après son opération réussie",
+   "blessure": false
   },
   {
    "lien": "https://www.welovetennis.fr/atp/alex-corretja-alcaraz-est-au-meilleur-moment-de-sa-carriere-il-a-surmonte-ses-blessures-et-a-appris-a-canaliser-sa-combativite-pour-mieux-gerer-ses-efforts",
@@ -95,6 +194,15 @@
    "date": "2026-11-24T09:50+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2020/11/Nadal-Masters-coup-droit-1024x765.jpeg",
    "titre": "Toni Nadal explique avoir tout fait pour que Rafa remporte le Masters : « J’ai parfois protesté auprès de l’ATP et je leur ai dit qu’ils pourraient parfois changer la surface, organiser ce tournoi sur terre battue »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/toni-nadal-sur-le-seul-grand-titre-qui-manque-a-rafa-jai-parfois-proteste-aupres-de-latp-et-je-leur-ai-dit-quils-pourraient-changer-la-surface-organiser-ce-tournoi-sur",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T09:50+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/01/Nadal-Brisbane-service-1024x532.jpeg",
+   "titre": "Toni Nadal sur le seul grand titre qui manque à Rafa : « J’ai parfois protesté auprès de l’ATP et je leur ai dit qu’ils pourraient changer la surface, organiser ce tournoi sur terre battue »",
    "blessure": false
   },
   {
@@ -433,15 +541,6 @@
    "date": "2026-11-23T13:08+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-presse-conf-1024x579.jpeg",
    "titre": "Alexander Zverev : « Si on m’avait dit en début de saison que je perdrai la finale du Masters contre Carlos Alcaraz après une saison pareille, j’aurais signé »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-23T13:01+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
-   "titre": "Jannik Sinner",
    "blessure": false
   },
   {
@@ -3733,107 +3832,6 @@
    "date": "2026-11-18T13:35+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Kuerten-1024x550.jpeg",
    "titre": "Gustavo Kuerten met fin au débat sur la place de numéro 1 mondial d’Alexander Zverev : « Les chiffres sont là, et c’est mérité »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/julien-varlet-sur-arthur-fils-ivanisevic-ne-lui-parle-jamais-de-tactique-en-match-je-ne-paie-pas-un-coach-pour-quil-me-dise-come-on-go-champs-ou-find-the-way",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T13:27+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-decu-1-1024x499.jpeg",
-   "titre": "Julien Varlet sur Arthur Fils : « Ivanisevic ne lui parle jamais de tactique en match. Je ne paie pas un coach pour qu’il me dise : ‘Come on’, ‘Go champs’ ou ‘Find the way’ »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-na-pas-vraiment-la-retraite-imaginee-jy-vais-moins-quavant-malheureusement",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T12:48+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/05/Nadal-conf-RG-2025-2-1024x568.jpeg",
-   "titre": "Rafael Nadal n’a pas vraiment la retraite imaginée : « J’y vais moins qu’avant, malheureusement »",
-   "blessure": true
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/1h36-sur-le-court-mais-10-minutes-de-temps-de-jeu-effectif-le-match-express-entre-alexander-zverev-et-ben-shelton-aux-finales-atp/1744427#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-18T12:27+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/ben-shelton-a-gauche-a-ete-battu-par-alexander-zverev-a-droite-mardi-soir-f-faugere-l-equipe/1500000002653444/183:151,1809:1235-828-552-75/4bbd7.jpg",
-   "titre": "1h36' sur le court mais 10 minutes de temps de jeu effectif : le match express entre Alexander Zverev et Ben Shelton aux Finales ATP",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/ljubicic-tranche-entre-alcaraz-et-sinner-je-prefere-son-jeu-lun-ressemble-davantage-a-federer-et-lautre-a-djokovic",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T12:26+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Alcaraz-Sinner-2.jpeg",
-   "titre": "Ljubicic tranche entre Alcaraz et Sinner : « Je préfère son jeu. L’un ressemble davantage à Federer et l’autre à Djokovic »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/jo-wilfried-tsonga-jai-vu-certains-joueurs-changer-et-je-pense-notamment-a-novak-djokovic-quand-je-lai-connu-au-debut-il-netait-pas-comme-ca",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T11:58+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/06/Tsonga-Djokovic-Roland-Garros-2012-1024x544.jpg",
-   "titre": "Jo-Wilfried Tsonga : « J’ai vu certains joueurs changer, et je pense notamment à Novak Djokovic. Quand je l’ai connu au début, il n’était pas comme ça »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/justine-henin-sur-carlos-alcaraz-meme-quand-il-se-fait-agresser-moi-je-le-trouve-plus-rapide-que-jamais-il-est-bondissant",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T11:20+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Justine-Henin-1024x573.jpeg",
-   "titre": "Justine Henin sur Carlos Alcaraz : « Même quand il se fait agresser, moi je le trouve plus rapide que jamais. Il est bondissant »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/-on-tend-vers-l-objectif-souhaite-qui-est-d-elargir-la-base-de-la-pyramide-quand-le-centre-national-d-entrainement-du-tennis-francais-se-transforme-en-site-de-tournoi/1744405#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-18T10:50+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Quand le CNE se transforme en site de tournoi",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/adriano-panatta-se-lache-le-match-entre-cobolli-et-medvedev-cetait-du-tennis-quel-est-limbecile-qui-decide-de-ca",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T10:27+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Panatta-RG-2026-1024x541.jpeg",
-   "titre": "Adriano Panatta se lâche : « Le match entre Cobolli et Medvedev, c’était du tennis ? Quel est l’imbécile qui décide de ça ? »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/rafael-jodar-apres-sa-defaite-contre-arthur-fils-ce-nest-pas-une-excuse",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T09:59+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Jodar-1024x488.jpeg",
-   "titre": "Rafael Jodar, après sa défaite contre Arthur Fils : « Ce n’est pas une excuse »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-faces-another-lawsuit-what-we-know-so-far/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-18T09:44+00:00",
-   "image": null,
-   "vo": "Alexander Zverev Faces Another Lawsuit – What We Know So Far",
-   "titre": "Alexander Zverev fait face à une nouvelle poursuite judiciaire – Ce que nous savons jusqu'à présent",
-   "titre_fr": "Alexander Zverev fait face à une nouvelle poursuite judiciaire – Ce que nous savons jusqu'à présent",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4263753-20261118-atp-finals-comment-arthur-fils-peut-qualifier-demi-finales-masters?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-18T09:32+00:00",
-   "image": "https://img.20mn.fr/-VQRTAdyQiWNECpzsAAI1Ck/1200x768_ipa91310423-arthur-fils-fra-lors-des-nitto-atp-finals-2026-un-match-international-de-tennis-a-turin-en-italie-le-17-novembre-2026-ipa-agency-net-ip-apressitaly-ipa91310423-credit-ipa-agency-net-sipa-2611171816",
-   "titre": "ATP Finals : Comment Arthur Fils peut se qualifier pour les demi-finales du Masters ?",
    "blessure": false
   }
  ]
