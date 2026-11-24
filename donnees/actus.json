@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-24T19:44+00:00",
+ "maj": "2026-11-24T21:37+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -28,6 +28,24 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/La-tchequie-domine-le-canada-et-file-en-demi-finales-de-la-coupe-davis/1745924#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-24T20:22+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "La Tchéquie domine le Canada et file en demi-finales de la Coupe Davis",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/atp/tennis-theo-arribage-vainqueur-du-double-au-masters-doit-encore-payer-ses-raquettes_AV-202611240891.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-24T18:59+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/O3B5M_lzmKyI6WF9A3plnGaJ7_E=/0x68:2048x1220/800x0/images/Theo-Arribage-lors-du-Masters-ATP-de-Turin-le-22-novembre-2026-2389881.jpg",
+   "titre": "Tennis: Théo Arribagé, vainqueur du double au Masters, doit encore payer ses raquettes",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-sur-deux-personnes-determinantes-de-sa-saison-ils-ont-tous-deux-fait-un-travail-formidable-et-je-suis-vraiment-fier-de-eux",
    "source": "We Love Tennis",
@@ -3808,26 +3826,6 @@
    "date": "2026-11-18T17:38+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2019/12/AMBIANCE-529-1024x683.jpeg",
    "titre": "« Un gros problème se profile pour l’ATP. Deux tournois ATP 500 sont plus que jamais menacés »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/daniil-medvedev-apres-sa-defaite-contre-alcaraz-sur-le-masters-de-turin-pour-pouvoir-battre-ce-carlos-la-il-faut-jouer-un-match-parfait-ou-presque-ce-que-je-nai-pas-reussi-a-faire-et-jai-p",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T17:11+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Medvedev-conf-1024x584.jpeg",
-   "titre": "Daniil Medvedev, après sa défaite contre Alcaraz sur le Masters de Turin : « Pour pouvoir battre ce Carlos-là, il faut jouer un match parfait ou presque, ce que je n’ai pas réussi à faire, et j’ai perdu »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.espn.com/tennis/story/_/id/50522116/alexander-zverev-notified-lawsuit-ex-partner-abuse-case",
-   "source": "ESPN",
-   "langue": "en",
-   "date": "2026-11-18T16:51+00:00",
-   "image": null,
-   "vo": "Zverev officially notified of lawsuit by ex-partner in abuse case",
-   "titre": "Zverev officiellement informé de la plainte déposée par son ex-compagne dans une affaire de violences",
-   "titre_fr": "Zverev officiellement informé de la plainte déposée par son ex-compagne dans une affaire de violences",
    "blessure": false
   }
  ]
