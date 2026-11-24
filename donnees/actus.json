@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-24T09:47+00:00",
+ "maj": "2026-11-24T11:36+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -46,6 +46,55 @@
    "vo": "November 24, 1996: The day Sampras won his third ATP Finals crown after an epic battle with Becker",
    "titre": "24 novemre 1996 : le jour où Sampras a remporté son troisième titre aux ATP Finals après une bataille épique contre Becker",
    "titre_fr": "24 novemre 1996 : le jour où Sampras a remporté son troisième titre aux ATP Finals après une bataille épique contre Becker",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/report-jannik-sinner-undergoes-successful-knee-surgery-in-finland/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-24T11:34+00:00",
+   "image": null,
+   "vo": "REPORT: Jannik Sinner Undergoes ‘Successful’ Knee Surgery In Finland",
+   "titre": "RAPPORT : Jannik Sinner subit une opération du genou « réussie » en Finlande",
+   "titre_fr": "RAPPORT : Jannik Sinner subit une opération du genou « réussie » en Finlande",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/alex-corretja-alcaraz-est-au-meilleur-moment-de-sa-carriere-il-a-surmonte-ses-blessures-et-a-appris-a-canaliser-sa-combativite-pour-mieux-gerer-ses-efforts",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T10:40+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Alex-1024x546.jpg",
+   "titre": "Alex Corretja : « Alcaraz est au meilleur moment de sa carrière. Il a surmonté ses blessures et a appris à canaliser sa combativité pour mieux gérer ses efforts »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/steve-flink-carlos-alcaraz-rules-in-turin-and-ends-2026-in-style/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-24T10:23+00:00",
+   "image": null,
+   "vo": "Steve Flink – Carlos Alcaraz Rules in Turin and Ends 2026 in Style",
+   "titre": "Steve Flink – Carlos Alcaraz règne à Turin et termine 2026 en beauté",
+   "titre_fr": "Steve Flink – Carlos Alcaraz règne à Turin et termine 2026 en beauté",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/roddick-impressionne-par-le-retour-dalcaraz-il-possede-une-capacite-de-reaction-et-une-qualite-de-main-comparables-a-celles-de-federer-lorsquil-retournait-mes-services",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T10:06+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Roddick-1-1024x515.jpg",
+   "titre": "Roddick impressionné par le retour d’Alcaraz : « Il possède une capacité de réaction et une qualité de main comparables à celles de Federer lorsqu’il retournait mes services »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/toni-nadal-explique-avoir-tout-fait-pour-que-rafa-remporte-le-masters-jai-parfois-proteste-aupres-de-latp-et-je-leur-ai-dit-quils-pourraient-parfois-changer-la-surface",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T09:50+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2020/11/Nadal-Masters-coup-droit-1024x765.jpeg",
+   "titre": "Toni Nadal explique avoir tout fait pour que Rafa remporte le Masters : « J’ai parfois protesté auprès de l’ATP et je leur ai dit qu’ils pourraient parfois changer la surface, organiser ce tournoi sur terre battue »",
    "blessure": false
   },
   {
@@ -111,6 +160,15 @@
    "date": "2026-11-24T07:51+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-celebration--1024x512.jpeg",
    "titre": "La presse Espagnol salue l’engagement d’Alcaraz : « Hier il gagne cinq milions et aujourd’hui il est déjà engagé à 100% avec l’équipe de Coupe Davis »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-presse-espagnole-salue-lengagement-dalcaraz-hier-il-gagne-cinq-millions-et-aujourdhui-il-est-deja-engage-a-100-avec-lequipe-de-coupe-davis",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T07:51+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-celebration--1024x512.jpeg",
+   "titre": "La presse espagnole salue l’engagement d’Alcaraz : « Hier il gagne cinq millions et aujourd’hui il est déjà engagé à 100% avec l’équipe de Coupe Davis »",
    "blessure": false
   },
   {
@@ -3776,64 +3834,6 @@
    "date": "2026-11-18T09:32+00:00",
    "image": "https://img.20mn.fr/-VQRTAdyQiWNECpzsAAI1Ck/1200x768_ipa91310423-arthur-fils-fra-lors-des-nitto-atp-finals-2026-un-match-international-de-tennis-a-turin-en-italie-le-17-novembre-2026-ipa-agency-net-ip-apressitaly-ipa91310423-credit-ipa-agency-net-sipa-2611171816",
    "titre": "ATP Finals : Comment Arthur Fils peut se qualifier pour les demi-finales du Masters ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/shelton-apres-sa-septieme-defaite-en-autant-de-duels-contre-zverev-cest-complique-de-laffronter-pour-trois-raisons",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T09:28+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Shelton-coup-droit-1024x499.jpeg",
-   "titre": "Shelton, après sa septième défaite en autant de duels contre Zverev : « C’est compliqué de l’affronter pour trois raisons »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-apres-sa-victoire-contre-rafael-jodar-honnetement-je-ny-ai-pas-pense-mais-si-vous-me-dites-que-cela-faisait-assez-longtemps-quaucun-francais-navait-remporte-le-m",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T08:18+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-Arthur-presse-conf-1024x550.jpeg",
-   "titre": "Arthur Fils, après sa victoire contre Rafael Jodar : « Honnêtement, je n’y ai pas pensé, mais si vous me dites que cela faisait assez longtemps qu’aucun Français n’avait remporté le moindre match au Masters, je suis cont",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/laveu-de-zverev-apres-sa-qualification-pour-les-demi-finales-quand-jai-perdu-dentree-a-paris-il-y-a-deux-semaines-une-legende-du-tennis-ma-dit-je-vois-bien-que-tu",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T07:40+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-1-1024x544.jpeg",
-   "titre": "L’aveu de Zverev après sa qualification pour les demi-finales : « Quand j’ai perdu d’entrée à Paris il y a deux semaines, une légende du tennis m’a dit : ‘Je vois bien que tu es stressé, que tu ne profites pas vraiment d",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/comment-arthur-fils-peut-il-se-qualifier-pour-les-demi-finales-tous-les-scenarios-possibles",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T07:10+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-regard-smash-1024x540.jpeg",
-   "titre": "Comment Arthur Fils peut-il se qualifier pour les demi-finales ? Tous les scénarios possibles !",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/wta-tour-news/november-18-1990-seles-and-sabatini-go-five-306295.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-18T03:20+00:00",
-   "image": null,
-   "vo": "November 18, 1990: The day Monica Seles & Gabriela Sabatini played the first five-setter in women’s tennis in 89 years",
-   "titre": "18 novembre 1990 : le jour où Monica Seles et Gabriela Sabatini ont disputé le premier match en cinq sets du tennis féminin depuis 89 ans",
-   "titre_fr": "18 novembre 1990 : le jour où Monica Seles et Gabriela Sabatini ont disputé le premier match en cinq sets du tennis féminin depuis 89 ans",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-qualifies-for-semi-finals-at-nitto-atp-finals-with-victory-over-shelton/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-17T22:02+00:00",
-   "image": null,
-   "vo": "Alexander Zverev Qualifies For Semi-Finals At Nitto ATP Finals With Victory Over Shelton",
-   "titre": "Alexander Zverev se qualifie pour les demi-finales des Nitto ATP Finals grâce à sa victoire sur Shelton",
-   "titre_fr": "Alexander Zverev se qualifie pour les demi-finales des Nitto ATP Finals grâce à sa victoire sur Shelton",
    "blessure": false
   }
  ]
