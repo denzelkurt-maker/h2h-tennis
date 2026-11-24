@@ -1,6 +1,6 @@
 # Contrôle de l'appli
 
-- Date (UTC) : 2026-11-23T06:13:16.985Z
+- Date (UTC) : 2026-11-24T06:07:41.586Z
 - Version de l'appli : 0.11.0
 - État : **OK**
 
@@ -14,23 +14,23 @@
 ```json
 {
  "public": {
-  "duree_chargement_s": 2.877,
+  "duree_chargement_s": 3.31,
   "chiffres": {
    "version_appli": "0.11.0",
-   "matchs": 357560,
-   "joueurs": 11881,
-   "tournois": 10521,
+   "matchs": 357655,
+   "joueurs": 11887,
+   "tournois": 10525,
    "doublons": 0,
    "complements_dechiffres": false,
    "classement": {
-    "semaine": "2026-11-16",
+    "semaine": "2026-11-23",
     "source": "ATP, via Wikimedia Commons",
-    "rangs": 2315,
+    "rangs": 2325,
     "top3": [
      [
       1,
       "Alexander Zverev",
-      9350
+      10350
      ],
      [
       2,
@@ -40,7 +40,7 @@
      [
       3,
       "Carlos Alcaraz",
-      6100
+      7600
      ]
     ]
    },
@@ -53,20 +53,20 @@
    },
    "depuis_juin": {
     "Challenger tableau": {
-     "matchs": 3626,
-     "score_complet": 2014,
+     "matchs": 3635,
+     "score_complet": 2018,
      "stats": 0,
      "score_complet_pct": 55.5
     },
     "Challenger qualifications": {
-     "matchs": 2923,
-     "score_complet": 1736,
+     "matchs": 2991,
+     "score_complet": 1773,
      "stats": 0,
-     "score_complet_pct": 59.4
+     "score_complet_pct": 59.3
     },
     "ITF": {
-     "matchs": 9750,
-     "score_complet": 5706,
+     "matchs": 9767,
+     "score_complet": 5717,
      "stats": 0,
      "score_complet_pct": 58.5
     },
@@ -77,32 +77,32 @@
      "score_complet_pct": 49.3
     },
     "ATP tableau": {
-     "matchs": 1187,
+     "matchs": 1188,
      "score_complet": 1150,
      "stats": 0,
-     "score_complet_pct": 96.9
+     "score_complet_pct": 96.8
     }
    }
   }
  },
  "complet": {
-  "duree_chargement_s": 2.585,
+  "duree_chargement_s": 2.83,
   "chiffres": {
    "version_appli": "0.11.0",
-   "matchs": 358042,
-   "joueurs": 11895,
-   "tournois": 10523,
+   "matchs": 358125,
+   "joueurs": 11901,
+   "tournois": 10527,
    "doublons": 0,
    "complements_dechiffres": true,
    "classement": {
-    "semaine": "2026-11-16",
+    "semaine": "2026-11-23",
     "source": "ATP, via Wikimedia Commons",
-    "rangs": 2315,
+    "rangs": 2325,
     "top3": [
      [
       1,
       "Alexander Zverev",
-      9350
+      10350
      ],
      [
       2,
@@ -112,7 +112,7 @@
      [
       3,
       "Carlos Alcaraz",
-      6100
+      7600
      ]
     ]
    },
@@ -125,15 +125,15 @@
    },
    "depuis_juin": {
     "Challenger tableau": {
-     "matchs": 3761,
-     "score_complet": 3756,
-     "stats": 3500,
+     "matchs": 3775,
+     "score_complet": 3770,
+     "stats": 3513,
      "score_complet_pct": 99.9
     },
     "Challenger qualifications": {
-     "matchs": 2997,
-     "score_complet": 2993,
-     "stats": 2585,
+     "matchs": 3065,
+     "score_complet": 3062,
+     "stats": 2617,
      "score_complet_pct": 99.9
     },
     "ITF": {
@@ -149,8 +149,8 @@
      "score_complet_pct": 99.6
     },
     "ATP tableau": {
-     "matchs": 1202,
-     "score_complet": 1202,
+     "matchs": 1203,
+     "score_complet": 1203,
      "stats": 1181,
      "score_complet_pct": 100
     }
