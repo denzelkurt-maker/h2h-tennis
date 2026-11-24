@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-24T21:37+00:00",
+ "maj": "2026-11-24T23:31+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -28,6 +28,26 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Arthur-rinderknech-bientot-suspendu-pour-un-refus-de-controle-antidopage/1745952#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-24T23:01+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-rinderknech-a-la-plenitude-arena-le-5-novembre-lors-du-rolex-paris-masters-p-lahalle-l-equipe/1500000002658961/0:0,2000:1333-828-552-75/d5473.jpg",
+   "titre": "Arthur Rinderknech bientôt suspendu pour un refus de contrôle antidopage ?",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/others-news/davis-cup-news/lehecka-and-machac-send-czechia-past-canada-into-davis-cup-semi-finals-867843.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-24T21:59+00:00",
+   "image": null,
+   "vo": "Lehecka and Machac send Czechia past Canada into Davis Cup semi-finals",
+   "titre": "Lehecka et Machac permettent à la Tchéquie de battre le Canada et d'accéder aux demi-finales de la Coupe Davis",
+   "titre_fr": "Lehecka et Machac permettent à la Tchéquie de battre le Canada et d'accéder aux demi-finales de la Coupe Davis",
+   "blessure": false
+  },
   {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/La-tchequie-domine-le-canada-et-file-en-demi-finales-de-la-coupe-davis/1745924#at_medium=RSS_feeds",
    "source": "L'Équipe",
@@ -215,15 +235,6 @@
    "date": "2026-11-24T13:12+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/jannik-sinner-a-ete-opere-du-genou-droit-ce-mardi-a-reau-l-equipe/1500000002658491/0:0,1998:1332-828-552-75/49319.jpg",
    "titre": "Opération réussie pour Jannik Sinner au genou droit, une absence de trois mois annoncée",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-24T13:07+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
-   "titre": "Jannik Sinner",
    "blessure": false
   },
   {
@@ -705,6 +716,15 @@
    "date": "2026-11-23T13:08+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-presse-conf-1024x579.jpeg",
    "titre": "Alexander Zverev : « Si on m’avait dit en début de saison que je perdrai la finale du Masters contre Carlos Alcaraz après une saison pareille, j’aurais signé »",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-23T13:01+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
+   "titre": "Jannik Sinner",
    "blessure": false
   },
   {
@@ -3809,24 +3829,6 @@
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Tsonga-Nadal-Open-Australie-2008-1024x532.jpg",
    "titre": "Tsonga, sur la carrière de Nadal : « Rafa avait mal mais il jouait quand même. Et une blessure où tu peux jouer, ce n’est pas vraiment une blessure pour moi »",
    "blessure": true
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/un-gros-probleme-se-profile-pour-latp-deux-tournois-atp-500-sont-plus-que-jamais-menaces-explique-jose-moron",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T17:38+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2019/12/AMBIANCE-529-1024x683.jpeg",
-   "titre": "« Un gros problème se profile pour l’ATP. Deux tournois ATP 500 sont plus que jamais menacés », explique José Moron",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/un-gros-probleme-se-profile-pour-latp-deux-tournois-atp-500-sont-plus-que-jamais-menaces",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T17:38+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2019/12/AMBIANCE-529-1024x683.jpeg",
-   "titre": "« Un gros problème se profile pour l’ATP. Deux tournois ATP 500 sont plus que jamais menacés »",
-   "blessure": false
   }
  ]
 }
