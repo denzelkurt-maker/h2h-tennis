@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-24T15:44+00:00",
+ "maj": "2026-11-24T17:31+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -23,11 +23,65 @@
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 19 articles",
   "20 Minutes": "ok, 17 articles",
-  "ESPN": "ok, 14 articles",
+  "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/fr/atp/sinner-opere-de-la-bandelette-ilio-tibiale-une-intervention-mineure-dit-il-sans-donner-de-date-de-retour-810945.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-24T17:27+00:00",
+   "image": null,
+   "titre": "Sinner opéré de la bandelette ilio-tibiale, une « intervention mineure » dit-il sans donner de date de retour",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/les-explications-de-jannik-sinner-apres-son-intervention-chirurgicale-au-genou-avec-mon-equipe-nous-avons-tout-mis-en-oeuvre-pour-soigner-ma-blessure-sans-recourir-a-une-operation-apres-des-prog",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T17:13+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/03/Sinner-discours-1024x524.jpeg",
+   "titre": "Les explications de Jannik Sinner après son intervention chirurgicale au genou : « Avec mon équipe, nous avons tout mis en œuvre pour soigner ma blessure sans recourir à une opération. Après des progrès très encourageant",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Qualifs-a-roland-garros-essai-au-psg-reve-olympique-en-bobsleigh-et-agent-de-joueurs-les-mille-vies-de-laurent-rizzo-vice-champion-de-monde-avec-l-equipe-de-france-senior-de-tennis/1745626#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-24T16:49+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Roland-Garros, PSG et bobsleigh : les mille vies de Laurent Rizzo",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-premiere-photo-de-sinner-apres-son-operation-devoilee",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T16:47+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Jannik-Sinner-chute-1024x555.jpeg",
+   "titre": "La première photo de Sinner après son opération dévoilée",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/toni-nadal-sur-carlos-alcaraz-en-battant-alexander-zverev-surtout-en-labsence-de-jannik-sinner-il-a-prouve-une-chose",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T16:17+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/09/Sinner-Alcaraz-1024x555.jpeg",
+   "titre": "Toni Nadal sur Carlos Alcaraz : « En battant Alexander Zverev, surtout en l’absence de Jannik Sinner, il a prouvé une chose »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/patrick-mouratoglou-previent-tout-le-monde-sur-carlos-alcaraz-ca-fait-peur-de-penser-que-ce-joueur-puisse-encore-faire-cela",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T15:33+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-poing-hargne-victoire-1024x573.jpeg",
+   "titre": "Patrick Mouratoglou prévient tout le monde sur Carlos Alcaraz : « Ça fait peur de penser que ce joueur puisse encore faire cela »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/paolo-bertolucci-perd-ses-nerfs-au-sujet-de-jannik-sinner-cest-degradant-et-irrespectueux",
    "source": "We Love Tennis",
@@ -186,15 +240,6 @@
    "blessure": true
   },
   {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Qualifs-a-roland-garros-essai-au-psg-reve-olympique-en-bobsleigh-et-agent-de-joueurs-les-mille-vies-de-laurent-rizzo-vice-champion-de-monde-avec-l-equipe-de-france-senior-de-tennis/1745626#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-24T11:13+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Roland-Garros, PSG et bobsleigh : les mille vies de Laurent Rizzo",
-   "blessure": false
-  },
-  {
    "lien": "https://www.welovetennis.fr/atp/la-duree-dabsence-de-jannik-sinner-devoilee-apres-son-operation-reussie",
    "source": "We Love Tennis",
    "langue": "fr",
@@ -307,6 +352,15 @@
    "blessure": false
   },
   {
+   "lien": "https://www.welovetennis.fr/atp/john-isner-repond-aux-critiques-sur-zverev-et-il-a-tout-dit-sinner-figurait-dans-le-tableau-de-roland-garros-et-alcaraz-dans-celui-de-lus-open-et-il-a-remporte-les-deux-tournois",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T08:21+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-numero-1-trophee-coupe-1024x515.jpeg",
+   "titre": "John Isner répond aux critiques sur Zverev, et il a tout dit : « Sinner figurait dans le tableau de Roland-Garros et Alcaraz dans celui de l’US Open. Et il a remporté les deux tournois »",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/la-presse-espagnol-salue-lengagement-dalcaraz-hier-il-gagne-cinq-milions-et-aujourdhui-il-est-deja-engage-a-100-avec-lequipe-de-coupe-davis",
    "source": "We Love Tennis",
    "langue": "fr",
@@ -412,10 +466,10 @@
    "langue": "en",
    "date": "2026-11-23T19:00+00:00",
    "image": null,
-   "vo": "Sinner to undergo knee surgery in Finland on Tuesday, set to miss the Australian Open (report)",
-   "titre": "Sinner va subir une opération du genou en Finlande mardi et devrait manquer l'Open d'Australie (article)",
-   "titre_fr": "Sinner va subir une opération du genou en Finlande mardi et devrait manquer l'Open d'Australie (article)",
-   "blessure": true
+   "vo": "Sinner undergoes “minor surgery” on his iliotibial band, no timeline given for his return",
+   "titre": "Sinner subit une « opération mineure » de son fascia lata, aucune date n’est donnée pour son retour",
+   "blessure": true,
+   "titre_fr": "Sinner subit une « opération mineure » de son fascia lata, aucune date n’est donnée pour son retour"
   },
   {
    "lien": "https://www.welovetennis.fr/atp/alcaraz-la-classe-incarnee-je-nai-pas-du-tout-limpression-detre-le-meilleur-joueur-du-monde-en-ce-moment-le-numero-1-cest-zverev-il-faut-quon-en-prenne-conscience",
@@ -3776,62 +3830,6 @@
    "date": "2026-11-18T16:11+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-conf-presse-1-1024x530.jpeg",
    "titre": "Alexander Zverev à un journaliste en conférence de presse : « Tu devrais être mon entraîneur »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Ceremonie-boudee-par-l-atp-video-censuree-et-dialogue-au-point-mort-a-turin-la-grogne-des-joueurs-de-double-monte/1744351#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-18T15:59+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "La grogne des joueurs de double monte",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/wta-actualite/18-novembre-1990-le-jour-ou-monica-seles-et-gabriela-sabatini-ont-joue-un-match-en-cinq-sets-306315.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-18T15:40+00:00",
-   "image": null,
-   "titre": "18 novembre 1990 : Le jour où Monica Seles et Gabriela Sabatini ont joué un match en cinq sets",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-previent-tout-le-monde-pour-2027-voici-lobjectif-et-si-je-peux-faire-comme-jannik-sinner",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T15:39+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-conf-presse--1024x536.jpeg",
-   "titre": "Arthur Fils prévient tout le monde pour 2027 : « Voici l’objectif. Et si je peux faire comme Jannik Sinner… »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/justine-henin-sur-la-victoire-dalcaraz-contre-medvedev-daniil-connait-le-tarif-quand-carlos-joue-comme-ca-mais-il-a-peut-etre-flanche-un-peu-vite-par-moment",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T15:11+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-public-1-1024x510.jpeg",
-   "titre": "Justine Henin sur la victoire d’Alcaraz contre Medvedev : « Daniil connaît le tarif quand Carlos joue comme ça. Mais il a peut-être flanché un peu vite par moment »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/carlos-alcaraz-survives-injury-scare-to-cruise-past-daniil-medvedev-at-nitto-atp-finals/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-18T14:50+00:00",
-   "image": null,
-   "vo": "Carlos Alcaraz Survives Injury Scare To Cruise Past Daniil Medvedev At Nitto ATP Finals",
-   "titre": "Carlos Alcaraz surmonte une frayeur liée à une blessure pour battre Daniil Medvedev aux Nitto ATP Finals",
-   "titre_fr": "Carlos Alcaraz surmonte une frayeur liée à une blessure pour battre Daniil Medvedev aux Nitto ATP Finals",
-   "blessure": true
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/alcaraz-sur-son-alerte-physique-lors-de-sa-victoire-contre-medvedev-je-vais-maintenant-analyser-cela-avec-mon-equipe-et-nous-verrons-comment-ca-se-presente",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T14:49+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-1024x552.jpeg",
-   "titre": "Alcaraz, sur son alerte physique lors de sa victoire contre Medvedev : « Je vais maintenant analyser cela avec mon équipe et nous verrons comment ça se présente »",
    "blessure": false
   }
  ]
