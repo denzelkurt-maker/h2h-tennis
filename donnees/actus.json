@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-24T05:39+00:00",
+ "maj": "2026-11-24T08:05+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -46,6 +46,33 @@
    "vo": "November 24, 1996: The day Sampras won his third ATP Finals crown after an epic battle with Becker",
    "titre": "24 novemre 1996 : le jour où Sampras a remporté son troisième titre aux ATP Finals après une bataille épique contre Becker",
    "titre_fr": "24 novemre 1996 : le jour où Sampras a remporté son troisième titre aux ATP Finals après une bataille épique contre Becker",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-presse-espagnol-salue-lengagement-dalcaraz-hier-il-gagne-cinq-milions-et-aujourdhui-il-est-deja-engage-a-100-avec-lequipe-de-coupe-davis",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T07:51+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-celebration--1024x512.jpeg",
+   "titre": "La presse Espagnol salue l’engagement d’Alcaraz : « Hier il gagne cinq milions et aujourd’hui il est déjà engagé à 100% avec l’équipe de Coupe Davis »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/un-docteur-reconnu-previent-sinner-apres-5-mois-de-traitements-sans-resultat-operer-la-bandelette-ilio-tibiale-est-le-bon-choix-cest-une-intervention-rapide-avec-mobilisation-immediate",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T07:15+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Sinner-profil-wim-1024x575.jpeg",
+   "titre": "Un docteur reconnu prévient Sinner : « Après 5 mois de traitements sans résultat, opérer la bandelette ilio-tibiale est le bon choix. C’est une intervention rapide avec mobilisation immédiate, mais… »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/A-peine-les-finales-atp-terminees-a-turin-que-la-coupe-davis-rappelle-deja-ses-cadors-a-bologne/1745674#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-24T06:35+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "À peine les Finales ATP terminées à Turin que la Coupe Davis rappelle déjà ses cadors à Bologne",
    "blessure": false
   },
   {
@@ -3809,33 +3836,6 @@
    "vo": "Untouchable on serve, Zverev beats Shelton to reach the ATP Finals semi-finals",
    "titre": "Intouchable au service, Zverev bat Shelton et atteint les demi-finales des ATP Finals",
    "titre_fr": "Intouchable au service, Zverev bat Shelton et atteint les demi-finales des ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Serein-face-a-ben-shelton-alexander-zverev-valide-deja-sa-qualification-pour-les-demies-des-finales-atp/1744348#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-17T21:21+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/alexander-zverev-s-est-montre-imperial-au-service-f-faugere-l-equipe/1500000002653025/0:0,2000:1333-828-552-75/9ad1a.jpg",
-   "titre": "Serein face à Ben Shelton, Alexander Zverev valide déjà sa qualification pour les demies des Finales ATP",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/open-metz-grand-est/les-francais-repondent-present-cinq-tricolores-decrochent-leur-billet-pour-les-huitiemes",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-17T21:09+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2021/11/Herbert-paris-1024x557.jpeg",
-   "titre": "Les Français répondent présent, cinq Tricolores décrochent leur billet pour les huitièmes !",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/coupe-davis/coupe-davis-theo-arribage-et-albano-olivetti-surveilles-de-pres-par-captaine-monfils_AV-202611170926.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-17T20:22+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/j8PlzdCOPNsDWJjzSUh6xpABInU=/0x40:2048x1192/800x0/images/Albano-Olivetti-et-Theo-Arribage-le-17-novembre-2026-2385752.jpg",
-   "titre": "Coupe Davis: Théo Arribagé et Albano Olivetti surveillés de près par Captaine Monfils",
    "blessure": false
   }
  ]
