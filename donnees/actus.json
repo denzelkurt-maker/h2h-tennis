@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-24T17:31+00:00",
+ "maj": "2026-11-24T19:44+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 42 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 18 articles",
+  "We Love Tennis": "ok, 19 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 19 articles",
@@ -28,6 +28,42 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-sur-deux-personnes-determinantes-de-sa-saison-ils-ont-tous-deux-fait-un-travail-formidable-et-je-suis-vraiment-fier-de-eux",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T18:57+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-conf-presse-1024x555.jpeg",
+   "titre": "Carlos Alcaraz sur deux personnes déterminantes de sa saison : « Ils ont tous deux fait un travail formidable, et je suis vraiment fier de eux »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/un-joueur-du-top-10-mondial-se-separe-de-sa-celebre-petite-amie",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T18:15+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Trinity-Rodamn-copine-petite-amie-Shelton-1024x529.jpeg",
+   "titre": "Un joueur du top 10 mondial se sépare de sa célèbre petite amie",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/andy-roddick-est-ce-que-je-crois-qualexander-zverev-est-meilleur-que-jannik-sinner-et-carlos-alcaraz-non-je-ne-le-crois-pas-il-ne-la-jamais-ete-et-alors",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T17:51+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-trophee-coupe-numero-1-1024x541.jpeg",
+   "titre": "Andy Roddick : « Est-ce que je crois qu’Alexander Zverev est meilleur que Jannik Sinner et Carlos Alcaraz ? Non, je ne le crois pas. Il ne l’a jamais été. Et alors ? »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Apres-avoir-tout-mis-en-oeuvre-pour-se-soigner-sans-recourir-a-la-chirurgie-jannik-sinner-confirme-avoir-ete-opere-du-genou-droit/1745871#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-24T17:40+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/jannik-sinner-a-ete-opere-du-genou-droit-a-reau-l-equipe/1500000002658751/0:0,2000:1333-828-552-75/06ae1.jpg",
+   "titre": "Après avoir « tout mis en oeuvre pour se soigner sans recourir à la chirurgie », Jannik Sinner confirme avoir été opéré du genou droit",
+   "blessure": true
+  },
   {
    "lien": "https://www.tennismajors.com/fr/atp/sinner-opere-de-la-bandelette-ilio-tibiale-une-intervention-mineure-dit-il-sans-donner-de-date-de-retour-810945.html",
    "source": "Tennis Majors",
@@ -44,6 +80,15 @@
    "date": "2026-11-24T17:13+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/03/Sinner-discours-1024x524.jpeg",
    "titre": "Les explications de Jannik Sinner après son intervention chirurgicale au genou : « Avec mon équipe, nous avons tout mis en œuvre pour soigner ma blessure sans recourir à une opération. Après des progrès très encourageant",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/les-explications-de-jannik-sinner-apres-son-intervention-chirurgicale-avec-mon-equipe-nous-avons-tout-mis-en-oeuvre-pour-soigner-ma-blessure-sans-recourir-a-une-operation-apres-des-progres-tres",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T17:13+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/03/Sinner-discours-1024x524.jpeg",
+   "titre": "Les explications de Jannik Sinner après son intervention chirurgicale : « Avec mon équipe, nous avons tout mis en œuvre pour soigner ma blessure sans recourir à une opération. Après des progrès très encourageants au débu",
    "blessure": true
   },
   {
@@ -3783,53 +3828,6 @@
    "vo": "Zverev officially notified of lawsuit by ex-partner in abuse case",
    "titre": "Zverev officiellement informé de la plainte déposée par son ex-compagne dans une affaire de violences",
    "titre_fr": "Zverev officiellement informé de la plainte déposée par son ex-compagne dans une affaire de violences",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/angelo-binaghi-sur-jannik-sinner-apres-avoir-ete-injustement-accuse-de-dopage-il-doit-subir-cela-jai-de-la-peine-pour-ce-garcon-car-il-ne-meritait-pas-ca",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T16:37+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Sinner-profil-wim-1024x575.jpeg",
-   "titre": "Angelo Binaghi sur Jannik Sinner : « Après avoir été injustement accusé de dopage, il doit subir cela. J’ai de la peine pour ce garçon, car il ne méritait pas ça »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/apres-avoir-ete-injustement-accuse-de-dopage-jannik-sinner-doit-subir-cela-jai-de-la-peine-pour-ce-garcon-explique-angelo-binaghi",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T16:37+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Sinner-profil-wim-1024x575.jpeg",
-   "titre": "« Après avoir été injustement accusé de dopage, Jannik Sinner doit subir cela. J’ai de la peine pour ce garçon », explique Angelo Binaghi",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-explains-the-treatment-he-received-during-his-match-against-medvedev-867240.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-18T16:18+00:00",
-   "image": null,
-   "vo": "“Suddenly I felt a little problem of my hamstring” – Alcaraz explains the treatment he received",
-   "titre": "« Soudain, j'ai ressenti un petit problème au niveau de mon ischio-jambier » – Alcaraz explique le traitement qu'il a reçu",
-   "blessure": false,
-   "titre_fr": "« Soudain, j'ai ressenti un petit problème au niveau de mon ischio-jambier » – Alcaraz explique le traitement qu'il a reçu"
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/alcaraz-rassure-apres-setre-fait-soigner-contre-medvedev-810416.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-18T16:17+00:00",
-   "image": null,
-   "titre": "Alcaraz s’explique sur ses soins pendant son match contre Medvedev",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/alexander-zverev-a-un-journaliste-en-conference-de-presse-tu-devrais-etre-mon-entraineur",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T16:11+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-conf-presse-1-1024x530.jpeg",
-   "titre": "Alexander Zverev à un journaliste en conférence de presse : « Tu devrais être mon entraîneur »",
    "blessure": false
   }
  ]
