@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-23T23:32+00:00",
+ "maj": "2026-11-24T01:58+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -20,7 +20,7 @@
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
-  "RMC Sport": "ok, 25 articles",
+  "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 18 articles",
   "20 Minutes": "ok, 17 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
@@ -28,6 +28,26 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/24-novembre-1996-le-jour-ou-pete-sampras-a-remporte-son-3e-masters-309304.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-24T13:00+00:00",
+   "image": null,
+   "titre": "24 novembre 1996 : le jour où Sampras a dominé Becker dans un des plus grands matchs de l’histoire",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/november-24-1996-pete-sampras-won-his-3rd-masters-cup-309311.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-24T11:37+00:00",
+   "image": null,
+   "vo": "November 24, 1996: The day Sampras won his third ATP Finals crown after an epic battle with Becker",
+   "titre": "24 novemre 1996 : le jour où Sampras a remporté son troisième titre aux ATP Finals après une bataille épique contre Becker",
+   "titre_fr": "24 novemre 1996 : le jour où Sampras a remporté son troisième titre aux ATP Finals après une bataille épique contre Becker",
+   "blessure": false
+  },
   {
    "lien": "https://www.ubitennis.net/2026/11/report-jannik-sinner-to-have-knee-surgery-and-will-miss-australian-open/",
    "source": "Ubitennis",
@@ -3816,26 +3836,6 @@
    "date": "2026-11-17T20:22+00:00",
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/j8PlzdCOPNsDWJjzSUh6xpABInU=/0x40:2048x1192/800x0/images/Albano-Olivetti-et-Theo-Arribage-le-17-novembre-2026-2385752.jpg",
    "titre": "Coupe Davis: Théo Arribagé et Albano Olivetti surveillés de près par Captaine Monfils",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/play-as-less-as-possible-and-go-as-deep-as-possible-fils-sets-out-his-2027-plan-867201.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-17T20:10+00:00",
-   "image": null,
-   "vo": "“Play as less as possible and go as deep as possible”: Fils sets out his 2027 plan",
-   "titre": "« Jouer le moins possible et aller le plus loin possible » : Fils dévoile son plan pour 2027",
-   "titre_fr": "« Jouer le moins possible et aller le plus loin possible » : Fils dévoile son plan pour 2027",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/arthur-fils/arthur-fils-remporte-son-premier-match-en-carriere-au-masters_8287070.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-17T19:29+00:00",
-   "image": "https://www.franceinfo.fr/pictures/zmpfWNRQXm4wXhW5x-Y5qhERhYA/268x0:652x682/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/11/17/6afc6ce672584976983710.jpg",
-   "titre": "Arthur Fils remporte son premier match en carrière au Masters",
    "blessure": false
   }
  ]
