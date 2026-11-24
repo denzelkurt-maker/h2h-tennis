@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-24T13:58+00:00",
+ "maj": "2026-11-24T15:44+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,16 +18,61 @@
   "L'Équipe": "ok, 42 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 17 articles",
+  "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 26 articles",
-  "franceinfo": "ok, 18 articles",
+  "franceinfo": "ok, 19 articles",
   "20 Minutes": "ok, 17 articles",
-  "ESPN": "erreur : no element found: line 1, column 0",
+  "ESPN": "ok, 14 articles",
   "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/paolo-bertolucci-perd-ses-nerfs-au-sujet-de-jannik-sinner-cest-degradant-et-irrespectueux",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T14:45+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-conf-presse-RG-2026-1-1024x556.jpeg",
+   "titre": "Paolo Bertolucci perd ses nerfs au sujet de Jannik Sinner : « C’est dégradant et irrespectueux »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/greg-rusedski-rappelle-a-lordre-zverev-encore-battu-par-alcaraz-il-a-toujours-ce-petit-defaut-et-cela-lui-coute-tres-cher",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-24T14:15+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-revers-1024x507.jpeg",
+   "titre": "Greg Rusedski rappelle à l’ordre Zverev, encore battu par Alcaraz : « Il a toujours ce petit défaut, et cela lui coûte très cher »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/atp/jannik-sinner-a-ete-opere-du-genou-droit-et-devrait-manquer-plusieurs-mois-de-competition_8297760.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-24T14:14+00:00",
+   "image": "https://www.franceinfo.fr/pictures/egF1093hYVcgwNIC3rxE2gWSs-I/0x140:3615x2173/432x243/filters:format(jpg)/2026/10/03/6ac0c7f8843c0500153058.jpg",
+   "titre": "Jannik Sinner a été opéré du genou droit et devrait manquer plusieurs mois de compétition",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Video/Coupe-davis-espagne-nous-sommes-favoris-sans-aucun-doute-david-ferrer-avant-le-quart-de-finale-de-coupe-davis-entre-l-espagne-et-l-autriche/20246232#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-24T14:11+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Ferrer : «Nous sommes favoris sans aucun doute»",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Absent-depuis-juillet-jannik-sinner-s-envole-vers-la-finlande-pour-regler-le-plus-grand-defi-medical-de-sa-carriere/1745664#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-24T13:58+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Sinner face au plus grand défi médical de sa carrière",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-persiste-et-signe-je-ne-joue-pas-pour-entrer-dans-lhistoire-je-ne-joue-pas-pour-battre-des-records-je-joue-juste-pour-une-seule-chose",
    "source": "We Love Tennis",
@@ -298,6 +343,17 @@
    "blessure": false
   },
   {
+   "lien": "https://www.espn.com/tennis/story/_/id/50577214/henry-patten-neal-skupski-harri-heliovaara",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-23T23:46+00:00",
+   "image": null,
+   "vo": "'My mouth was open in horror': Patten drops Heliovaara to team up with Skupski",
+   "titre": "« J'avais la bouche grande ouverte, horrifié » : Patten abandonne Heliovaara pour faire équipe avec Skupski",
+   "titre_fr": "« J'avais la bouche grande ouverte, horrifié » : Patten abandonne Heliovaara pour faire équipe avec Skupski",
+   "blessure": true
+  },
+  {
    "lien": "https://www.ubitennis.net/2026/11/report-jannik-sinner-to-have-knee-surgery-and-will-miss-australian-open/",
    "source": "Ubitennis",
    "langue": "en",
@@ -337,15 +393,6 @@
    "vo": "Domestic abuse allegations against Alexander Zverev: Key dates – updated in November 2026",
    "titre": "Allégations de violences conjugales à l'encontre d'Alexander Zverev : dates clés – mise à jour en novembre 2026",
    "titre_fr": "Allégations de violences conjugales à l'encontre d'Alexander Zverev : dates clés – mise à jour en novembre 2026",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Absent-depuis-juillet-jannik-sinner-s-envole-vers-la-finlande-pour-regler-le-plus-grand-defi-medical-de-sa-carriere/1745664#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-23T20:20+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Sinner face au plus grand défi médical de sa carrière",
    "blessure": false
   },
   {
@@ -3785,53 +3832,6 @@
    "date": "2026-11-18T14:49+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-1024x552.jpeg",
    "titre": "Alcaraz, sur son alerte physique lors de sa victoire contre Medvedev : « Je vais maintenant analyser cela avec mon équipe et nous verrons comment ça se présente »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/En-surclassant-daniil-medvedev-carlos-alcaraz-met-un-pied-dans-le-dernier-carre-des-finales-atp/1744447#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-18T14:42+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/apres-sa-demonstration-face-a-tiafoe-alcaraz-n-a-pas-leve-le-pied-face-a-medvedev-f-faugere-l-equipe/1500000002653513/0:0,2000:1333-828-552-75/c3d2f.jpg",
-   "titre": "En surclassant Daniil Medvedev, Carlos Alcaraz met un pied dans le dernier carré des Finales ATP",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/alcaraz-domine-medvedev-et-se-rapproche-des-demi-finales-810408.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-18T14:38+00:00",
-   "image": null,
-   "titre": "Alcaraz domine Medvedev sans concéder de balle de break et termine premier de son groupe",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-beats-medvedev-in-straight-sets-one-step-from-the-semi-finals-867235.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-18T14:38+00:00",
-   "image": null,
-   "vo": "Alcaraz beats Medvedev without facing a break point, tops Group Lendl",
-   "titre": "Alcaraz bat Medvedev sans concéder de balle de break et termine en tête du groupe Lendl",
-   "blessure": false,
-   "titre_fr": "Alcaraz bat Medvedev sans concéder de balle de break et termine en tête du groupe Lendl"
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/inquietude-pour-carlos-alcaraz-vainqueur-de-medvedev-et-quasiment-qualifie-en-demi-finale",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T14:25+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-coup-droit-1-1024x544.jpeg",
-   "titre": "Inquiétude pour Carlos Alcaraz, vainqueur de Medvedev et quasiment qualifié en demi-finale",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/gustavo-kuerten-met-fin-au-debat-sur-la-place-de-numero-1-mondial-dalexander-zverev-les-chiffres-sont-la-et-cest-merite",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T13:35+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Kuerten-1024x550.jpeg",
-   "titre": "Gustavo Kuerten met fin au débat sur la place de numéro 1 mondial d’Alexander Zverev : « Les chiffres sont là, et c’est mérité »",
    "blessure": false
   }
  ]
