@@ -1,15 +1,15 @@
 {
  "actus.json": {
-  "octets": 232885,
-  "empreinte": "5b6707068718"
+  "octets": 233655,
+  "empreinte": "9c65c99f8fb1"
  },
  "cito-2026.json": {
-  "octets": 556582,
-  "empreinte": "6323f5041f53"
+  "octets": 558626,
+  "empreinte": "c9e1544a82c6"
  },
  "classement.json": {
-  "octets": 135079,
-  "empreinte": "156169e0cdf1"
+  "octets": 135361,
+  "empreinte": "a7f078c18484"
  },
  "classements-fin-annee.json": {
   "octets": 440128,
@@ -40,8 +40,8 @@
   "empreinte": "c6c217e0153d"
  },
  "double-2026-01.json": {
-  "octets": 37258,
-  "empreinte": "cb25dcd3ccd4"
+  "octets": 37428,
+  "empreinte": "18db36b5fd8a"
  },
  "double-2026-02.json": {
   "octets": 30652,
@@ -52,8 +52,8 @@
   "empreinte": "e7b042cc4a00"
  },
  "double-2026-04.json": {
-  "octets": 31427,
-  "empreinte": "7a048449194c"
+  "octets": 31634,
+  "empreinte": "672a536a98dd"
  },
  "double-2026-05.json": {
   "octets": 29488,
@@ -64,8 +64,8 @@
   "empreinte": "abcf12a53cef"
  },
  "double-2026-07.json": {
-  "octets": 31111,
-  "empreinte": "a3fb0bd0fa6d"
+  "octets": 32235,
+  "empreinte": "338ce1b63958"
  },
  "double-2026-08.json": {
   "octets": 28153,
@@ -80,24 +80,24 @@
   "empreinte": "d74b2dd4f441"
  },
  "double-2026-11.json": {
-  "octets": 22023,
-  "empreinte": "e4af46fb230e"
+  "octets": 21052,
+  "empreinte": "cdfc596e113d"
  },
  "joueurs-historique.json": {
   "octets": 621241,
   "empreinte": "7a514f692aa9"
  },
  "joueurs-recents.json": {
-  "octets": 45852,
-  "empreinte": "9b5cfe3f08bd"
+  "octets": 46069,
+  "empreinte": "2cf119ee2a94"
  },
  "photos.json": {
   "octets": 523989,
-  "empreinte": "b807ce84859e"
+  "empreinte": "e7f680fe6d5c"
  },
  "programme.json": {
   "octets": 32633,
-  "empreinte": "01830257140d"
+  "empreinte": "16040ede7fc1"
  },
  "simple-2011.json": {
   "octets": 492691,
@@ -200,8 +200,8 @@
   "empreinte": "ecf2f777fd39"
  },
  "simple-2026-11.json": {
-  "octets": 145525,
-  "empreinte": "5aef8c6043ea"
+  "octets": 151713,
+  "empreinte": "9326706bb200"
  },
  "stats-simple-2011.json": {
   "octets": 650600,
@@ -288,7 +288,7 @@
   "empreinte": "49d9ee7f6444"
  },
  "tml-2026.json": {
-  "octets": 265550,
-  "empreinte": "32db8f3785e0"
+  "octets": 265586,
+  "empreinte": "dfbd3105c46a"
  }
 }
