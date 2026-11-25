@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T08:09+00:00",
+ "maj": "2026-11-25T09:52+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -37,6 +37,71 @@
    "vo": "November 25, 1999: The day Agassi was crowned year-end world No 1, two years after dropping out of the top 100",
    "titre": "25 novembre 1999 : le jour où Agassi a été sacré numéro 1 mondial à la fin de l'année, deux ans après avoir quitté le top 100",
    "titre_fr": "25 novembre 1999 : le jour où Agassi a été sacré numéro 1 mondial à la fin de l'année, deux ans après avoir quitté le top 100",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/rick-macci-inquiet-pour-jannik-sinner-le-facteur-x-sera-sa-capacite-a-se-deplacer-car-ses-deplacements",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T09:48+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Sinner-wim-gazon-1024x550.jpeg",
+   "titre": "Rick Macci inquiet pour Jannik Sinner : « Le facteur X sera sa capacité à se déplacer, car ses déplacements… »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.franceinfo.fr/sports/tennis/je-suis-convaincu-que-je-serai-innocente-arthur-rinderknech-rejette-les-accusations-de-refus-de-se-soumettre-a-un-controle-antidopage_8298981.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
+   "source": "franceinfo",
+   "langue": "fr",
+   "date": "2026-11-25T09:14+00:00",
+   "image": "https://www.franceinfo.fr/pictures/62rPx4wd9ZPcGkbwUpnuAAi--w8/0x198:6192x3681/432x243/filters:format(jpg)/2026/11/25/6b06a43b25302256645691.jpg",
+   "titre": "\"Je suis convaincu que je serai innocenté\" : le tennisman français Arthur Rinderknech conteste avoir refusé de se soumettre à un contrôle antidopage",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/corretja-a-propos-de-jodar-avec-son-pere-ils-devront-dabord-analyser-ce-qui-sest-passe-au-cours-de-cette-premiere-saison-qui-a-ete-extremement-positive-comme-ils-sont-tres-amb",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T09:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Jodar-1024x488.jpeg",
+   "titre": "Corretja à propos de Jodar : « Avec son père, ils devront d’abord analyser ce qui s’est passé au cours de cette première saison, qui a été extrêmement positive. Comme ils sont très ambitieux, ils en voudront certainement",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/rennae-stubb-se-paie-alexander-zverev-il-nest-numero-un-que-de-nom-vous-savez-ce-que-je-trouve-interessant-nest-ce-pas-alexander-zverev-qui-disait-que-les-courts-etaient-ralen",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T08:49+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-Alcaraz--1024x512.jpeg",
+   "titre": "Rennae Stubb se paie Alexander Zverev : « Il n’est numéro un que de nom. Vous savez ce que je trouve intéressant ? N’est-ce pas Alexander Zverev qui disait que les courts étaient ralentis pour favoriser Jannik Sinner et ",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/arthur-rinderknech-maintains-innocence-over-allegedly-refusing-doping-test/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-25T08:29+00:00",
+   "image": null,
+   "vo": "Arthur Rinderknech Maintains Innocence Over Allegedly Refusing Doping Test",
+   "titre": "Arthur Rinderknech clame son innocence après avoir prétendument refusé de se soumettre à un contrôle antidopage",
+   "titre_fr": "Arthur Rinderknech clame son innocence après avoir prétendument refusé de se soumettre à un contrôle antidopage",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/coupe-davis/lincertitude-plane-toujours-au-dessus-de-carlos-alcaraz-tout-va-bien-je-nai-pas-encore-touche-de-balle-ni-meme-pris-une-raquette-en-main",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T08:17+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-celebration--1024x512.jpeg",
+   "titre": "L’incertitude plane toujours au dessus de Carlos Alcaraz : « Tout va bien. Je n’ai pas encore touché de balle, ni même pris une raquette en main »",
+   "blessure": true
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/je-serai-innocente-le-dementi-ferme-de-rinderknech-sous-la-menace-d-une-suspension-de-quatre-ans_AV-202611250352.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-25T08:10+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/VVc3E8VdR0KzhZ844yOSDz8q4ak=/0x40:2048x1192/800x0/images/Arthur-Rinderknech-en-Coupe-Davis-le-18-09-2026-2350813.jpg",
+   "titre": "\"Je serai innocenté\": le démenti ferme de Rinderknech, sous la menace d'une suspension de quatre ans",
    "blessure": false
   },
   {
@@ -3759,73 +3824,6 @@
    "vo": "Alcaraz cruises past Medvedev at ATP Finals despite leg issue",
    "titre": "Alcaraz passe facilement devant Medvedev lors des ATP Finals malgré un problème à la jambe",
    "titre_fr": "Alcaraz passe facilement devant Medvedev lors des ATP Finals malgré un problème à la jambe",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/tiafoe-ecrase-cobolli-devant-le-public-italien-alcaraz-qualifie-en-tant-que-premier-de-son-groupe-aux-atp-finals-810440.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-18T21:56+00:00",
-   "image": null,
-   "titre": "« C’était assez brutal » : Tiafoe écrase Cobolli face au public turinois, Alcaraz premier de son groupe",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/frances-tiafoe-downs-lacklustre-cobolli-to-keep-atp-finals-dream-alive/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-18T21:36+00:00",
-   "image": null,
-   "vo": "Frances Tiafoe Downs Lacklustre Cobolli To Keep ATP Finals Dream Alive",
-   "titre": "Frances Tiafoe bat un Cobolli peu convaincant et garde vivant son rêve des ATP Finals",
-   "titre_fr": "Frances Tiafoe bat un Cobolli peu convaincant et garde vivant son rêve des ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/la-detresse-de-flavio-cobolli-apres-son-elimination-du-masters-de-turin",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T21:22+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Cobolli-revers-1024x458.jpeg",
-   "titre": "La détresse de Flavio Cobolli après son élimination du Masters de Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/tiafoe-crushes-cobolli-in-front-on-italian-crowd-alcaraz-qualified-as-group-winner-at-the-atp-finals-867257.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-18T21:18+00:00",
-   "image": null,
-   "vo": "“That was pretty brutal”: Tiafoe silences Turin to crush Cobolli, Alcaraz tops group",
-   "titre": "« C'était assez brutal » : Tiafoe fait taire Turin en écrasant Cobolli, Alcaraz termine en tête du groupe",
-   "blessure": false,
-   "titre_fr": "« C'était assez brutal » : Tiafoe fait taire Turin en écrasant Cobolli, Alcaraz termine en tête du groupe"
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Frances-tiafoe-maitrise-flavio-cobolli-carlos-alcaraz-directement-qualifie-pour-le-dernier-carre-des-finales-atp/1744542#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-18T21:16+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/frances-tiafoe-s-est-relance-face-a-flavio-cobolli-ce-mercredi-soir-a-turin-f-faugere-l-equipe/1500000002653736/0:0,2000:1333-828-552-75/a4912.jpg",
-   "titre": "Frances Tiafoe maîtrise Flavio Cobolli, Carlos Alcaraz directement qualifié pour le dernier carré des Finales ATP",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/tiafoe-fait-tres-mal-a-cobolli-alcaraz-qualifie-et-premier-de-son-groupe",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T21:13+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Tiafoe-1024x566.jpeg",
-   "titre": "Tiafoe fait très mal à Cobolli, Alcaraz qualifié et premier de son groupe",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/tennis-zverev-vise-par-une-nouvelle-plainte-de-son-ex-compagne_AD-202611180961.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-18T20:25+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/VCDFsQNvS9xbzmTYUjShaLQHM-w=/0x0:2048x1152/800x0/images/Alexander-Zverev-lors-du-Rolex-Paris-Masters-en-novembre-2026-2383827.jpg",
-   "titre": "Tennis: Zverev visé par une nouvelle plainte de son ex-compagne",
    "blessure": false
   }
  ]
