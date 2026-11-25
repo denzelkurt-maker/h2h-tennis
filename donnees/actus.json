@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-24T23:31+00:00",
+ "maj": "2026-11-25T02:01+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -28,6 +28,35 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/november-25-1999-the-day-agassi-received-the-atp-tour-trophy-for-finishing-the-year-as-world-no-1-309533.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-25T11:50+00:00",
+   "image": null,
+   "vo": "November 25, 1999: The day Agassi was crowned year-end world No 1, two years after dropping out of the top 100",
+   "titre": "25 novembre 1999 : le jour où Agassi a été sacré numéro 1 mondial à la fin de l'année, deux ans après avoir quitté le top 100",
+   "titre_fr": "25 novembre 1999 : le jour où Agassi a été sacré numéro 1 mondial à la fin de l'année, deux ans après avoir quitté le top 100",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/25-novembre-1999-le-jour-ou-agassi-sest-assure-de-terminer-lannee-numero-un-mondial-309522.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-25T07:30+00:00",
+   "image": null,
+   "titre": "25 novembre 1999 : Le jour où Agassi s’est assuré de terminer l’année numéro un mondial, deux ans après être sorti du Top 100",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/-convaincu-d-etre-innocente-arthur-rinderknech-conteste-avoir-refuse-de-se-soumettre-a-un-controle-antidopage/1745963#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-24T23:50+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-rinderknech-a-la-plenitude-arena-le-5-novembre-lors-du-rolex-paris-masters-p-lahalle-l-equipe/1500000002659035/0:0,2000:1333-828-552-75/fee61.jpg",
+   "titre": "« Convaincu » d'être innocenté, Arthur Rinderknech « conteste » avoir refusé de se soumettre à un contrôle antidopage",
+   "blessure": false
+  },
   {
    "lien": "https://www.lequipe.fr/Tennis/Article/Arthur-rinderknech-bientot-suspendu-pour-un-refus-de-controle-antidopage/1745952#at_medium=RSS_feeds",
    "source": "L'Équipe",
@@ -245,6 +274,15 @@
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/TdUih5Nz52grFs32wb8XABF0cjQ=/0x49:2048x1201/800x0/images/Jannick-Sinner-assiste-au-match-Juventus-AC-Milan-1-1-Serie-A-le-6-septembre-2026-2354502.jpg",
    "titre": "Tennis: Jannik Sinner opéré du genou, plusieurs mois d’absence à venir",
    "blessure": true
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-24T13:07+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
+   "titre": "Jannik Sinner",
+   "blessure": false
   },
   {
    "lien": "https://www.tennismajors.com/fr/atp-actualite/24-novembre-1996-le-jour-ou-pete-sampras-a-remporte-son-3e-masters-309304.html",
@@ -716,15 +754,6 @@
    "date": "2026-11-23T13:08+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-presse-conf-1024x579.jpeg",
    "titre": "Alexander Zverev : « Si on m’avait dit en début de saison que je perdrai la finale du Masters contre Carlos Alcaraz après une saison pareille, j’aurais signé »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-23T13:01+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
-   "titre": "Jannik Sinner",
    "blessure": false
   },
   {
@@ -3800,35 +3829,6 @@
    "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-et-alejandro-davidovich-fokina-a-roland-garros-en-2023-a-reau-l-equipe/1500000002653647/0:0,800:533-828-552-75/689bf.jpg",
    "titre": "Alejandro Davidovich Fokina, 16e mondial et ami d'Arthur Fils : « Quand je vois Arthur, je vois une star »",
    "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/laveu-forcement-inquietant-dalcaraz-apres-sa-victoire-contre-medvedev-je-ne-vais-pas-mentir-je-sens-un-peu-ma-cuisse-malheureusement-je-jouais-tres-bien-et-tout-a-coup-jai-ressen",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T18:45+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-conf-presse-1024x555.jpeg",
-   "titre": "L’aveu forcément inquiétant d’Alcaraz après sa victoire contre Medvedev : « Je ne vais pas mentir, je sens un peu ma cuisse. Malheureusement, je jouais très bien, et tout à coup, j’ai ressenti un petit problème à ce nive",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.espn.com/tennis/story/_/id/50354131/alexander-sasha-zverev-world-no-1-ranking-domestic-abuse-charges",
-   "source": "ESPN",
-   "langue": "en",
-   "date": "2026-11-18T18:11+00:00",
-   "image": null,
-   "vo": "FAQ: Why Zverev's rise to world No. 1 provokes mixed feelings",
-   "titre": "FAQ : Pourquoi l'ascension de Zverev au rang de numéro 1 mondial suscite-t-elle des sentiments mitigés ?",
-   "titre_fr": "FAQ : Pourquoi l'ascension de Zverev au rang de numéro 1 mondial suscite-t-elle des sentiments mitigés ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/tsonga-sur-la-carriere-de-nadal-rafa-avait-mal-mais-il-jouait-quand-meme-et-une-blessure-ou-tu-peux-jouer-ce-nest-pas-vraiment-une-blessure-pour-moi",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T18:06+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Tsonga-Nadal-Open-Australie-2008-1024x532.jpg",
-   "titre": "Tsonga, sur la carrière de Nadal : « Rafa avait mal mais il jouait quand même. Et une blessure où tu peux jouer, ce n’est pas vraiment une blessure pour moi »",
-   "blessure": true
   }
  ]
 }
