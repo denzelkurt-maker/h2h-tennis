@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T15:41+00:00",
+ "maj": "2026-11-25T17:29+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 42 articles",
+  "L'Équipe": "ok, 43 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 17 articles",
@@ -28,6 +28,60 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-photo-de-musetti-et-berrettini-qui-fait-parler-on-se-demande-sil-etait-judicieux-de-les-reunir-dans-une-competition-ou-lesprit-dequipe-revet-une-importance-capitale",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T17:02+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/10/Musetti-1024x625.jpg",
+   "titre": "La photo de Musetti et Berrettini qui fait parler : « On se demande s’il était judicieux de les réunir dans une compétition où l’esprit d’équipe revêt une importance capitale »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/patrick-mouratoglou-cette-declaration-de-carlos-alcaraz-montre-simplement-quil-dit-ce-quil-pense-et-cest-quelque-chose-que-jadore-chez-lui",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T16:54+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Mouratoglou-1-1024x582.jpeg",
+   "titre": "Patrick Mouratoglou : « Cette déclaration de Carlos Alcaraz montre simplement qu’il dit ce qu’il pense, et c’est quelque chose que j’adore chez lui »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Athletisme/Actualites/Podcast-dans-les-coulisses-de-la-lutte-antidopage-episode-1-toc-toc-toc-c-est-pour-un-controle/1539503#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-25T16:40+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Dans les coulisses de la lutte antidopage #1 - «Toc toc toc, c'est pour un contrôle»",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-apres-l-operation-au-genou-droit-de-jannik-sinner-le-tennis-a-besoin-de-lui/1746100#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-25T16:21+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/jannik-sinner-et-carlos-alcaraz-ne-se-sont-affrontes-qu-une-seule-fois-cette-saison-a-monte-carlo-f-faugere-l-equipe/1500000002659565/92:96,1922:1316-828-552-75/e534b.jpg",
+   "titre": "Carlos Alcaraz après l'opération au genou droit de Jannik Sinner : « Le tennis a besoin de lui »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/boris-becker-sur-un-joueur-actuel-du-top-10-je-pense-quil-a-ete-un-peu-depasse-par-la-situation",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T16:15+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/11/Boris-Becker-1024x521.jpeg",
+   "titre": "Boris Becker sur un joueur actuel du Top 10 : « Je pense qu’il a été un peu dépassé par la situation »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/marcel-granollers-sur-carlos-alcaraz-beaucoup-de-gens-ne-comprennent-pas",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T15:44+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-1024x552.jpeg",
+   "titre": "Marcel Granollers sur Carlos Alcaraz : « Beaucoup de gens ne comprennent pas »",
+   "blessure": false
+  },
   {
    "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-challenges-gaudenzis-painkiller-claim-downplays-former-partners-legal-action/",
    "source": "Ubitennis",
@@ -360,7 +414,7 @@
    "source": "L'Équipe",
    "langue": "fr",
    "date": "2026-11-24T17:40+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/jannik-sinner-a-ete-opere-du-genou-droit-a-reau-l-equipe/1500000002658751/0:0,2000:1333-828-552-75/06ae1.jpg",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/jannik-sinner-a-ete-opere-du-genou-droit-a-reau-l-equipe/1500000002658751/0:0,2000:1333-828-552-75/d5d97.jpg",
    "titre": "Après avoir « tout mis en oeuvre pour se soigner sans recourir à la chirurgie », Jannik Sinner confirme avoir été opéré du genou droit",
    "blessure": true
   },
@@ -3764,64 +3818,6 @@
    "date": "2026-11-19T10:46+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fokina-2251-1024x515.jpg",
    "titre": "Alejandro Davidovich Fokina sur Arthur Fils, qui est aussi son témoin de mariage : « Il est une source d’inspiration pour moi, j’ai envie d’avoir la même mentalité que lui. J’ai envie de l’imiter »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/atp-finals-a-quelle-heure-et-sur-quelle-chaine-tv-voir-le-match-entre-fils-et-zverev-au-masters_AV-202611190478.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-19T10:42+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/wewdOfJ998E-gPPnXaquKL4O86s=/0x0:2048x1152/800x0/images/Arthur-Fils-lors-du-Masters-ATP-le-17-novembre-2026-2385529.jpg",
-   "titre": "ATP Finals: à quelle heure et sur quelle chaîne TV voir le match entre Fils et Zverev au Masters?",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/masters-atp-arthur-fils-qualifie-en-demi-finales-si_AV-202611190461.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-19T10:22+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/abb5ItzUycaIpn9Sa28kJPj5mds=/0x162:1648x1089/800x0/images/Arthur-Fils-au-Masters-le-17-novembre-2026-2386755.jpg",
-   "titre": "ATP Finals: Arthur Fils qualifié en demi-finales si...",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/le-grand-moment-de-partage-entre-alcaraz-et-son-equipe-apres-la-victoire-contre-medvedev",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T10:11+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Capture-decran-2026-11-18-a-21.30.47-1024x474.png",
-   "titre": "Le grand moment de partage entre Alcaraz et son équipe après la victoire contre Medvedev",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/i-deserved-to-win-the-first-set-cobollis-body-gave-out-after-an-hour-in-turin-867289.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-19T09:33+00:00",
-   "image": null,
-   "vo": "“I deserved to win the first set”: Cobolli’s body gave out after an hour in Turin",
-   "titre": "« Je méritais de remporter le premier set » : le corps de Cobolli a lâché après une heure de jeu à Turin",
-   "titre_fr": "« Je méritais de remporter le premier set » : le corps de Cobolli a lâché après une heure de jeu à Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/nobody-thought-i-would-qualify-flavio-cobolli-saddened-by-latest-atp-finals-loss/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-19T09:27+00:00",
-   "image": null,
-   "vo": "‘Nobody Thought I Would Qualify’ – Flavio Cobolli Saddened By Latest ATP Finals Loss",
-   "titre": "« Personne ne pensait que je me qualifierais » : Flavio Cobolli attristé par sa dernière défaite aux ATP Finals",
-   "titre_fr": "« Personne ne pensait que je me qualifierais » : Flavio Cobolli attristé par sa dernière défaite aux ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/tiafoe-a-un-journaliste-apres-sa-victoire-contre-cobolli-je-pense-que-vous-mauriez-battu-lors-des-deux-premiers-jeux",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T09:10+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-05-at-17.23.19-e1795041873796-1024x550.jpeg",
-   "titre": "Tiafoe à un journaliste après sa victoire contre Cobolli : « Je pense que vous m’auriez battu lors des deux premiers jeux »",
    "blessure": false
   }
  ]
