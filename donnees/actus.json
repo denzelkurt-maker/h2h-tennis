@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T13:59+00:00",
+ "maj": "2026-11-25T15:41+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -28,6 +28,55 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-challenges-gaudenzis-painkiller-claim-downplays-former-partners-legal-action/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-25T15:21+00:00",
+   "image": null,
+   "vo": "Alexander Zverev Challenges Gaudenzi’s Painkiller Claim, Downplays Former Partner’s Legal Action",
+   "titre": "Alexander Zverev conteste l’affirmation de Gaudenzi concernant les antidouleurs et minimise l’action en justice de son ancienne partenaire",
+   "titre_fr": "Alexander Zverev conteste l’affirmation de Gaudenzi concernant les antidouleurs et minimise l’action en justice de son ancienne partenaire",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/alexander-zverev-sur-la-nouvelle-plainte-de-son-ex-compagne-pour-etre-honnete-ca-ne-minquiete-pas-trop",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T15:12+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-presse-conf-1024x579.jpeg",
+   "titre": "Alexander Zverev sur la nouvelle plainte de son ex-compagne : « Pour être honnête, ça ne m’inquiète pas trop »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/rinderknech-denies-refusing-doping-test-as-he-faces-possible-four-year-ban-867856.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-25T15:11+00:00",
+   "image": null,
+   "vo": "Rinderknech denies refusing doping test as he faces possible four-year ban",
+   "titre": "Rinderknech nie avoir refusé de se soumettre à un contrôle antidopage alors qu'il risque une suspension de quatre ans",
+   "titre_fr": "Rinderknech nie avoir refusé de se soumettre à un contrôle antidopage alors qu'il risque une suspension de quatre ans",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/filippo-volandri-capitaine-italien-jai-ecrit-a-jannik-sinner-il-y-a-deja-plusieurs-mois-et-voici-ce-quil-mavait-repondu",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T14:48+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Sinner-1024x555.jpeg",
+   "titre": "Filippo Volandri, capitaine italien : « J’ai écrit à Jannik Sinner il y a déjà plusieurs mois et voici ce qu’il m’avait répondu »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-sur-la-grande-decision-de-jannik-sinner-je-pense-que-son-equipe-a-fait-le-bon-choix-je-suis-sur-quil-reviendra-encore-plus-fort-encore-meilleur",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T14:01+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Alcaraz-Sinner-1.jpeg",
+   "titre": "Carlos Alcaraz sur la grande décision de Jannik Sinner : « Je pense que son équipe a fait le bon choix. Je suis sûr qu’il reviendra encore plus fort, encore meilleur »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/le-gros-probleme-pour-arthur-rinderknech-maintenant-cest-que-tu-peux-prendre-un-mois-avec-sursis-comme-quatre-ans-de-suspension-ferme-dans-ce-genre-de-cas-toujours-obscure",
    "source": "We Love Tennis",
@@ -3773,53 +3822,6 @@
    "date": "2026-11-19T09:10+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-05-at-17.23.19-e1795041873796-1024x550.jpeg",
    "titre": "Tiafoe à un journaliste après sa victoire contre Cobolli : « Je pense que vous m’auriez battu lors des deux premiers jeux »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/daniil-medvedev-surclasse-par-carlos-alcaraz-je-continue-de-penser-que-cest-plus-facile-de-le-battre-sur-cette-surface",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T08:40+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Medvedev-filet-1024x503.jpeg",
-   "titre": "Daniil Medvedev, surclassé par Carlos Alcaraz : « Je continue de penser que c’est plus facile de le battre sur cette surface »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/pourquoi-les-propos-d-alexander-zverev-apres-sa-victoire-a-roland-garros-lui-ont-valu-une-nouvelle-plainte-de-son-ancienne-compagne_AV-202611190360.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-19T08:33+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/2hDlaop1_JQhUuQI_UAojLTf3-k=/0x100:2048x1252/800x0/images/Alexander-Zverev-lors-du-Masters-le-17-novembre-2026-2386675.jpg",
-   "titre": "Pourquoi les propos d'Alexander Zverev après sa victoire à Roland-Garros lui ont valu une nouvelle plainte de son ancienne compagne",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/battu-par-tiafoe-et-elimine-du-masters-de-turin-cobolli-ne-digere-pas-je-meritais-de-remporter-le-premier-set-jen-avais-plus-que-lui",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T08:09+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Cobolli-conf-presse-.jpeg",
-   "titre": "Battu par Tiafoe et éliminé du Masters de Turin, Cobolli ne digère pas : « Je méritais de remporter le premier set. J’en avais plus que lui »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/indoor-hard-courts-should-not-be-slow-medvedev-takes-a-side-in-the-court-speed-debate-867252.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-19T07:56+00:00",
-   "image": null,
-   "vo": "“Indoor hard courts should not be slow”: Medvedev takes a side in the court speed debate",
-   "titre": "« Les courts durs en salle ne devraient pas être lents » : Medvedev prend parti dans le débat sur la vitesse des courts",
-   "titre_fr": "« Les courts durs en salle ne devraient pas être lents » : Medvedev prend parti dans le débat sur la vitesse des courts",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/L-australienne-ashleigh-barty-ancienne-numero-1-mondiale-va-faire-son-entree-au-hall-of-fame/1744586#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T07:46+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/ashleigh-barty-a-wimbledon-en-2021-c-wilson-l-equipe/1500000002653941/74:58,1904:1278-828-552-75/eb475.jpg",
-   "titre": "L'Australienne Ashleigh Barty, ancienne numéro 1 mondiale, va faire son entrée au Hall of Fame",
    "blessure": false
   }
  ]
