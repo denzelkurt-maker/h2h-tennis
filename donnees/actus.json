@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T05:39+00:00",
+ "maj": "2026-11-25T08:09+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -40,12 +40,39 @@
    "blessure": false
   },
   {
+   "lien": "https://www.welovetennis.fr/atp/rinderknech-sort-du-silence-dans-son-affaire-de-dopage-je-suis-convaincu-que-lorsque-cette-affaire-sera-presentee-devant-le-tribunal-independant-je-serai-innocente-de-cette-accusation",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T07:31+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/03/Rinderknech-pres--1024x545.jpeg",
+   "titre": "Rinderknech sort du silence dans son affaire de dopage : « Je suis convaincu que, lorsque cette affaire sera présentée devant le tribunal indépendant, je serai innocenté de cette accusation »",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/fr/atp-actualite/25-novembre-1999-le-jour-ou-agassi-sest-assure-de-terminer-lannee-numero-un-mondial-309522.html",
    "source": "Tennis Majors",
    "langue": "fr",
    "date": "2026-11-25T07:30+00:00",
    "image": null,
    "titre": "25 novembre 1999 : Le jour où Agassi s’est assuré de terminer l’année numéro un mondial, deux ans après être sorti du Top 100",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4265556-20261125-arthur-rinderknech-nie-avoir-refuse-controle-antidopage-jure-innocente?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-25T07:24+00:00",
+   "image": "https://img.20mn.fr/fGUvf3aBTGC_ivWw1SQXTik/1200x768_arthur-rinderknech-fra-participe-aux-8es-de-finale-du-rolex-paris-masters-a-la-paris-la-defense-arena-de-nanterre-a-l-ouest-de-paris-en-france-le-jeudi-5-novembre-2026-saidichristophe-saidi1182-credit-christophe-saidi-sipa-2611060922",
+   "titre": "Arthur Rinderknech nie avoir refusé un contrôle antidopage et jure qu’il sera « innocenté »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/dopage/rinderknech-defie-lagence-antidopage-et-risque-tres-gros",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T07:08+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Rinderknech-1288-1024x584.jpg",
+   "titre": "Rinderknech défie l’agence antidopage et risque très gros !",
    "blessure": false
   },
   {
@@ -3799,35 +3826,6 @@
    "date": "2026-11-18T20:25+00:00",
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/VCDFsQNvS9xbzmTYUjShaLQHM-w=/0x0:2048x1152/800x0/images/Alexander-Zverev-lors-du-Rolex-Paris-Masters-en-novembre-2026-2383827.jpg",
    "titre": "Tennis: Zverev visé par une nouvelle plainte de son ex-compagne",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/open-metz-grand-est/hugo-gaston-desormais-coache-par-guy-forget-soffre-un-joli-choc-contre-un-compatriote",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-18T19:55+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Gaston-RG-2025-1024x533.jpeg",
-   "titre": "Hugo Gaston, désormais coaché par Guy Forget, s’offre un joli choc contre un compatriote",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/wow-that-was-a-good-one-alcaraz-admits-he-sometimes-surprises-himself-867253.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-18T19:25+00:00",
-   "image": null,
-   "vo": "“Wow, that was a good one”: Alcaraz admits he sometimes surprises himself",
-   "titre": "« Waouh, celle-là était vraiment bonne » : Alcaraz admet qu'il se surprend parfois lui-même",
-   "titre_fr": "« Waouh, celle-là était vraiment bonne » : Alcaraz admet qu'il se surprend parfois lui-même",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Alejandro-davidovich-fokina-16e-mondial-et-ami-d-arthur-fils-quand-je-vois-arthur-je-vois-une-star/1744513#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-18T18:45+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-et-alejandro-davidovich-fokina-a-roland-garros-en-2023-a-reau-l-equipe/1500000002653647/0:0,800:533-828-552-75/689bf.jpg",
-   "titre": "Alejandro Davidovich Fokina, 16e mondial et ami d'Arthur Fils : « Quand je vois Arthur, je vois une star »",
    "blessure": false
   }
  ]
