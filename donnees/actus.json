@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T17:29+00:00",
+ "maj": "2026-11-25T19:39+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 43 articles",
+  "L'Équipe": "ok, 44 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 17 articles",
@@ -23,11 +23,87 @@
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 19 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "erreur : no element found: line 1, column 0",
+  "ESPN": "ok, 17 articles",
   "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/tennis-soutien-total-arthur-l-avenir-de-rinderknech-sous-la-menace-d-une-suspension-pour-dopage-se-jouera-en-fevrier_AN-202611250920.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-25T19:28+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/6SfQ7DU6xNmsoYYx_uIFkoGCIWM=/230x187:2038x1204/800x0/images/Le-Francais-Arthur-Rinderknech-lors-d-un-Master-1000-en-aout-2026-2333407.jpg",
+   "titre": "Tennis: \"Soutien total Arthur!\", l’avenir de Rinderknech, sous la menace d’une suspension pour dopage, se jouera en février",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/alexander-zverev-recadre-le-president-de-latp-je-pense-que-cest-un-commentaire-injuste-de-sa-part",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T18:48+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-Masters-1024x520.jpeg",
+   "titre": "Alexander Zverev recadre le président de l’ATP : « Je pense que c’est un commentaire injuste de sa part »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Trois-jours-apres-avoir-remporte-les-finales-atp-theo-arribage-et-albano-olivetti-battus-en-championnats-de-france-par-equipes/1746152#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-25T18:33+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/albano-olivetti-et-theo-arribage-la-semaine-derniere-a-turin-f-faugere-l-equipe/1500000002659687/0:0,2000:1333-828-552-75/8a22d.jpg",
+   "titre": "Trois jours après avoir remporté les Finales ATP, Théo Arribagé et Albano Olivetti battus en Championnats de France par équipes",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/laveu-de-carlos-alcaraz-je-ne-vais-pas-mentir-jaurais-probablement-pu-faire-les-choses-un-peu-differemment",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T18:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-conf-presse-1024x555.jpeg",
+   "titre": "L’aveu de Carlos Alcaraz : « Je ne vais pas mentir, j’aurais probablement pu faire les choses un peu différemment »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tous-sports/Actualites/Refus-d-un-controle-antidopage-tout-savoir-sur-la-procedure-et-sur-ce-que-risque-arthur-rinderknech/1746134#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-25T17:58+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-rinderknech-lors-de-son-deuxieme-tour-a-roland-garros-en-mai-dernier-face-a-matteo-berrettini-f-faugere-l-equipe/1500000002659638/0:0,1500:1000-828-552-75/05557.jpg",
+   "titre": "Refus d'un contrôle antidopage : tout savoir sur la procédure et sur ce que risque Arthur Rinderknech",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50595041/alexander-zverev-not-too-concerned-ex-partner-lawsuit",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-25T17:48+00:00",
+   "image": null,
+   "vo": "Zverev: 'Not too concerned' with ex-partner's lawsuit in alleged abuse case",
+   "titre": "Zverev : « Pas trop inquiet » par la plainte de son ex-compagne dans une affaire de violences présumées",
+   "titre_fr": "Zverev : « Pas trop inquiet » par la plainte de son ex-compagne dans une affaire de violences présumées",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/gros-desaccord-entre-anciens-numero-1-mondiaux-sur-zverev-ou-veux-tu-en-venir-il-na-battu-ni-sinner-ni-alcaraz-au-cours-des-deux-dernieres-saisons-et-ils-ont-ete-blesses-pendant-la-moitie-de-l",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T17:42+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-coupe-trophee-numero-1-1-1024x546.jpeg",
+   "titre": "Gros désaccord entre anciens numéro 1 mondiaux sur Zverev : « Où veux-tu en venir ? Il n’a battu ni Sinner ni Alcaraz au cours des deux dernières saisons et ils ont été blessés pendant la moitié de l’année »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/eventually-youre-killing-yourself-alcaraz-wishes-sinner-a-speedy-recovery-and-admits-he-could-have-done-things-differently-867859.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-25T17:39+00:00",
+   "image": null,
+   "vo": "“Eventually you’re killing yourself”: Alcaraz wishes Sinner a speedy recovery and admits he could have done things differently",
+   "titre": "« À la fin, tu te tues » : Alcaraz souhaite un prompt rétablissement à Sinner et admet qu'il aurait pu agir différemment",
+   "titre_fr": "« À la fin, tu te tues » : Alcaraz souhaite un prompt rétablissement à Sinner et admet qu'il aurait pu agir différemment",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/la-photo-de-musetti-et-berrettini-qui-fait-parler-on-se-demande-sil-etait-judicieux-de-les-reunir-dans-une-competition-ou-lesprit-dequipe-revet-une-importance-capitale",
    "source": "We Love Tennis",
@@ -147,6 +223,17 @@
    "date": "2026-11-25T12:38+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2022/01/Feliciano-Lopez-AO-2022-1024x542.jpeg",
    "titre": "Feliciano Lopez tranche entre Alexander Zverev, Jannik Sinner et Carlos Alcaraz : « Ils est, à mes yeux, le meilleur joueur du monde »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50592114/arthur-rinderknech-charged-refusing-give-doping-sample",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-25T12:26+00:00",
+   "image": null,
+   "vo": "Rinderknech charged with refusing to give doping sample",
+   "titre": "Rinderknech accusé d'avoir refusé de fournir un échantillon de contrôle antidopage",
+   "titre_fr": "Rinderknech accusé d'avoir refusé de fournir un échantillon de contrôle antidopage",
    "blessure": false
   },
   {
@@ -365,6 +452,17 @@
    "blessure": false
   },
   {
+   "lien": "https://www.espn.com/tennis/story/_/id/50585560/lehecka-czechs-beat-canada-reach-davis-cup-semifinals",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-24T21:01+00:00",
+   "image": null,
+   "vo": "Lehecka, Czechs beat Canada, reach Davis Cup semifinals",
+   "titre": "Lehecka : les Tchèques battent le Canada et accèdent aux demi-finales de la Coupe Davis",
+   "titre_fr": "Lehecka : les Tchèques battent le Canada et accèdent aux demi-finales de la Coupe Davis",
+   "blessure": false
+  },
+  {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/La-tchequie-domine-le-canada-et-file-en-demi-finales-de-la-coupe-davis/1745924#at_medium=RSS_feeds",
    "source": "L'Équipe",
    "langue": "fr",
@@ -408,6 +506,17 @@
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-trophee-coupe-numero-1-1024x541.jpeg",
    "titre": "Andy Roddick : « Est-ce que je crois qu’Alexander Zverev est meilleur que Jannik Sinner et Carlos Alcaraz ? Non, je ne le crois pas. Il ne l’a jamais été. Et alors ? »",
    "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50584090/sinner-undergoes-minor-surgery-troublesome-right-knee",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-24T17:48+00:00",
+   "image": null,
+   "vo": "Sinner abandons treatment on right knee to have it surgically repaired",
+   "titre": "Sinner renonce au traitement de son genou droit pour le faire réparer chirurgicalement",
+   "titre_fr": "Sinner renonce au traitement de son genou droit pour le faire réparer chirurgicalement",
+   "blessure": true
   },
   {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/Apres-avoir-tout-mis-en-oeuvre-pour-se-soigner-sans-recourir-a-la-chirurgie-jannik-sinner-confirme-avoir-ete-opere-du-genou-droit/1745871#at_medium=RSS_feeds",
@@ -3717,107 +3826,6 @@
    "date": "2026-11-19T14:37+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-poing-hargne-victoire-1024x573.jpeg",
    "titre": "Énorme soulagement pour Carlos Alcaraz !",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/juan-carlos-ferrero-nouveau-coach-de-ben-shelton-sur-arthur-fils-ce-nest-pas-le-meilleur-mais-cest-lun-des-meilleurs-coups-droits-du-monde",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T14:08+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Ferrero-1024x568.jpeg",
-   "titre": "Juan Carlos Ferrero, nouveau coach de Ben Shelton, sur Arthur Fils : « Ce n’est pas le meilleur, mais c’est l’un des meilleurs coups droits du monde »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/alcaraz-passe-une-irm-aux-ischio-jambiers-et-annule-son-entrainement-ses-atp-finals-en-suspens-presse-810488.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-19T13:58+00:00",
-   "image": null,
-   "titre": "Alcaraz passe une IRM aux ischio-jambiers et annule son entraînement, ses ATP Finals en suspens (presse)",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-undergoes-mri-on-hamstring-and-cancels-training-his-atp-finals-in-the-balance-report-867311.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-19T13:49+00:00",
-   "image": null,
-   "vo": "Alcaraz expected to play Cobolli after MRI (report)",
-   "titre": "Alcaraz devrait jouer contre Cobolli après son IRM (rapport)",
-   "blessure": false,
-   "titre_fr": "Alcaraz devrait jouer contre Cobolli après son IRM (rapport)"
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/justine-henin-avant-le-duel-entre-arthur-fils-et-alexander-zverev-dans-ces-conditions-la-je-crois-quil-faut-etre-realiste",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T13:35+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Justine-Henin-1024x573.jpeg",
-   "titre": "Justine Henin, avant le duel entre Arthur Fils et Alexander Zverev : « Dans ces conditions-là, je crois qu’il faut être réaliste »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/tim-henman-sur-linquietude-autour-dalcaraz-jai-envoye-quelques-messages-au-directeur-du-tournoi-pour-lui-demander-si-carlos-pourrait-ne-pas-disputer-le-troisieme-match-de-poules",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T13:13+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-1024x552.jpeg",
-   "titre": "Tim Henman sur l’inquiétude autour d’Alcaraz : « J’ai envoyé quelques messages au directeur du tournoi pour lui demander si Carlos pourrait ne pas disputer le troisième match de poules »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp-wta/le-constat-limpide-de-gilles-simon-sur-le-tennis-francais-beaucoup-de-joueurs-arrivent-tres-propres-sur-le-plan-technique-a-lissue-de-leur-formation-mais-parfois-sans-une-grande-comprehe",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T12:33+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/07/Simon-wim-2024-1024x504.jpeg",
-   "titre": "Le constat limpide de Gilles Simon sur le tennis français : « Beaucoup de joueurs arrivent très propres sur le plan technique à l’issue de leur formation, mais parfois sans une grande compréhension du jeu »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-a-passe-une-irm-a-turin-et-a-annule-son-entrainement-ce-jeudi-laissant-planer-le-doute-sur-la-suite-de-ses-finales-atp/1744620#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T12:26+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-avait-termine-son-match-face-a-daniil-medvedev-avec-un-bandage-a-la-cuisse-gauche-mer/1500000002654131/0:0,2000:1333-828-552-75/f597f.jpg",
-   "titre": "Carlos Alcaraz a passé une IRM à Turin et a annulé son entraînement ce jeudi, laissant planer le doute sur la suite de ses Finales ATP",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/daniil-medvedev-se-livre-comme-rarement-sur-la-femme-de-sa-vie-honnetement-sans-elle-je-naurais-probablement-pas-atteint-le-niveau-que-jai-fini-par-atteindre",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T11:52+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2021/09/Medvedev-femme-USO-2021-e1655649838109-1024x525.png",
-   "titre": "Daniil Medvedev se livre comme rarement sur la femme de sa vie : « Honnêtement, sans elle, je n’aurais probablement pas atteint le niveau que j’ai fini par atteindre »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/de-minaur-remplacant-sur-le-masters-de-turin-sur-alcaraz-il-a-perfectionne-un-aspect-de-son-jeu-ces-derniers-temps-qui-le-rend-beaucoup-plus-dangereux",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T11:40+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/06/Alcaraz-De-Minaur-Queens-2023-finale-1024x546.jpeg",
-   "titre": "De Minaur (remplaçant sur le Masters de Turin) sur Alcaraz : « Il a perfectionné un aspect de son jeu ces derniers temps qui le rend beaucoup plus dangereux »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/la-decision-de-sinner-fait-jaser-cest-choquant",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T11:12+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Sinner-decu-wim-1024x510.jpeg",
-   "titre": "La décision de Sinner fait jaser : « C’est choquant »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/alejandro-davidovich-fokina-sur-arthur-fils-qui-est-aussi-son-temoin-de-mariage-il-est-une-source-dinspiration-pour-moi-jai-envie-davoir-la-meme-mentalite-que-lui-jai-envie-de-limiter",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T10:46+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fokina-2251-1024x515.jpg",
-   "titre": "Alejandro Davidovich Fokina sur Arthur Fils, qui est aussi son témoin de mariage : « Il est une source d’inspiration pour moi, j’ai envie d’avoir la même mentalité que lui. J’ai envie de l’imiter »",
    "blessure": false
   }
  ]
