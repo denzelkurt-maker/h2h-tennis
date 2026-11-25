@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T03:41+00:00",
+ "maj": "2026-11-25T05:39+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -274,6 +274,15 @@
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/TdUih5Nz52grFs32wb8XABF0cjQ=/0x49:2048x1201/800x0/images/Jannick-Sinner-assiste-au-match-Juventus-AC-Milan-1-1-Serie-A-le-6-septembre-2026-2354502.jpg",
    "titre": "Tennis: Jannik Sinner opéré du genou, plusieurs mois d’absence à venir",
    "blessure": true
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-24T13:07+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
+   "titre": "Jannik Sinner",
+   "blessure": false
   },
   {
    "lien": "https://www.tennismajors.com/fr/atp-actualite/24-novembre-1996-le-jour-ou-pete-sampras-a-remporte-son-3e-masters-309304.html",
@@ -745,15 +754,6 @@
    "date": "2026-11-23T13:08+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Zverev-presse-conf-1024x579.jpeg",
    "titre": "Alexander Zverev : « Si on m’avait dit en début de saison que je perdrai la finale du Masters contre Carlos Alcaraz après une saison pareille, j’aurais signé »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-23T13:01+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
-   "titre": "Jannik Sinner",
    "blessure": false
   },
   {
