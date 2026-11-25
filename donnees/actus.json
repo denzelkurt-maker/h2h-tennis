@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T11:39+00:00",
+ "maj": "2026-11-25T13:59+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,19 +15,55 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 43 articles",
+  "L'Équipe": "ok, 42 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 18 articles",
+  "We Love Tennis": "ok, 17 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 19 articles",
-  "20 Minutes": "ok, 17 articles",
+  "20 Minutes": "ok, 18 articles",
   "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/le-gros-probleme-pour-arthur-rinderknech-maintenant-cest-que-tu-peux-prendre-un-mois-avec-sursis-comme-quatre-ans-de-suspension-ferme-dans-ce-genre-de-cas-toujours-obscure",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T13:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/10/Arthur-Rinderknech-tete-basse-1024x555.jpeg",
+   "titre": "« Le gros problème pour Arthur Rinderknech maintenant, c’est que tu peux prendre un mois avec sursis comme quatre ans de suspension ferme dans ce genre de cas toujours obscure »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/feliciano-lopez-tranche-entre-alexander-zverev-jannik-sinner-et-carlos-alcaraz-ils-est-a-mes-yeux-le-meilleur-joueur-du-monde",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T12:38+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/01/Feliciano-Lopez-AO-2022-1024x542.jpeg",
+   "titre": "Feliciano Lopez tranche entre Alexander Zverev, Jannik Sinner et Carlos Alcaraz : « Ils est, à mes yeux, le meilleur joueur du monde »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jimmy-connors-previent-jannik-sinner-apres-son-operation-il-va-etre-absent-pendant-pres-dun-an-et-lors-cette-periode-tous-les-autres-vont-avancer",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T12:05+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/11/Jimmy-Connors--1024x482.jpg",
+   "titre": "Jimmy Connors prévient Jannik Sinner après son opération : « Il va être absent pendant près d’un an et lors cette période, tous les autres vont avancer »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4265632-20261125-antidopage-confirme-enqueter-rinderknech-soupconne-avoir-refuse-controle?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-25T11:59+00:00",
+   "image": "https://img.20mn.fr/yane_GhuQX6r7OhGARu69ik/1200x768_dossier-le-francais-arthur-rinderknech-reagit-lors-de-son-match-des-8es-de-finale-contre-l-americain-ben-shelton-au-tournoi-de-tennis-paris-masters-a-nanterre-pres-de-paris-en-france-le-5-novembre-2026-ap-photo-emma-da-silva-dossier-nbp103-26329399748578-photo-d-archive-2611251209",
+   "titre": "L’antidopage confirme enquêter sur Rinderknech, soupçonné d’avoir « refusé un contrôle »",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/atp/november-25-1999-the-day-agassi-received-the-atp-tour-trophy-for-finishing-the-year-as-world-no-1-309533.html",
    "source": "Tennis Majors (EN)",
@@ -64,17 +100,6 @@
    "date": "2026-11-25T11:10+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Ferrer-capitaine-1024x521.jpeg",
    "titre": "La déclaration très bizarre de David Ferrer : « En tant que capitaine de Coupe Davis, la gagner ou non m’est un peu égal »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/lars-graff-beijing-wants-grand-slam-standards-and-chinese-fans-love-sinner-the-way-england-loved-borg/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-25T11:08+00:00",
-   "image": null,
-   "vo": "Lars Graff: “Beijing wants Grand Slam standards – and Chinese fans love Sinner the way England loved Borg”",
-   "titre": "Lars Graff : « Pékin veut des standards de Grand Chelem – et les fans chinois aiment Sinner comme l’Angleterre aimait Borg »",
-   "titre_fr": "Lars Graff : « Pékin veut des standards de Grand Chelem – et les fans chinois aiment Sinner comme l’Angleterre aimait Borg »",
    "blessure": false
   },
   {
@@ -140,6 +165,17 @@
    "vo": "Arthur Rinderknech Maintains Innocence Over Allegedly Refusing Doping Test",
    "titre": "Arthur Rinderknech clame son innocence après avoir prétendument refusé de se soumettre à un contrôle antidopage",
    "titre_fr": "Arthur Rinderknech clame son innocence après avoir prétendument refusé de se soumettre à un contrôle antidopage",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/lars-graff-beijing-wants-grand-slam-standards-and-chinese-fans-love-sinner-the-way-england-loved-borg/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-25T08:20+00:00",
+   "image": null,
+   "vo": "Lars Graff: “Beijing wants Grand Slam standards – and Chinese fans love Sinner the way England loved Borg”",
+   "titre": "Lars Graff : « Pékin veut des standards de Grand Chelem – et les fans chinois aiment Sinner comme l’Angleterre aimait Borg »",
+   "titre_fr": "Lars Graff : « Pékin veut des standards de Grand Chelem – et les fans chinois aiment Sinner comme l’Angleterre aimait Borg »",
    "blessure": false
   },
   {
@@ -3784,42 +3820,6 @@
    "date": "2026-11-19T07:46+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/ashleigh-barty-a-wimbledon-en-2021-c-wilson-l-equipe/1500000002653941/74:58,1904:1278-828-552-75/eb475.jpg",
    "titre": "L'Australienne Ashleigh Barty, ancienne numéro 1 mondiale, va faire son entrée au Hall of Fame",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/la-magnifique-declaration-de-carlos-alcaraz-ma-blessure-ma-fait-prendre-conscience-de-ce-qui-est-vraiment-important-et-ce-nest-pas-la-victoire-ce-nest-pas-de-gagner-ou-de-per",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T07:33+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-sourire-presse-conf-1024x556.jpeg",
-   "titre": "La magnifique déclaration de Carlos Alcaraz : « Ma blessure m’a fait prendre conscience de ce qui est vraiment important. Et ce n’est pas la victoire, ce n’est pas de gagner ou de perdre des finales de tournois. C’est si",
-   "blessure": true
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4264027-20261119-tennis-risque-alexander-zverev-vise-nouvelle-plainte-ex-compagne?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-19T07:23+00:00",
-   "image": "https://img.20mn.fr/8-KNycqOQcyxjRjt9z5afCk/1200x768_alexander-zverev-lors-du-match-de-simple-masculin-de-la-phase-de-groupes-du-tournoi-de-tennis-atp-world-tour-finals-2026-turin-17-11-2026-agf-editorial-can181126-06-credit-marco-canoniero-agf-sipa-2611180941",
-   "titre": "Tennis : Que risque Alexander Zverev, visé par une nouvelle plainte de son ex-compagne ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-reste-serein-malgre-une-alerte-a-un-ischio-jambier-lors-des-finales-atp/1744582#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T07:15+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-mercredi-sur-le-court-central-de-l-inalpi-arena-de-turin-f-faugere-l-equipe/1500000002653923/0:0,2000:1333-828-552-75/e7275.jpg",
-   "titre": "Carlos Alcaraz reste serein malgré une alerte à un ischio-jambier lors des Finales ATP",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Dans-les-conditions-rapides-des-finales-atp-alexander-zverev-adversaire-d-arthur-fils-est-pratiquement-impossible-a-breaker/1744530#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T07:08+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/alexander-zverev-au-service-face-a-ben-shelton-mardi-f-faugere-l-equipe/1500000002653701/0:0,800:533-828-552-75/8dd2d.jpg",
-   "titre": "Dans les conditions ultra rapides des Finales ATP, Alexander Zverev, prochain adversaire d'Arthur Fils, est pratiquement impossible à breaker",
    "blessure": false
   }
  ]
