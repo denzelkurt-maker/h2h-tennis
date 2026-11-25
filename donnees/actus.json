@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T09:52+00:00",
+ "maj": "2026-11-25T11:39+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,10 +15,10 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 42 articles",
+  "L'Équipe": "ok, 43 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 19 articles",
+  "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 19 articles",
@@ -40,21 +40,77 @@
    "blessure": false
   },
   {
-   "lien": "https://www.welovetennis.fr/atp/rick-macci-inquiet-pour-jannik-sinner-le-facteur-x-sera-sa-capacite-a-se-deplacer-car-ses-deplacements",
+   "lien": "https://www.welovetennis.fr/atp/litia-tape-du-poing-sur-la-table-apres-les-revelations-sur-rinderknech-nous-mettons-tout-en-oeuvre-pour-preserver-la-confidentialite-de-ces-affaires-et-nous-regrettons-que-les-details-aient-ain",
    "source": "We Love Tennis",
    "langue": "fr",
-   "date": "2026-11-25T09:48+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Sinner-wim-gazon-1024x550.jpeg",
-   "titre": "Rick Macci inquiet pour Jannik Sinner : « Le facteur X sera sa capacité à se déplacer, car ses déplacements… »",
+   "date": "2026-11-25T11:36+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/05/Arthur-Rinderknech-1024x555.jpeg",
+   "titre": "L’ITIA tape du poing sur la table après les révélations sur Rinderknech : « Nous mettons tout en oeuvre pour préserver la confidentialité de ces affaires, et nous regrettons que les détails aient ainsi été rendus publics",
    "blessure": false
   },
   {
    "lien": "https://www.franceinfo.fr/sports/tennis/je-suis-convaincu-que-je-serai-innocente-arthur-rinderknech-rejette-les-accusations-de-refus-de-se-soumettre-a-un-controle-antidopage_8298981.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
    "source": "franceinfo",
    "langue": "fr",
-   "date": "2026-11-25T09:14+00:00",
+   "date": "2026-11-25T11:12+00:00",
    "image": "https://www.franceinfo.fr/pictures/62rPx4wd9ZPcGkbwUpnuAAi--w8/0x198:6192x3681/432x243/filters:format(jpg)/2026/11/25/6b06a43b25302256645691.jpg",
-   "titre": "\"Je suis convaincu que je serai innocenté\" : le tennisman français Arthur Rinderknech conteste avoir refusé de se soumettre à un contrôle antidopage",
+   "titre": "Arthur Rinderknech accusé d'avoir refusé un contrôle antidopage, le tennisman français se dit \"convaincu\" d'être \"innocenté\"",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/coupe-davis/la-declaration-tres-bizarre-de-david-ferrer-en-tant-que-capitaine-de-coupe-davis-la-gagner-ou-non-mest-un-peu-egal",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T11:10+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Ferrer-capitaine-1024x521.jpeg",
+   "titre": "La déclaration très bizarre de David Ferrer : « En tant que capitaine de Coupe Davis, la gagner ou non m’est un peu égal »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/lars-graff-beijing-wants-grand-slam-standards-and-chinese-fans-love-sinner-the-way-england-loved-borg/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-25T11:08+00:00",
+   "image": null,
+   "vo": "Lars Graff: “Beijing wants Grand Slam standards – and Chinese fans love Sinner the way England loved Borg”",
+   "titre": "Lars Graff : « Pékin veut des standards de Grand Chelem – et les fans chinois aiment Sinner comme l’Angleterre aimait Borg »",
+   "titre_fr": "Lars Graff : « Pékin veut des standards de Grand Chelem – et les fans chinois aiment Sinner comme l’Angleterre aimait Borg »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/berrettini-degoute-de-voir-alcaraz-a-la-coupe-davis-jai-pense-que-tu-ne-viendrais-pas",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T10:47+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/07/Alcaraz-Berrettini-wim-2023-filet-1024x436.jpeg",
+   "titre": "Berrettini dégouté de voir Alcaraz à la Coupe Davis : « J’ai pensé que tu ne viendrais pas »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/arts-stars/cinema/4265582-20261125-vu-forty-love-romeo-beckham-paul-kircher?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-25T10:43+00:00",
+   "image": "https://img.20mn.fr/PfPb9BmMSmqPHSl5__YEgyk/1200x768_roeo-bekcham-et-paul-kircher-dans-forty-love-de-pierre-ange-carlotti",
+   "titre": "On a vu « Forty Love » avec Romeo Beckham et Paul Kircher",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/L-itia-confirme-qu-une-procedure-est-en-cours-contre-arthur-rinderknech-pour-avoir-refuse-de-se-soumettre-a-un-controle/1745997#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-25T10:39+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-rinderknech-a-l-issue-de-son-dernier-match-de-la-saison-atp-2026-perdu-de-justesse-en-huitiemes-de-finale-du-masters-1000-de-paris-contre-ben-shelton-p-lahalle-l-equipe/1500000002659213/0:0,2000:1333-828-552-75/8ec05.jpg",
+   "titre": "L'ITIA confirme qu'une procédure est en cours contre Arthur Rinderknech, « pour avoir refusé de se soumettre à un contrôle »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/rick-macci-inquiet-pour-jannik-sinner-le-facteur-x-sera-sa-capacite-a-se-deplacer-car-ses-deplacements",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-25T09:48+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Sinner-wim-gazon-1024x550.jpeg",
+   "titre": "Rick Macci inquiet pour Jannik Sinner : « Le facteur X sera sa capacité à se déplacer, car ses déplacements… »",
    "blessure": false
   },
   {
@@ -3764,66 +3820,6 @@
    "date": "2026-11-19T07:08+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/alexander-zverev-au-service-face-a-ben-shelton-mardi-f-faugere-l-equipe/1500000002653701/0:0,800:533-828-552-75/8dd2d.jpg",
    "titre": "Dans les conditions ultra rapides des Finales ATP, Alexander Zverev, prochain adversaire d'Arthur Fils, est pratiquement impossible à breaker",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/la-nouvelle-decision-tres-inquietante-de-jannik-sinner",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T07:08+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/09/Sinner-323-1024x543.jpg",
-   "titre": "La nouvelle décision très inquiétante de Jannik Sinner",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.espn.com/tennis/story/_/id/50528209/ash-barty-shingo-kunieda-elected-international-tennis-hall-fame",
-   "source": "ESPN",
-   "langue": "en",
-   "date": "2026-11-19T06:48+00:00",
-   "image": null,
-   "vo": "Barty, Kunieda elected to International Tennis Hall of Fame",
-   "titre": "Barty et Kunieda élues au Temple de la renommée du tennis international",
-   "titre_fr": "Barty et Kunieda élues au Temple de la renommée du tennis international",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4263984-20261119-alexander-zverev-arthur-fils-chaine-tv-heure-voir-3e-match-atp-finales-masters?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-19T06:47+00:00",
-   "image": "https://img.20mn.fr/xdPRxPkxQwaRtClQDrE_BSk/1200x768_le-francais-arthur-fils-vise-une-qualification-en-demi-finales-des-atp-finales-masters-photo-d-illustration",
-   "titre": "Alexander Zverev-Arthur Fils : Sur quelle chaîne TV et à quelle heure voir le 3e match des ATP Finales Masters",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/le-match-le-plus-triste-de-ma-carriere-cobolli-au-bord-des-larmes-apres-son-elimination-a-turin-810453.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-18T23:49+00:00",
-   "image": null,
-   "titre": "« Le match le plus triste de ma carrière » : Cobolli au bord des larmes après son élimination à Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/the-saddest-match-of-my-career-cobolli-in-tears-after-his-turin-exit-867281.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-18T22:47+00:00",
-   "image": null,
-   "vo": "“The saddest match of my career”: Cobolli fights back tears after his Turin exit",
-   "titre": "« Le match le plus triste de ma carrière » : Cobolli retient ses larmes après son élimination à Turin",
-   "titre_fr": "« Le match le plus triste de ma carrière » : Cobolli retient ses larmes après son élimination à Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.espn.com/tennis/story/_/id/50521030/alcaraz-cruises-medvedev-atp-finals-leg-issue",
-   "source": "ESPN",
-   "langue": "en",
-   "date": "2026-11-18T22:29+00:00",
-   "image": null,
-   "vo": "Alcaraz cruises past Medvedev at ATP Finals despite leg issue",
-   "titre": "Alcaraz passe facilement devant Medvedev lors des ATP Finals malgré un problème à la jambe",
-   "titre_fr": "Alcaraz passe facilement devant Medvedev lors des ATP Finals malgré un problème à la jambe",
    "blessure": false
   }
  ]
