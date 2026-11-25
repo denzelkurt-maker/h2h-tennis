@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T19:39+00:00",
+ "maj": "2026-11-25T21:40+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -23,11 +23,51 @@
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 19 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "ok, 17 articles",
+  "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Le-cas-arthur-rinderknech-et-son-refus-de-controle-antidopage-un-avertissement-general-pour-les-joueurs-ca-aurait-tres-bien-pu-m-arriver/1746190#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-25T21:01+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "«Ça aurait pu m'arriver» : Rinderknech, l'avertissement général",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Kwon-soonwoo-renverse-flavio-cobolli-l-italie-au-pied-du-mur-avant-le-double-en-quarts-de-finale-de-la-coupe-davis/1746182#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-25T20:36+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/flavio-cobolli-a-perdu-contre-kwon-soonwoo-f-faugere-l-equipe/1500000002659747/0:0,1998:1332-828-552-75/d6cf2.jpg",
+   "titre": "Kwon Soonwoo renverse Flavio Cobolli, l'Italie au pied du mur avant le double en quarts de finale de la Coupe Davis",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/others-news/davis-cup-news/kwon-stuns-cobolli-italy-and-korea-level-at-1-1-the-doubles-will-decide-867876.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-25T20:20+00:00",
+   "image": null,
+   "vo": "Kwon stuns Cobolli, Italy and Korea level at 1-1: the doubles will decide",
+   "titre": "Kwon surprend Cobolli, l’Italie et la Corée sont à égalité 1-1 : le double décidera de l’issue",
+   "titre_fr": "Kwon surprend Cobolli, l’Italie et la Corée sont à égalité 1-1 : le double décidera de l’issue",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/i-think-i-am-innocent-zverev-stands-by-his-lequipe-words-not-too-concerned-by-patea-case-867863.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-25T20:18+00:00",
+   "image": null,
+   "vo": "“I think I am innocent”: Zverev stands by his L’Équipe words, “not too concerned” by Patea case",
+   "titre": "« Je pense que je suis innocent » : Zverev maintient ses propos tenus à L’Équipe, « pas trop inquiet » par l’affaire Patea",
+   "titre_fr": "« Je pense que je suis innocent » : Zverev maintient ses propos tenus à L’Équipe, « pas trop inquiet » par l’affaire Patea",
+   "blessure": false
+  },
   {
    "lien": "https://rmcsport.bfmtv.com/tennis/tennis-soutien-total-arthur-l-avenir-de-rinderknech-sous-la-menace-d-une-suspension-pour-dopage-se-jouera-en-fevrier_AN-202611250920.html",
    "source": "RMC Sport",
@@ -3788,44 +3828,6 @@
    "date": "2026-11-19T15:21+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/ben-shelton-s-est-impose-en-deux-manches-f-faugere-l-equipe/1500000002654256/0:0,2000:1333-828-552-75/f0a4e.jpg",
    "titre": "Ben Shelton s'offre Rafael Jodar en deux sets, la qualification pour les demies des Finales ATP se complique pour Arthur Fils",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/jo-wilfried-tsonga-sur-la-vie-sans-federer-nadal-et-djokovic-cest-la-question-a-100-000-dollars",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T15:10+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Tsonga-1024x507.jpeg",
-   "titre": "Jo-Wilfried Tsonga sur la vie sans Federer, Nadal et Djokovic : « C’est la question à 100 000 dollars »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Examens-rassurants-pour-carlos-alcaraz-qui-devrait-jouer-vendredi-son-dernier-match-de-poule-des-finales-atp-contre-flavio-cobolli/1744659#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T14:56+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-a-termine-son-match-face-a-daniil-medvedev-avec-un-gros-bandage-a-la-cuisse-gauche-mercredi-a-turin-f-faugere-l-equipe/1500000002654248/40:203,1528:1195-828-552-75/80d45.jpg",
-   "titre": "Examens rassurants pour Carlos Alcaraz, qui devrait jouer vendredi son dernier match de la phase de groupes des Finales ATP contre Flavio Cobolli",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/november-19-2005-the-day-roger-federer-scored-the-only-double-bagel-in-the-history-of-the-masters-cup-515890.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-19T14:37+00:00",
-   "image": null,
-   "vo": "November 19, 2005: The day Roger Federer scored the only double bagel in the history of the Masters Cup/ATP Finals",
-   "titre": "19 novembre 2005 : le jour où Roger Federer a réalisé le seul double bagel de l'histoire de la Masters Cup/des ATP Finals",
-   "titre_fr": "19 novembre 2005 : le jour où Roger Federer a réalisé le seul double bagel de l'histoire de la Masters Cup/des ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/enorme-soulagement-pour-carlos-alcaraz",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T14:37+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-poing-hargne-victoire-1024x573.jpeg",
-   "titre": "Énorme soulagement pour Carlos Alcaraz !",
    "blessure": false
   }
  ]
