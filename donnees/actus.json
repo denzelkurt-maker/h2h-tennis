@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T21:40+00:00",
+ "maj": "2026-11-25T23:31+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -29,10 +29,21 @@
  },
  "articles": [
   {
+   "lien": "https://www.tennismajors.com/others-news/davis-cup-news/berrettini-and-vavassori-send-italy-into-davis-cup-semi-finals-867889.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-25T22:54+00:00",
+   "image": null,
+   "vo": "Berrettini and Vavassori send Italy into Davis Cup semi-finals",
+   "titre": "Berrettini et Vavassori qualifient l'Italie pour les demi-finales de la Coupe Davis",
+   "titre_fr": "Berrettini et Vavassori qualifient l'Italie pour les demi-finales de la Coupe Davis",
+   "blessure": false
+  },
+  {
    "lien": "https://www.lequipe.fr/Tennis/Article/Le-cas-arthur-rinderknech-et-son-refus-de-controle-antidopage-un-avertissement-general-pour-les-joueurs-ca-aurait-tres-bien-pu-m-arriver/1746190#at_medium=RSS_feeds",
    "source": "L'Équipe",
    "langue": "fr",
-   "date": "2026-11-25T21:01+00:00",
+   "date": "2026-11-25T22:18+00:00",
    "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
    "titre": "«Ça aurait pu m'arriver» : Rinderknech, l'avertissement général",
    "blessure": false
@@ -3819,15 +3830,6 @@
    "vo": "“I’ll be watching Arthur”: Shelton edges Jodar and leaves Fils needing a straight-sets win over Zverev",
    "titre": "« Je regarderai Arthur » : Shelton bat Jodar et laisse Fils dans l'obligation de remporter une victoire en deux sets contre Zverev",
    "titre_fr": "« Je regarderai Arthur » : Shelton bat Jodar et laisse Fils dans l'obligation de remporter une victoire en deux sets contre Zverev",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Ben-shelton-s-offre-rafael-jodar-en-deux-sets-la-qualification-pour-les-demies-des-finales-atp-se-complique-pour-arthur-fils/1744666#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T15:21+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/ben-shelton-s-est-impose-en-deux-manches-f-faugere-l-equipe/1500000002654256/0:0,2000:1333-828-552-75/f0a4e.jpg",
-   "titre": "Ben Shelton s'offre Rafael Jodar en deux sets, la qualification pour les demies des Finales ATP se complique pour Arthur Fils",
    "blessure": false
   }
  ]
