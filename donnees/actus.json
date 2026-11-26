@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26T08:08+00:00",
+ "maj": "2026-11-26T09:47+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -37,6 +37,51 @@
    "vo": "November 26, 1998: The day Pete Sampras secured the year-end No 1 ranking for a record sixth straight time",
    "titre": "26 novembre 1998 : le jour où Pete Sampras a obtenu le classement n° 1 de fin d'année pour la sixième fois consécutive, un record",
    "titre_fr": "26 novembre 1998 : le jour où Pete Sampras a obtenu le classement n° 1 de fin d'année pour la sixième fois consécutive, un record",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/berrettini-apparu-avec-de-la-glace-en-conference-de-presse-rassure-cest-la-routine-apres-chaque-match",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T09:44+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Berrettini-maudit-1024x555.jpeg",
+   "titre": "Berrettini apparu avec de la glace en conférence de presse rassure : « C’est la routine après chaque match »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/marat-safin-est-categorique-si-sinner-et-alcaraz-avaient-affronte-djokovic-nadal-et-federer-a-leur-prime-ils-nauraient-jamais-atteint-la-place-de-numero-1-ou-numero-2",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T09:12+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Safin-1400_01-1024x574.jpg",
+   "titre": "Marat Safin est catégorique : « Si Sinner et Alcaraz avaient affronté Djokovic, Nadal et Federer à leur prime, ils n’auraient jamais atteint la place de numéro 1 ou numéro 2 »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/open_d_australie/4265867-20261126-open-australie-jannik-sinner-declare-forfait-apres-operation-genou?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-26T08:52+00:00",
+   "image": "https://img.20mn.fr/Om_no53jQoKnvoCH89GNhik/1200x768_ipa91073026-milan-italie-jannik-sinner-et-giacomo-campora-pdg-d-allianz-italia-presentent-la-campagne-de-communication-avec-toi-tout-au-long-du-match-qui-donne-un-apercu-de-la-campagne-mondiale-be-like-sinner-qui-sera-diffusee-en-2027-sur-la-photo-jannik-sinner-lors-de-sa-presentation-ipa-agency-net-ip-apressitaly-ipa91073026-credit-nick-zonna-ipa-agency-net-sipa-2611101938",
+   "titre": "Open d’Australie : Jannik Sinner déclare forfait après son opération du genou",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jodar-parle-de-lhumilite-dalcaraz-je-me-souviens-quil-y-a-deux-ans-jetais-ici-en-tant-que-sparring-partner-et-que-javais-passe-la-semaine-avec-lui-il-na-a",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T08:44+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Jodar-victoire-1024x515.jpeg",
+   "titre": "Jodar parle de l’humilité d’Alcaraz : « Je me souviens qu’il y a deux ans, j’étais ici en tant que sparring-partner et que j’avais passé la semaine avec lui. Il n’a absolument pas changé. Deux ans se sont écoulés et il e",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-revele-la-difference-entre-le-big-3-et-sinner-et-alcaraz-nous-etant-trois-et-non-deux-navons-jamais-eu-de-marge-de-manoeuvre-les-exigences-etaient-maximales-nous-n",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T08:09+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/05/Federer-Nadal-Djokovic-Murray-hommage-RG-2025-1024x555.jpeg",
+   "titre": "Rafael Nadal révéle la différence entre le BIG 3 et Sinner et Alcaraz : « Nous, étant trois et non deux, n’avons jamais eu de marge de manœuvre. Les exigences étaient maximales. Nous n’avons jamais cessé de nous mettre l",
    "blessure": false
   },
   {
@@ -83,6 +128,15 @@
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/qBrOIEACzESf8-EUjiLdeIPFWhA=/0x106:2048x1258/800x0/images/Jannik-Sinner-lors-des-ATP-Finals-le-15-novembre-2026-2390764.jpg",
    "titre": "Tennis: Jannik Sinner a annoncé son forfait pour l'Open d'Australie",
    "blessure": true
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-26T05:00+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
+   "titre": "Jannik Sinner",
+   "blessure": false
   },
   {
    "lien": "https://www.espn.com/tennis/story/_/id/50599895/jannik-sinner-missing-2027-australian-open-rehab-knee",
@@ -787,15 +841,6 @@
    "date": "2026-11-24T13:12+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/jannik-sinner-a-ete-opere-du-genou-droit-ce-mardi-a-reau-l-equipe/1500000002658491/0:0,1998:1332-828-552-75/49319.jpg",
    "titre": "Opération réussie pour Jannik Sinner au genou droit, une absence de trois mois annoncée",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-24T13:07+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
-   "titre": "Jannik Sinner",
    "blessure": false
   },
   {
@@ -3779,55 +3824,6 @@
    "date": "2026-11-19T17:09+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Shelton-entree-1024x544.jpeg",
    "titre": "Ben Shelton sur Arthur Fils : « Je ne serai pas contre lui »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/atp-finals-first-year-on-tour-top-10-everything-you-always-wanted-to-know-about-rafael-jodar-867337.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-19T17:09+00:00",
-   "image": null,
-   "vo": "ATP Finals, first year on tour, top 10: Everything you always wanted to know about Rafael Jodar (but never had time to find out) – updated after the 2026 ATP Finals",
-   "titre": "ATP Finals, première année sur le circuit, top 10 : tout ce que vous avez toujours voulu savoir sur Rafael Jodar (mais que vous n’avez jamais eu le temps de découvrir) – mis à jour après les ATP Finals 2026",
-   "blessure": false,
-   "titre_fr": "ATP Finals, première année sur le circuit, top 10 : tout ce que vous avez toujours voulu savoir sur Rafael Jodar (mais que vous n’avez jamais eu le temps de découvrir) – mis à jour après les ATP Finals 2026"
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Avec-son-coup-droit-considere-comme-l-un-des-cinq-meilleurs-au-monde-arthur-fils-vise-l-exploit-face-au-numero-1-mondial-alexander-zverev-aux-finales-atp/1744494#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T17:08+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Le coup droit, l'atout maître de Fils",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/im-not-sure-whats-going-to-happen-next-year-jodar-to-review-his-set-up-with-his-father-in-december-867327.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-19T16:50+00:00",
-   "image": null,
-   "vo": "“One month to think”: Jodar to review his set-up with his father as a sole staff member in December",
-   "titre": "« Un mois pour réfléchir » : Jodar va revoir son organisation avec son père comme seul employé en décembre",
-   "titre_fr": "« Un mois pour réfléchir » : Jodar va revoir son organisation avec son père comme seul employé en décembre",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/rafael-jodar-apres-son-elimination-du-masters-ayant-affronte-les-meilleurs-joueurs-du-monde-je-me-rends-compte-dune-chose",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T16:41+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Jodar-1024x488.jpeg",
-   "titre": "Rafael Jodar, après son élimination du Masters : « Ayant affronté les meilleurs joueurs du monde, je me rends compte d’une chose »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp-finals-un-seul-scenario-possible-fils-condamne-a-l-exploit-face-a-zverev-pour-rallier-les-demi-finales-du-masters_AV-202611190752.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-19T16:27+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/S5_m3aTqPtyO2Eq8rg01lMVEOE8=/0x68:2048x1220/800x0/images/Arthur-Fils-lors-de-sa-victoire-face-a-Rafael-Jodar-aux-ATP-Finals-a-Turin-le-17-novembre-2026-2387030.jpg",
-   "titre": "ATP Finals: un seul scénario possible... Fils condamné à l'exploit face à Zverev pour rallier les demi-finales du Masters",
    "blessure": false
   }
  ]
