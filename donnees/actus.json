@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26T11:36+00:00",
+ "maj": "2026-11-26T13:58+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -29,6 +29,42 @@
  },
  "articles": [
   {
+   "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-je-ne-suis-pas-tres-grand-et-je-ne-peux-donc-pas-servir-comme-dautres-joueurs-mais-nous-avons-beaucoup-travaille-sur-la-precision",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T13:44+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-service-1024x550.jpeg",
+   "titre": "Carlos Alcaraz : « Je ne suis pas très grand et je ne peux donc pas servir comme d’autres joueurs, mais nous avons beaucoup travaillé sur la précision »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/coupe-davis/le-numero-1-autrichien-avant-le-quart-de-finale-contre-lespagne-franchement-je-prefere-affronter-alcaraz-que-jodar",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T12:42+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-enttree-1024x567.jpeg",
+   "titre": "Le numéro 1 autrichien avant le quart de finale contre l’Espagne : « Franchement, je préfère affronter Alcaraz que Jodar »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/david-ferrer-sur-son-experience-dentraineur-dalexander-zverev-les-gens-ne-se-rendent-pas-compte",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T12:14+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Ferrer-capitaine-Espagne-1024x560.jpeg",
+   "titre": "David Ferrer sur son expérience d’entraîneur d’Alexander Zverev : « Les gens ne se rendent pas compte »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Le-cas-arthur-rinderknech-et-son-refus-de-controle-antidopage-un-avertissement-general-pour-les-joueurs-ca-aurait-tres-bien-pu-m-arriver/1746190#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-26T12:12+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "«Ça aurait pu m'arriver» : Rinderknech, l'avertissement général",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/atp/november-26-1998-the-day-sampras-locked-up-his-record-sixth-year-end-no-1-ranking-309661.html",
    "source": "Tennis Majors (EN)",
    "langue": "en",
@@ -37,6 +73,15 @@
    "vo": "November 26, 1998: The day Pete Sampras secured the year-end No 1 ranking for a record sixth straight time",
    "titre": "26 novembre 1998 : le jour où Pete Sampras a obtenu le classement n° 1 de fin d'année pour la sixième fois consécutive, un record",
    "titre_fr": "26 novembre 1998 : le jour où Pete Sampras a obtenu le classement n° 1 de fin d'année pour la sixième fois consécutive, un record",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/sadio-doumbia-26e-mondial-en-double-sur-laffaire-rinderknech-sil-y-a-un-mec-sur-lequel-je-ne-miserais-pas-une-piece-pour-se-doper-cest-lui",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T11:41+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/03/Rinderknech-pres--1024x545.jpeg",
+   "titre": "Sadio Doumbia, 26e mondial en double, sur l’affaire Rinderknech : « S’il y a un mec sur lequel je ne miserais pas une pièce pour se doper, c’est lui »",
    "blessure": false
   },
   {
@@ -203,15 +248,6 @@
    "vo": "Berrettini and Vavassori send Italy into Davis Cup semi-finals",
    "titre": "Berrettini et Vavassori qualifient l'Italie pour les demi-finales de la Coupe Davis",
    "titre_fr": "Berrettini et Vavassori qualifient l'Italie pour les demi-finales de la Coupe Davis",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Le-cas-arthur-rinderknech-et-son-refus-de-controle-antidopage-un-avertissement-general-pour-les-joueurs-ca-aurait-tres-bien-pu-m-arriver/1746190#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-25T22:18+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "«Ça aurait pu m'arriver» : Rinderknech, l'avertissement général",
    "blessure": false
   },
   {
@@ -3784,46 +3820,6 @@
    "date": "2026-11-19T19:00+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/theo-arribage-et-albano-olivetti-joueront-leur-place-en-finale-samedi-a-turin-f-faugere-l-equipe/1500000002654413/0:0,2000:1333-828-552-75/64030.jpg",
    "titre": "Albano Olivetti et Théo Arribagé s'offrent la première paire mondiale et se qualifient pour les demi-finales des Finales ATP de Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/im-excited-to-sit-and-really-watch-shelton-hands-his-semi-final-fate-to-his-friend-fils-867350.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-19T18:54+00:00",
-   "image": null,
-   "vo": "“I’m excited to sit and really watch”: Shelton hands his semi-final fate to his friend Fils",
-   "titre": "« Je suis impatient de m'asseoir et de vraiment regarder » : Shelton confie son destin en demi-finale à son ami Fils",
-   "titre_fr": "« Je suis impatient de m'asseoir et de vraiment regarder » : Shelton confie son destin en demi-finale à son ami Fils",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/one-of-the-best-tennis-minds-there-is-shelton-on-his-father-bryan-and-what-ferrero-will-add-867345.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-19T18:49+00:00",
-   "image": null,
-   "vo": "“One of the best tennis minds there is”: Shelton on his father Bryan and what Ferrero will add",
-   "titre": "« L'un des plus grands esprits du tennis » : Shelton parle de son père Bryan et de ce que Ferrero apportera",
-   "titre_fr": "« L'un des plus grands esprits du tennis » : Shelton parle de son père Bryan et de ce que Ferrero apportera",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp-wta/une-ancienne-numero-1-mondiale-preferee-a-del-potro-le-choix-qui-fait-parler-cest-une-veritable-honte-jespere-que-tous-les-membres-du-comite-du-hall-of-fame-presenteront-leur-demission-dans",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T18:44+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/03/Del-Potro-1-1024x538.jpeg",
-   "titre": "Une ancienne numéro 1 mondiale préférée à Del Potro, le choix qui fait parler : « C’est une véritable honte. J’espère que tous les membres du comité du Hall of Fame présenteront leur démission dans les prochaines heures ",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/A-quelle-heure-et-sur-quelle-chaine-suivre-la-rencontre-entre-arthur-fils-et-alexander-zverev-a-l-atp-finals/1744393#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T18:09+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Où voir le match entre Fils et Zverev ?",
    "blessure": false
   }
  ]
