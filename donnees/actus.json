@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26T13:58+00:00",
+ "maj": "2026-11-26T15:40+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -28,6 +28,62 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/others-news/davis-cup-news/great-britain-knock-out-zverevs-germany-to-reach-davis-cup-semi-finals-867896.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-26T15:19+00:00",
+   "image": null,
+   "vo": "Great Britain knock out Zverev’s Germany to reach Davis Cup semi-finals",
+   "titre": "La Grande-Bretagne élimine l'Allemagne de Zverev et se qualifie pour les demi-finales de la Coupe Davis",
+   "titre_fr": "La Grande-Bretagne élimine l'Allemagne de Zverev et se qualifie pour les demi-finales de la Coupe Davis",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/fabrice-santoro-sur-alexander-zverev-quand-on-commence-a-jouer-au-tennis-a-lage-de-5-ans-et-que-progressivement-on-se-projette-vers-une-carriere-de-tennisman-professionnel-on-reve-de-q",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T15:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Fabrice-Santoro--1024x555.jpeg",
+   "titre": "Fabrice Santoro sur Alexander Zverev : « Quand on commence à jouer au tennis à l’âge de 5 ans, et que progressivement, on se projette vers une carrière de tennisman professionnel, on rêve de quoi ? »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Pas-de-retrouvailles-entre-zverev-et-alcaraz-l-allemagne-eliminee-en-quarts-de-finale-de-la-coupe-davis-par-la-grande-bretagne/1746352#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-26T15:07+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Pas de retrouvailles entre Zverev et Alcaraz : l'Allemagne éliminée en quarts de finale de la Coupe Davis par la Grande-Bretagne",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/coupe-davis/lallemagne-de-zverev-eliminee-des-les-quarts-de-finale-fin-de-saison-pour-le-numero-1-mondial",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T14:51+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Zverev-8941-1024x545.jpg",
+   "titre": "L’Allemagne de Zverev éliminée dès les quarts de finale, fin de saison pour le numéro 1 mondial !",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Alexander-zverev-devient-le-12e-joueur-du-xxie-siecle-a-remporter-70-matches-en-une-annee/1746344#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-26T14:46+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Alexander Zverev devient le 12e joueur du XXIe siècle à remporter 70 matches en une année",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/toni-nadal-rafa-a-exclu-mon-fils-du-groupe-familial-whatsapp-apres-une-plaisanterie-de-sa-part-a-ce-sujet",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T14:08+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/06/Toni-Nadal-RG-2025-1024x523.jpg",
+   "titre": "Toni Nadal : « Rafa a exclu mon fils du groupe familial WhatsApp après une plaisanterie de sa part à ce sujet »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-je-ne-suis-pas-tres-grand-et-je-ne-peux-donc-pas-servir-comme-dautres-joueurs-mais-nous-avons-beaucoup-travaille-sur-la-precision",
    "source": "We Love Tennis",
@@ -1971,6 +2027,15 @@
    "blessure": false
   },
   {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Apres-quatre-matches-sans-avoir-perdu-le-moindre-set-alexander-zverev-s-attend-a-batailler-en-finale-face-a-carlos-alcaraz/1745270#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-22T17:20+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Zverev est fin prêt pour défier Alcaraz",
+   "blessure": false
+  },
+  {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/Combien-vont-toucher-albano-olivetti-et-theo-arribage-apres-leur-titre-surprise-aux-finales-atp/1745422#at_medium=RSS_feeds",
    "source": "L'Équipe",
    "langue": "fr",
@@ -2333,15 +2398,6 @@
    "date": "2026-11-22T06:02+00:00",
    "image": "https://img.20mn.fr/v06udG8gRzSI17gS0hcJjSk/1200x768_carlos-alcaraz-affronte-alexander-zverev-dimanche-en-finale-des-masters-photo-d-illustration",
    "titre": "Zverev-Alcaraz : Sur quelle chaîne TV et à quelle heure voir la finale des Masters ATP Finals ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Apres-quatre-matches-sans-avoir-perdu-le-moindre-set-alexander-zverev-s-attend-a-batailler-en-finale-face-a-carlos-alcaraz/1745270#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-22T06:00+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/pour-la-quatrieme-fois-cette-semaine-alexander-zverev-s-est-impose-ce-samedi-face-a-daniil-medvedev-en-demi-finales-en-deux-sets-gagnants-et-sans-avoir-perdu-le-moindre-jeu-de-service-marco-alpozzi-lapresse-icon-sport/1500000002656285/0:0,919:613-828-552-75/ad905.jpg",
-   "titre": "Après quatre matches sans avoir perdu le moindre set, Alexander Zverev s'attend à batailler en finale face à Carlos Alcaraz",
    "blessure": false
   },
   {
@@ -3764,62 +3820,6 @@
    "date": "2026-11-19T20:29+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/albano-olivetti-a-gauche-et-theo-arribage-sont-en-demies-a-turin-f-faugere-l-equipe/1500000002654467/58:67,708:501-828-552-75/54486.jpg",
    "titre": "Albano Olivetti et Théo Arribagé, « des meurt-de-faim » en demies des Finales ATP, un an seulement après le début de leur association",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-ne-verra-pas-les-demi-finales-des-finales-atp-apres-la-perte-du-premier-set-face-a-alexander-zverev/1744752#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T20:29+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-jeudi-a-turin-f-faugere-l-equipe/1500000002654466/71:105,1901:1325-828-552-75/9c4e5.jpg",
-   "titre": "Arthur Fils ne verra pas les demies des Finales ATP après la perte du premier set face à Alexander Zverev",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/fils-eliminated-shelton-into-the-atp-finals-semi-finals-after-zverev-takes-the-first-set-867361.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-19T20:28+00:00",
-   "image": null,
-   "vo": "Fils eliminated, Shelton into the ATP Finals semi-finals as Zverev wins Group McEnroe",
-   "titre": "Fils éliminé, Shelton en demi-finale des ATP Finals après la victoire de Zverev dans le groupe McEnroe",
-   "titre_fr": "Fils éliminé, Shelton en demi-finale des ATP Finals après la victoire de Zverev dans le groupe McEnroe",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-elimine-du-masters-carlos-alcaraz-connait-son-adversaire-en-demi-finales",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T20:21+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-decu-1-1024x499.jpeg",
-   "titre": "Arthur Fils éliminé du Masters, Carlos Alcaraz connaît son adversaire en demi-finales !",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters/les-francais-albano-olivetti-et-theo-arribage-se-qualifient-pour-les-demi-finales-du-masters-atp-apres-leur-victoire-face-a-la-meilleure-paire-mondiale_8290616.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-19T19:56+00:00",
-   "image": "https://www.franceinfo.fr/pictures/lJlQAwEWsX23DALxinAcr93k-J4/0x0:5392x3033/432x243/filters:format(jpg)/2026/11/19/6aff54415466c222071895.jpg",
-   "titre": "Les Français Albano Olivetti et Théo Arribagé se qualifient pour les demi-finales du Masters ATP après leur victoire face à la meilleure paire mondiale",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Quels-scenarios-qualifient-arthur-fils-pour-les-demies-des-finales-atp/1744365#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T19:39+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Les scénarios qui envoient Fils en demi-finales",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Albano-olivetti-et-theo-arribage-s-offrent-la-premiere-paire-mondiale-et-se-qualifient-pour-les-demi-finales-des-finales-atp-de-turin/1744725#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T19:00+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/theo-arribage-et-albano-olivetti-joueront-leur-place-en-finale-samedi-a-turin-f-faugere-l-equipe/1500000002654413/0:0,2000:1333-828-552-75/64030.jpg",
-   "titre": "Albano Olivetti et Théo Arribagé s'offrent la première paire mondiale et se qualifient pour les demi-finales des Finales ATP de Turin",
    "blessure": false
   }
  ]
