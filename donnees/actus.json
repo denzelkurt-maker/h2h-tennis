@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26T02:01+00:00",
+ "maj": "2026-11-26T03:40+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -23,7 +23,7 @@
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 19 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "erreur : no element found: line 1, column 0",
+  "ESPN": "ok, 18 articles",
   "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 20 articles"
  },
@@ -46,6 +46,17 @@
    "date": "2026-11-26T07:45+00:00",
    "image": null,
    "titre": "26 novembre 1998 : Le jour où Sampras a terminé la saison numéro un pour la sixième année consécutive",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50599895/jannik-sinner-missing-2027-australian-open-rehab-knee",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-26T01:55+00:00",
+   "image": null,
+   "vo": "No. 2 Sinner missing Australian Open to rehab knee",
+   "titre": "Jannik Sinner, numéro 2 mondial, absent de l’Open d’Australie pour cause de rééducation du genou",
+   "titre_fr": "Jannik Sinner, numéro 2 mondial, absent de l’Open d’Australie pour cause de rééducation du genou",
    "blessure": false
   },
   {
@@ -3821,15 +3832,6 @@
    "date": "2026-11-19T15:42+00:00",
    "image": null,
    "titre": "« Je vais regarder le match d’Arthur » : Shelton écarte Jodar et oblige Fils à battre Zverev en deux sets",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp-actualite/nitto-atp-finals/19-novembre-2006-le-jour-ou-federer-a-conclu-une-saison-exceptionnelle-avec-le-masters-306497.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-19T15:40+00:00",
-   "image": null,
-   "titre": "19 novembre 2006 : Le jour où Federer a conclu une saison exceptionnelle avec le Masters",
    "blessure": false
   }
  ]
