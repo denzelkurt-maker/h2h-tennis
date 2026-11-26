@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26T21:33+00:00",
+ "maj": "2026-11-26T23:37+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 45 articles",
+  "L'Équipe": "ok, 46 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 18 articles",
@@ -23,11 +23,42 @@
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 19 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "erreur : no element found: line 1, column 0",
+  "ESPN": "ok, 19 articles",
   "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Video/Coupe-davis-espagne-david-ferrer-encense-rafael-jodar-apres-la-qualification/20246424#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-26T23:15+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "David Ferrer encense Rafael Jodar après la qualification",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50604939/alexander-zverev-germany-davis-cup-loss-britain-quarterfinals",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-26T21:46+00:00",
+   "image": null,
+   "vo": "Zverev, Germany out of Davis Cup after loss to Britain in quarterfinals",
+   "titre": "Zverev et l'Allemagne éliminés de la Coupe Davis après leur défaite face à la Grande-Bretagne en quarts de finale",
+   "blessure": false,
+   "titre_fr": "Zverev et l'Allemagne éliminés de la Coupe Davis après leur défaite face à la Grande-Bretagne en quarts de finale"
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50606263/spain-beats-austria-set-davis-cup-semifinal-vs-britain",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-26T21:46+00:00",
+   "image": null,
+   "vo": "Spain beats Austria without Alcaraz to set up Davis Cup semi vs. Britain",
+   "titre": "L'Espagne bat l'Autriche sans Alcaraz et se qualifie pour la demi-finale de la Coupe Davis contre la Grande-Bretagne",
+   "titre_fr": "L'Espagne bat l'Autriche sans Alcaraz et se qualifie pour la demi-finale de la Coupe Davis contre la Grande-Bretagne",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/others-news/davis-cup-news/jodar-and-merida-send-spain-into-davis-cup-semi-finals-against-great-britain-867900.html",
    "source": "Tennis Majors (EN)",
@@ -74,17 +105,6 @@
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Paris-2026-1024x512.jpeg",
    "titre": "« Même si je respecte Carlos Alcaraz au plus haut point, et que je sais qu’il deviendra l’un des meilleurs joueurs de l’histoire, c’est une énorme bêtise de dire qu’il battrait haut la main Roger Federer ou Rafael Nadal ",
    "blessure": false
-  },
-  {
-   "lien": "https://www.espn.com/tennis/story/_/id/50604939/alexander-zverev-germany-davis-cup-loss-britain-quarterfinals",
-   "source": "ESPN",
-   "langue": "en",
-   "date": "2026-11-26T18:09+00:00",
-   "image": null,
-   "vo": "Zverev, Germany out of Davis Cup after loss to Britain in quarterfinals",
-   "titre": "Zverev et l'Allemagne éliminés de la Coupe Davis après leur défaite face à la Grande-Bretagne en quarts de finale",
-   "blessure": false,
-   "titre_fr": "Zverev et l'Allemagne éliminés de la Coupe Davis après leur défaite face à la Grande-Bretagne en quarts de finale"
   },
   {
    "lien": "https://www.welovetennis.fr/atp/patrick-mouratoglou-carlos-alcaraz-et-jannik-sinner-sont-dun-tout-autre-niveau-que-les-autres-mais-alexander-zverev-pense-le-contraire-et-cette-conviction-explique-en-grande-partie-pourq",
@@ -3798,26 +3818,6 @@
    "vo": "“I hope I can play”: Fils ready to answer Monfils’ first Davis Cup call",
    "titre": "« J'espère pouvoir jouer » : Fils est prêt à répondre à la première convocation de Monfils pour la Coupe Davis",
    "titre_fr": "« J'espère pouvoir jouer » : Fils est prêt à répondre à la première convocation de Monfils pour la Coupe Davis",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/a-hell-of-a-season-fils-leaves-turin-at-the-level-and-heads-on-holiday-867385.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-19T22:32+00:00",
-   "image": null,
-   "vo": "“A hell of a season”: Fils leaves Turin “at the level” and heads on holiday",
-   "titre": "« Une saison de folie » : Fils quitte Turin « au niveau » et part en vacances",
-   "titre_fr": "« Une saison de folie » : Fils quitte Turin « au niveau » et part en vacances",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Blessure-a-la-cuisse-gauche-entrainement-annule-et-examens-rassurants-pour-carlos-alcaraz-l-ombre-d-un-doute-aux-finales-atp/1744695#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T22:32+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Alcaraz, la frayeur puis le soulagement",
    "blessure": false
   }
  ]
