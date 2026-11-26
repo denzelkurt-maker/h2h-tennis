@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26T15:40+00:00",
+ "maj": "2026-11-26T17:34+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -28,6 +28,42 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/boris-becker-sur-les-trois-joueurs-a-surveiller-en-2027-ils-pourraient-finir-dans-le-top-10-lannee-prochaine",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T17:28+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/11/Boris-Becker-1024x521.jpeg",
+   "titre": "Boris Becker sur les trois joueurs à surveiller en 2027 : « Ils pourraient finir dans le Top 10 l’année prochaine »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-accueilli-comme-un-roi-dans-son-nouveau-job-cest-lune-des-plus-grandes-legendes-qui-souhaite-partager-son-avenir-avec-nous",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T16:58+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/02/Nadal-1024x552.jpg",
+   "titre": "Rafael Nadal accueilli comme un roi dans son nouveau job : « C’est l’une des plus grandes légendes qui souhaite partager son avenir avec nous »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/arthur-fery-32e-mondial-apres-sa-nouvelle-defaite-contre-alexander-zverev-on-a-un-peu-limpression-que-tout-depend-de-lui",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T16:29+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Zverev-Fery-filet-wim-1024x496.jpeg",
+   "titre": "Arthur Fery, 32e mondial, après sa nouvelle défaite contre Alexander Zverev : « On a un peu l’impression que tout dépend de lui »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/le-francais-droguet-80e-mondial-sur-laffaire-rinderknech-quand-je-suis-entre-dans-le-systeme-antidopage-jai-tout-de-suite-parle-aux-mecs-un-peu-plus-ages-pour-quils-mexpliquent",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T15:52+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/08/Droguet-USO-2023-1-1024x555.jpeg",
+   "titre": "Le Français Droguet, 80e mondial, sur l’affaire Rinderknech : « Quand je suis entré dans le système antidopage, j’ai tout de suite parlé aux mecs un peu plus âgés pour qu’ils m’expliquent »",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/others-news/davis-cup-news/great-britain-knock-out-zverevs-germany-to-reach-davis-cup-semi-finals-867896.html",
    "source": "Tennis Majors (EN)",
@@ -3782,44 +3818,6 @@
    "date": "2026-11-19T21:38+00:00",
    "image": null,
    "titre": "Zverev domine (et élimine) Fils pour terminer invaincu en tête du groupe McEnroe",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/zverev-saves-his-best-for-the-tie-break-beats-fils-and-tops-group-mcenroe-unbeaten-867371.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-19T21:27+00:00",
-   "image": null,
-   "vo": "Zverev saves his best for the tie-break, beats Fils and tops Group McEnroe unbeaten",
-   "titre": "Zverev garde le meilleur pour le tie-break, bat Fils et termine en tête du groupe McEnroe sans avoir perdu un match",
-   "titre_fr": "Zverev garde le meilleur pour le tie-break, bat Fils et termine en tête du groupe McEnroe sans avoir perdu un match",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Fin-de-parcours-aux-finales-atp-de-turin-pour-arthur-fils-battu-par-alexander-zverev/1744763#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T21:27+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/il-n-y-a-pas-eu-d-exploit-pour-arthur-fils-ce-jeudi-soir-a-turin-face-a-alexander-zverev-f-faugere-l/1500000002654488/0:0,1998:1332-828-552-75/5ff81.jpg",
-   "titre": "Fin de parcours aux Finales ATP de Turin pour Arthur Fils, battu par Alexander Zverev",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/direct-arthur-fils-alexander-zverev-suivez-en-live-le-match-des-atp-finals-qui-peut-envoyer-le-francais-en-demi-finale_LN-202611190665.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-19T21:25+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/FWHLWgBGv1lBtmGMHgiNF_cO0Fc=/54x180:1990x1269/800x0/images/Arthur-Fils-au-Masters-ATP-le-17-novembre-2026-2386958.jpg",
-   "titre": "ATP Finals: Alexander Zverev prive Arthur Fils des demi-finales",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Albano-olivetti-et-theo-arribage-des-morts-de-faim-en-demies-des-finales-atp-un-an-seulement-apres-le-debut-de-leur-association/1744753#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T20:29+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/albano-olivetti-a-gauche-et-theo-arribage-sont-en-demies-a-turin-f-faugere-l-equipe/1500000002654467/58:67,708:501-828-552-75/54486.jpg",
-   "titre": "Albano Olivetti et Théo Arribagé, « des meurt-de-faim » en demies des Finales ATP, un an seulement après le début de leur association",
    "blessure": false
   }
  ]
