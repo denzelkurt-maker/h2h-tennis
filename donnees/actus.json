@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T23:31+00:00",
+ "maj": "2026-11-26T02:01+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -28,6 +28,35 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/november-26-1998-the-day-sampras-locked-up-his-record-sixth-year-end-no-1-ranking-309661.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-26T11:53+00:00",
+   "image": null,
+   "vo": "November 26, 1998: The day Pete Sampras secured the year-end No 1 ranking for a record sixth straight time",
+   "titre": "26 novembre 1998 : le jour où Pete Sampras a obtenu le classement n° 1 de fin d'année pour la sixième fois consécutive, un record",
+   "titre_fr": "26 novembre 1998 : le jour où Pete Sampras a obtenu le classement n° 1 de fin d'année pour la sixième fois consécutive, un record",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/26-novembre-1998-le-jour-ou-sampras-a-termine-la-saison-numero-un-pour-la-sixieme-annee-consecutive-309678.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-26T07:45+00:00",
+   "image": null,
+   "titre": "26 novembre 1998 : Le jour où Sampras a terminé la saison numéro un pour la sixième année consécutive",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/L-italie-se-sort-du-piege-tendu-par-la-coree-du-sud-en-quarts-de-finale-de-la-coupe-davis-un-choc-a-venir-en-demi-finales-contre-la-tchequie/1746242#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-25T23:22+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "L'Italie se sort du piège tendu par la Corée du Sud en quarts de finale de la Coupe Davis, un choc à venir en demi-finales contre la Tchéquie",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/others-news/davis-cup-news/berrettini-and-vavassori-send-italy-into-davis-cup-semi-finals-867889.html",
    "source": "Tennis Majors (EN)",
@@ -3801,35 +3830,6 @@
    "date": "2026-11-19T15:40+00:00",
    "image": null,
    "titre": "19 novembre 2006 : Le jour où Federer a conclu une saison exceptionnelle avec le Masters",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters/ben-shelton-domine-rafael-jodar-au-masters-de-turin-et-complique-la-tache-d-arthur-fils_8290220.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-19T15:36+00:00",
-   "image": "https://www.franceinfo.fr/pictures/uoehxUgGYEFxiajP3Zd8bycHoRk/0x0:5392x3033/432x243/filters:format(jpg)/2026/11/19/6aff1320b7012470733133.jpg",
-   "titre": "Ben Shelton domine Rafael Jodar au Masters de Turin et complique la tâche d'Arthur Fils",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/ben-shelton-assure-arthur-fils-na-desormais-plus-le-choix",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T15:31+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Arthur-Fils-1-1024x562.jpeg",
-   "titre": "Ben Shelton assure, Arthur Fils n’a désormais plus le choix !",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/ill-be-watching-arthur-shelton-edges-jodar-and-leaves-fils-needing-a-straight-sets-win-over-zverev-867320.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-19T15:26+00:00",
-   "image": null,
-   "vo": "“I’ll be watching Arthur”: Shelton edges Jodar and leaves Fils needing a straight-sets win over Zverev",
-   "titre": "« Je regarderai Arthur » : Shelton bat Jodar et laisse Fils dans l'obligation de remporter une victoire en deux sets contre Zverev",
-   "titre_fr": "« Je regarderai Arthur » : Shelton bat Jodar et laisse Fils dans l'obligation de remporter une victoire en deux sets contre Zverev",
    "blessure": false
   }
  ]
