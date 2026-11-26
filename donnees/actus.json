@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26T17:34+00:00",
+ "maj": "2026-11-26T19:51+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 44 articles",
+  "L'Équipe": "ok, 45 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 18 articles",
@@ -23,11 +23,57 @@
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 19 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "erreur : no element found: line 1, column 0",
+  "ESPN": "ok, 19 articles",
   "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-cetait-un-moment-auquel-je-ne-mattendais-pas-cest-peut-etre-plus-fort-que-davoir-un-court-a-mon-nom",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T18:59+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/05/Nadal-emotion-hommage-RG-2025-1024x552.jpeg",
+   "titre": "Rafael Nadal : « C’était un moment auquel je ne m’attendais pas. C’est peut-être plus fort que d’avoir un court à mon nom »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/meme-si-je-respecte-carlos-alcaraz-au-plus-haut-point-et-que-je-sais-quil-deviendra-lun-des-meilleurs-joueurs-de-lhistoire-cest-une-enorme-betise-de-dire-quil-battrait-haut",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T18:26+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Paris-2026-1024x512.jpeg",
+   "titre": "« Même si je respecte Carlos Alcaraz au plus haut point, et que je sais qu’il deviendra l’un des meilleurs joueurs de l’histoire, c’est une énorme bêtise de dire qu’il battrait haut la main Roger Federer ou Rafael Nadal ",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50604939/alexander-zverev-germany-davis-cup-loss-britain-quarterfinals",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-26T18:09+00:00",
+   "image": null,
+   "vo": "Zverev, Germany out of Davis Cup after loss to Britain in quarterfinals",
+   "titre": "Zverev, Germany out of Davis Cup after loss to Britain in quarterfinals",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/patrick-mouratoglou-carlos-alcaraz-et-jannik-sinner-sont-dun-tout-autre-niveau-que-les-autres-mais-alexander-zverev-pense-le-contraire-et-cette-conviction-explique-en-grande-partie-pourq",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T17:55+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Mouratoglou-1024x620.jpeg",
+   "titre": "Patrick Mouratoglou : « Carlos Alcaraz et Jannik Sinner sont d’un tout autre niveau que les autres mais Alexander Zverev pense le contraire, et cette conviction explique en grande partie pourquoi il est numéro un mondial",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Video/Allemagne-alexander-zverev-repond-aux-critiques-sur-son-statut-de-numero-1-mondial/20246401#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-26T17:35+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "Zverev répond aux critiques sur son statut de numéro 1 mondial",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/boris-becker-sur-les-trois-joueurs-a-surveiller-en-2027-ils-pourraient-finir-dans-le-top-10-lannee-prochaine",
    "source": "We Love Tennis",
@@ -35,6 +81,15 @@
    "date": "2026-11-26T17:28+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2023/11/Boris-Becker-1024x521.jpeg",
    "titre": "Boris Becker sur les trois joueurs à surveiller en 2027 : « Ils pourraient finir dans le Top 10 l’année prochaine »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Article/Le-cas-arthur-rinderknech-et-son-refus-de-controle-antidopage-un-avertissement-general-pour-les-joueurs-ca-aurait-tres-bien-pu-m-arriver/1746190#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-26T17:05+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+   "titre": "«Ça aurait pu m'arriver» : Rinderknech, l'avertissement général",
    "blessure": false
   },
   {
@@ -50,9 +105,19 @@
    "lien": "https://www.welovetennis.fr/atp/arthur-fery-32e-mondial-apres-sa-nouvelle-defaite-contre-alexander-zverev-on-a-un-peu-limpression-que-tout-depend-de-lui",
    "source": "We Love Tennis",
    "langue": "fr",
-   "date": "2026-11-26T16:29+00:00",
+   "date": "2026-11-26T16:19+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Zverev-Fery-filet-wim-1024x496.jpeg",
    "titre": "Arthur Fery, 32e mondial, après sa nouvelle défaite contre Alexander Zverev : « On a un peu l’impression que tout dépend de lui »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.espn.com/tennis/story/_/id/50604558/great-britain-davis-cup-semifinals",
+   "source": "ESPN",
+   "langue": "en",
+   "date": "2026-11-26T16:01+00:00",
+   "image": null,
+   "vo": "GB reach first Davis Cup semifinal in 7 years after win against Germany",
+   "titre": "GB reach first Davis Cup semifinal in 7 years after win against Germany",
    "blessure": false
   },
   {
@@ -145,15 +210,6 @@
    "date": "2026-11-26T12:14+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Ferrer-capitaine-Espagne-1024x560.jpeg",
    "titre": "David Ferrer sur son expérience d’entraîneur d’Alexander Zverev : « Les gens ne se rendent pas compte »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Le-cas-arthur-rinderknech-et-son-refus-de-controle-antidopage-un-avertissement-general-pour-les-joueurs-ca-aurait-tres-bien-pu-m-arriver/1746190#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-26T12:12+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "«Ça aurait pu m'arriver» : Rinderknech, l'avertissement général",
    "blessure": false
   },
   {
@@ -3762,62 +3818,6 @@
    "vo": "Shelton beats Jodar, joins Zverev, Alcaraz in ATP Finals semis",
    "titre": "Shelton bat Jodar et rejoint Zverev et Alcaraz en demi-finale des ATP Finals",
    "titre_fr": "Shelton bat Jodar et rejoint Zverev et Alcaraz en demi-finale des ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/open-metz-grand-est/trois-joueurs-francais-au-rendez-vous-des-quarts-de-finale",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T22:11+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2021/11/Herbert-paris-1-e1673374661926-1024x520.jpeg",
-   "titre": "Trois joueurs français au rendez-vous des quarts de finale !",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/alerte-pour-zverev-malgre-sa-victoire-contre-fils-je-vais-probablement-en-souffrir-de-temps-en-temps-jusqua-la-fin-de-ma-carriere",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T21:58+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alexander-Zverev-conf-1024x512.jpeg",
-   "titre": "Alerte pour Zverev malgré sa victoire contre Fils : « Je vais probablement en souffrir de temps en temps jusqu’à la fin de ma carrière… »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/alexander-zverev-raises-injury-concern-after-beating-fils-at-atp-finals/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-19T21:54+00:00",
-   "image": null,
-   "vo": "Alexander Zverev Raises Injury Concern After Beating Fils At ATP Finals",
-   "titre": "Alexander Zverev suscite des inquiétudes concernant une blessure après avoir battu Fils lors des ATP Finals",
-   "titre_fr": "Alexander Zverev suscite des inquiétudes concernant une blessure après avoir battu Fils lors des ATP Finals",
-   "blessure": true
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/justine-henin-apres-la-defaite-darthur-fils-contre-alexander-zverev-je-crois-que-ben-shelton-etait-quand-meme-plutot-confiant",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T21:50+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Justine-Henin-1024x573.jpeg",
-   "titre": "Justine Henin, après la défaite d’Arthur Fils contre Alexander Zverev : « Je crois que Ben Shelton était quand même plutôt confiant »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters/pas-d-exploit-pour-arthur-fils-battu-par-le-n-1-mondial-alexander-zverev-et-elimine-du-masters-de-turin_8290640.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-19T21:40+00:00",
-   "image": "https://www.franceinfo.fr/pictures/gOVAHug_yDOJ7zBChMCTEIKqxoE/0x0:5392x3033/432x243/filters:format(jpg)/2026/11/19/6aff5bb0dd3fa302096944.jpg",
-   "titre": "Pas d'exploit pour Arthur Fils, battu par le n°1 mondial Alexander Zverev et éliminé du Masters de Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/zverev-domine-et-elimine-fils-pour-terminer-invaincu-en-tete-du-groupe-mcenroe-810540.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-19T21:38+00:00",
-   "image": null,
-   "titre": "Zverev domine (et élimine) Fils pour terminer invaincu en tête du groupe McEnroe",
    "blessure": false
   }
  ]
