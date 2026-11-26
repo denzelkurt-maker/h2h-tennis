@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26T03:40+00:00",
+ "maj": "2026-11-26T05:39+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -47,6 +47,24 @@
    "image": null,
    "titre": "26 novembre 1998 : Le jour où Sampras a terminé la saison numéro un pour la sixième année consécutive",
    "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-26T05:00+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
+   "titre": "Jannik Sinner",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/open-australie/tennis-jannik-sinner-a-annonce-son-forfait-pour-l-open-d-australie_AV-202611260159.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-26T05:00+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/qBrOIEACzESf8-EUjiLdeIPFWhA=/0x106:2048x1258/800x0/images/Jannik-Sinner-lors-des-ATP-Finals-le-15-novembre-2026-2390764.jpg",
+   "titre": "Tennis: Jannik Sinner a annoncé son forfait pour l'Open d'Australie",
+   "blessure": true
   },
   {
    "lien": "https://www.espn.com/tennis/story/_/id/50599895/jannik-sinner-missing-2027-australian-open-rehab-knee",
@@ -761,15 +779,6 @@
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/TdUih5Nz52grFs32wb8XABF0cjQ=/0x49:2048x1201/800x0/images/Jannick-Sinner-assiste-au-match-Juventus-AC-Milan-1-1-Serie-A-le-6-septembre-2026-2354502.jpg",
    "titre": "Tennis: Jannik Sinner opéré du genou, plusieurs mois d’absence à venir",
    "blessure": true
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/jannick-sinner_DN-202406110409.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-24T13:07+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/X8QnxtLcqgDgVPP3QdjFW2iSZtQ=/100x351:1796x1305/800x0/images/Jannik-Sinner-le-2-juin-2024-1876896.jpg",
-   "titre": "Jannik Sinner",
-   "blessure": false
   },
   {
    "lien": "https://www.tennismajors.com/fr/atp-actualite/24-novembre-1996-le-jour-ou-pete-sampras-a-remporte-son-3e-masters-309304.html",
@@ -3823,15 +3832,6 @@
    "vo": "Ash Barty and Shingo Kunieda elected to the International Tennis Hall of Fame",
    "titre": "Ash Barty et Shingo Kunieda élus au Temple de la renommée international du tennis",
    "titre_fr": "Ash Barty et Shingo Kunieda élus au Temple de la renommée international du tennis",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/je-vais-regarder-le-match-darthur-shelton-ecarte-jodar-et-oblige-fils-a-battre-zverev-en-deux-sets-810496.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-19T15:42+00:00",
-   "image": null,
-   "titre": "« Je vais regarder le match d’Arthur » : Shelton écarte Jodar et oblige Fils à battre Zverev en deux sets",
    "blessure": false
   }
  ]
