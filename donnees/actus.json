@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26T09:47+00:00",
+ "maj": "2026-11-26T11:36+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -40,12 +40,48 @@
    "blessure": false
   },
   {
+   "lien": "https://rmcsport.bfmtv.com/tennis/coupe-davis/un-triangle-amoureux-au-coeur-des-tensions-les-retrouvailles-glaciales-entre-musetti-et-berrettini-agitent-l-italie-en-coupe-davis_AV-202611260558.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-26T11:35+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/GX5aVQ6Rbkya3aytsdj2wyL67_Y=/0x84:1744x1065/800x0/images/Matteo-Berrettini-et-Lorenzo-Musetti-en-Coupe-Davis-le-25-novembre-2026-2391069.jpg",
+   "titre": "Un triangle amoureux au coeur des tensions? Les retrouvailles glaciales entre Musetti et Berrettini agitent l'Italie en Coupe Davis",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-sur-le-nouveau-phenomene-du-circuit-cest-une-eponge-cest-ce-qui-fait-de-lui-un-grand-joueur-et-une-personne-formidable",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T11:08+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Turin-1024x568.jpeg",
+   "titre": "Carlos Alcaraz sur le nouveau phénomène du circuit : « C’est une éponge. C’est ce qui fait de lui un grand joueur et une personne formidable »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/zverev-agace-en-conference-de-presse-a-propos-de-son-affaire-judiciaire-pour-etre-honnete-je-nai-pas-vraiment-envie-de-parler-de-ce-sujet-car-cela-remonte-a-cinq-ou-six-ans-je-me-suis",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T10:46+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alexander-Zverev-conf-1024x512.jpeg",
+   "titre": "Zverev agacé en conférence de presse à propos de son affaire judiciaire : « Pour être honnête, je n’ai pas vraiment envie de parler de ce sujet, car cela remonte à cinq ou six ans. Je me suis déjà exprimé là-dessus »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/dopage/le-secretaire-general-adjoint-de-lalfd-en-remet-une-couche-sur-le-cas-rinderknech-un-sportif-est-informe-par-lagence-des-quil-rentre-dans-le-groupe-cible-ils-ne-sont-pas-pris",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-26T10:14+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/03/Rinderknech--1024x511.jpeg",
+   "titre": "Le sécrétaire général adjoint de l’ALFD en remet une couche sur le cas Rinderknech : « Un sportif est informé par l’agence dès qu’il rentre dans le groupe cible. Ils ne sont pas pris à défaut »",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/berrettini-apparu-avec-de-la-glace-en-conference-de-presse-rassure-cest-la-routine-apres-chaque-match",
    "source": "We Love Tennis",
    "langue": "fr",
    "date": "2026-11-26T09:44+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Berrettini-maudit-1024x555.jpeg",
-   "titre": "Berrettini apparu avec de la glace en conférence de presse rassure : « C’est la routine après chaque match »",
+   "titre": "Berrettini, apparu avec de la glace en conférence de presse, rassure : « C’est la routine après chaque match »",
    "blessure": false
   },
   {
@@ -3788,42 +3824,6 @@
    "date": "2026-11-19T18:09+00:00",
    "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
    "titre": "Où voir le match entre Fils et Zverev ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/alcaraz-a-decide-de-ne-pas-declarer-forfait-a-turin-mais-il-faut-comprendre-quil-le-fait-en-sachant-quil-y-a-un-risque-il-ne-faut-pas-negliger-le-danger-quil-court-pre",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T18:03+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-6385-1024x569.jpg",
-   "titre": "« Alcaraz a décidé de ne pas déclarer forfait à Turin mais il faut comprendre qu’il le fait en sachant qu’il y a un risque. Il ne faut pas négliger le danger qu’il court », prévient José Moron",
-   "blessure": true
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/daniil-medvedev-jai-soutenu-nimporte-quel-joueur-qui-affrontait-roger-federer",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T17:42+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Daniil-Medvedev-conf-presse--1024x574.jpeg",
-   "titre": "Daniil Medvedev : « J’ai soutenu n’importe quel joueur qui affrontait Roger Federer »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.20minutes.fr/sport/tennis/4264049-20261119-direct-fils-zverev-exploit-porte-arthuro-face-numero-1-mondial-suivez-match?at_medium=display&at_campaign=149",
-   "source": "20 Minutes",
-   "langue": "fr",
-   "date": "2026-11-19T17:32+00:00",
-   "image": "https://img.20mn.fr/TiSim3W8Q8aWfI3HKlQ_wik/1200x768_le-francais-arthur-fils-renvoie-la-balle-a-l-allemand-alexander-zverev-lors-de-leur-match-de-tennis-de-la-finale-de-l-atp-world-tour-a-turin-en-italie-le-jeudi-19-novembre-2026",
-   "titre": "Fils - Zverev : Arthur Fils éliminé du Masters après une belle bataille contre le n°1 mondial",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/ben-shelton-sur-arthur-fils-je-ne-serai-pas-contre-lui",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-19T17:09+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Shelton-entree-1024x544.jpeg",
-   "titre": "Ben Shelton sur Arthur Fils : « Je ne serai pas contre lui »",
    "blessure": false
   }
  ]
