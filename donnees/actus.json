@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26T23:37+00:00",
+ "maj": "2026-11-27T02:03+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -23,11 +23,31 @@
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 19 articles",
   "20 Minutes": "ok, 18 articles",
-  "ESPN": "ok, 19 articles",
+  "ESPN": "erreur : no element found: line 1, column 0",
   "Tennis Majors (EN)": "ok, 20 articles",
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/masters-atp/27-novembre-2011-le-jour-ou-federer-a-conquis-son-6e-masters-310009.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-27T14:03+00:00",
+   "image": null,
+   "titre": "27 novembre 2011 : le jour où Federer a conquis son 6e Masters, record (battu en 2023 par Djokovic)",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/atp/november-27-2011-the-day-roger-federer-won-a-record-sixth-atp-finals-title-310011.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-27T11:17+00:00",
+   "image": null,
+   "vo": "November 27, 2011: The day Roger Federer won a then-record sixth ATP Finals title",
+   "titre": "27 novembre 2011 : le jour où Roger Federer a remporté un sixième titre aux ATP Finals, un record à l'époque",
+   "titre_fr": "27 novembre 2011 : le jour où Roger Federer a remporté un sixième titre aux ATP Finals, un record à l'époque",
+   "blessure": false
+  },
   {
    "lien": "https://www.lequipe.fr/Tennis/Video/Coupe-davis-espagne-david-ferrer-encense-rafael-jodar-apres-la-qualification/20246424#at_medium=RSS_feeds",
    "source": "L'Équipe",
@@ -3798,26 +3818,6 @@
    "date": "2026-11-19T22:38+00:00",
    "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
    "titre": "Le résumé du match entre Zverev et Fils",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Nicolas-escude-fait-le-bilan-de-la-saison-d-arthur-fils-apres-sa-defaite-face-a-alexander-zverev-aux-finales-atp-il-faudra-juste-etre-encore-un-peu-plus-stable/1744775#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T22:36+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/nicolas-escude-voit-arthur-fils-gagner-des-matches-en-grand-chelem-l-an-prochain-f-faugere-p-lahalle-l-equipe/1500000002654529/0:0,1500:1000-828-552-75/38d90.jpg",
-   "titre": "Nicolas Escudé fait le bilan de la saison d'Arthur Fils après sa défaite face à Alexander Zverev aux Finales ATP : « Il faudra juste être encore un peu plus stable »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/i-hope-i-can-play-fils-ready-to-answer-monfils-first-davis-cup-call-867382.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-19T22:36+00:00",
-   "image": null,
-   "vo": "“I hope I can play”: Fils ready to answer Monfils’ first Davis Cup call",
-   "titre": "« J'espère pouvoir jouer » : Fils est prêt à répondre à la première convocation de Monfils pour la Coupe Davis",
-   "titre_fr": "« J'espère pouvoir jouer » : Fils est prêt à répondre à la première convocation de Monfils pour la Coupe Davis",
    "blessure": false
   }
  ]
