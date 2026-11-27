@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-27T09:47+00:00",
+ "maj": "2026-11-27T11:34+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -38,6 +38,15 @@
    "blessure": false
   },
   {
+   "lien": "https://www.welovetennis.fr/atp/les-images-plus-que-rassurantes-de-carlos-alcaraz-avant-un-match-determinant",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T11:31+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-revers--1024x541.jpeg",
+   "titre": "Les images plus que rassurantes de Carlos Alcaraz avant un match déterminant",
+   "blessure": false
+  },
+  {
    "lien": "https://www.tennismajors.com/atp/november-27-2011-the-day-roger-federer-won-a-record-sixth-atp-finals-title-310011.html",
    "source": "Tennis Majors (EN)",
    "langue": "en",
@@ -47,6 +56,46 @@
    "titre": "27 novembre 2011 : le jour où Roger Federer a remporté un sixième titre aux ATP Finals, un record à l'époque",
    "titre_fr": "27 novembre 2011 : le jour où Roger Federer a remporté un sixième titre aux ATP Finals, un record à l'époque",
    "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/un-joueur-apporte-son-soutien-a-rinderknech-il-est-hyper-carre-et-pas-du-tout-tricheur-vraiment-sil-y-a-un-mec-sur-lequel-je-ne-miserais-pas-une-piece-pour-se-doper-cest-rinder",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T10:52+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Rinderknech-Djokovic-1024x555.jpeg",
+   "titre": "Un joueur apporte son soutien à Rinderknech : « Il est hyper carré et pas du tout tricheur. Vraiment, s’il y a un mec sur lequel je ne miserais pas une pièce pour se doper, c’est Rinder »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/great-britain-look-to-topple-alcaraz-led-spain-at-davis-cup/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-27T10:38+00:00",
+   "image": null,
+   "vo": "Great Britain Look To Topple Alcaraz-Led Spain At Davis Cup",
+   "titre": "La Grande-Bretagne vise à battre l'Espagne menée par Alcaraz à la Coupe Davis",
+   "titre_fr": "La Grande-Bretagne vise à battre l'Espagne menée par Alcaraz à la Coupe Davis",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/coupe-davis/le-capitaine-italien-volandri-fait-taire-les-rumeurs-concernant-la-relation-musetti-berrettini-le-groupe-est-soude-et-les-emotions-sont-nombreuses",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T10:13+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Volandri-Cobolli-Italie-1024x551.jpeg",
+   "titre": "Le Capitaine Italien, Volandri fait taire les rumeurs concernant la relation Musetti-Berrettini : « Le groupe est soudé et les émotions sont nombreuses »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.ubitennis.net/2026/11/recently-retired-dan-evans-faces-schneider-in-battle-of-the-sexes-match-at-russian-exhibition/",
+   "source": "Ubitennis",
+   "langue": "en",
+   "date": "2026-11-27T09:47+00:00",
+   "image": null,
+   "vo": "Recently Retired Dan Evans Faces Schneider In Battle Of The Sexes Match At Russian Exhibition",
+   "titre": "Dan Evans, récemment retraité, affronte Schneider dans un match mixte lors d'un tournoi exhibition en Russie",
+   "titre_fr": "Dan Evans, récemment retraité, affronte Schneider dans un match mixte lors d'un tournoi exhibition en Russie",
+   "blessure": true
   },
   {
    "lien": "https://www.welovetennis.fr/atp/landaluce-veut-remercier-rafael-nadal-pour-son-aide-a-la-fin-de-lannee-derniere-nous-avons-eu-une-belle-discussion-sur-les-aspects-de-mon-jeu-que-je-devais-ameliorer-et-ceux-qui",
@@ -82,6 +131,15 @@
    "date": "2026-11-27T08:11+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2025/06/Toni-Nadal-RG-2025-1024x523.jpg",
    "titre": "Toni Nadal revèle la véritable raison des problèmes sur le circuit actuellement : « J’en ai parlé avec Federer, la principale cause des blessures n’est pas le calendrier, mais… »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/toni-nadal-jen-ai-parle-avec-roger-federer-et-la-principale-cause-de-la-multiplication-des-blessures-nest-pas-le-calendrier-mais",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T08:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/06/Toni-Nadal-RG-2025-1024x523.jpg",
+   "titre": "Toni Nadal : « J’en ai parlé avec Roger Federer, et la principale cause de la multiplication des blessures n’est pas le calendrier, mais… »",
    "blessure": true
   },
   {
@@ -3758,64 +3816,6 @@
    "vo": "November 20, 1988: The day Gabriela Sabatini won her first big title",
    "titre": "20 novembre 1988 : le jour où Gabriela Sabatini a remporté son premier grand titre",
    "titre_fr": "20 novembre 1988 : le jour où Gabriela Sabatini a remporté son premier grand titre",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/zverev-de-retour-en-justice-lavocat-de-laccusation-sexplique-cest-a-ce-moment-la-que-nous-avons-du-prendre-la-decision-de-saisir-la-justice-ce-qui-netait-pas-notre-object",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-20T07:37+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/PHOTO-2026-11-17-12-29-04-1024x682.jpg",
-   "titre": "Zverev de retour en justice, l’avocat de l’accusation s’explique : « C’est à ce moment-là que nous avons dû prendre la décision de saisir la justice, ce qui n’était pas notre objectif initial »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/doha-and-dubais-future-a-2028-calendar-shake-up-clay-to-hard-whats-on-the-table-as-gaudenzi-speaks-in-turin-867399.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-20T07:32+00:00",
-   "image": null,
-   "vo": "Doha and Dubai’s future, a 2028 calendar shake-up, clay to hard: what’s on the table as Gaudenzi speaks in Turin",
-   "titre": "L’avenir de Doha et de Dubaï, un remaniement du calendrier 2028, de la terre battue au revêtement dur : ce qui est sur la table alors que Gaudenzi s’exprime à Turin",
-   "titre_fr": "L’avenir de Doha et de Dubaï, un remaniement du calendrier 2028, de la terre battue au revêtement dur : ce qui est sur la table alors que Gaudenzi s’exprime à Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/doha-and-dubais-future-a-2028-calendar-shake-up-clay-to-hard-whats-on-the-table-as-gaudenzi-speaks-in-turin-867399.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-20T07:32+00:00",
-   "image": null,
-   "vo": "Doha and Dubai’s future, a 2028 calendar shake-up, clay to hard: what’s on the table as Gaudenzi speaks in Turin",
-   "titre": "L’avenir de Doha et de Dubaï, un remaniement du calendrier 2028, de la terre battue au dur : ce qui est sur la table alors que Gaudenzi s’exprime à Turin",
-   "titre_fr": "L’avenir de Doha et de Dubaï, un remaniement du calendrier 2028, de la terre battue au dur : ce qui est sur la table alors que Gaudenzi s’exprime à Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/lheure-du-bilan-de-la-saison-pour-arthur-fils-si-javais-su-lorsque-jetais-42-que-jallais-finir-lannee-6e-ou-7e-jaurais-signe",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-20T07:15+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-4-1024x521.jpeg",
-   "titre": "L’heure du bilan de la saison pour Arthur Fils : « Si j’avais su lorsque j’étais 42 que j’allais finir l’année 6e ou 7e, j’aurais signé »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Article/Face-a-alexander-zverev-la-marche-etait-trop-haute-pour-arthur-fils-aux-finales-atp-la-premiere-fois-que-je-joue-un-match-ou-apres-un-set-c-est-fini/1744789#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-20T07:10+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Fils, l'exploit a tourné court",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/wta-actualite/20-novembre-1988-sabatini-sadjuge-son-premier-titre-majeur-au-masters-307110.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-20T07:09+00:00",
-   "image": null,
-   "titre": "20 novembre 1988 : Le jour où Sabatini s’adjuge son premier titre majeur au Masters à seulement 18 ans",
    "blessure": false
   }
  ]
