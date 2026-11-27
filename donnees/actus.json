@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-27T13:59+00:00",
+ "maj": "2026-11-27T15:40+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 46 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 18 articles",
+  "We Love Tennis": "ok, 17 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 19 articles",
@@ -28,6 +28,24 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/stephen-smith-expert-en-blessures-sur-le-retour-de-jannik-sinner-cest-une-reelle-source-dinquietude",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T15:10+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Sinner-profil-wim-1024x575.jpeg",
+   "titre": "Stephen Smith (expert en blessures) sur le retour de Jannik Sinner : « C’est une réelle source d’inquiétude »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jo-wilfried-tsonga-dans-ma-carriere-jai-toujours-reve-de-remporter-un-grand-chelem-mais-pour-un-gagner-un-il-aurait-peut-etre-fallu-que-je-reve-den-gagner-10-ou-20",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T14:34+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Tsonga-1024x507.jpeg",
+   "titre": "Jo-Wilfried Tsonga : « Dans ma carrière, j’ai toujours rêvé de remporter un Grand Chelem. Mais pour un gagner un, il aurait peut-être fallu que je rêve d’en gagner 10 ou 20 »",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/fr/atp-actualite/masters-atp/27-novembre-2011-le-jour-ou-federer-a-conquis-son-6e-masters-310009.html",
    "source": "Tennis Majors",
@@ -3793,28 +3811,6 @@
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Capture-decran-2026-11-20-a-12.13.16.png",
    "titre": "Ce qu’a dit Alexander Zverev à Arthur Fils au filet après l’avoir battu",
    "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/top-100-players-projected-to-earn-at-least-1-1-million-from-2028-atp-says-867413.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-20T11:18+00:00",
-   "image": null,
-   "vo": "Top 100 earners projected to make at least $1.1 million from 2028, ATP says",
-   "titre": "Selon l’ATP, les 100 joueurs les mieux rémunérés devraient gagner au moins 1,1 million de dollars à partir de 2028.",
-   "titre_fr": "Selon l’ATP, les 100 joueurs les mieux rémunérés devraient gagner au moins 1,1 million de dollars à partir de 2028.",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.espn.com/tennis/story/_/id/50539880/atp-tour-unveils-expanded-compensation-top-250-players",
-   "source": "ESPN",
-   "langue": "en",
-   "date": "2026-11-20T11:06+00:00",
-   "image": null,
-   "vo": "ATP Tour unveils expanded compensation plan to benefit top 250 players",
-   "titre": "L’ATP Tour dévoile un plan d’indemnisation élargi au profit des 250 meilleurs joueurs",
-   "blessure": false,
-   "titre_fr": "L’ATP Tour dévoile un plan d’indemnisation élargi au profit des 250 meilleurs joueurs"
   }
  ]
 }
