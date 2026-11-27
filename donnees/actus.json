@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-27T15:40+00:00",
+ "maj": "2026-11-27T17:35+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -15,7 +15,7 @@
   "Ubitennis"
  ],
  "flux": {
-  "L'Équipe": "ok, 46 articles",
+  "L'Équipe": "ok, 47 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
   "We Love Tennis": "ok, 17 articles",
@@ -28,6 +28,51 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-belle-accolade-entre-musetti-et-berrettini-qui-met-fin-aux-tensions",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T17:04+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/04/Musetti-Berrettini-MC-2025-1024x550.jpg",
+   "titre": "La belle accolade entre Musetti et Berrettini qui met fin aux tensions",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/guto-miguel-jeune-pepite-du-circuit-surnomme-mini-alcaraz-carlos-ma-invite-a-faire-la-pre-saison-avec-lui",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T16:37+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-entrainement-1024x544.jpeg",
+   "titre": "Guto Miguel, jeune pépite du circuit, surnommé « mini Alcaraz » : « Carlos m’a invité à faire la pré-saison avec lui »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Adrian-mannarino-et-corentin-moutet-annonces-ce-week-end-parmi-les-participants-a-une-exhibition-par-equipes-en-russie/1746684#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-27T16:32+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/adrian-mannarino-a-gauche-et-corentin-moutet-alexis-reau-l-equipe/1500000002661402/52:15,1598:1046-828-552-75/b2c2c.jpg",
+   "titre": "Adrian Mannarino et Corentin Moutet annoncés ce week-end parmi les participants à une exhibition par équipes en Russie",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/carlos-alcaraz-apres-lannonce-de-la-retraite-dune-legende-du-sport-jai-essaye-dapprendre-de-lui-et-je-pense-que-jy-suis-parvenu",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T16:07+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Turin-1024x568.jpeg",
+   "titre": "Carlos Alcaraz après l’annonce de la retraite d’une légende du sport : « J’ai essayé d’apprendre de lui, et je pense que j’y suis parvenu »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/lavis-tres-tranche-de-benoit-maylin-sur-alexander-zverev-sa-saison-2026-est-moins-impressionnante-que-celle-de-2021",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T15:47+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alexander-Zverev-1024x555.jpeg",
+   "titre": "L’avis très tranché de Benoît Maylin sur Alexander Zverev : « Sa saison 2026 est moins impressionnante que celle de 2021 »",
+   "blessure": false
+  },
   {
    "lien": "https://www.welovetennis.fr/atp/stephen-smith-expert-en-blessures-sur-le-retour-de-jannik-sinner-cest-une-reelle-source-dinquietude",
    "source": "We Love Tennis",
@@ -44,6 +89,15 @@
    "date": "2026-11-27T14:34+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Tsonga-1024x507.jpeg",
    "titre": "Jo-Wilfried Tsonga : « Dans ma carrière, j’ai toujours rêvé de remporter un Grand Chelem. Mais pour un gagner un, il aurait peut-être fallu que je rêve d’en gagner 10 ou 20 »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/jo-wilfried-tsonga-pour-gagner-un-grand-chelem-cest-peut-etre-ce-que-jaurais-du-faire",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T14:34+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Tsonga-1024x507.jpeg",
+   "titre": "Jo-Wilfried Tsonga : « Pour gagner un Grand Chelem, c’est peut-être ce que j’aurais dû faire »",
    "blessure": false
   },
   {
@@ -3754,62 +3808,6 @@
    "date": "2026-11-20T12:38+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Medvedev-conf-presse-regard-1024x556.jpeg",
    "titre": "Medvedev désigne le joueur de l’année et ce n’est ni Zverev, ni Sinner, ni Alcaraz !",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/latp-table-sur-11-million-de-dollars-minimum-pour-le-top-100-des-2028-810593.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-20T12:11+00:00",
-   "image": null,
-   "titre": "L’ATP table sur 1,1 million de dollars minimum pour le top 100 dès 2028",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters/pas-d-exploit-mais-des-promesses-que-retenir-du-masters-de-turin-d-arthur-fils_8292164.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-20T12:05+00:00",
-   "image": "https://www.franceinfo.fr/pictures/GXK-D_s4DeR3rICn7hS5kqsjZ5Y/0x0:5000x2812/432x243/filters:format(jpg)/2026/11/20/6b002d5c72965320187499.jpg",
-   "titre": "Pas d'exploit mais des promesses : que retenir du Masters de Turin d'Arthur Fils ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/alex-corretja-je-suis-inquiet-pour-carlos-alcaraz",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-20T12:02+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-6386-1024x557.jpg",
-   "titre": "Alex Corretja : « Je suis inquiet pour Carlos Alcaraz »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/nicolas-escude-apres-la-defaite-darthur-fils-contre-alexander-zverev-tu-ne-peux-pas-passer-au-travers-dun-jeu-de-service-comme-il-a-pu-le-faire-dans-le-premier-set",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-20T11:52+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Nicolas-Escude-1024x669.jpeg",
-   "titre": "Nicolas Escudé, après la défaite d’Arthur Fils contre Alexander Zverev : « Tu ne peux pas passer au travers d’un jeu de service comme il a pu le faire dans le premier set »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/not-done-intentionally-gaudenzi-explains-missing-the-doubles-no-1-ceremony-867421.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-20T11:45+00:00",
-   "image": null,
-   "vo": "“Not done intentionally”: Gaudenzi explains missing the doubles No. 1 ceremony",
-   "titre": "« Ce n'était pas intentionnel » : Gaudenzi explique pourquoi il a manqué la cérémonie des numéros 1 en double",
-   "titre_fr": "« Ce n'était pas intentionnel » : Gaudenzi explique pourquoi il a manqué la cérémonie des numéros 1 en double",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/ce-qua-dit-alexander-zverev-a-arthur-fils-au-filet-apres-lavoir-battu",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-20T11:22+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Capture-decran-2026-11-20-a-12.13.16.png",
-   "titre": "Ce qu’a dit Alexander Zverev à Arthur Fils au filet après l’avoir battu",
    "blessure": false
   }
  ]
