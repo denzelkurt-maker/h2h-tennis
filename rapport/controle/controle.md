@@ -1,6 +1,6 @@
 # Contrôle de l'appli
 
-- Date (UTC) : 2026-11-27T06:10:52.864Z
+- Date (UTC) : 2026-11-27T22:41:53.018Z
 - Version de l'appli : 0.11.0
 - État : **OK**
 
@@ -14,11 +14,11 @@
 ```json
 {
  "public": {
-  "duree_chargement_s": 2.605,
+  "duree_chargement_s": 4.007,
   "chiffres": {
    "version_appli": "0.11.0",
-   "matchs": 357957,
-   "joueurs": 11898,
+   "matchs": 358058,
+   "joueurs": 11902,
    "tournois": 10534,
    "doublons": 0,
    "complements_dechiffres": false,
@@ -53,20 +53,20 @@
    },
    "depuis_juin": {
     "Challenger tableau": {
-     "matchs": 3774,
-     "score_complet": 2087,
+     "matchs": 3802,
+     "score_complet": 2102,
      "stats": 0,
      "score_complet_pct": 55.3
     },
     "Challenger qualifications": {
-     "matchs": 3033,
-     "score_complet": 1799,
+     "matchs": 3039,
+     "score_complet": 1803,
      "stats": 0,
      "score_complet_pct": 59.3
     },
     "ITF": {
-     "matchs": 9888,
-     "score_complet": 5775,
+     "matchs": 9955,
+     "score_complet": 5813,
      "stats": 0,
      "score_complet_pct": 58.4
     },
@@ -86,11 +86,11 @@
   }
  },
  "complet": {
-  "duree_chargement_s": 2.196,
+  "duree_chargement_s": 3.193,
   "chiffres": {
    "version_appli": "0.11.0",
-   "matchs": 358504,
-   "joueurs": 11913,
+   "matchs": 358540,
+   "joueurs": 11916,
    "tournois": 10535,
    "doublons": 0,
    "complements_dechiffres": true,
@@ -125,20 +125,20 @@
    },
    "depuis_juin": {
     "Challenger tableau": {
-     "matchs": 3910,
-     "score_complet": 3903,
-     "stats": 3625,
+     "matchs": 3920,
+     "score_complet": 3912,
+     "stats": 3633,
      "score_complet_pct": 99.8
     },
     "Challenger qualifications": {
-     "matchs": 3114,
-     "score_complet": 3110,
-     "stats": 2645,
+     "matchs": 3132,
+     "score_complet": 3128,
+     "stats": 2661,
      "score_complet_pct": 99.9
     },
     "ITF": {
-     "matchs": 10169,
-     "score_complet": 10137,
+     "matchs": 10177,
+     "score_complet": 10145,
      "stats": 4234,
      "score_complet_pct": 99.7
     },
