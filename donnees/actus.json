@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-27T05:41+00:00",
+ "maj": "2026-11-27T08:05+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -46,6 +46,33 @@
    "vo": "November 27, 2011: The day Roger Federer won a then-record sixth ATP Finals title",
    "titre": "27 novembre 2011 : le jour où Roger Federer a remporté un sixième titre aux ATP Finals, un record à l'époque",
    "titre_fr": "27 novembre 2011 : le jour où Roger Federer a remporté un sixième titre aux ATP Finals, un record à l'époque",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/coupe-davis/alcaraz-de-retour-en-simple-des-samedi-david-ferrer-repond-je-verrai-samedi-je-ne-le-sais-pas-encore-mais-oui-cest-une-possibilite",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T07:37+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Ferrer-capitaine-1024x521.jpeg",
+   "titre": "Alcaraz de retour en simple dès samedi, David Ferrer répond : « Je verrai samedi. Je ne le sais pas encore, mais oui, c’est une possibilité »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/actu/zverev-remet-les-pendules-a-lheure-ces-debats-et-discussion-sur-ma-place-du-numero-un-mondial-sont-menees-par-des-gens-qui-nont-jamais-joue-au-tennis",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T07:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Zverev-Allemagne-Coupe-Davis-1024x552.jpeg",
+   "titre": "Zverev remet les pendules à l’heure : « Ces debats et discussion sur ma place du numéro un mondial sont menées par des gens qui n’ont jamais joué au tennis »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Quand-martina-hingis-se-dispute-avec-son-futur-mari-sous-les-yeux-de-bruno-garay/1745568#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-27T07:00+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/martina-hingis-en-mars-2010-aux-haras-de-bory-dans-les-yvelines-corinne-dubreuil-l-equipe/1500000002657572/0:0,2000:1333-828-552-75/40abe.jpg",
+   "titre": "Quand Martina Hingis se dispute avec son futur mari sous les yeux de Bruno Garay",
    "blessure": false
   },
   {
@@ -3789,35 +3816,6 @@
    "date": "2026-11-19T22:55+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-f-faugere-l-equipe/1500000002654543/0:0,2000:1333-828-552-75/0457d.jpg",
    "titre": "Arthur Fils après la fin de son parcours aux Finales ATP de Turin : « Je pars en vacances avec plein de bons souvenirs »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/atp/atp-finals-cette-somme-xxl-remportee-par-arthur-fils-malgre-son-elimination_AV-202611191085.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-19T22:53+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/YfKYpGN4e5MKQY5XKGhAtC15wXE=/0x106:2048x1258/800x0/images/Arthur-Fils-tout-sourire-face-a-Alexandre-Zverev-lors-du-Masters-le-19-novembre-2026-a-Turin-Italie-2387282.jpg",
-   "titre": "ATP Finals: cette somme XXL remportée par Arthur Fils malgré son élimination",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/masters-1000-atp-finals-top-10-everything-you-always-wanted-to-know-about-arthur-fils-but-never-had-time-to-find-out-867495.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-19T22:45+00:00",
-   "image": null,
-   "vo": "Masters 1000, ATP Finals, top 10: Everything you always wanted to know about Arthur Fils (but never had time to find out)",
-   "titre": "Masters 1000, ATP Finals, top 10 : tout ce que vous avez toujours voulu savoir sur Arthur Fils (mais que vous n'avez jamais eu le temps de découvrir)",
-   "titre_fr": "Masters 1000, ATP Finals, top 10 : tout ce que vous avez toujours voulu savoir sur Arthur Fils (mais que vous n'avez jamais eu le temps de découvrir)",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Video/Finales-atp-le-resume-du-match-entre-alexander-zverev-et-arthur-fils-aux-finales-atp/20245913#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T22:38+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
-   "titre": "Le résumé du match entre Zverev et Fils",
    "blessure": false
   }
  ]
