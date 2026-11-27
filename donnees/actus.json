@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-27T22:41+00:00",
+ "maj": "2026-11-27T23:33+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -28,6 +28,15 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/fr/coupe-davis-actualite/coupe-davis-musetti-et-vavassori-qualifient-litalie-pour-la-finale-apres-une-grande-frayeur-811056.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-27T22:50+00:00",
+   "image": null,
+   "titre": "Coupe Davis : Musetti et Vavassori qualifient l’Italie pour la finale après une grande frayeur",
+   "blessure": false
+  },
   {
    "lien": "https://www.lequipe.fr/Tennis/Actualites/L-italie-triple-tenante-du-titre-signe-face-a-la-tchequie-une-seizieme-victoire-de-suite-et-se-qualifie-pour-la-finale-de-la-coupe-davis/1746798#at_medium=RSS_feeds",
    "source": "L'Équipe",
@@ -3799,17 +3808,6 @@
    "date": "2026-11-20T14:28+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-poing-hargne-victoire-1024x573.jpeg",
    "titre": "Carlos Alcaraz, après avoir balayé Flavio Cobolli : « Je voulais voir comment j’allais me sentir sur le court. J’ai essayé de jouer de la manière la plus agressive possible et de bouger le moins possible »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/semis-alcaraz-shrugs-off-hamstring-scare-beats-cobolli-to-finish-his-turin-group-unbeaten-867442.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-20T14:25+00:00",
-   "image": null,
-   "vo": "“Semis”: Alcaraz shrugs off hamstring scare, beats Cobolli to finish his Turin group unbeaten",
-   "titre": "« Demi-finales » : Alcaraz se remet de sa frayeur liée à son ischio-jambier et bat Cobolli pour terminer son groupe à Turin invaincu",
-   "titre_fr": "« Demi-finales » : Alcaraz se remet de sa frayeur liée à son ischio-jambier et bat Cobolli pour terminer son groupe à Turin invaincu",
    "blessure": false
   }
  ]
