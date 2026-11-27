@@ -1,11 +1,11 @@
 {
  "actus.json": {
-  "octets": 235621,
-  "empreinte": "0995601de1ba"
+  "octets": 235145,
+  "empreinte": "5824c40bb59e"
  },
  "cito-2026.json": {
-  "octets": 566210,
-  "empreinte": "4bc251398086"
+  "octets": 567830,
+  "empreinte": "6bc3f0f74289"
  },
  "classement.json": {
   "octets": 135361,
@@ -28,32 +28,32 @@
   "empreinte": "4b239b0d9a9d"
  },
  "double-2023.json": {
-  "octets": 305686,
-  "empreinte": "cabee8585e76"
+  "octets": 305672,
+  "empreinte": "70e1b0782213"
  },
  "double-2024.json": {
-  "octets": 324422,
-  "empreinte": "35fe1c52c695"
+  "octets": 324408,
+  "empreinte": "7c01aed2d15c"
  },
  "double-2025.json": {
   "octets": 324378,
   "empreinte": "72e8b29148d1"
  },
  "double-2026-01.json": {
-  "octets": 39277,
-  "empreinte": "6409957fcf51"
+  "octets": 39835,
+  "empreinte": "0286c10ab8d4"
  },
  "double-2026-02.json": {
-  "octets": 30652,
-  "empreinte": "a26b9a9d7ac0"
+  "octets": 30634,
+  "empreinte": "bd3aba0bc8a2"
  },
  "double-2026-03.json": {
   "octets": 35479,
   "empreinte": "e7b042cc4a00"
  },
  "double-2026-04.json": {
-  "octets": 32029,
-  "empreinte": "12c2cfa399d9"
+  "octets": 32364,
+  "empreinte": "8c311b669c15"
  },
  "double-2026-05.json": {
   "octets": 29488,
@@ -80,24 +80,24 @@
   "empreinte": "d74b2dd4f441"
  },
  "double-2026-11.json": {
-  "octets": 22472,
-  "empreinte": "9b497a6158ed"
+  "octets": 23405,
+  "empreinte": "3ed00d22c6f9"
  },
  "joueurs-historique.json": {
   "octets": 621241,
   "empreinte": "7a514f692aa9"
  },
  "joueurs-recents.json": {
-  "octets": 46428,
-  "empreinte": "6138e5c49f19"
+  "octets": 46622,
+  "empreinte": "3fc7b8ecf7cd"
  },
  "photos.json": {
-  "octets": 523580,
-  "empreinte": "72a2dfda7390"
+  "octets": 523989,
+  "empreinte": "cd7094106078"
  },
  "programme.json": {
   "octets": 32633,
-  "empreinte": "23fdfe938c83"
+  "empreinte": "3ff643222104"
  },
  "simple-2011.json": {
   "octets": 492691,
@@ -200,8 +200,8 @@
   "empreinte": "ecf2f777fd39"
  },
  "simple-2026-11.json": {
-  "octets": 163787,
-  "empreinte": "11bba03491d8"
+  "octets": 171191,
+  "empreinte": "35d51cddc5a5"
  },
  "stats-simple-2011.json": {
   "octets": 650600,
