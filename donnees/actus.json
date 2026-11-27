@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-27T17:35+00:00",
+ "maj": "2026-11-27T19:41+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -29,12 +29,50 @@
  },
  "articles": [
   {
+   "lien": "https://www.welovetennis.fr/atp/lorenzo-musetti-lance-un-appel-a-jannik-sinner-ce-serait-bien-quil-vienne-ici",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T18:06+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/11/Italie-Coupe-Davis-Berrettini-Sinner-Musetti-Volandri-1024x537.jpeg",
+   "titre": "Lorenzo Musetti lance un appel à Jannik Sinner : « Ce serait bien qu’il vienne ici »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/others-news/davis-cup-news/musetti-beats-mensik-to-give-italy-the-lead-against-czechia-in-davis-cup-semi-finals-867918.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-27T17:52+00:00",
+   "image": null,
+   "vo": "Lehecka beats Cobolli to level Italy-Czechia Davis Cup semi-final at 1-1 after Musetti’s win",
+   "titre": "Lehecka bat Cobolli et égalise à 1-1 dans la demi-finale de la Coupe Davis Italie-Tchéquie après la victoire de Musetti",
+   "titre_fr": "Lehecka bat Cobolli et égalise à 1-1 dans la demi-finale de la Coupe Davis Italie-Tchéquie après la victoire de Musetti",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/vous-allez-encaisser-de-largent-avec-le-sang-de-millions-dukrainiens-stakhovsky-charge-moutet-et-mannarino-sur-lexhibition-en-russie",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T17:35+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/10/Moutet-GP-Aura-1024x604.jpg",
+   "titre": "« Vous allez encaisser de l’argent avec le sang de millions d’Ukrainiens », Stakhovsky charge Moutet et Mannarino sur l’exhibition en Russie",
+   "blessure": false
+  },
+  {
    "lien": "https://www.welovetennis.fr/atp/la-belle-accolade-entre-musetti-et-berrettini-qui-met-fin-aux-tensions",
    "source": "We Love Tennis",
    "langue": "fr",
    "date": "2026-11-27T17:04+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2025/04/Musetti-Berrettini-MC-2025-1024x550.jpg",
    "titre": "La belle accolade entre Musetti et Berrettini qui met fin aux tensions",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-belle-accolade-entre-musetti-et-berrettini-qui-met-fin-aux-polemiques",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T17:04+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Italie-Coupe-Davis-Berrettini-Musetti-Cobolli-1024x522.jpeg",
+   "titre": "La belle accolade entre Musetti et Berrettini qui met fin aux polémiques",
    "blessure": false
   },
   {
@@ -323,6 +361,17 @@
    "blessure": false
   },
   {
+   "lien": "https://www.tennismajors.com/others-news/davis-cup-news/alcaraz-could-play-singles-against-great-britain-says-ferrer-867910.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-27T06:34+00:00",
+   "image": null,
+   "vo": "Alcaraz could play singles against Great Britain, says Ferrer",
+   "titre": "Alcaraz pourrait jouer en simple contre la Grande-Bretagne, selon Ferrer",
+   "titre_fr": "Alcaraz pourrait jouer en simple contre la Grande-Bretagne, selon Ferrer",
+   "blessure": false
+  },
+  {
    "lien": "https://www.lequipe.fr/Tennis/Video/Coupe-davis-espagne-david-ferrer-encense-rafael-jodar-apres-la-qualification/20246424#at_medium=RSS_feeds",
    "source": "L'Équipe",
    "langue": "fr",
@@ -359,10 +408,10 @@
    "langue": "en",
    "date": "2026-11-26T20:35+00:00",
    "image": null,
-   "vo": "Jodar and Merida send Spain into Davis Cup semi-finals against Great Britain",
-   "titre": "Jodar et Mérida qualifient l'Espagne pour les demi-finales de la Coupe Davis contre la Grande-Bretagne",
-   "titre_fr": "Jodar et Mérida qualifient l'Espagne pour les demi-finales de la Coupe Davis contre la Grande-Bretagne",
-   "blessure": false
+   "vo": "“He knows what to do in important moments” – Jodar and Merida send Spain into Davis Cup semi-finals against Great Britain",
+   "titre": "« Il sait quoi faire dans les moments importants » – Jodar et Merida qualifient l'Espagne pour les demi-finales de la Coupe Davis contre la Grande-Bretagne",
+   "blessure": false,
+   "titre_fr": "« Il sait quoi faire dans les moments importants » – Jodar et Merida qualifient l'Espagne pour les demi-finales de la Coupe Davis contre la Grande-Bretagne"
   },
   {
    "lien": "https://www.lequipe.fr/Tennis/Article/Le-cas-arthur-rinderknech-et-son-refus-de-controle-antidopage-un-avertissement-general-pour-les-joueurs-ca-aurait-tres-bien-pu-m-arriver/1746190#at_medium=RSS_feeds",
@@ -3761,53 +3810,6 @@
    "date": "2026-11-20T14:20+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/carlos-alcaraz-n-a-pas-traine-devant-flavio-cobolli-f-faugere-l-equipe/1500000002655016/0:0,1998:1332-828-552-75/395bc.jpg",
    "titre": "Expéditif devant Flavio Cobolli, Carlos Alcaraz se rassure et termine invaincu en poules des Finales ATP",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/gulf-on-hold-saudi-on-course-fewer-250s-gaudenzi-maps-out-the-atps-future-calendar-867432.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-20T14:06+00:00",
-   "image": null,
-   "vo": "Gulf on hold, Saudi on course, fewer 250s: Gaudenzi maps out the ATP’s future calendar",
-   "titre": "Le Golfe en suspens, l'Arabie saoudite en bonne voie, moins de tournois 250 : Gaudenzi dévoile le futur calendrier de l'ATP",
-   "titre_fr": "Le Golfe en suspens, l'Arabie saoudite en bonne voie, moins de tournois 250 : Gaudenzi dévoile le futur calendrier de l'ATP",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/atp/le-circuit-atp-va-considerablement-augmenter-ses-recompenses-pour-tous-les-joueurs-a-partir-de-2028_8292341.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-20T14:02+00:00",
-   "image": "https://www.franceinfo.fr/pictures/yfc3ITQRIc5qMI2E6gnM_cJ4UAE/0x0:3299x1855/432x243/filters:format(jpg)/2026/11/20/6b005146eef89631058438.jpg",
-   "titre": "Le circuit ATP va considérablement augmenter ses récompenses pour tous les joueurs à partir de 2028",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-apres-sa-defaite-contre-alexander-zverev-cetait-la-premiere-fois-que-je-vivais-quelque-chose-comme-ca",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-20T13:58+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Arthur-Fils-Turin-1024x555.jpeg",
-   "titre": "Arthur Fils, après sa défaite contre Alexander Zverev : « C’était la première fois que je vivais quelque chose comme ça »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/andrea-gaudenzi-patron-de-latp-sur-la-multiplication-des-blessures-ce-que-ma-dit-lequipe-de-jannik-sinner-montre-que-la-mentalite-des-joueurs-nest-plus-la-meme-que-par-le-passe",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-20T13:29+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/11/Gaudenzi-ATP-1024x532.jpeg",
-   "titre": "Andrea Gaudenzi, patron de l’ATP, sur la multiplication des blessures : « Ce que m’a dit l’équipe de Jannik Sinner montre que la mentalité des joueurs n’est plus la même que par le passé »",
-   "blessure": true
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/medvedev-designe-le-joueur-de-lannee-et-ce-nest-ni-zverev-ni-sinner-ni-alcaraz",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-20T12:38+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Medvedev-conf-presse-regard-1024x556.jpeg",
-   "titre": "Medvedev désigne le joueur de l’année et ce n’est ni Zverev, ni Sinner, ni Alcaraz !",
    "blessure": false
   }
  ]
