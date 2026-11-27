@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-27T08:05+00:00",
+ "maj": "2026-11-27T09:47+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -47,6 +47,42 @@
    "titre": "27 novembre 2011 : le jour où Roger Federer a remporté un sixième titre aux ATP Finals, un record à l'époque",
    "titre_fr": "27 novembre 2011 : le jour où Roger Federer a remporté un sixième titre aux ATP Finals, un record à l'époque",
    "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/landaluce-veut-remercier-rafael-nadal-pour-son-aide-a-la-fin-de-lannee-derniere-nous-avons-eu-une-belle-discussion-sur-les-aspects-de-mon-jeu-que-je-devais-ameliorer-et-ceux-qui",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T09:43+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/03/Martin-Landaluce-1024x555.jpeg",
+   "titre": "Landaluce veut remercier Rafael Nadal pour son aide : « À la fin de l’année dernière, nous avons eu une belle discussion sur les aspects de mon jeu que je devais améliorer et ceux qu’il considérait comme mes points forts",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/coupe-davis/arthur-fery-confiant-avant-de-potentiellement-affronter-carlos-alcaraz-jai-le-sentiment-que-le-style-de-jeu-dalcaraz-pourrait-me-convenir",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T09:06+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Arthur-Fery-1024x512.jpeg",
+   "titre": "Arthur Fery confiant avant de potentiellement affronter Carlos Alcaraz : « J’ai le sentiment que le style de jeu d’Alcaraz pourrait me convenir »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/coupe-davis/corretja-pense-que-carlos-alcaraz-va-tout-donner-le-plus-important-cest-quil-sest-engage-a-donner-tout-ce-quil-a-cest-lun-des-grands-titres",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T08:50+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/06/Alex-1024x546.jpg",
+   "titre": "Corretja pense que Carlos Alcaraz va tout donner : « Le plus important, c’est qu’il s’est engagé à donner tout ce qu’il a. C’est l’un des grands titres qui manquent à son palmarès »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/toni-nadal-revele-la-veritable-raison-des-problemes-sur-le-circuit-actuellement-jen-ai-parle-avec-federer-la-principale-cause-des-blessures-nest-pas-le-calendrier-mais",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-27T08:11+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/06/Toni-Nadal-RG-2025-1024x523.jpg",
+   "titre": "Toni Nadal revèle la véritable raison des problèmes sur le circuit actuellement : « J’en ai parlé avec Federer, la principale cause des blessures n’est pas le calendrier, mais… »",
+   "blessure": true
   },
   {
    "lien": "https://www.welovetennis.fr/coupe-davis/alcaraz-de-retour-en-simple-des-samedi-david-ferrer-repond-je-verrai-samedi-je-ne-le-sais-pas-encore-mais-oui-cest-une-possibilite",
@@ -3780,42 +3816,6 @@
    "date": "2026-11-20T07:09+00:00",
    "image": null,
    "titre": "20 novembre 1988 : Le jour où Sabatini s’adjuge son premier titre majeur au Masters à seulement 18 ans",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Lucas-pouille-n-est-plus-l-entraineur-d-arthur-rinderknech/1744795#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-20T06:38+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/lucas-pouille-et-arthur-rinderknech-au-rolex-paris-masters-debut-novembre-p-lahalle-l-equipe/1500000002654682/0:0,800:533-828-552-75/c6252.jpg",
-   "titre": "Lucas Pouille n'est plus l'entraîneur d'Arthur Rinderknech",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/coupe-davis-actualite/jespere-pouvoir-jouer-fils-pret-a-repondre-a-lappel-de-monfils-en-coupe-davis-810555.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-19T23:30+00:00",
-   "image": null,
-   "titre": "« J’espère pouvoir jouer » : Fils prêt à répondre à l’appel de Monfils en Coupe Davis",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-veut-participer-a-la-coupe-davis-en-2027-j-espere-que-gael-monfils-me-selectionnera/1744785#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T23:14+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-jeudi-soir-f-faugere-l-equipe/1500000002654574/0:0,1999:1333-828-552-75/b7c32.jpg",
-   "titre": "Arthur Fils veut participer à la Coupe Davis en 2027 : « J'espère que Gaël Monfils me sélectionnera »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-apres-la-fin-de-son-parcours-aux-finales-atp-de-turin-je-pars-en-vacances-avec-plein-de-bons-souvenirs/1744778#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-19T22:55+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/arthur-fils-f-faugere-l-equipe/1500000002654543/0:0,2000:1333-828-552-75/0457d.jpg",
-   "titre": "Arthur Fils après la fin de son parcours aux Finales ATP de Turin : « Je pars en vacances avec plein de bons souvenirs »",
    "blessure": false
   }
  ]
