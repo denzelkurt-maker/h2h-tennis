@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-28T05:38+00:00",
+ "maj": "2026-11-28T07:56+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -37,6 +37,24 @@
    "vo": "November 28, 1999: The day Pete Sampras won the ATP Finals for the fifth time",
    "titre": "28 novembre 1999 : le jour où Pete Sampras a remporté les ATP Finals pour la cinquième fois",
    "titre_fr": "28 novembre 1999 : le jour où Pete Sampras a remporté les ATP Finals pour la cinquième fois",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/tim-henman-sur-novak-djokovic-je-ne-suis-absolument-pas-daccord-avec-les-personnes-qui-affirment-quil-nuit-a-son-heritage-et-quil-devrait-prendre-sa-retraite",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-28T07:45+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Djokovic-1024x551.jpeg",
+   "titre": "Tim Henman sur Novak Djokovic : « Je ne suis absolument pas d’accord avec les personnes qui affirment qu’il nuit à son héritage et qu’il devrait prendre sa retraite »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/coupe-davis/filippo-volandri-capitaine-italien-apres-la-nouvelle-qualification-en-finale-sans-sinner-nimporte-qui-aimerait-pouvoir-compter-sur-un-joueur-comme-jannik-mais-nous-avons-toujours-eu-l",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-28T07:20+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Italie-Coupe-Davis-Berrettini-Musetti-Cobolli-1024x522.jpeg",
+   "titre": "Filippo Volandri, capitaine italien, après la nouvelle qualification en finale sans Sinner : « N’importe qui aimerait pouvoir compter sur un joueur comme Jannik, mais nous avons toujours eu l’habitude de nous comporter c",
    "blessure": false
   },
   {
@@ -3792,24 +3810,6 @@
    "date": "2026-11-20T15:09+00:00",
    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/vH6GDIqhqJqROuP91wtp7QlJPms=/0x89:2048x1241/800x0/images/Arthur-Fils-lors-du-Masters-1000-de-Paris-5-novembre-2026-2382798.jpg",
    "titre": "Tennis: cet énorme jackpot que vont se partager les meilleurs joueurs du monde à partir de 2028",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/justine-henin-apres-la-victoire-facile-dun-carlos-alcaraz-diminue-il-avait-un-adversaire-qui-naturellement-nallait-pas-vraiment-le-bousculer",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-20T14:56+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Justine-Henin-1024x573.jpeg",
-   "titre": "Justine Henin, après la victoire facile d’un Carlos Alcaraz diminué : « Il avait un adversaire qui, naturellement, n’allait pas vraiment le bousculer »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.franceinfo.fr/sports/tennis/masters/carlos-alcaraz-se-rassure-face-a-flavio-cobolli-et-termine-invaincu-la-phase-de-groupes-du-masters-de-turin_8292425.html#xtor=RSS-3-%5Bsports%2Ftennis%5D",
-   "source": "franceinfo",
-   "langue": "fr",
-   "date": "2026-11-20T14:43+00:00",
-   "image": "https://www.franceinfo.fr/pictures/Htc6eR3BAlxPfvPiixHXjUk-VGQ/0x430:8256x5074/432x243/filters:format(jpg)/2026/11/20/6b005af850a61032864826.jpg",
-   "titre": "Carlos Alcaraz se rassure face à Flavio Cobolli et termine invaincu la phase de groupes du Masters de Turin",
    "blessure": false
   }
  ]
