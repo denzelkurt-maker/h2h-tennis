@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-28T07:56+00:00",
+ "maj": "2026-11-28T09:34+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -37,6 +37,33 @@
    "vo": "November 28, 1999: The day Pete Sampras won the ATP Finals for the fifth time",
    "titre": "28 novembre 1999 : le jour où Pete Sampras a remporté les ATP Finals pour la cinquième fois",
    "titre_fr": "28 novembre 1999 : le jour où Pete Sampras a remporté les ATP Finals pour la cinquième fois",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp-wta/martina-navratilova-a-propos-dalexander-zverev-cest-ridicule",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-28T09:25+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2023/09/Navratilova-1024x597.jpeg",
+   "titre": "Martina Navratilova, à propos d’Alexander Zverev : « C’est ridicule »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/corentin-moutet-en-pleine-polemique-je-me-suis-tout-simplement-fait-plaisir",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-28T08:58+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/10/Moutet-GP-Aura-1024x604.jpg",
+   "titre": "Corentin Moutet, en pleine polémique : « Je me suis tout simplement fait plaisir »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/kyle-edmund-ex-14e-mondial-si-jannik-sinner-et-carlos-alcaraz-avaient-tous-les-deux-ete-en-pleine-forme-et-quils-avaient-affronte-alexander-zverev-je-ne-pense-pas-que-ce-dernier-serait",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-28T08:22+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/04/Alcaraz-Sinner-2.jpeg",
+   "titre": "Kyle Edmund, ex-14e mondial : « Si Jannik Sinner et Carlos Alcaraz avaient tous les deux été en pleine forme et qu’ils avaient affronté Alexander Zverev, je ne pense pas que ce dernier serait numéro 1 mondial. Mais encor",
    "blessure": false
   },
   {
@@ -3781,35 +3808,6 @@
    "vo": "Alcaraz keeps his diagnosis to himself: “There is always a risk”",
    "titre": "Alcaraz garde son diagnostic pour lui : « Il y a toujours un risque »",
    "titre_fr": "Alcaraz garde son diagnostic pour lui : « Il y a toujours un risque »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.ubitennis.net/2026/11/carlos-alcaraz-cruises-past-cobolli-to-end-round-robin-stage-unbeaten-at-nitto-atp-finals/",
-   "source": "Ubitennis",
-   "langue": "en",
-   "date": "2026-11-20T15:23+00:00",
-   "image": null,
-   "vo": "Carlos Alcaraz Cruises Past Cobolli To End Round Robin Stage Unbeaten At Nitto ATP Finals",
-   "titre": "Carlos Alcaraz domine Cobolli et termine la phase de poules invaincu aux Nitto ATP Finals",
-   "titre_fr": "Carlos Alcaraz domine Cobolli et termine la phase de poules invaincu aux Nitto ATP Finals",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/la-grande-classe-de-carlos-alcaraz-envers-flavio-cobolli-apres-leur-affrontement-garde-la-tete-haute-tu-as-realise-une-saison-incroyable",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-20T15:20+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Capture-decran-2026-11-20-a-16.18.33.png",
-   "titre": "La grande classe de Carlos Alcaraz envers Flavio Cobolli après leur affrontement : « Garde la tête haute, tu as réalisé une saison incroyable »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/tennis-cet-enorme-jackpot-que-vont-se-partager-les-meilleurs-joueurs-du-monde-a-partir-de-2028_AV-202611200663.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-20T15:09+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/vH6GDIqhqJqROuP91wtp7QlJPms=/0x89:2048x1241/800x0/images/Arthur-Fils-lors-du-Masters-1000-de-Paris-5-novembre-2026-2382798.jpg",
-   "titre": "Tennis: cet énorme jackpot que vont se partager les meilleurs joueurs du monde à partir de 2028",
    "blessure": false
   }
  ]
