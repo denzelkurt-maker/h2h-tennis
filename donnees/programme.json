@@ -2379,6 +2379,15 @@
   ],
   [
    "2026-11-30",
+   "Empire Trnava Open",
+   "Trnava",
+   "Slovakia",
+   "Hard",
+   1,
+   50
+  ],
+  [
+   "2026-11-30",
    "Satul German Open",
    "Chișinău",
    "Moldova",
@@ -2396,21 +2405,21 @@
    50
   ],
   [
-   "2026-11-30",
-   "Trnava Challenger",
-   "Trnava",
-   "Slovakia",
-   "Hard",
-   1,
-   50
-  ],
-  [
    "2026-12-07",
    "Corcovado Tennis Open",
    "Rio de Janeiro",
    "Brazil",
    "Clay",
    0,
+   50
+  ],
+  [
+   "2026-12-07",
+   "Empire Trnava Open II",
+   "Trnava",
+   "Slovakia",
+   "Hard",
+   1,
    50
   ],
   [
@@ -2447,15 +2456,6 @@
    "Thailand",
    "Hard",
    0,
-   50
-  ],
-  [
-   "2026-12-07",
-   "Trnava Challenger II",
-   "Trnava",
-   "Slovakia",
-   "Hard",
-   1,
    50
   ],
   [
@@ -2711,10 +2711,10 @@
   "salle",
   "categorie"
  ],
- "challenger_maj": "2026-11-27T05:41+00:00",
+ "challenger_maj": "2026-11-28T02:00+00:00",
  "challenger_source": "Wikipédia (CC BY-SA 4.0), pages « AAAA ATP Challenger Tour »",
  "sonde_classement": {
-  "date": "2026-11-27T23:33+00:00",
+  "date": "2026-11-28T01:59+00:00",
   "essais": [
    {
     "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",

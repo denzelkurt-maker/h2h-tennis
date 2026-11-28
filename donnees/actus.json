@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-27T23:33+00:00",
+ "maj": "2026-11-28T01:59+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -28,6 +28,26 @@
   "Ubitennis": "ok, 20 articles"
  },
  "articles": [
+  {
+   "lien": "https://www.tennismajors.com/atp/november-28-1999-the-day-pete-sampras-won-the-atp-finals-for-the-fifth-time-310165.html",
+   "source": "Tennis Majors (EN)",
+   "langue": "en",
+   "date": "2026-11-28T13:35+00:00",
+   "image": null,
+   "vo": "November 28, 1999: The day Pete Sampras won the ATP Finals for the fifth time",
+   "titre": "28 novembre 1999 : le jour où Pete Sampras a remporté les ATP Finals pour la cinquième fois",
+   "titre_fr": "28 novembre 1999 : le jour où Pete Sampras a remporté les ATP Finals pour la cinquième fois",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.tennismajors.com/fr/atp-actualite/masters-atp/28-novembre-1999-le-jour-ou-sampras-a-remporte-le-masters-pour-la-5e-fois-contre-agassi-310161.html",
+   "source": "Tennis Majors",
+   "langue": "fr",
+   "date": "2026-11-28T06:03+00:00",
+   "image": null,
+   "titre": "28 novembre 1999 : le jour où Sampras a battu Agassi et remporté le Masters pour la 5e fois",
+   "blessure": false
+  },
   {
    "lien": "https://www.tennismajors.com/fr/coupe-davis-actualite/coupe-davis-musetti-et-vavassori-qualifient-litalie-pour-la-finale-apres-une-grande-frayeur-811056.html",
    "source": "Tennis Majors",
@@ -3790,24 +3810,6 @@
    "date": "2026-11-20T14:43+00:00",
    "image": "https://www.franceinfo.fr/pictures/Htc6eR3BAlxPfvPiixHXjUk-VGQ/0x430:8256x5074/432x243/filters:format(jpg)/2026/11/20/6b005af850a61032864826.jpg",
    "titre": "Carlos Alcaraz se rassure face à Flavio Cobolli et termine invaincu la phase de groupes du Masters de Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/fr/atp/nitto-atp-finals-atp/en-demie-alcaraz-surmonte-une-alerte-aux-ischio-jambiers-et-bat-cobolli-pour-terminer-invaincu-dans-son-groupe-a-turin-810623.html",
-   "source": "Tennis Majors",
-   "langue": "fr",
-   "date": "2026-11-20T14:37+00:00",
-   "image": null,
-   "titre": "« En demie ! » : Alcaraz surmonte une alerte aux ischio-jambiers et bat Cobolli pour terminer invaincu dans son groupe à Turin",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-apres-avoir-balaye-flavio-cobolli-je-voulais-voir-comment-jallais-me-sentir-sur-le-court-jai-essaye-de-jouer-de-la-maniere-la-plus-agressive-possible-et-de-bouger-le-mo",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-20T14:28+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-poing-hargne-victoire-1024x573.jpeg",
-   "titre": "Carlos Alcaraz, après avoir balayé Flavio Cobolli : « Je voulais voir comment j’allais me sentir sur le court. J’ai essayé de jouer de la manière la plus agressive possible et de bouger le moins possible »",
    "blessure": false
   }
  ]
