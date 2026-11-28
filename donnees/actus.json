@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-28T11:31+00:00",
+ "maj": "2026-11-28T13:47+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -18,7 +18,7 @@
   "L'Équipe": "ok, 47 articles",
   "Tennis Majors": "ok, 21 articles",
   "Eurosport": "erreur : téléchargement impossible : https://www.eurosport.fr/rss.xml (HTTP Error 404: Not Found)",
-  "We Love Tennis": "ok, 17 articles",
+  "We Love Tennis": "ok, 18 articles",
   "Tennis Actu": "erreur : téléchargement impossible : https://www.tennisactu.net/rss.xml (HTTP Error 302: The HTTP server retu",
   "RMC Sport": "ok, 26 articles",
   "franceinfo": "ok, 19 articles",
@@ -37,6 +37,78 @@
    "vo": "November 28, 1999: The day Pete Sampras won the ATP Finals for the fifth time",
    "titre": "28 novembre 1999 : le jour où Pete Sampras a remporté les ATP Finals pour la cinquième fois",
    "titre_fr": "28 novembre 1999 : le jour où Pete Sampras a remporté les ATP Finals pour la cinquième fois",
+   "blessure": false
+  },
+  {
+   "lien": "https://rmcsport.bfmtv.com/tennis/vous-allez-encaisser-de-l-argent-avec-le-sang-de-millions-d-ukrainiens-moutet-et-mannarino-critiques-pour-leur-participation-a-un-tournoi-en-russie_AV-202611280297.html",
+   "source": "RMC Sport",
+   "langue": "fr",
+   "date": "2026-11-28T13:34+00:00",
+   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/rZKaiGBaDgo7LH24_a0VR4vD7Fs=/0x0:2048x1152/800x0/images/Corentin-Moutet-lors-de-sa-victoire-au-2e-tour-de-l-Open-d-Australie-contre-Michael-Zheng-3-6-6-1-6-3-2-0-ab-le-21-janvier-2026-2221945.jpg",
+   "titre": "\"Vous allez encaisser de l’argent avec le sang de millions d’Ukrainiens\": Moutet et Mannarino critiqués pour leur participation à un tournoi en Russie",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.lequipe.fr/Tennis/Actualites/Un-nouvel-entraineur-pour-luca-van-assche-sebastien-grosjean-rejoint-le-staff-du-numero-2-francais/1746901#at_medium=RSS_feeds",
+   "source": "L'Équipe",
+   "langue": "fr",
+   "date": "2026-11-28T13:30+00:00",
+   "image": "https://medias.lequipe.fr/img-photo-jpg/luca-van-assche-devant-ses-entraineurs-sebastien-grosjean-et-sebastien-villette-samedi-a-paris-p-lahalle-l-equipe/1500000002662105/118:60,1895:1244-828-552-75/34198.jpg",
+   "titre": "Un nouvel entraîneur pour Luca Van Assche : Sébastien Grosjean rejoint le staff du numéro 2 français",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/la-classe-de-zverev-sur-la-longue-absence-de-sinner-meme-sil-est-evidemment-lun-de-mes-plus-grands-rivaux-et-lun-des-adversaires-les-plus-difficiles-a-affronter-pour-moi-je-souhaite-tout-de",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-28T13:14+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/07/Sinner-Zverev-accolade--1024x555.jpeg",
+   "titre": "La classe de Zverev sur la longue absence de Sinner : « Même s’il est évidemment l’un de mes plus grands rivaux et l’un des adversaires les plus difficiles à affronter pour moi, je souhaite tout de même qu’il revienne su",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/le-petit-frere-de-carlos-alcaraz-fait-parler-de-lui-il-va-falloir-quil-soit-tres-tres-costaud-dans-la-tete-parce-quinevitablement-et-quasiment-tous-les-jours-de-sa-vie-de-joueur",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-28T12:51+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-Turin-1024x568.jpeg",
+   "titre": "Le petit frère de Carlos Alcaraz fait parler de lui : « Il va falloir qu’il soit très très costaud dans la tête, parce qu’inévitablement et quasiment tous les jours de sa vie de joueur, il n’existera qu’en étant comparé ",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/moutet-et-mannarino-au-coeur-dune-polemique-la-fft-reagit-il-est-recommande-aux-joueurs-francais-de-ne-pas-prendre-part-a-ce-type-de-manifestation-en-russie",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-28T12:26+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/10/Mannarino-Paris-Bercy-2024-1024x540.jpeg",
+   "titre": "Moutet et Mannarino au coeur d’une polémique, la FFT réagit : « Il est recommandé aux joueurs français de ne pas prendre part à ce type de manifestation en Russie »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.20minutes.fr/sport/tennis/4266469-20261128-tennis-francais-mannarino-moutet-vivement-critiques-participation-tournoi-russie?at_medium=display&at_campaign=149",
+   "source": "20 Minutes",
+   "langue": "fr",
+   "date": "2026-11-28T11:59+00:00",
+   "image": "https://img.20mn.fr/Giqt-kcCSr-xwb9MuLHWVyk/1200x768_le-francais-adrian-mannarino-en-action-contre-le-suedois-jan-simonsson-lors-du-match-de-tennis-de-l-open-de-stockholm-a-stockholm-en-suede-le-samedi-7-novembre-2026-agence-de-presse-fredrik-sandberg-tt-via-ap-xpag646-26311575666567-sweden-out-credit-obligatoire-2611071725",
+   "titre": "Tennis : Les Français Mannarino et Moutet vivement critiqués pour leur participation à un tournoi en Russie",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/rafael-nadal-quand-jai-remporte-roland-garros-pour-la-premiere-fois-en-2005-je-me-disais-que-je-pourrais-desormais-vivre-le-reste-de-ma-carriere-plus-sereinement-mais-en-realite-ca-a-e",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-28T11:58+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2025/05/Nadal-conf-RG-2025-2-1024x568.jpeg",
+   "titre": "Rafael Nadal : « Quand j’ai remporté Roland-Garros pour la première fois en 2005, je me disais que je pourrais désormais vivre le reste de ma carrière plus sereinement, mais en réalité, ça a été tout le contraire »",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/julien-benneteau-si-jetais-a-la-place-de-carlos-alcaraz-et-que-javais-deja-gagne-sept-titres-du-grand-chelem-a-seulement-23-ans-je-me-dirais-jen-profite-jen",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-28T11:28+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2022/07/Benneteau-1-1024x513.jpeg",
+   "titre": "Julien Benneteau : « Si j’étais à la place de Carlos Alcaraz et que j’avais déjà gagné sept titres du Grand Chelem à seulement 23 ans, je me dirais : j’en profite, j’engrange »",
    "blessure": false
   },
   {
@@ -70,7 +142,7 @@
    "lien": "https://www.welovetennis.fr/atp/corentin-moutet-en-pleine-polemique-je-me-suis-tout-simplement-fait-plaisir",
    "source": "We Love Tennis",
    "langue": "fr",
-   "date": "2026-11-28T08:58+00:00",
+   "date": "2026-11-28T08:44+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/10/Moutet-GP-Aura-1024x604.jpg",
    "titre": "Corentin Moutet, en pleine polémique : « Je me suis tout simplement fait plaisir »",
    "blessure": false
@@ -97,7 +169,7 @@
    "lien": "https://www.welovetennis.fr/coupe-davis/filippo-volandri-capitaine-italien-apres-la-nouvelle-qualification-en-finale-sans-sinner-nimporte-qui-aimerait-pouvoir-compter-sur-un-joueur-comme-jannik-mais-nous-avons-toujours-eu-l",
    "source": "We Love Tennis",
    "langue": "fr",
-   "date": "2026-11-28T07:20+00:00",
+   "date": "2026-11-28T07:10+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Italie-Coupe-Davis-Berrettini-Musetti-Cobolli-1024x522.jpeg",
    "titre": "Filippo Volandri, capitaine italien, après la nouvelle qualification en finale sans Sinner : « N’importe qui aimerait pouvoir compter sur un joueur comme Jannik, mais nous avons toujours eu l’habitude de nous comporter c",
    "blessure": false
@@ -3728,82 +3800,6 @@
    "date": "2026-11-20T17:50+00:00",
    "image": "https://medias.lequipe.fr/img-photo-jpg/albano-olivetti-a-gauche-et-theo-arribage-jeudi-a-turin-f-faugere-l-equipe/1500000002655186/0:0,800:533-828-552-75/b6f2a.jpg",
    "titre": "Pourquoi Albano Olivetti et Théo Arribagé, qualifiés en demies des Finales ATP, jouent-ils chacun avec deux raquettes ?",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/arthur-fils-je-nai-pas-envie-que-ca-sorte-en-gros-titre",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-20T17:40+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Fils-Arthur-presse-conf-1024x550.jpeg",
-   "titre": "Arthur Fils : « Je n’ai pas envie que ça sorte en gros titre ! »",
-   "blessure": false
-  },
-  {
-   "lien": "https://rmcsport.bfmtv.com/tennis/tennis-lucas-pouille-determine-a-revenir-sur-le-circuit-en-2027-apres-avoir-lache-rinderknech_AV-202611200765.html",
-   "source": "RMC Sport",
-   "langue": "fr",
-   "date": "2026-11-20T17:17+00:00",
-   "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/2CDZgR_04ILL2VPFKlIH2F1sxTU=/577x141:1505x663/800x0/images/Lucas-Pouille-dans-les-tribunes-a-Roland-Garros-en-mai-2025-2105517.jpg",
-   "titre": "Tennis: Lucas Pouille déterminé à revenir sur le circuit en 2027 après avoir lâché Rinderknech",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/carlos-alcaraz-aux-journalistes-en-conference-de-presse-je-ne-vais-pas-reveler-ici-ce-que-jai-je-pense-que-vous-etes-tous-deja-la-pour-speculer",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-20T17:16+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Alcaraz-presse-conf-1-1024x562.jpeg",
-   "titre": "Carlos Alcaraz aux journalistes en conférence de presse : « Je ne vais pas révéler ici ce que j’ai. Je pense que vous êtes tous déjà là pour spéculer »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/atp-finals-debut-roland-garros-final-acapulco-everything-you-always-wanted-to-know-about-flavio-cobolli-867336.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-20T16:43+00:00",
-   "image": null,
-   "vo": "Age, height, ranking: Everything you always wanted to know about Flavio Cobolli (but never had time to find out)",
-   "titre": "Âge, taille, classement : tout ce que vous avez toujours voulu savoir sur Flavio Cobolli (mais que vous n'avez jamais eu le temps de découvrir)",
-   "titre_fr": "Âge, taille, classement : tout ce que vous avez toujours voulu savoir sur Flavio Cobolli (mais que vous n'avez jamais eu le temps de découvrir)",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/andy-murray-sur-ses-poignees-de-main-avec-novak-djokovic-quand-il-le-battait-dans-la-defaite-et-meme-quand-lenjeu-etait-enorme-il-se-montrait-toujours-tres-courtois-et-tres-fair-play",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-20T16:42+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/07/Murray-Djokovic-wim-2013-1024x526.jpg",
-   "titre": "Andy Murray sur ses poignées de main avec Novak Djokovic quand il le battait : « Dans la défaite, et même quand l’enjeu était énorme, il se montrait toujours très courtois et très fair-play »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.lequipe.fr/Tennis/Actualites/A-32-ans-lucas-pouille-espere-revenir-a-la-competition-dans-le-courant-de-l-annee-2027/1744917#at_medium=RSS_feeds",
-   "source": "L'Équipe",
-   "langue": "fr",
-   "date": "2026-11-20T16:31+00:00",
-   "image": "https://medias.lequipe.fr/img-photo-jpg/lucas-pouille-n-a-plus-joue-en-tournoi-officiel-de-fevrier-2025-p-lahalle-l-equipe/1500000002655124/0:0,2000:1333-828-552-75/d7fc6.jpg",
-   "titre": "A 32 ans, Lucas Pouille « espère revenir à la compétition dans le courant de l'année 2027 »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nothing-is-set-in-stone-gaudenzi-defends-two-week-masters-before-2030-review-867430.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-20T15:56+00:00",
-   "image": null,
-   "vo": "“Nothing is set in stone”: Gaudenzi defends two-week Masters before 2030 review",
-   "titre": "« Rien n'est gravé dans le marbre » : Gaudenzi défend les Masters de deux semaines avant la révision de 2030",
-   "blessure": false,
-   "titre_fr": "« Rien n'est gravé dans le marbre » : Gaudenzi défend les Masters de deux semaines avant la révision de 2030"
-  },
-  {
-   "lien": "https://www.welovetennis.fr/atp/atp-finals/flavio-cobolli-apres-sa-defaite-contre-carlos-alcaraz-en-general-les-joueurs-partent-en-vacances-aux-maldives-ou-dans-un-endroit-chaud-mais-cette-annee-je-change-de-cap",
-   "source": "We Love Tennis",
-   "langue": "fr",
-   "date": "2026-11-20T15:46+00:00",
-   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Cobolli-conf-presse-.jpeg",
-   "titre": "Flavio Cobolli, après sa défaite contre Carlos Alcaraz : « En général, les joueurs partent en vacances aux Maldives ou dans un endroit chaud. Mais cette année, je change de cap »",
    "blessure": false
   }
  ]
