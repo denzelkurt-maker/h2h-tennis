@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-28T09:34+00:00",
+ "maj": "2026-11-28T11:31+00:00",
  "note": "titres, liens et images des flux RSS publics (images affichées depuis le site source) ; titres anglais traduits par MyMemory ; texte des articles non repris",
  "sources": [
   "L'Équipe",
@@ -37,6 +37,24 @@
    "vo": "November 28, 1999: The day Pete Sampras won the ATP Finals for the fifth time",
    "titre": "28 novembre 1999 : le jour où Pete Sampras a remporté les ATP Finals pour la cinquième fois",
    "titre_fr": "28 novembre 1999 : le jour où Pete Sampras a remporté les ATP Finals pour la cinquième fois",
+   "blessure": false
+  },
+  {
+   "lien": "https://www.welovetennis.fr/atp/lorenzo-musetti-apres-mon-abandon-contre-novak-djokovic-en-quarts-de-finale-de-lopen-daustralie-jai-vraiment-frole-la-depression",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-28T10:55+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2026/01/Djokovic-Musetti-filet-1024x509.jpeg",
+   "titre": "Lorenzo Musetti : « Après mon abandon contre Novak Djokovic en quarts de finale de l’Open d’Australie, j’ai vraiment frôlé la dépression »",
+   "blessure": true
+  },
+  {
+   "lien": "https://www.welovetennis.fr/coupe-davis/tomas-berdych-capitaine-tcheque-apres-la-defaite-de-son-equipe-contre-litalie-je-ne-vais-pas-cacher-que-je-ne-suis-pas-fan-de-ce-format",
+   "source": "We Love Tennis",
+   "langue": "fr",
+   "date": "2026-11-28T09:59+00:00",
+   "image": "https://www.welovetennis.fr/wp-content/uploads/2024/09/Berdych-10529-1024x510.jpg",
+   "titre": "Tomas Berdych, capitaine tchèque, après la défaite de son équipe contre l’Italie : « Je ne vais pas cacher que je ne suis pas fan de ce format »",
    "blessure": false
   },
   {
@@ -3786,28 +3804,6 @@
    "date": "2026-11-20T15:46+00:00",
    "image": "https://www.welovetennis.fr/wp-content/uploads/2026/11/Cobolli-conf-presse-.jpeg",
    "titre": "Flavio Cobolli, après sa défaite contre Carlos Alcaraz : « En général, les joueurs partent en vacances aux Maldives ou dans un endroit chaud. Mais cette année, je change de cap »",
-   "blessure": false
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/i-discovered-i-am-more-fragile-than-i-thought-cobolli-ends-his-atp-finals-0-3-867452.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-20T15:45+00:00",
-   "image": null,
-   "vo": "“I discovered I am more fragile than I thought”: Cobolli ends his ATP Finals 0-3",
-   "titre": "« J’ai découvert que j’étais plus fragile que je ne le pensais » : Cobolli termine ses ATP Finals sur un score de 0-3",
-   "blessure": false,
-   "titre_fr": "« J’ai découvert que j’étais plus fragile que je ne le pensais » : Cobolli termine ses ATP Finals sur un score de 0-3"
-  },
-  {
-   "lien": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-keeps-his-diagnosis-to-himself-there-is-always-a-risk-867451.html",
-   "source": "Tennis Majors (EN)",
-   "langue": "en",
-   "date": "2026-11-20T15:31+00:00",
-   "image": null,
-   "vo": "Alcaraz keeps his diagnosis to himself: “There is always a risk”",
-   "titre": "Alcaraz garde son diagnostic pour lui : « Il y a toujours un risque »",
-   "titre_fr": "Alcaraz garde son diagnostic pour lui : « Il y a toujours un risque »",
    "blessure": false
   }
  ]
